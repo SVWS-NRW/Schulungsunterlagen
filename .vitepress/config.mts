@@ -52,7 +52,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/SVWS-NRW' }
+      { icon: 'github', link: 'https://github.com/SVWS-NRW/Schulungsunterlagen' }
     ]
   }
 })
