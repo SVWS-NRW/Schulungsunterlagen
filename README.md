@@ -19,5 +19,5 @@ Alle Aufgaben können mit Hilfe der SVWS-Dokumentation und den Wiki-Anleitungen 
 - Installation/Aufsetzen von Schulungsrechnern für Fortbildungen: https://doku.svws-nrw.de/Schulungsumgebungen/
 - Download von Updates für SchILD-NRW3: https://github.com/SVWS-NRW/Schild3-BetaTest/releases
 - Download von Updates für den SVWS-Server: https://github.com/SVWS-NRW/SVWS-Server/releases
-- Fehlermldungen zum SVWS-Server/Client: https://github.com/SVWS-NRW/SVWS-Server/issues
+- Fehlermeldungen zum SVWS-Server/Client: https://github.com/SVWS-NRW/SVWS-Server/issues
 - Fehlermeldungen zu SchILD-NRW3: https://github.com/SVWS-NRW/Schild3-BetaTest/issues
