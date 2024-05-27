@@ -31,7 +31,7 @@ export default defineConfig({
           { text: 'Installation Zertifikat', link: '/Installation_Fachberatung_Moderation/Installation_Zertifikat/' },
           { text: 'Installation Schild3', link: '/Installation_Fachberatung_Moderation/Installation_SchILD3/' },
 		  { text: 'Sichten der Log-Files', link: '/Installation_Fachberatung_Moderation/Log_Files/' },
-          { text: 'Installation Zertifikat', link: '/Installation_Fachberatung_Moderation/DBeaver/' },
+          { text: 'Öffnen der Datenbank mit DBeaver', link: '/Installation_Fachberatung_Moderation/DBeaver/' },
           { text: 'Installation Schild3', link: '/Installation_Fachberatung_Moderation/AdminTool/' }
         ]
 	  },
