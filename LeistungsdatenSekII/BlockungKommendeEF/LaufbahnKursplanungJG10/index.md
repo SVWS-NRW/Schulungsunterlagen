@@ -1,5 +1,5 @@
 # Blockung der Jahrgangsstufe 10
-Für die folgenden Aufgaben können Sie die Datenbank 1_Jg10Planung_ohneWahlen.sqlite aus dem Ordner !!! nutzen.   
+Für die folgenden Aufgaben können Sie die Datenbank 1_Jg10Planung_ohneWahlen.sqlite aus dem Ordner [DB](https://github.com/SVWS-NRW/Schulungsunterlagen/tree/master/LeistungsdatenSekII/DB) nutzen.   
 
 Um den jetzigen Jahrgang 10 für das kommende Schuljahr (dann EF) zu planen, sollen die Laufbahndaten erhoben werden und eine Blockung vorbereitet werden.   
 
