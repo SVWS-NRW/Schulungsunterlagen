@@ -1,4 +1,0 @@
-# Planung der kommenden EF
-
-
-...
