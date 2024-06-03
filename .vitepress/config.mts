@@ -48,6 +48,20 @@ export default defineConfig({
             },
           { text: 'Import SchILD2 Laufbahndaten', link: '/LeistungsdatenSekII/ImportSchILD2Laufbahndaten/' }
         ]
+      },
+	  {
+        text: 'Downlaod-Dateien', link: '/LeistungsdatenSekII/', collapsed: true, 
+        items: [
+          { text: 'Planung kommende EF', link: 'LeistungsdatenSekII/DB/1_Gym_Jg10_ohneWahlen.sqlite' },
+          { text: 'Fachwahlen kommende EF', link: '/LeistungsdatenSekII/Unterrichtsfaecher/' },
+          { text: 'SchILD2-Import-Dateien', link: '/LeistungsdatenSekII/BlockungKommendeEF/', collapsed: true, 
+          items :[
+                { text: 'LUPO-Dateien', link: '/LeistungsdatenSekII/BlockungKommendeEF/LaufbahnKursplanungJG10/' },
+                { text: 'Kurs42-Blockung', link: '/LeistungsdatenSekII/BlockungKommendeEF/KlausurplanungJG10/' }
+              ]
+            },
+          { text: 'Weitere DBs', link: '/LeistungsdatenSekII/ImportSchILD2Laufbahndaten/' }
+        ]
       }
     ],
 
