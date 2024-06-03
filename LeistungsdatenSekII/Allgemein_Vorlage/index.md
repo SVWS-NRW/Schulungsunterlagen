@@ -1,5 +1,5 @@
 # Vorlage eines Abiturjahrgangs bearbeiten
-Für die folgenden Aufgaben können Sie die Datenbank 1_Jg10Planung_ohneWahlen.sqlite aus dem Ordner !!! nutzen.   
+Für die folgenden Aufgaben können Sie die Datenbank 1_Gym_Jg10_ohneWahlen.sqlite nutzen.   
 
 Mit den folgenden Aufgaben wird eine Vorlage erstellt. Die hier vorgenommenen Einstellungen werden für die später angelegten Abiturjahrgänge als Standard-Einstellung übernommen.   
 
