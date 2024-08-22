@@ -25,7 +25,6 @@ export default defineConfig({
 
     sidebar: [
       {
-	   
 		  text: 'Übergang zu SchILD-NRW3', link: '/VonSchild2_ZuSchild3/', collapsed: true, 
         items: [
           { text: 'SchILD-NRW3 - Layout', link: '/VonSchild2_ZuSchild3/Uebersicht/SchILD3_Oberflaeche/' },
@@ -36,6 +35,7 @@ export default defineConfig({
           { text: 'blabla', link: '/VonSchild2_ZuSchild3/Uebersicht/SVWS_Client/' }
         ]
 	  },
+	  {
 		  text: 'Installation', link: '/Installation_Fachberatung_Moderation/', collapsed: true, 
         items: [
           { text: 'Installation SVWS-Server', link: '/Installation_Fachberatung_Moderation/Installation_SVWS/' },
