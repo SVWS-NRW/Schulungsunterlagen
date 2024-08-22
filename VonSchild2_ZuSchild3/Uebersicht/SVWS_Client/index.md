@@ -22,7 +22,7 @@ Beim genauen betrachten stellt man schnell fest, dass vieles gleich geblieben is
 *  Zentral werden die Individualdaten I dargestellt.
 * Die aktuellen Laufbahndaten sind ebenfalls einsehbar. Alldings nun auf der rechten Seite, anstatt wie in SchILD2 unterhalb der Individualdaten.
 * Die Tabs zum einzelnen Schüler sind überwiegend gleich geblieben:
-![Schuelerreiter](./graphics/vonS2nachS3_uebersicht_schuelerreiter.png)  
+Bild vom Schuelerkontainer/graphics/vonS2nachS3_uebersicht_schuelerreiter.png)  
 Ein Tab Vermerke ist dazugekommen. Da kommen wir aber später nochmal zu.
 
 ### Aufgabe
