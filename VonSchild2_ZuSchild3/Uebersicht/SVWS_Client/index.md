@@ -8,8 +8,8 @@ Zusätzlich zu der Desktopanwendung SchILD-NRW3 kann die Schuldatenbank auch mit
 ![Öffnen mit dem Browser](./graphics/vonS2nachS3_uebersicht_svwsClient_aufruf.png) 
 
 Sie sehen nun folgende Anmeldemaske:
-
-![Anmeldemaske](./graphics/vonS2nachS3_uebersicht_svwsClient_logIN.png) 
+![Öffnen mit dem Browser](./graphics/vonS2nachS3_uebersicht_svwsClient_aufruf.png)
+graphics/vonS2nachS3_uebersicht_svwsClient_logIN.png) 
 
 Nach dem Klick auf Anmelden öffnet sich die Datenbank im Browser. Dies geht natürlich auch mit anderen Betriebssystemen. 
 
