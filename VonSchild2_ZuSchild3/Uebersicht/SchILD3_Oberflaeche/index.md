@@ -16,8 +16,20 @@ Beim genauen betrachten stellt man schnell fest, dass vieles gleich geblieben is
 ![Schuelerreiter](./graphics/vonS2nachS3_uebersicht_schuelerreiter.png)  
 Ein Tab Vermerke ist dazugekommen. Da kommen wir aber später nochmal zu.
 
-### Aufgabe
+### Aufgaben
 * Filtern Sie die Klasse 6a.
 * Heben Sie den Filter auf und filtern Sie den Jahrgang 7
-* Klicken Sie den Schülerreiter für einen Schüler einmal durch, um mit der Oberfläche vertraut zu werden. Auf konkrete Änderungen werden wir später noch eingehen.
+* Klicken Sie den Schülerreiter für einen Schüler einmal durch, um mit der Oberfläche vertraut zu werden. 
+* Ändern Sie bei einem Schüler die Mailadresse. Beachten Sie den unten stehenden Hinweis.
+* Ändern Sie die Übergangsempfehlung eines Kindes aus der 5a.
+* Tragen Sie bei einem Schüler einen Vermerk "Beurlaubt am 17.3.24" ein.
+* Bei einem Schüler aus der 7b wurde vergessen, den Migrationshintergrund einzutragen. Er wurde zwar in Deutschland geboren, aber seine Mutter kommt aus Ghana.
 
+
+Weitere Arbeitsprozesse wie beispielsweise Filtern, Gruppenprozesse, Listenausdrucke oder wichtige Importe/Exporte folgen später.
+
+
+
+> [!NOTE]
+> Nach dem Bearbeiten von Schülerdaten muss man die Eingaben über den "Übernehmen"-Button bestätigen:
+![Uebernehmen](./graphics/vonS2nachS3_uebersicht_schuelerdatenUebernehmen.png)  

@@ -9,21 +9,27 @@ Zusätzlich zu der Desktopanwendung SchILD-NRW3 kann die Schuldatenbank auch mit
 
 Sie sehen nun folgende Anmeldemaske:
 ![Öffnen mit dem Browser](./graphics/vonS2nachS3_uebersicht_svwsClient_LogIn.png)
-graphics/vonS2nachS3_uebersicht_svwsClient_logIN.png) 
-
-Nach dem Klick auf Anmelden öffnet sich die Datenbank im Browser. Dies geht natürlich auch mit anderen Betriebssystemen. 
 
 
+Nach dem Klick auf Anmelden öffnet sich die Datenbank im Browser. Anders als mit der Desktop-Anwendung können Sie auf diesem Weg die Datenbank auch auf einem nicht Windows-basierten Betriebssystem öffnen.
 
 
-Beim genauen betrachten stellt man schnell fest, dass vieles gleich geblieben ist zu SchILD2:
-* Links befindet sich der gewohnte Schülercontainer
-* Oberhalb vom Schülercontainer kann nach Klassen, Jahrgängen usw. gefiltert werden
-*  Zentral werden die Individualdaten I dargestellt.
-* Die aktuellen Laufbahndaten sind ebenfalls einsehbar. Alldings nun auf der rechten Seite, anstatt wie in SchILD2 unterhalb der Individualdaten.
-* Die Tabs zum einzelnen Schüler sind überwiegend gleich geblieben:
-Bild vom Schuelerkontainer/graphics/vonS2nachS3_uebersicht_schuelerreiter.png)  
-Ein Tab Vermerke ist dazugekommen. Da kommen wir aber später nochmal zu.
+![Öffnen mit dem Browser](./graphics/vonS2nachS3_uebersicht_svwsClient_startseite.png)
+
+Bevor der Client zum Arbeiten genutzt wird, passen wir uns diesen unseren Bedürfnissen an:
+
+#### Darstellungsgröße
+* Mit *"Strg und +"* sowie *"Strg und -"* kann man die Schrift vergrößern bzw. verkleinern.
+
+#### Ansicht
+* links unten im Browser kann man über "Ansicht" die Skalierung und die Hell/Dunkelanicht anpassen:
+![Öffnen mit dem Browser](./graphics/vonS2nachS3_uebersicht_svwsClient_ansicht.png)
+
+
+## Übersicht
+Analog zu SchILD-NRW3 findet man auf der linken Seite den Schülercontainer, sowie den Schnellfilter.
+
+
 
 ### Aufgabe
 * Filtern Sie die Klasse 6a.
