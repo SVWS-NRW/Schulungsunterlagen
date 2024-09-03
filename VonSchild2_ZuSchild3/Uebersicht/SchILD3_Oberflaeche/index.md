@@ -26,6 +26,8 @@ Ein Tab Vermerke ist dazugekommen. Da kommen wir aber später nochmal zu.
 * Bei einem Schüler aus der 7b wurde vergessen, den Migrationshintergrund einzutragen. Er wurde zwar in Deutschland geboren, aber seine Mutter kommt aus Ghana.
 
 
+
+
 Weitere Arbeitsprozesse wie beispielsweise Filtern, Gruppenprozesse, Listenausdrucke oder wichtige Importe/Exporte folgen später.
 
 
@@ -33,3 +35,11 @@ Weitere Arbeitsprozesse wie beispielsweise Filtern, Gruppenprozesse, Listenausdr
 > [!NOTE]
 > Nach dem Bearbeiten von Schülerdaten muss man die Eingaben über den "Übernehmen"-Button bestätigen:
 ![Uebernehmen](./graphics/vonS2nachS3_uebersicht_schuelerdatenUebernehmen.png)  
+
+
+### Spalteneinstellung
+Beim Durchklicken stellt man an manchen Stellen fest, dass die Spaltenbreite nicht immer für den aktuell verwendeten Bildschirm optimal sind. Diese sollte man sich durch Ziehen mit der linken Maustaste anpassen. Die Einstellungen bleiben auch bei Updates gespeichert. Je nach Monitoreinstellung kann es auch in ganz seltenen Fällen vorkommen, dass eine Spalte fast ganz verdeckt ist. 
+
+![Spaltenbreite](./graphics/vonS2nachS3_uebersicht_schild3_spalten.png) 
+
+![Spaltenbreite](./graphics/vonS2nachS3_uebersicht_schild3_spalten2.png) 

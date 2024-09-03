@@ -29,7 +29,8 @@ export default defineConfig({
         items: [
           { text: 'SchILD-NRW3 - Layout', link: '/VonSchild2_ZuSchild3/Uebersicht/SchILD3_Oberflaeche/' },
           { text: 'SVWS-Client', link: '/VonSchild2_ZuSchild3/Uebersicht/SVWS_Client/' },
-		  { text: 'Das Arbeitsverzeichnis', link: '/VonSchild2_ZuSchild3/Uebersicht/Arbeitsverzeichnis/' }
+		  { text: 'Das Arbeitsverzeichnis', link: '/VonSchild2_ZuSchild3/Uebersicht/Arbeitsverzeichnis/' },
+		  { text: 'Das Arbeitsverzeichnis', link: '/VonSchild2_ZuSchild3/Schueler/' }
         ]
 	  },
 	  {
