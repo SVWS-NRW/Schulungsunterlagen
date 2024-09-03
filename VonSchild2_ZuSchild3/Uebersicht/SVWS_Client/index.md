@@ -16,7 +16,7 @@ Nach dem Klick auf Anmelden öffnet sich die Datenbank im Browser. Anders als mi
 
 ![Öffnen mit dem Browser](./graphics/vonS2nachS3_uebersicht_svwsClient_startseite.png)
 
-Bevor der Client zum Arbeiten genutzt wird, passen wir uns diesen unseren Bedürfnissen an:
+Vor der Bearbeitung mit dem Webbrowser, kann die Darstellung den Bedürfnissen entsprechend angepasst werden:
 
 #### Darstellungsgröße
 * Mit *"Strg und +"* sowie *"Strg und -"* kann man die Schrift vergrößern bzw. verkleinern.
@@ -27,12 +27,27 @@ Bevor der Client zum Arbeiten genutzt wird, passen wir uns diesen unseren Bedür
 
 
 ## Übersicht
-Analog zu SchILD-NRW3 findet man auf der linken Seite den Schülercontainer, sowie den Schnellfilter.
+Analog zu SchILD-NRW3 findet man auf der linken Seite den Schülercontainer, sowie den Schnellfilter und im Zentrum die Individualdaten. 
+Die Aufteilung und Anordnung der Reiter und Eingabefelder sind jedoch an vielen Stellen unterschiedlich. Beispielsweise wird nun nicht mehr zwischen Individualdaten I und II unterschieden.
 
 
+Auf der linken Seite werden die zur Verfügung stehenden Apps aufgelistet. Beim Starten ist die Schüler-App aktiviert. Mit der linken Maustaste kann man eine App wechseln.
 
-### Aufgabe
-* Filtern Sie die Klasse 6a.
-* Heben Sie den Filter auf und filtern Sie den Jahrgang 7
-* Klicken Sie den Schülerreiter für einen Schüler einmal durch, um mit der Oberfläche vertraut zu werden. Auf konkrete Änderungen werden wir später noch eingehen.
+![Schüler-App](./graphics/vonS2nachS3_uebersicht_svwsClient_schuelerApp_filter.png)
+
+
+### Aufgabe 
+* Filtern Sie die Klasse 6a und 6b.
+* Entfernen Sie den Filter der Klasse 6a und fügen Sie die 6c hinzu.
+* Entfernen Sie alle Filter und wählen Sie den Jahrgang 07 aus. Für das Entfernen der Filter gibt es verschiedene Möglichkeiten <br>
+![Schüler-App](./graphics/vonS2nachS3_uebersicht_svwsClient_schuelerApp_schnellfilter.png)
+* Sichten Sie in der App "Schüler" im Tab "Sprachen" die Sprachenfolge eines Schülers in der Jahrgangsstufe Q1. </br>
+Hier findet man nun auch sehr übersichtlich Angaben zum herkungssprachlichen Unterricht und zu Sprachen-Feststellungsprüfung. Konkrete Eingaben folgen später.(LINK!) 
+* Löschen Sie bei einem Schüler im Tab "Lernabschnitte" das Fach Sport.<br>
+Hinweis: Nach dem Markieren des Faches wird der Mülleimer sichtbar. Sie werden feststellen, dass keine Nachfrage erfolgt, ob das Fach wirklich gelöscht werden soll.<br>
+![Schüler-App](./graphics/vonS2nachS3_uebersicht_svwsClient_schuelerAppFachloeschen.png)
+
+* Bei einem Schüler aus der 7b wurde vergessen, den Migrationshintergrund einzutragen. Er wurde zwar in Deutschland geboren, aber seine Mutter kommt aus Ghana.
+
+* Optional können Sie sich auch einmal die anderen Apps anschauen. Vieles wird Ihnen bekannt vorkommen. Aber ganz viel ist auch neu. Das werden wir später einmal genauer unter die Lupe nehmen.
 
