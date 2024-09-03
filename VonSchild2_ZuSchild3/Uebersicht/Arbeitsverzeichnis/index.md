@@ -10,9 +10,8 @@ Bei der Installation wird eine SVWS-Arbeitsverzeichnis angelegt, in dem sämtlic
 
 **Arbeitsauftrag**\
 Aktualisieren Sie die Zeugnisreports!
-> [!Arbeitsauftrag]
-> Nach dem Bearbeiten von Schülerdaten muss man die Eingaben über den "Übernehmen"-Button bestätigen:
-![Uebernehmen](./graphics/vonS2nachS3_uebersicht_schuelerdatenUebernehmen.png) 
+
+
 
 
 * Laden Sie sich von der Homepage das für Ihre Schule passenende Zeugnispaket herunter: https://www.svws.nrw.de/download/schild-reports/zeugnisformulare
