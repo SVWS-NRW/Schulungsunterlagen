@@ -6,18 +6,29 @@ Bei der Installation wird eine SVWS-Arbeitsverzeichnis angelegt, in dem sämtlic
 * ggf. die Dokumentenverwaltung
 * Exporte
 
-## :question: Aufgabe - Reports
+## :a: Aufgabe - Reports
 
 **Arbeitsauftrag**\
-Aktualisieren Sie die Zeugnisreports!
+1 Aktualisieren Sie die Zeugnisreports!
+
+    :sos:
+    ::: details
+    * Laden Sie sich von der Homepage das für Ihre Schule passenende Zeugnispaket herunter: https://www.svws.nrw.de/download/schild-reports/zeugnisformulare
+    * Legen Sie sich im SVWS-Arbeitsverzeichnis einen Ordner Zeugnis-xx-xx-2024 an.
+    * Entpacken Sie das Zeugnispaket und speichern Sie dieses im zuvor angelegten Ordner. 
+    :::
 
 
-::: details
-* Laden Sie sich von der Homepage das für Ihre Schule passenende Zeugnispaket herunter: https://www.svws.nrw.de/download/schild-reports/zeugnisformulare
-* Entpacken Sie das Zeugnispaket und Speichern Sie dieses im SVWS-Arbeitsverzeichnis im Ordner Zeugnis-xx-xx-2024
-:::
+2 Sichten Sie den Zeugnisreport über SchILD-NRW3
 
-
+    :sos:
+    ::: details
+    + welchseln Sie in den Reiter Reportverwaltung
+    + Navigieren Sie in den entsprechenden Zeugnisordner
+    + Dort sollten die Reports nun sichtbar sein 
+![Report-Reiter](./graphics/vonS2nachS3_uebersicht_Arbeitsverzeichnis_reports.png)  
+    :::
+     
 
 
 
@@ -31,7 +42,7 @@ hourglass"
 stopwatch
 stop_sign
 globe_with_meridians
-"sos":
+:sos:
 ::: info
 This is an info box.
 :::
