@@ -40,12 +40,12 @@ Auf der linken Seite werden die zur Verfügung stehenden Apps aufgelistet. Beim 
 * Filtern Sie die Klasse 6a und 6b.
 * Entfernen Sie den Filter der Klasse 6a und fügen Sie die 6c hinzu.
 * Entfernen Sie alle Filter und wählen Sie den Jahrgang 07 aus. Für das Entfernen der Filter gibt es verschiedene Möglichkeiten <br>
-![Schüler-App](./graphics/vonS2nachS3_uebersicht_svwsClient_schuelerApp_schnellfilter.png)
+![Schnellfilter](./graphics/vonS2nachS3_uebersicht_svwsClient_schuelerApp_schnellfilter.png)
 * Sichten Sie in der App "Schüler" im Tab "Sprachen" die Sprachenfolge eines Schülers in der Jahrgangsstufe Q1. </br>
 Hier findet man nun auch sehr übersichtlich Angaben zum herkungssprachlichen Unterricht und zu Sprachen-Feststellungsprüfung. Konkrete Eingaben folgen später.(LINK!) 
 * Löschen Sie bei einem Schüler im Tab "Lernabschnitte" das Fach Sport.<br>
 Hinweis: Nach dem Markieren des Faches wird der Mülleimer sichtbar. Sie werden feststellen, dass keine Nachfrage erfolgt, ob das Fach wirklich gelöscht werden soll.<br>
-![Schüler-App](./graphics/vonS2nachS3_uebersicht_svwsClient_schuelerAppFachloeschen.png)
+![Fächer im aktuellen Lernabschnitt](./graphics/vonS2nachS3_uebersicht_svwsClient_schuelerAppFachloeschen.png)
 
 * Bei einem Schüler aus der 7b wurde vergessen, den Migrationshintergrund einzutragen. Er wurde zwar in Deutschland geboren, aber seine Mutter kommt aus Ghana.
 
