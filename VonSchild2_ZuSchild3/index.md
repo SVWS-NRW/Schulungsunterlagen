@@ -17,7 +17,7 @@ Report, Exporte und Sicherungen werden nun in einem gemeinsamen [Arbeitsverzeich
 
 
 ## Wo finde ich was?
-Neue Reiter, neue Features [AufbauSchild3](./AufbauSchild3/index.md).
+
 
 
 
