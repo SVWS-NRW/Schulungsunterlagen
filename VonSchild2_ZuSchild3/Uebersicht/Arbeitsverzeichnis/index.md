@@ -6,10 +6,11 @@ Bei der Installation wird eine SVWS-Arbeitsverzeichnis angelegt, in dem sämtlic
 * ggf. die Dokumentenverwaltung
 * Exporte
 
-## :a: Aufgabe - Reports
+## :question: Aufgabe - Reports
 
 **Arbeitsauftrag**\
 Aktualisieren Sie die Zeugnisreports!
+
 
 ::: details
 * Laden Sie sich von der Homepage das für Ihre Schule passenende Zeugnispaket herunter: https://www.svws.nrw.de/download/schild-reports/zeugnisformulare
@@ -25,12 +26,12 @@ mag_right
 file_folder
 key
 question
-"a"
+:a:
 hourglass"
 stopwatch
 stop_sign
 globe_with_meridians
-
+"sos":
 ::: info
 This is an info box.
 :::
