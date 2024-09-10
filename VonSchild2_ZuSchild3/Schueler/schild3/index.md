@@ -46,47 +46,23 @@ Unter dem aktuellen Halbjahr findet man auch den derzeitigen Klassenlehrer des S
 ## Vermerke
 Die Vermerke sind umgezogen! <br>
 Bisher waren die Vermerke unter Laufbahninfo des jeweiligen Schülers zu finden. Nun ist diesen ein eigener Reiter gewidmet. Analog zu den Klassen- und Versetzungstabellen findet man den Katalog der Vermerk-Arten nun unter Kataloge (früher unter Schulverwaltung)
+
 ### :a: Aufgabe - Einen Vermerk bei einem Schüler hinterlegen
 1. Ergänzen Sie die Vermerkart "Attestpflicht".
 2. Vermerken Sie bei einem Schüler aus der Q1 die Attestpflicht.
 
-::: detail
+::: details
 Hilfe finden Sie auch [hier](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Vermerke_(Sch%C3%BCler))
 :::
 
+## Sprachenfolge
+In Schild3 befinden sich die Angaben zur Sprachenfolge nach wie vor im Reiter Laufbahninfo. Allerdings werden Sprachenfolge und Sprachenprüfungen nun in unterschiedlichen Bereichen festgehalten. 
 
+### :a: Aufgabe - Sprachenprüfung
+Ein Schüler aus der Q1 hatte in der Jahrgangsstufe 10 in Italienisch eine HSU Prüfung mit der Note gut absolviert. Hinterlegen Sie die Prüfung in schild. 
 
-
-### :a: Aufgabe - 
-### :a: Aufgabe - 
-
- * Quartale
- * Vermerke
- * Sprachenfolge
- :::
-
-Zeugnisbemerkung
-:::
-     
-::: info 
-:exclamation: Die Nutzung von Reports ist nur über das Programm Schild-NRW3 möglich.
-:::
-
-
-"bulb"
-:mag_right:
-file_folder
-key
-question
-:a:
-hourglass"
-stopwatch
-stop_sign
-globe_with_meridians
-:sos:
-:exclamation:
-::: info
-This is an info box.
-:::
-
+Hinweis:<br>
+Konkrete Eintragungshilfen finden Sie hier:
+* [Herkunftssprachlicher Unterricht](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Herkunftssprachlicher_Unterricht_(Tutorial))
+* [Feststellungsprüfung anstelle von Pflicht- oder Wahlpflichtfremdsprachen]( https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Sprachpr%C3%BCfung_Feststellungspr%C3%BCfung_anstelle_von_Pflicht-_oder_Wahlpflichtfremdsprachen_(Tutorial))
 

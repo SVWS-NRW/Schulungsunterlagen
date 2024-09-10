@@ -16,6 +16,9 @@ Die Datenbank kann jetzt auch mit dem [Browser](./Uebersicht/SVWS_Client/index.m
 Report, Exporte und Sicherungen werden nun in einem gemeinsamen [Arbeitsverzeichnis](./Uebersicht/Arbeitsverzeichnis/index.md) gespeichert.
 
 
+### Änderungen bei den Schülerdaten
+In der [Desktopanwendung SchILD-NRW-3](./Schueler/index.md) findet man einige Eintragungen nun an einer anderen Stelle.
+
 ## Wo finde ich was?
 
 
