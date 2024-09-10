@@ -1,6 +1,7 @@
 # Anpassungen bei den Schülerdaten
 Die meisten Anpassungen und Arbeitsschritte können sowohl in der Desktop-Anwendung SchILD-NRW3 (Im folgenden kurz schild3) als auch in der Browser-Variante (im folgenden kurz SVWS-Client) vorgenommen werden. Da der SVWS-Client stetig weiterentwickelt wird und immer mehr Funktionalitäten dort implementiert werden, empfehle ich, überwiegend mit dem SVWS-Client zu arbeiten. 
 
+## Statistik-relavante Felder
 
 In Schild3 sind bei den Individualdaten I und II die zu erfassenden Daten überwiegend identisch zu den Daten in schild2. Die Anordnung wurde ein wenig angepasst und das Schülerfoto ist nun unter Individualdaten I stets sichtbar, sofern ein Bild hinterlegt ist und die Sichtbarkeit eingestellt ist. Das Sternchen an den Überschriften signalisiert die Relevanz für die Statistik. Dies ist auf den ersten Blick etwas unscheinbar.
 
@@ -13,6 +14,7 @@ In Schild3 sind bei den Individualdaten I und II die zu erfassenden Daten überw
 :::
 
 
+## Aktuelles Halbjahr
 Bisher konnten die Laufbahndaten sowohl unter Individualdaten I als auch im aktuellen Halbjahr geändert werden. Nun sind unter Individualdaten I die Felder der Laufbahndaten ausgegraut. Änderungen sind nun nur noch im aktuellen Halbjahr möglich. Analog findet man graue Felder bezüglich der Förderschwerpunkte unter Individualdaten II. Da sich diese Angaben immer nur auf den aktuellen Abschnitt beziehen, sind Änderungen diesbezüglich nur noch im aktuellen Halbjahr möglich.
 ### :a: Aufgabe - Klassenwechsel eines Schülers
 Ein Schüler wechelt von der 7a in die 7b. Nehmen Sie notwendige Änderungen vor.
@@ -31,6 +33,8 @@ Ein Schüler aus der 5a hat eine Sehbehinderung. Hinterlegen Sie den entsprechen
 Auch diese Angaben werden im aktuellen Halbjahr / Allgemeine Angaben gesetzt.
 :::
 
+
+## Kataloge - Klassen-/ Versetzungstabelle
 Unter dem aktuellen Halbjahr findet man auch den derzeitigen Klassenlehrer des Schülers. Hier gibt es keine Möglichkeit diesen zu ändern. Dazu muss man einmal in die Klassen- und Versetzungstabellen, welche man in schild2 unter Schulverwaltung öffnen konnte. Diese sind nun unter dem Reiter "Kataloge" zu finden. Genauer handelt es sich bei den Klassen- und Versetzungstabellen um schulbezogene Kataloge:
 
  ![Klassen- und Versetzungstabelle](./graphics/vonS2nachS3_uebersicht_schueler_versetzungstabelle.png) 
@@ -39,7 +43,17 @@ Unter dem aktuellen Halbjahr findet man auch den derzeitigen Klassenlehrer des S
 2. Tragen Sie zusätzlich einen Stellvertreter ein. Die Reihenfolge gibt Auskunft darüber, welcher Klassenlehrer der Stellvertreter ist.
 3. Übertragen Sie diese Angaben in die Schülerdaten.  
 
+## Vermerke
+Die Vermerke sind umgezogen! <br>
+Bisher waren die Vermerke unter Laufbahninfo des jeweiligen Schülers zu finden. Nun ist diesen ein eigener Reiter gewidmet. Analog zu den Klassen- und Versetzungstabellen findet man den Katalog der Vermerk-Arten nun unter Kataloge (früher unter Schulverwaltung)
 ### :a: Aufgabe - Einen Vermerk bei einem Schüler hinterlegen
+1. Ergänzen Sie die Vermerkart "Attestpflicht".
+2. Vermerken Sie bei einem Schüler aus der Q1 die Attestpflicht.
+
+::: detail
+Hilfe finden Sie auch [hier](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Vermerke_(Sch%C3%BCler))
+:::
+
 
 
 
