@@ -17,7 +17,7 @@ Report, Exporte und Sicherungen werden nun in einem gemeinsamen [Arbeitsverzeich
 
 
 ### Änderungen bei den Schülerdaten
-In der [Desktopanwendung SchILD-NRW-3](./Schueler/index.md) findet man einige Eintragungen nun an einer anderen Stelle.
+In der [Desktopanwendung SchILD-NRW-3](./Schueler/schild3/index.md) findet man einige Eintragungen nun an einer anderen Stelle.
 
 ## Wo finde ich was?
 
