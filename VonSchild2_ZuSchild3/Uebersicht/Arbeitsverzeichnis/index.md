@@ -1,5 +1,5 @@
 # Arbeitsverzeichnis
-Bei der Installation wird eine SVWS-Arbeitsverzeichnis angelegt, in dem sämtliche Nutzerdaten gespeichert werden. Hier liegen unter anderem:
+Bei der Installation wird ein SVWS-Arbeitsverzeichnis angelegt, in dem sämtliche Nutzerdaten gespeichert werden. Hier liegen unter anderem:
 * Reports
 * Datenbanksicherungen
 * Connection-Files

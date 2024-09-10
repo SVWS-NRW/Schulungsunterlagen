@@ -1,20 +1,57 @@
 # Anpassungen bei den Schülerdaten
-Die meisten Anpassungen und Arbeitsschritte können sowohl in der Desktop-Anwendung SchILD-NRW3 (Im folgenden kurz schild3) also auch in der Browser-Variante (im folgenden kurz SVWS-Client) vorgenommen werden. Da der SVWS-Client stetig weiterentwickelt wird und immer mehr Funktionalitäten dort implementiert werden, empfehle ich, soweit wie möglich mit dem SVWS-Client zu arbeiten. 
+Die meisten Anpassungen und Arbeitsschritte können sowohl in der Desktop-Anwendung SchILD-NRW3 (Im folgenden kurz schild3) als auch in der Browser-Variante (im folgenden kurz SVWS-Client) vorgenommen werden. Da der SVWS-Client stetig weiterentwickelt wird und immer mehr Funktionalitäten dort implementiert werden, empfehle ich, überwiegend mit dem SVWS-Client zu arbeiten. 
 
 
-## :a: Aufgabe - Reports
+In Schild3 sind bei den Individualdaten I und II die zu erfassenden Daten überwiegend identisch zu den Daten in schild2. Die Anordnung wurde ein wenig angepasst und das Schülerfoto ist nun unter Individualdaten I stets sichtbar, sofern ein Bild hinterlegt ist und die Sichtbarkeit eingestellt ist. Das Sternchen an den Überschriften signalisiert die Relevanz für die Statistik. Dies ist auf den ersten Blick etwas unscheinbar.
+
+### :a: Aufgabe - Farbe der Statistikfelder anpassen
+Ändern Sie die Farbe für statistikrelevante Felder auf grün. 
+::: details
+1. Wechseln Sie in den Reiter "Verwaltung" und wählen Sie "Einstellungen/Individuelle Einstellungen" aus
+2. Ändern Sie die Farbe für statistikrelevante Felder wie gewünscht:
+   ![Statistikfarbe ändern](./graphics/vonS2nachS3_schueler_statistikeinstellungen.png)  
+:::
+
+
+Bisher konnten die Laufbahndaten sowohl unter Individualdaten I als auch im aktuellen Halbjahr geändert werden. Nun sind unter Individualdaten I die Felder der Laufbahndaten ausgegraut. Änderungen sind nun nur noch im aktuellen Halbjahr möglich. Analog findet man graue Felder bezüglich der Förderschwerpunkte unter Individualdaten II. Da sich diese Angaben immer nur auf den aktuellen Abschnitt beziehen, sind Änderungen diesbezüglich nur noch im aktuellen Halbjahr möglich.
+### :a: Aufgabe - Klassenwechsel eines Schülers
+Ein Schüler wechelt von der 7a in die 7b. Nehmen Sie notwendige Änderungen vor.
+
+::: details
+1. Wechseln Sie in den Reiter Aktuelles Halbjahr / Allgemeine Angaben:
+   ![Ändern der Klasse](./graphics/vonS2nachS3_schueler_klassenanpassung.png) 
+2. Ändern Sie die Klasse auf 7b. 
+3. Passen Sie die Fächer in den Leistungsdaten an. Hier hat sich nichts geändert im Vergleich zu schild2. Hilfe finden Sie hier: https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Leistungsdaten_(Aktuelles_Halbjahr_/_Aktueller_Abschnitt
+:::
+
+
+### :a: Aufgabe - Eintragen des Förderschwerpunkt 
+Ein Schüler aus der 5a hat eine Sehbehinderung. Hinterlegen Sie den entsprechenden Förderschwerpunkt in schild3
+::: details
+Auch diese Angaben werden im aktuellen Halbjahr / Allgemeine Angaben gesetzt.
+:::
+
+Unter dem aktuellen Halbjahr findet man auch den derzeitigen Klassenlehrer des Schülers. Hier gibt es keine Möglichkeit diesen zu ändern. Dazu muss man einmal in die Klassen- und Versetzungstabellen, welche man in schild2 unter Schulverwaltung öffnen konnte. Diese sind nun unter dem Reiter "Kataloge" zu finden. Genauer handelt es sich bei den Klassen- und Versetzungstabellen um schulbezogene Kataloge:
+
+ ![Klassen- und Versetzungstabelle](./graphics/vonS2nachS3_uebersicht_schueler_versetzungstabelle.png) 
+### :a: Aufgabe - Klassenlehrer anpassen
+1. Ändern Sie den Klassenlehrer der 8a. 
+2. Tragen Sie zusätzlich einen Stellvertreter ein. Die Reihenfolge gibt Auskunft darüber, welcher Klassenlehrer der Stellvertreter ist.
+3. Übertragen Sie diese Angaben in die Schülerdaten.  
+
+### :a: Aufgabe - Einen Vermerk bei einem Schüler hinterlegen
 
 
 
- ::: details
-  * Markieren und Auswählen 
- Klassenlehrer
+### :a: Aufgabe - 
+### :a: Aufgabe - 
+
  * Quartale
  * Vermerke
  * Sprachenfolge
  :::
 
-![Report-Reiter](./graphics/vonS2nachS3_uebersicht_schueler_test.png)  
+Zeugnisbemerkung
 :::
      
 ::: info 
