@@ -66,3 +66,7 @@ Konkrete Eintragungshilfen finden Sie hier:
 * [Herkunftssprachlicher Unterricht](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Herkunftssprachlicher_Unterricht_(Tutorial))
 * [Feststellungsprüfung anstelle von Pflicht- oder Wahlpflichtfremdsprachen]( https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Sprachpr%C3%BCfung_Feststellungspr%C3%BCfung_anstelle_von_Pflicht-_oder_Wahlpflichtfremdsprachen_(Tutorial))
 
+## Migrationshintergund
+Die Angaben zum Migrationshintergrund findet man nach wie vor unter Individualdaten II. Der Bereich ist allerdings nun unterteilt in Migrationshintergrund und Zuwanderung. Weiter gibt es bei den Einstellungen keine Möglichkeit mehr, die vereinfachte Darstellung der Migrationseintragung zu nutzen. 
+
+## Ggf noch Aufgaben zu den neuen Reitern Abschlüsse und Sprachenfolge

@@ -1,6 +1,4 @@
-# Übersicht - Schild-NRW3, SVWS-Client und Arbeitsverzeichnis 
-
-Zusätzlich zu der Desktopanwendung SchILD-NRW3 (früher SchILD-NRW2), die nach wie vor nur unter Windows genutzt werden kann, kann nun auch mit einer browserbasierten Anwendung gearbeitet werden, dem sogenannten SVWS-Client. Beide Programme werden im folgenden dargestellt.
+# Schild-NRW3 - Layout
 
 ## Öffnen von SchILD-NRW3 
 Wie gewohnt starten Sie SchILD mit einem Doppelklick auf das Programmsymbol. Beim Start landet man automatisch im Reiter Schüler:

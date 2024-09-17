@@ -38,6 +38,8 @@ Auf der linken Seite werden die zur Verfügung stehenden Apps aufgelistet. Beim 
 
 ### Aufgabe 
 * Filtern Sie die Klasse 6a und 6b.
+* Sortieren Sie die Schüler nach Nachnamen.<br>
+Hinweis: Durch Klick auf *Klasse*, *Nachname* oder *Vorname* im Schülercontainer kann die Sortierung schnell geändert werden. 
 * Entfernen Sie den Filter der Klasse 6a und fügen Sie die 6c hinzu.
 * Entfernen Sie alle Filter und wählen Sie den Jahrgang 07 aus. Für das Entfernen der Filter gibt es verschiedene Möglichkeiten <br>
 ![Schnellfilter](./graphics/vonS2nachS3_uebersicht_svwsClient_schuelerApp_schnellfilter.png)

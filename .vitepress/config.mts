@@ -27,11 +27,11 @@ export default defineConfig({
       {
 		  text: 'Übergang zu SchILD-NRW3', link: '/VonSchild2_ZuSchild3/', collapsed: true, 
         items: [
-          { text: 'SchILD-NRW3 - Layout', link: '/VonSchild2_ZuSchild3/Uebersicht/SchILD3_Oberflaeche/' },
-          { text: 'SVWS-Client', link: '/VonSchild2_ZuSchild3/Uebersicht/SVWS_Client/' },
-		  { text: 'Das Arbeitsverzeichnis', link: '/VonSchild2_ZuSchild3/Uebersicht/Arbeitsverzeichnis/' },
-		  { text: 'Änderungen bei den Schülern (SchILD-NRW-3)', link: '/VonSchild2_ZuSchild3/Schueler/schild3' },
-		  { text: 'Änderungen bei den Schülern (SVWS-Client)', link: '/VonSchild2_ZuSchild3/Schueler/svwsClient' }
+          { text: 'SchILD-NRW3 - Layout', link: '/VonSchild2_ZuSchild3/1Uebersicht/SchILD3_Oberflaeche/' },
+          { text: 'SVWS-Client', link: '/VonSchild2_ZuSchild3/1Uebersicht/SVWS_Client/' },
+		  { text: 'Das Arbeitsverzeichnis', link: '/VonSchild2_ZuSchild3/1Uebersicht/Arbeitsverzeichnis/' },
+		  { text: 'Änderungen bei den Schülern (SchILD-NRW-3)', link: '/VonSchild2_ZuSchild3/2Schueler/schild3' },
+		  { text: 'Änderungen bei den Schülern (SVWS-Client)', link: '/VonSchild2_ZuSchild3/2Schueler/svwsClient' }
         ]
 	  },
 	  {
