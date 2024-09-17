@@ -8,17 +8,20 @@ Zusätzlich zu der Desktopanwendung SchILD-NRW3 (früher SchILD-NRW2), die nach 
 # Inhalt
 
 ### Schild-NRW3 - eine neue Oberfläche
-SchILD-NRW3 hat eine neues und moderneres [Layout](./Uebersicht/SchILD3_Oberflaeche/index.md).
+SchILD-NRW3 hat eine neues und moderneres [Layout](./1Uebersicht/SchILD3_Oberflaeche/index.md).
 
 ### SVWS-Client - Schulverwaltung über den Internetbrowser
-Die Datenbank kann jetzt auch mit dem [Browser](./Uebersicht/SVWS_Client/index.md) gesichtet und bearbeitet werden.
+Die Datenbank kann jetzt auch mit dem [Browser](./1Uebersicht/SVWS_Client/index.md) gesichtet und bearbeitet werden.
 
 ### Das Arbeitsverzeichnis
-Report, Exporte und Sicherungen werden nun in einem gemeinsamen [Arbeitsverzeichnis](./Uebersicht/Arbeitsverzeichnis/index.md) gespeichert.
+Report, Exporte und Sicherungen werden nun in einem gemeinsamen [Arbeitsverzeichnis](./1Uebersicht/Arbeitsverzeichnis/index.md) gespeichert.
 
 
 ### Änderungen bei den Schülerdaten
-In der [Desktopanwendung SchILD-NRW-3](./Schueler/schild3/index.md) findet man einige Eintragungen nun an einer anderen Stelle.
+In der [Desktopanwendung SchILD-NRW-3](./2Schueler/schild3/index.md) findet man einige Eintragungen nun an einer anderen Stelle.
+
+Im [SVWS-Client](./2Schueler/svwsClient/index.md) gibt es zusätzliche Neuerungen.
+
 
 
 
