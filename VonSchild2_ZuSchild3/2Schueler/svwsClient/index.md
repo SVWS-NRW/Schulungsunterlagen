@@ -13,7 +13,7 @@ In einer späteren Version erfolgt die Statistikprüfung für diese Felder unmit
 
 ## Wo finde ich was?
 Die Struktur der Tabs unterscheidet sich von den Reitern in SchILD3. Einige Bereiche wurden logisch zusammengefasst wie beispielsweise das Zusammenlegen von *Individualdaten* I und II zum Tab *Individualdaten*. Andere Bereiche wurden separat aufgelistet wie beispielsweise die *Abschlüsse*. 
-Orientiere die am Inhalt von schild3 index. Um hier ein wenig die Orientierung zu bekommen folgen nun einige Aufgaben, die evtl. mit ein wenig herumklicken auch ohne die Hilfestellung gelöst werden können.
+Um hier ein wenig die Orientierung zu bekommen folgen nun einige Aufgaben, die evtl. mit ein wenig herumklicken auch ohne die Hilfestellung gelöst werden können.
 
 ###  :a: Aufgabe - Migrationshintergrund
 Tragen Sie den Migrationshintergrund eines Schülers aus der 8a nach: Der Schüler ist 2022 aus Ungarn nach Deutschland gezogen. 
@@ -34,7 +34,8 @@ Ein Schüler aus der 6b hat eine Sehbehinderung. Tragen Sie diesen Förderschwer
 + Diese Angaben werden im Tab *Lernabschnitte/Allgemein* eingetragen.
 :::
 
-Hinweis: Vielleicht ist es schon aufgefallen, dass unter die App *Kataloge* "fehlt". Da es sich bei sämtlichen Katalogen um Angaben bezüglich der eigenen Schule handelt, wurden diese der App *Schule* zugeordnet. Hier findet man nun auch die Bezeichnungen der Förderschwerpunkte:
+
+Hinweis: Vielleicht ist es schon aufgefallen, dass im SVWS-Client die App *Kataloge* "fehlt". Da es sich bei sämtlichen Katalogen um Angaben bezüglich der eigenen Schule handelt, wurden diese der App *Schule* zugeordnet. Hier findet man nun auch die Bezeichnungen der Förderschwerpunkte:
 
 ![Kataloge](./graphics/vonS2nachS3_schueler_client_kataloge.png) 
 
@@ -46,7 +47,7 @@ Hinweis: Vielleicht ist es schon aufgefallen, dass unter die App *Kataloge* "feh
 
  1. Ändern Sie den Klassenlehrer der Klasse 9b 
    ::: details
-+ Löschen Sie zunächst den Klassenlehrer und fügen Sie anschließend einen anderen Lehrer hinzu. Mit dem Pfeil, kann navigiert werden, falls es einen Stellvertretenden Klassenlehrer gibt.
++ Löschen Sie zunächst den Klassenlehrer und fügen Sie anschließend einen anderen Lehrer hinzu. Mit dem Pfeil, kann navigiert werden, falls es einen stellvertretenden Klassenlehrer gibt.
 
 ![Klassenlehrer](./graphics/vonS2nachS3_schueler_client_klassenlehrer.png) 
 + 
@@ -61,37 +62,30 @@ Hinweis: Vielleicht ist es schon aufgefallen, dass unter die App *Kataloge* "feh
  
 Das Link-Symbol findet man im SVWS-Client an vielen verschiedenen Stellen.
 
-###  :a: Aufgabe - ...
+###  :a: Aufgabe - Einen Vermerk bei einem Schüler hinterlegen   
++ Definieren Sie die Vermerkart "Medikamenteneinnahme"
+   ::: details
+   Die Vermerkarten werden unter der App Schule/weitere Kataloge/Vermerkarten definiert:
+    ![Vermerkarten](./graphics/vonS2nachS3_schueler_client_vermerkarten.png) 
+    :::
++ Weisen Sie die Vermerkart drei Schülern zu
+  ::: details
+   Die Vermerkarten werden unter der App Schule/weitere Kataloge/Vermerkarten definiert:
+    ![Vermerkart zuweisen](./graphics/vonS2nachS3_schueler_client_schuelervermerk.png) 
+    :::
++ Sichten Sie die Vermerkart erneut. Die Schüler werden bei der Auswahl der Vermerkart hier nun aufgelistet.
 
 
-## Aktuelles Halbjahr
 
-### :a: Aufgabe - Klassenwechsel eines Schülers
-
+### :a: Aufgabe - Sprachenfolge
 
 
 
-### :a: Aufgabe - Eintragen des Förderschwerpunkt 
-Ein Schüler aus der 5a hat eine Sehbehinderung. Hinterlegen Sie den entsprechenden Förderschwerpunkt in schild3
-::: details
-Auch diese Angaben werden im aktuellen Halbjahr / Allgemeine Angaben gesetzt.
-:::
 
 
 ## Kataloge - Klassen-/ Versetzungstabelle
 die sind hier wo anders
 
- 
-### :a: Aufgabe - Klassenlehrer anpassen
-
-## Vermerke
-
-### :a: Aufgabe - Einen Vermerk bei einem Schüler hinterlegen
-
-## Sprachenfolge
-
-
-### :a: Aufgabe - Sprachenprüfung
  
 
 
