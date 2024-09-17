@@ -66,7 +66,7 @@ Das Link-Symbol findet man im SVWS-Client an vielen verschiedenen Stellen.
 + Definieren Sie die Vermerkart "Medikamenteneinnahme"
    ::: details
    Die Vermerkarten werden unter der App Schule/weitere Kataloge/Vermerkarten definiert:
-    ![Vermerkarten](./graphics/vonS2nachS3_schueler_client_vermerkarten.png) 
+    ![Vermerkarten](./graphics/vonS2nachS3_schueler_client_vermerkart.png) 
     :::
 + Weisen Sie die Vermerkart drei Schülern zu
   ::: details
