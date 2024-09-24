@@ -23,7 +23,7 @@
 + Fortbildungstermin: xx.xx.xxxx 
 + Zeit: 14:00 - 14:45 Uhr 
 + Fragen im Anschluss 
-+ [Details](./Reports)
++ [Details](./Reports/index.md)
 
 ### Fortbildung: Migration und Datenbanksicherung
 + Fortbildungstermin: xx.xx.xxxx 
