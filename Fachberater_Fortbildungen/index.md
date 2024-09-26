@@ -25,12 +25,17 @@
 + Fragen im Anschluss 
 + [Details](./Reports/index.md)
 
-### Fortbildung: Migration und Datenbanksicherung
+## Fortbildung: Migration und Datenbanksicherung
 + Fortbildungstermin: xx.xx.xxxx 
 + Zeit: 14:00 - 14:30 Uhr 
 + Fragen und eigenständiges Testen im Anschluss
 + [Details](./MigrationSicherung/index.md)
 
+## Fortbildung: Datenbanken sichten mit DBeaver
++ Fortbildungstermin: xx.xx.xxxx 
++ Zeit: 14:00 - 14:30 Uhr 
++ Fragen und eigenständiges Testen im Anschluss
++ [Details](./DBeaver/index.md)
 
 
 
