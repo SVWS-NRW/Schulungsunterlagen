@@ -78,43 +78,31 @@ Das Link-Symbol findet man im SVWS-Client an vielen verschiedenen Stellen.
 
 
 ### :a: Aufgabe - Sprachenfolge
-
-
+Eine Schülerin aus der 10a hat in ihrer Herkunftssprache Portugiesisch eine Sprachenprüfung mit der Note 2 absolviert. Tragen Sie dieses Eegebnis im SVWS-Client ein.
+::: details
+   Die Sprachenprüfungen werden unter der App Schüler im Tab Sprache über das "+"-Symbol eingetragen. 
+    :::
 
 
 
 ## Kataloge - Klassen-/ Versetzungstabelle
-die sind hier wo anders
+Wie bereits festgestellt, findet man die Kataloge nun in der App Schule. Ein Blick auf die mögliche Auswahl zeigt, dass hier die Klassen- und Versetzungstabellen fehlen. Diese sind nun in der App Klasse integriert
 
- 
+![Klassentabellen](./graphics/vonS2nachS3_schueler_client_Klassentabellen.png) 
 
+### :a: Aufgabe - Anlegen einer neuen Klasse
+Aufgrund der hohen Schüler-Anmeldezahlen wird einmalig im kommenden Schuljahr eine weiter Klasse eingerichtet für die Neulinge. Ergänzen Sie diese im SVWS-Client.
+::: details
+   Nach dem Speichern kann es passieren, dass die Klasse nicht in der gewünschten Reihenfolge erscheint:
+   ![Klassenreihenfolge](./graphics/vonS2nachS3_schueler_client_klassensortierung.png) 
 
- Quartale
+  **Möglichkeit 1: Sortierungsnummer anpassen** \
+  Dazu ändert man die Sortierungsnummer derart, dass der Wert zwischen der Sortierung der 5d und 6a liegt.
+  ![Sortiernummer anpassen](./graphics/vonS2nachS3_schueler_client_sortiernummer.png) 
 
- :::
-
-Zeugnisbemerkung
-:::
-     
-::: info 
-:exclamation: Die Nutzung von Reports ist nur über das Programm Schild-NRW3 möglich.
-:::
-
-
-"bulb"
-:mag_right:
-file_folder
-key
-question
-:a:
-hourglass"
-stopwatch
-stop_sign
-globe_with_meridians
-:sos:
-:exclamation:
-::: info
-This is an info box.
-:::
+  **Möglichkeit 2: Standardsortierung anwenden**\
+  Mit Klick auf *Standardsortierung anwenden*, werden alle Klassen automatisch aufsteigend sortiert.
+  ![Standardsortierung anwenden](./graphics/vonS2nachS3_schueler_client_standardsortierung.png) 
+    :::
 
 

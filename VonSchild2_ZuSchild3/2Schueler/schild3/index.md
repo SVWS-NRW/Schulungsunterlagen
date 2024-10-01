@@ -27,12 +27,13 @@ Ein Schüler wechelt von der 7a in die 7b. Nehmen Sie notwendige Änderungen vor
 :::
 
 
-### :a: Aufgabe - Eintragen des Förderschwerpunkt 
+### :a: Aufgabe - Eintragen des Förderschwerpunkts 
 Ein Schüler aus der 5a hat eine Sehbehinderung. Hinterlegen Sie den entsprechenden Förderschwerpunkt in schild3
 ::: details
 Auch diese Angaben werden im aktuellen Halbjahr / Allgemeine Angaben gesetzt.
 :::
 
+Weitere Informationen zum aktuellen Halbjahr findet man im Kapitel  [Leistungsdaten](/VonSchild2_ZuSchild3/3Leistungsdaten/schild3/index.md)
 
 ## Kataloge - Klassen-/ Versetzungstabelle
 Unter dem aktuellen Halbjahr findet man auch den derzeitigen Klassenlehrer des Schülers. Hier gibt es keine Möglichkeit diesen zu ändern. Dazu muss man einmal in die Klassen- und Versetzungstabellen, welche man in schild2 unter Schulverwaltung öffnen konnte. Diese sind nun unter dem Reiter "Kataloge" zu finden. Genauer handelt es sich bei den Klassen- und Versetzungstabellen um schulbezogene Kataloge:
@@ -55,20 +56,7 @@ Bisher waren die Vermerke unter Laufbahninfo des jeweiligen Schülers zu finden.
 Hilfe finden Sie auch [hier](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Vermerke_(Sch%C3%BCler))
 :::
 
-## Sprachenfolge
-In Schild3 befinden sich die Angaben zur Sprachenfolge nach wie vor im Reiter Laufbahninfo. Allerdings werden Sprachenfolge und Sprachenprüfungen nun in unterschiedlichen Bereichen festgehalten. 
 
-### :a: Aufgabe - Sprachenprüfung
-Ein Schüler aus der Q1 hatte in der Jahrgangsstufe 10 in Italienisch eine HSU Prüfung mit der Note gut absolviert. Hinterlegen Sie die Prüfung in schild. 
-
-Hinweis:<br>
-Konkrete Eintragungshilfen finden Sie hier:
-* [Herkunftssprachlicher Unterricht](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Herkunftssprachlicher_Unterricht_(Tutorial))
-* [Feststellungsprüfung anstelle von Pflicht- oder Wahlpflichtfremdsprachen]( https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Sprachpr%C3%BCfung_Feststellungspr%C3%BCfung_anstelle_von_Pflicht-_oder_Wahlpflichtfremdsprachen_(Tutorial))
-
-## Ggf noch Aufgaben zu den neuen Reitern Abschlüsse und Sprachenfolge
-
-
-## Migrationshintergund
+## Migrationshintergrund
 Die Angaben zum Migrationshintergrund findet man nach wie vor unter Individualdaten II. Der Bereich ist allerdings nun unterteilt in Migrationshintergrund und Zuwanderung. Weiter gibt es bei den Einstellungen keine Möglichkeit mehr, die vereinfachte Darstellung der Migrationseintragung zu nutzen. 
 

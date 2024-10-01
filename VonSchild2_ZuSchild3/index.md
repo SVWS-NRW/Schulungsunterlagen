@@ -8,7 +8,7 @@ Zusätzlich zu der Desktopanwendung SchILD-NRW3 (früher SchILD-NRW2), die nach 
 # Inhalt
 
 ### Schild-NRW3 - eine neue Oberfläche
-SchILD-NRW3 hat eine neues und moderneres [Layout](./1Uebersicht/SchILD3_Oberflaeche/index.md).
+SchILD-NRW3 hat ein neues und moderneres [Layout](./1Uebersicht/SchILD3_Oberflaeche/index.md).
 
 ### SVWS-Client - Schulverwaltung über den Internetbrowser
 Die Datenbank kann jetzt auch mit dem [Browser](./1Uebersicht/SVWS_Client/index.md) gesichtet und bearbeitet werden.
@@ -23,7 +23,10 @@ In der [Desktopanwendung SchILD-NRW-3](./2Schueler/schild3/index.md) findet man 
 Im [SVWS-Client](./2Schueler/svwsClient/index.md) gibt es zusätzliche Neuerungen.
 
 
+### Änderungen bezüglich Leistungsdaten
+In der [Desktopanwendung SchILD-NRW-3](./3Leistungsdaten/schild3/index.md) findet man nur wenige Änderungen bezüglich der Datenverwaltung für die Schülerleistungen.
 
+Im [SVWS-Client](./3Leistungsdaten/svwsClient/index.md) findet man das aktuelle Halbjahr nun im Tab Lernabschnitte. 
 
 
 
