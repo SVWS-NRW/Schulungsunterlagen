@@ -1,19 +1,35 @@
 # Leistungsdaten in schild3
-Hier hat sich nicht viel verändert
+Eine der größten Änderungen in diesem Bereich ist die Umstellung auf den Halbjahresbetrieb an Gesamtschulen. Diese Anpassung betrifft nur Gesamtschulen, die bisher im Quartalsmodus gearbeitet haben.
 
 ## Quartale
-weg
+Auch wenn die Quartale abgeschafft wurden, sind natürlich sämtliche Daten aus SchILD2 erhalten geblieben. Die Noten aus dem ersten Quartal sind nun in der Spalte Quartalsnote des ersten Habljahres. Analog sind die Noten aus dem dritten Quartal als Quartalsnote im zweiten Halbjahr gespeichert.\
+Das Feld Quartalsnote kann natürlich auch an anderen Schulformen genutzt werden.
 
 ### :a: Aufgabe - Sichtbarkeit der Quartale anpassen
-1. Sichten Sie in den Leistungsdaten, ob Quartalnoten derzeit angezeigt werden.
+1. Sichten Sie im aktuellen Halbjahr, ob Quartalnoten derzeit angezeigt werden.
 ::: details
-Tipps
-
+Die Spalte finden Sie hier:
+![Ändern der Klasse](./graphics/vonS2nachS3_leistungsdaten_schild3_quartal.png) 
 :::
+
+
 2. Ändern Sie ggf. die Einstellung, sodass die Quartale sichtbar werden.
+::: details
+Die Spalte finden Sie hier:
+![Ändern der Klasse](./graphics/vonS2nachS3_leistungsdaten_schild3_quartalEinstellung.png) 
+:::
 
 
+## Bemerkungen
+Für sämtliche Bemerkungen wurde ein separater Unterreiter erstellt. 
 
+### :a: Aufgabe - Zeugnisbemerkung
+Erstellen Sie eine Zeugnisbemerkung für einen Schüler aus der Klasse 8b, der häufig zu spät kommt. Legen Sie zunächst eine passende Floskel hierfür an.
+::: details
+1. Navigieren Sie in den Reiter Kataloge und wählen Sie "Floskeln bearbeiten" aus.
+2. Hier können Sie nun wie gewohnt aus SchILD2 eine Zeugnisbemerkung hinzufügen.
+3. Wechseln Sie wieder zum Schüler auf den Unterreiter aktuelles Halbjahr und welcheln Sie in die Ansicht "Bemerkungen". Nach dem Doppelklick auf das leere Feld "Zeugnisbemerkung" öffnet sich das gewohnte Floskelfenster aus SchILD2.
+:::
 
 
 ## Sprachenfolge
