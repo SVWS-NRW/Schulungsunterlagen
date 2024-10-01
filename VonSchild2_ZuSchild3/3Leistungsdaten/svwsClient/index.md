@@ -13,7 +13,7 @@ Kursart im Client:
 * Bei Oberstufenfach nur GKS, GKM, ABI3, usw Hier kein WP zum Beispiel 
  :::
 
-![Report-Reiter](./graphics/vonS2nachS3_uebersicht_schueler_test.png)  
+  
 :::
      
 ::: info 
