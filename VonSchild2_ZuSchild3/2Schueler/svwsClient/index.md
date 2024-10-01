@@ -50,7 +50,7 @@ Hinweis: Vielleicht ist es schon aufgefallen, dass im SVWS-Client die App *Katal
 + Löschen Sie zunächst den Klassenlehrer und fügen Sie anschließend einen anderen Lehrer hinzu. Mit dem Pfeil, kann navigiert werden, falls es einen stellvertretenden Klassenlehrer gibt.
 
 ![Klassenlehrer](./graphics/vonS2nachS3_schueler_client_klassenlehrer.png) 
-+ 
+ 
 :::
  2. Auf der rechten Seite sind alle SchülerInnen der 9b sichtbar. Lassen Sie sich alle aktiven SchülerInnen dieser Klasse anzeigen und sortieren Sie diese nach Nachnamen. 
  ::: details
@@ -81,7 +81,7 @@ Das Link-Symbol findet man im SVWS-Client an vielen verschiedenen Stellen.
 Eine Schülerin aus der 10a hat in ihrer Herkunftssprache Portugiesisch eine Sprachenprüfung mit der Note 2 absolviert. Tragen Sie dieses Eegebnis im SVWS-Client ein.
 ::: details
    Die Sprachenprüfungen werden unter der App Schüler im Tab Sprache über das "+"-Symbol eingetragen. 
-    :::
+:::
 
 
 
@@ -103,6 +103,6 @@ Aufgrund der hohen Schüler-Anmeldezahlen wird einmalig im kommenden Schuljahr e
   **Möglichkeit 2: Standardsortierung anwenden**\
   Mit Klick auf *Standardsortierung anwenden*, werden alle Klassen automatisch aufsteigend sortiert.
   ![Standardsortierung anwenden](./graphics/vonS2nachS3_schueler_client_standardsortierung.png) 
-    :::
+:::
 
 
