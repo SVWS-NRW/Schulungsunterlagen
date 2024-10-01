@@ -27,10 +27,15 @@ export default defineConfig({
       {
 		  text: 'Übergang zu SchILD-NRW3', link: '/VonSchild2_ZuSchild3/', collapsed: true, 
         items: [
-          { text: 'SchILD-NRW3 - Layout', link: '/VonSchild2_ZuSchild3/1Uebersicht/SchILD3_Oberflaeche/' },
+          { text: 'SchILD-NRW3 - Neues Layout', link: '/VonSchild2_ZuSchild3/1Uebersicht/SchILD3_Oberflaeche/' },
           { text: 'SVWS-Client', link: '/VonSchild2_ZuSchild3/1Uebersicht/SVWS_Client/' },
 		  { text: 'Das Arbeitsverzeichnis', link: '/VonSchild2_ZuSchild3/1Uebersicht/Arbeitsverzeichnis/' },
-		  { text: 'Änderungen bei den Schülern (SchILD-NRW3)', link: '/VonSchild2_ZuSchild3/2Schueler/schild3' },
+		  { text: 'Änderungen bezüglich Schülerdaten', link: '/VonSchild2_ZuSchild3/2Schueler/schild3', collapsed: true,
+			items:[
+			{text: 'In Schild-NRW3', link: '/VonSchild2_ZuSchild3/2Schueler/schild3'},
+			{text: 'Im SVWS-Client', link: '/VonSchild2_ZuSchild3/2Schueler/svwsClient'}
+			]
+		  },
 		  { text: 'Änderungen bei den Schülern (SVWS-Client)', link: '/VonSchild2_ZuSchild3/2Schueler/svwsClient' },
 		  { text: 'Änderungen bezüglich Leistungsdaten (SchILD-NRW3)', link: '/VonSchild2_ZuSchild3/3Leistungsdaten/schild3' },
 		  { text: 'Änderungen bezüglich Leistungsdaten (SVWS-Client)', link: '/VonSchild2_ZuSchild3/3Leistungsdaten/svwsClient' }
