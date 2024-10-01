@@ -36,9 +36,13 @@ export default defineConfig({
 			{text: 'Im SVWS-Client', link: '/VonSchild2_ZuSchild3/2Schueler/svwsClient'}
 			]
 		  },
-		  { text: 'Änderungen bei den Schülern (SVWS-Client)', link: '/VonSchild2_ZuSchild3/2Schueler/svwsClient' },
-		  { text: 'Änderungen bezüglich Leistungsdaten (SchILD-NRW3)', link: '/VonSchild2_ZuSchild3/3Leistungsdaten/schild3' },
-		  { text: 'Änderungen bezüglich Leistungsdaten (SVWS-Client)', link: '/VonSchild2_ZuSchild3/3Leistungsdaten/svwsClient' }
+		  { text: 'Änderungen bezüglich Leistungsdaten', link: '/VonSchild2_ZuSchild3/3Leistungsdaten/schild3', collapsed: true,
+			items:[
+			{text: 'In Schild-NRW3', link: '/VonSchild2_ZuSchild3/3Leistungsdaten/schild3'},
+			{text: 'Im SVWS-Client', link: '/VonSchild2_ZuSchild3/3Leistungsdaten/svwsClient'}
+			]
+		  },
+		  { text: 'Stundenplan im SVWS-Client', link: '/VonSchild2_ZuSchild3/4Stundenplan' }
         ]
 	  },
 	  {
