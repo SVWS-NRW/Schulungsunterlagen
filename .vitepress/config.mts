@@ -72,12 +72,7 @@ export default defineConfig({
       },
 	  {
         text: 'Fortbildungen für Fachberater', link: '/Fachberater_Fortbildungen/', collapsed: true, 
-        items: [
-          { text: 'Migration und Datanbanksicherung', link: '/MigrationSicherung/' },
-          { text: 'Öffnen von Datenbanken mit DBeaver', link: '/DBeaver/' },
-          { text: 'Reports mit Schild3', link: '/Reports/'},
-          { text: 'Schulungskonzept', link: '/Schulungskonzept/' }
-        ]
+        
       }
     ],
 
