@@ -71,17 +71,12 @@ export default defineConfig({
         ]
       },
 	  {
-        text: 'Downlaod-Dateien', link: '/LeistungsdatenSekII/', collapsed: true, 
+        text: 'Fortbildungen für Fachberater', link: '/Fachberater_Fortbildungen/', collapsed: true, 
         items: [
-          { text: 'Planung kommende EF', link: 'LeistungsdatenSekII/DB/1_Gym_Jg10_ohneWahlen.sqlite' },
-          { text: 'Fachwahlen kommende EF', link: '/LeistungsdatenSekII/Unterrichtsfaecher/' },
-          { text: 'SchILD2-Import-Dateien', link: '/LeistungsdatenSekII/BlockungKommendeEF/', collapsed: true, 
-          items :[
-                { text: 'LUPO-Dateien', link: '/LeistungsdatenSekII/BlockungKommendeEF/LaufbahnKursplanungJG10/' },
-                { text: 'Kurs42-Blockung', link: '/LeistungsdatenSekII/BlockungKommendeEF/KlausurplanungJG10/' }
-              ]
-            },
-          { text: 'Weitere DBs', link: '/LeistungsdatenSekII/ImportSchILD2Laufbahndaten/' }
+          { text: 'Migration und Datanbanksicherung', link: '/MigrationSicherung/' },
+          { text: 'Öffnen von Datenbanken mit DBeaver', link: '/DBeaver/' },
+          { text: 'Reports mit Schild3', link: '/Reports/'},
+          { text: 'Schulungskonzept', link: '/Schulungskonzept/' }
         ]
       }
     ],

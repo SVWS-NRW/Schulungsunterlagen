@@ -37,6 +37,12 @@
 + Fragen und eigenständiges Testen im Anschluss
 + [Details](./DBeaver/index.md)
 
+## Fortbildung: Schulungskonzept
++ Fortbildungstermin: xx.xx.xxxx 
++ Zeit: 14:00 - 14:30 Uhr 
++ Fragen und eigenständiges Testen im Anschluss
++ [Details](./Schulungskonzept/index.md)
+
 
 
 
