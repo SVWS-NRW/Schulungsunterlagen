@@ -11,48 +11,48 @@
 
 
 ## Allgemeine Einstellungen zur Oberstufe
-+ Fortbildungstermin: xx.xx.xxxx 
-+ Zeit: 14:00 - 14:30 Uhr (Im Anschluss folge die Kursblockung für die kommende EF)
++ Fortbildungstermin: 02.12.2024 oder 03.12.2024
++ Zeit: 14:00 - 14:30 Uhr (Im Anschluss folgt die Kursblockung - EF)
 + [Details](./GymnasialeOberstufeBasics/index.md)
 
 
 ## Fortbildung Laufbahnplanung und Kursblockung der kommenden EF
-+ Fortbildungstermin: xx.xx.xxxx 
++ Fortbildungstermin: 02.12.2024 oder 03.12.2024
 + Zeit: 14:30 - 16:00 Uhr (Anschließend bei Bedarf Zeit zum Austausch) 
 + [Details](./EFBlockung/index.md)
 
 ## Fortbildung Klausurplanung
-+ Fortbildungstermin: xx.xx.xxxx 
-+ Zeit: 14:00 - 15:30 Uhr (Anschließend bei Bedarf Zeit zum Austausch) 
++ Fortbildungstermin: 09.12.2024 
++ Zeit: 14:00 - 15:00 Uhr (Anschließend bei Bedarf Zeit zum Austausch) 
 + [Details](./Klausurblockung/index.md)
 
 ## Fortbildung Stundenplan 
-+ Fortbildungstermin: xx.xx.xxxx 
-+ Zeit: 14:00 - 15:30 Uhr (Anschließend bei Bedarf Zeit zum Austausch) 
++ Fortbildungstermin: 13.12.2024 
++ Zeit: 14:00 - 15:00 Uhr (Anschließend bei Bedarf Zeit zum Austausch) 
 + [Details](./Stundenplan/index.md)
 
 
 ## Fortbildung: Reports - Das ist neu
-+ Fortbildungstermin: xx.xx.xxxx 
++ Fortbildungstermin: 28.11.2024 
 + Zeit: 14:00 - 14:45 Uhr 
 + Fragen im Anschluss 
 + [Details](./Reports/index.md)
 
 ## Fortbildung: Migration und Datenbanksicherung
-+ Fortbildungstermin: xx.xx.xxxx 
++ Fortbildungstermin: 21.11.2024 
 + Zeit: 14:00 - 14:30 Uhr 
 + Fragen und eigenständiges Testen im Anschluss
 + [Details](./MigrationSicherung/index.md)
 
 ## Fortbildung: Datenbanken sichten mit DBeaver
-+ Fortbildungstermin: xx.xx.xxxx 
++ Fortbildungstermin: 22.11.2024 
 + Zeit: 14:00 - 14:30 Uhr 
 + Fragen und eigenständiges Testen im Anschluss
 + [Details](./DBeaver/index.md)
 
 ## Fortbildung: Schulungskonzept
-+ Fortbildungstermin: xx.xx.xxxx 
-+ Zeit: 14:00 - 14:30 Uhr 
++ Fortbildungstermin: 05.12.2024 
++ Zeit: 14:00 - 14:45 Uhr 
 + Fragen und eigenständiges Testen im Anschluss
 + [Details](./Schulungskonzept/index.md)
 

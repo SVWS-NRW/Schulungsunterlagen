@@ -5,7 +5,7 @@
 ### Inhalte
 + Schulungsdatenbanken
 + Schulungsmaterial
-+ Installationshinweise
++ Mögliche Installationsmodelle 
 
 
 ### Ablauf der Fortbildung
