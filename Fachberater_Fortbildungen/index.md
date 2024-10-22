@@ -9,15 +9,28 @@
 + Im Anschluss gibt es Raum für Fragen und Anregungen.
 + Teilnehmerinnen und Teilnehmer, die keine Fragen mehr haben, können das Meeting nach dem Input-Teil gerne verlassen.
 
-## Fortbildung Blockung der kommenden EF
+
+## Allgemeine Einstellungen zur Oberstufe
 + Fortbildungstermin: xx.xx.xxxx 
-+ Zeit: 14:00 - 15:30 Uhr (Anschließend bei Bedarf Zeit zum Austausch) 
-+ Details
++ Zeit: 14:00 - 14:30 Uhr (Im Anschluss folge die Kursblockung für die kommende EF)
++ [Details](./GymnasialeOberstufeBasics/index.md)
+
+
+## Fortbildung Laufbahnplanung und Kursblockung der kommenden EF
++ Fortbildungstermin: xx.xx.xxxx 
++ Zeit: 14:30 - 16:00 Uhr (Anschließend bei Bedarf Zeit zum Austausch) 
++ [Details](./EFBlockung/index.md)
 
 ## Fortbildung Klausurplanung
 + Fortbildungstermin: xx.xx.xxxx 
 + Zeit: 14:00 - 15:30 Uhr (Anschließend bei Bedarf Zeit zum Austausch) 
-+ Details
++ [Details](./Klausurblockung/index.md)
+
+## Fortbildung Stundenplan 
++ Fortbildungstermin: xx.xx.xxxx 
++ Zeit: 14:00 - 15:30 Uhr (Anschließend bei Bedarf Zeit zum Austausch) 
++ [Details](./Stundenplan/index.md)
+
 
 ## Fortbildung: Reports - Das ist neu
 + Fortbildungstermin: xx.xx.xxxx 
