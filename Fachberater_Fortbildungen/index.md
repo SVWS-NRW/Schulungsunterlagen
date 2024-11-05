@@ -51,10 +51,22 @@
 + [Details](./DBeaver/index.md)
 
 ## Fortbildung: Schulungskonzept
-+ Fortbildungstermin: 05.12.2024 
++ Fortbildungstermin: nach Bedarf
 + Zeit: 14:00 - 14:45 Uhr 
 + Fragen und eigenständiges Testen im Anschluss
 + [Details](./Schulungskonzept/index.md)
+
+## Fortbildung: Reparieren von Schild2-MDBs
++ Fortbildungstermin: 05.12.2024 
++ Zeit: 14:00 - 14:30 Uhr 
++ Fragen und eigenständiges Testen im Anschluss
++ [Details](./ReparaturMDB/index.md)
+
+## Offene Austauschrunde
++ Fortbildungstermin: 10.12.2024 
++ Zeit: 14:30 - 16:00 Uhr 
++ Fragen und eigenständiges Testen im Anschluss
++ [Details](./Fragerunde/index.md)
 
 
 
