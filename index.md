@@ -1,6 +1,6 @@
 # SVWS Schulungsunterlagen
 Auf dieser Seite finden Sie Schulungsmaterial, das speziell auf die neue Version von SchILD-NRW3 und dem SVWS-Server zugeschnitten ist. 
-Die einzelnen Module stehen jedem frei zur Verfügung. Sie sind so konzipiert, dass sie unabhängig voneinander durchgearbeitet werden können. 
+Die einzelnen Module stehen jedem frei zur Verfügung und sind so konzipiert, dass sie unabhängig voneinander durchgearbeitet werden können. 
 Die Lerneinheiten bestehen überwiegend aus Aufgaben, die Ihnen den Umgang mit dem neuen Programm näherbringen. Die Aufgaben werden durch detaillierte Erklärungen oder entsprechenden Links zur Onlinedokumentation unterstützt.
 
 
