@@ -5,7 +5,7 @@
 ### Inhalte
 + Kaputte Datenbanken mit Access öffnen und reparieren
 + Prüfen der Primärschüssel
-+ Migration der kaputten Datenbank in eine neue Datenbank
++ Migration einer kaputten Datenbank in eine neue Datenbank
 
 
 ### Ablauf der Fortbildung

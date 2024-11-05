@@ -2,7 +2,7 @@
 
 ### Ablauf der Fortbildungen:
 
-+ Die Fortbildungen richten sich ausschließlich an Fachberaterinnen und Fachberater. 
++ Die Fortbildungen richten sich ausschließlich an Fachberaterinnen und Fachberater, sowie Moderatorinnen und Moderatoren. 
 + Der Link zum Videomeeting wird am Vortag der Fortbildung per E-Mail an alle zugesendet.
 + Eine Anmeldung ist nicht erforderlich.
 + Zu Beginn jeder Fortbildung erfolgt ein Input, bei dem ich praxisnah eine Demonstration zu dem jeweiligen Thema durchführe.

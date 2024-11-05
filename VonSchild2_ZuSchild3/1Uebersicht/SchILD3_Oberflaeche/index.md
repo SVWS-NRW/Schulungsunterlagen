@@ -5,12 +5,12 @@ Wie gewohnt starten Sie SchILD mit einem Doppelklick auf das Programmsymbol. Bei
 
 ![Hauptreiter SchILD3](./graphics/vonS2nachS3_uebersicht_schild3.png)  
 
-Beim genauen betrachten stellt man schnell fest, dass vieles gleich geblieben ist zu SchILD2:
+Beim genauen Betrachten stellt man schnell fest, dass vieles gleich geblieben ist zu SchILD2:
 * Links befindet sich der gewohnte Schülercontainer
 * Oberhalb vom Schülercontainer kann nach Klassen, Jahrgängen usw. gefiltert werden
 *  Zentral werden die Individualdaten I dargestellt.
-* Die aktuellen Laufbahndaten sind ebenfalls einsehbar. Alldings nun auf der rechten Seite, anstatt wie in SchILD2 unterhalb der Individualdaten.
-* Die Tabs zum einzelnen Schüler sind überwiegend gleich geblieben:
+* Die aktuellen Laufbahndaten sind ebenfalls einsehbar. Allerdings nun auf der rechten Seite, anstatt wie in SchILD2 unterhalb der Individualdaten.
+* Die Tabs für einen einzelnen Schüler sind überwiegend gleich geblieben:
 ![Schuelerreiter](./graphics/vonS2nachS3_uebersicht_schuelerreiter.png)  
 Ein Tab Vermerke ist dazugekommen. Da kommen wir aber später nochmal zu.
 
