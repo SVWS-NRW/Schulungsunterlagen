@@ -10,15 +10,9 @@
 + Teilnehmerinnen und Teilnehmer, die keine Fragen mehr haben, können das Meeting nach dem Input-Teil gerne verlassen.
 
 
-## Allgemeine Einstellungen zur Oberstufe
-+ Fortbildungstermin: 02.12.2024 
-+ Zeit: 14:00 - 14:30 Uhr (Im Anschluss folgt die Kursblockung - EF)
-+ [Details](./GymnasialeOberstufeBasics/index.md)
-
-
 ## Fortbildung Laufbahnplanung und Kursblockung der kommenden EF
 + Fortbildungstermin: 02.12.2024
-+ Zeit: 14:30 - 16:00 Uhr (Anschließend bei Bedarf Zeit zum Austausch) 
++ Zeit: 14:00 - 16:00 Uhr (Anschließend bei Bedarf Zeit zum Austausch) 
 + [Details](./EFBlockung/index.md)
 
 ## Fortbildung Klausurplanung
