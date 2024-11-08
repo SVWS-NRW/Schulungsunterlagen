@@ -22,13 +22,13 @@
 + [Details](./EFBlockung/index.md)
 
 ## Fortbildung Klausurplanung
-+ Fortbildungstermin: 09.12.2024 
-+ Zeit: 14:00 - 15:00 Uhr (Anschließend bei Bedarf Zeit zum Austausch) 
++ Fortbildungstermin: Termin wird in Kürze bekannt gegeben
++ Zeit: voraussichtlich 14:00 - 15:00 Uhr 
 + [Details](./Klausurblockung/index.md)
 
 ## Fortbildung Stundenplan 
-+ Fortbildungstermin: 13.12.2024 
-+ Zeit: 14:00 - 15:00 Uhr (Anschließend bei Bedarf Zeit zum Austausch) 
++ Fortbildungstermin: Termin wird in Kürze bekannt gegeben
++ Zeit: voraussichtlich 14:00 - 15:00 Uhr 
 + [Details](./Stundenplan/index.md)
 
 
