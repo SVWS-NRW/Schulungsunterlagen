@@ -19,8 +19,7 @@ export default defineConfig({
 			},
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Hilfe & Handbuch', link: 'https://help.svws-nrw.de' },
-      { text: 'Dokumentation', link: 'https://doku.svws-nrw.de' }
+      { text: 'Dokumentation & Handbuch', link: 'https://doku.svws-nrw.de/' },
     ],
 
     sidebar: [
@@ -45,8 +44,8 @@ export default defineConfig({
 		  { text: 'Stundenplan im SVWS-Client', link: '/VonSchild2_ZuSchild3/4Stundenplan' }
         ]
 	  },
-	  {
-		  text: 'Installation', link: '/Installation_Fachberatung_Moderation/', collapsed: true, 
+	 /** {
+	 	  text: 'Installation', link: '/Installation_Fachberatung_Moderation/', collapsed: true, 
         items: [
           { text: 'Installation SVWS-Server', link: '/Installation_Fachberatung_Moderation/Installation_SVWS/' },
           { text: 'Installation Zertifikat', link: '/Installation_Fachberatung_Moderation/Installation_Zertifikat/' },
@@ -55,7 +54,7 @@ export default defineConfig({
           { text: 'Öffnen der Datenbank mit DBeaver', link: '/Installation_Fachberatung_Moderation/DBeaver/' },
           { text: 'Administration im Client', link: '/Installation_Fachberatung_Moderation/AdminTool/' }
         ]
-	  },
+	  },*/
 	  {
         text: 'Leistungsdaten Sek II', link: '/LeistungsdatenSekII/', collapsed: true, 
         items: [
