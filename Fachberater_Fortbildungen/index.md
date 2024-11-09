@@ -26,7 +26,7 @@
 + [Details](./Stundenplan/index.md)
 
 
-## Fortbildung: Reports - Das ist neu
+## Fortbildung: Reports - Das ändert sich
 + Fortbildungstermin: 28.11.2024 
 + Zeit: 14:00 - 14:45 Uhr 
 + Fragen im Anschluss 

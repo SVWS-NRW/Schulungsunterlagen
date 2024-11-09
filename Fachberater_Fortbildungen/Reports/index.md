@@ -10,8 +10,8 @@
     + Zeugnissen
     + Basissammlung
     + Oberstufenreports
-+ Welche Reports laufen nicht mehr unter SchILD3? Infos zu...
-    + Reports mit TableGrid-Elementen
++ Welche Reports laufen nicht mehr? Infos zu...
+    + Reports mit Elementen aus dem „GridPack“
     + Reports mit eigenen Datenquellen
 + Philosophie neuer Reports
     + Header und Footer
