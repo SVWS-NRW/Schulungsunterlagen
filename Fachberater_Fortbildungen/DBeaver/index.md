@@ -16,6 +16,7 @@ Im Anschluss gibt es die Möglichkeit, Fragen zu stellen und/oder die gezeigten 
 ### Hilfreiche Links
 + Download **SVWS-Server**: https://github.com/SVWS-NRW/SVWS-Server/releases
 + Download **DBeaver**: https://dbeaver.io/download/
++ Anleitung zur Erstellung der DB-Verbindung: [DBeaver_Howto.pdf](https://github.com/SVWS-NRW/Schulungsunterlagen/blob/master/Fachberater_Fortbildungen/DBeaver/DBeaver_Howto.pdf)
 
 
 
