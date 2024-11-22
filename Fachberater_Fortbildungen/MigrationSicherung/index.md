@@ -10,7 +10,7 @@
 
 
 ### Ablauf der Fortbildung
-Die oben genannten Inhalte werden zunächst nacheinander vorgeführt. Auf mögliche Fehlerquellen wird hierbei hingewiesen. Dies dauert ca. 30 Minuten.
+Die oben genannten Inhalte werden zunächst nacheinander vorgeführt. Auf mögliche Fehlerquellen wird hierbei hingewiesen. Dies dauert ca. 45 Minuten.
 
 Im Anschluss können Fragen gestellt werden und/oder die gezeigten Inhalte selbst einmal "geübt" werden - sofern eine lokale Installation vorhanden ist. Wer nicht viel Zeit hat oder keine Fragen hat kann das Meeting einfach verlassen. 
 

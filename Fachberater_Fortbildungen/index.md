@@ -33,8 +33,8 @@
 + [Details](./Reports/index.md)
 
 ## Fortbildung: Migration und Datenbanksicherung
-+ Fortbildungstermin: 21.11.2024 
-+ Zeit: 14:00 - 14:30 Uhr 
++ Fortbildungstermin: 29.11.2024 
++ Zeit: 13:00 - 14:00 Uhr 
 + Fragen und eigenständiges Testen im Anschluss
 + [Details](./MigrationSicherung/index.md)
 
