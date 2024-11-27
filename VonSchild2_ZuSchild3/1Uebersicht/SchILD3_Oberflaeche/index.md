@@ -7,7 +7,7 @@ Wie gewohnt starten Sie SchILD mit einem Doppelklick auf das Programmsymbol. Bei
 
 Beim genauen Betrachten stellt man schnell fest, dass vieles gleich geblieben ist zu SchILD2:
 * Links befindet sich der gewohnte Schülercontainer
-* Oberhalb vom Schülercontainer kann nach Klassen, Jahrgängen usw. gefiltert werden
+* Oberhalb vom Schülercontainer kann nach Klassen, Jahrgängen usw. gefiltert werden. Neu ist die Auswahl von Abteilungen.
 *  Zentral werden die Individualdaten I dargestellt.
 * Die aktuellen Laufbahndaten sind ebenfalls einsehbar. Allerdings nun auf der rechten Seite, anstatt wie in SchILD2 unterhalb der Individualdaten.
 * Die Tabs für einen einzelnen Schüler sind überwiegend gleich geblieben:
