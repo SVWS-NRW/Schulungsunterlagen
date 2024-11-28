@@ -57,7 +57,7 @@
 + [Details](./ReparaturMDB/index.md)
 
 ## Offene Austauschrunde
-+ Fortbildungstermin: 10.12.2024 
++ Fortbildungstermin: 11.12.2024 
 + Zeit: 14:30 - 16:00 Uhr 
 + Fragen und eigenständiges Testen im Anschluss
 + [Details](./Fragerunde/index.md)

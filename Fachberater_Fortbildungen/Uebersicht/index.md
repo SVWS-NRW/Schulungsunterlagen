@@ -9,7 +9,7 @@
 | Migration und Datenbanksicherung | 29.11.2024  | 13:00 - 14:00|
 | Blockung der kommenden EF | 02.12.2024  | 14:00 - 16:00|
 | Reparieren von Access-DBs | 05.12.2024  | 14:00 - 14:30|
-| Fragen, Antworten und kollegialer Austausch  |  10.12.2024  | 14:30 - 16:00|
+| Fragen, Antworten und kollegialer Austausch  |  11.12.2024  | 14:30 - 16:00|
 | Stundenplan  |  Termin folgt  | -- |
 | Klausurplanung  |  Termin folgt  | -- |
 
