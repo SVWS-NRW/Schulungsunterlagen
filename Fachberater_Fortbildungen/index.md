@@ -23,7 +23,7 @@
 | [Webnotenmodul](./Wenom/index.md)  | 29.04.2025 | 14:00 - 15:00 |
 | [Klausurplanung](./Klausurblockung/index.md)  |  Termin folgt  | -- |
 | [Datenbanken sichten mit DBeaver](./DBeaver/index.md) | Anfrage per Mail  | --- |
-| [Schulungskonzepte]((./Schulungskonzept/index.md))| Auf Anfrage | --- |
+| [Schulungskonzepte](./Schulungskonzept/index.md)| Auf Anfrage | --- |
 | [Offene Austauschrunde](./Fragerunde/index.md)| --- | --- |
 
 
