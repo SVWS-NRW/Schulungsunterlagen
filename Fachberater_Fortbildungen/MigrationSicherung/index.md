@@ -22,7 +22,7 @@ Im Anschluss können Fragen gestellt werden und/oder die gezeigten Inhalte selbs
     + [Datenbank über SchILd3-Oberfläche migrieren](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Schild-NRW-Daten_in_eine_andere_Datenbank_%C3%BCbertragen_(migrieren)_(Tutorial)#Migration_.C3.BCber_Verwaltung_.E2.9E.9C_Datenbank)
     + [SchILD3-Datenbank (SQLite-Format) importieren](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Datenbank_importieren_(aus_SQLite)_(Verwaltung_Datenbank))
 + Anleitung zum **Migrieren und Sichern über den Web-Client**:
-    + [Admin-Client](https://hilfe.svws-nrw.de/administration/adminclient/)
+    + [Admin-Client](https://doku.svws-nrw.de/adminclient/apps/schemata/)
 
 
 

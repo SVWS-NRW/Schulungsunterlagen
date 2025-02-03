@@ -18,8 +18,9 @@ Im Anschluss gibt es die Möglichkeit, Fragen zu stellen und/oder die gezeigten 
 
 ### Hilfreiche Links
 + Download **SVWS-Server**: https://github.com/SVWS-NRW/SVWS-Server/releases
-+ SVWS-Hilfen und Handbuch: https://doku.svws-nrw.de/client/gost/
-+ Anleitung zu WebLupo: https://doku.svws-nrw.de/laufbahnplanung/
++ SVWS-Hilfen und Handbuch: https://doku.svws-nrw.de/webclient/gost/
++ Anleitung zu WebLupo: https://doku.svws-nrw.de/weblupo/
++ Installationsanleitung zu WebLupo: https://doku.svws-nrw.de/projekte/WebLupo/
 
 
 
