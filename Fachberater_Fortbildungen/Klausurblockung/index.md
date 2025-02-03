@@ -1,8 +1,10 @@
 # Fortbildung: Klausurblockung
 
++ Fortbildungstermin: Termin wird in Kürze bekannt gegeben
++ Zeit: voraussichtlich 14:00 - 15:00 Uhr 
 
 ### Inhalte
-+ 
+
 
 
 ### Ablauf der Fortbildung
