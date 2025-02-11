@@ -3,8 +3,6 @@ SVWS Schulungsunterlagen
 
 siehe auch : https://svws-nrw.github.io/Schulungsunterlagen/
 
-
-
 ## Bevor es losgeht
 Schild-Update prüfen und co.
 Importieren Sie eine DB, sofern noch keine Vorhanden. Beachten Sie die verlinkte Anleitung im Reiter Datenbanken.
