@@ -20,9 +20,9 @@
 | [Reports - Das ändert sich](./Reports/index.md) | 24.03.2025  | 14:00 - 14:45|
 | [Blockung der kommenden EF](./EFBlockung/index.md)  | 03.04.2025  | 14:00 - 15:30|
 | [Stundenplan im Client](./Stundenplan/index.md) | 08.04.2025   | 14:00 - 15:00 |
-| [Webnotenmodul](./Wenom/index.md)  | 29.04.2025 | 14:00 - 15:00 |
+| [Webnotenmodul](./Wenom/index.md)  | vsl. 29.04.2025 | 14:00 - 15:00 |
 | [Klausurplanung](./Klausurblockung/index.md)  |  Termin folgt  | -- |
-| [Datenbanken sichten mit DBeaver](./DBeaver/index.md) | Anfrage per Mail  | --- |
+| [Datenbanken sichten mit DBeaver](./DBeaver/index.md) | Auf Anfrage | --- |
 | [Schulungskonzepte](./Schulungskonzept/index.md)| Auf Anfrage | --- |
 | [Offene Austauschrunde](./Fragerunde/index.md)| --- | --- |
 
