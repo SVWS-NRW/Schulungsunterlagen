@@ -19,11 +19,12 @@ export default defineConfig({
 		},
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
-			{ text: 'Dokumentation & Handbuch', link: 'https://doku.svws-nrw.de/' },
+			{ text: 'SVWS-Dokumentation', link: 'https://doku.svws-nrw.de/' },
+			{ text: 'SchILD3-Wiki', link: 'https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php' },
 		],
 
 		sidebar: [
-			{
+			/** {
 				text: 'Übergang zu SchILD-NRW3', link: '/VonSchild2_ZuSchild3/', collapsed: true,
 				items: [
 					{ text: 'SchILD-NRW3 - Neues Layout', link: '/VonSchild2_ZuSchild3/1Uebersicht/SchILD3_Oberflaeche/' },
@@ -43,7 +44,7 @@ export default defineConfig({
 					},
 					{ text: 'Stundenplan im SVWS-Client', link: '/VonSchild2_ZuSchild3/4Stundenplan' },
 				],
-			},
+			},*/
 			/** {
 	 	  text: 'Installation', link: '/Installation_Fachberatung_Moderation/', collapsed: true,
         items: [
@@ -55,7 +56,7 @@ export default defineConfig({
           { text: 'Administration im Client', link: '/Installation_Fachberatung_Moderation/AdminTool/' }
         ]
 	  },*/
-			{
+		/**	{
 				text: 'Leistungsdaten Sek II', link: '/LeistungsdatenSekII/', collapsed: true,
 				items: [
 					{ text: 'Allgemeine Vorlagen', link: '/LeistungsdatenSekII/Allgemein_Vorlage/' },
@@ -67,6 +68,30 @@ export default defineConfig({
 						],
 					},
 					{ text: 'Import SchILD2 Laufbahndaten', link: '/LeistungsdatenSekII/ImportSchILD2Laufbahndaten/' },
+				],
+			}, */
+			{
+				text: 'Schulungsmodule', link: '/schulungsmodule/', collapsed: false,
+				items: [
+					{ text: 'Basisschulungen (leer)', link: '/schulungsmodule/basisschulungen/' },
+					{ text: 'Sekundarstufe I', link: '/schulungsmodule/sek_i/' },
+					{ text: 'Gymnasiale Oberstufe', link: '/schulungsmodule/gost/', collapsed: true,
+						items: [
+							{ text: 'Laufbahnplanung kommende EF', link: '/schulungsmodule/gost/modul1_grundlagen_ef', items: [
+								{ text: '↳ Aufgaben Modul 1', link: '/schulungsmodule/gost/modul1_grundlagen_ef/aufgaben_modul_1.md' },
+							],
+							},
+							{ text: 'Q-Phase und Abitur', link: '/schulungsmodule/gost/modul2_qphase_abitur/', items: [
+								{ text: '↳ Aufgaben Modul 2 (kein Link)' },
+							],
+							},
+							{ text: 'Leitungskram', link: '/schulungsmodule/gost/modul3_leitung/', items: [
+								{ text: '↳ Aufgaben Modul 3 (kein Link)' },
+							]
+							},
+						],
+					},
+					{ text: 'Was anderes', link: '/schulungsmodule/' },
 				],
 			},
 			{
