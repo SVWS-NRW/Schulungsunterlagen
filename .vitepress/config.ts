@@ -78,12 +78,12 @@ export default defineConfig({
 					{ text: 'Gymnasiale Oberstufe', link: '/schulungsmodule/gost/', collapsed: true,
 						items: [
 							{ text: 'Laufbahnplanung kommende EF', link: '/schulungsmodule/gost/modul1_grundlagen_ef', items: [
-								{ text: '1. Orientierung', link: 'schulungsmodule/gost/modul1_grundlagen_ef/1_orientierung.md' },
-								{ text: '2. App Oberstufe', link: 'schulungsmodule/gost/modul1_grundlagen_ef/2_oberstufe.md' },
-								{ text: '3. Wahlen und Beratung', link: 'schulungsmodule/gost/modul1_grundlagen_ef/3_wahlen_beratung.md' },
-								{ text: '4. Blocken', link: 'schulungsmodule/gost/modul1_grundlagen_ef/4_blocken.md' },
-								{ text: '5. Blockung anwenden', link: 'schulungsmodule/gost/modul1_grundlagen_ef/5_blockung_anwenden.md' },
-								{ text: '6. Leistungsdaten und Zeugnisse', link: 'schulungsmodule/gost/modul1_grundlagen_ef/6_leistungsdaten_zeugnisse.md' },
+								{ text: '1. Orientierung', link: 'schulungsmodule/gost/modul1_grundlagen_ef/kapitel1_orientierung.md' },
+								{ text: '2. App Oberstufe', link: 'schulungsmodule/gost/modul1_grundlagen_ef/kapitel2_oberstufe.md' },
+								{ text: '3. Wahlen und Beratung', link: 'schulungsmodule/gost/modul1_grundlagen_ef/kapitel3_wahlen_beratung.md' },
+								{ text: '4. Blocken', link: 'schulungsmodule/gost/modul1_grundlagen_ef/kapitel4_blocken.md' },
+								{ text: '5. Blockung anwenden', link: 'schulungsmodule/gost/modul1_grundlagen_ef/kapitel5_blockung_anwenden.md' },
+								{ text: '6. Leistungsdaten und Zeugnisse', link: 'schulungsmodule/gost/modul1_grundlagen_ef/kapitel6_leistungsdaten_zeugnisse.md' },
 								{ text: '↳ Aufgaben Modul 1', link: '/schulungsmodule/gost/modul1_grundlagen_ef/aufgaben_modul_1.md' },
 								{ text: '↳ Extraaufgaben Modul 1', link: '/schulungsmodule/gost/modul1_grundlagen_ef/extraaufgaben_modul_1.md' },
 							],

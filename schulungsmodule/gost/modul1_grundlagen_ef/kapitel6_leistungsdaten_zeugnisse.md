@@ -1,4 +1,4 @@
-## 1.6 Noten aufnehmen und Zeugnisse drucken
+## 6. Noten aufnehmen und Zeugnisse drucken
 
 **Hinweis**: Teilleistungen sind Teil der S3-Schulung (müssen sie sein!; heißt die Schulung noch S3?)
 
