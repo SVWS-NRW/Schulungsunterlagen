@@ -1,1 +1,1 @@
-# Ausformulierte Aufgaben zum GoST-Modul 1 (der Titel hier ist doof)
+# Ausformulierte Aufgaben zu Modul 1 EF

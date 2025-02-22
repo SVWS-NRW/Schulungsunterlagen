@@ -1,7 +1,5 @@
 # Schulungsmodule für die gymnasiale Oberstufe
 
-Modul 1: Grundlagen bis EF (2 Tage)
+3. **Modul Sek II-Koordination** Tag 1 - Klausurplanung, Abiturplanung, exotischere Sonderfälle, **Praxiscafé**
 
-Modul 2: Q-Phase bis Abitur
-
-Modul 3: Leitungsmodul 
++ Klausurplanung
