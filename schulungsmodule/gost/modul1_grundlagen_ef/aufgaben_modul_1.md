@@ -1,5 +1,7 @@
 # Ausformulierte Aufgaben zu Modul 1 EF
 
+Die Aufgaben sollen Ihnen helfen, die Bedienung zu erschließen und einzuüben, auf mögliche Fehlerquellen aufmerksam machen und einen Gesamtüberblick über alle Verfahren verschaffen.
+
 ## 1. Orientierung
 
 ## 2. Oberstufe einrichten

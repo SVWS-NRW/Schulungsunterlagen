@@ -7,31 +7,61 @@ Wir benötigen hauptsächlich aus SchILD
 + Katalog für *Fächer*
 + *Lehrkräfte* evtl. für Lehrberechtigungen
 + Leistungsdaten im aktuellen Halbjahr der *Schüler*
-+ Einige weitere Daten der Schüler, etwa zur Schullaufbahn, Gliederung o.Ä. 
++ Einige weitere Daten der Schüler, etwa zur Schullaufbahn, Gliederung o.Ä.
++ Nuterrechten erlauben nicht allen alles - und das ist auch richtig so!
 
-**Aufgaben 1.1 "SchILD-Leistungsdaten"**: Schüler Leistungsdaten des Aktuellen Halbjahres anschauen, bei einem Schüler Fach ändern, hinzufügen, Kurs ändern
+**Aufgaben 1.1 "Kontrollieren Sie existierende Kurse**: Öffnen Sie den Katalog mit den Kursen und schauen Sie, welche Einstellungen für Kurse vorgenommen werden können.
 
-**Aufgaben 1.1 "SchILD Fächer der Oberstufe"**: (z.B.
-+ Prüfen L6/L7, Statistikbezeichnungen,
-+ Fach nicht als Oberstufe markiert,
-+ Fach nachtragen (Sichtbarkeit)
+>[!TIP] Moderationshinweis
+> Viel ist hier nichts zu machen und im Moment dient die Ansicht nur zur Kontrolle.
+> Erklären: Kursarten
 
-**Aufgaben 1.1 "SchILD Sprachenfolge korrigieren"**: Gehen Sie... 
+**Aufgaben 1.1 "SchILD Fächer der Oberstufe"**:
++ Öffen Sie den Katalog für Fächer und schauen Sie, welche Einstellungen vorgenommen werden können.
++ Finden Sie heraus, wie ein Fach als *Fach für die Oberstufe* markiert werden kann.
++ Beachten Sie die Statistikbezeichnungen: Was bedeuten bei den Sprachen die Zahlen hinter dem Fachkürzel (etwa F6, F7?) 
++ Stellen Sie ein Fach auf "unsichtbar", was verändert sich und überlegen Sie, wieso man Katalogeinträge auf "unsichtbar" stellen kann. Welche Fehlerquelle liegt in dieser Einstellung?
 
-**Aufgaben 1.1. "SchILD Sprachenfolge Gruppenprozesse**, Sprachenfolge mit GP ändern (Hinweis: Warnung vor Automatismen)
-
-> [!WARNING] Aufgabenhinweis
-> Gruppenprozesse überschreiben U.U. zuvor vorgenommene manuelle Änderungen. Hier muss man denken und braucht Prozesse im Haus.
-
-**Aufgaben 1.1 "Kontrollieren Sie existierende Kurse**: Kontrolle der Kurse; hier anschauen, was da alles drin ist. Viel muss aber nicht gemacht werden
-
-**Aufgaben 1.1. "SchILD Schüler neu aufnehmen für die kommende EF"**: Tüdelü
-
-**Aufgaben 1.1 "SchILD Klassen- und Versetzungstabelle"**: z.B. Folgeklasse bei 10ern eintragen, ob es die EF gibt (sichtbar)
+**Aufgaben 1.1 "SchILD Klassen- und Versetzungstabelle"**:
++ Schauen Sie durch die Klassen- und Versetzungstabelle - was für Einstellungen werden hier vorgenommen?
++ Kontrollieren Sie, ob es eine *EF* gibt, ob diese *sichtbar* ist und ob die Einstellungen für die EF korrekt sind.
++ Kontrollieren Sie, ob die 10er eine Folgeklasse *EF* eingetragen haben.
 
 > [!TIP] Moderationshinweis
 > * Klassenlehrer bei den 10ern in Ruhe lassen und nicht durch neue Beratungslehrer ersetzen.
 > * Eventuell müssen die Rechte des aktuellen Nutzers kontrolliert werden
+
+**Aufgaben 1.1 "SchILD Schülerdaten"**: Schauen Sie in SchILD in die
++ Individualdaten,
++ die unterschiedlichen Reiter im *Aktuellen Halbjahr*
++ und besonders die *Leistungsdaten* im Aktuellen Halbjahr
+und geben Sie an, welche Daten jeweils erfasst werden und wo sich Daten finden, die für die Oberstufenlaufbahn relevant sind.
+
+**Aufgaben 1.1 "SchILD-Leistungsdaten"**: Gehen Sie in die Leistungsdaten eines Schülers (m/w/d) in der Q1 und 
++ ändern Sie eine Kursart,
++ fügen Sie ein Fach hinzu
++ und lassen Sie den Schüler einen Kurswechsel durchführen (gleiches Fach, anderer Kurs).
+
+**Aufgaben 1.1 "SchILD Sprachenfolge korrigieren"**: Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Sie dem Schüler eine weitere Sprache zu, die in der Sekundarstufe 1 von Jahrgang 6 bis 10 belegt worden sein soll. 
+
+**Aufgaben 1.1. "SchILD Gruppenprozesse**: Finden Sie einen Gruppenprozess, der für die Verwaltung von Oberstufenschüler sinnvoll sein könnte.
+
+>[!TIP] Moderationshinweis
+> Hinweis darauf, dass das Abitur mit vielen Gruppenprozessen durchgeführt werden kann.
+> Auch bei den Leistungsdaten sind Gruppenprozesse später hilfreich (etwa zum Eintragen von Noten/Fehlstunden.)
+
+> [!WARNING] Aufgabenhinweis
+> Gruppenprozesse überschreiben U.U. zuvor vorgenommene manuelle Änderungen. Hier muss man denken und braucht Prozesse im Haus.
+
+**Aufgaben 1.1. "SchILD Sprachenfolge Gruppenprozesse**: Fügen Sie Schülern (m/w/d) der Q2 Sprachen in der Sprachenfolge per Gruppenprozess hinzu (wir nehmen Schüler der Q2, da die für unsere EF-Schulung keine Rolle mehr spielen).
+
+**Aufgaben 1.1. "SchILD Schüler neu aufnehmen für die kommende EF"**: Nehmen Sie eine Schülerin neu in eine der 10. Klassen auf, die ebenfalls in der kommenden EF in die Oberstufe gehen wird. In welchen Reitern sind welche Angaben aufzunehmen?`
+
+>[!TIP] Moderationshinweis
+> Neuaufnahmen sind die SL/AL/das Sekratariat je nach Verfahren an der Schule durchzuführen. Die BL können dann weitere Details nachtragen.
+> Wir brauchen auf jedenfalls Individualdaten zu Name, Vorname, Geburtsdatum, dazu dann vorherige Schule, wichtig ist die Sprachenfolge (!), in der Praxis ist es oft hilfreich, vorherige Noten mit in vorherigen Lernabschnitten zu erfassen (besonders, wenn jemand in der Q-Phase neu dazukommt.)
+
+# => HIER WEITER <=
 
 ## Orientierung im SVWS-Client
 
