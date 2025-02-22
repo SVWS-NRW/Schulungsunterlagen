@@ -2,6 +2,13 @@
 
 ## SchILD-NRW-3
 
+Wir benötigen hauptsächlich aus SchILD
++ Katalog *Kurse* zur Kontrolle
++ Katalog für *Fächer*
++ *Lehrkräfte* evtl. für Lehrberechtigungen
++ Leistungsdaten im aktuellen Halbjahr der *Schüler*
++ Einige weitere Daten der Schüler, etwa zur Schullaufbahn, Gliederung o.Ä. 
+
 **Aufgaben 1.1 "SchILD-Leistungsdaten"**: Schüler Leistungsdaten des Aktuellen Halbjahres anschauen, bei einem Schüler Fach ändern, hinzufügen, Kurs ändern
 
 **Aufgaben 1.1 "SchILD Fächer der Oberstufe"**: (z.B.
