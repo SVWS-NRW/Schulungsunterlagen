@@ -61,14 +61,16 @@ und geben Sie an, welche Daten jeweils erfasst werden und wo sich Daten finden, 
 > Neuaufnahmen sind die SL/AL/das Sekratariat je nach Verfahren an der Schule durchzuführen. Die BL können dann weitere Details nachtragen.
 > Wir brauchen auf jedenfalls Individualdaten zu Name, Vorname, Geburtsdatum, dazu dann vorherige Schule, wichtig ist die Sprachenfolge (!), in der Praxis ist es oft hilfreich, vorherige Noten mit in vorherigen Lernabschnitten zu erfassen (besonders, wenn jemand in der Q-Phase neu dazukommt.)
 
-# => HIER WEITER <=
-
 ## Orientierung im SVWS-Client
 
 > [!TIP] Moderationshinweis
-> + Durchgehen aller Apps und dann der *Apps/Untertabs*, die für uns relevant sind (Schüler, Oberstufe)
+> + Durchgehen aller Apps, hier im Vergleich zu SchILD3 von eben (Basisdaten, Kurse, Lehrer, ...)
+> + Unterschiede und Neues, etwa **Stundenpläne**
+> + und dann der *Apps/Untertabs*, die für uns relevant sind (Schüler, Oberstufe)
 > + der SVWS-Client wird in der kommenden Zeit immer weitere Funktionen anbieten.
-> + Klausurplanung ist ein anderes Modul
+> + **Klausurplanung** ist ein anderes Modul
+
+# Hier weiter!!!
 
 **Aufgaben 1.1 "SVWS Client Apps anklicken und zurück Button nutzen"**:
 + Links teste
