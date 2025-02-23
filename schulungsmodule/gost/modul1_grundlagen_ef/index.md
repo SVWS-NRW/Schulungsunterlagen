@@ -4,7 +4,7 @@
 
 Dieses Modul behinhaltet die Planung einer neuen EF im Halbjahr 10.2 bis hin zum Zeugnisdruck in der EF.2 mit SchILD-NRW3 und hauptsächlich dem SVWS-Client.
 
-Dies ist keine (rechtliche) APO-GoST-Schulung zur Laufbahnberatung, sondern zur technischen Durchführung. Dennoch werden exemplarisch Laufbahnen, Bartungsfälle und Tipps zur Praxis behandelt.
+Dies ist keine (rechtliche) APO-GoST-Schulung zur Laufbahnberatung, sondern zur technischen Durchführung. Dennoch werden exemplarisch Laufbahnen, Bartungsfälle und Tipps zur Praxis behandelt. Eindeutige grammatikalsche Geschlechtsbezeichnungen meinen immer m/w/d/etc.
 
 Dieses Modul ist auf zwei Tage ausgelegt. 
 
@@ -22,15 +22,15 @@ Die Fortbildungsmodule finden sich hier: https://svws-nrw.github.io/Schulungsunt
 + Noteneintragung
 + Hierzu werden die Grundlagen am Tag 1 Anhand von Aufgaben besprochen, am Tag 2 folgen Spezialaufgaben zur Vertiefung, Übung und Erweiterung
 
-**Hinweis**:
-+  Mehrere Fenster im SVWS-Client sollten nicht geöffnet werden.
+>[!TIP] Mehrere Fenster im SVWS-Client sollten nicht geöffnet werden.
+> Da sich Browserfenster nicht automatisch aktualisieren, können Fenster mit veralteten Informationen bei eventueller Dateneingabe und -änderung zu Problemem führen.
 
 ## Strukturplanung dieser Schulung
 
 1. **Modul Planung der EF** Tag 1 - Aufsetzen der Wahlen und EF Beratung, WebLUPO, bis Ende EF und Leistungsdaten 
    **Modul Planung der EF** Tag 2 - Blockung und Leistungsdaten
 
-Es gibt in der GoST weiter Folgemodule
+Es gibt in der GoST weitere Folgemodule
 
 2. **Modul Q-Phase und Abitur** Tag 1 - Q-Phase und Abitur, Spezialfälle
 3. **Modul Sek II-Koordination** Tag 1 - Klausurplanung, Abiturplanung, exotischere Sonderfälle, **Praxiscafé**
