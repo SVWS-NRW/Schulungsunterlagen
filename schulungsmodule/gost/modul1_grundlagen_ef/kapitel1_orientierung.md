@@ -93,4 +93,3 @@ und geben Sie an, welche Daten jeweils erfasst werden und wo sich Daten finden, 
 
 >[!TIP] Praxisarbeit
 > In der Praxis könnte man die SuS dublizieren und in eine temporäre neuer 10er-Klasse stecken, man kann das Problem einfach ignorieren, mit einer Schülerliste (in SchILD) arbeiten, ... hier gilt: Jede Schule mit ihren jeweiligen Personen funktioniert anders. Entwickeln Sie Prozesse, die für Ihre Schule funktionieren. 
-
