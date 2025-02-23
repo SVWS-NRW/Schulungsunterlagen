@@ -10,7 +10,7 @@ Dieses Modul ist auf zwei Tage ausgelegt.
 
 Die Fortbildungsmodule finden sich hier: https://svws-nrw.github.io/Schulungsunterlagen/
 
-## Inhalt:
+## Inhalt dieses Moduls
 
 + Konfigurieren der Fächer in der Schulverwaltungssoftware SchILD-NRW3 und SVWS-Client
 + Einüben des Bedienkonzepts des SVWS-Clients
@@ -25,7 +25,9 @@ Die Fortbildungsmodule finden sich hier: https://svws-nrw.github.io/Schulungsunt
 >[!TIP] Mehrere Fenster im SVWS-Client sollten nicht geöffnet werden.
 > Da sich Browserfenster nicht automatisch aktualisieren, können Fenster mit veralteten Informationen bei eventueller Dateneingabe und -änderung zu Problemem führen.
 
-## Strukturplanung dieser Schulung
+Pausen, Kaffee und Kekse: Mittagspause und kleinere Pausen nach Bedarf. Kaffee und Kekse? Toiletten?
+
+## Weitere Module
 
 1. **Modul Planung der EF** Tag 1 - Aufsetzen der Wahlen und EF Beratung, WebLUPO, bis Ende EF und Leistungsdaten 
    **Modul Planung der EF** Tag 2 - Blockung und Leistungsdaten
@@ -39,6 +41,12 @@ Eventuell könnten Sie auch diese Module interessieren:
 + Dies
 + Jenes
 
+## Evaluation
+
+Am Ende der Veranstaltung findet eine Evaluation statt.
+
+Die Teilnahmebescheinigungen werden zeitnah automatisch generiert und verschickt.
+
 ## Vorstellen des Supportkonzepts
 
 1. Fortbildungen    [lfb.nrw-bra.de/](https://lfb.nrw.de/bra/20426)
@@ -51,6 +59,7 @@ Alles ist über diese Links erreichbar:
 
 * SVWS-Seite des MSB: https://www.svws-nrw.de
 * SVWS-Client und Server: https://doku.svws-nrw.de
+
 
 
 
