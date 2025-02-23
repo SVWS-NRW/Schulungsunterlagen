@@ -25,7 +25,7 @@ Wir benötigen hauptsächlich aus SchILD
 **Aufgaben 1.1 "SchILD Klassen- und Versetzungstabelle"**:
 + Schauen Sie durch die Klassen- und Versetzungstabelle - was für Einstellungen werden hier vorgenommen?
 + Kontrollieren Sie, ob es eine *EF* gibt, ob diese *sichtbar* ist und ob die Einstellungen für die EF korrekt sind.
-+ Kontrollieren Sie, ob die 10er eine Folgeklasse *EF* eingetragen haben.
++ Kontrollieren Sie, ob die 10er eine Folgeklasse *EF* eingetragen haben (ebenso Q1 als Folgeklasse der EF bzw. Q2 aös Folgeklasse der Q1).
 
 > [!TIP] Moderationshinweis
 > * Klassenlehrer bei den 10ern in Ruhe lassen und nicht durch neue Beratungslehrer ersetzen.
