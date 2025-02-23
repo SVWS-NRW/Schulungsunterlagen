@@ -4,7 +4,7 @@
 
 Dieses Modul behinhaltet die Planung einer neuen EF im Halbjahr 10.2 bis hin zum Zeugnisdruck in der EF.2 mit SchILD-NRW3 und hauptsächlich dem SVWS-Client.
 
-Dies ist keine (rechtliche) APO-GoST-Schulung zur Laufbahnberatung, sondern zur technischen Durchführung. Dennoch werden exemplarisch Laufbahnen, Bartungsfälle und Tipps zur Praxis behandelt. Eindeutige grammatikalsche Geschlechtsbezeichnungen meinen immer m/w/d/etc.
+Dies ist keine (rechtliche) APO-GOSt-Schulung zur Laufbahnberatung, sondern zur technischen Durchführung. Dennoch werden exemplarisch Laufbahnen, Bartungsfälle und Tipps zur Praxis behandelt. Eindeutige grammatikalsche Geschlechtsbezeichnungen meinen immer m/w/d/etc.
 
 Dieses Modul ist auf zwei Tage ausgelegt. 
 
