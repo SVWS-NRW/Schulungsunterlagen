@@ -2,6 +2,8 @@
 
 Die Aufgaben sollen Ihnen helfen, die Bedienung zu erschließen und einzuüben, auf mögliche Fehlerquellen aufmerksam machen und einen Gesamtüberblick über alle Verfahren verschaffen.
 
+Bei allen Aufgaben ist explizit gewünscht, dass die Teilnehmenden der Schulung miteinander in Kontakt treten und Erfahrungen austauschen! Bitte sprechen Sie beim Bearbeiten der Aufgaben miteinander!
+
 ## 1. Orientierung
 
 ## 2. Oberstufe einrichten

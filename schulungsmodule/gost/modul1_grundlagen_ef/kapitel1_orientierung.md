@@ -72,19 +72,25 @@ und geben Sie an, welche Daten jeweils erfasst werden und wo sich Daten finden, 
 
 # Hier weiter!!!
 
-**Aufgaben 1.1 "SVWS Client Apps anklicken und zurück Button nutzen"**:
-+ Links teste
-+ Vor- und Zurück
-+ Wechseln Leistungsdaten, Oberstufe, Laufbahnen hin- und herspringen; Stundenplan anzeigen.
-+ ... ?
+**Aufgaben 1.1 "SVWS Client Apps und vor und zurück"**: Klicken Sie sich durch die **Apps** und orientieren Sie sich, was der SVWS-Client bietet. Nutzen Sie hierbei die Vor- und Zurückknöpfe Ihres Browers.
++ Wo lässt der der Stundenplan eines Schülers anzeigen?
++ Wechseln Sie zu den Leistungsdaten der Schüler
++ Wo findet sich die Laufbahn von Oberstufenschülern?
++ **Weiteres?**
++ Vergleichen Sie abschließend SchILD-NRW mit dem SVWS-Client, wo liegen Vor- oder Nachteile?
 
-**Aufgaben 1.1 "SVWS-Client Filter" auf Schüler filtern"**: Filtern Sie in der Schüleransicht auf die 10er.
+>[!Tip] Kein Stundenplanalgorithmus
+> Der SVWS-Client bietet derzeit keinen Stundenplanalgorithmus. Stundenpläne sind somit aus externen Programmen zu importieren oder können auch in kleineren Systemem von Hand zusammengeklickt werden.
 
-**Aufgaben 1.1 "SVWS-Client Linkklammern"**, bei den 10ern; die Klammer, um zu SuS zu springen, werden noch sehr wichtig
+**Aufgaben 1.1 "SVWS-Client Filter" auf Schüler filtern"**: *Filtern* Sie in der *Schüleransicht* auf die 10er.
 
-* Vergleichen SchILD/SVWS-Client um ein Feeling zu erzeugen
+**Aufgaben 1.1 "Link-Symbole nutzen"**: An einigen Stellen finden sich kleine Linksymoble, etwa in der Laufbahn von Schülern, um direkt zu diesem Schüler zu springen. Probieren Sie die Links aus und gehen Sie über das Brower-"Zurück" zur Laufbahnübersicht.
+
+>[!Tip] Diese Links sind wichtig!
+> Diese Links werden später bei der Laufbahnberatung und Arbeit mit konkreten Schülerdatensätzen sehr hilfreich.
 
 **Gruppenaufgabe 1.1 "10er auswählen, die in die neue EF gehen**: Nicht alle Ihre 10er werden in die neue EF gehen. Kann man diese irgendwie isolieren?
 
-In der Praxis könnte man die SuS dublizieren und in eine temporäre neuer 10er-Klasse stecken, man kann das Problem einfach ignorieren, mit einer Schülerliste (in SchILD) arbeiten, ... 
+>[!TIP] Praxisarbeit
+> In der Praxis könnte man die SuS dublizieren und in eine temporäre neuer 10er-Klasse stecken, man kann das Problem einfach ignorieren, mit einer Schülerliste (in SchILD) arbeiten, ... hier gilt: Jede Schule mit ihren jeweiligen Personen funktioniert anders. Entwickeln Sie Prozesse, die für Ihre Schule funktionieren. 
 
