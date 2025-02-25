@@ -12,23 +12,26 @@ Die nachfolgenden Aufgaben beziehen sich überwiegend auf die App Oberstufe im W
 
 ![Allgemeine Vorlage](./graphics/gost_modul1_grundlagen_ef_allgVorlage.png)  
   
+      
 
-**Aufgabe 2.1 "Fächer der Oberstufe kontrollieren und korrigieren**:
+**Aufgabe 2.1 "Fächer der Oberstufe kontrollieren und korrigieren**:  
 Sie haben bereits die Fächer der Oberstufe mit Hilfe von Schild3 bearbeitet. 
-+ Sichten Sie alle Fächer der Oberstufe in der allgemeinen Vorlage.
-+ Ergänzen Sie Niederländisch als neu einsetzende Fremdsprache in der EF (oder ein/mehrere andere Fächer gemäß den Vorgaben an Ihrer Schule). Dies kann durchaus auch im Webclient realisiert werden.
-+ Kontrollieren Sie die Stündigkeit - insbesondere bei den neu einsetzenden Fremdsprachen und korrigieren Sie diese ggf. 
-+ Passen Sie die LK-Wahlmöglichkeiten sowie die Wahl des dritten und vierten Abiturfaches an. Gemäß den Vorgaben Ihrer Schule oder nach diesen Vorgaben:  
-  + Musik soll auch als LK zur Auswahl stehen  
-  + Physik kann nur als Grundkurs gewählt werden
-  + Religion kann nicht im Abitur belegt werden
-+ Richten Sie einen Projektkurs z.B. für das Fach Informatik mit Biologie als Leitfach. 
+1. Sichten Sie alle Fächer der Oberstufe in der allgemeinen Vorlage.
+2.  Ergänzen Sie Niederländisch als neu einsetzende Fremdsprache in der EF (oder ein/mehrere andere Fächer gemäß den Vorgaben an Ihrer Schule). Dies kann durchaus auch im Webclient realisiert werden.
+3. Kontrollieren Sie die Stündigkeit - insbesondere bei den neu einsetzenden Fremdsprachen und korrigieren Sie diese ggf. 
+4. Passen Sie die LK-Wahlmöglichkeiten sowie die Wahl des dritten und vierten Abiturfaches an. Gemäß den Vorgaben Ihrer Schule oder nach diesen Vorgaben:  
+    + Musik soll auch als LK zur Auswahl stehen  
+    + Physik kann nur als Grundkurs gewählt werden
+    + Religion kann nicht im Abitur belegt werden
+5. Richten Sie einen Projektkurs z.B. für das Fach Informatik mit Biologie als Leitfach. 
 
-
+<br><br>
 
 **Aufgaben 1.2 "Geforderte Kombinationen"**: Legen sie eine Fachkombination fest, die *gefordert* wird, hier wird ein Mathe LK an einen Physik Gk gekoppelt.
 
+
 **Aufgaben 1.2 "Verbotene Kombinationen"**: Evangelische Religion und Katholische Religion schließen sich gegenseitig aus.
+
 
 **Hinweis**: 
 * Kombinationen müssen nur in einer Richtung verboten werden: Schließt ER KR aus, dann schließt auch automatisch KR ER aus.
