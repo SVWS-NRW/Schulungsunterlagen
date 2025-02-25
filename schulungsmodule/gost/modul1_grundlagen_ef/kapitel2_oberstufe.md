@@ -1,8 +1,12 @@
 # 2. Vorbereitung in der App Oberstufe
 
-Jetzt werden die Vorbereitungen getroffen, dass Schüler eines Jahrgangs auch tatsächlich irgendwelche Fächer wählen kann.
+Im folgenden wird eine *Allgemeine Vorlage* in der App Oberstufe erstellt. In dieser Vorlage werden Standard-Einstellungen gesetzt, die in der Regel in allen konkreten Abiturjahrgängen gelten. Beispielsweise kann in der Allgemeinen Vorlage festgelegt werden, dass das Fach Physik grundsätzlich nicht als Leistungskurs gewählt werden kann. Falls dies für einen spezifischen Abiturjahrgang dennoch angeboten wird, kann dies selbstverständlich separat für diesen Jahrgang angepasst werden. 
 
-In der App "Oberstufe" gibt es die *Allgemeine Vorlage* und konkreten *Abiturjahrgänge*. 
+Wir werden im folgenden:
+In den Aufgaben sind Vorschläge für einstellujngen; Sie könnne aber auch die Vorgaen an ihrer Schule verwenden.
+
+
+ 
 
 In der **Allgemeinen Vorlage** wird nun die Schule *generell* eingestellt, daher was grundsätzlich wählbar ist und ein möglicher LK ist und so weiter.
 
