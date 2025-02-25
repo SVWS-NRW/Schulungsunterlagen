@@ -1,18 +1,30 @@
 # 2. Vorbereitung in der App Oberstufe
 
-Im folgenden wird eine *Allgemeine Vorlage* in der App Oberstufe erstellt. In dieser Vorlage werden Standard-Einstellungen gesetzt, die in der Regel in allen konkreten Abiturjahrgängen gelten. Beispielsweise kann in der Allgemeinen Vorlage festgelegt werden, dass das Fach Physik grundsätzlich nicht als Leistungskurs gewählt werden kann. Falls dies für einen spezifischen Abiturjahrgang dennoch angeboten wird, kann dies selbstverständlich separat für diesen Jahrgang angepasst werden. 
-
-Wir werden im folgenden:
-In den Aufgaben sind Vorschläge für einstellujngen; Sie könnne aber auch die Vorgaen an ihrer Schule verwenden.
+Im folgenden wird eine **Allgemeine Vorlage** in der App Oberstufe erstellt. Anschließend folgt das Anlegen eines **konkreten Abiturjahrgangs**, und zwar den Abiturjahrgang für die kommende EF.  
+In der allgemeinen Vorlage werden zunächst Standard-Einstellungen gesetzt, die in der Regel in allen konkreten Abiturjahrgängen gelten. Beispielsweise kann in der allgemeinen Vorlage festgelegt werden, dass das Fach Physik grundsätzlich nicht als Leistungskurs gewählt werden kann. Falls ein Physik LK für einen spezifischen Abiturjahrgang dennoch angeboten wird, kann dies später separat für diesen Jahrgang angepasst werden. 
 
 
- 
 
-In der **Allgemeinen Vorlage** wird nun die Schule *generell* eingestellt, daher was grundsätzlich wählbar ist und ein möglicher LK ist und so weiter.
 
-Ebenso sind die Fächer zu kontrollieren.
+## Allgemeine Vorlage
 
-**Aufgaben 1.2 "Oberstufe Allgemeine Vorlage"**: legen Sie eine Allgemeine Vorlage fest, die aus ihrer Erfahrung zu der Schule passt.
+Die nachfolgenden Aufgaben beziehen sich überwiegend auf die App Oberstufe im Webclient. Die Tabs Fächer, Beratung und Klausurplanung können gemäß den Vorgaben Ihrer Schule angepasst werden. Alternativ finden Sie in jeder Aufgabe auch Beispielvorgaben, die Sie nutzen können. 
+
+![Allgemeine Vorlage](./graphics/gost_modul1_grundlagen_ef_allgVorlage.png)  
+  
+
+**Aufgabe 2.1 "Fächer der Oberstufe kontrollieren und korrigieren**:
+Sie haben bereits die Fächer der Oberstufe mit Hilfe von Schild3 bearbeitet. 
++ Sichten Sie alle Fächer der Oberstufe in der allgemeinen Vorlage.
++ Ergänzen Sie Niederländisch als neu einsetzende Fremdsprache in der EF (oder ein/mehrere andere Fächer gemäß den Vorgaben an Ihrer Schule). Dies kann durchaus auch im Webclient realisiert werden.
++ Kontrollieren Sie die Stündigkeit - insbesondere bei den neu einsetzenden Fremdsprachen und korrigieren Sie diese ggf. 
++ Passen Sie die LK-Wahlmöglichkeiten sowie die Wahl des dritten und vierten Abiturfaches an. Gemäß den Vorgaben Ihrer Schule oder nach diesen Vorgaben:  
+  + Musik soll auch als LK zur Auswahl stehen  
+  + Physik kann nur als Grundkurs gewählt werden
+  + Religion kann nicht im Abitur belegt werden
++ Richten Sie einen Projektkurs z.B. für das Fach Informatik mit Biologie als Leitfach. 
+
+
 
 **Aufgaben 1.2 "Geforderte Kombinationen"**: Legen sie eine Fachkombination fest, die *gefordert* wird, hier wird ein Mathe LK an einen Physik Gk gekoppelt.
 
@@ -41,3 +53,7 @@ Ebenso sind die Fächer zu kontrollieren.
 * der Jahrgang existiert jetzt neben eventuellen anderen Jahrgängen und der *Allgemeinen Vorlage*. Hier ist nun immer zu kontrollieren, ob man den richtigen Jahrgang gewählt hat.
 * Die gemachten Einstellungen stehen nun im SVWS-Client bei der Laufbahnberatung und für WebLuPO zur Verfügung.
 * Gehen wir in den **Tab Laufbahn** sind wir schockiert: Hier steht kein Schüler.
+
+
+> [!TIP] 
+> Hilfe finden Sie auch [hier](https://help.svws-nrw.de/gost/beratung/).
