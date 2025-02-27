@@ -23,9 +23,10 @@ Wir benötigen hauptsächlich aus SchILD
 + Stellen Sie ein Fach auf "unsichtbar", was verändert sich und überlegen Sie, wieso man Katalogeinträge auf "unsichtbar" stellen kann. Welche Fehlerquelle liegt in dieser Einstellung?
 
 **Aufgaben 1.1 "SchILD Klassen- und Versetzungstabelle"**:
-+ Schauen Sie durch die Klassen- und Versetzungstabelle - was für Einstellungen werden hier vorgenommen?
++ Schauen Sie durch die Klassen- und Versetzungstabelle - wwelche Einstellungen werden hier vorgenommen?
 + Kontrollieren Sie, ob es eine *EF* gibt, ob diese *sichtbar* ist und ob die Einstellungen für die EF korrekt sind.
-+ Kontrollieren Sie, ob die 10er eine Folgeklasse *EF* eingetragen haben (ebenso Q1 als Folgeklasse der EF bzw. Q2 aös Folgeklasse der Q1).
++ Kontrollieren Sie, ob die 10er eine Folgeklasse *EF* eingetragen haben (ebenso Q1 als Folgeklasse der EF bzw. Q2 als Folgeklasse der Q1).
++ Beachten Sie: Die Klassen sind - im Gegensatz zu Schild2 - für jeden Abschnitt angelegt. So wir z.B. auch die Sichtbarkeit abschnittsweise gesteuert, ebenso Klassenlehrer: Wählen Sie zur Ansicht vergangene Abschnitte aus.
 
 > [!TIP] Moderationshinweis
 > * Klassenlehrer bei den 10ern in Ruhe lassen und nicht durch neue Beratungslehrer ersetzen.
@@ -33,14 +34,16 @@ Wir benötigen hauptsächlich aus SchILD
 
 **Aufgaben 1.1 "SchILD Schülerdaten"**: Schauen Sie in SchILD in die
 + Individualdaten,
-+ die unterschiedlichen Reiter im *Aktuellen Halbjahr*
-+ und besonders die *Leistungsdaten* im Aktuellen Halbjahr
++ die unterschiedlichen Reiter im *Aktuellen Halbjahr*,
++ und besonders die *Leistungsdaten* im *Aktuellen Halbjahr*
 und geben Sie an, welche Daten jeweils erfasst werden und wo sich Daten finden, die für die Oberstufenlaufbahn relevant sind.
 
 **Aufgaben 1.1 "SchILD-Leistungsdaten"**: Gehen Sie in die Leistungsdaten eines Schülers (m/w/d) in der Q1 und 
 + ändern Sie eine Kursart,
-+ fügen Sie ein Fach hinzu
++ fügen Sie ein Fach hinzu,
++ löschen Sie ein Fach
 + und lassen Sie den Schüler einen Kurswechsel durchführen (gleiches Fach, anderer Kurs).
+
 
 **Aufgaben 1.1 "SchILD Sprachenfolge korrigieren"**: Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Sie dem Schüler eine weitere Sprache zu, die in der Sekundarstufe 1 von Jahrgang 6 bis 10 belegt worden sein soll. 
 
@@ -92,4 +95,4 @@ und geben Sie an, welche Daten jeweils erfasst werden und wo sich Daten finden, 
 **Gruppenaufgabe 1.1 "10er auswählen, die in die neue EF gehen**: Nicht alle Ihre 10er werden in die neue EF gehen. Kann man diese irgendwie isolieren?
 
 >[!TIP] Praxisarbeit
-> In der Praxis könnte man die SuS dublizieren und in eine temporäre neuer 10er-Klasse stecken, man kann das Problem einfach ignorieren, mit einer Schülerliste (in SchILD) arbeiten, ... hier gilt: Jede Schule mit ihren jeweiligen Personen funktioniert anders. Entwickeln Sie Prozesse, die für Ihre Schule funktionieren. 
+> In der Praxis könnte man die SuS dublizieren (aber nicht zu empfehlen!!!) und in eine temporäre neuer 10er-Klasse stecken, man kann das Problem einfach ignorieren, mit einer Schülerliste (in SchILD) arbeiten, ... hier gilt: Jede Schule mit ihren jeweiligen Personen funktioniert anders. Entwickeln Sie Prozesse, die für Ihre Schule funktionieren. 
