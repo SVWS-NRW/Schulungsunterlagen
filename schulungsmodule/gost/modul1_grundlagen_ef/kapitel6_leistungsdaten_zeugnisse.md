@@ -26,12 +26,17 @@
 
 **Aufgaben 1.6 "Teilleistungen"**: evtl. in Erweiterungsfrage
 
+**Aufgaben 1.6 "Zeugnisse vorbereiten"**:
++ Konferenzdaten, 
++ Beratungen
++ Fehlstunden/Kontrolle
++ Blabla
+
 **Aufgaben 1.6 "Zeugniskonferenzvorlage per Report**
 
 Hinweis: Konferenzmodul? Angepasste Konferenzvorlage?
 
-**Aufgaben 1.6 "Zeugnisse vorbereiten"**:
-
 **Aufgaben 1.6 "Zeugnisse drucken:** Tede
++ Reports runterladen/anpassen (.ini)
 * Aufgabe Blabla
 * Wikiartikel zum Zeugnisdruck, Versetzung, Fehlern usw: https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=SchILD-NRW_3#Versetzung,_Abschlüsse_und_Zeugnisdruck
