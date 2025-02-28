@@ -26,7 +26,11 @@
 
 **Aufgaben 1.6 "Teilleistungen"**: evtl. in Erweiterungsfrage
 
-**Aufgaben 1.6 "Zeugnisse vorbereiten"**: 
+**Aufgaben 1.6 "Zeugniskonferenzvorlage per Report**
+
+Hinweis: Konferenzmodul? Angepasste Konferenzvorlage?
+
+**Aufgaben 1.6 "Zeugnisse vorbereiten"**:
 
 **Aufgaben 1.6 "Zeugnisse drucken:** Tede
 * Aufgabe Blabla
