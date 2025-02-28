@@ -12,13 +12,22 @@ Jetzt werden Wahlen und Beratungen durchgeführt, so dass diese dann auch konkre
 * Anzeigen: nur gewählte, nicht alle
 * Fachwahlen merken, probieren, und Wiederherstellen
 
+**Aufgaben 1.3 "Modi der Wahlen"**
++ abc
++ def
 
-**Beispiel für Laufbahnberatung hier schon? Bietet sich ja an?**
+**Aufgaben 1.3 "Springen zu Laufbahnplanung und Sprachenfolge**
++ Oben rechts anklicken
++ Der link links ist das gleiche wie Laufbahnplanung oben rechts
++ Rückwärtsbutton
 
+**Beispiel für Laufbahnberatung**
++ Eine vervollständigen
++ eine fehlerhafte Wahl korrigieren
 
 Die Wahlen können nach **WebLuPO** exportiert, dort vorgenommen und wieder zurückgespielt werden. 
 
-**Aufgaben 1.3 "Export von SuS**: Tudu
+**Aufgaben 1.3 "Export von SuS für WebLuPO**: Tudu
 
 **Aufgaben 1.3 "Export nur einer Auswahl an SuS für WebLuPO"**: Tada
 
@@ -27,7 +36,7 @@ Die Wahlen können nach **WebLuPO** exportiert, dort vorgenommen und wieder zur�
 * **Doku-Link zu WebLuPO**: https://doku.svws-nrw.de/weblupo/
 * **Installation von WebLuPO** (Technische Doku): https://doku.svws-nrw.de/projekte/WebLupo/
 
-**Das müsste definitiv auch mal gemacht werden?** **Wie setzt man WebLuPO auf? Müssen wir was dazu sagen?**
+**Das müsste definitiv auch mal gemacht werden?** **Wie setzt man WebLuPO auf? Müssen wir was dazu sagen? Link auf Doku**
 
 
 **Aufgaben 1.3 "Wahl in WebLuPO"**:
