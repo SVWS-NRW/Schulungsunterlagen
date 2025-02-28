@@ -22,7 +22,6 @@
 * Was besser ist, hängt von der Praxis und dem konkreten Schulsystem ab. 
 * **ACHTUNG**: Gibt es schon Noten, darf natürlich kein "rückgängig" mehr durchgeführt werden, denn mit den Leistungsdaten verschwinden auch die Noten!
 
-# Ende Tag 1 ???
 
 **Hinweis: vermutlich ist an dieser Stelle der Tag 1 schon lange vorbei? Wir müssen noch mal über's Timing nachdenken. Jo, Tat 1 ist schon LANGE vorbei?**
 

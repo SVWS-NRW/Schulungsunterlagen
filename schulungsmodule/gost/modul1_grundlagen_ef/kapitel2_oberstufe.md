@@ -16,7 +16,7 @@ Alternativ finden Sie in jeder Aufgabe auch Beispielvorgaben, die Sie nutzen kö
   
       
 
-**Aufgabe 2.1 "Fächer der Oberstufe kontrollieren und korrigieren**  
+**Aufgabe 2.1 "Fächer der Oberstufe kontrollieren und korrigieren"**  
 Sie haben bereits die Fächer der Oberstufe mit Hilfe von Schild3 bearbeitet. 
 1. Sichten Sie alle Fächer der Oberstufe in der allgemeinen Vorlage.
 2. Kontrollieren Sie insbesondere die Sprachenfächer: Wenn es F6 nicht mehr gibt, muss hier z.B. F7 stehen.
