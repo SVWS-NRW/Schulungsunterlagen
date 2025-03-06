@@ -76,6 +76,11 @@ Nachdem nun die allgemeinen Vorgaben für Wahlen und Beratung festgelegt wurden,
 **Aufgaben 1.2 "Konkreten Jahrgang anlegen"**    
 Legen Sie für die aktuelle Jahrgangsstufe 10 über das "+" Symbol den Abiturjahrgang an. 
 
+::: details
+Eine Anleitung finden Sie [hier](https://doku.svws-nrw.de/webclient/gost/abiturjahrgang/#einrichtung-der-jahrgange).
+:::
+
+
 
 **Aufgaben 1.2 "Kontrollieren und Anpassen der aus der Vorlage übernommenen Fächervorgaben"**
 Aufgrund vorübergehender Umstände, wie etwa Lehrerausfälle durch Elternzeit, müssen für diesen Jahrgang einige einmalige Anpassungen vorgenommen werden.
