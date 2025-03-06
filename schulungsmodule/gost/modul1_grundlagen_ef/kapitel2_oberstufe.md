@@ -28,6 +28,7 @@ Sie haben bereits die Fächer der Oberstufe mit Hilfe von Schild3 bearbeitet.
     + Religion kann nicht im Abitur belegt werden
 5. Richten Sie einen Projektkurs ein. z.B. für das Leitfach Informatik.
 
+[Infos zur Fächerangabe](https://doku.svws-nrw.de/webclient/gost/faecher/#angebotene-facher)
 
 <br><br>
 
@@ -76,9 +77,8 @@ Nachdem nun die allgemeinen Vorgaben für Wahlen und Beratung festgelegt wurden,
 **Aufgaben 1.2 "Konkreten Jahrgang anlegen"**    
 Legen Sie für die aktuelle Jahrgangsstufe 10 über das "+" Symbol den Abiturjahrgang an. 
 
-::: details
-Eine Anleitung finden Sie [hier](https://doku.svws-nrw.de/webclient/gost/abiturjahrgang/#einrichtung-der-jahrgange).
-:::
+:mag_right: Eine Anleitung finden Sie [hier](https://doku.svws-nrw.de/webclient/gost/abiturjahrgang/#einrichtung-der-jahrgange).
+
 
 
 
@@ -114,7 +114,7 @@ Hier ist nun immer zu kontrollieren, ob man den richtigen Jahrgang gewählt hat.
 Test:
 
 
-:bulb":
+:bulb:
 :mag_right:
 :file_folder:
 :key:
