@@ -88,7 +88,7 @@ Aufgrund vorübergehender Umstände, wie etwa Lehrerausfälle durch Elternzeit, 
 2. Der Beratungslehrer bietet einmalig den Projektkurs "Chemische Prozesse mathematisch modellieren und analysieren" an.
 3. Kontrollieren Sie die aus der Vorlage übernommenen Fachkombinationsregeln.
 
-:information_source: [Hinweise zur Eingabe des Beratungslehrers und der Textvorlagen](https://doku.svws-nrw.de/webclient/gost/beratung/#beratungslehrer-hinterlegen) 
+:information_source: [Hinweise zur Eingabe des Beratungslehrers und der Textvorlagen.](https://doku.svws-nrw.de/webclient/gost/beratung/#beratungslehrer-hinterlegen) 
 
 
 **Aufgaben 1.2 "Beratunglehrer und Textvorlagen anpassen"**
@@ -102,7 +102,7 @@ Passen Sie die Jahrgangsspezifischen Information im Tab Beratung an:
 In der App Laufbahnen werden alle Schülerinnen und Schüler aufgelistet, für die der konkrete Abiturjahrgang gültig ist. Da noch keine Wahlen stattgefunden haben, erscheinen an dieser Stelle noch etliche Laufbahnfehler der Schüler.
 1. Sichten Sie hier die Schüler der kommenden EF. Kontrollieren Sie ggf., ob auch die externen Schüler in der Liste erfasst sind.
 
-:information_source: [Infos über denb Laufbahn-Tab.](https://doku.svws-nrw.de/webclient/gost/laufbahn/#laufbahnen)   
+:information_source: [Infos zum Laufbahn-Tab.](https://doku.svws-nrw.de/webclient/gost/laufbahn/#laufbahnen)   
 Mit Wahlen im WebLuPO beschäftigen wir uns im nächsten Kapitel.
 
 
@@ -114,7 +114,6 @@ Hier ist nun immer zu kontrollieren, ob man den richtigen Jahrgang gewählt hat.
 * Die gemachten Einstellungen stehen nun im SVWS-Client bei der Laufbahnberatung und für WebLuPO zur Verfügung.
 * Gehen wir in den **Tab Laufbahn** sind wir schockiert: Hier steht kein Schüler.??? @felix: das versetehe ich nicht
 
-:information_source: [Hilfe finden Sie auch hier](https://help.svws-nrw.de/gost/beratung/).
 
 
 
