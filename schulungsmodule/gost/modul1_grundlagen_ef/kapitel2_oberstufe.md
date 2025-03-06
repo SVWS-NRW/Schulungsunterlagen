@@ -110,3 +110,22 @@ Hier ist nun immer zu kontrollieren, ob man den richtigen Jahrgang gewählt hat.
 
 > [!TIP] 
 > Hilfe finden Sie auch [hier](https://help.svws-nrw.de/gost/beratung/).
+
+Test:
+
+
+:bulb":
+:mag_right:
+:file_folder:
+:key:
+:question:
+:a:
+:hourglass:
+:stopwatch:
+:stop_sign:
+:globe_with_meridians
+:sos:
+:exclamation:
+::: info
+This is an info box.
+:::
