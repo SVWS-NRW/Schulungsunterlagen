@@ -65,24 +65,42 @@ Hier ein Beispieltext:
 
 <br><br>
 
+
+## Konkreter Abiturjahrgang für die kommende EF
+Nachdem nun die allgemeinen Vorgaben für Wahlen und Beratung festgelegt wurden, wird im folgenden
++ der konkrete Abiturjahrgang für die EF angelegten und
++ Anpassungen vorgenommen, die speziell für diesen Jahrgang gültig sind.
+
+
+
 **Aufgaben 1.2 "Konkreten Jahrgang anlegen"**    
- Legen Sie nun einen konkreten Abiturjahrgang "Abitur 20XX" an, indem Sie auf das **+** klicken.
+Legen Sie für die aktuelle Jahrgangsstufe 10 über das "+" Symbol den Abiturjahrgang an. 
 
-**Aufgaben 1.2 "Kontrollieren, ob es für diesen Jahrgang Abweichungen gibt"** (Eine Abweichung einstellen, ein Projektkurs könnte etwa an einen konkreten Beratungslehrer gekopppelt sein, und nun wird dieser PJK angeboten)
 
-**Aufgaben 1.2 "Beratung"**: Im **Tab Beratung** kann nun 
+**Aufgaben 1.2 "Kontrollieren und Anpassen der aus der Vorlage übernommenen Fächervorgaben"**
+Aufgrund vorübergehender Umstände, wie etwa Lehrerausfälle durch Elternzeit, müssen für diesen Jahrgang einige einmalige Anpassungen vorgenommen werden.
+1. Das Fach Kunst (oder irgendein anderes Fach) kann für die kommende EF leider nicht als LK angeboten werden.
+2. Der Beratungslehrer bietet einmalig den Projektkurs "Chemische Prozesse mathematisch modellieren und analysieren" an.
+3. Kontrollieren Sie die aus der Vorlage übernommenen Fachkombinationsregeln.
 
-**Aufgaben 1.2 "Beratungslehrer"**: Legen Sie die Beratungslehrer für den Jahrgang fest.
 
-**Aufgaben 1.2 "Prüfung Gesamt"**: Stellen Sie sicher, dass die Prüfung in der Vorlage auf *Gesamt* steht, da ansonsten nur die EF.1 geprüft wird und Sie nicht wissen, ob die Wahl eine gültige Laufbahn ergibt.
+**Aufgaben 1.2 "Beratunglehrer und Textvorlagen anpassen"**
+Passen Sie die Jahrgangsspezifischen Information im Tab Beratung an:
+1. Tragen Sie den Beratungslehrer ein.
+2. Passen Sie das Rücklaufdatum in den Textvorlagen an.
+3. Stellen Sie sicher, dass die Prüfung in der Vorlage auf *Gesamt* steht, da ansonsten bei der Laufbahnprüfung nur die EF.1 geprüft wird und Sie nicht wissen, ob die Wahl eine gültige Laufbahn ergibt.
 
-**Aufgaben 1.2. "Texte eintragen**: Tragen Sie Texte für den Mailversand bzw. für den Beratungsbogen ein (zum Beispiel zum Rücklaufdatum).
+
+**Aufgaben 1.2 "Laufbahnen Sichten"**
+In der App Laufbahnen werden alle Schülerinnen und Schüler aufgelistet, für die der konkrete Abiturjahrgang gültig ist. Da noch keine Wahlen stattgefunden haben, erscheinen an dieser Stelle noch etliche Laufbahnfehler der Schüler.
+1. Sichten Sie hier die Schüler der kommenden EF. Kontrollieren Sie ggf., ob auch die externen Schüler in der Liste erfasst sind.
 
 **Hinweis**: 
 
-* der Jahrgang existiert jetzt neben eventuellen anderen Jahrgängen und der *Allgemeinen Vorlage*. Hier ist nun immer zu kontrollieren, ob man den richtigen Jahrgang gewählt hat.
+* der Jahrgang existiert jetzt neben eventuellen anderen Jahrgängen und der *Allgemeinen Vorlage*. 
+Hier ist nun immer zu kontrollieren, ob man den richtigen Jahrgang gewählt hat.
 * Die gemachten Einstellungen stehen nun im SVWS-Client bei der Laufbahnberatung und für WebLuPO zur Verfügung.
-* Gehen wir in den **Tab Laufbahn** sind wir schockiert: Hier steht kein Schüler.
+* Gehen wir in den **Tab Laufbahn** sind wir schockiert: Hier steht kein Schüler.??? @felix: das versetehe ich nicht
 
 
 > [!TIP] 
