@@ -28,9 +28,9 @@ Sie haben bereits die Fächer der Oberstufe mit Hilfe von Schild3 bearbeitet.
     + Religion kann nicht im Abitur belegt werden
 5. Richten Sie einen Projektkurs ein. z.B. für das Leitfach Informatik.
 
-[Infos zur Fächerangabe](https://doku.svws-nrw.de/webclient/gost/faecher/#angebotene-facher)
+:information_source: [Infos zur Fächerangabe](https://doku.svws-nrw.de/webclient/gost/faecher/#angebotene-facher)
 
-<br><br>
+
 
 **Aufgaben 1.2 "Geforderte Kombinationen"**   
 Um später eine gute Blockung für die Abiturjahrgänge zu gewährleisten, ist es hilfreich, bestimmte Fächerkombinationen bereits im Vorfeld festzulegen. Zudem können über fest definierte Fächerkombinationen fachliche Voraussetzungen für die Lernenden geschaffen werden.   
@@ -39,7 +39,8 @@ Sie können nun die geforderten Kombinationen, die an Ihrer Schule festgesetzt s
 2. Für die Wahl des oben angelegten Projektkurses muss das Leitfach Informatik belegt sein. 
 3. Nur die jenigen, die Deutsch LK gewählt haben, dürfen Literatur wählen.
 
-<br><br>
+:information_source: [Infos zu geforderten Fächerkombinationen.](https://doku.svws-nrw.de/webclient/gost/faecher/#geforderte-kombinationen)
+
 
 **Aufgaben 1.2 "Unzulässige Kombinationen"**   
 Bestimmte Fächer können nicht gleichzeitig belegt werden. Die Vorgaben hierzu können sich aus logischen Schlussfolgerungen ergeben oder auch aus Ressourcengründen bzw. vorhersehbaren Blockungsproblemen.    
@@ -49,13 +50,12 @@ Sie können nun unzulässige Kombinationen, die an Ihrer Schule festgesetzt sind
 3. Erdkunde und Biologie können nicht gemeinsam als LK gewählt werden.
 4. Es darf nur eine neu einsetzende Fremdsprache gewählt werden. 
      
+:information_source: [Infos zu unzulässigen Fächerkombinationen.](https://doku.svws-nrw.de/webclient/gost/faecher/#unzulassige-kombinationen)
 
-
-**Hinweis**: 
+:bulb:**Hinweis**: 
 * Kombinationen müssen nur in einer Richtung verboten werden: Schließt ER KR aus, dann schließt auch automatisch KR ER aus.
 * Vorgaben, die aus der APO GoST folgen, müssen hier nicht erneut als Regeln erstellt werden. Erstellen Sie nur so wenige Regeln wie möglich.
 
-<br><br>
 
 **Aufgaben 1.2 "Tab Beratung anpassen"**    
 1. Ergänzen Sie im Tab Beratung einen **Beratungstext**, der auf den Beratungsbögen für die Schülerinnen und Schüler gedruckt werden soll bzw. den die Schülerinnen und Schüler per Mail erhalten. Achten Sie auf ein allgemeingültiges Format ohne konkrete Datumsangaben.     
@@ -64,7 +64,7 @@ Hier ein Beispieltext:
    + Rückgabe per Mail bis zum
 2. Erstellen Sie eine Vorlage für alle Schülerinnen und Schüler mit Fachwahlen, die generell vorgegeben sind. Zum Beispiel müssen immer Deutsch und Mathe belegt sein, eventuell kann auch Sport schon überall "mündlich" eingetragen werden.
 
-<br><br>
+:information_source:[Infos zum Tab Beratung.](https://doku.svws-nrw.de/webclient/gost/beratung/)
 
 
 ## Konkreter Abiturjahrgang für die kommende EF
@@ -77,7 +77,7 @@ Nachdem nun die allgemeinen Vorgaben für Wahlen und Beratung festgelegt wurden,
 **Aufgaben 1.2 "Konkreten Jahrgang anlegen"**    
 Legen Sie für die aktuelle Jahrgangsstufe 10 über das "+" Symbol den Abiturjahrgang an. 
 
-:mag_right: Eine Anleitung finden Sie [hier](https://doku.svws-nrw.de/webclient/gost/abiturjahrgang/#einrichtung-der-jahrgange).
+:information_source: [Eine Anleitung finden Sie hier](https://doku.svws-nrw.de/webclient/gost/abiturjahrgang/#einrichtung-der-jahrgange).
 
 
 
@@ -87,6 +87,8 @@ Aufgrund vorübergehender Umstände, wie etwa Lehrerausfälle durch Elternzeit, 
 1. Das Fach Kunst (oder irgendein anderes Fach) kann für die kommende EF leider nicht als LK angeboten werden.
 2. Der Beratungslehrer bietet einmalig den Projektkurs "Chemische Prozesse mathematisch modellieren und analysieren" an.
 3. Kontrollieren Sie die aus der Vorlage übernommenen Fachkombinationsregeln.
+
+:information_source: [Hinweise zur Eingabe des Beratungslehrers und der Textvorlagen](https://doku.svws-nrw.de/webclient/gost/beratung/#beratungslehrer-hinterlegen) 
 
 
 **Aufgaben 1.2 "Beratunglehrer und Textvorlagen anpassen"**
@@ -100,32 +102,19 @@ Passen Sie die Jahrgangsspezifischen Information im Tab Beratung an:
 In der App Laufbahnen werden alle Schülerinnen und Schüler aufgelistet, für die der konkrete Abiturjahrgang gültig ist. Da noch keine Wahlen stattgefunden haben, erscheinen an dieser Stelle noch etliche Laufbahnfehler der Schüler.
 1. Sichten Sie hier die Schüler der kommenden EF. Kontrollieren Sie ggf., ob auch die externen Schüler in der Liste erfasst sind.
 
-**Hinweis**: 
+:information_source: [Infos über denb Laufbahn-Tab.](https://doku.svws-nrw.de/webclient/gost/laufbahn/#laufbahnen)   
+Mit Wahlen im WebLuPO beschäftigen wir uns im nächsten Kapitel.
+
+
+
+:bulb:**Hinweis**: 
 
 * der Jahrgang existiert jetzt neben eventuellen anderen Jahrgängen und der *Allgemeinen Vorlage*. 
 Hier ist nun immer zu kontrollieren, ob man den richtigen Jahrgang gewählt hat.
 * Die gemachten Einstellungen stehen nun im SVWS-Client bei der Laufbahnberatung und für WebLuPO zur Verfügung.
 * Gehen wir in den **Tab Laufbahn** sind wir schockiert: Hier steht kein Schüler.??? @felix: das versetehe ich nicht
 
-
-> [!TIP] 
-> Hilfe finden Sie auch [hier](https://help.svws-nrw.de/gost/beratung/).
-
-Test:
+:information_source: [Hilfe finden Sie auch hier](https://help.svws-nrw.de/gost/beratung/).
 
 
-:bulb:
-:mag_right:
-:file_folder:
-:key:
-:question:
-:a:
-:hourglass:
-:stopwatch:
-:stop_sign:
-:globe_with_meridians
-:sos:
-:exclamation:
-::: info
-This is an info box.
-:::
+
