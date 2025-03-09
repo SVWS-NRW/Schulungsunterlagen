@@ -4,7 +4,7 @@
 
 Dieses Modul behinhaltet die Planung einer neuen EF im Halbjahr 10.2 bis hin zum Zeugnisdruck in der EF.2 mit SchILD-NRW3 und hauptsächlich dem SVWS-Client.
 
-Dies ist keine (rechtliche) APO-GOSt-Schulung zur Laufbahnberatung, sondern zur technischen Durchführung. Dennoch werden exemplarisch Laufbahnen, Bartungsfälle und Tipps zur Praxis behandelt. Eindeutige grammatikalsche Geschlechtsbezeichnungen meinen immer m/w/d/etc.
+Dies ist keine (rechtliche) APO-GOSt-Schulung zur Laufbahnberatung, sondern zur technischen Durchführung. Dennoch werden exemplarisch Laufbahnen, Beratungsfälle und Tipps behandelt. Eindeutige grammatikalsche Geschlechtsbezeichnungen meinen immer m/w/d/etc.
 
 Dieses Modul ist auf zwei Tage ausgelegt. 
 
@@ -32,14 +32,14 @@ Pausen, Kaffee und Kekse: Mittagspause und kleinere Pausen nach Bedarf. Kaffee u
 1. **Modul Planung der EF** Tag 1 - Aufsetzen der Wahlen und EF Beratung, WebLUPO, bis Ende EF und Leistungsdaten 
    **Modul Planung der EF** Tag 2 - Blockung und Leistungsdaten
 
-Es gibt in der GoST weitere Folgemodule
+Es gibt für die GOSt weitere Folgemodule
 
 2. **Modul Q-Phase und Abitur** Tag 1 - Q-Phase und Abitur, Spezialfälle
 3. **Modul Sek II-Koordination** Tag 1 - Klausurplanung, Abiturplanung, exotischere Sonderfälle, **Praxiscafé**
 
 Eventuell könnten Sie auch diese Module interessieren:
-+ Dies
-+ Jenes
++ Fortbildung zu Reports
++ Basisschulung SchildNRW
 
 ## Evaluation
 
