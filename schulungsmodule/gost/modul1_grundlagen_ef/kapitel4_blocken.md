@@ -5,7 +5,7 @@ Berücksichtigen Sie ggf. mögliche Kooperationen.
 
 
 **Hinweis**:
-* prüfen Sie im Falle, dass in einem Fach kein Kurs eingerichtet wird, ob ein Eingreifen in Schülerlaufbahnen notwendig sind (Umwahlen)
+* prüfen Sie im Falle, dass in einem Fach kein Kurs eingerichtet wird, ob ein Eingreifen in Schülerlaufbahnen notwendig ist (Umwahlen)
 + Prüfen Sie auch die Fachwahlen der Q2. Ist vorhersehbar, dass bestimmte Kurse in Q2 kaum noch eingerichtet wertden können und sind daher Laufbahnen anzupassen?
 * Achten Sie an dieser Stelle darauf, dass alle Schüler eine korrekte Laufbahn von der EF bis zum Abitur haben, nicht nur, dass die EF-Wahlen okay sind!
 * Mit dem Link-Symbol kann direkt zu den SuS gesprungen werden (der Lernabschnitt rechts lässt sich aufklappen).
