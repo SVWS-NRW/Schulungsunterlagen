@@ -1,11 +1,12 @@
 ## 4. Vorbereiten der Blockung: Fachwahlen kontrollieren und optimieren
 
-Nach den Wahlen ist zu sichten, ob und welche Kurse erstellt werden können, etwa, ob man diesen oder jenen LK einrichten kann.
+Nach den Wahlen ist zu sichten, ob und welche Kurse eingberichtet werden können. Dieses erfolgt im Normalfall mit Stundeunplanern und Schulleitung. Legen Sie auf Basis der vorliegenden Fachwahlen das Kursangebot fest.  
+Berücksichtigen Sie ggf. mögliche Kooperationen.
 
-**Todo: Übersicht erklären/veraufgaben**
 
 **Hinweis**:
-* Es kann etwa in Ordnung sein, wenn 7 Leute einen Erdkunde-LK anwählen und man mit drei anderen Schulen kooperiert. Ist man die einzige Oberstufe im Ort, dürfte dieser LK nicht zustande kommen und die SuS müssen nun umwählen. Oder hat man fünf Anwahlen von Latein, sollte die Laufbahn in der Q-Phase so ausfallen, dass alle Latein nach der EF abwählen können.
+* prüfen Sie im Falle, dass in einem Fach kein Kurs eingerichtet wird, ob ein Eingreifen in Schülerlaufbahnen notwendig sind (Umwahlen)
++ Prüfen Sie auch die Fachwahlen der Q2. Ist vorhersehbar, dass bestimmte Kurse in Q2 kaum noch eingerichtet wertden können und sind daher Laufbahnen anzupassen?
 * Achten Sie an dieser Stelle darauf, dass alle Schüler eine korrekte Laufbahn von der EF bis zum Abitur haben, nicht nur, dass die EF-Wahlen okay sind!
 * Mit dem Link-Symbol kann direkt zu den SuS gesprungen werden (der Lernabschnitt rechts lässt sich aufklappen).
 * Ganz rechts finden sich Links zur *Laufbahnplanung* und *Sprachenfolge*, um direkt dort hinzuspringen.
@@ -21,7 +22,7 @@ Nachdem alle Wahlen korrekt & kontrolliert sind kann eine **Blockung** geplant w
 * Wählen Sie die besten zwei, drei Blockungen aus, um sich diese einmal konkret anzusehen. (Exportieren)
 
 **Hinweis**:
-* "Anzahl der Berechnungen" ist die Zahl der lokal vorhandenen CPU-Kerne. Die Berechnung läuft auf dem lokalen Rechner. Wer einen besseren Rechner zur Verfügung hat oder sogar einen tollen Server, sollte die Berechnung direkt auf dieser Maschine durchführen. Es kann direkt "Maximum" der Kerne gewählt werden.
+* "Anzahl der Berechnungen" ist die Zahl der lokal vorhandenen CPU-Kerne. Die Berechnung läuft auf dem lokalen Rechner. Es kann direkt "Maximum" der Kerne gewählt werden.
 * Der Algorithmus versucht, erstmal wenige Kurse parallel laufen zu lassen. Wenn die Berechnung länger läuft, werden mehr Kurse parallel gelegt.
 
 **Hinweis: Erklären, was die drei Felder bedeuten**. 

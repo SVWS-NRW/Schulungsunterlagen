@@ -1,7 +1,7 @@
 # 2. Vorbereitung in der App Oberstufe
 
 Im folgenden wird eine **Allgemeine Vorlage** in der App Oberstufe erstellt. Anschließend folgt das Anlegen eines **konkreten Abiturjahrgangs**, und zwar den Abiturjahrgang für die kommende EF.  
-In der allgemeinen Vorlage werden zunächst Standard-Einstellungen gesetzt, die in der Regel in allen konkreten Abiturjahrgängen gelten. Beispielsweise kann in der allgemeinen Vorlage festgelegt werden, dass das Fach Physik grundsätzlich nicht als Leistungskurs gewählt werden kann. Falls ein Physik LK für einen spezifischen Abiturjahrgang dennoch angeboten wird, kann dies später separat für diesen Jahrgang angepasst werden. 
+In der allgemeinen Vorlage werden zunächst Standard-Einstellungen gesetzt, die in der Regel in allen konkreten Abiturjahrgängen gelten. Beispielsweise kann in der allgemeinen Vorlage festgelegt werden, dass das Fach Chemie grundsätzlich nicht als Leistungskurs gewählt werden kann. Falls ein Chemie-LK für einen spezifischen Abiturjahrgang dennoch angeboten wird, kann dies später separat für diesen Jahrgang angepasst werden. 
 
 
 
@@ -19,12 +19,12 @@ Alternativ finden Sie in jeder Aufgabe auch Beispielvorgaben, die Sie nutzen kö
 **Aufgabe 2.1 "Fächer der Oberstufe kontrollieren und korrigieren"**  
 Sie haben bereits die Fächer der Oberstufe mit Hilfe von Schild3 bearbeitet. 
 1. Sichten Sie alle Fächer der Oberstufe in der allgemeinen Vorlage.
-2. Kontrollieren Sie insbesondere die Sprachenfächer: Wenn es F6 nicht mehr gibt, muss hier z.B. F7 stehen.
+2. Kontrollieren Sie insbesondere die Sprachenfächer: Wenn es F6 nicht mehr gibt, muss hier z.B. F7 stehen (Merkmal: Fach der Oberstufe).
 2. Ergänzen Sie Niederländisch als neu einsetzende Fremdsprache in der EF (oder ein/mehrere andere Fächer gemäß den Vorgaben an Ihrer Schule). Dies kann durchaus auch im Webclient realisiert werden.
 3. Kontrollieren Sie die Stündigkeit - insbesondere bei den neu einsetzenden Fremdsprachen und korrigieren Sie diese ggf. 
 4. Passen Sie die LK-Wahlmöglichkeiten sowie die Wahl des dritten und vierten Abiturfaches an. Gemäß den Vorgaben Ihrer Schule oder nach diesen Vorgaben:  
     + Musik soll auch als LK zur Auswahl stehen  
-    + Physik kann nur als Grundkurs gewählt werden
+    + Chemie kann nur als Grundkurs gewählt werden
     + Religion kann nicht im Abitur belegt werden
 5. Richten Sie einen Projektkurs ein. z.B. für das Leitfach Informatik.
 
