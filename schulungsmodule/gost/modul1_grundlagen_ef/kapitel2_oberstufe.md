@@ -1,6 +1,6 @@
 # 2. Vorbereitung in der App Oberstufe
 
-Im folgenden wird eine **Allgemeine Vorlage** in der App Oberstufe erstellt. Anschließend folgt das Anlegen eines **konkreten Abiturjahrgangs**, und zwar den Abiturjahrgang für die kommende EF.  
+Im folgenden wird eine **Allgemeine Vorlage** in der App Oberstufe erstellt. Anschließend folgt das Anlegen eines **konkreten Abiturjahrgangs**, und zwar des Abiturjahrgangs für die kommende EF.  
 In der allgemeinen Vorlage werden zunächst Standard-Einstellungen gesetzt, die in der Regel in allen konkreten Abiturjahrgängen gelten. Beispielsweise kann in der allgemeinen Vorlage festgelegt werden, dass das Fach Chemie grundsätzlich nicht als Leistungskurs gewählt werden kann. Falls ein Chemie-LK für einen spezifischen Abiturjahrgang dennoch angeboten wird, kann dies später separat für diesen Jahrgang angepasst werden. 
 
 
@@ -52,7 +52,7 @@ Sie können nun unzulässige Kombinationen, die an Ihrer Schule festgesetzt sind
      
 :information_source: [Infos zu unzulässigen Fächerkombinationen.](https://doku.svws-nrw.de/webclient/gost/faecher/#unzulassige-kombinationen)
 
-:bulb:**Hinweis**: 
+**Hinweise**
 * Kombinationen müssen nur in einer Richtung verboten werden: Schließt ER KR aus, dann schließt auch automatisch KR ER aus.
 * Vorgaben, die aus der APO GoST folgen, müssen hier nicht erneut als Regeln erstellt werden. Erstellen Sie nur so wenige Regeln wie möglich.
 
@@ -75,7 +75,8 @@ Nachdem nun die allgemeinen Vorgaben für Wahlen und Beratung festgelegt wurden,
 
 
 **Aufgaben 1.2 "Konkreten Jahrgang anlegen"**    
-Legen Sie für die aktuelle Jahrgangsstufe 10 über das "+" Symbol den Abiturjahrgang an. 
+Legen Sie für die aktuelle Jahrgangsstufe 10 über das "+" Symbol den Abiturjahrgang an.  
+Beachten Sie: Orientieren Sie sich am Abiturjahr, nicht an der Jahrgangsstufe. 
 
 :information_source: [Eine Anleitung finden Sie hier](https://doku.svws-nrw.de/webclient/gost/abiturjahrgang/#einrichtung-der-jahrgange).
 
@@ -92,27 +93,27 @@ Aufgrund vorübergehender Umstände, wie etwa Lehrerausfälle durch Elternzeit, 
 
 
 **Aufgaben 1.2 "Beratunglehrer und Textvorlagen anpassen"**
-Passen Sie die Jahrgangsspezifischen Information im Tab Beratung an:
+Passen Sie die jahrgangsspezifischen Information im Tab Beratung an:
 1. Tragen Sie den Beratungslehrer ein.
 2. Passen Sie das Rücklaufdatum in den Textvorlagen an.
 3. Stellen Sie sicher, dass die Prüfung in der Vorlage auf *Gesamt* steht, da ansonsten bei der Laufbahnprüfung nur die EF.1 geprüft wird und Sie nicht wissen, ob die Wahl eine gültige Laufbahn ergibt.
 
 
 **Aufgaben 1.2 "Laufbahnen Sichten"**
-In der App Laufbahnen werden alle Schülerinnen und Schüler aufgelistet, für die der konkrete Abiturjahrgang gültig ist. Da noch keine Wahlen stattgefunden haben, erscheinen an dieser Stelle noch etliche Laufbahnfehler der Schüler.
-1. Sichten Sie hier die Schüler der kommenden EF. Kontrollieren Sie ggf., ob auch die externen Schüler in der Liste erfasst sind.
+Im Tab Laufbahnen werden alle Schülerinnen und Schüler aufgelistet, für die der konkrete Abiturjahrgang gültig ist. Da noch keine Wahlen stattgefunden haben, erscheinen an dieser Stelle noch etliche Laufbahnfehler der Schüler.
+1. Sichten Sie hier die Schüler der kommenden EF. Kontrollieren Sie ggf., ob auch die Neuaufnahmen und externen Schüler in der Liste erfasst sind.
 
 :information_source: [Infos zum Laufbahn-Tab.](https://doku.svws-nrw.de/webclient/gost/laufbahn/#laufbahnen)   
 Mit Wahlen im WebLuPO beschäftigen wir uns im nächsten Kapitel.
 
 
 
-:bulb:**Hinweis**: 
+**Hinweis** 
 
 * der Jahrgang existiert jetzt neben eventuellen anderen Jahrgängen und der *Allgemeinen Vorlage*. 
 Hier ist nun immer zu kontrollieren, ob man den richtigen Jahrgang gewählt hat.
 * Die gemachten Einstellungen stehen nun im SVWS-Client bei der Laufbahnberatung und für WebLuPO zur Verfügung.
-* Gehen wir in den **Tab Laufbahn** sind wir schockiert: Hier steht kein Schüler.??? @felix: das versetehe ich nicht
+* Gehen wir in den **Tab Laufbahn** werden die Schüler der anktuellen Jahrgangsstufe 10 aufgelistet.
 
 
 
