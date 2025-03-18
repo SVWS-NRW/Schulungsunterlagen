@@ -37,22 +37,20 @@ Es können auch für einzelne Schüler die individuellen Laufbahndateien exporti
 * **Doku-Link zu WebLuPO**: https://doku.svws-nrw.de/weblupo/
 * **Installation von WebLuPO** (Technische Doku): https://doku.svws-nrw.de/projekte/WebLupo/
 
-**Das müsste definitiv auch mal gemacht werden?** **Wie setzt man WebLuPO auf? Müssen wir was dazu sagen? Link auf Doku**
-
 
 **Aufgaben 1.3 "Wahl in WebLuPO"**:
-+ Wahl
-+ Fehlerhafte Wahl korrigieren 
++ Schließen Sie SVWS-Client
++ Öffnen Sie WebLuPO (Adresse muss Ihnen bekannt gegeben werden)
++ Öffnen Sie eine der zuvor exportierten oder eine zur Verfügung gestellte Datei.  
+  
+Beachten Sie:  Die Daten dieser Datei verbleiben dabei auf Ihrem Rechner, sie werden nicht an den WebLuPO-Server übertragen. Daher können auch sehr viele Dateien gleichzeitig berarbeiten werden.  
++ Führen Sie die Fachwahl durch und/oder korrigieren/ergänzen Sie bestehende Wahlen.  
++ Testen Sie auch wieder Modi, Prüfung, Fachanzeige
 
 **Aufgaben 1.3 "Reimport von WebLuPO-Wahl in SVWS-Client"**:
-+ Eigene Wahl exportieren und importieren
-+ Import einer vorgefertigten Wahl. 
-
-
-
-
-**Hinweis:**
-* Achten Sie auf massive Überbelegungen bei Wahlen. 
-* Ein- und Ausklappen der Schüler-Auswahlliste 
-
-**Aufgaben 1.3. "Quereinsteiger eintragen":** Nachtragen
++ Exportieren Sie die Wahl (Speichern der Datei, Unterschied zum alten LuPO!). Beachten Sie das gewählte Verzeichnis.  
++ Schließen Sie WebLuPO
++ Öffnen Sie wieder SVWS-Client
++ Oberstufe -> Laufbahnplanung, importieren Sie die bearbeiteten Fachwahlen.  
+  
+Beachten Sie: Auch hier ist der Import einzelner Dateien aber auch mehrerer Dateien möglich. Dazu müssen per Shift- oder STRG-Taste+Mausklick die gewünschten Dateien ausgewählt werden.
