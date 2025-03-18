@@ -20,7 +20,7 @@ Die Leistungsdatenverwaltung bzgl der Teilleistungen erfolgt derzeit noch in Sch
 + Für einzelne Schüler können beispielhaft Noten eingetragen werden. Es stehen sowohl für Zeugnisnoten als auch für Teilleistungen Gruppenprozesse für Kurseingaben zur Verfügung.  
 + Unbenommen davon ist eine globale Notenerfassung per Notenmodul oder WebClient einzurichten.  
   
-> [!Hinweis] Der gesamte Prozess der Leistungsdatenerfassung wird an anderer Stelle geschult und beschrieben.  
+> [!Hinweis] Der gesamte Prozess der **Leistungsdatenerfassung wird an anderer Stelle geschult und beschrieben**.  
   
 **Aufgaben 1.6 "Zeugnisse vorbereiten"**:
 Setzen Sie in Schild per Gruppenprozess
