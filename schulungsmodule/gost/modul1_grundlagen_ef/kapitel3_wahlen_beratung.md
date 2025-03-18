@@ -1,10 +1,20 @@
 ## 3. Konkrete Wahlen und Beratungen vornehmen
 
-Jetzt werden Wahlen und Beratungen durchgeführt, so dass diese dann auch konkreten Kurse zugeordnet werden können.
+Nachdem der Abiturjahrgang für die kommende EF angelegt und angepasst wurde, folgen die Kurswahlen der Schülerinnen und Schüler.
 
 **Hinweis**: Sofern Sprachenfolgen bei den SuS und die Klassen-/Versetzungstabelle noch nicht kontrolliert wurde, ob die 10er die Folgeklasse EF haben (und die EF existiert und sichtbar), muss das nun gemacht werden.
 
+### Wahlen in der App Oberstufe im Client
 
+**Aufgaben 1.3 "Sprachenfolge in der Laufbahn prüfen"**:   
+Die Sprachenfolge, die bereits im Kapitel "Orientierung" überprüft wurde, sollte nun für jeden Schüler bei den Fachwahl-Vprlage sichtbar sein.
+1. Wechseln Sie aus der App Oberstufe/Laufbahnen auf die Sprachenfolge eines bestimmten Schülers. Nutzen Sie rechts oben den Verweis auf die Sprachenfolge. 
+2. Springen Sie mit der Rückwärtstaste des Browsers zurück in die vorherige Ansicht. 
+3. Wechseln Sie nun auf die Laufbahn des Schülers über Verweis "Zur Laufbahnplanung". Überprüfen Sie, ob die Sprachenfolge hier korrekt hinterlegt ist. 
+4. Durchlaufen Sie in der Schülerapp Fachwahlbögen weiterer Schülerinnen und Schüler und sichten dort die Sprachenfolgen.
+5. Ändern Sie bei einem Schüler die Sprachenfolge von Latein ab 7 (oder 6) auf Latein ab Klasse 5.
+
+WEITER!
 **Aufgaben 1.3 "Wahlen im SVWS-Client"**: (nicht mehr in WebLuPO!)
 * Beim Wählen probieren Sie die Modi durch (hochschreiben usw.)
 * Wählen Sie LKs und AB3 und AB4, SVWS-Client: Q2.2 M oder S gibt 4 oder 3 vor.
