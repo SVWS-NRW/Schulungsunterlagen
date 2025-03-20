@@ -14,39 +14,42 @@ Die Sprachenfolge, die bereits im Kapitel "Orientierung" überprüft wurde, soll
 4. Durchlaufen Sie in der Schülerapp Fachwahlbögen weiterer Schülerinnen und Schüler und sichten dort die Sprachenfolgen.
 5. Ändern Sie bei einem Schüler die Sprachenfolge von Latein ab 7 (oder 6) auf Latein ab Klasse 5.
 
-WEITER!
-**Aufgaben 1.3 "Wahlen im SVWS-Client"**: (nicht mehr in WebLuPO!)
-* Beim Wählen probieren Sie die Modi durch (hochschreiben usw.)
-* Wählen Sie LKs und AB3 und AB4, SVWS-Client: Q2.2 M oder S gibt 4 oder 3 vor.
-* Einen oder zwei S mit typischen Belegungsfehlern in Ordnung bringen bzw. wo die Prüfung nur in EF.1 an ist.
-* Anzeigen: nur gewählte, nicht alle
-* Fachwahlen merken, probieren, und Wiederherstellen
 
 
-**Aufgaben 1.3 "Springen zu Laufbahnplanung und Sprachenfolge**
-+ Oben rechts finden sich Links direkt zur Laufbahnplanung und Sprachenfolge
-+ TEsten Sie den Rückwärtsbutton des Browsers
 
-**Beispiel für Laufbahnberatung**
-+ Eine vervollständigen
-+ eine fehlerhafte Wahl korrigieren
+**Aufgaben 1.3 "Wahlen im SVWS-Client"**:
+Die Schülerinnen und Schüler wählen in der Regel mit Hilfe des WebLuPO über den Browser. Dennoch können die Wahlen auch über den SVWS-Client getätigt werden.
+1. Geben Sie für einen Schüler die Laufbahnplanung nur für die EF ein, sodass eine fehlerfreie Belegung entsteht. Achten Sie darauf, dass bei der Prüfung nur die EF.1 gewertet wird. Testen Sie die verschiedenen Anklickoptionen, indem Sie den Modus manuell, normal und hochschreiben ausprobieren.  
+2. Um bereits zum jetzigen Zeitpunkt mögliche Beglegungs- und Blockungsprobleme für die gesamte Oberstufe zu antizipieren, wird empfohlen, dass die Schülerinnen und Schüler im zweiten Halbjahr der Jahrgangsstufe 10 auch die Q-Phase mit Abiturfächern fertig wählen.     
+   + Wechseln Sie zu einem anderen Schüler und erstellen Sie eine Laufbahnplanung für die gesamte Oberstufe mit LKs, AB3, AB4 und ZKs.
+   + Achten Sie darauf, dass bei der Belegungspfüfung "Gesamt" ausgewählt ist.
+3. Obwohl der Schüler sehr zufrieden ist mit seiner Wahl, möchte er einmal testen, ob er doch zwei Sprachen (Oder zwei Naturwissenschaften) als LK nehmen kann und welche Auswirkungen das auf die anderen Abiturfächer haben könnte.      
+   + Merken Sie sich die aktuelle Wahl und testen eine andere LK-Kombination.
+   + Stellen Sie die ursprüngliche Planung wieder her
+   + Ändern Sie die Einstellung, sodass nur die gewählten Fächer sichtbar sind.
+   + Drucken Sie den Laufbahnbogen als pdf aus
+   + Verwerfen Sie die Fachwahlen.
+
+
 
 Die Wahlen können nach **WebLuPO** exportiert, dort vorgenommen und wieder zurückgespielt werden. 
 
 **Aufgaben 1.3 "Export von SuS für WebLuPO**:  
-Mit "Alle exportieren" wird ein zip-Datei /zip-Ordner erstellt, dieser enthält alle individuellen Schüler-Planungsdateien.  
-+ Erstellen Sie diesen Ordner.  
+Damit die Schülerinnen und Schüler ihre Laufbahnplanung über den Webbrowser eigenständig auswählen können, müssen vorab individuelle Schüler-Planungsdateien (lp-Dateien) aus dem Webclient heraus exportiert werden.
+
+1. Exportieren Sie die lp-Datei für einen bestimmten Schüler über den Tab Schüler/Laufbahnplanung.
+2. Exportieren Sie über den Tab Oberstufe/Laufbahnen für ausgewählte/ oder direkt für alle Schülerinnen und Schüler der Jahrgangsstufe 10 die lp-Dateien und sichten Sie den Ordner "Laufbahnplanungen.zip", der im Download-Ordner gespeichert wurde. 
++ Entpacken Sie diesen Ordner.
 + Formulieren Sie für sich, wie Sie mit diesem Ordner weiter in Ihrer Schule verfahren würden (Austausch erwünscht).
 
-**Aufgaben 1.3 "Export nur einer Auswahl an SuS für WebLuPO"**: 
-Es können auch für einzelne Schüler die individuellen Laufbahndateien exportiert werden. 
-+ Führen Sie den Einzel-Export durch.
 
 **Hinweis**: Hier geht es um die Erklärung der Oberfläche (M, S, LK, AB-Fächer, Fehler rechts, Stunden unten)
 
 * **Doku-Link zu WebLuPO**: https://doku.svws-nrw.de/weblupo/
 * **Installation von WebLuPO** (Technische Doku): https://doku.svws-nrw.de/projekte/WebLupo/
 
+
+WEITER!!!
 
 **Aufgaben 1.3 "Wahl in WebLuPO"**:
 + Schließen Sie SVWS-Client
@@ -62,5 +65,11 @@ Beachten Sie:  Die Daten dieser Datei verbleiben dabei auf Ihrem Rechner, sie we
 + Schließen Sie WebLuPO
 + Öffnen Sie wieder SVWS-Client
 + Oberstufe -> Laufbahnplanung, importieren Sie die bearbeiteten Fachwahlen.  
+
+
+**Beispiel für Laufbahnberatung**
++ Eine vervollständigen
++ eine fehlerhafte Wahl korrigieren
+
   
 Beachten Sie: Auch hier ist der Import einzelner Dateien aber auch mehrerer Dateien möglich. Dazu müssen per Shift- oder STRG-Taste+Mausklick die gewünschten Dateien ausgewählt werden.
