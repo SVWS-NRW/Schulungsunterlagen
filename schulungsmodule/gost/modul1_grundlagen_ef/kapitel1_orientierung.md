@@ -37,7 +37,8 @@ und geben Sie an, welche Daten jeweils erfasst werden und wo sich Daten finden, 
 + Finden Sie heraus, wie ein Fach als *Fach für die Oberstufe* markiert werden kann.
 + Beachten Sie die Statistikbezeichnungen: Was bedeuten bei den Sprachen die Zahlen hinter dem Fachkürzel (etwa F6, F7?) 
 + Stellen Sie ein Fach auf "unsichtbar", was verändert sich und überlegen Sie, wieso man Katalogeinträge auf "unsichtbar" stellen kann. Welche Fehlerquelle liegt in dieser Einstellung?
-+ Passen Sie die Fremdsprachen bzgl. G8 und G9 an.  
++ Passen Sie die Fremdsprachen bzgl. G8 und G9 an.
++ Kontrollieren Sie, im WebClient, Tab Schule/Fächer, ob die Oberstufenfächer "Ist prüfungsordnungsrelevant" gesetzt ist (Prüfen Sie besonders Projekt- und Prüfungskurse)
 
 **Aufgaben 1.1 "SchILD Klassen- und Versetzungstabelle"**:
 + Schauen Sie durch die Klassen- und Versetzungstabelle - welche Einstellungen werden hier vorgenommen?
