@@ -19,9 +19,7 @@ Die Aufgaben selbst werden dann im Aufgabenteil ausformuliert und können direkt
 
 Weitere Anmerkungen und Ausführungen finden sich als **Hinweis** im Moderationsmaterial.
 
-Die **Aufgaben** arbeiten erst einmal nur die konkrete Bedienung im einfachen Anwendungsfall durch.
-
-Komplizierte Sachverhalte, Aufgaben und fortgeschrittene Bedienungen des SVWS-Clients werden dann über **Erweiterungsaufgaben** im hinteren Teil des Schulungsmoduls vermittelt und vertieft.
+Die **Aufgaben** arbeiten die konkrete Bedienung und dann Spezialfälle, Vertiefungen oder hilfreiche Features.
 
 Die Module hier sind lediglich als grobe Anleitung, also eher als einen "Moderationswaschzettel" zu verstehen und sind darauf ausgelegt, von jedem Moderationsteam an den konkreten Fall anzupassen, etwa indem Aufgaben weggelassen oder hinzugefügt werden. Daher sind die Aufgaben auch nicht fix durchnummeriert.
 
