@@ -2,7 +2,7 @@
 
 Aufbauend auf dem Modul 1 (EF), der aktuelle Stand ist nach dem letzten Fortbildungsmodul: Zeugnisse EF.2 sind gedruckt, die neue Q1 beginnt.
 
-Auf die eigene Situation anpassen.
+Alle Inhalte der Aufgaben: möglichst auf die eigene Situation anpassen.
 
 Wichtig: Miteinander reden, Aufgaben sollen nicht alleine gelöst werden.
 
@@ -12,39 +12,43 @@ Kein (rechtliches) APO-GoST-Modul, sondern technisch. Aber Praxisbeispiele entha
 + Neue Blockung für die Q1
 + Umwahlen, Abwahlen (auch regulär im Verlauf der Q-Phase)
 + AB3, AB4, LKs
-+ Abitur
++ Dann Ende der Q-Phase und das Abitur
 
 + (Mittagspause)
 
-## 1.9 Neue Q-Phase
+## 2.1 Neue Q-Phase und Laufbahnen korrigieren
 
-Bei dem Schüler, Laufbahnplanung. In der Praxis sind komplette Wahlen bis zum Abitur da, diese werden noch angepasst.
+Beginn in der EF.2 und nun Kontrolle der Wahlen/Laufbahnen für die Q-Phase. 
+
+>![TIP] Viele dieser Einstellungen sind schon in der EF zu planen
+> Viele der hier besprochenen Sachverhalte sollten schon zur Wahl der EF in den Laufbahnen bis zur Q2 mit bedacht werden. Die Konsequenzen der Wahlen werden aber erst am Ende deutlich, daher werden sie in diesem Modul ausführlich besprochen (zum Beispiel: wird schon direkt in der EF geplant, dass Musik in der Q2 nicht mehr angeboten wird und alle Laufbahnen daher ohne Musik in der Q2 auskommen müssen?)
 
 Sind Fachwahlen für die EF vorhanden: Schüler -> Laufbahnplanung -> Hochschreiben.
 
-Fächer anzeigen: Nur gewählte
+Fächer anzeigen: Nur gewählte, das ist bei fertigen Laufbahnen praktisch, an welcher Stelle ist das eventuell nicht praktisch (Literatur/Projektkurse dazuwählen)
 
-Was ist Literatur? Und Fehler: Lit geht auch in Q2
+Fehler in der Beratungseinstellungen Was ist mit Literatur? Und Fehler: Lit geht auch in Q2
 Was ist mit Sowi ZK
 
-Umstellen: Prufen "auf Gesamt". 
+Umstellen: Prüfen "auf Gesamt".
 
-Fehler korrigieren (Unter- und Überwahlen)
+Hinweise auf Wochenstunden. Kurszahlen.
 
-SuS, die halt nicht da sind: Status Beurlaubt
+"Kurswahlen" prüfen. Was ist so da, was haben wir, wo müssen wir umberaten.
+
+Fehler korrigieren (Unter- und Überwahlen; 47 Stunden in der Q-Phase sind zu viel).
+
+SuS, die nicht da sind: Eventuell auf den Status "Beurlaubt" setzen
 
 Fehler anzeigen lassen; in Fehlerliste sind "Ausrufezeichen" Informationen.
 Fehler korrigieren. Einspringen über Links + Zurück button
 
 "Hinweis: Nicht fixierte Kurswahlen -> sind die, die nicht durch Lernabschnitte vorbei und damit fix sind".
 
-Hinweise auf Wochenstunden. Kurszahlen.
+Hinweis: "Liste rechts", Fach aufklappen. "Chemie". 
 
-"Kurswahlen" prüfen. Was ist so da, was haben wir, wo müssen wir umberaten.
+## 2.2 Korrigierte EF für die Q1 blocken
 
-"Liste rechts", Fach aufklappen. "Chemie". 
-
-EF für Q1 blocken.
 Neue Blockung für Q1.1: Durchgehen: und das Ding aus dem Modul 1 noch mal durchgespielt werden.
 
 Moderation: Bedienelemente, gucken, und so weiter. 
@@ -63,13 +67,13 @@ Physik LK einrichten!
 
 Regel: "Kursdifferenz ignorieren" wenn man mehrere Kurse hat und einer auf Extern oder so gesetzt.
 
-Regeln erstellen: Z.B. SChienen sperren für LKs. Absprachen mit Nachbarschulen. (Reinziehen und Pinnen)
+Regeln erstellen: Z.B. Schienen sperren für LKs. Absprachen mit Nachbarschulen. (Reinziehen und Pinnen)
 
 Über LKs jenseits der LK-Schienen ziehen und sperren.
 
 Reichen 11 Schienen (Sport, Kunst parallel?) Bei 1 Kunstlehrer: REgel dass beide Kunstkurse nicht parallel liegen können.
 
-Regeln sind freier als Schienen.
+"Regeln definieren" ist  freier als "Schienen fixieren".
 
 Wir werden 12 Schienen brauchen. Neue eventuell anlegen?
 
