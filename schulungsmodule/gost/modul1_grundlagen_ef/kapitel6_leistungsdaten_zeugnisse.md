@@ -1,5 +1,8 @@
 ## 6. Noten aufnehmen und Zeugnisse drucken
 
++ Wir haben die Leistungsdaten, jetzt werden Noten aufgenommen
++ und Zeugnisse und Laufbahnübersichten gedruckt
+
 ### **Notenerfassung im ersten Halbjahr**
 + Es können während des ersten Halbjahres definierte **Teilleistungen** und eine Quartalsnote erfasst werden.
 + Es müssen am Ende des ersten Halbjahres **Endnoten unf Fehlzeiten** erfasst werden.

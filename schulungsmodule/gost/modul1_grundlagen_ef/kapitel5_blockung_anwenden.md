@@ -1,5 +1,8 @@
 ## 5. Anwendung der Vorbereitungen
 
++ Die Blockung wird konkret mit Lehrkräften versehen und 
++ in die Leistungsdaten der Schüler geschrieben.
+
 **Hinweis**:
 * Zusammen mit der Blockung wurden die Kurse konkret geplant und zugeordnet.
 * Jetzt liegt ein Schuljahreswechsel an, damit die beratenen 10er auch zur neuen EF werden.

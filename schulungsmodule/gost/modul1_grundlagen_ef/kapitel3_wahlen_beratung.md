@@ -1,5 +1,8 @@
 ## 3. Konkrete Wahlen und Beratungen vornehmen
 
++ Wir wählen konkrete Laufbahnen, korrigieren Fehler und führen Beratungen durch.
++ Die Beratungen werden für WebLuPO vorbereitet und durchgeführt.
+
 Nachdem der Abiturjahrgang für die kommende EF angelegt und angepasst wurde, folgen die Kurswahlen der Schülerinnen und Schüler.
 
 **Hinweis**: Sofern Sprachenfolgen bei den SuS und die Klassen-/Versetzungstabelle noch nicht kontrolliert wurde, ob die 10er die Folgeklasse EF haben (und die EF existiert und sichtbar), muss das nun gemacht werden.

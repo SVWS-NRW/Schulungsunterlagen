@@ -1,5 +1,9 @@
 # 1. Orientierung in der Schulverwaltsungssoftware
 
++ Wir orientieren uns in SchILD-NRW-3 und
++ dem SVWS-Webclient
++ Wie sind die Struktruren im Hintergrund, auf dem unsere Leistungsdatenverwaltung aufsetz?
+
 ## SchILD-NRW-3
 
 Wir benötigen hauptsächlich aus SchILD

@@ -1,5 +1,11 @@
 ## 4. Vorbereiten der Blockung: Fachwahlen kontrollieren und optimieren
 
++ Wir "blocken" nun die Kurse, das heißt: wie viele Kurse gibt es von welchem Fach,
++ welche Kurse liegen parallel,
++ wie werden die Schüler konkret auf die Kurse verteilt
++ und welche anderen Rahmenbedingungen sind zu beachten?
++ Diese Blockung ist die Grundlage für den späteren Stundenplan.
+
 Nach den Wahlen ist zu sichten, ob und welche Kurse eingerichtet werden können. Dieses erfolgt im Normalfall mit Stundenplanern und Schulleitung. Legen Sie auf Basis der vorliegenden Fachwahlen das Kursangebot fest.  
 Berücksichtigen Sie ggf. mögliche Kooperationen.
 

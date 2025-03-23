@@ -107,6 +107,12 @@ Hochschreiben in ZUKÜNFTIGEN LERNABSCHNITT oder ERST VERSETZEN. Hier in der Sch
 
 Blockung kann "Hochschreiben" werden, in nächsten Abschnitt, dort sieht man auch Abwahlen usw. Änderungen werden von aktuellen Laufbahn von Abschnitten, die noch nicht gelaufen sind, zieht der raus. Beim Hochschreiben.
 
+## 2.3 Umwahlen und Abi 3 und 4 fix wählen
+
++ Inhalte: Kurse umwählen, nachdem eine Blockung erzeugt wurde
++ Kursarten (GKM und GKS und AB3 und AB4) ändern
+
+
 Änderug: Wollte doch nicht in Ge statt Geschichte schreiben.v lernabschnitte, Q1, GKS -> GKM. In der aktuellen LAufbahn ist das neu, dann in der Laufbahnplanung auch (Zukunft planen), das kam nun auch in der Blockung an.
 
 Jetzt wollen wir: Kurswechsel. Dann geht man in die Lernabschnitte, + neuen Kurs (irgendeinen Kurs). Jetzt in Laufbahnplanung Zukunft planen; Jetzt Erdkunde abwählen aus den Leistungsdaten. DAs muss nun aus der Laufbahn raus. Rotes Kreuz. Für den REst auch raus.

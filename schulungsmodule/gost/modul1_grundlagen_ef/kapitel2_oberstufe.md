@@ -1,10 +1,10 @@
 # 2. Vorbereitung in der App Oberstufe
 
++ Welche Einstellungen müssen vorgenommen werden, damit eine EF gewählt werden kann? Gibt es geforderte und verbotene Fächerkombinationen?
++ Wie kann der Beratungsbogen für die SuS mit Standardbelegungen voreingestellt werden? 
+
 Im folgenden wird eine **Allgemeine Vorlage** in der App Oberstufe erstellt. Anschließend folgt das Anlegen eines **konkreten Abiturjahrgangs**, und zwar des Abiturjahrgangs für die kommende EF.  
 In der allgemeinen Vorlage werden zunächst Standard-Einstellungen gesetzt, die in der Regel in allen konkreten Abiturjahrgängen gelten. Beispielsweise kann in der allgemeinen Vorlage festgelegt werden, dass das Fach Chemie grundsätzlich nicht als Leistungskurs gewählt werden kann. Falls ein Chemie-LK für einen spezifischen Abiturjahrgang dennoch angeboten wird, kann dies später separat für diesen Jahrgang angepasst werden. 
-
-
-
 
 ## Allgemeine Vorlage
 
