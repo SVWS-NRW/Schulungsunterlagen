@@ -52,27 +52,31 @@ Damit die Schülerinnen und Schüler ihre Laufbahnplanung über den Webbrowser e
 * **Installation von WebLuPO** (Technische Doku): https://doku.svws-nrw.de/projekte/WebLupo/
 
 
-WEITER!!!
 
 **Aufgaben 1.3 "Wahl in WebLuPO"**:
-+ Schließen Sie SVWS-Client
-+ Öffnen Sie WebLuPO (Adresse muss Ihnen bekannt gegeben werden)
-+ Öffnen Sie eine der zuvor exportierten oder eine zur Verfügung gestellte Datei.  
+1. Öffnen Sie WebLuPO im Browser (Adresse muss Ihnen bekannt gegeben werden)
+2. Öffnen Sie eine der zuvor exportierten oder eine zur Verfügung gestellte lp-Datei über den Button "Datei auswählen".
+3. Führen Sie eine vollständige Fachwahl durch und/oder korrigieren/ergänzen Sie bestehende Wahlen. Testen Sie beispielsweise folgende Klickreihenfolgen:
+    + *Planung merken*; Erneut Umwählen und anschließend *Planung wiederherstellen* 
+    + Fächer wählen und abwählen mit Modus *normal* und Modus *manuell*
+    + Klicken Sie auf "*Fächer zeigen: Alle*" wenn die Wahl vollständig ist.
+4. Exportieren Sie die Fachwahl. Es wird eine neue lp-Datei erstellt. Diese wird i.d.R. im Download-Ordner gespeichert. 
   
-Beachten Sie:  Die Daten dieser Datei verbleiben dabei auf Ihrem Rechner, sie werden nicht an den WebLuPO-Server übertragen. Daher können auch sehr viele Dateien gleichzeitig berarbeiten werden.  
-+ Führen Sie die Fachwahl durch und/oder korrigieren/ergänzen Sie bestehende Wahlen.  
-+ Testen Sie auch wieder Modi, Prüfung, Fachanzeige
-
-**Aufgaben 1.3 "Reimport von WebLuPO-Wahl in SVWS-Client"**:
-+ Exportieren Sie die Wahl (Speichern der Datei, Unterschied zum alten LuPO!). Beachten Sie das gewählte Verzeichnis.  
-+ Schließen Sie WebLuPO
-+ Öffnen Sie wieder SVWS-Client
-+ Oberstufe -> Laufbahnplanung, importieren Sie die bearbeiteten Fachwahlen.  
+Beachten Sie:  Die Daten der lp-Datei verbleiben auf Ihrem Rechner, während die Wahl im Browser getätigt wird, sie werden nicht an den WebLuPO-Server übertragen.  
 
 
-**Beispiel für Laufbahnberatung**
-+ Eine vervollständigen
-+ eine fehlerhafte Wahl korrigieren
+**Aufgaben 1.3 "Re-import von WebLuPO-Wahl in SVWS-Client"**:
+Die von Ihnen durchgeführte Wahl kann nun im SVWS-Client importiert werden. 
+1. WebLuPO kann nun geschlossen werden. Wechseln Sie zum SVWS-Client-Fenster oder öffnen Sie diesen erneut, falls er geschlossen wurde.
+2. Über den Tab Oberstufe -> Laufbahn können Sie ihre bearbeitete Fachwahl importieren. Achten Sie darauf, dass der richtige Abiturjahrgang ausgewählt ist.
+3. Importieren Sie weitere Fachwahlen, sofern Ihnen die entsprechenden lp-Dateien zur Verfügung gestellt wurden.
 
-  
-Beachten Sie: Auch hier ist der Import einzelner Dateien aber auch mehrerer Dateien möglich. Dazu müssen per Shift- oder STRG-Taste+Mausklick die gewünschten Dateien ausgewählt werden.
+**Aufgaben 1.3 "Fachwahlen sichten**:   
+1. Sichten Sie Laufbahnen, die noch Fehler enthalten im Tab Oberstufe->Laufbahnen. Stellen Sie hierzu den Filter "Nur Fehler" an und ignorieren Sie externe Schülerinnen und Schüler.
+2. Verschaffen Sie sich einen Überblick über sämtliche Fachwahlen, indem Sie unterschiedliche Inhalte per Mausklick auswählen:
+   + Welche Schüler haben Musik in der EF.1 schriftlich gewählt (Klicke auf die Zahl in der Zelle (Musik/S))?
+   + Welche Schüler haben SW-LK gewählt?
+   + Wer hat Literatur gewählt?
+   + Wer hat in Geschichte den Zusatzkurs gewählt?
+   + Gibt es Fächer, bei denen die Schülerzahlen zu gering sind? 
+
