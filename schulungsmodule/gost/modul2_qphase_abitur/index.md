@@ -164,23 +164,26 @@ In diesem Kapitel soll "geblockt" werden. Dies bedeutet, dass entschieden wird, 
     + Damit aber nicht noch andere Schüler schwimmen müssen, gehen Sie oben rechts auf "Details" und definieren Sie eine Regel, nach der dieser Kurs eine *maximale Schülerzahl* hat. Wählen Sie den Kurs und dann die Zahl der Personen, die Sie gerade hinzugefügt haben. Erstellen Sie die Regel.
     + Wiederholen Sie dieses Vorgehen mit Ihrem Tanzkurs.
 
-**Aufagbe 2.2 "Schienen sperren, Parallelitäten"**: Wir sperren die LK-Schienen. Es gibt Absprachen mit Nachbarschulen oder die LKs sollen auf bestimmte Weisen parallel liegen.
-+ **Ziehen Sie eine Box über... die Schienen 4 bis 12 und wählen Sie "Kurse sperren". nun wird kein LK in die anderen Schienen gelegt. Wie war das noch? TODO LKs fixieren usw?**
+**Aufgabe 2.2 "Schienen sperren, Parallelitäten"**: Wir sperren die LK-Schienen. Es gibt Absprachen mit Nachbarschulen oder die LKs sollen auf bestimmte Weisen parallel liegen.
++ Legen Sie die ersten beiden Schienen als LK-Schienen fest, verteilen Sie Ihre LKs auf beide Schienen, dann ziehen Sie per Drag & Drop einen Kasten über die anderen Schienen und blockieren Sie diese.
 + Da es nur eine Kunstlehrkraft gibt, brauchen wir eine Regel, dass die Kunstkurse nicht zusammenliegen dürfen.
 + Löschen Sie auch den KU-GK3.
 
 >![TIP] Regeln sind freier als "Schienen fixieren"
-> Beachten Sie, dass es grundsätzlich freier ist, eine Regel zu definieren als mit fixierten Schienen zu arbeiten.
+> Beachten Sie, dass es grundsätzlich freier ist, eine Regel zu definieren als mit fixierten Schienen zu arbeiten. Unter vielen Umständen macht eine feste Schiene aber auch viel Sinn.
 
 >![TIP] Nachdem einmal eine Berechnung gelaufen ist, lässt sich keine Schiene mehr neu anlegen. Das geht nachher aber dann doch, wenn eine Blockung "abgeleitet" wurde (dazu später mehr).
 
-+ Sorgen Sie dafür, dass ein Kunstkurs, Musik und Literatur parellel liegen. Fixieren Sie diese in Schienen oder definieren Sie Regeln. Denken Sie daran: Kurs verschieben, dann mit der Pinnadel fixieren.
++ Sorgen Sie dafür, dass ein Kunstkurs, Musik und Literatur parallel liegen. Fixieren Sie diese in Schienen oder definieren Sie Regeln. Denken Sie daran: Kurs verschieben, dann mit der Pinnadel fixieren.
 + Ebenso koppeln Sie Reli/Philo (eventuell kann hier später in der Q2 auch auch ein Zusatzkurs hin), dmait SuS nach Ihrem Gewissen frei umwählen können. Da alle Reli oder Philo haben, können wir eine 100%-Schiene definieren, die Kurse darin fixieren und, per Drag & Drop, für alles andere sperren.
 
 >![TIP] Schienen vs. Stundenplanlagen. 
 > Beachten Sie, dass die Blockungsschienen nicht unbedingt der Lage im Stundenplan entsprechen müssen. Manche Kurse können in unterschiedliche Schienen gelegt werden, dann im Stundenplan aber doch parallel liegen - oder umgekehrt, etwa, wenn man nachher in der Q2 zwei Kurse doch zusammenlegen möchte.
 
 + Soll eine "Fremdsprachenschiene" festgelegt werden? Haben Sie es zugelassen, dass jemand mit F7 oder L7 doch noch S0 wählt? Falls nicht, können die ruhig parallel gelegt werden. Ignorieren Sie S0 und definieren Sie eine Regel, dass F7 und L7 immer parallel liegen.
+
+**Aufagen 2.2 "Schüler fest Kursen zuteilen"**: Legen Sie Kursgruppen fest und teilen Sie Schüler zu
+(Also gleiche Gruppen in D_GK1, E_GK1, M_GK1, dann für 2 und 3; SuS fest zuteilen)
 
 **Aufgabe 2.2 "Neue Blockung rechnen"**: Soweit, so gut: Berechnen Sie noch einmal eine neue Blockung und schauen Sie, was passiert. Achten Sie darauf, dass alle Kurse, die Sie auch haben möchte, angelegt sind. Klicken Sie auf `Blocken`.
 + Kontrollieren Sie Wahkonflikte, haben Sie zu Beginn viele und wird dies nicht schnell besser, müssen Sie schauen, woran diese liegen.
@@ -194,18 +197,22 @@ In diesem Kapitel soll "geblockt" werden. Dies bedeutet, dass entschieden wird, 
 
 + Filtern Sie mit einem Klick auf "K", "NV" oder "K/NV" auf "Kollisionen" oder "Nicht Verteilte". Versuchen Sie, Ihre Probleme zu lösen. 
 
+## ======== Mittagspause ? =====
 
+Verbessern Sie gegebenenfalls die Blockung
 
+## Die Blockung anwenden
 
-Händisch verteilen. Was anderes einrichten, verteilen, Koop.
+>![TIP] Die fertige Blockung "hochschreiben" oder "erst Versetzen" kann nun 
+> Die gerade erstellte Blockung kann nun direkt in den zukünftigen (!) Lernabschnitt hochgeschrieben werden und wartet dann dort auf die neu versetzten Schüler.
+> Alternativ kann erst die Versetzung vorgenommen werden und dann wird die Blockung angewendet.
+> Hier in der Schulung nicht versetzen, da unsere Q2er für die folgenden Kapitel sonst weg wären.
 
-======== Mittagspause oder so =====
+>![TIP] Kein Hochschreiben vor den Sommerferien
+> Vor oder direkt zum Beginn der Sommerferien sollte die Blockung noch nicht angewendet werden. Warten Sie bis zum Ende der Sommerferien. "Bis dahin passiert noch viel."
 
-Hochschreiben in ZUKÜNFTIGEN LERNABSCHNITT oder ERST VERSETZEN. Hier in der Schulung nicht versetzen, da unsere Q2er für das Folgende sonst weg sind.
-
-"JEtzt vor den Sommerferien noch nicht machen, das bringt nichts. Warten Sie bis zum Ende der Sommerferien. Da passiert noch viel."
-
-Blockung kann "Hochschreiben" werden, in nächsten Abschnitt, dort sieht man auch Abwahlen usw. Änderungen werden von aktuellen Laufbahn von Abschnitten, die noch nicht gelaufen sind, zieht der raus. Beim Hochschreiben.
+Wenden wir die Blockung an, 
+Hochschreiben gegenüber Synchronisieren
 
 ## 2.3 Umwahlen und Abi 3 und 4 fix wählen
 
