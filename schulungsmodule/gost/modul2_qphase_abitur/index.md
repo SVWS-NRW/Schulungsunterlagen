@@ -166,6 +166,7 @@ In diesem Kapitel soll "geblockt" werden. Dies bedeutet, dass entschieden wird, 
 
 **Aufgabe 2.2 "Schienen sperren, Parallelitäten"**: Wir sperren die LK-Schienen. Es gibt Absprachen mit Nachbarschulen oder die LKs sollen auf bestimmte Weisen parallel liegen.
 + Legen Sie die ersten beiden Schienen als LK-Schienen fest, verteilen Sie Ihre LKs auf beide Schienen, dann ziehen Sie per Drag & Drop einen Kasten über die anderen Schienen und blockieren Sie diese.
++ Sperren Sie nun auch die beiden LK-Schienen für alle anderen Kurse (unter den LKs die Schienen über alle GKs sperren)
 + Da es nur eine Kunstlehrkraft gibt, brauchen wir eine Regel, dass die Kunstkurse nicht zusammenliegen dürfen.
 + Löschen Sie auch den KU-GK3.
 
@@ -199,11 +200,29 @@ In diesem Kapitel soll "geblockt" werden. Dies bedeutet, dass entschieden wird, 
 
 ## ======== Mittagspause ? =====
 
-Verbessern Sie gegebenenfalls die Blockung
+**Aufgabe 2.2 "Blockung verbessern und Ableiten"**: Verbessern Sie gegebenenfalls die Blockung
++ Verbessern Sie die Blockung.
++ Nehmen Sie die Möglichkeit zum **"Ableiten"** zur Kenntnis. 
+
+>![TIP]Ableiten ist sinnvoll, um aus einer **Blockung**, in der Berechnungen durchgeführt wurden (daher es liegen **Ergebnisse** vor, mit denne wir arbeiten und von denen wir eins auf **Aktiv** gestellt haben).
+> In diesen ***Ergebnissen*** sind nun manche Einstellungen fest und können nicht mehr verändert werden. Es können zum Beispiel keine neuen Schienen oder Kurse mehr angelegt werden. Leiten wir aber eine Blockung ab, wird daraus eine komplett **neue Blockung ohne Ergebnisse**, in der wieder alles verändert werden kann. Neue Ergebnisse, mit denen dann gearbeitet werden kann, werden über ein erneutes **berechnen** erzeugt. 
+> "Ableiten" ist auch sinnvoll, um eine Art "Backup" von einer Blockung zu erstellen, die man sich sicher abspeichern möchte, weil spätere Veränderungen vielleicht doch nicht besser sind.
+> Nehmen Sie an dieser Stelle noch einmal die Möglichkeit zur Kenntnis, Blockungen umzubennnen!
+
++ Leiten Sie eine Blockung ab und benennen Sie diese um (eventuell nach dem Datum?), legen Sie ggf. neue Kurse an oder entfernen Sie wieder welche.
++ Vergessen Sie nicht, das Ergevbus, mit dem Sie arbeiten möchten, auf **Aktiv** zu stellen.
+
+**Aufgabe 2.2 "Schülergruppen fest zugeordnet lassen"**: TODO (GK 1, GK2, GK 3 Schienen für je Mathe, Deutsch, Englisch)
+
+**TODO**
 
 ## Die Blockung anwenden
 
->![TIP] Die fertige Blockung "hochschreiben" oder "erst Versetzen" kann nun 
+>![TIP]Eine fertige Blockung können wir **"hochschreiben"**, daher diese Blockung in den kommenden Lernabschnitt übernehmen. Das neue System kann nun einen zukünftigen Lernabschnitt verwalten, so dass Planungen für die Zukunft möglich werden.
+> Alternativ kann eine Blockung **"übertragen"** werden. Dies bedeutet, dass die fertige Blockung im aktuellen Lernabschnitt in die Kurse übernommen wird und die SuS in die Kurse eingetragen werden.
+> Es ist NICHT notwendig, die Kurse über den Katalog anzulegen, das macht der Bereich "Kursplanung" von alleine.
+
+>![TIP] Die fertige Blockung "hochschreiben" oder "erst Versetzen"
 > Die gerade erstellte Blockung kann nun direkt in den zukünftigen (!) Lernabschnitt hochgeschrieben werden und wartet dann dort auf die neu versetzten Schüler.
 > Alternativ kann erst die Versetzung vorgenommen werden und dann wird die Blockung angewendet.
 > Hier in der Schulung nicht versetzen, da unsere Q2er für die folgenden Kapitel sonst weg wären.
@@ -211,19 +230,47 @@ Verbessern Sie gegebenenfalls die Blockung
 >![TIP] Kein Hochschreiben vor den Sommerferien
 > Vor oder direkt zum Beginn der Sommerferien sollte die Blockung noch nicht angewendet werden. Warten Sie bis zum Ende der Sommerferien. "Bis dahin passiert noch viel."
 
-Wenden wir die Blockung an, 
-Hochschreiben gegenüber Synchronisieren
+>![TIP] Synchronisieren
+> Wurde eine Blockung einmal mit **übertragen** verwendet, kann eine Änderung in der Blockung bei den SuS übernommen weredn, indem man **synchorniseren** anklickt.
+> **Achtung**: Synchronieren ist nicht mehr möglich, sobald eine Note in die Leistungsdaten eingetragen wurde! Nun sind Änderungen nur noch über die Leistungsdaten bei den SuS und die Kurs-Kataloge vorzunehmen!
+
+**Aufagabe 2.2 "Kurse/Schüler manuell verschieben"**: Verschieben Sie Kurse manuell zwischen den Schienen
++ Minimieren Sie die Kursplanungsansicht. Sie sehen nun die geblockten Kurse in ihren Schienen. Fassen Sie einen Kurs mit der Maus an, dann sehen Sie alle Schienen, in die er verschoben werden kann. Verschieben Sie einen Kurs.
++ Ein Kurs kann nach links in den rot aufleuchtenden Kasten gezogen werden, um die Kurszurordnung zu dieser Schienen aufzuheben.
++ Wählen Sie einen Schüler in der Auswahhliste an, **verteilen** Sie diesen automatisch mit einem Klick auf das ebenso benannte Feld auf (neue?) Kurse.
+
+**Aufgabe 2.2 "Blockung übertragen"**:
+
+**TODO**
+
+**Aufgabe 2.2 "Synronisieren"**: Was ändern, dann synchronisieren
+
+**TODO**
 
 ## 2.3 Umwahlen und Abi 3 und 4 fix wählen
 
-+ Inhalte: Kurse umwählen, nachdem eine Blockung erzeugt wurde
-+ Kursarten (GKM und GKS und AB3 und AB4) ändern
+**Aufgabe 2.3 "Umwahlen, bevor Noten eingetragen werden"**: Wählen Sie Kurse um, nachdem eine Blockung erzeugt wurde, aber noch keine Leistungsdaten erzeugt wurden
 
+>![TIP] So lange noch keine Noten eingetragen wurden, können wir im ***Aktiven Ergebnis einer Blockung, das Übertragen wurde*** Änderungen vornehmen und diese finden sich dann in den Wahlen der Schüler wieder.
+> Ebenso schlagen sich Änderungen in Umwahlen in der Schülerlaufbahn auf die Einträge hier in der Blockung nieder. Das ist toll!
 
-Änderug: Wollte doch nicht in Ge statt Geschichte schreiben.v lernabschnitte, Q1, GKS -> GKM. In der aktuellen LAufbahn ist das neu, dann in der Laufbahnplanung auch (Zukunft planen), das kam nun auch in der Blockung an.
++ Wählen Sie Kursarten um, etwa GKM auf GKS, ebenso kann man AB3 und AB4 ändern. Denken Sie daran, dass Sie einen Schüler anwählen können und dann klicken Sie in der Anzeige der gewählten Kurse oben neben dem Namen auf das **Linksymbol**.
++ Führen Sie M/S/AB3/AB4 Umwahlen nach Gefühl durch.
++ Sie sind nun in der "Laufbahnplanung" dieses Schülers, schauen Sie in der **Spalte Q1.1**: Dort findet sich ein **Linksymbol**, mit dem Sie direkt zur aktiven Kursblockung zurückspringen können - klicken Sie auf das Symbol.
++ Sie können auch komplett Kurse an- und abwählen. Beachten Sie aber, dass dies eventuell ein Problem in der Laufbahn geben kann, wenn die neue Wahl nicht in das Ergebnis passt. Passen Sie hier Ihr Blockungsergebnis weiter an.
+
+**Aufgabe 2.3 "Kurswechsel über die Leistungsdaten**
+
+>![TIP] Der Kurswechsel kann auch über die Leistungsdaten vorgenommen werden.
+> Dies geht auch bei schon angelaufenen, vergangenen und benoteten Lernabschnitten.
+
++ Gehen Sie bei einem Schüler in einen Lernabschnitt und erzeugen Sie einen neuen Kurs für diesen Schüler.
++ Gehen Sie zu einem anderen Schüler und entfernen Sie Erdkunde aus den *Schüler-Leistungsdaten*. Das erzeugt nun einen Fehler in der *Laufbahn* und der Blockung. In der Schüler-LAufbahn wird der 
 
 Jetzt wollen wir: Kurswechsel. Dann geht man in die Lernabschnitte, + neuen Kurs (irgendeinen Kurs). Jetzt in Laufbahnplanung Zukunft planen; Jetzt Erdkunde abwählen aus den Leistungsdaten. DAs muss nun aus der Laufbahn raus. Rotes Kreuz. Für den REst auch raus.
 Laufbahnplanung ist nun norma.
+
+KW in LD: Geht auch bei aktuellen -begonnenen - und vergangenen Abschnitten 
 
 Geil: All das spiegelt sich nun in die aktuelle Blockung zurück. Daher: Blockung muss aktiv sein.
 
