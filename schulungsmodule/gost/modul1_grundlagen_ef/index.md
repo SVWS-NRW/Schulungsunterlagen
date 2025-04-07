@@ -34,7 +34,7 @@ Pausen, Kaffee und Kekse: Mittagspause und kleinere Pausen nach Bedarf. Kaffee u
 
 Es gibt für die GOSt weitere Folgemodule
 
-2. **Modul Q-Phase und Abitur** Tag 1 - Q-Phase und Abitur, Spezialfälle
+2. **Modul Q-Phase und Abitur** Tag 1 - Q-Phase und Abitur
 3. **Modul Sek II-Koordination** Tag 1 - Klausurplanung, Abiturplanung, exotischere Sonderfälle, **Praxiscafé**
 
 Eventuell könnten Sie auch diese Module interessieren:
