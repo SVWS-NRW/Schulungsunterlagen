@@ -1,5 +1,5 @@
 
-## 2.4 Umwahlen und Abi 3 und 4 fix wählen
+# 2.4 Umwahlen und Abi 3 und 4 fix wählen
 
 **Aufgabe 2.4 "Umwahlen, bevor Noten eingetragen werden"**: Wählen Sie Kurse um, nachdem eine Blockung erzeugt wurde, aber noch keine Leistungsdaten erzeugt wurden
 
@@ -17,20 +17,21 @@
 > Dies geht auch bei schon angelaufenen, vergangenen und benoteten Lernabschnitten.
 
 + Gehen Sie bei einem Schüler in einen Lernabschnitt und erzeugen Sie einen neuen Kurs für diesen Schüler.
-+ Gehen Sie zu einem anderen Schüler und entfernen Sie Erdkunde aus den *Schüler-Leistungsdaten*. Das erzeugt nun einen Fehler in der *Laufbahn* und der Blockung. In der Schüler-LAufbahn wird der 
++ Gehen Sie zu einem anderen Schüler und entfernen Sie Erdkunde aus den *Schüler-Leistungsdaten*. Das erzeugt nun einen Fehler in der *Laufbahn* und der Blockung. In der Schüler-**Laufbahn** wird der Kurs nun mit roten Kreuzen als "Laufbahnfehler" angezeigt, entfernen Sie diese und bringen Sie die Laufbahn mit neuen Kursen in Ordnung. 
 
-Jetzt wollen wir: Kurswechsel. Dann geht man in die Lernabschnitte, + neuen Kurs (irgendeinen Kurs). Jetzt in Laufbahnplanung Zukunft planen; Jetzt Erdkunde abwählen aus den Leistungsdaten. DAs muss nun aus der Laufbahn raus. Rotes Kreuz. Für den REst auch raus.
-Laufbahnplanung ist nun norma.
+>![TIP] Alle Veränderungen in vergangenen und begonnenen Lernabschnitten können direkt über die **Leistungsdaten** bei den Schülern in den jeweiligen Lernabschnitten vorgenommen werden. Denken Sie daran, dann auch die **Laufbahn** wieder anzupassen! 
+> Hervorragend ist: Diese Änderungen sich anschließend in die **aktive Blockung** zurück.
+> Umwählen über die Blockung geht NUR so lange KEINE EINZIGE Note erfasst wurde! 
 
-KW in LD: Geht auch bei aktuellen -begonnenen - und vergangenen Abschnitten 
+**Aufgabe 2.4 "Kurszuordnungen in der Blockung anpassen**
++ Sichern Sie ihre Datenbank!
++ Ist der Kurs des Schülers nicht verteilt, ziehen Sie ihn passend hin und Schieben Sie Kurse per Drag & Drop herum. Und nun "synchronisieren" Sie diese Daten. 
 
-Geil: All das spiegelt sich nun in die aktuelle Blockung zurück. Daher: Blockung muss aktiv sein.
+**Aufgabe 2.4 "Fachlehrerwechsel durchführen"**
++ Führen Sie einen Fachlehrerwechsel in der Blockung durch. Dies geht nur so lange keine Noten erfasst wurden.
++ Ansonsten müssen Sie den Fachlehrer über die Kurse wechseln. **TODO: DAS IST MIR NOCH UNKLAR, GPS GIBT ES NICHT? WIE GEHT DAS???**
 
-Und jetzt wird der in der Blockung verteilt. Kurs nicht verteilt, reinziehen. UND Kurse rumschieben. Und nun "synchronisieren". VOrher: DB sichern. 
-
-Umwählen geht NUR so lange nicht EINE EINZIGE Leistungsdate erfasst wurde! 
-
-Fachlehrerwechsel: in Blockung bis lEistungsdaten. Sonst Kursen UND in Blockung.
+Hier zusammen weiter???
 
 * **Aufgaben "Umwahlen, M, S, LKs anwählen"**: Tolle Aufgabe
 

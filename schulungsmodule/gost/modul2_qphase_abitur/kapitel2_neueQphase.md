@@ -1,4 +1,4 @@
-## 2.2 Neue Q-Phase und Laufbahnen korrigieren
+# 2.2 Neue Q-Phase und Laufbahnen korrigieren
 
 Beginn in der EF.2 und nun Kontrolle der Wahlen/Laufbahnen für die Q-Phase. 
 

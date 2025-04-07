@@ -1,4 +1,4 @@
-## 2.3 Korrigierte EF für die Q1 blocken
+# 2.3 Korrigierte EF für die Q1 blocken
 
 In diesem Kapitel soll "geblockt" werden. Dies bedeutet, dass entschieden wird, welche Kurse - wie viele pro Fach - mit welchen Schülern darin angeboten werden. Die Kurse liegen auch in "Schienen", die hinterher im Stundenplan dazu dienen, Parallelitäten und Nicht-Parallelitäten festzulegen. Es lassen sich auch viele Regeln festlegen, etwa welche Kurse zusammen in einer Schiene bleiben sollen oder ob ausgewählte Schüler schon fest einem Kurs zugeordnet werden.
 
