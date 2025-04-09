@@ -26,10 +26,10 @@ Beginn in der EF.2 und nun Kontrolle der Wahlen/Laufbahnen für die Q-Phase.
 >![TIP] Ausgeglichene Stundezahlen/Kursbelegungen zu erzeugen
 >Versuchen Sie immer schon von Anfang an, akzeptable Kurszahlen und Stundenzahlen bei den SuS zu erzeugen. Beachten Sie hier schon: Wollen Sie zum Beispiel Musik in der Q2 anbieten? Falls nicht: Planen Sie alle Laufbahnen gleich so, dass diese ohne die Fächer auskommen, die in der Q2 nicht angeboten werden sollen.
 
-**Aufgaben 2.2 "Kontrollieren Sie die Kurwahlen"**: Kontrollieren Sie nun Ihre Kurswahlen der **aktuellen EF**.
-+ Kontrollieren Sie, dass "Literatur" oder ein "Vertiefungskurs" - fälschlicherweise - in der Q2 belegt werden kann. Wo muss dieser Fehler konkret und generell behoben werden?
+**Aufgaben 2.2 "Kontrollieren Sie die Kurswahlen"**: Kontrollieren Sie nun Ihre Kurswahlen der **aktuellen EF**.
++ Kontrollieren Sie, ob "Literatur" oder ein "Vertiefungskurs" - fälschlicherweise - in der Q2 belegt werden kann. Wo muss dieser Fehler konkret und generell behoben werden?
 + Kontrollieren Sie, ob die Belegungen nun in den Laufbahnplanungen vorgenommen werden können.
-+ Kontrollieren Sie die Kurswahlen der EF-Schüler. Schauen Sie hierfür zuerst in den *Tab Laufbahnen*, um die gefundenen Belegungsfehler zu finden. 
++ Kontrollieren Sie die Kurswahlen der EF-Schüler. Schauen Sie hierfür zuerst in den *Tab Oberstufe->Laufbahnen*, um die gefundenen Belegungsfehler zu finden. 
 
 >![TIP] Achtung: Die Prüfung muss hier auf "Gesamt" stehen, sonst finden Sie nur EF-Fehler!
 >In der *App Oberstufe* sind die *Warndreiecke Belegungsfehler* und die *Ausrufezeichen Informationen*. 
