@@ -35,7 +35,7 @@ Beginn in der EF.2 und nun Kontrolle der Wahlen/Laufbahnen für die Q-Phase.
 >In der *App Oberstufe* sind die *Warndreiecke Belegungsfehler* und die *Ausrufezeichen Informationen*. 
 >Beachten Sie hier auch das *Linksymbol* links neben einem Eintrag in der Auswahlliste. Über dieses kann direkt in die Laufbahnplanung dieses Schülers gesprungen werden. Der *Zurück*-Button des Browsers springt direkt zurück.
 
-+ Schüler, die keine Kurswahlen vorgenommen haben, sind dieses Schuljahr eventuell gar nicht da (Status: Beurlaubt)
++ Schüler, die keine Kurswahlen vorgenommen haben, sind dieses Schuljahr eventuell gar nicht da (Status: Beurlaubt). Für diese Schüler muss später eine passenden Laufbahn für die EF hinzugefügt werden.
 + Fehler bei der **Sprachenfolge** sind über den *Tab Sprachen* oder vorherige Lernabschnitte zu korrigieren. Ist eine Fremdsprachenanforderung eventuell schon erfüllt und es fehlt nur die Erfassung der Sprache?
 + Überlegen Sie: Kann es noch Probleme in den Laufbahnen geben, die NICHT als Fehler erkannt wurden?
 
