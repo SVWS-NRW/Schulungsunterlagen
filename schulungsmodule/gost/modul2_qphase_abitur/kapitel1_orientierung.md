@@ -14,7 +14,7 @@
 
 **Aufgaben 2.1 "SVWS-Webclient: Leistungsdaten"**: Melden Sie sich im Webclient und gehen Sie bei Schülern in den aktuellen Lernabschnitt und orientieren Sie sich, wie Leistungsdaten hier erfasst werden.
 
-**Aufgaben 2.1 "SVWS-Webclient: Katalog Kurse"**: Wechseln Sie in die *App Kurse* und orientieren Sie sich, wie Kurse erfasst werden. Stellen Sie Ihre Fragen im Plenum.
+**Aufgaben 2.1 "SVWS-Webclient: Katalog Kurse"**: Wechseln Sie in die *App Kurse* und orientieren Sie sich, wie Kurse erfasst werden. Testen Sie die verschiedenen Filtermöglichkeiten (z.B. Nur die Fächer Physik und Chemie in der EF) Stellen Sie Ihre Fragen im Plenum.
 
 **Aufgaben 2.1 "App Oberstufe"**: Orientieren Sie sich in der App *Oberstufe*
 + Gehen Sie in die App Oberstufe.
