@@ -33,7 +33,7 @@ Beginn in der EF.2 und nun Kontrolle der Wahlen/Laufbahnen für die Q-Phase.
 
 >![TIP] Achtung: Die Prüfung muss hier auf "Gesamt" stehen, sonst finden Sie nur EF-Fehler!
 >In der *App Oberstufe* sind die *Warndreiecke Belegungsfehler* und die *Ausrufezeichen Informationen*. 
->Beachten Sie hier auch das *Linksymbol* links neben einem Eintrag in der Auswahlliste. Über dieses kann direkt in die Laufbahnwahl dieses Schülers gesprungen werden. Der *Zurück*-Button des Browsers springt direkt zurück.
+>Beachten Sie hier auch das *Linksymbol* links neben einem Eintrag in der Auswahlliste. Über dieses kann direkt in die Laufbahnplanung dieses Schülers gesprungen werden. Der *Zurück*-Button des Browsers springt direkt zurück.
 
 + Schüler, die keine Kurswahlen vorgenommen haben, sind dieses Schuljahr eventuell gar nicht da (Status: Beurlaubt)
 + Fehler bei der **Sprachenfolge** sind über den *Tab Sprachen* oder vorherige Lernabschnitte zu korrigieren. Ist eine Fremdsprachenanforderung eventuell schon erfüllt und es fehlt nur die Erfassung der Sprache?
@@ -44,7 +44,7 @@ Beginn in der EF.2 und nun Kontrolle der Wahlen/Laufbahnen für die Q-Phase.
 >In laufenden oder vorherigen Lernabschnitten werden Änderungen durch Zuweisen/Löschen/Verändern von Kursen in den *Leistungsdaten des Lernabschnitts bei den Schülern* vorgenommen, nicht mehr in der *Laufbahnplanung*.
 
 >![TIP] Nicht feste Kurswahlen
-> "Nicht feste Kurswahlen zurücksetzen" kann verwendet werden, um Kurswahlen, die nicht in aktuellen und vorherigen Lernabschnitten zurückzusetzen.
+> "Nicht feste Kurswahlen zurücksetzen" kann verwendet werden, um Kurswahlen zurückzusetzen, sofern die gewählten Kurs noch nicht in aktuellen und vorherigen Lernabschnitten vorhanden sind. 
 > Kurswahlen in vorherigen Lernabschnitten sind nur noch direkt in den Leistungsdaten anzupassen - werden dann aber auch im Reiter *Laufbahn* aktuell angezeigt.
 
 >![TIP]Oben Rechts "Zur Laufbahnplanung" und "Zur Sprachenfolge"
