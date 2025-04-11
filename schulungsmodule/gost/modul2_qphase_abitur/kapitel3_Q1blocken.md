@@ -10,21 +10,22 @@ In diesem Kapitel soll "geblockt" werden. Dies bedeutet, dass entschieden wird, 
 + Jetzt gilt es sehr genau zu sein: Wir müssen uns für die *neue Blockung der Q1* zuerst im richtigen *Abiturjahrgang* befinden und dort das richtige *Halbjahr* auswählen. Stellen Sie sicher, links in der Auswahlliste das korrekte Halbajhr für den korrekten Abiturjahrgang gewählt zu haben.
 + Klicken Sie dann auf **+ Neue Blockung erstellen**.
 + Nehmen Sie zur Kenntnis, dass links unten nun *Blockungen* stehen und dort eine *Blockung 1* angelegt wurde, darunter steht eine *ID*. Die rechte Seite des Bildschirms ist nun auch befüllt.
-+ Erklären Sie, was sie sehen. Was ist die linke Spalte, was die Zeile im Kopf? Nehmen Sie zur Kenntnis, dass sich Kurse (links) noch aufklappen lassen. Schätzen Sie, ob 11 Schineen für die Q1 und Q2 ausreichen werden.
++ Erklären Sie, was sie sehen. Was ist die linke Spalte, was die Zeile im Kopf? Nehmen Sie zur Kenntnis, dass sich Kurse (links) noch aufklappen lassen. Schätzen Sie, ob 11 Schienen für die Q1 und Q2 ausreichen werden.
 + Machen Sie fünf Minuten Pause, holen Sie ruhig einen Kaffee, Wasser oder Tee.
 
 **Aufgabe 2.3 "Stumpf drauflos blocken"**: Wir legen einfach los!
 + Stellen Sie nichts ein, sondern klicken Sie einfach neben "Blockung 1" auf `Blocken`.
 + Stellen Sie die *"Anzahl der parallelen Berechungen"* auf *Maximum*.
 
->![TIP] Maximum und wo laufen die Berechnungen
->Die *Zahl der parallelen Berechnungen* gibt die Zahl der "CPU-Kerne - 1" in Ihrem lokalen Rechner an, die mit der Blockungsberechnung belastet werden können.
-> Die Berechnungen laufen lokal auf Ihrem Client im Browser, es werden keine Daten irgendwohin geladen. 
+>![TIP] **Maximum und wo laufen die Berechnungen**   
+>Die *Zahl der parallelen Berechnungen* gibt die Zahl der "CPU-Kerne - 1" in Ihrem lokalen Rechner an, die mit der Blockungsberechnung belastet werden können.   
+> Die Berechnungen laufen lokal auf Ihrem Client im Browser, es werden keine Daten irgendwohin geladen.    
+> Ihre Kollegen können somit wie gewohnt weiter mit SchILD arbeiten, während Sie lokal auf Ihrem Rechner die Blockungen berechnen.
 
 + Klicken Sie auf `Berechnung starten` und lassen Sie die Berechung etwas laufen.
 + Klicken Sie dann auf `Berechnung pausieren`.
 
->![TIP] Was sehen wir hier?
+>![TIP] Was sehen wir hier?   
 > "Berechung pausieren" hält die Berechnung an und lässt uns Ergebnisse weiterverwenden, "Abbrechen" verwirft alle bisherigen Berechnungen.
 > Hier werden paralllel mehrere Blockungen erzeugt.
 > "Regelverletzungen" sind gerade 0, aber Regeln wurden gerade nicht definiert. Dafür gibt es viele "Wahlkonflikte". Fährt der Mauszeiger über Wahlkonflikte, erfahren wir Details. Die "Maximale Kursdifferenz" bezieht sich auf SuS in fachgleichen Kursen. "Fächer parallel" gibt an, wie viele Fächer in der gleichen Schiene abgelegt wurden.
