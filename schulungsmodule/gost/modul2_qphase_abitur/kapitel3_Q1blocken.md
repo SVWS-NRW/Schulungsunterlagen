@@ -32,7 +32,7 @@ In diesem Kapitel soll "geblockt" werden. Dies bedeutet, dass entschieden wird, 
 
 + Wir haben keine Regeln definiert, keine Kursschienen fixiert, für die Q1 haben wir ohnehin zu wenige Schienen. Wir können also ruhig `Abbrechen` und müssen die Blockung durch Vorgaben berechnenbar machen. Hier können wir theoretisch Ergebisse wählen, um damit weiterzuarbeiten, aber unsere Ergebnisse sind gerade wertlos. Klicken Sie auf `Alle berechneten Ergebnisse verwerfen und schließen`. 
 
-**Aufgabe 2.3 "Mit Nachdenken und Planung blocken"**: 
+**Aufgabe 2.3 "Mit Nachdenken und Planung blocken"**:    
 + An dieser Schule bekommen wir die Q1 nicht in 11 Schienen geblockt. Fügen Sie eine 12. Schiene hinzu.
 + Nehmen Sie zur Kenntnis, dass die Schienen umbenannt werden können und das Fehler in der Kommunikation mit den Stundenplanern hier große Probleme erzeugen können.
 + Sofern noch nicht geschehen: gehen Sie in die Kurswahlen zurück, den Chemie-LK werden wir auflösen müssen, hier muss umgewählt werden.
@@ -47,7 +47,8 @@ In diesem Kapitel soll "geblockt" werden. Dies bedeutet, dass entschieden wird, 
   + Haben Sie Kurse mit Externen Schülern verplant oder haben Sie mehrere Kurse, von denen Sie schon wissen, dass die mit unterschiedlichen Kursdifferenzen enden werden, erzeugen Sie unter *Details* die Regel zu *Kursdifferenz ignorieren*.
 
 
-**Aufgabe 2.3 "Weiterplanen und Schüler zuordnen"**: Wir können auch Kurse schon fest setzen
+**Aufgabe 2.3 "Weiterplanen und Schüler zuordnen"**:    
+Wir können auch Kurse schon fest setzen
 + Zum Beispiel sind die Sportkurse nicht gleich: Von den vier Kursen sind zwei "normale" Sportkurse, einer ist "Tanzen" und der andere "Schwimmen"
     + Benennen Sie die Kurse passend um
     + Sie haben auch nur zwei Sporthallen (plus das Schwimmbad), verteilen Sie also die Sportkurse auf zwei Schienen und fixieren Sie diese (ziehen Sie die Kurse auf Schiene 1 woanders hin, dann klicken Sie auf die Pinnadel)
@@ -56,7 +57,8 @@ In diesem Kapitel soll "geblockt" werden. Dies bedeutet, dass entschieden wird, 
     + Damit aber nicht noch andere Schüler schwimmen müssen, gehen Sie oben rechts auf "Details" und definieren Sie eine Regel, nach der dieser Kurs eine *maximale Schülerzahl* hat. Wählen Sie den Kurs und dann die Zahl der Personen, die Sie gerade hinzugefügt haben. Erstellen Sie die Regel.
     + Wiederholen Sie dieses Vorgehen mit Ihrem Tanzkurs.
 
-**Aufgabe 2.3 "Schienen sperren, Parallelitäten"**: Wir sperren die LK-Schienen. Es gibt Absprachen mit Nachbarschulen oder die LKs sollen auf bestimmte Weisen parallel liegen.
+**Aufgabe 2.3 "Schienen sperren, Parallelitäten"**:    
+Wir sperren die LK-Schienen. Es gibt Absprachen mit Nachbarschulen oder die LKs sollen auf bestimmte Weisen parallel liegen.
 + Legen Sie die ersten beiden Schienen als LK-Schienen fest, verteilen Sie Ihre LKs auf beide Schienen, dann ziehen Sie per Drag & Drop einen Kasten über die anderen Schienen und blockieren Sie diese.
 + Sperren Sie nun auch die beiden LK-Schienen für alle anderen Kurse (unter den LKs die Schienen über alle GKs sperren)
 + Da es nur eine Kunstlehrkraft gibt, brauchen wir eine Regel, dass die Kunstkurse nicht zusammenliegen dürfen.
@@ -68,17 +70,19 @@ In diesem Kapitel soll "geblockt" werden. Dies bedeutet, dass entschieden wird, 
 >![TIP] Nachdem einmal eine Berechnung gelaufen ist, lässt sich keine Schiene mehr neu anlegen. Das geht nachher aber dann doch, wenn eine Blockung "abgeleitet" wurde (dazu später mehr).
 
 + Sorgen Sie dafür, dass ein Kunstkurs, Musik und Literatur parallel liegen. Fixieren Sie diese in Schienen oder definieren Sie Regeln. Denken Sie daran: Kurs verschieben, dann mit der Pinnadel fixieren.
-+ Ebenso koppeln Sie Reli/Philo (eventuell kann hier später in der Q2 auch auch ein Zusatzkurs hin), dmait SuS nach Ihrem Gewissen frei umwählen können. Da alle Reli oder Philo haben, können wir eine 100%-Schiene definieren, die Kurse darin fixieren und, per Drag & Drop, für alles andere sperren.
++ Ebenso koppeln Sie Reli/Philo (eventuell kann hier später in der Q2 auch auch ein Zusatzkurs hin), damit SuS nach Ihrem Gewissen frei umwählen können. Da alle Reli oder Philo haben, können wir eine 100%-Schiene definieren, die Kurse darin fixieren und, per Drag & Drop, für alles andere sperren.
 
 >![TIP] Schienen vs. Stundenplanlagen. 
 > Beachten Sie, dass die Blockungsschienen nicht unbedingt der Lage im Stundenplan entsprechen müssen. Manche Kurse können in unterschiedliche Schienen gelegt werden, dann im Stundenplan aber doch parallel liegen - oder umgekehrt, etwa, wenn man nachher in der Q2 zwei Kurse doch zusammenlegen möchte.
 
 + Soll eine "Fremdsprachenschiene" festgelegt werden? Haben Sie es zugelassen, dass jemand mit F7 oder L7 doch noch S0 wählt? Falls nicht, können die ruhig parallel gelegt werden. Ignorieren Sie S0 und definieren Sie eine Regel, dass F7 und L7 immer parallel liegen.
 
-**Aufagen 2.3 "Schüler fest Kursen zuteilen"**: Legen Sie Kursgruppen fest und teilen Sie Schüler zu
+**Aufagen 2.3 "Schüler fest Kursen zuteilen"**:     
+Legen Sie Kursgruppen fest und teilen Sie Schüler zu
 (Also gleiche Gruppen in D_GK1, E_GK1, M_GK1, dann für 2 und 3; SuS fest zuteilen)
 
-**Aufgabe 2.3 "Neue Blockung rechnen"**: Soweit, so gut: Berechnen Sie noch einmal eine neue Blockung und schauen Sie, was passiert. Achten Sie darauf, dass alle Kurse, die Sie auch haben möchte, angelegt sind. Klicken Sie auf `Blocken`.
+**Aufgabe 2.3 "Neue Blockung rechnen"**:     
+Soweit, so gut: Berechnen Sie noch einmal eine neue Blockung und schauen Sie, was passiert. Achten Sie darauf, dass alle Kurse, die Sie auch haben möchte, angelegt sind. Klicken Sie auf `Blocken`.
 + Kontrollieren Sie Wahkonflikte, haben Sie zu Beginn viele und wird dies nicht schnell besser, müssen Sie schauen, woran diese liegen.
 + Wählen Sie ein gut erscheinendes Ergebnis über den Haken an, dann klicken Sie auf "1 Ergebnis importieren und beenden".
 + In der Blockung ist links nun eine neue "ID" erzeugt worden. Das ist unserer Blickung. Schalten Sie das Ergebnis mit dem "Blauen Haken im Kreis" auf *Aktiv*.
@@ -96,19 +100,35 @@ In diesem Kapitel soll "geblockt" werden. Dies bedeutet, dass entschieden wird, 
 + Verbessern Sie die Blockung.
 + Nehmen Sie die Möglichkeit zum **"Ableiten"** zur Kenntnis. 
 
->![TIP]Ableiten ist sinnvoll, um aus einer **Blockung**, in der Berechnungen durchgeführt wurden (daher es liegen **Ergebnisse** vor, mit denne wir arbeiten und von denen wir eins auf **Aktiv** gestellt haben).
+>![TIP]Ableiten ist sinnvoll, um eine **Blockung**, in der Berechnungen durchgeführt wurden, zu duplizieren. (Es liegen **Ergebnisse** vor, mit denen wir arbeiten und von denen wir eins auf **Aktiv** gestellt haben).
 > In diesen ***Ergebnissen*** sind nun manche Einstellungen fest und können nicht mehr verändert werden. Es können zum Beispiel keine neuen Schienen oder Kurse mehr angelegt werden. Leiten wir aber eine Blockung ab, wird daraus eine komplett **neue Blockung ohne Ergebnisse**, in der wieder alles verändert werden kann. Neue Ergebnisse, mit denen dann gearbeitet werden kann, werden über ein erneutes **berechnen** erzeugt. 
 > "Ableiten" ist auch sinnvoll, um eine Art "Backup" von einer Blockung zu erstellen, die man sich sicher abspeichern möchte, weil spätere Veränderungen vielleicht doch nicht besser sind.
 > Nehmen Sie an dieser Stelle noch einmal die Möglichkeit zur Kenntnis, Blockungen umzubennnen!
 
 + Leiten Sie eine Blockung ab und benennen Sie diese um (eventuell nach dem Datum?), legen Sie ggf. neue Kurse an oder entfernen Sie wieder welche.
-+ Vergessen Sie nicht, das Ergevbus, mit dem Sie arbeiten möchten, auf **Aktiv** zu stellen.
++ Vergessen Sie nicht, das Ergebnis, mit dem Sie arbeiten möchten, auf **Aktiv** zu stellen.
 
-**Aufgabe 2.3 "Schülergruppen fest zugeordnet lassen"**: TODO (GK 1, GK2, GK 3 Schienen für je Mathe, Deutsch, Englisch)
+**Aufgabe 2.3 "Schülergruppen fest zugeordnet lassen"**: TODO (GK 1, GK2, GK 3 Schienen für je Mathe, Deutsch, Englisch)   
+Diese Aufgabe haben wir doch oben ("Schüler fest Kursen zuteilen":) Oder ist hier was anderes gemeint?
 
 **TODO**
+Frage: Was ist mit den externen SuS? Wird von denen die gesamte LP-Datein eingelesen?
 
 ## Die Blockung anwenden
+
+**Aufgabe 2.3 "Blockung übertragen"**    
+Wir befinden uns nun kurz vor dem Schuljahreswechsel, zwei oder drei Wochen bevor die Schule wieder losgeht. 
++ Kontrollieren Sie, dass das Blockungs-Endergebnis als aktive Blockung markiert ist.
++ Übertragen Sie die Blockung mit Hilfe des entsprechenden Button **Übertragen** in den Abschnitt Q1.1. 
++ Nehmen Sie zur Kenntnis, dass nun der Button **Synchronisieren** anstatt Übertragen als Option vorhanden ist (Mehr zum Synchronisieren später). 
++ Löschen Sie ggf. überflüssige Blockungsversuche.
++ Sichten Sie die Laufbahn eines Schülers, indem Sie in die Laufbahnplanung eines Schülers springen. Nehmen Sie zur Kenntnis, dass die Spalte Q1.1 nun grau hinterlegt ist und die Wahlen für die Q1.1 hier nicht mehr änderbar ist.
++ Wechseln Sie in den Tab "Lernabschnitte" und sichten Sie den nun angelegten neuen Abschnitt 20xx (Q1). 
++ Wählen Sie den zukünftigen Abschitt bei einem Schüler aus und prüfen Sie, ob die Kurse dort hinterlegt sind.
+
+**WEITER**
+**Aufgabe 2.3 "Lehrer einpflegen"**  
+
 
 >![TIP]Eine fertige Blockung können wir **"hochschreiben"**, daher diese Blockung in den kommenden Lernabschnitt übernehmen. Das neue System kann nun einen zukünftigen Lernabschnitt verwalten, so dass Planungen für die Zukunft möglich werden.
 > Alternativ kann eine Blockung **"übertragen"** werden. Dies bedeutet, dass die fertige Blockung im aktuellen Lernabschnitt in die Kurse übernommen wird und die SuS in die Kurse eingetragen werden.
