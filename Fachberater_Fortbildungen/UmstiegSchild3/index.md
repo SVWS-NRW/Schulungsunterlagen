@@ -28,6 +28,8 @@ Diese Anpassungen sollen in der Online-Fortbildung aufgezeigt werden. Konkret so
 + Hochschulung
 + Fehlermeldung zur falschen Version vom SVWS-Server
 + Infos zu PM3, KM3
++ Restart des Servers nach einem Update
++ Oberstufenplanung an Gesamtschulen
 
 
 
