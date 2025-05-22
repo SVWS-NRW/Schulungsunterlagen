@@ -22,6 +22,8 @@
 | [Blockung der kommenden EF](./EFBlockung/index.md)  | 03.04.2025  | 14:00 - 15:30|
 | [Stundenplan im Client](./Stundenplan/index.md) | Entfall   | 14:00 - 15:00 |
 | [Webnotenmodul](./Wenom/index.md)  | 29.04.2025 | 14:00 - 15:00 |
+| [Umstieg von SchILD2 zu SchILD3 - <br>Was muss beachtet werden](./UmstiegSchild3/index.md)  | 12.06.2025 | 14:00 - 15:30 |
+| [Umstieg von SchILD2 zu SchILD3 - <br>Was muss beachtet werden](./UmstiegSchild3/index.md)  | 23.06.2025 | 14:00 - 15:30 |
 | [Klausurplanung](./Klausurblockung/index.md)  |  Termin folgt  | -- |
 | [Datenbanken sichten mit DBeaver](./DBeaver/index.md) | Auf Anfrage | --- |
 | [Schulungskonzepte](./Schulungskonzept/index.md)| Auf Anfrage | --- |

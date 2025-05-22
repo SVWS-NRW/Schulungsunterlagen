@@ -1,6 +1,6 @@
 # Fortbildung: Umstieg von SchILD2 zu SchILD3 - Was muss beachtet werden
 
-Der grundlegende Arbeitsablauf wurde in Schild3 analog zu Schild2 umgesetzt. An wenigen Stellen gibt es Unterschiede, scheinbar fehlende Funktionen oder Felder, die in Schild2 noch vorhanden waren oder umbenannt wurden.
+Der grundlegende Arbeitsablauf wurde in Schild3 analog zu Schild2 umgesetzt. An einigen Stellen gibt es Unterschiede, scheinbar fehlende Funktionen oder Felder, die in Schild2 noch vorhanden waren oder umbenannt wurden.
 
 Diese Anpassungen sollen in der Online-Fortbildung aufgezeigt werden. Konkret sollen diese Inhalte gezeigt werden:
 
@@ -24,7 +24,7 @@ Diese Anpassungen sollen in der Online-Fortbildung aufgezeigt werden. Konkret so
     + Option "Vermerke zeigen"
 + Jahrgangsbezeichnung an Grundschulen/WBK
     + Statt E1, E2 und E3 nur noch 01 und 02 
-+ EP-Jahr
++ Eintrag EP-Jahr
 + Hochschulung
 + Fehlermeldung zur falschen Version vom SVWS-Server
 + Infos zu PM3, KM3
@@ -37,7 +37,7 @@ Diese Anpassungen sollen in der Online-Fortbildung aufgezeigt werden. Konkret so
 ### Ablauf der Fortbildung
 Die oben genannten Inhalte werden vorgestellt. Eine Überungsphase ist nicht vorgesehen.
 
-Im Anschluss gibt es die Möglichkeit, Fragen zu stellen. Wer jedoch wenig Zeit hat oder keine Fragen hat, kann das Meeting ohne Weiteres verlassen.
+
 
 
 
