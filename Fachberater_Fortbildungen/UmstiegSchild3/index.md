@@ -1,4 +1,4 @@
-# Fortbildung: Umstieg von SchILD2 zu SchILD3 - Was muss beachtet werden
+# Fortbildung: Umstieg von SchILD2 zu SchILD3 - Was ändert sich
 
 Der grundlegende Arbeitsablauf wurde in Schild3 analog zu Schild2 umgesetzt. An einigen Stellen gibt es Unterschiede, scheinbar fehlende Funktionen oder Felder, die in Schild2 noch vorhanden waren oder umbenannt wurden.
 
@@ -18,6 +18,7 @@ Diese Anpassungen sollen in der Online-Fortbildung aufgezeigt werden. Konkret so
     + Sichtbarkeit wurde abgestellt.
     + Folgeklasse/Vorgängerklasse abschnittsbezogen
 + Quartalsnoten statt Quartalsbetrieb an Gesamtschulen
++ Prognose basierend auf Quartalsnoten
 + Bemerkungsfeld
     + wurde abgeschafft
     + Angaben werden als Vermerke migriert
