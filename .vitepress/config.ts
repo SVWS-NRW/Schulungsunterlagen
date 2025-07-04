@@ -73,7 +73,14 @@ export default defineConfig({
 			{
 				text: 'Schulungsmodule', link: '/schulungsmodule/', collapsed: false,
 				items: [
-					{ text: 'Basisschulungen (leer)', link: '/schulungsmodule/basisschulungen/' },
+					{ text: 'Basisschulungen (leer)', link: '/schulungsmodule/basisschulungen/'collapsed: true,
+						items: [
+							{ text: 'Kapitel 1', link: 'schulungsmodule/basisschulungen/S1_Kapitel 1 (1).md' },
+							{ text: 'Kapitel 2', link: 'schulungsmodule/basisschulungen/S1_Kapitel 2 (1).md' },
+							{ text: 'Kapitel 3', link: 'schulungsmodule/basisschulungen/S1_Kapitel 3 (2).md' },
+							{ text: 'Kapitel 4', link: 'schulungsmodule/basisschulungen/S1_Kapitel 4 (1).md' },
+						],
+					},
 					{ text: 'Sekundarstufe I', link: '/schulungsmodule/sek_i/' },
 					{ text: 'Gymnasiale Oberstufe', link: '/schulungsmodule/gost/', collapsed: true,
 						items: [
