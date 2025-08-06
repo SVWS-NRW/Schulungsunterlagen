@@ -56,7 +56,7 @@ export default defineConfig({
           { text: 'Administration im Client', link: '/Installation_Fachberatung_Moderation/AdminTool/' }
         ]
 	  },*/
-		/**	{
+			/**	{
 				text: 'Leistungsdaten Sek II', link: '/LeistungsdatenSekII/', collapsed: true,
 				items: [
 					{ text: 'Allgemeine Vorlagen', link: '/LeistungsdatenSekII/Allgemein_Vorlage/' },
@@ -101,7 +101,7 @@ export default defineConfig({
 							},
 							{ text: 'Leitungskram', link: '/schulungsmodule/gost/modul3_leitung/', items: [
 								{ text: '↳ Aufgaben Modul 3 (kein Link)' },
-							]
+							],
 							},
 						],
 					},
