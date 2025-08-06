@@ -75,7 +75,7 @@ export default defineConfig({
 				items: [
 					{ text: 'Basisschulungen (leer)', link: '/schulungsmodule/basisschulungen/', collapsed: true,
 						items: [
-							{ text: 'Kapitel 1', link: 'schulungsmodule/basisschulungen/S1_Kapitel 1 (1).md' },
+							{ text: 'Kapitel 1 test', link: 'schulungsmodule/basisschulungen/S1_Kapitel 1 (1).md' },
 							{ text: 'Kapitel 2', link: 'schulungsmodule/basisschulungen/S1_Kapitel 2 (1).md' },
 							{ text: 'Kapitel 3', link: 'schulungsmodule/basisschulungen/S1_Kapitel 3 (2).md' },
 							{ text: 'Kapitel 4', link: 'schulungsmodule/basisschulungen/S1_Kapitel 4 (1).md' },
