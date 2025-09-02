@@ -114,6 +114,12 @@ export default defineConfig({
 					{ text: 'Übersicht', link: '/Fachberater_Fortbildungen/Uebersicht' },
 				],*/
 			},
+			{
+				text: 'Fortbildungen für Fachberater', link: '/Fachberater_Fortbildungen/', collapsed: true,
+				/*items: [
+					{ text: 'Übersicht', link: '/Fachberater_Fortbildungen/Uebersicht' },
+				],*/
+			},
 		],
 
 		socialLinks: [
