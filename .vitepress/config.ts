@@ -115,10 +115,10 @@ export default defineConfig({
 				],*/
 			},
 			{
-				text: 'Fortbildungen für Fachberater', link: '/Fachberater_Fortbildungen/', collapsed: true,
-				/*items: [
-					{ text: 'Übersicht', link: '/Fachberater_Fortbildungen/Uebersicht' },
-				],*/
+				text: 'Anleitungen für Fachberater', link: '/Fachberater_Anleitungen/', collapsed: false,
+				items: [
+					{ text: 'SVWS-MariaDB Reparieren', link: '/Fachberater_Anleitungen/Fachberater_DBReparatur' },
+				],
 			},
 		],
 
