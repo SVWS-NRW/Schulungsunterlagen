@@ -3,8 +3,8 @@
 ### Ablauf der Fortbildungen:
 
 + Die Fortbildungen richten sich ausschließlich an Fachberaterinnen und Fachberater, sowie Moderatorinnen und Moderatoren. 
-+ Der Link zum Videomeeting wird am Vortag der Fortbildung per E-Mail an alle zugesendet.
-+ Eine Anmeldung ist nicht erforderlich.
++ Der Link zum Videomeeting wird per E-Mail an alle zugesendet.
++ Bei den meisten Fortbildungen könnt Ihr ohne Anmeldung direkt teilnehmen.
 + Zu Beginn jeder Fortbildung erfolgt ein Input, bei dem ich praxisnah eine Demonstration zu dem jeweiligen Thema durchführe.
 + Im Anschluss gibt es Raum für Fragen und Anregungen.
 + Teilnehmerinnen und Teilnehmer, die keine Fragen mehr haben, können das Meeting nach dem Input-Teil gerne verlassen.
