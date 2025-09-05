@@ -10,8 +10,8 @@ Um gezielt auf die Probleme einzugehen ist die Videokonferenz begrenzt auf 5 Tei
 
 
 
-### Anmeldung hier:
-Noch nicht freigeschaltet.
+
+[Anmeldung](https://melly.de/plan/TPNHRWJ63NRA)
 
 
 

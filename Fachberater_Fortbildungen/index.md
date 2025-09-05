@@ -14,19 +14,20 @@
 
 
 | Thema   | Datum | Uhrzeit | Anmeldung erforderlich |
-| ---------- | ------------- | ------------- |
-| [Fragen zur Installation / Installationsprobleme](./Installation/index.md) | 28.10.2025  | 14:00 - 14:45| Ja [Hier](https://melly.de/plan/TPNHRWJ63NRA) |
-| [Umstieg von SchILD2 zu SchILD3 für Einsteiger - <br>Was ändert sich](./UmstiegSchild3/index.md)  |-- | 14:00 - 15:30 | -- |
-| [Reparieren von Access-DBs](./ReparaturMDB/index.md) | --  | 14:00 - 14:30| -- |
-| [Migration und Datenbanksicherung für Einsteiger](./MigrationSicherung/index.md) | --  | 14:00 - 14:30| -- |
-| [Reports - Das ändert sich](./Reports/index.md) | --  | 14:00 - 14:45| -- |
-| [Blockung der kommenden EF](./EFBlockung/index.md)  | --  | 14:00 - 15:30| -- |
+| ---------- | ------------- | ------------- |------------- |
+| [Fragen zur Installation / Installationsprobleme](./Installation/index.md) | 28.10.2025  | 14:00 - 15:00| Ja [Anmelden](https://melly.de/plan/TPNHRWJ63NRA) |
+| [Umstieg von SchILD2 zu SchILD3 für Einsteiger - <br>Was ändert sich](./UmstiegSchild3/index.md)  | 06.11.2025 | 14:00 - 15:30 | -- |
+| [Reparieren von Access-DBs](./ReparaturMDB/index.md) | 18.11.2025 | 15:00 - 15:30| -- |
+| [Migration und Datenbanksicherung für Einsteiger](./MigrationSicherung/index.md) | 25.11.2025  | 15:00 - 16:00| -- |
+| [Fragen zur Installation / Installationsprobleme](./Installation/index.md) | 02.12.2025  | 14:00 - 15:00| Ja [Anmelden](https://melly.de/plan/TPNHRWJ63NRA) |
+| [Reports - Das ändert sich](./Reports/index.md) | 04.12.2025 | 14:00 - 14:45| Ja [Anmelden](https://melly.de/plan/TPNHRWJ63NRA) |
+| [Blockung der EF](./EFBlockung/index.md)  | 09.12.2025  | 14:00 - 15:30| -- |
+| [Blockung der Q1](./QBlockung/index.md)  | 17.12.2025  | 14:00 - 15:30| -- |
 | [Webnotenmodul](./Wenom/index.md)  | In Planung | 14:00 - 15:00 | -- |
-| [Umstieg von SchILD2 zu SchILD3 - <br>Was ändert sich](./UmstiegSchild3/index.md)  | 23.06.2025 | 14:00 - 15:30 | -- |
 | [Klausurplanung](./Klausurblockung/index.md)  |  In Planung  | -- | -- |
-| [Datenbanken sichten mit DBeaver](./DBeaver/index.md) | Auf Anfrage | --- | -- |
 | [Schulungskonzepte](./Schulungskonzept/index.md)| Auf Anfrage | --- | -- |
 | [Stundenplan im Client](./Stundenplan/index.md) | In Planung   | -- | -- |
+| [Datenbanken sichten mit DBeaver](./DBeaver/index.md) | Auf Anfrage | --- | -- |
 
 <!--| [Offene Austauschrunde](./Fragerunde/index.md)| --- | --- |-->
 <!-- This content will not appear in the rendered Markdown -->
