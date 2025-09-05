@@ -15,15 +15,15 @@
 
 | Thema   | Datum | Uhrzeit | Anmeldung erforderlich |
 | ---------- | ------------- | ------------- |------------- |
-| [Fragen zur Installation / Installationsprobleme](./Installation/index.md) | 28.10.2025  | 14:00 - 15:00| Ja [Anmelden](https://melly.de/plan/TPNHRWJ63NRA) |
-| [Umstieg von SchILD2 zu SchILD3 für Einsteiger - <br>Was ändert sich](./UmstiegSchild3/index.md)  | 06.11.2025 | 14:00 - 15:30 | -- |
-| [Reparieren von Access-DBs](./ReparaturMDB/index.md) | 18.11.2025 | 15:00 - 15:30| -- |
-| [Migration und Datenbanksicherung für Einsteiger](./MigrationSicherung/index.md) | 25.11.2025  | 15:00 - 16:00| -- |
-| [Fragen zur Installation / Installationsprobleme](./Installation/index.md) | 02.12.2025  | 14:00 - 15:00| Ja [Anmelden](https://melly.de/plan/TPNHRWJ63NRA) |
-| [Reports - Das ändert sich](./Reports/index.md) | 04.12.2025 | 14:00 - 14:45| Ja [Anmelden](https://melly.de/plan/TPNHRWJ63NRA) |
-| [Blockung der EF](./EFBlockung/index.md)  | 09.12.2025  | 14:00 - 15:30| -- |
-| [Blockung der Q1](./QBlockung/index.md)  | 17.12.2025  | 14:00 - 15:30| -- |
-| [Webnotenmodul](./Wenom/index.md)  | In Planung | 14:00 - 15:00 | -- |
+| [Fragen zur Installation / Installationsprobleme](./Installation/index.md) | 28.10.2025  | 14:00 - 15:00| [Anmelden](https://melly.de/plan/TPNHRWJ63NRA) |
+| [Umstieg von SchILD2 zu SchILD3 für Einsteiger - <br>Was ändert sich](./UmstiegSchild3/index.md)  | 06.11.2025 | 14:00 - 15:30 | Nein |
+| [Reparieren von Access-DBs](./ReparaturMDB/index.md) | 18.11.2025 | 15:00 - 15:30| Nein |
+| [Migration und Datenbanksicherung für Einsteiger](./MigrationSicherung/index.md) | 25.11.2025  | 15:00 - 16:00| Nein |
+| [Fragen zur Installation / Installationsprobleme](./Installation/index.md) | 02.12.2025  | 14:00 - 15:00|  [Anmelden](https://melly.de/plan/TPNHRWJ63NRA) |
+| [Reports - Das ändert sich](./Reports/index.md) | 04.12.2025 | 14:00 - 14:45|  [Anmelden](https://melly.de/plan/TPNHRWJ63NRA) |
+| [Blockung der EF](./EFBlockung/index.md)  | 09.12.2025  | 14:00 - 15:30| Nein |
+| [Blockung der Q1](./QBlockung/index.md)  | 17.12.2025  | 14:00 - 15:30| Nein |
+| [Webnotenmodul](./Wenom/index.md)  | In Planung | 14:00 - 15:00 | Nein |
 | [Klausurplanung](./Klausurblockung/index.md)  |  In Planung  | -- | -- |
 | [Schulungskonzepte](./Schulungskonzept/index.md)| Auf Anfrage | --- | -- |
 | [Stundenplan im Client](./Stundenplan/index.md) | In Planung   | -- | -- |
