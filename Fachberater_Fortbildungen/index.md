@@ -13,7 +13,7 @@
 # Übersicht - Fortbildungen
 
 
-| Thema   | Datum | Uhrzeit | Anmeldung erforderlich
+| Thema   | Datum | Uhrzeit | Anmeldung erforderlich |
 | ---------- | ------------- | ------------- |
 | [Fragen zur Installation / Installationsprobleme](./Installation/index.md) | 28.10.2025  | 14:00 - 14:45| Ja [Hier](https://melly.de/plan/TPNHRWJ63NRA) |
 | [Umstieg von SchILD2 zu SchILD3 für Einsteiger - <br>Was ändert sich](./UmstiegSchild3/index.md)  |-- | 14:00 - 15:30 | -- |
