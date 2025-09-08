@@ -119,6 +119,9 @@ export default defineConfig({
 				items: [
 					{ text: 'SVWS-MariaDB Reparieren', link: '/Fachberater_Anleitungen/Fachberater_DBReparatur' },
 				],
+				[
+					{ text: 'Reportin - Aufbau der Schülerliste', link: '/Fachberater_Anleitungen/Fachberater_Reporting' },
+				],
 			},
 		],
 
