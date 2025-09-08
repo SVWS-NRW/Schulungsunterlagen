@@ -119,11 +119,12 @@ export default defineConfig({
 				text: 'Anleitungen für Fachberater', link: '/Fachberater_Anleitungen/', collapsed: false,
 				items: [
 					{ text: 'SVWS-MariaDB Reparieren', link: '/Fachberater_Anleitungen/Fachberater_DBReparatur' },
-					{ text: 'Reporting', link: '/Fachberater_Anleitungen/Fachberater_Reporting', collapsed: true },
-						itmes:[
+					{ text: 'Reporting', link: '/Fachberater_Anleitungen/Fachberater_Reporting', collapsed: true,
+						items:[
 							{text:'Übersicht', link: 'Fachberater_Anleitungen/Fachberater_Reporting/Uebersicht/index.md'},
 							{text:'Übersicht', link: 'Fachberater_Anleitungen/Fachberater_Reporting/BeispielreportSchuelerliste/index.md'},
-						]
+						],
+					},
 				],
 			},
 		],
