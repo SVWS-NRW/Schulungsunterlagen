@@ -4,7 +4,7 @@ Im folgenden wird der Aufbau des Reports erläutert, welcher für das Drucken vo
 
 Im Projekt findet man den Report hier:
 
-![Html-Kopf](./graphics/Bild00.png)  
+![Html-Kopf](./graphics/bild00.png)  
 
 
 ## Html-Kopf
