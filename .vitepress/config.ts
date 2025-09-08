@@ -118,8 +118,6 @@ export default defineConfig({
 				text: 'Anleitungen für Fachberater', link: '/Fachberater_Anleitungen/', collapsed: false,
 				items: [
 					{ text: 'SVWS-MariaDB Reparieren', link: '/Fachberater_Anleitungen/Fachberater_DBReparatur' },
-				],
-				[
 					{ text: 'Reportin - Aufbau der Schülerliste', link: '/Fachberater_Anleitungen/Fachberater_Reporting' },
 				],
 			},
