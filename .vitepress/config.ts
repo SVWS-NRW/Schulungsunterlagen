@@ -1,3 +1,4 @@
+import { link } from 'fs'
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
@@ -118,7 +119,11 @@ export default defineConfig({
 				text: 'Anleitungen für Fachberater', link: '/Fachberater_Anleitungen/', collapsed: false,
 				items: [
 					{ text: 'SVWS-MariaDB Reparieren', link: '/Fachberater_Anleitungen/Fachberater_DBReparatur' },
-					{ text: 'Reportin - Aufbau der Schülerliste', link: '/Fachberater_Anleitungen/Fachberater_Reporting' },
+					{ text: 'Reporting', link: '/Fachberater_Anleitungen/Fachberater_Reporting', collapsed: true },
+						itmes:[
+							{text:'Übersicht', link: 'Fachberater_Anleitungen/Fachberater_Reporting/Uebersicht/index.md'},
+							{text:'Übersicht', link: 'Fachberater_Anleitungen/Fachberater_Reporting/BeispielreportSchuelerliste/index.md'},
+						]
 				],
 			},
 		],
