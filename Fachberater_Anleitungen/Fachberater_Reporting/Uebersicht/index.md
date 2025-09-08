@@ -15,7 +15,9 @@ Syntax<br>
 
 ### th:utext (Text ausgeben; dabei html interpretieren)
 utext für Texte, die html-Code enthalten. Html wird interpretiert und ausgegeben. Ist der html Text null, wird ein Default-Wert genommen:<br>
+```html
 th:utext="${Methode, die Text mit html-Elementen zurückgibt}">Defaultwert, falls leer
+```
 
 ### th:text (nur Text ausgeben)
 Gibt text so aus, wie er ist. Html wird als Text angezeigt, nicht interpretiert.

@@ -122,7 +122,7 @@ export default defineConfig({
 					{ text: 'Reporting', link: '/Fachberater_Anleitungen/Fachberater_Reporting', collapsed: true,
 						items:[
 							{text:'Übersicht', link: 'Fachberater_Anleitungen/Fachberater_Reporting/Uebersicht/index.md'},
-							{text:'Übersicht', link: 'Fachberater_Anleitungen/Fachberater_Reporting/BeispielreportSchuelerliste/index.md'},
+							{text:'Beispiel Schülerliste', link: 'Fachberater_Anleitungen/Fachberater_Reporting/BeispielreportSchuelerliste/index.md'},
 						],
 					},
 				],
