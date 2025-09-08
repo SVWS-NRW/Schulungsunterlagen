@@ -1,4 +1,4 @@
-# Übersicht Thymeleaf-Attribut
+# Übersicht Thymeleaf-Attribute
 
 ### th:with
 + mit th:with kann man lokale Variablen deklarieren

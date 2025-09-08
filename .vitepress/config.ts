@@ -121,7 +121,7 @@ export default defineConfig({
 					{ text: 'SVWS-MariaDB Reparieren', link: '/Fachberater_Anleitungen/Fachberater_DBReparatur' },
 					{ text: 'Reporting', link: '/Fachberater_Anleitungen/Fachberater_Reporting', collapsed: true,
 						items:[
-							{text:'Übersicht', link: 'Fachberater_Anleitungen/Fachberater_Reporting/Uebersicht/index.md'},
+							{text:'Übersicht - Thymeleaf', link: 'Fachberater_Anleitungen/Fachberater_Reporting/Uebersicht/index.md'},
 							{text:'Beispiel Schülerliste', link: 'Fachberater_Anleitungen/Fachberater_Reporting/BeispielreportSchuelerliste/index.md'},
 						],
 					},
