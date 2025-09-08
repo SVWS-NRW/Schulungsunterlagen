@@ -1,6 +1,10 @@
-# Erläuterungen zum Report SchuelerlisteMKontaktdatenErzieher.html  
+# Erläuterungen zum Report SchuelerlisteKontaktdatenErzieher.html  
 
-Im folgenden wird der Aufbau des Reports erläutert, welcher für das Drucken von Schülerlisten genutzt wird. Es handelt sich um ein html-Dokument mit der Erweiterung Thymeleaf
+Im folgenden wird der Aufbau des Reports erläutert, welcher für das Drucken von Schülerlisten genutzt wird. Es handelt sich um ein html-Dokument mit der Erweiterung Thymeleaf.
+
+Im Projekt findet man den Report hier:
+
+![Html-Kopf](./graphics/Bild00.png)  
 
 
 ## Html-Kopf
