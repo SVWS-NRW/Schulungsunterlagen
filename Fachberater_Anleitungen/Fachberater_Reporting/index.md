@@ -14,7 +14,7 @@ Im Projekt findet man den Report hier:
 Die css Vorlagen 
 + Reporting-A4-hoch, 
 + Reporting-A4-quer.css 
-+ Reporting-A4-hoch-duplix.css, 
++ Reporting-A4-hoch-duplex.css, 
 + reporting-A4-quer-duplex.css und
 + reporting-styles.css
 können von allen Reports referenziert werden und liegen im Ordner css. Dort gibt es noch weitere Vorlagen.  
@@ -70,7 +70,7 @@ Hier sieht man, wo pageTopLeft definiert ist:
 
 ![Html-body](./graphics/Bild07.png) 
 
-**Methode bezeichnungSchuleMehrzeiligHtml **<br>
+**Methode bezeichnungSchuleMehrzeiligHtml**<br>
 ![Html-body](./graphics/Bild08.png) 
 
 Insgesamt folgt aus dem Block:
