@@ -24,10 +24,11 @@
 | [Reports - Das ändert sich](./Reports/index.md) | 04.12.2025 | 14:00 - 14:45|  [Anmelden](https://melly.de/plan/TPNHRWJ63NRA) |
 | [Blockung der EF](./EFBlockung/index.md)  | 09.12.2025  | 14:00 - 15:30| Nein |
 | [Blockung der Q1](./QBlockung/index.md)  | 17.12.2025  | 14:00 - 15:30| Nein |
+| [Datenbanken sichten mit DBeaver](./DBeaver/index.md) | Auf Anfrage | 15:00 - 15:45 |  [Anmelden](https://melly.de/plan/TPNHRWJ63NRA) |
 | [Klausurplanung](./Klausurblockung/index.md)  |  In Planung  | -- | -- |
 | [Schulungskonzepte](./Schulungskonzept/index.md)| Auf Anfrage | --- | -- |
 | [Stundenplan im Client](./Stundenplan/index.md) | In Planung   | -- | -- |
-| [Datenbanken sichten mit DBeaver](./DBeaver/index.md) | Auf Anfrage | --- | -- |
+
 
 <!--| [Offene Austauschrunde](./Fragerunde/index.md)| --- | --- |-->
 <!-- This content will not appear in the rendered Markdown -->
