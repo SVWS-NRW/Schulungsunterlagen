@@ -92,15 +92,17 @@ export default defineConfig({
 								{ text: '4. Blocken', link: 'schulungsmodule/gost/modul1_grundlagen_ef/kapitel4_blocken.md' },
 								{ text: '5. Blockung anwenden', link: 'schulungsmodule/gost/modul1_grundlagen_ef/kapitel5_blockung_anwenden.md' },
 								{ text: '6. Leistungsdaten und Zeugnisse', link: 'schulungsmodule/gost/modul1_grundlagen_ef/kapitel6_leistungsdaten_zeugnisse.md' },
-								{ text: '↳ Aufgaben Modul 1', link: '/schulungsmodule/gost/modul1_grundlagen_ef/aufgaben_modul_1.md' },
-								{ text: '↳ Extraaufgaben Modul 1', link: '/schulungsmodule/gost/modul1_grundlagen_ef/extraaufgaben_modul_1.md' },
 							],
 							},
 							{ text: 'Q-Phase und Abitur', link: '/schulungsmodule/gost/modul2_qphase_abitur/', items: [
-								{ text: '↳ Aufgaben Modul 2 (kein Link)' },
+								{ text: '1. ', link: '/schulungsmodule/gost/modul2_qphase_abitur/kapitel1_orientierung.md' },
+								{ text: '2. ', link: '/schulungsmodule/gost/modul2_qphase_abitur/kapitel2_neueQphase.md' },
+								{ text: '3. ', link: 'schulungsmodule/gost/modul2_qphase_abitur/kapitel3_Q1blocken.md' },
+								{ text: '4. ', link: 'schulungsmodule/gost/modul2_qphase_abitur/kapitel4_Blockung_verändern.md' },
+								{ text: '5. ' },
 							],
 							},
-							{ text: 'Leitungskram', link: '/schulungsmodule/gost/modul3_leitung/', items: [
+							{ text: 'Modul 3 - Flexmodul', link: '/schulungsmodule/gost/modul3_leitung/', items: [
 								{ text: '↳ Aufgaben Modul 3 (kein Link)' },
 							],
 							},

@@ -1,8 +1,7 @@
-# Hallo, wir sind die Schulungsmodule
+# Schulungsmodule
 
 **Basismodule:**
-+ Dies
-+ Jenes
++ ToDo
 
 **GoST:** 
 + Modul 1: Grundlagen bis EF (2 Tage)
