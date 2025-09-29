@@ -95,11 +95,12 @@ export default defineConfig({
 							],
 							},
 							{ text: 'Q-Phase und Abitur', link: '/schulungsmodule/gost/modul2_qphase_abitur/', items: [
-								{ text: '1. ', link: '/schulungsmodule/gost/modul2_qphase_abitur/kapitel1_orientierung.md' },
-								{ text: '2. ', link: '/schulungsmodule/gost/modul2_qphase_abitur/kapitel2_neueQphase.md' },
-								{ text: '3. ', link: 'schulungsmodule/gost/modul2_qphase_abitur/kapitel3_Q1blocken.md' },
-								{ text: '4. ', link: 'schulungsmodule/gost/modul2_qphase_abitur/kapitel4_Blockung_verändern.md' },
-								{ text: '5. ' },
+								{ text: '1. Orientierung und Wiederholung', link: '/schulungsmodule/gost/modul2_qphase_abitur/kapitel1_orientierung.md' },
+								{ text: '2. Neue Q-Phase und Laufbahnkorrekturen', link: '/schulungsmodule/gost/modul2_qphase_abitur/kapitel2_neueQphase.md' },
+								{ text: '3. Korrigierte EF und Q1 blocken', link: '/schulungsmodule/gost/modul2_qphase_abitur/kapitel3_Q1blocken.md' },
+								{ text: '4. Umwahlen und Wahl von A3/A4', link: '/schulungsmodule/gost/modul2_qphase_abitur/kapitel4_Blockung_verändern.md' },
+								{ text: '5. Abitur usw?' },
+								{ text: '6. Optional: Klausurplanung' },
 							],
 							},
 							{ text: 'Modul 3 - Flexmodul', link: '/schulungsmodule/gost/modul3_leitung/', items: [
