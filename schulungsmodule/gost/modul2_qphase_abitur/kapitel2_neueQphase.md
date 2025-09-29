@@ -13,7 +13,7 @@ Beginn in der EF.2 und nun Kontrolle der Wahlen/Laufbahnen für die Q-Phase.
 >In der Kopfzeile werden Laufbahnwahlbögen als .pdf für den Druck erzeugt.
 
 
-**Aufgaben 2.2 "Filtern Sie auf den Jahrgang EF"**: Filtern Sie in der *App Schüler* auf den Jahrgang EF und wechseln Sie auf den Reiter *Laufbhanplanung*.
+**Aufgaben 2.2.1 "Filtern Sie auf den Jahrgang EF"**: Filtern Sie in der *App Schüler* auf den Jahrgang EF und wechseln Sie auf den Reiter *Laufbhanplanung*.
 + Klicken Sie bei einer Person auf "Planung merken".
 + Verändern Sie im Wahlbereich die Laufbahnwahl und schauen Sie, wie sich die Zahl der Stunden und die belegten Kurse unten verändern.
 + Schauen Sie, was für Fehler bei den "Belegprüfungsergebnissen" rechts erscheinen.
@@ -26,7 +26,7 @@ Beginn in der EF.2 und nun Kontrolle der Wahlen/Laufbahnen für die Q-Phase.
 >![TIP] Ausgeglichene Stundezahlen/Kursbelegungen zu erzeugen
 >Versuchen Sie immer schon von Anfang an, akzeptable Kurszahlen und Stundenzahlen bei den SuS zu erzeugen. Beachten Sie hier schon: Wollen Sie zum Beispiel Musik in der Q2 anbieten? Falls nicht: Planen Sie alle Laufbahnen gleich so, dass diese ohne die Fächer auskommen, die in der Q2 nicht angeboten werden sollen.
 
-**Aufgaben 2.2 "Kontrollieren Sie die Kurswahlen"**: Kontrollieren Sie nun Ihre Kurswahlen der **aktuellen EF**.
+**Aufgaben 2.2.2 "Kontrollieren Sie die Kurswahlen"**: Kontrollieren Sie nun Ihre Kurswahlen der **aktuellen EF**.
 + Kontrollieren Sie, ob "Literatur" oder ein "Vertiefungskurs" - fälschlicherweise - in der Q2 belegt werden kann. Wo muss dieser Fehler konkret und generell behoben werden?
 + Kontrollieren Sie, ob die Belegungen nun in den Laufbahnplanungen vorgenommen werden können.
 + Kontrollieren Sie die Kurswahlen der EF-Schüler. Schauen Sie hierfür zuerst in den *Tab Oberstufe->Laufbahnen*, um die gefundenen Belegungsfehler zu finden. 
@@ -49,7 +49,7 @@ Beginn in der EF.2 und nun Kontrolle der Wahlen/Laufbahnen für die Q-Phase.
 
 >![TIP]Oben Rechts "Zur Laufbahnplanung" und "Zur Sprachenfolge"
 
-**Aufgaben 2.2 "Zusammenfassung über Fachwahlen"**: Nach der Wahl und Korrektur nutzen Sie den *Tab Fachwahlen* um eine Übersicht über alle Wahlen anzeigen zu lassen.
+**Aufgaben 2.2.3 "Zusammenfassung über Fachwahlen"**: Nach der Wahl und Korrektur nutzen Sie den *Tab Fachwahlen* um eine Übersicht über alle Wahlen anzeigen zu lassen.
 + Nutzen Sie die Übersicht, um Ihre Wahlen zu korrigieren: Fallen schon Fehler auf?
 + Wie wurden mündliche und schriftliche Fächer angewählt? Was ist mit Abiturfächern?
 + Schauen Sie in die Q2, gibt es eventuell Kurse, die Sie gar nicht anbieten müssen, wenn nur ein paar Umwahlen für die Q1 durchgeführt werden? (Lassen sich die Musikleute auf den Literaturkurs oder andere Kurse verteilen? Was ist mit den Vertiefungskursen?)

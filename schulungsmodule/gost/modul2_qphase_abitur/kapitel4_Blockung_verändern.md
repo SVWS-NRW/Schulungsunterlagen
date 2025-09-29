@@ -1,7 +1,7 @@
 
 # 2.4 Umwahlen und Abi 3 und 4 fix wählen
 
-**Aufgabe 2.4 "Umwahlen, bevor Noten eingetragen werden"**: Wählen Sie Kurse um, nachdem eine Blockung erzeugt wurde, aber noch keine Leistungsdaten erzeugt wurden
+**Aufgabe 2.4.1 "Umwahlen, bevor Noten eingetragen werden"**: Wählen Sie Kurse um, nachdem eine Blockung erzeugt wurde, aber noch keine Leistungsdaten erzeugt wurden
 
 >![TIP] So lange noch keine Noten eingetragen wurden, können wir im ***Aktiven Ergebnis einer Blockung, das Übertragen wurde*** Änderungen vornehmen und diese finden sich dann in den Wahlen der Schüler wieder.
 > Ebenso schlagen sich Änderungen in Umwahlen in der Schülerlaufbahn auf die Einträge hier in der Blockung nieder. Das ist toll!
@@ -11,7 +11,7 @@
 + Sie sind nun in der "Laufbahnplanung" dieses Schülers, schauen Sie in der **Spalte Q1.1**: Dort findet sich ein **Linksymbol**, mit dem Sie direkt zur aktiven Kursblockung zurückspringen können - klicken Sie auf das Symbol.
 + Sie können auch komplett Kurse an- und abwählen. Beachten Sie aber, dass dies eventuell ein Problem in der Laufbahn geben kann, wenn die neue Wahl nicht in das Ergebnis passt. Passen Sie hier Ihr Blockungsergebnis weiter an.
 
-**Aufgabe 2.4 "Kurswechsel über die Leistungsdaten**
+**Aufgabe 2.4.2 "Kurswechsel über die Leistungsdaten**
 
 >![TIP] Der Kurswechsel kann auch über die Leistungsdaten vorgenommen werden.
 > Dies geht auch bei schon angelaufenen, vergangenen und benoteten Lernabschnitten.
@@ -23,11 +23,11 @@
 > Hervorragend ist: Diese Änderungen sich anschließend in die **aktive Blockung** zurück.
 > Umwählen über die Blockung geht NUR so lange KEINE EINZIGE Note erfasst wurde! 
 
-**Aufgabe 2.4 "Kurszuordnungen in der Blockung anpassen**
+**Aufgabe 2.4.3 "Kurszuordnungen in der Blockung anpassen**
 + Sichern Sie ihre Datenbank!
 + Ist der Kurs des Schülers nicht verteilt, ziehen Sie ihn passend hin und Schieben Sie Kurse per Drag & Drop herum. Und nun "synchronisieren" Sie diese Daten. 
 
-**Aufgabe 2.4 "Fachlehrerwechsel durchführen"**
+**Aufgabe 2.4.4 "Fachlehrerwechsel durchführen"**
 + Führen Sie einen Fachlehrerwechsel in der Blockung durch. Dies geht nur so lange keine Noten erfasst wurden.
 + Ansonsten müssen Sie den Fachlehrer über die Kurse wechseln. **TODO: DAS IST MIR NOCH UNKLAR, GPS GIBT ES NICHT? WIE GEHT DAS???**
 
