@@ -9,7 +9,7 @@ Nachdem der Abiturjahrgang für die kommende EF angelegt und angepasst wurde, fo
 
 ### Wahlen in der App Oberstufe im Client
 
-**Aufgaben 1.3 "Sprachenfolge in der Laufbahn prüfen"**:   
+**Aufgaben 1.3.1 "Sprachenfolge in der Laufbahn prüfen"**:   
 Die Sprachenfolge, die bereits im Kapitel "Orientierung" überprüft wurde, sollte nun für jeden Schüler bei den Fachwahl-Vprlage sichtbar sein.
 1. Wechseln Sie aus der App Oberstufe/Laufbahnen auf die Sprachenfolge eines bestimmten Schülers. Nutzen Sie rechts oben den Verweis auf die Sprachenfolge. 
 2. Springen Sie mit der Rückwärtstaste des Browsers zurück in die vorherige Ansicht. 
@@ -20,7 +20,7 @@ Die Sprachenfolge, die bereits im Kapitel "Orientierung" überprüft wurde, soll
 
 
 
-**Aufgaben 1.3 "Wahlen im SVWS-Client"**:
+**Aufgaben 1.3.2 "Wahlen im SVWS-Client"**:
 Die Schülerinnen und Schüler wählen in der Regel mit Hilfe des WebLuPO über den Browser. Dennoch können die Wahlen auch über den SVWS-Client getätigt werden.
 1. Geben Sie für einen Schüler die Laufbahnplanung nur für die EF ein, sodass eine fehlerfreie Belegung entsteht. Achten Sie darauf, dass bei der Prüfung nur die EF.1 gewertet wird. Testen Sie die verschiedenen Anklickoptionen, indem Sie den Modus manuell, normal und hochschreiben ausprobieren.  
 2. Um bereits zum jetzigen Zeitpunkt mögliche Beglegungs- und Blockungsprobleme für die gesamte Oberstufe zu antizipieren, wird empfohlen, dass die Schülerinnen und Schüler im zweiten Halbjahr der Jahrgangsstufe 10 auch die Q-Phase mit Abiturfächern fertig wählen.     
@@ -37,7 +37,7 @@ Die Schülerinnen und Schüler wählen in der Regel mit Hilfe des WebLuPO über 
 
 Die Wahlen können nach **WebLuPO** exportiert, dort vorgenommen und wieder zurückgespielt werden. 
 
-**Aufgaben 1.3 "Export von SuS für WebLuPO**:  
+**Aufgaben 1.3.3 "Export von SuS für WebLuPO**:  
 Damit die Schülerinnen und Schüler ihre Laufbahnplanung über den Webbrowser eigenständig auswählen können, müssen vorab individuelle Schüler-Planungsdateien (lp-Dateien) aus dem Webclient heraus exportiert werden.
 
 1. Exportieren Sie die lp-Datei für einen bestimmten Schüler über den Tab Schüler/Laufbahnplanung.
@@ -53,7 +53,7 @@ Damit die Schülerinnen und Schüler ihre Laufbahnplanung über den Webbrowser e
 
 
 
-**Aufgaben 1.3 "Wahl in WebLuPO"**:
+**Aufgaben 1.3.4 "Wahl in WebLuPO"**:
 1. Öffnen Sie WebLuPO im Browser (Adresse muss Ihnen bekannt gegeben werden)
 2. Öffnen Sie eine der zuvor exportierten oder eine zur Verfügung gestellte lp-Datei über den Button "Datei auswählen".
 3. Führen Sie eine vollständige Fachwahl durch und/oder korrigieren/ergänzen Sie bestehende Wahlen. Testen Sie beispielsweise folgende Klickreihenfolgen:
@@ -65,13 +65,13 @@ Damit die Schülerinnen und Schüler ihre Laufbahnplanung über den Webbrowser e
 Beachten Sie:  Die Daten der lp-Datei verbleiben auf Ihrem Rechner, während die Wahl im Browser getätigt wird, sie werden nicht an den WebLuPO-Server übertragen.  
 
 
-**Aufgaben 1.3 "Re-import von WebLuPO-Wahl in SVWS-Client"**:
+**Aufgaben 1.3.5 "Re-import von WebLuPO-Wahl in SVWS-Client"**:
 Die von Ihnen durchgeführte Wahl kann nun im SVWS-Client importiert werden. 
 1. WebLuPO kann nun geschlossen werden. Wechseln Sie zum SVWS-Client-Fenster oder öffnen Sie diesen erneut, falls er geschlossen wurde.
 2. Über den Tab Oberstufe -> Laufbahn können Sie ihre bearbeitete Fachwahl importieren. Achten Sie darauf, dass der richtige Abiturjahrgang ausgewählt ist.
 3. Importieren Sie weitere Fachwahlen, sofern Ihnen die entsprechenden lp-Dateien zur Verfügung gestellt wurden.
 
-**Aufgaben 1.3 "Fachwahlen sichten**:   
+**Aufgaben 1.3.6 "Fachwahlen sichten**:   
 1. Sichten Sie Laufbahnen, die noch Fehler enthalten im Tab Oberstufe->Laufbahnen. Stellen Sie hierzu den Filter "Nur Fehler" an und ignorieren Sie externe Schülerinnen und Schüler.
 2. Verschaffen Sie sich einen Überblick über sämtliche Fachwahlen, indem Sie unterschiedliche Inhalte per Mausklick auswählen:
    + Welche Schüler haben Musik in der EF.1 schriftlich gewählt (Klicke auf die Zahl in der Zelle (Musik/S))?

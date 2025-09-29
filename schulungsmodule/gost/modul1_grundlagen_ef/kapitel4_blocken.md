@@ -17,11 +17,9 @@ Berücksichtigen Sie ggf. mögliche Kooperationen.
 * Mit dem Link-Symbol kann direkt zu den SuS gesprungen werden (der Lernabschnitt rechts lässt sich aufklappen).
 * Ganz rechts finden sich Links direkt zur *Laufbahnplanung* und *Sprachenfolge*.
 
-## 6. Blocken
-
 Nachdem alle Wahlen korrekt & kontrolliert sind, kann eine **Blockung** geplant werden. Eine "Blockung" ist die konkrete Verteilung von Kursen, deren Parallelität und die Zuordnung von SuS zu diesen Kursen.
 
-**Aufgaben 1.4 "blocken"**:
+**Aufgaben 1.4.1 "blocken"**:
 * **App Oberstufe -> Tab Kursplanung, dann den passenden Jahrgang wählen**. 
 * Legen Sie eine **neue Blockung** mit dem **+** an und berechnen Sie einfach mal ganz naiv eine Blockung.
 * Lassen Sie die Berechnung laufen, sie wird über die Zeit immer besser. Klicken Sie dann irgendwann auf "Pausieren", um mit den bislang berechneten Blockungen weiterzuarbeiten.
@@ -43,17 +41,17 @@ Nachdem alle Wahlen korrekt & kontrolliert sind, kann eine **Blockung** geplant 
 * Bei einer sehr kleinen EF oder einer Q-Phase könnte es möglich sein, dass eine Schiene entfernt werden kann. Üblicherweise kommt man aber nicht mit 12 Schienen in der EF aus und muss auf jeden Fall 13 lassen.
 * Die Blockung kann eingeschränkt werden, indem *Kerngruppen* angelegt werden, daher: Je drei Kurse für D, M und E, und die SuS bleiben immer in der 1er, 2er oder 3er Gruppe. 
 
-**Aufgaben 1.4 "Kerngruppen-Kurse zuweisen"**:
+**Aufgaben 1.4.2 "Kerngruppen-Kurse zuweisen"**:
 * Schieben Sie D GK1 in die erste Schiene, D GK2 in die zweite und D GK3 in die dritte. Entfernen Sie bei Bedarf  die 4er Kurse, schauen Sie hier auf die Zahl der Wahlen.
 * Dann weisen Sie die 2er und 3er Kurse so den Schienen zu, dass sie sich immer abwechseln und keine Gruppe parallel liegt.
 * Fixieren Sie die ersten drei Schienen. Ziehen Sie mit der Maus einen Rahmen um die ganzen Schienen und fixieren Sie mit der Pinnadel.
 
-**Aufgaben 1.4 "Sportkurse zuweisen"**: Überlegen Sie beispielsweise, wie eine Verteilung/Einrichtung von Sportkursen eingerichtet werden kann. Haben Sie etwa nur zwei Turnhallen, können ja keine drei Sportkurse in der gleichen Schiene liegen.  
+**Aufgaben 1.4.3 "Sportkurse zuweisen"**: Überlegen Sie beispielsweise, wie eine Verteilung/Einrichtung von Sportkursen eingerichtet werden kann. Haben Sie etwa nur zwei Turnhallen, können ja keine drei Sportkurse in der gleichen Schiene liegen.  
 Andere zu Ihrer Schule passende Beispiele sind denkbar.
 
-**Aufgaben 1.4 "Koop Kurse"**: Erzeugen Sie zwei I0-Kurse, einen in Koop (externe S kommen zu Ihnen) und weisen Sie schon einmal 8 "Externe Schüler" zu. Dann ziehen Sie den externen Kurs in eine Schiene - in der Regel ist diese mit den Koop-Schulen abgesprochen - und fixieren Sie den Kurs mit der Pinnnadel.
+**Aufgaben 1.4.4 "Koop Kurse"**: Erzeugen Sie zwei I0-Kurse, einen in Koop (externe S kommen zu Ihnen) und weisen Sie schon einmal 8 "Externe Schüler" zu. Dann ziehen Sie den externen Kurs in eine Schiene - in der Regel ist diese mit den Koop-Schulen abgesprochen - und fixieren Sie den Kurs mit der Pinnnadel.
 
-**Aufgaben 1.4 "Blocken mit Vorgaben":**
+**Aufgaben 1.4.5 "Blocken mit Vorgaben":**
 * Blocken Sie und wählen Sie dann nach einer angemessenen Wartezeit eine ID in der Blockung aus.
 * Schalten Sie diese ID auf "aktiv" (Haken rechts neben dem ID-Eintrag)
 * Benennen Sie diese Berechnung um, idealerweise "Datum_version", also "2027_02_13_v1".

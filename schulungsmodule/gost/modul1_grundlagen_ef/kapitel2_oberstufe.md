@@ -16,7 +16,7 @@ Alternativ finden Sie in jeder Aufgabe auch Beispielvorgaben, die Sie nutzen kö
   
       
 
-**Aufgabe 2.1 "Fächer der Oberstufe kontrollieren und korrigieren"**  
+**Aufgabe 2.1.1 "Fächer der Oberstufe kontrollieren und korrigieren"**  
 Sie haben bereits die Fächer der Oberstufe mit Hilfe von Schild3 bearbeitet. 
 1. Sichten Sie alle Fächer der Oberstufe in der allgemeinen Vorlage.
 2. Kontrollieren Sie insbesondere die Sprachenfächer: Wenn es F6 nicht mehr gibt, muss hier z.B. F7 stehen (Merkmal: Fach der Oberstufe).
@@ -32,7 +32,7 @@ Sie haben bereits die Fächer der Oberstufe mit Hilfe von Schild3 bearbeitet.
 
 
 
-**Aufgaben 1.2 "Geforderte Kombinationen"**   
+**Aufgaben 1.2.2 "Geforderte Kombinationen"**   
 Um später eine gute Blockung für die Abiturjahrgänge zu gewährleisten, ist es hilfreich, bestimmte Fächerkombinationen bereits im Vorfeld festzulegen. Zudem können über fest definierte Fächerkombinationen fachliche Voraussetzungen für die Lernenden geschaffen werden.   
 Sie können nun die geforderten Kombinationen, die an Ihrer Schule festgesetzt sind in die allgemeine Vorlage einpflegen. Alternativ können Sie folgende geforderten Kombinationen festlegen:
 1. Mathe LK ist Voraussetzung für Physik GK.
@@ -42,7 +42,7 @@ Sie können nun die geforderten Kombinationen, die an Ihrer Schule festgesetzt s
 :information_source: [Infos zu geforderten Fächerkombinationen.](https://doku.svws-nrw.de/webclient/gost/faecher/#geforderte-kombinationen)
 
 
-**Aufgaben 1.2 "Unzulässige Kombinationen"**   
+**Aufgaben 1.2.3 "Unzulässige Kombinationen"**   
 Bestimmte Fächer können nicht gleichzeitig belegt werden. Die Vorgaben hierzu können sich aus logischen Schlussfolgerungen ergeben oder auch aus Ressourcengründen bzw. vorhersehbaren Blockungsproblemen.    
 Sie können nun unzulässige Kombinationen, die an Ihrer Schule festgesetzt sind in die allgemeine Vorlage einpflegen. Alternativ können Sie folgende sich ausschließende Wahlmöglichkeiten definieren:
 1. Evangelische Religion, Katholische Religion und Philosophie schließen sich gegenseitig aus.
@@ -57,7 +57,7 @@ Sie können nun unzulässige Kombinationen, die an Ihrer Schule festgesetzt sind
 * Vorgaben, die aus der APO GoST folgen, müssen hier nicht erneut als Regeln erstellt werden. Erstellen Sie nur so wenige Regeln wie möglich.
 
 
-**Aufgaben 1.2 "Tab Beratung anpassen"**    
+**Aufgaben 1.2.4 "Tab Beratung anpassen"**    
 1. Ergänzen Sie im Tab Beratung einen **Beratungstext**, der auf den Beratungsbögen für die Schülerinnen und Schüler gedruckt werden soll bzw. den die Schülerinnen und Schüler per Mail erhalten. Achten Sie auf ein allgemeingültiges Format ohne konkrete Datumsangaben.     
 Hier ein Beispieltext:
    + Rückgabe des unterschriebenen Wahlbogens bis zum 
@@ -74,7 +74,7 @@ Nachdem nun die allgemeinen Vorgaben für Wahlen und Beratung festgelegt wurden,
 
 
 
-**Aufgaben 1.2 "Konkreten Jahrgang anlegen"**    
+**Aufgaben 1.2.5 "Konkreten Jahrgang anlegen"**    
 Legen Sie für die aktuelle Jahrgangsstufe 10 über das "+" Symbol den Abiturjahrgang an.  
 Beachten Sie: Orientieren Sie sich am Abiturjahr, nicht an der Jahrgangsstufe. 
 
@@ -83,7 +83,7 @@ Beachten Sie: Orientieren Sie sich am Abiturjahr, nicht an der Jahrgangsstufe.
 
 
 
-**Aufgaben 1.2 "Kontrollieren und Anpassen der aus der Vorlage übernommenen Fächervorgaben"**
+**Aufgaben 1.2.6 "Kontrollieren und Anpassen der aus der Vorlage übernommenen Fächervorgaben"**
 Aufgrund vorübergehender Umstände, wie etwa Lehrerausfälle durch Elternzeit, müssen für diesen Jahrgang einige einmalige Anpassungen vorgenommen werden.
 1. Das Fach Kunst (oder irgendein anderes Fach) kann für die kommende EF leider nicht als LK angeboten werden.
 2. Der Beratungslehrer bietet einmalig den Projektkurs "Chemische Prozesse mathematisch modellieren und analysieren" an.
@@ -92,14 +92,14 @@ Aufgrund vorübergehender Umstände, wie etwa Lehrerausfälle durch Elternzeit, 
 :information_source: [Hinweise zur Eingabe des Beratungslehrers und der Textvorlagen.](https://doku.svws-nrw.de/webclient/gost/beratung/#beratungslehrer-hinterlegen) 
 
 
-**Aufgaben 1.2 "Beratunglehrer und Textvorlagen anpassen"**
+**Aufgaben 1.2.7 "Beratunglehrer und Textvorlagen anpassen"**
 Passen Sie die jahrgangsspezifischen Information im Tab Beratung an:
 1. Tragen Sie den Beratungslehrer ein.
 2. Passen Sie das Rücklaufdatum in den Textvorlagen an.
 3. Stellen Sie sicher, dass die Prüfung in der Vorlage auf *Gesamt* steht, da ansonsten bei der Laufbahnprüfung nur die EF.1 geprüft wird und Sie nicht wissen, ob die Wahl eine gültige Laufbahn ergibt.
 
 
-**Aufgaben 1.2 "Laufbahnen Sichten"**
+**Aufgaben 1.2.8 "Laufbahnen Sichten"**
 Im Tab Laufbahnen werden alle Schülerinnen und Schüler aufgelistet, für die der konkrete Abiturjahrgang gültig ist. Da noch keine Wahlen stattgefunden haben, erscheinen an dieser Stelle noch etliche Laufbahnfehler der Schüler.
 1. Sichten Sie hier die Schüler der kommenden EF. Kontrollieren Sie ggf., ob auch die Neuaufnahmen und externen Schüler in der Liste erfasst sind.
 
