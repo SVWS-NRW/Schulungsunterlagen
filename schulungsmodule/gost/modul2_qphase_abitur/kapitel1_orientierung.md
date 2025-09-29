@@ -1,6 +1,6 @@
 # Kapitel 2.1 Orientierung in SchILD-NRW-3 und SVWS-Client
 
->![TIP] Orientieren in SchILD und dem SVWS-Webclient
+>[!TIP] Orientieren in SchILD und dem SVWS-Webclient
 > In diesem Kapitel orientieren wir uns im Webclient und in SchILD und schauen uns an, wie Leistungsdaten und Kurse im jeweiligen Programm erfasst werden.
 > Ziel dieser Fortbildung ist, dass alle Daten hier korrekt befüllt sind, um dann am Ende auch den Reiter *Abitur* in SchILD-NRW für die Durchführung des Abiturs nutzen zu können.
 
@@ -25,5 +25,5 @@
 + Wählen Sie einen Abtiurjahrgang an und erklären Sie, was im Tab *Fachwahlen* dargestellt ist. Wieso steht der Tab *Fachwahlen* nicht zur Verfügung, wenn Sie die "Allgemeinen Vorlagen" anwählen?
 + Nehmen wir an, Sie wollten ein weiteres Fach anbieten oder verändern: Wo lassen sich Fächer im SVWS-Client für die Oberstufe freischalten?
 
->![TIP] In der App *Schule* findet sich der Fächerkatalog, relevant ist hier "Fach der Oberstufe".
+>[!TIP] In der App *Schule* findet sich der Fächerkatalog, relevant ist hier "Fach der Oberstufe".
 >Weiterhin: Hier lässt sich eine Bilunguale Sachfachsprache setzen, ebenso die Statistikbezeichnung und ob es "Prüfungsordnungsrelevant" ist.

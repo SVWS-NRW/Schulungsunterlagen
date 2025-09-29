@@ -3,7 +3,7 @@
 
 **Aufgabe 2.4.1 "Umwahlen, bevor Noten eingetragen werden"**: Wählen Sie Kurse um, nachdem eine Blockung erzeugt wurde, aber noch keine Leistungsdaten erzeugt wurden
 
->![TIP] So lange noch keine Noten eingetragen wurden, können wir im ***Aktiven Ergebnis einer Blockung, das Übertragen wurde*** Änderungen vornehmen und diese finden sich dann in den Wahlen der Schüler wieder.
+>[!TIP] So lange noch keine Noten eingetragen wurden, können wir im ***Aktiven Ergebnis einer Blockung, das Übertragen wurde*** Änderungen vornehmen und diese finden sich dann in den Wahlen der Schüler wieder.
 > Ebenso schlagen sich Änderungen in Umwahlen in der Schülerlaufbahn auf die Einträge hier in der Blockung nieder. Das ist toll!
 
 + Wählen Sie Kursarten um, etwa GKM auf GKS, ebenso kann man AB3 und AB4 ändern. Denken Sie daran, dass Sie einen Schüler anwählen können und dann klicken Sie in der Anzeige der gewählten Kurse oben neben dem Namen auf das **Linksymbol**.
@@ -13,13 +13,13 @@
 
 **Aufgabe 2.4.2 "Kurswechsel über die Leistungsdaten**
 
->![TIP] Der Kurswechsel kann auch über die Leistungsdaten vorgenommen werden.
+>[!TIP] Der Kurswechsel kann auch über die Leistungsdaten vorgenommen werden.
 > Dies geht auch bei schon angelaufenen, vergangenen und benoteten Lernabschnitten.
 
 + Gehen Sie bei einem Schüler in einen Lernabschnitt und erzeugen Sie einen neuen Kurs für diesen Schüler.
 + Gehen Sie zu einem anderen Schüler und entfernen Sie Erdkunde aus den *Schüler-Leistungsdaten*. Das erzeugt nun einen Fehler in der *Laufbahn* und der Blockung. In der Schüler-**Laufbahn** wird der Kurs nun mit roten Kreuzen als "Laufbahnfehler" angezeigt, entfernen Sie diese und bringen Sie die Laufbahn mit neuen Kursen in Ordnung. 
 
->![TIP] Alle Veränderungen in vergangenen und begonnenen Lernabschnitten können direkt über die **Leistungsdaten** bei den Schülern in den jeweiligen Lernabschnitten vorgenommen werden. Denken Sie daran, dann auch die **Laufbahn** wieder anzupassen! 
+>[!TIP] Alle Veränderungen in vergangenen und begonnenen Lernabschnitten können direkt über die **Leistungsdaten** bei den Schülern in den jeweiligen Lernabschnitten vorgenommen werden. Denken Sie daran, dann auch die **Laufbahn** wieder anzupassen! 
 > Hervorragend ist: Diese Änderungen sich anschließend in die **aktive Blockung** zurück.
 > Umwählen über die Blockung geht NUR so lange KEINE EINZIGE Note erfasst wurde! 
 
