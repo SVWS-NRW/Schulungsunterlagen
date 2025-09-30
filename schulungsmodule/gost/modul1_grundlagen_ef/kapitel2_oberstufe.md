@@ -16,7 +16,7 @@ Alternativ finden Sie in jeder Aufgabe auch Beispielvorgaben, die Sie nutzen kö
   
       
 
-**Aufgabe 2.1.1 "Fächer der Oberstufe kontrollieren und korrigieren"**  
+**Aufgabe 2.1.1 "Fächer der Oberstufe kontrollieren und korrigieren"**   
 Sie haben bereits die Fächer der Oberstufe mit Hilfe von Schild3 bearbeitet. 
 1. Sichten Sie alle Fächer der Oberstufe in der allgemeinen Vorlage.
 2. Kontrollieren Sie insbesondere die Sprachenfächer: Wenn es F6 nicht mehr gibt, muss hier z.B. F7 stehen (Merkmal: Fach der Oberstufe).
@@ -67,7 +67,7 @@ Hier ein Beispieltext:
 :information_source:[Infos zum Tab Beratung.](https://doku.svws-nrw.de/webclient/gost/beratung/)
 
 
-## Konkreter Abiturjahrgang für die kommende EF
+## Konkreter Abiturjahrgang für die kommende EF   
 Nachdem nun die allgemeinen Vorgaben für Wahlen und Beratung festgelegt wurden, wird im folgenden
 + der konkrete Abiturjahrgang für die EF angelegten und
 + Anpassungen vorgenommen, die speziell für diesen Jahrgang gültig sind.
@@ -83,7 +83,7 @@ Beachten Sie: Orientieren Sie sich am Abiturjahr, nicht an der Jahrgangsstufe.
 
 
 
-**Aufgaben 1.2.6 "Kontrollieren und Anpassen der aus der Vorlage übernommenen Fächervorgaben"**
+**Aufgaben 1.2.6 "Kontrollieren und Anpassen der aus der Vorlage übernommenen Fächervorgaben"**   
 Aufgrund vorübergehender Umstände, wie etwa Lehrerausfälle durch Elternzeit, müssen für diesen Jahrgang einige einmalige Anpassungen vorgenommen werden.
 1. Das Fach Kunst (oder irgendein anderes Fach) kann für die kommende EF leider nicht als LK angeboten werden.
 2. Der Beratungslehrer bietet einmalig den Projektkurs "Chemische Prozesse mathematisch modellieren und analysieren" an.
@@ -92,14 +92,14 @@ Aufgrund vorübergehender Umstände, wie etwa Lehrerausfälle durch Elternzeit, 
 :information_source: [Hinweise zur Eingabe des Beratungslehrers und der Textvorlagen.](https://doku.svws-nrw.de/webclient/gost/beratung/#beratungslehrer-hinterlegen) 
 
 
-**Aufgaben 1.2.7 "Beratunglehrer und Textvorlagen anpassen"**
+**Aufgaben 1.2.7 "Beratunglehrer und Textvorlagen anpassen"**   
 Passen Sie die jahrgangsspezifischen Information im Tab Beratung an:
 1. Tragen Sie den Beratungslehrer ein.
 2. Passen Sie das Rücklaufdatum in den Textvorlagen an.
 3. Stellen Sie sicher, dass die Prüfung in der Vorlage auf *Gesamt* steht, da ansonsten bei der Laufbahnprüfung nur die EF.1 geprüft wird und Sie nicht wissen, ob die Wahl eine gültige Laufbahn ergibt.
 
 
-**Aufgaben 1.2.8 "Laufbahnen Sichten"**
+**Aufgaben 1.2.8 "Laufbahnen Sichten"**   
 Im Tab Laufbahnen werden alle Schülerinnen und Schüler aufgelistet, für die der konkrete Abiturjahrgang gültig ist. Da noch keine Wahlen stattgefunden haben, erscheinen an dieser Stelle noch etliche Laufbahnfehler der Schüler.
 1. Sichten Sie hier die Schüler der kommenden EF. Kontrollieren Sie ggf., ob auch die Neuaufnahmen und externen Schüler in der Liste erfasst sind.
 

@@ -14,11 +14,14 @@ Wir benötigen hauptsächlich aus SchILD
 + Katalog *Kurse* zur Kontrolle
 + Nutzerrechte erlauben nicht allen alles - und das ist auch richtig so!  
 
-**Aufgaben 1.1.1 "SchILD Schülerdaten"**: Schauen Sie in SchILD in die
+**Aufgaben 1.1.1 "SchILD Schülerdaten"**:   
+Schauen Sie in SchILD in die
 + Individualdaten,
 + die unterschiedlichen Reiter im *Aktuellen Halbjahr*,
 + und besonders die *Leistungsdaten* im *Aktuellen Halbjahr*
 und geben Sie an, welche Daten jeweils erfasst werden und wo sich Daten finden, die für die Oberstufenlaufbahn relevant sind.
+
+:information_source: [Infos zum aktuellen Halbjahr in SchILD3](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Aktuelles_Halbjahr_/_Aktueller_Abschnitt_(Sch%C3%BCler))
 
 **Aufgaben 1.1.2 "SchILD-Leistungsdaten"**: Gehen Sie in die Leistungsdaten eines Schülers (m/w/d) in der Q1 und 
 + ändern Sie eine Kursart,
