@@ -55,9 +55,8 @@ Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Si
 + Passen Sie die Fremdsprachen bzgl. G8 und G9 an.
 + Kontrollieren Sie, im WebClient, Tab Schule/Fächer, ob die Oberstufenfächer "Ist prüfungsordnungsrelevant" gesetzt ist (Prüfen Sie besonders Projekt- und Prüfungskurse)
 
-:information_source: [Infos zum Katalog *Unterrichtsfächer*](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Unterrichtsf%C3%A4cher_(Schulbezogene_Kataloge))
-
-[Infos zu den Unterrichtsfächern im Client](https://doku.svws-nrw.de/webclient/schule/kataloge/sb_faecher/#sonstiges)
+:information_source: [Infos zum Katalog *Unterrichtsfächer*](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Unterrichtsf%C3%A4cher_(Schulbezogene_Kataloge))   
+:information_source:[Infos zu den Unterrichtsfächern im Client](https://doku.svws-nrw.de/webclient/schule/kataloge/sb_faecher/#sonstiges)
 
 **Aufgaben 1.1.6 "SchILD Klassen- und Versetzungstabelle"**   
 + Schauen Sie durch die Klassen- und Versetzungstabelle - welche Einstellungen werden hier vorgenommen?
@@ -73,7 +72,7 @@ Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Si
 
 
 
-**Aufgaben 1.1.7 "SchILD Gruppenprozesse**:   
+**Aufgaben 1.1.7 "SchILD Gruppenprozesse**   
 Finden Sie einen Gruppenprozess, der für die Verwaltung von Oberstufenschüler sinnvoll sein könnte.
 
 > [!WARNING] Aufgabenhinweis
@@ -92,12 +91,12 @@ Finden Sie einen Gruppenprozess, der für die Verwaltung von Oberstufenschüler 
 
 
 
-**Aufgaben 1.1.8 "SchILD Sprachenfolge Gruppenprozesse**:   
+**Aufgaben 1.1.8 "SchILD Sprachenfolge Gruppenprozesse**   
 Fügen Sie Schülern (m/w/d) der Q2 Sprachen in der Sprachenfolge per Gruppenprozess hinzu (wir nehmen Schüler der Q2, da diese für unsere EF-Schulung keine Rolle mehr spielen).
 
 :information_source: [Infos zu den Gruppenprozessen für die Oberstufe: Sprachenfolge zuweisen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Sprachenfolge_zuweisen_(Gruppenprozesse_Allgemein))
 
-**Aufgaben 1.1.9 "SchILD Schüler neu aufnehmen für die kommende EF"**:   
+**Aufgaben 1.1.9 "SchILD Schüler neu aufnehmen für die kommende EF"**   
 Nehmen Sie eine Schülerin neu für das kommende Schuljahr in die Stufe EF auf. In welchen Reitern sind welche Angaben aufzunehmen?
 
 :information_source: [Infos zur Neuaufnahme](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Neuaufnahmen_in_Schild-NRW_(Tutorial))
@@ -130,10 +129,13 @@ Lassen Sie sich diese Angaben eines Schülers der aktuellen Q2 anzeigen:
 >[!Tip] Kein Stundenplanalgorithmus
 > Der SVWS-Client bietet derzeit keinen Stundenplanalgorithmus. Stundenpläne sind somit aus externen Programmen zu importieren oder können auch in kleineren Systemem von Hand zusammengeklickt werden.
 
-:information_source: [Infos zu Leistungsdaten eines Schülers im Client](https://doku.svws-nrw.de/webclient/schueler/lernabschnitte/leistungsdaten/)
-:information_source: [Infos zur Sprachenfolge eines Schülers im Client](https://doku.svws-nrw.de/webclient/schueler/sprachen/)
-:information_source: [Infos zur Laufbahn eines Schülers im Client](https://doku.svws-nrw.de/webclient/schueler/laufbahnplanung/)
-:information_source: [Infos zum individuellen Stundenplan eines Schülers](https://doku.svws-nrw.de/webclient/schueler/stundenplan/)
+:information_source: [Infos zu Leistungsdaten eines Schülers im Client](https://doku.svws-nrw.de/webclient/schueler/lernabschnitte/leistungsdaten/)   
+
+:information_source: [Infos zur Sprachenfolge eines Schülers im Client](https://doku.svws-nrw.de/webclient/schueler/sprachen/)   
+
+:information_source: [Infos zur Laufbahn eines Schülers im Client](https://doku.svws-nrw.de/webclient/schueler/laufbahnplanung/)   
+
+:information_source: [Infos zum individuellen Stundenplan eines Schülers](https://doku.svws-nrw.de/webclient/schueler/stundenplan/)   
 
 **Aufgaben 1.1.12 "SVWS-Client Filter" auf Schüler filtern"**   
 *Filtern* Sie in der *Schüleransicht* auf die Jahrgangstufe 10/auf eine Klasse der Stufe 10.
