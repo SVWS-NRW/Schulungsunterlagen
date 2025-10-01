@@ -55,8 +55,8 @@ Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Si
 + Passen Sie die Fremdsprachen bzgl. G8 und G9 an.
 + Kontrollieren Sie, im WebClient, Tab Schule/Fächer, ob die Oberstufenfächer "Ist prüfungsordnungsrelevant" gesetzt ist (Prüfen Sie besonders Projekt- und Prüfungskurse)
 
-:information_source: [Infos zum Katalog *Unterrichtsfächer*](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Unterrichtsf%C3%A4cher_(Schulbezogene_Kataloge))   
-:information_source:[Infos zu den Unterrichtsfächern im Client](https://doku.svws-nrw.de/webclient/schule/kataloge/sb_faecher/#sonstiges)
+:information_source: [Infos zum Katalog *Unterrichtsfächer* in SchILD3](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Unterrichtsf%C3%A4cher_(Schulbezogene_Kataloge))   
+:information_source: [Infos zu den Unterrichtsfächern im Client](https://doku.svws-nrw.de/webclient/schule/kataloge/sb_faecher/#sonstiges)
 
 **Aufgaben 1.1.6 "SchILD Klassen- und Versetzungstabelle"**   
 + Schauen Sie durch die Klassen- und Versetzungstabelle - welche Einstellungen werden hier vorgenommen?
@@ -78,10 +78,8 @@ Finden Sie einen Gruppenprozess, der für die Verwaltung von Oberstufenschüler 
 > [!WARNING] Aufgabenhinweis
 > Gruppenprozesse überschreiben u.U. zuvor vorgenommene manuelle Änderungen. Interne Prozesse müssen entsprechend angepasst sein.
 
-:information_source: [Infos zu den Gruppenprozessen für die Oberstufe: Sprachenfolge ermitteln](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Sprachenfolge_aus_Leistungsdaten_ermitteln_(Gruppenprozesse_Allgemein))
-
-:information_source: [Infos zu den Gruppenprozessen für die Oberstufe: Fachhochschulreife prüfen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Fachhochschulreife_pr%C3%BCfen_(Gruppenprozesse_Allgemein))
-
+:information_source: [Infos zu den Gruppenprozessen für die Oberstufe: Sprachenfolge ermitteln](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Sprachenfolge_aus_Leistungsdaten_ermitteln_(Gruppenprozesse_Allgemein))   
+:information_source: [Infos zu den Gruppenprozessen für die Oberstufe: Fachhochschulreife prüfen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Fachhochschulreife_pr%C3%BCfen_(Gruppenprozesse_Allgemein))   
 :information_source: [Infos zu den Gruppenprozessen für die Oberstufe: Abitur](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Abitur_(Gruppenprozesse_Abitur))
 
 
