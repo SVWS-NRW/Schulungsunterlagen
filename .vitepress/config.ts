@@ -122,7 +122,7 @@ export default defineConfig({
 				text: 'Anleitungen für Fachberater', link: '/Fachberater_Anleitungen/', collapsed: false,
 				items: [
 					{ text: 'SVWS-MariaDB Reparieren', link: '/Fachberater_Anleitungen/Fachberater_DBReparatur' },
-					{ text: 'SVWS-MariaDB Reparieren', link: '/Fachberater_Anleitungen/Fachberater_WebLupo_Windows' },
+					{ text: 'WebLuPO unter Windows', link: '/Fachberater_Anleitungen/Fachberater_WebLupo_Windows' },
 					{ text: 'Reporting', link: '/Fachberater_Anleitungen/Fachberater_Reporting', collapsed: true,
 						items:[
 							{text:'Übersicht - Thymeleaf', link: 'Fachberater_Anleitungen/Fachberater_Reporting/Uebersicht/index.md'},
