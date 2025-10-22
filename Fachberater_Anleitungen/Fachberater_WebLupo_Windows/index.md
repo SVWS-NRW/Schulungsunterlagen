@@ -29,7 +29,7 @@ Es genügt, wenn Apache hier ausgewählt ist. Den Rest braucht man für die Nutz
 Im Ordner **C/XAMPP/htdocs** wird ein neuer Ordner erstellt. Der Name des neu erstellten Ordners wird später im Browser erscheinen. Ich nenne ihn im folgenden "lupo".
 ![lupo-Ordner erstellen](./graphics/2_entpackenNeu.png)  
 
-**zip-Datei eintpacken**   
+**zip-Datei entpacken**   
 Nun wird die bereits heruntergeladene Datei SVWS-Laufbahnplanung-1.0.12.zip in den neu erstellten Ordner entpackt.
 
 ## Starten von XAMPP
