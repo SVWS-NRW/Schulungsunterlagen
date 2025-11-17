@@ -74,7 +74,7 @@ export default defineConfig({
 			{
 				text: 'Schulungsmodule', link: '/schulungsmodule/', collapsed: false,
 				items: [
-					{ text: 'Basisschulungen (leer)', link: '/schulungsmodule/basisschulungen/', collapsed: true,
+					{ text: 'Basisschulungen', link: '/schulungsmodule/basisschulungen/', collapsed: true,
 						items: [
 							{ text: '1 Allgemeines', link: 'schulungsmodule/basisschulungen/1. Allgemeines.md' },
 							{ text: '2 Erste Orientierung in Schild3', link: 'schulungsmodule/basisschulungen/2. Erste Orientierung in SchILD-NRW.md' },
