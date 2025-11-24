@@ -94,24 +94,24 @@ export default defineConfig({
 
 			{
 				text: 'Fortbildungen für Fachberater',
-				link: '/Fachberater_Fortbildungen/',
+				link: '/Fortbildungen_fuer_Fachberater/',
 				collapsed: true,
 			},
 
 			{
 				text: 'Anleitungen für Fachberater',
-				link: '/Fachberater_Anleitungen/',
+				link: '/Anleitungen_fuer_Fachberater/',
 				collapsed: false,
 				items: [
-					{ text: 'SVWS-MariaDB Reparieren', link: '/Fachberater_Anleitungen/Fachberater_DBReparatur' },
-					{ text: 'WebLuPO unter Windows', link: '/Fachberater_Anleitungen/Fachberater_WebLupo_Windows' },
+					{ text: 'SVWS-MariaDB Reparieren', link: '/Anleitungen_fuer_Fachberater/Fachberater_DBReparatur/' },
+					{ text: 'WebLuPO unter Windows', link: '/Anleitungen_fuer_Fachberater/Fachberater_WebLupo_Windows/' },
 					{
 						text: 'Reporting',
-						link: '/Fachberater_Anleitungen/Fachberater_Reporting',
+						link: '/Anleitungen_fuer_Fachberater/Fachberater_Reporting/',
 						collapsed: true,
 						items: [
-							{ text: 'Übersicht - Thymeleaf', link: '/Fachberater_Anleitungen/Fachberater_Reporting/Uebersicht/index.md' },
-							{ text: 'Beispiel Schülerliste', link: '/Fachberater_Anleitungen/Fachberater_Reporting/BeispielreportSchuelerliste/index.md' },
+							{ text: 'Übersicht - Thymeleaf', link: '/Anleitungen_fuer_Fachberater/Fachberater_Reporting/Uebersicht/' },
+							{ text: 'Beispiel Schülerliste', link: '/Anleitungen_fuer_Fachberater/Fachberater_Reporting/BeispielreportSchuelerliste/' },
 						],
 					},
 				],
