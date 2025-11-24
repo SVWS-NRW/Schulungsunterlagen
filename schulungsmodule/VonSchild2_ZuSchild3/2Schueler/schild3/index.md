@@ -23,7 +23,7 @@ Ein Schüler wechelt von der 7a in die 7b. Nehmen Sie notwendige Änderungen vor
 1. Wechseln Sie in den Reiter Aktuelles Halbjahr / Allgemeine Angaben:
    ![Ändern der Klasse](./graphics/vonS2nachS3_schueler_klassenanpassung.png) 
 2. Ändern Sie die Klasse auf 7b. 
-3. Passen Sie die Fächer in den Leistungsdaten an. Hier hat sich nichts geändert im Vergleich zu schild2. Hilfe finden Sie hier: https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Leistungsdaten_(Aktuelles_Halbjahr_/_Aktueller_Abschnitt
+3. Passen Sie die Fächer in den Leistungsdaten an. Hier hat sich nichts geändert im Vergleich zu schild2.
 :::
 
 
@@ -33,7 +33,6 @@ Ein Schüler aus der 5a hat eine Sehbehinderung. Hinterlegen Sie den entsprechen
 Auch diese Angaben werden im aktuellen Halbjahr / Allgemeine Angaben gesetzt.
 :::
 
-Weitere Informationen zum aktuellen Halbjahr findet man im Kapitel  [Leistungsdaten](/VonSchild2_ZuSchild3/3Leistungsdaten/schild3/index.md)
 
 ## Kataloge - Klassen-/ Versetzungstabelle
 Unter dem aktuellen Halbjahr findet man auch den derzeitigen Klassenlehrer des Schülers. Hier gibt es keine Möglichkeit diesen zu ändern. Dazu muss man einmal in die Klassen- und Versetzungstabellen, welche man in schild2 unter Schulverwaltung öffnen konnte. Diese sind nun unter dem Reiter "Kataloge" zu finden. Genauer handelt es sich bei den Klassen- und Versetzungstabellen um schulbezogene Kataloge:
