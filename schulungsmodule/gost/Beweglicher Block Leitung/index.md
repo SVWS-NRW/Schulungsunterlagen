@@ -1,5 +1,7 @@
 # Leitungdingens
 
++ In Bearbeitung
++ Hinweis für den Entwickler: Datei- und Ordnername muss noch angepasst werden.
 
 3. **Modul Sek II-Koordination** Tag 1 - Klausurplanung, Abiturplanung, exotischere Sonderfälle, **Praxiscafé**
 
