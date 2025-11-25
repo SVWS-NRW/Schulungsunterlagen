@@ -10,7 +10,7 @@ Nachdem der Abiturjahrgang für die kommende EF angelegt und angepasst wurde, fo
 ### Wahlen in der App Oberstufe im Client
 
 **Aufgaben 1.3.1 "Sprachenfolge in der Laufbahn prüfen"**   
-Die Sprachenfolge, die bereits im Kapitel "Orientierung" überprüft wurde, sollte nun für jeden Schüler bei den Fachwahl-Vprlage sichtbar sein.
+Die Sprachenfolge, die bereits im Kapitel "Orientierung" überprüft wurde, sollte nun für jeden Schüler bei den Fachwahl-Vorlage sichtbar sein.
 1. Wechseln Sie aus der App Oberstufe/Laufbahnen auf die Sprachenfolge eines bestimmten Schülers. Nutzen Sie rechts oben den Verweis auf die Sprachenfolge. 
 2. Springen Sie mit der Rückwärtstaste des Browsers zurück in die vorherige Ansicht. 
 3. Wechseln Sie nun auf die Laufbahn des Schülers über Verweis "Zur Laufbahnplanung". Überprüfen Sie, ob die Sprachenfolge hier korrekt hinterlegt ist. 
@@ -24,9 +24,9 @@ Die Sprachenfolge, die bereits im Kapitel "Orientierung" überprüft wurde, soll
 **Aufgaben 1.3.2 "Wahlen im SVWS-Client"**   
 Die Schülerinnen und Schüler wählen in der Regel mit Hilfe des WebLuPO über den Browser. Dennoch können die Wahlen auch über den SVWS-Client getätigt werden.
 1. Geben Sie für einen Schüler die Laufbahnplanung nur für die EF ein, sodass eine fehlerfreie Belegung entsteht. Achten Sie darauf, dass bei der Prüfung nur die EF.1 gewertet wird. Testen Sie die verschiedenen Anklickoptionen, indem Sie den Modus manuell, normal und hochschreiben ausprobieren.  
-2. Um bereits zum jetzigen Zeitpunkt mögliche Beglegungs- und Blockungsprobleme für die gesamte Oberstufe zu antizipieren, wird empfohlen, dass die Schülerinnen und Schüler im zweiten Halbjahr der Jahrgangsstufe 10 auch die Q-Phase mit Abiturfächern fertig wählen.     
+2. Um bereits zum jetzigen Zeitpunkt mögliche Belegungs- und Blockungsprobleme für die gesamte Oberstufe zu antizipieren, wird empfohlen, dass die Schülerinnen und Schüler im zweiten Halbjahr der Jahrgangsstufe 10 auch die Q-Phase mit Abiturfächern fertig wählen.     
    + Wechseln Sie zu einem anderen Schüler und erstellen Sie eine Laufbahnplanung für die gesamte Oberstufe mit LKs, AB3, AB4 und ZKs.
-   + Achten Sie darauf, dass bei der Belegungspfüfung "Gesamt" ausgewählt ist.
+   + Achten Sie darauf, dass bei der Belegungsprüfung "Gesamt" ausgewählt ist.
 3. Obwohl der Schüler sehr zufrieden ist mit seiner Wahl, möchte er einmal testen, ob er doch zwei Sprachen (Oder zwei Naturwissenschaften) als LK nehmen kann und welche Auswirkungen das auf die anderen Abiturfächer haben könnte.      
    + Merken Sie sich die aktuelle Wahl und testen eine andere LK-Kombination.
    + Stellen Sie die ursprüngliche Planung wieder her
