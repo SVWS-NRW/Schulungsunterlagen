@@ -46,7 +46,7 @@ Nachdem alle Wahlen korrekt & kontrolliert sind, kann eine **Blockung** geplant 
 **Aufgaben 1.4.2 "Kerngruppen-Kurse zuweisen"**    
 * Schieben Sie D GK1 in die erste Schiene, D GK2 in die zweite und D GK3 in die dritte. Entfernen Sie bei Bedarf  die 4er Kurse, schauen Sie hier auf die Zahl der Wahlen.
 * Dann weisen Sie die 2er und 3er Kurse so den Schienen zu, dass sie sich immer abwechseln und keine Gruppe parallel liegt.
-* Fixieren Sie die ersten drei Schienen. Ziehen Sie mit der Maus einen Rahmen um die ganzen Schienen und fixieren Sie mit der Pinnadel.
+* Fixieren Sie die ersten drei Schienen. Ziehen Sie mit der Maus einen Rahmen um die ganzen Schienen und fixieren Sie mit der Pinnnadel.
 
 :information_source: [Infos zu den Grundeinstellungen einer Blockung](https://doku.svws-nrw.de/webclient/gost/kursplanung/#erstellen-einer-neuen-blockung)
 

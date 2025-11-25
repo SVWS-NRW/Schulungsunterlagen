@@ -100,7 +100,7 @@ Nehmen Sie eine Schülerin neu für das kommende Schuljahr in die Stufe EF auf. 
 :information_source: [Infos zur Neuaufnahme](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Neuaufnahmen_in_Schild-NRW_(Tutorial))
 
 >[!TIP] Moderationshinweis
-> Neuaufnahmen sind die SL/AL/das Sekratariat je nach Verfahren an der Schule durchzuführen. Die BL können dann weitere Details nachtragen.
+> Neuaufnahmen sind die SL/AL/das Sekretariat je nach Verfahren an der Schule durchzuführen. Die BL können dann weitere Details nachtragen.
 > Wir brauchen auf jedenfalls Individualdaten zu Name, Vorname, Geburtsdatum, dazu dann vorherige Schule, wichtig ist die Sprachenfolge (!), in der Praxis ist es oft hilfreich, vorherige Noten mit in vorherigen Lernabschnitten zu erfassen (besonders, wenn jemand in der Q-Phase neu dazukommt.)
 
 ## Orientierung im SVWS-Client
@@ -141,7 +141,7 @@ Lassen Sie sich diese Angaben eines Schülers der aktuellen Q2 anzeigen:
 :information_source: [Infos zum Filtern von Klassen/Jahrgängen](https://doku.svws-nrw.de/webclient/schueler/)
 
 **Aufgaben 1.1.13 "Link-Symbole nutzen"**   
-An einigen Stellen finden sich kleine Linksymoble, etwa in der Laufbahn von Schülern, um direkt zu diesem Schüler in der Kursplanung der Oberstufen-App zu springen. Probieren Sie die Links aus und gehen Sie über das Browser-"Zurück" zur Laufbahnübersicht.
+An einigen Stellen finden sich kleine Linksymbole, etwa in der Laufbahn von Schülern, um direkt zu diesem Schüler in der Kursplanung der Oberstufen-App zu springen. Probieren Sie die Links aus und gehen Sie über das Browser-"Zurück" zur Laufbahnübersicht.
 
 >[!Tip] Diese Links sind wichtig!
 > Diese Links werden später bei der Laufbahnberatung und Arbeit mit konkreten Schülerdatensätzen sehr hilfreich.
