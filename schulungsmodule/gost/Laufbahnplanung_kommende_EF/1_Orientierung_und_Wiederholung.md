@@ -38,7 +38,7 @@ Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Si
 
 :information_source: [Infos zu Sprachenfolgen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Laufbahninfo_(Sch%C3%BCler))
 
-**Aufgaben 1.1.4 "Kontrollieren Sie existierende Kurse**   
+**Aufgaben 1.1.4 "Kontrollieren Sie existierende Kurse"**   
 Öffnen Sie den Katalog mit den Kursen und schauen Sie, welche Einstellungen für Kurse vorgenommen werden können.
 
 :information_source: [Infos zum Katalog Kurse](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Kurse_(Schulbezogene_Kataloge))
@@ -72,7 +72,7 @@ Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Si
 
 
 
-**Aufgaben 1.1.7 "SchILD Gruppenprozesse**   
+**Aufgaben 1.1.7 "SchILD Gruppenprozesse"**   
 Finden Sie einen Gruppenprozess, der für die Verwaltung von Oberstufenschüler sinnvoll sein könnte.
 
 > [!WARNING] Aufgabenhinweis
@@ -89,7 +89,7 @@ Finden Sie einen Gruppenprozess, der für die Verwaltung von Oberstufenschüler 
 
 
 
-**Aufgaben 1.1.8 "SchILD Sprachenfolge Gruppenprozesse**   
+**Aufgaben 1.1.8 "SchILD Sprachenfolge Gruppenprozesse"**   
 Fügen Sie Schülern (m/w/d) der Q2 Sprachen in der Sprachenfolge per Gruppenprozess hinzu (wir nehmen Schüler der Q2, da diese für unsere EF-Schulung keine Rolle mehr spielen).
 
 :information_source: [Infos zu den Gruppenprozessen für die Oberstufe: Sprachenfolge zuweisen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Sprachenfolge_zuweisen_(Gruppenprozesse_Allgemein))
@@ -148,7 +148,7 @@ An einigen Stellen finden sich kleine Linksymoble, etwa in der Laufbahn von Sch�
 
 :information_source: [Infos zum Symbol 'Link zur Laufbahnplanung'](https://doku.svws-nrw.de/webclient/gost/)
 
-**Gruppenaufgabe 1.1.14 "10er auswählen, die in die neue EF gehen**    
+**Gruppenaufgabe 1.1.14 "10er auswählen, die in die neue EF gehen"**    
 Nicht alle Ihre 10er werden in die neue EF gehen. Kann man diese irgendwie isolieren?
 
 >[!TIP] Praxisarbeit

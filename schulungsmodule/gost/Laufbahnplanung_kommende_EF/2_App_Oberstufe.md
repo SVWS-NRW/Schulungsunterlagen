@@ -68,7 +68,7 @@ Hier ein Beispieltext:
 
 
 ## Konkreter Abiturjahrgang für die kommende EF   
-Nachdem nun die allgemeinen Vorgaben für Wahlen und Beratung festgelegt wurden, wird im folgenden
+Nachdem nun die allgemeinen Vorgaben für Wahlen und Beratung festgelegt wurden, wird im Folgenden
 + der konkrete Abiturjahrgang für die EF angelegten und
 + Anpassungen vorgenommen, die speziell für diesen Jahrgang gültig sind.
 
@@ -92,16 +92,17 @@ Aufgrund vorübergehender Umstände, wie etwa Lehrerausfälle durch Elternzeit, 
 :information_source: [Hinweise zur Eingabe des Beratungslehrers und der Textvorlagen.](https://doku.svws-nrw.de/webclient/gost/beratung/#beratungslehrer-hinterlegen) 
 
 
-**Aufgaben 1.2.7 "Beratunglehrer und Textvorlagen anpassen"**   
-Passen Sie die jahrgangsspezifischen Information im Tab Beratung an:
+**Aufgaben 1.2.7 "Beratungslehrer und Textvorlagen anpassen"**   
+Passen Sie die jahrgangsspezifischen Informationen im Tab Beratung an:
 1. Tragen Sie den Beratungslehrer ein.
 2. Passen Sie das Rücklaufdatum in den Textvorlagen an.
 3. Stellen Sie sicher, dass die Prüfung in der Vorlage auf *Gesamt* steht, da ansonsten bei der Laufbahnprüfung nur die EF.1 geprüft wird und Sie nicht wissen, ob die Wahl eine gültige Laufbahn ergibt.
 
 
-**Aufgaben 1.2.8 "Laufbahnen Sichten"**   
+**Aufgaben 1.2.8 "Laufbahnen sichten"**   
 Im Tab Laufbahnen werden alle Schülerinnen und Schüler aufgelistet, für die der konkrete Abiturjahrgang gültig ist. Da noch keine Wahlen stattgefunden haben, erscheinen an dieser Stelle noch etliche Laufbahnfehler der Schüler.
-1. Sichten Sie hier die Schüler der kommenden EF. Kontrollieren Sie ggf., ob auch die Neuaufnahmen und externen Schüler in der Liste erfasst sind.
+1. Sichten Sie hier die Schüler der kommenden EF. 
+2. Kontrollieren Sie ggf., ob auch die Neuaufnahmen und externen Schüler in der Liste erfasst sind.
 
 :information_source: [Infos zum Laufbahn-Tab.](https://doku.svws-nrw.de/webclient/gost/laufbahn/#laufbahnen)   
 Mit Wahlen im WebLuPO beschäftigen wir uns im nächsten Kapitel.
@@ -113,7 +114,7 @@ Mit Wahlen im WebLuPO beschäftigen wir uns im nächsten Kapitel.
 * der Jahrgang existiert jetzt neben eventuellen anderen Jahrgängen und der *Allgemeinen Vorlage*. 
 Hier ist nun immer zu kontrollieren, ob man den richtigen Jahrgang gewählt hat.
 * Die gemachten Einstellungen stehen nun im SVWS-Client bei der Laufbahnberatung und für WebLuPO zur Verfügung.
-* Gehen wir in den **Tab Laufbahn** werden die Schüler der anktuellen Jahrgangsstufe 10 aufgelistet.
+* Gehen wir in den **Tab Laufbahn** werden die Schüler der aktuellen Jahrgangsstufe 10 aufgelistet.
 
 
 
