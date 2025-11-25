@@ -37,7 +37,7 @@ Um später eine gute Blockung für die Abiturjahrgänge zu gewährleisten, ist e
 Sie können nun die geforderten Kombinationen, die an Ihrer Schule festgesetzt sind in die allgemeine Vorlage einpflegen. Alternativ können Sie folgende geforderten Kombinationen festlegen:
 1. Mathe LK ist Voraussetzung für Physik GK.
 2. Für die Wahl des oben angelegten Projektkurses muss das Leitfach Informatik belegt sein. 
-3. Nur die jenigen, die Deutsch LK gewählt haben, dürfen Literatur wählen.
+3. Nur diejenigen, die Deutsch LK gewählt haben, dürfen Literatur wählen.
 
 :information_source: [Infos zu geforderten Fächerkombinationen.](https://doku.svws-nrw.de/webclient/gost/faecher/#geforderte-kombinationen)
 
