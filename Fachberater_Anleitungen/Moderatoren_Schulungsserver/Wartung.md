@@ -6,7 +6,6 @@ Die Wartung geschieht von den virtuellen Windows-Computern aus. Über einen Brow
 |-----|-----|
 |10.1.0.3| 10.10.10.2|
 
-
 In dieser Anleitung wird die Wartung von einem Moderatorenrechner beschhrieben, es wird also die IP 10.1.0.3 verwendet.
 
 ## Starten und Beenden der Server
@@ -17,7 +16,7 @@ Dazu wählt man sich auf die Wartungsseite auf dem Docker-Rechnner ein. Der Benu
 
 ![Startseite für das Zurückspielen der Datenbanken](Bilder/Wartung/Startseite_Docker.png)
 
-Im oberen Abschnitt kann man alle Server mit einem Klick starten. Eingetragen sind jeweils die ersten und letzten Computer. Wenn beide an sind, kann man davon ausgehen, dass alle anderen dazwischen ebennfalls eingeschaltet sind. 
+Im oberen Abschnitt kann man alle Server mit einem Klick starten. Eingetragen sind jeweils die ersten und letzten Computer. Wenn beide an sind, kann man davon ausgehen, dass alle anderen dazwischen ebennfalls eingeschaltet sind.
 
 Die Moderatorenrechner MO1 und MO2 sind mit den letzten beiden PCs verbunden. So ist in dieser Abbildung MO1 der PC-24 und MO2 der PC-25 zugewiesen. Somit bleiben in diesem Beispiel 23 Windows-Rechner für die Teilnehmer übrig.
 
@@ -39,13 +38,11 @@ Sollte man unter Zeitdruck stehen, z. B. in einer Schulung, so kann man auch ein
 
 Der WebNotenManager (WeNoM) dient, wie der Name sagt, der Noteneingabe über das Netzwerk. Dieser muss vor der Benutzung mit der richtigen Datenbank verbunden werden.
 
-
 ## Einspielen einer neuen Server- und Schildversion
 
 In regelmäßigen Abständen kommt eine neue Softwareversion heraus, so dass ein Update notwendig ist. Die dazu notwendigen Schritte werden jetzt beschrieben.
 
 ### Update von Schild3
-
 
 Aus Performancegründen werden die übrigen Windows-Rechner in Proxmox heruntergefahren. Dann öffnet man einen Browser und gibt die URL 10.1.0.3 ein.
 
