@@ -6,7 +6,7 @@ Dieses Modul behinhaltet die Planung einer neuen EF im Halbjahr 10.2 bis hin zum
 
 Dies ist keine (rechtliche) APO-GOSt-Schulung zur Laufbahnberatung, sondern zur technischen Durchführung. Dennoch werden exemplarisch Laufbahnen, Beratungsfälle und Tipps behandelt. Eindeutige grammatikalsche Geschlechtsbezeichnungen meinen immer m/w/d/etc.
 
-Dieses Modul ist auf zwei Tage ausgelegt. 
+Dieses Modul ist auf zwei Tage ausgelegt.
 
 Die Fortbildungsmodule finden sich hier: https://svws-nrw.github.io/Schulungsunterlagen/
 
@@ -38,6 +38,7 @@ Es gibt für die GOSt weitere Folgemodule
 3. **Modul Sek II-Koordination** Tag 1 - Klausurplanung, Abiturplanung, exotischere Sonderfälle, **Praxiscafé**
 
 Eventuell könnten Sie auch diese Module interessieren:
+
 + Fortbildung zu Reports
 + Basisschulung SchildNRW
 
@@ -50,16 +51,12 @@ Die Teilnahmebescheinigungen werden zeitnah automatisch generiert und verschickt
 ## Vorstellen des Supportkonzepts
 
 1. Fortbildungen    [lfb.nrw-bra.de/](https://lfb.nrw.de/bra/20426)
-2. SchILD-NRW-3-Wiki    https://schulverwaltungsinfos.nrw.de/svws/wiki/    
+2. SchILD-NRW-3-Wiki    https://schulverwaltungsinfos.nrw.de/svws/wiki/
 3. SVWS-Doku        [doku.svws-nrw.de[(https://doku.svws-nrw.de)]
 4. SVWS-Forum       https://schulverwaltungsinfos.nrw.de/svws/forum/index.php
 5. Fachberatersuche https://www.svws.nrw.de/service/fachberatersuche
 
 Alles ist über diese Links erreichbar:
 
-* SVWS-Seite des MSB: https://www.svws-nrw.de
-* SVWS-Client und Server: https://doku.svws-nrw.de
-
-
-
-
++ SVWS-Seite des MSB: https://www.svws-nrw.de
++ SVWS-Client und Server: https://doku.svws-nrw.de
