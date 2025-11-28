@@ -20,7 +20,7 @@
 | [Reparieren von Access-DBs](./ReparaturMDB/index.md) | 18.11.2025 | 15:00 - 15:30| Nein |
 | [Webnotenmodul](./Wenom/index.md)  | 20.11.2025 | 14:00 - 15:30 | Nein |
 | [Migration und Datenbanksicherung für Einsteiger](./MigrationSicherung/index.md) | 25.11.2025  | 15:00 - 16:00| Nein 
-| [Reports - Das ändert sich](./Reports/index.md) | 04.12.2025 | 14:00 - 14:45|  [Anmelden](https://melly.de/plan/TPNHRWJ63NRA) |
+| [Reports - Das ändert sich](./Reports/index.md) | 04.12.2025 | 14:00 - 14:45|  Nein |
 | [Blockung der EF](./EFBlockung/index.md)  | 09.12.2025  | 14:00 - 15:30| Nein |
 | [Blockung der Q1](./QBlockung/index.md)  | 17.12.2025  | 14:00 - 15:30| Nein |
 | [Datenbanken sichten mit DBeaver](./DBeaver/index.md) | Auf Anfrage | 15:00 - 15:45 |  [Anmelden](https://melly.de/plan/TPNHRWJ63NRA) |
