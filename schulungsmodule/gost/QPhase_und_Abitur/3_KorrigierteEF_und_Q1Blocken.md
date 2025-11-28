@@ -7,7 +7,7 @@ In diesem Kapitel soll "geblockt" werden. Dies bedeutet, dass entschieden wird, 
 > Im Folgenden wollen wir eine **neue Blockung für die Q1 erstellen**.
 
 **Aufgaben 2.3.1 "Orientieren im Blockungsbereich der Kursplanung"**: Gehen Sie für Ihren **Gewählten Abiturjahrgang** in den *Tab Kursplanung*.
-+ Jetzt gilt es sehr genau zu sein: Wir müssen uns für die *neue Blockung der Q1* zuerst im richtigen *Abiturjahrgang* befinden und dort das richtige *Halbjahr* auswählen. Stellen Sie sicher, links in der Auswahlliste das korrekte Halbajhr für den korrekten Abiturjahrgang gewählt zu haben.
++ Jetzt gilt es sehr genau zu sein: Wir müssen uns für die *neue Blockung der Q1* zuerst im richtigen *Abiturjahrgang* befinden und dort das richtige *Halbjahr* auswählen. Stellen Sie sicher, links in der Auswahlliste das korrekte Halbjahr für den korrekten Abiturjahrgang gewählt zu haben.
 + Klicken Sie dann auf **+ Neue Blockung erstellen**.
 + Nehmen Sie zur Kenntnis, dass links unten nun *Blockungen* stehen und dort eine *Blockung 1* angelegt wurde, darunter steht eine *ID*. Die rechte Seite des Bildschirms ist nun auch befüllt.
 + Erklären Sie, was sie sehen. Was ist die linke Spalte, was die Zeile im Kopf? Nehmen Sie zur Kenntnis, dass sich Kurse (links) noch aufklappen lassen. Schätzen Sie, ob 11 Schienen für die Q1 und Q2 ausreichen werden.
@@ -15,22 +15,22 @@ In diesem Kapitel soll "geblockt" werden. Dies bedeutet, dass entschieden wird, 
 
 **Aufgabe 2.3.2 "Stumpf drauflos blocken"**: Wir legen einfach los!
 + Stellen Sie nichts ein, sondern klicken Sie einfach neben "Blockung 1" auf `Blocken`.
-+ Stellen Sie die *"Anzahl der parallelen Berechungen"* auf *Maximum*.
++ Stellen Sie die *"Anzahl der parallelen Berechnungen"* auf *Maximum*.
 
 >[!TIP] **Maximum und wo laufen die Berechnungen**   
 >Die *Zahl der parallelen Berechnungen* gibt die Zahl der "CPU-Kerne - 1" in Ihrem lokalen Rechner an, die mit der Blockungsberechnung belastet werden können.   
 > Die Berechnungen laufen lokal auf Ihrem Client im Browser, es werden keine Daten irgendwohin geladen.    
 > Ihre Kollegen können somit wie gewohnt weiter mit SchILD arbeiten, während Sie lokal auf Ihrem Rechner die Blockungen berechnen.
 
-+ Klicken Sie auf `Berechnung starten` und lassen Sie die Berechung etwas laufen.
++ Klicken Sie auf `Berechnung starten` und lassen Sie die Berechnung etwas laufen.
 + Klicken Sie dann auf `Berechnung pausieren`.
 
 >[!TIP] Was sehen wir hier?   
-> "Berechung pausieren" hält die Berechnung an und lässt uns Ergebnisse weiterverwenden, "Abbrechen" verwirft alle bisherigen Berechnungen.
-> Hier werden paralllel mehrere Blockungen erzeugt.
+> "Berechnung pausieren" hält die Berechnung an und lässt uns Ergebnisse weiterverwenden, "Abbrechen" verwirft alle bisherigen Berechnungen.
+> Hier werden parallel mehrere Blockungen erzeugt.
 > "Regelverletzungen" sind gerade 0, aber Regeln wurden gerade nicht definiert. Dafür gibt es viele "Wahlkonflikte". Fährt der Mauszeiger über Wahlkonflikte, erfahren wir Details. Die "Maximale Kursdifferenz" bezieht sich auf SuS in fachgleichen Kursen. "Fächer parallel" gibt an, wie viele Fächer in der gleichen Schiene abgelegt wurden.
 
-+ Wir haben keine Regeln definiert, keine Kursschienen fixiert, für die Q1 haben wir ohnehin zu wenige Schienen. Wir können also ruhig `Abbrechen` und müssen die Blockung durch Vorgaben berechnenbar machen. Hier können wir theoretisch Ergebisse wählen, um damit weiterzuarbeiten, aber unsere Ergebnisse sind gerade wertlos. Klicken Sie auf `Alle berechneten Ergebnisse verwerfen und schließen`. 
++ Wir haben keine Regeln definiert, keine Kursschienen fixiert, für die Q1 haben wir ohnehin zu wenige Schienen. Wir können also ruhig `Abbrechen` und müssen die Blockung durch Vorgaben berechenbar machen. Hier können wir theoretisch Ergebnisse wählen, um damit weiterzuarbeiten, aber unsere Ergebnisse sind gerade wertlos. Klicken Sie auf `Alle berechneten Ergebnisse verwerfen und schließen`. 
 
 **Aufgabe 2.3.3 "Mit Nachdenken und Planung blocken"**:    
 + An dieser Schule bekommen wir die Q1 nicht in 11 Schienen geblockt. Fügen Sie eine 12. Schiene hinzu.
@@ -51,9 +51,9 @@ In diesem Kapitel soll "geblockt" werden. Dies bedeutet, dass entschieden wird, 
 Wir können auch Kurse schon fest setzen
 + Zum Beispiel sind die Sportkurse nicht gleich: Von den vier Kursen sind zwei "normale" Sportkurse, einer ist "Tanzen" und der andere "Schwimmen"
     + Benennen Sie die Kurse passend um
-    + Sie haben auch nur zwei Sporthallen (plus das Schwimmbad), verteilen Sie also die Sportkurse auf zwei Schienen und fixieren Sie diese (ziehen Sie die Kurse auf Schiene 1 woanders hin, dann klicken Sie auf die Pinnadel)
+    + Sie haben auch nur zwei Sporthallen (plus das Schwimmbad), verteilen Sie also die Sportkurse auf zwei Schienen und fixieren Sie diese (ziehen Sie die Kurse auf Schiene 1 woanders hin, dann klicken Sie auf die Pinnnadel)
     + Jetzt müssen die Schüler nach Sportkurswahl zugeordnet werden. Klicken Sie auf den Schwimmkurs, dann auf *Schülerzuordnung* und wählen Sie dann ca. 20 Schüler aus, die Schwimmen wollen, indem Sie diese in den passen Kurs setzen (rechte Liste)
-    + Wählen Sie "Schüer im Ziel-Kurs fixieren", damit diese SuS nicht noch wonanders hinverteilt werden. Klicken Sie auf "Schließen".
+    + Wählen Sie "Schüler im Ziel-Kurs fixieren", damit diese SuS nicht noch wonanders hinverteilt werden. Klicken Sie auf "Schließen".
     + Damit aber nicht noch andere Schüler schwimmen müssen, gehen Sie oben rechts auf "Details" und definieren Sie eine Regel, nach der dieser Kurs eine *maximale Schülerzahl* hat. Wählen Sie den Kurs und dann die Zahl der Personen, die Sie gerade hinzugefügt haben. Erstellen Sie die Regel.
     + Wiederholen Sie dieses Vorgehen mit Ihrem Tanzkurs.
 
@@ -69,7 +69,7 @@ Wir sperren die LK-Schienen. Es gibt Absprachen mit Nachbarschulen oder die LKs 
 
 >[!TIP] Nachdem einmal eine Berechnung gelaufen ist, lässt sich keine Schiene mehr neu anlegen. Das geht nachher aber dann doch, wenn eine Blockung "abgeleitet" wurde (dazu später mehr).
 
-+ Sorgen Sie dafür, dass ein Kunstkurs, Musik und Literatur parallel liegen. Fixieren Sie diese in Schienen oder definieren Sie Regeln. Denken Sie daran: Kurs verschieben, dann mit der Pinnadel fixieren.
++ Sorgen Sie dafür, dass ein Kunstkurs, Musik und Literatur parallel liegen. Fixieren Sie diese in Schienen oder definieren Sie Regeln. Denken Sie daran: Kurs verschieben, dann mit der Pinnnadel fixieren.
 + Ebenso koppeln Sie Reli/Philo (eventuell kann hier später in der Q2 auch auch ein Zusatzkurs hin), damit SuS nach Ihrem Gewissen frei umwählen können. Da alle Reli oder Philo haben, können wir eine 100%-Schiene definieren, die Kurse darin fixieren und, per Drag & Drop, für alles andere sperren.
 
 >[!TIP] Schienen vs. Stundenplanlagen. 
@@ -77,13 +77,13 @@ Wir sperren die LK-Schienen. Es gibt Absprachen mit Nachbarschulen oder die LKs 
 
 + Soll eine "Fremdsprachenschiene" festgelegt werden? Haben Sie es zugelassen, dass jemand mit F7 oder L7 doch noch S0 wählt? Falls nicht, können die ruhig parallel gelegt werden. Ignorieren Sie S0 und definieren Sie eine Regel, dass F7 und L7 immer parallel liegen.
 
-**Aufagen 2.3.6 "Schüler fest Kursen zuteilen"**:     
+**Aufgabe 2.3.6 "Schüler fest Kursen zuteilen"**:     
 Legen Sie Kursgruppen fest und teilen Sie Schüler zu
 (Also gleiche Gruppen in D_GK1, E_GK1, M_GK1, dann für 2 und 3; SuS fest zuteilen)
 
 **Aufgabe 2.3.7 "Neue Blockung rechnen"**:     
 Soweit, so gut: Berechnen Sie noch einmal eine neue Blockung und schauen Sie, was passiert. Achten Sie darauf, dass alle Kurse, die Sie auch haben möchte, angelegt sind. Klicken Sie auf `Blocken`.
-+ Kontrollieren Sie Wahkonflikte, haben Sie zu Beginn viele und wird dies nicht schnell besser, müssen Sie schauen, woran diese liegen.
++ Kontrollieren Sie Wahlkonflikte, haben Sie zu Beginn viele und wird dies nicht schnell besser, müssen Sie schauen, woran diese liegen.
 + Wählen Sie ein gut erscheinendes Ergebnis über den Haken an, dann klicken Sie auf "1 Ergebnis importieren und beenden".
 + In der Blockung ist links nun eine neue "ID" erzeugt worden. Das ist unserer Blickung. Schalten Sie das Ergebnis mit dem "Blauen Haken im Kreis" auf *Aktiv*.
 
@@ -103,7 +103,7 @@ Soweit, so gut: Berechnen Sie noch einmal eine neue Blockung und schauen Sie, wa
 >[!TIP]Ableiten ist sinnvoll, um eine **Blockung**, in der Berechnungen durchgeführt wurden, zu duplizieren. (Es liegen **Ergebnisse** vor, mit denen wir arbeiten und von denen wir eins auf **Aktiv** gestellt haben).
 > In diesen ***Ergebnissen*** sind nun manche Einstellungen fest und können nicht mehr verändert werden. Es können zum Beispiel keine neuen Schienen oder Kurse mehr angelegt werden. Leiten wir aber eine Blockung ab, wird daraus eine komplett **neue Blockung ohne Ergebnisse**, in der wieder alles verändert werden kann. Neue Ergebnisse, mit denen dann gearbeitet werden kann, werden über ein erneutes **berechnen** erzeugt. 
 > "Ableiten" ist auch sinnvoll, um eine Art "Backup" von einer Blockung zu erstellen, die man sich sicher abspeichern möchte, weil spätere Veränderungen vielleicht doch nicht besser sind.
-> Nehmen Sie an dieser Stelle noch einmal die Möglichkeit zur Kenntnis, Blockungen umzubennnen!
+> Nehmen Sie an dieser Stelle noch einmal die Möglichkeit zur Kenntnis, Blockungen umzubennen!
 
 + Leiten Sie eine Blockung ab und benennen Sie diese um (eventuell nach dem Datum?), legen Sie ggf. neue Kurse an oder entfernen Sie wieder welche.
 + Vergessen Sie nicht, das Ergebnis, mit dem Sie arbeiten möchten, auf **Aktiv** zu stellen.
@@ -126,7 +126,7 @@ Wir befinden uns nun kurz vor dem Schuljahreswechsel, zwei oder drei Wochen bevo
 + Löschen Sie ggf. überflüssige Blockungsversuche.
 + Sichten Sie die Laufbahn eines Schülers, indem Sie in die Laufbahnplanung eines Schülers springen. Nehmen Sie zur Kenntnis, dass die Spalte Q1.1 nun grau hinterlegt ist und die Wahlen für die Q1.1 hier nicht mehr änderbar ist.
 + Wechseln Sie in den Tab "Lernabschnitte" und sichten Sie den nun angelegten neuen Abschnitt 20xx (Q1). 
-+ Wählen Sie den zukünftigen Abschitt bei einem Schüler aus und prüfen Sie, ob die Kurse dort hinterlegt sind.
++ Wählen Sie den zukünftigen Abschnitt bei einem Schüler aus und prüfen Sie, ob die Kurse dort hinterlegt sind.
 
 **Aufgabe 2.3.10 "Lehrer einpflegen"**  
 
@@ -144,10 +144,10 @@ Wir befinden uns nun kurz vor dem Schuljahreswechsel, zwei oder drei Wochen bevo
 > Vor oder direkt zum Beginn der Sommerferien sollte die Blockung noch nicht angewendet werden. Warten Sie bis zum Ende der Sommerferien. "Bis dahin passiert noch viel."
 
 >[!TIP] Synchronisieren
-> Wurde eine Blockung einmal mit **übertragen** verwendet, kann eine Änderung in der Blockung bei den SuS übernommen weredn, indem man **synchorniseren** anklickt.
-> **Achtung**: Synchronieren ist nicht mehr möglich, sobald eine Note in die Leistungsdaten eingetragen wurde! Nun sind Änderungen nur noch über die Leistungsdaten bei den SuS und die Kurs-Kataloge vorzunehmen!
+> Wurde eine Blockung einmal mit **übertragen** verwendet, kann eine Änderung in der Blockung bei den SuS übernommen werden, indem man **synchronisieren** anklickt.
+> **Achtung**: Synchronisieren ist nicht mehr möglich, sobald eine Note in die Leistungsdaten eingetragen wurde! Nun sind Änderungen nur noch über die Leistungsdaten bei den SuS und die Kurs-Kataloge vorzunehmen!
 
-**Aufagabe 2.3.11 "Kurse/Schüler manuell verschieben"**: Verschieben Sie Kurse manuell zwischen den Schienen
+**Aufgabe 2.3.11 "Kurse/Schüler manuell verschieben"**: Verschieben Sie Kurse manuell zwischen den Schienen
 + Minimieren Sie die Kursplanungsansicht. Sie sehen nun die geblockten Kurse in ihren Schienen. Fassen Sie einen Kurs mit der Maus an, dann sehen Sie alle Schienen, in die er verschoben werden kann. Verschieben Sie einen Kurs.
 + Ein Kurs kann nach links in den rot aufleuchtenden Kasten gezogen werden, um die Kurszurordnung zu dieser Schienen aufzuheben.
 + Wählen Sie einen Schüler in der Auswahhliste an, **verteilen** Sie diesen automatisch mit einem Klick auf das ebenso benannte Feld auf (neue?) Kurse.

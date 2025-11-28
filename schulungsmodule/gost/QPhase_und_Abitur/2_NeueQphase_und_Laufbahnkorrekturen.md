@@ -13,7 +13,7 @@ Beginn in der EF.2 und nun Kontrolle der Wahlen/Laufbahnen für die Q-Phase.
 >In der Kopfzeile werden Laufbahnwahlbögen als .pdf für den Druck erzeugt.
 
 
-**Aufgaben 2.2.1 "Filtern Sie auf den Jahrgang EF"**: Filtern Sie in der *App Schüler* auf den Jahrgang EF und wechseln Sie auf den Reiter *Laufbhanplanung*.
+**Aufgaben 2.2.1 "Filtern Sie auf den Jahrgang EF"**: Filtern Sie in der *App Schüler* auf den Jahrgang EF und wechseln Sie auf den Reiter *Laufbahnplanung*.
 + Klicken Sie bei einer Person auf "Planung merken".
 + Verändern Sie im Wahlbereich die Laufbahnwahl und schauen Sie, wie sich die Zahl der Stunden und die belegten Kurse unten verändern.
 + Schauen Sie, was für Fehler bei den "Belegprüfungsergebnissen" rechts erscheinen.
