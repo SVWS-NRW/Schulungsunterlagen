@@ -1,9 +1,18 @@
-# Fortbildung: Laufbahnplanung und Kursblockung für die Oberstufe
+# Fortbildung: Kursblockung für die Oberstufe
 
 
-In dieser Online-Fortbildung liegt der Schwerpunkt darauf, was man bei der Blockung im Client berücksichtigen sollte. Anders als bei den bisher getrennten Fortbildungen "Blockung der EF" und "Blockung der Q-Phase", als die komplette Blockung inklusive Umwahlen vorgeführt wurde, zeige ich diesmal nur ausgewählte Inhalte.
+### Fokus der Fortbildung
 
-Außerdem bleibt genug Zeit, um Fragen zu klären und sich über erprobte Workflows aus der Praxis auszutauschen – so dass jeder Anregungen für den eigenen Ablauf mitnehmen kann.
+Diese Fortbildung konzentriert sich auf die Blockung im Client und worauf man dabei achten sollte. 
+
+Im Unterschied zu den bisherigen separaten Fortbildungen "Blockung der EF" und "Blockung der Q-Phase" – wo die komplette Blockung inklusive Umwahlen gezeigt wurde – werden hier nur ausgewählte Inhalte behandelt.
+
+### Ablauf
+
+Es bleibt genug Zeit für:
++ Klärung von Fragen
++ Austausch über erprobte Workflows aus der Praxis
++ Mitnahme von praktischen Anregungen für den eigenen Ablauf
 
 
 

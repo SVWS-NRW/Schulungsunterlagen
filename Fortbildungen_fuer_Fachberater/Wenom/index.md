@@ -15,8 +15,7 @@ Die oben genannten Inhalte werden vorgestellt. Eine gemeinsame Installation oder
 Im Anschluss gibt es die Möglichkeit, Fragen zu stellen. Wer jedoch wenig Zeit hat oder keine Fragen hat, kann das Meeting ohne Weiteres verlassen.
 
 ### Hilfreiche Links
-+ SVWS-Dokumentation zum Webnotenmanager: https://doku.svws-nrw.de/projekte/WeNoM/
-
++ SVWS-Dokumentation zum Webnotenmanager: https://doku.svws-nrw.de/wenom/
 
 
 

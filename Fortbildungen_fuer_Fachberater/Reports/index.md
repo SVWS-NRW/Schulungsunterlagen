@@ -9,7 +9,7 @@
 + Welche Reports laufen? Infos zu...
     + Zeugnissen
     + Basissammlung
-    + Oberstufenreports
+    + Leistungsübersichten
 + Welche Reports laufen nicht mehr? Infos zu...
     + Reports mit Elementen aus dem „GridPack“
     + Reports mit eigenen Datenquellen
@@ -17,11 +17,6 @@
     + Header und Footer
     + Grundeinstellungen
 
-
-### Ablauf der Fortbildung
-Die Vorstellung der oben genannten Inhalte dauert ca 40 Minuten.
-
-Im Anschluss gibt es die Möglichkeit, Fragen zu stellen. Wer jedoch wenig Zeit hat oder keine Fragen hat, kann das Meeting ohne Weiteres verlassen.
 
 ### Hilfreiche Links
 + Download **SVWS-Server**: https://github.com/SVWS-NRW/SVWS-Server/releases

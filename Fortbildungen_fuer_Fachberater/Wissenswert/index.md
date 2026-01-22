@@ -5,7 +5,7 @@ Immer mehr Schulen steigen auf SchILD-NRW 3 und den SVWS-Server um – entsprech
 In der Online-Fortbildung zeige ich anhand konkreter und realistischer Fallbeispiele, wie Fachberater mit typischen Anfragen von Schulen umgehen können, welche Rückfragen sinnvoll sind und welche Lösungswege an die Schulen weitergegeben werden können.
 
 
-### Fallbeispiele
+### Mögliche Fallbeispiele
 + Nach der Migration meldet die Schule folgenden Hinweis:    
 ![Download](./graphics/schuljahresabschnitte.png)  
 + Eine Schule meldet, dass die Migration nicht durchläuft.    

@@ -14,7 +14,7 @@ In der Online-Fortbildung gebe ich einen Überblick über aktuelle Neuerungen so
 + PM3/KM3
 + Neues im Stable-Mode des SVWS-Servers
     + Kataloge
-+ Erstelung von Schulungsdatenbanken - Tool zum Generieren von Datenbanken 
++ Erstellung von Schulungsdatenbanken - Tool zum Generieren von Datenbanken 
 
 
 
