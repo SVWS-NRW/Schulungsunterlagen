@@ -17,6 +17,7 @@
 | ---------- | ------------- | ------------- | ------------- |
 | [Schulungen - Austausch ](./Austausch_Schulungen/index.md) | 26.02.2026  | 15:00 - 16:00| Nein |
 | [Datenbanken sichten mit DBeaver](./DBeaver/index.md)  | 03.03.2026 | 15:00 - 15:45 | Nein |
+| [Migration und Datenbanksicherung](./MigrationSicherung/index.md) | 04.03.2026  | 15:00 - 16:00 | Nein |
 | [Infos zu Neuerungen und zum Entwicklungsstand](./Aktuell/index.md) | 17.03.2026 | 15:00 - 16:00| Nein |
 | [Stundenplan und Klausurplanung](./Stundenplan_Klausurblockung/index.md)  | 15.04.2026 | 14:00 - 15:30 | Nein |
 | [Support für Schulen - Infos für Fachberater](./Wissenswert/index.md) | 23.04.2026  | 15:00 - 16:00| Nein |
@@ -24,9 +25,8 @@
 | [Oberstufenplanung](./Oberstufe/index.md)  | 29.05.2026  | 14:00 - 15:30| Nein |
 | [Webnotenmodul](./Wenom/index.md)  | 11.06.2026  | 14:00 - 15:30| Nein |
 | [Schulungskonzepte](./Schulungskonzept/index.md)| Auf Anfrage | -- | -- |
-| [Migration und Datenbanksicherung](./MigrationSicherung/index.md) | Auf Anfrage  | -- | -- |
-| [Blockung der EF](./EFBlockung/index.md)  | Auf Anfrage  | -- | -- 
-| [Blockung der Q1](./QBlockung/index.md)  | Auf Anfrage  | -- | -- 
+| [Blockung der EF](./EFBlockung/index.md)  | Auf Anfrage  | -- | -- |
+| [Blockung der Q1](./QBlockung/index.md)  | Auf Anfrage  | -- | -- |
 
 
 <!--| [Offene Austauschrunde](./Fragerunde/index.md)| --- | --- |-->
