@@ -117,6 +117,12 @@ export default defineConfig({
 					},
 				],
 			},
+
+			{
+				text: 'Tipp der Woche',
+				link: '/Tipp_der_Woche/',
+				collapsed: false,
+			},
 		],
 
 		socialLinks: [
