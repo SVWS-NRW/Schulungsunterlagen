@@ -17,13 +17,13 @@ Im SVWS-Release v1.2.1 vom 30.01.2026 wurden für den Produktivbetrieb zusätzli
 + Ob du einen Katalogeintrag im Client oder in Schild3 änderst oder ergänzst, spielt keine Rolle.
 + Über das "+" Zeichen können Katalogeinträge hinzugefügt werden
 
-  |![Löschen von Katalogeinträgen](./graphics/svwstipp_Kataloge1.png) |
+  |![Hinzufügen von Katalogeinträgen](./graphics/svwstipp_Kataloge2.png) |
   |---------------| 
 
 + Wenn du einen oder mehrere Häkchen setzt, können einzelne Einträge gelöscht werden.    
     Das Löschen der Erzieherart Stiefvater hat keine weiteren Auswirkungen:
 
-  |![Löschen von ungenutzen Katalogeinträgen](./graphics/svwstipp_Kataloge2.png) |
+  |![Löschen von ungenutzen Katalogeinträgen](./graphics/svwstipp_Kataloge1.png) |
   |---------------|
 
 
