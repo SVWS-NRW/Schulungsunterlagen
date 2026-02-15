@@ -1,6 +1,7 @@
 # :bulb: Tipp der Woche
 
-## :point_right: SVWS-Hack der Woche    
+## :point_right: SVWS-Hack der Woche   
+| :date: 16.02.2026 | :information_source: [Bugfix](./SVWS-Hack_der_Woche/bugfix122.md) |
 | :date: 09.02.2026 | :information_source: [Kataloge](./SVWS-Hack_der_Woche/kataloge.md) |
 |------------------|----------------------------------------------------------------------------------|
 
