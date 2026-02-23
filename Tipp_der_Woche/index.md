@@ -7,6 +7,7 @@
 
 
 ## :point_right: SchILD-Tipp der Woche    
-| :date: 02.02.2026 | :information_source: [Zeugnisreports](./SchILD-Tipp_der_Woche/zeugnisreports.md) |
+| :date: 23.02.2026 | :information_source: [Datenbankmigration](./SchILD-Tipp_der_Woche/datenbankmigration.md) |
 |------------------|----------------------------------------------------------------------------------|
+| :date: 02.02.2026 | :information_source: [Zeugnisreports](./SchILD-Tipp_der_Woche/zeugnisreports.md) |
 | :date: 26.01.2026 | :information_source: [Leistungsübersichten](./SchILD-Tipp_der_Woche/leistungsuebersicht.md) |
