@@ -6,7 +6,8 @@ Die Wartung geschieht von den virtuellen Windows-Computern aus. Über einen Brow
 |-----|-----|
 |10.1.0.3| 10.10.10.2|
 
-In dieser Anleitung wird die Wartung von einem Moderatorenrechner beschhrieben, es wird also die IP 10.1.0.3 verwendet.
+Da während des Updateprozesses Dateien herutntergeladen werden müssen, muss ein Internetzugang verfügbar sein, welchen nur die Moderatorenrechner haben.
+Daher wird in dieser Anleitung die Wartung von einem Moderatorenrechner beschhrieben, es wird also die IP 10.1.0.3 verwendet.
 
 ## Starten und Beenden der Server
 
@@ -64,7 +65,7 @@ Im nächsten Schritt gibt man die neue Versionsnummer von Hand ein.
 
 ![Eingabe der Versionsnummer](Bilder/Wartung/Eingabe_Versionsnummer.png)
 
-Nun nur noch auf "Aktualisieren" klicken, und schon ist Schild3 auf einer neuen Version.
+Nun noch auf "Aktualisieren" klicken, und schon ist Schild3 auf einer neuen Version. Endgültig wird sie installiert, wenn man den 3. Schritt "Schild3 Update" ausführt.
 
 ### Update von WeNoM
 
