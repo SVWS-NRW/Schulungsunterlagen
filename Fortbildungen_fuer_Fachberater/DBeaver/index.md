@@ -15,7 +15,7 @@ Im Anschluss gibt es die Möglichkeit, Fragen zu stellen und/oder die gezeigten 
 
 ### Hilfreiche Links
 + Download **DBeaver**: https://dbeaver.io/download/
-+ Anleitung zur Erstellung der DB-Verbindung: [DBeaver_Howto.pdf](https://github.com/SVWS-NRW/Schulungsunterlagen/Fortbildungen_fuer_Fachberater/DBeaver_Howto.pdf)
+
 
 
 
