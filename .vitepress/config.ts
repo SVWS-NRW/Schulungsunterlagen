@@ -63,7 +63,7 @@ export default defineConfig({
 									{ text: '3. Wahlen und Beratung', link: '/schulungsmodule/gost/Laufbahnplanung_kommende_EF/3_Wahlen_und_Beratung.md' },
 									{ text: '4. Blocken', link: '/schulungsmodule/gost/Laufbahnplanung_kommende_EF/4_Blocken.md' },
 									{ text: '5. Blockung anwenden', link: '/schulungsmodule/gost/Laufbahnplanung_kommende_EF/5_Blockung_Anwenden.md' },
-									{ text: '6. Blockung anwenden', link: '/schulungsmodule/gost/Laufbahnplanung_kommende_EF/6_Um-Abwahlen.md' },
+									{ text: '6. Um-/Abwahlen', link: '/schulungsmodule/gost/Laufbahnplanung_kommende_EF/6_Um-Abwahlen.md' },
 									{ text: '7. Leistungsdaten und Zeugnisse', link: '/schulungsmodule/gost/Laufbahnplanung_kommende_EF/7_Leistungsdaten_und_Zeugnisse.md' },
 								],
 							},
