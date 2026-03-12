@@ -69,9 +69,9 @@ Beachten Sie:  Die Daten der lp-Datei verbleiben auf Ihrem Rechner, während die
 
 :information_source: [Infos zur Oberfläche von WebLuPO](https://doku.svws-nrw.de/weblupo/)
 
-:information_source: [Infos zum Beratungsprozesses mit WebLuPO](https://doku.svws-nrw.de/webclient/apps/anleitungen_schulform/anleitungen_gost/weblupo/)
+:information_source: [Infos zum Beratungsprozesses mit WebLuPO](https://doku.svws-nrw.de/webclient/anleitungen/anleitungen_schulform/anleitungen_gost/weblupo/)
 
-:information_source: [Infos zur Installation](https://doku.svws-nrw.de/projekte/WebLupo/)
+:information_source: [Infos zur Installation](https://doku.svws-nrw.de/weblupo/weblupo_installation.html)
 
 **Aufgaben 1.3.5 "Re-import von WebLuPO-Wahl in SVWS-Client"**  
 Die von Ihnen durchgeführte Wahl kann nun im SVWS-Client importiert werden.
