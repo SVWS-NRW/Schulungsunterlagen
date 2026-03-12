@@ -94,7 +94,7 @@ Finden Sie einen Gruppenprozess, der für die Verwaltung von Oberstufenschüler 
 Fügen Sie Schülern (m/w/d) der Q2 Sprachen in der Sprachenfolge per Gruppenprozess hinzu (wir nehmen Schüler der Q2, da diese für unsere EF-Schulung keine Rolle mehr spielen).
 
 :information_source: [Infos zu den Gruppenprozessen für die Oberstufe: Sprachenfolge zuweisen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Sprachenfolge_zuweisen_(Gruppenprozesse_Allgemein))
-
+<!--
 **Aufgaben 1.1.9 "SchILD Schüler neu aufnehmen für die kommende EF"**  
 Nehmen Sie eine Schülerin neu für das kommende Schuljahr in die Stufe EF auf. In welchen Reitern sind welche Angaben aufzunehmen?
 
@@ -102,7 +102,7 @@ Nehmen Sie eine Schülerin neu für das kommende Schuljahr in die Stufe EF auf. 
 
 >[!TIP] Moderationshinweis
 > Neuaufnahmen sind die SL/AL/das Sekretariat je nach Verfahren an der Schule durchzuführen. Die BL können dann weitere Details nachtragen.
-> Wir brauchen auf jedenfalls Individualdaten zu Name, Vorname, Geburtsdatum, dazu dann vorherige Schule, wichtig ist die Sprachenfolge (!), in der Praxis ist es oft hilfreich, vorherige Noten mit in vorherigen Lernabschnitten zu erfassen (besonders, wenn jemand in der Q-Phase neu dazukommt.)
+> Wir brauchen auf jedenfalls Individualdaten zu Name, Vorname, Geburtsdatum, dazu dann vorherige Schule, wichtig ist die Sprachenfolge (!), in der Praxis ist es oft hilfreich, vorherige Noten mit in vorherigen Lernabschnitten zu erfassen (besonders, wenn jemand in der Q-Phase neu dazukommt.)-->
 
 ## Orientierung im SVWS-Client
 
@@ -113,7 +113,7 @@ Nehmen Sie eine Schülerin neu für das kommende Schuljahr in die Stufe EF auf. 
 > + der SVWS-Client wird in der kommenden Zeit um weitere Funktionen erweitert.
 > + **Klausurplanung** ist ein anderes Modul
 
-**Aufgaben 1.1.11 "SVWS Client Apps und vor und zurück"**   
+**Aufgaben 1.1.9 "SVWS Client Apps und vor und zurück"**   
 Klicken Sie sich durch die **Apps** und orientieren Sie sich, was der SVWS-Client bietet. Nutzen Sie hierbei die Vor- und Zurückknöpfe Ihres Browers.  
 Lassen Sie sich diese Angaben eines Schülers der aktuellen Q2 anzeigen:
 
@@ -135,12 +135,12 @@ Lassen Sie sich diese Angaben eines Schülers der aktuellen Q2 anzeigen:
 
 :information_source: [Infos zum individuellen Stundenplan eines Schülers](https://doku.svws-nrw.de/webclient/schueler/stundenplan/)  
 
-**Aufgaben 1.1.12 "SVWS-Client Filter" auf Schüler filtern"**  
+**Aufgaben 1.1.10 "SVWS-Client Filter" auf Schüler filtern"**  
 *Filtern* Sie in der *Schüleransicht* auf die Jahrgangstufe 10/auf eine Klasse der Stufe 10.
 
 :information_source: [Infos zum Filtern von Klassen/Jahrgängen](https://doku.svws-nrw.de/webclient/schueler/)
 
-**Aufgaben 1.1.13 "Link-Symbole nutzen"**  
+**Aufgaben 1.1.11 "Link-Symbole nutzen"**  
 An einigen Stellen finden sich kleine Linksymbole, etwa in der Laufbahn von Schülern, um direkt zu diesem Schüler in der Kursplanung der Oberstufen-App zu springen. Probieren Sie die Links aus und gehen Sie über das Browser-"Zurück" zur Laufbahnübersicht.
 
 >[!Tip] Diese Links sind wichtig!
@@ -148,7 +148,7 @@ An einigen Stellen finden sich kleine Linksymbole, etwa in der Laufbahn von Sch�
 
 :information_source: [Infos zum Symbol 'Link zur Laufbahnplanung'](https://doku.svws-nrw.de/webclient/gost/)
 
-**Gruppenaufgabe 1.1.14 "10er auswählen, die in die neue EF gehen"**  
+**Gruppenaufgabe 1.1.12 "10er auswählen, die in die neue EF gehen"**  
 Nicht alle Ihre 10er werden in die neue EF gehen. Kann man diese irgendwie isolieren?
 
 >[!TIP] Praxisarbeit
