@@ -11,7 +11,7 @@ Die Eigenschaft wird automatisch in die Kursplanung übernommen.
 1. Abwahl in der Laufbahnplanung.
 2. Zuwahl in der Laufbahnplanung.
 3. In der Kursplanung wird das abgewählte Fach unter "Ungültige Kurszuordnung" gelöscht.
-4. Im Umwahldialog (Schüler-Kurszuordnung) wird das zugewählte Fach einem Kurs zugewiesen.
+4. Im Umwahldialog (Schüler-Kurszuordnung) wird das zugewählte Fach einem Kurs zugewiesen (manuell oder "Verteilen").
 
 ### Umwahlen **nach der Übertragung der Blockung** in die Leistungsdaten  
 :information_source: [Infos zur Erstellung einer Blockung](https://doku.svws-nrw.de/webclient/apps/gost/kursplanung/#anderungen-nach-ubertrag-der-kursplanung-in-leistungsdaten)
@@ -32,7 +32,25 @@ Die Eigenschaft wird automatisch in die Kursplanung übernommen.
 **Zuwahl eines Kurses**
 1. In den Leistungsdaten wird das neue Fach ergänzt und ein **beliebiger Kurs des Faches** eingetragen.
 2. In Laufbahnplanung wird die Zuwahl automatisch übernommen und kann unmittelbar eingesehen werden.
-3. Im Umwahldialog (Schüler-Kurszuordnung) wird das zugewählte Fach einem Kurs zugewiesen.
+3. Im Umwahldialog (Schüler-Kurszuordnung) wird das zugewählte Fach einem Kurs zugewiesen (manuell oder "Verteilen").
 
+
+**Sportattest**
+1. In den Leistungsdaten wird im Fach Sport die Note AT gesetzt.
+2. In der Laufbahnplanung werden automatisch die Kursart AT gesetzt und die Kurs- bzw. Stundenzahlen reduziert.
+3. In der Kursplanung wird ggf. die Sportkurszuordnung unter "Ungültige Kurszuordnung" gelöscht.
+4. Wie oben beschrieben wird ein Ersatzfach mit Kurszugehörigkeit angelegt.
+
+##Abschnittswechsel
+
+**Verlassender Stufe z.B. durch Nichtversetzung oder Abgang
+Für Schüler, die nicht mehr dem Abiturjahrgang angehören, werden unter "Ungültige Kurszuordnung" die Kurszuweisungen gelöscht.
+
+**Zugang in die Stufe z.B. Wiederholung aus höherem Jahrgang
+Kontrolle und ggf. Anpassung der Laufbahnplanung
+Zuweisung im Umwahldialog (Schüler-Kurszuordnung), z.B. durch "Verteilen"
+
+**Neuaufnahme
+folgt
 
 
