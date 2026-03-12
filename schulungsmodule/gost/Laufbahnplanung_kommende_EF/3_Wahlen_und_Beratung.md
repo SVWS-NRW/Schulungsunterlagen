@@ -18,9 +18,9 @@ Die Sprachenfolge, die bereits im Kapitel "Orientierung" überprüft wurde, soll
 4. Durchlaufen Sie in der Schülerapp Fachwahlbögen weiterer Schülerinnen und Schüler und sichten dort die Sprachenfolgen.
 5. Ändern Sie bei einem Schüler die Sprachenfolge von Latein ab 7 (oder 6) auf Latein ab Klasse 5.
 
-:information_source: [Sichten der Sprachenfolge in der Laufbahnplanung eines Schülers: Der Eintrag in der Spalte *Sprachen* muss korrekt sein](https://doku.svws-nrw.de/webclient/app/schueler/laufbahnplanung/)
+:information_source: [Sichten der Sprachenfolge in der Laufbahnplanung eines Schülers: Der Eintrag in der Spalte *Sprachen* muss korrekt sein](https://doku.svws-nrw.de/webclient/apps/schueler/laufbahnplanung/)
 
-:information_source: [Infos zur Korrektur einer Sprachenfolge](https://doku.svws-nrw.de/webclient/app/schueler/sprachen/)
+:information_source: [Infos zur Korrektur einer Sprachenfolge](https://doku.svws-nrw.de/webclient/apps/schueler/sprachen/)
 
 **Aufgaben 1.3.2 "Wahlen im SVWS-Client"**  
 Die Schülerinnen und Schüler wählen in der Regel mit Hilfe des WebLuPO über den Browser. Dennoch können die Wahlen auch über den SVWS-Client getätigt werden.
@@ -38,7 +38,7 @@ Die Schülerinnen und Schüler wählen in der Regel mit Hilfe des WebLuPO über 
    + Drucken Sie den Laufbahnbogen als pdf aus
    + Verwerfen Sie die Fachwahlen.
 
-:information_source: [Infos zur Laufbahnplanung im Client](https://doku.svws-nrw.de/webclient/app/schueler/laufbahnplanung/)
+:information_source: [Infos zur Laufbahnplanung im Client](https://doku.svws-nrw.de/webclient/apps/schueler/laufbahnplanung/)
 
 Die Wahlen können nach **WebLuPO** exportiert, dort vorgenommen und wieder zurückgespielt werden.
 
@@ -51,7 +51,7 @@ Damit die Schülerinnen und Schüler ihre Laufbahnplanung über den Webbrowser e
 + Entpacken Sie diesen Ordner.
 + Formulieren Sie für sich, wie Sie mit diesem Ordner weiter in Ihrer Schule verfahren würden (Austausch erwünscht).
 
-:information_source: [Infos zum Export von Lp-Dateien](https://doku.svws-nrw.de/webclient/app/gost/laufbahn/#export-in-weblupo)
+:information_source: [Infos zum Export von Lp-Dateien](https://doku.svws-nrw.de/webclient/apps/gost/laufbahn/#export-in-weblupo)
 
 **Hinweis**: Hier geht es um die Erklärung der Oberfläche (M, S, LK, AB-Fächer, Fehler rechts, Stunden unten)
 
@@ -69,7 +69,7 @@ Beachten Sie:  Die Daten der lp-Datei verbleiben auf Ihrem Rechner, während die
 
 :information_source: [Infos zur Oberfläche von WebLuPO](https://doku.svws-nrw.de/weblupo/)
 
-:information_source: [Infos zum Beratungsprozesses mit WebLuPO](https://doku.svws-nrw.de/webclient/anleitungen_schulform/anleitungen_gost/weblupo/)
+:information_source: [Infos zum Beratungsprozesses mit WebLuPO](https://doku.svws-nrw.de/webclient/apps/anleitungen_schulform/anleitungen_gost/weblupo/)
 
 :information_source: [Infos zur Installation](https://doku.svws-nrw.de/projekte/WebLupo/)
 
@@ -80,7 +80,7 @@ Die von Ihnen durchgeführte Wahl kann nun im SVWS-Client importiert werden.
 2. Über den Tab Oberstufe -> Laufbahn können Sie ihre bearbeitete Fachwahl importieren. Achten Sie darauf, dass der richtige Abiturjahrgang ausgewählt ist.
 3. Importieren Sie weitere Fachwahlen, sofern Ihnen die entsprechenden lp-Dateien zur Verfügung gestellt wurden.
 
-:information_source: [Infos zum Import von Lp-Dateien](https://doku.svws-nrw.de/webclient/gost/laufbahn/#import-aus-lupo)
+:information_source: [Infos zum Import von Lp-Dateien](https://doku.svws-nrw.de/webclient/apps/gost/laufbahn/#import-aus-lupo)
 
 **Aufgaben 1.3.6 "Fachwahlen sichten**  
 
@@ -92,4 +92,4 @@ Die von Ihnen durchgeführte Wahl kann nun im SVWS-Client importiert werden.
    + Wer hat in Geschichte den Zusatzkurs gewählt?
    + Gibt es Fächer, bei denen die Schülerzahlen zu gering sind?
 
-:information_source: [Infos zum Sichten von Fachwahlen](https://doku.svws-nrw.de/webclient/gost/fachwahlen/)
+:information_source: [Infos zum Sichten von Fachwahlen](https://doku.svws-nrw.de/webclient/apps/gost/fachwahlen/)
