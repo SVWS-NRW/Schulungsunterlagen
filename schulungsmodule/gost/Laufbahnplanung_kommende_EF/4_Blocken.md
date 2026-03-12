@@ -38,7 +38,7 @@ Nachdem alle Wahlen korrekt & kontrolliert sind, kann eine **Blockung** geplant 
 + Schienen können umbenannt werden.
 + Ganz links in der Matrix ist zu sehen, welche Kurse erstellt werden würden, wenn man diese Blockung in die Leistungsdaten übernimmt. Es lassen sich Kurse löschen und entfernen.
 
-:information_source: [Infos zur Erstellung einer Blockung](https://doku.svws-nrw.de/webclient/gost/kursplanung/#kursplanung)
+:information_source: [Infos zur Erstellung einer Blockung](https://doku.svws-nrw.de/webclient/apps/gost/kursplanung/#kursplanung)
 
 **An dieser Stelle in der Schulung werden alle Ergebnisse verworfen, da wir keine Vorgaben gegeben hatten.**
 
@@ -53,18 +53,18 @@ Nachdem alle Wahlen korrekt & kontrolliert sind, kann eine **Blockung** geplant 
 + Dann weisen Sie die 2er und 3er Kurse so den Schienen zu, dass sie sich immer abwechseln und keine Gruppe parallel liegt.
 + Fixieren Sie die ersten drei Schienen. Ziehen Sie mit der Maus einen Rahmen um die ganzen Schienen und fixieren Sie mit der Pinnnadel.
 
-:information_source: [Infos zu den Grundeinstellungen einer Blockung](https://doku.svws-nrw.de/webclient/gost/kursplanung/#erstellen-einer-neuen-blockung)
+:information_source: [Infos zu den Grundeinstellungen einer Blockung](https://doku.svws-nrw.de/webclient/apps/gost/kursplanung/#erstellen-einer-neuen-blockung)
 
 **Aufgaben 1.4.3 "Sportkurse zuweisen"**  
 Überlegen Sie beispielsweise, wie eine Verteilung/Einrichtung von Sportkursen eingerichtet werden kann. Haben Sie etwa nur zwei Turnhallen, können ja keine drei Sportkurse in der gleichen Schiene liegen.  
 Andere zu Ihrer Schule passende Beispiele sind denkbar.
 
-:information_source: [Infos zu den Grundeinstellungen einer Blockung](https://doku.svws-nrw.de/webclient/gost/kursplanung/#erstellen-einer-neuen-blockung)
+:information_source: [Infos zu den Grundeinstellungen einer Blockung](https://doku.svws-nrw.de/webclient/apps/gost/kursplanung/#erstellen-einer-neuen-blockung)
 
 **Aufgaben 1.4.4 "Koop Kurse"**  
 Erzeugen Sie zwei I0-Kurse, einen in Koop (externe S kommen zu Ihnen) und weisen Sie schon einmal 8 "Externe Schüler" zu. Dann ziehen Sie den externen Kurs in eine Schiene - in der Regel ist diese mit den Koop-Schulen abgesprochen - und fixieren Sie den Kurs mit der Pinnnadel.
 
-:information_source: [Infos zu den Grundeinstellungen einer Blockung](https://doku.svws-nrw.de/webclient/gost/kursplanung/#erstellen-einer-neuen-blockung)
+:information_source: [Infos zu den Grundeinstellungen einer Blockung](https://doku.svws-nrw.de/webclient/apps/gost/kursplanung/#erstellen-einer-neuen-blockung)
 
 **Aufgaben 1.4.5 "Blocken mit Vorgaben"**  
 
