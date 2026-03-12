@@ -24,12 +24,13 @@ Die Eigenschaft wird automatisch in die Kursplanung übernommen.
 
 **Abwahl eines Kurses**
 1. Löschen des Faches in den Leistungsdaten.
-2. In der Laufbahnplanung das Fach im enstprechenden Abschnitt löschen (rotes Kreuz).
-3. In der Kursplanung wird das abgewählte Faches unter "Ungültige Kurszuordnung" gelöscht.
+2. a) Es ist noch keine eine Note vorhanden: In der Laufbahnplanung wird die Löschung automatisch übernommen.
+2. b) Es ist bereits eine Note eingetragen: In der Laufbahnplanung das Fach im enstprechenden Abschnitt löschen (rotes Kreuz).
+4. In der Kursplanung wird das abgewählte Faches unter "Ungültige Kurszuordnung" gelöscht.
 
 
 **Zuwahl eines Kurses**
-1. In den Leistungsdaten wird das neue Fach ergänzt ein **beliebiger Kurs des Faches** eingetragen.
+1. In den Leistungsdaten wird das neue Fach ergänzt und ein **beliebiger Kurs des Faches** eingetragen.
 2. In Laufbahnplanung wird die Zuwahl automatisch übernommen und kann unmittelbar eingesehen werden.
 3. Im Umwahldialog (Schüler-Kurszuordnung) wird das zugewählte Fach einem Kurs zugewiesen.
 
