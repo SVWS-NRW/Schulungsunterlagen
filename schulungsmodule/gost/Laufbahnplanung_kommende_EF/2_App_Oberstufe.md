@@ -14,7 +14,7 @@ Alternativ finden Sie in jeder Aufgabe auch Beispielvorgaben, die Sie nutzen kö
 
 ![Allgemeine Vorlage](./graphics/gost_modul1_grundlagen_ef_allgVorlage.png)  
 
-**Aufgabe 2.1.1 "Fächer der Oberstufe kontrollieren und korrigieren"*
+**Aufgabe 2.1.1 "Fächer der Oberstufe kontrollieren und korrigieren"**  
 Sie haben bereits die Fächer der Oberstufe mit Hilfe von Schild3 bearbeitet.
 
 1. Sichten Sie alle Fächer der Oberstufe in der allgemeinen Vorlage.
