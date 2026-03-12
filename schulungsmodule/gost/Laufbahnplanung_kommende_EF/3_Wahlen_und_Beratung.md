@@ -18,9 +18,9 @@ Die Sprachenfolge, die bereits im Kapitel "Orientierung" überprüft wurde, soll
 4. Durchlaufen Sie in der Schülerapp Fachwahlbögen weiterer Schülerinnen und Schüler und sichten dort die Sprachenfolgen.
 5. Ändern Sie bei einem Schüler die Sprachenfolge von Latein ab 7 (oder 6) auf Latein ab Klasse 5.
 
-:information_source: [Sichten der Sprachenfolge in der Laufbahnplanung eines Schülers: Der Eintrag in der Spalte *Sprachen* muss korrekt sein](https://doku.svws-nrw.de/webclient/schueler/laufbahnplanung/)
+:information_source: [Sichten der Sprachenfolge in der Laufbahnplanung eines Schülers: Der Eintrag in der Spalte *Sprachen* muss korrekt sein](https://doku.svws-nrw.de/webclient/app/schueler/laufbahnplanung/)
 
-:information_source: [Infos zur Korrektur einer Sprachenfolge](https://doku.svws-nrw.de/webclient/schueler/sprachen/)
+:information_source: [Infos zur Korrektur einer Sprachenfolge](https://doku.svws-nrw.de/webclient/app/schueler/sprachen/)
 
 **Aufgaben 1.3.2 "Wahlen im SVWS-Client"**  
 Die Schülerinnen und Schüler wählen in der Regel mit Hilfe des WebLuPO über den Browser. Dennoch können die Wahlen auch über den SVWS-Client getätigt werden.
@@ -38,7 +38,7 @@ Die Schülerinnen und Schüler wählen in der Regel mit Hilfe des WebLuPO über 
    + Drucken Sie den Laufbahnbogen als pdf aus
    + Verwerfen Sie die Fachwahlen.
 
-:information_source: [Infos zur Laufbahnplanung im Client](https://doku.svws-nrw.de/webclient/schueler/laufbahnplanung/)
+:information_source: [Infos zur Laufbahnplanung im Client](https://doku.svws-nrw.de/webclient/app/schueler/laufbahnplanung/)
 
 Die Wahlen können nach **WebLuPO** exportiert, dort vorgenommen und wieder zurückgespielt werden.
 
@@ -51,7 +51,7 @@ Damit die Schülerinnen und Schüler ihre Laufbahnplanung über den Webbrowser e
 + Entpacken Sie diesen Ordner.
 + Formulieren Sie für sich, wie Sie mit diesem Ordner weiter in Ihrer Schule verfahren würden (Austausch erwünscht).
 
-:information_source: [Infos zum Export von Lp-Dateien](https://doku.svws-nrw.de/webclient/gost/laufbahn/#export-in-weblupo)
+:information_source: [Infos zum Export von Lp-Dateien](https://doku.svws-nrw.de/webclient/app/gost/laufbahn/#export-in-weblupo)
 
 **Hinweis**: Hier geht es um die Erklärung der Oberfläche (M, S, LK, AB-Fächer, Fehler rechts, Stunden unten)
 
