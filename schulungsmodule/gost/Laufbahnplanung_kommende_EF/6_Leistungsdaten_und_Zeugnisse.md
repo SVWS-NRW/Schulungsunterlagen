@@ -1,4 +1,4 @@
-## 6. Noten aufnehmen und Zeugnisse drucken
+## 7. Noten aufnehmen und Zeugnisse drucken
 
 + Wir haben die Leistungsdaten, jetzt werden Noten aufgenommen
 + und Zeugnisse und Laufbahnübersichten gedruckt
@@ -14,13 +14,13 @@ Die Leistungsdatenverwaltung bzgl der Teilleistungen erfolgt derzeit noch in Sch
 + im Katalog Unterrichtsfächer werden sie den Fächern kursartspezifisch zugewiesen.
 + Über Gruppenprozesse werden die TL in die Schülerleistungsdaten übertragen.
   
-**Aufgaben 1.6.1 "Teilleistungen"**:
+**Aufgaben 1.7.1 "Teilleistungen"**:
 
 + definieren Sie die Teilleistungsarten (TL) SoMi1, SoMi2, KL1, KL2  
 + weisen Sie die TL einigen Fächern der Oberstufe mit den Kursarten der Oberstufe GKM, GKS, LK1, LK2, AB3, AB4, ggf. PJK zu.
 + Weisen Sie per Gruppenprozess Ihrer Jahrgangsstufe die Teilleistungsdaten aus der erstellten Vorlage zu.
 
-**Aufgaben 1.6.2 "Noten aufnehmen in SchILD3 oder im SVWS-Client":**  
+**Aufgaben 1.7.2 "Noten aufnehmen in SchILD3 oder im SVWS-Client":**  
 
 + Noten sollten derzeit noch in Schild eingetragen werden.  
 + Für einzelne Schüler können beispielhaft Noten eingetragen werden. Es stehen sowohl für Zeugnisnoten als auch für Teilleistungen Gruppenprozesse für Kurseingaben zur Verfügung.  
@@ -28,18 +28,18 @@ Die Leistungsdatenverwaltung bzgl der Teilleistungen erfolgt derzeit noch in Sch
   
 > [!Hinweis] Der gesamte Prozess der **Leistungsdatenerfassung wird an anderer Stelle geschult und beschrieben**.  
   
-**Aufgaben 1.6.3 "Zeugnisse vorbereiten"**:
+**Aufgaben 1.7.3 "Zeugnisse vorbereiten"**:
 Setzen Sie in Schild per Gruppenprozess
 
 + Konferenzdatum
 + Zeugnisdatum
 + Fehlstundensummen
 
-**Aufgaben 1.6.4 "Zeugniskonferenzvorlage per Report**
+**Aufgaben 1.7.4 "Zeugniskonferenzvorlage per Report**
 
 + Drucken Sie eine Konferenzvorlage Ihrer Stufe.
 
-**Aufgaben 1.6.5 "Zeugnisse drucken:**
+**Aufgaben 1.7.5 "Zeugnisse drucken:**
 
 + Drucken Sie über die Reportverwaltung Zeugnisse für Ihre Stufe.
 + Setzen Sie die Einstellungen in der ini-Datei entsprechend
