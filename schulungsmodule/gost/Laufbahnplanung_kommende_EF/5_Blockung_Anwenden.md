@@ -12,7 +12,7 @@
 **Aufgaben 1.5.1 "Konkrete Blockung übertragen"**  
 Gehen Sie in den korrekten Lernabschnitt (1. HJ neues Schuljahr), wählen Sie eine ID in der Blockung und klicken Sie dann auf *übertragen*, um die Blockung in den Leistungsdaten der Schüler im aktuellen Lernabschnitt einzutragen.
 
-:information_source: [Infos zum Übertragen der Blockung in Leistungsdaten](https://doku.svws-nrw.de/webclient/gost/kursplanung/#ubertragung-in-leistungsdaten)  
+:information_source: [Infos zum Übertragen der Blockung in Leistungsdaten](https://doku.svws-nrw.de/webclient/apps/gost/kursplanung/#ubertragung-in-leistungsdaten)  
 
 >[!TIP]Übertragen vs. Synchronisieren.
 > + Bei "Übertragen" werden die kompletten Leistungsdaten erzeugt, daher es werden die Fächer angelegt, dann die Kurse im Kurse-Katalog erzeugt, dann die SuS in die Kurse eingetragen
