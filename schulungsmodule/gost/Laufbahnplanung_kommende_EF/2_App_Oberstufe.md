@@ -76,7 +76,7 @@ Nachdem nun die allgemeinen Vorgaben für Wahlen und Beratung festgelegt wurden,
 Legen Sie für die aktuelle Jahrgangsstufe 10 über das "+" Symbol den Abiturjahrgang an.  
 Beachten Sie: Orientieren Sie sich am Abiturjahr, nicht an der Jahrgangsstufe.
 
-:information_source: [Eine Anleitung finden Sie hier](https://doku.svws-nrw.de/webclient/apps/gost/abiturjahrgang/#einrichtung-der-jahrgange).
+:information_source: [Eine Anleitung finden Sie hier](https://doku.svws-nrw.de/webclient/apps/gost/#abiturjahrgang).
 
 **Aufgaben 1.2.6 "Kontrollieren und Anpassen der aus der Vorlage übernommenen Fächervorgaben"**  
 Aufgrund vorübergehender Umstände, wie etwa Lehrerausfälle durch Elternzeit, müssen für diesen Jahrgang einige einmalige Anpassungen vorgenommen werden.
