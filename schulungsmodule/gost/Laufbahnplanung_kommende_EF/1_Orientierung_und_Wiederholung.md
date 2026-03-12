@@ -61,7 +61,7 @@ Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Si
 + Kontrollieren Sie, im WebClient, Tab Schule/Fächer, ob die Oberstufenfächer "Ist prüfungsordnungsrelevant" gesetzt ist (Prüfen Sie besonders Projekt- und Prüfungskurse)
 
 :information_source: [Infos zum Katalog *Unterrichtsfächer* in SchILD3](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Unterrichtsf%C3%A4cher_(Schulbezogene_Kataloge))
-:information_source: [Infos zu den Unterrichtsfächern im Client](https://doku.svws-nrw.de/webclient/schule/kataloge/sb_faecher/#sonstiges)
+:information_source: [Infos zu den Unterrichtsfächern im Client](https://doku.svws-nrw.de/webclient/apps/schule/kataloge/faecher/)
 
 **Aufgaben 1.1.6 "SchILD Klassen- und Versetzungstabelle"**  
 
@@ -127,18 +127,18 @@ Lassen Sie sich diese Angaben eines Schülers der aktuellen Q2 anzeigen:
 >[!Tip] Kein Stundenplanalgorithmus
 > Der SVWS-Client bietet derzeit keinen Stundenplanalgorithmus. Stundenpläne sind somit aus externen Programmen zu importieren oder können auch in kleineren Systemem von Hand zusammengeklickt werden.
 
-:information_source: [Infos zu Leistungsdaten eines Schülers im Client](https://doku.svws-nrw.de/webclient/schueler/lernabschnitte/leistungsdaten/)  
+:information_source: [Infos zu Leistungsdaten eines Schülers im Client](https://doku.svws-nrw.de/webclient/apps/schueler/lernabschnitte/leistungsdaten/)  
 
-:information_source: [Infos zur Sprachenfolge eines Schülers im Client](https://doku.svws-nrw.de/webclient/schueler/sprachen/)  
+:information_source: [Infos zur Sprachenfolge eines Schülers im Client](https://doku.svws-nrw.de/webclient/apps/schueler/sprachen/)  
 
-:information_source: [Infos zur Laufbahn eines Schülers im Client](https://doku.svws-nrw.de/webclient/schueler/laufbahnplanung/)  
+:information_source: [Infos zur Laufbahn eines Schülers im Client](https://doku.svws-nrw.de/webclient/apps/schueler/laufbahnplanung/)  
 
-:information_source: [Infos zum individuellen Stundenplan eines Schülers](https://doku.svws-nrw.de/webclient/schueler/stundenplan/)  
+:information_source: [Infos zum individuellen Stundenplan eines Schülers](https://doku.svws-nrw.de/webclient/apps/schueler/stundenplan/)  
 
 **Aufgaben 1.1.10 "SVWS-Client Filter" auf Schüler filtern"**  
 *Filtern* Sie in der *Schüleransicht* auf die Jahrgangstufe 10/auf eine Klasse der Stufe 10.
 
-:information_source: [Infos zum Filtern von Klassen/Jahrgängen](https://doku.svws-nrw.de/webclient/schueler/)
+:information_source: [Infos zum Filtern von Klassen/Jahrgängen](https://doku.svws-nrw.de/webclient/apps/schueler/)
 
 **Aufgaben 1.1.11 "Link-Symbole nutzen"**  
 An einigen Stellen finden sich kleine Linksymbole, etwa in der Laufbahn von Schülern, um direkt zu diesem Schüler in der Kursplanung der Oberstufen-App zu springen. Probieren Sie die Links aus und gehen Sie über das Browser-"Zurück" zur Laufbahnübersicht.
@@ -146,7 +146,7 @@ An einigen Stellen finden sich kleine Linksymbole, etwa in der Laufbahn von Sch�
 >[!Tip] Diese Links sind wichtig!
 > Diese Links werden später bei der Laufbahnberatung und Arbeit mit konkreten Schülerdatensätzen sehr hilfreich.
 
-:information_source: [Infos zum Symbol 'Link zur Laufbahnplanung'](https://doku.svws-nrw.de/webclient/gost/)
+:information_source: [Infos zum Symbol 'Link zur Laufbahnplanung'](https://doku.svws-nrw.de/webclient/apps/gost/)
 
 **Gruppenaufgabe 1.1.12 "10er auswählen, die in die neue EF gehen"**  
 Nicht alle Ihre 10er werden in die neue EF gehen. Kann man diese irgendwie isolieren?
