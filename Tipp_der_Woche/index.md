@@ -8,8 +8,9 @@
 
 
 ## :point_right: SchILD-Tipp der Woche   
-| :date: 16.03.2026 | :information_source: [Telli-Export](./SchILD-Tipp_der_Woche/telliExport.md) |
+| :date: 23.03.2026 | :information_source: [Straßenkatalog](./SchILD-Tipp_der_Woche/strassenkatalog.md) |
 |------------------|----------------------------------------------------------------------------------|
+| :date: 16.03.2026 | :information_source: [Telli-Export](./SchILD-Tipp_der_Woche/telliExport.md) |
 | :date: 02.03.2026 | :information_source: [Warnung beim Programmstart - Schuljahresabschnitte](./SchILD-Tipp_der_Woche/StartwarnungSchuljahresabschnitt.md) |
 | :date: 23.02.2026 | :information_source: [Datenbankmigration](./SchILD-Tipp_der_Woche/datenbankmigration.md) |
 | :date: 02.02.2026 | :information_source: [Zeugnisreports](./SchILD-Tipp_der_Woche/zeugnisreports.md) |
