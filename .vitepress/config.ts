@@ -48,6 +48,8 @@ export default defineConfig({
 					},
 					{ text: 'Sekundarstufe I', link: '/schulungsmodule/sek_i/' },
 
+					{ text: 'Berufskolleg', link: '/schulungsmodule/BK/' },
+
 					{
 						text: 'Gymnasiale Oberstufe',
 						link: '/schulungsmodule/gost/',
