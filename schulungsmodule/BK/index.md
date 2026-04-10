@@ -28,16 +28,14 @@ Belegen Sie die Fächergruppe "Berufsbezogen" mit der Farbe grün.
 Überprüfen Sie bei dem Fach EHEV_WAP die gliederungsbezogenen Einstellungen. Vor allem die Gewichtung:
 Bei den Kaufleuten im Einzelhandel = 1
 Bei den Verkäufer:innen = 2
-
-  
+    
 # 2 Stundentafeln
 
 ## 2.1 Stundentafeln anpassen
 
 **Aufgabe 1**
 Erzeugen Sie unter Kataloge eine Stundentafel, wie sie an Ihrer Schule vorkommen könnte – z.B. im Beruflichen Gymnasium Stufe 11, oder in einem Ihnen gut bekannten Berufsschul-Bildungsgang.
-
-  
+    
 # 3 Kursverwaltung
 
 ## 3.1 Kursunterricht anlegen
@@ -49,13 +47,12 @@ und bestimmen Sie einen Kursleiter.
 Verändern Sie den Kurs DDAF so, dass er nun nicht mehr nur die Stufe 11, sondern nur noch jahrgangsstufenübergreifend für Stufe 12 und 13 angeboten wird. Weisen Sie dem Kurs eine beliebige Lehrkraft noch eine weitere zu.
 TIPP: Klicken Sie auf diesen Kurs mit der rechten Maustaste.
 
-# 3.2 Schülerspezifische Kursarten
+## 3.2 Schülerspezifische Kursarten
 
 **Aufgabe 1** 
 Prüfen Sie, ob bei den schülerspezifischen Kursarten, die Art steht, die Sie an Ihrer Schule nutzen in der Berufsschule oder in einer anderen Anlage am häufigsten nutzen.
 Unterricht
-
-  
+    
 # 4 Unterricht manuell bearbeiten
 
 ## 4.1 Stundentafel zuweisen
@@ -68,8 +65,7 @@ Filtern Sie die Unterstufenklassen des Einzelhandels EHU und prüfen Sie, wie Si
 Gruppenprozesse – Fächer – Klassenunterrichte bearbeiten
 **Aufgabe 1**
 Filtern Sie eine Klasse der höheren Handelsschule (z.B. HO1) und verändern oder ergänzen Sie Lehrkräfte.
-
-  
+    
 # 5 Unterricht importieren
 
 ## 5.1 Import der Unterrichtsdaten als Excel-Datei
@@ -77,8 +73,7 @@ Filtern Sie eine Klasse der höheren Handelsschule (z.B. HO1) und verändern ode
 **Aufgabe 1**
 Schauen Sie sich unter "Verwaltung --> Import --> Unterrichtsdaten (als Excel Datei)" die Beispieltabelle an.
 Erstellen Sie eine Excel - Tabelle wie sie im Wiki unter "Beispiele" zu sehen ist und importieren Sie diese.
-
-  
+    
 # 6 Gruppenprozesse: Fächer
 
 ## 6.1 Kurse Schülern zuweisen
@@ -93,8 +88,7 @@ Filtern Sie die Klasse BFE1 aus und legen Sie für alle Lernenden eine andere Le
 Kontrollieren Sie in den Leistungsdaten, ob alle Schüler beim Fach GP2 ein entsprechendes Häkchen haben, sodass das Fach auf das Zeugnis kommt mitsamt Note.
 **Aufgabe 2**
 Filtern Sie die Klasse BFZ1 aus und legen Sie über den gleichen Gruppenprozess für alle Schüler eine zweite Lehrkraft (Team-Teaching) für das Fach Sport (1 WStd.) fest.
-
-  
+    
 # 7 Noten/Zeugnisvorbereitungen
 
 ## 7.1 Noten, Mahnungen und Fehlstunden eingeben (noch offen --> Notenmanager?)
@@ -110,24 +104,21 @@ Wählen Sie alle »Aktiven Schüler« aus und tragen Sie für das aktuelle Halbj
 
 HINWEIS: Drucken
 Laden Sie die Zeugnisformulare des aktuellen Halbjahres herunter! Die Zeugnisformulare für SchILD-NRW wurden von einem „Zeugnisteam“ gemäß den Vorgaben aus der BASS und in Absprache mit dem MSB entwickelt und werden auch weiterentwickelt, wenn rechtliche Vorgaben dies erfordern. Die Dateinamen der Formulare entsprechen den Bezeichnungen der Zeugnisanlagen in der BASS. Es empfiehlt sich, kurz vor den Zeugnissen das aktuelle Zeugnispaket für Ihre Schulform von der Seite www.svws.nrw.de herunterzuladen. Die Zeugnisformulare sind so kompliziert aufgebaut, dass von einer Veränderung dringend abzuraten ist. Selbst Änderungen des Zeugniskopfes (z.B. Ergänzung eines Schullogos) müssen nicht in den Zeugnisformularen vorgenommen werden. Für ein Schullogo reicht es aus, unter Schulverwaltung Schule bearbeiten das NRW-Logo durch ein eigenes Logo zu ersetzen. Die Datei »Zeugniseinstellungen.ini« bietet eine Vielzahl weiterer Einstellungsmöglichkeiten.(z.B. die Möglichkeit, bei Schülern mit mehreren Vornamen zu entscheiden, ob nur der erste Vorname oder alle Vornamen auf dem Zeugnis erscheinen, Freitextangaben zum Elternsprechtag usw.)
-
-  
+    
 # 8 VORBEREITUNG: Download der Zeugnisformulare und Anpassen der Datei »Zeugniseinstellungen.ini«
 
 ## 8.1 Zeugnisvorbereitung und Zeugnisdruck
 ## 8.2 Installation des Externen Notenmoduls
 ## 8.2 Verwendung des Externen Notenmoduls
 ## 8.3 Dokumentenverwaltung 
-
-  
+    
 # 9 Halbjahreswechsel
 
 ## 9.1 Abschnittswechsel ohne Versetzung (Halbjahreswechsel)
 
 **Aufgabe 1**
 Führen Sie den Halbjahreswechsel in der Schulungsdatenbank durch.
-
-  
+    
 # 10 Mahnungen
 
 **Aufgabe 1**
