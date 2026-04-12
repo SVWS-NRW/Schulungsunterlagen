@@ -175,7 +175,7 @@ Hinweis: Abgeschlossene Fächer können nur geholt werden, wenn diese Fächer im
   
 # 14 Zeugnisdruck
 
-Vorbereitung der Zeugnisreports
+Vorbereitung der Zeugnisreports.
 Auf der Webseite des MSB für Schulverwaltungssoftware finden sich aktuelle Zeugnisformulare, die für den aktuellen Abschnitt genutzt werden sollen.
 
 ## 14.1 [Zeugnisdruck](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einführung_in_SchILD-NRW)#Zeugnisdruck_und_Archivierung)
@@ -185,7 +185,7 @@ Filtern Sie in Ihrer ausgewählten Schülergruppe nach gleichen Zeugnissen und l
 
 ## 14.2 [Fehler beim Zeugnisdruck](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Beliebte_Fehler_beim_Zeugnisdruck_(Tutorial))
 
-Versetzung ins nächste Schuljahr
+
 
 # 15 [Versetzung/Übertragung ins neue Halbjahr oder in Abschluss](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Versetzung/Übertrag_ins_neue_Halbjahr_oder_Abschluss_(Gruppenprozesse_Lernabschnitte,_Versetzung))
 
