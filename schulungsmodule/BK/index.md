@@ -6,11 +6,13 @@
 
 **Aufgabe 1**
 Ändern Sie die Sichtbarkeit für fünf Fächer, die an Ihrer Schule nicht unterrichtet werden und blenden Sie sie aus.
+
 **Aufgabe 2**
 Überprüfen Sie, ob die folgenden Fächer vorhanden sind und ergänzen Sie sie bei Bedarf:
 Differenzierungskurs Photoshop
 EHEV Warenbezogene Prozesse
 Differenzierungskurs Spanisch
+
 **Aufgabe 3**
 Sie können unter Verwaltung -> Einstellungen -> Fächer, Farben für die einzelnen Fächergruppen festlegen.  
 Belegen Sie die Fächergruppe "Berufsbezogen" mit der Farbe grün.
@@ -19,6 +21,7 @@ Belegen Sie die Fächergruppe "Berufsbezogen" mit der Farbe grün.
 
 **Aufgabe 1**
 Ändern Sie für das Fach "Differenzierungskurs Spanisch" die Bezeichnung im Zeugnis in "Vertiefung Spanisch".
+
 **Aufgabe 2**
 Überprüfen Sie, ob die Fächer Deutsch, Englisch und Mathematik als Prüfungsfächer für das Abitur am Beruflichen Gymnasium eingerichtet sind und prüfen Sie die E-Commerce Fächer hinsichtlich der unterschiedlichen Bereiche auf dem Zeugnis.
 
@@ -95,8 +98,10 @@ Filtern Sie die Klasse BFZ1 aus und legen Sie über den gleichen Gruppenprozess 
 
 **Aufgabe 1**
 Rufen Sie über Kataloge -> Floskeln bearbeiten die Verwaltung der Floskeln auf. Überprüfen Sie die Gruppenzugehörigkeit der Floskeln und korrigieren Sie sie bei Bedarf. Weisen Sie den einzelnen Gruppen verschiedene Farben zu.
+
 **Aufgabe 2**
 Wählen Sie den Jahrgang 11 des BGy aus und lassen Sie sich über Gruppenprozesse -> Noten, Zeugnisvorbereitung -> Fächer ohne Noten suchen die fehlenden Noten der zeugnisrelevanten Fächer in diesem Jahrgang anzeigen.
+
 **Aufgabe 3**
 Wählen Sie alle »Aktiven Schüler« aus und tragen Sie für das aktuelle Halbjahr ein Konferenzdatum ein. 
 
@@ -142,13 +147,21 @@ Führen Sie die aufgelisteten Schritte zur Abschlussberechnung für die erste Sc
   
 # 12 Die Zeugnisphase in SchILD (Versetzungs- und Abschlussberechnungen)
 [Vorbereitungen in SchILD](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einführung_in_SchILD-NRW)#Administration_von_ScHILD_als_Vorbereitung)  
+
 [Gegebenenfalls Abfrage an Schüler](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einführung_in_SchILD-NRW)#Gegebenenfalls_Abfrage_an_Schüler)  
-[Überprüfung der angelegten Leistungsdaten](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einführung_in_SchILD-NRW)#Überprüfung_der_angelegten_Leistungsdaten)  
+
+[Überprüfung der angelegten Leistungsdaten](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einführung_in_SchILD-NRW)#Überprüfung_der_angelegten_Leistungsdaten) 
+
 [Noteneintragung](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einführung_in_SchILD-NRW)#Noteneintragung)  
+
 [Teilleistungen, Projektkursarbeiten usw.](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einführung_in_SchILD-NRW)#Teilleistungen,_Projektkursarbeiten,_...)  
+
 [Zeugnisbemerkungen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einführung_in_SchILD-NRW)#Zeugnisbemerkungen)  
+
 [Fehlstunden](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einführung_in_SchILD-NRW)#Fehlstundenberechnung)  
+
 [Konferenz- und Zeugnisdatum](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einführung_in_SchILD-NRW)#Eingabe_von_Konferenz-_und_Zeugnisdatum)  
+
 [Sonstiges](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einführung_in_SchILD-NRW)#Sonstiges)  
 
 **Aufgabe 1**
