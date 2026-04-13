@@ -46,6 +46,7 @@ Erzeugen Sie unter Kataloge eine Stundentafel, wie sie an Ihrer Schule vorkommen
 **Aufgabe 1**
 Legen Sie über Kataloge -> Kurse einen jahrgangsstufenübergreifenden zweistündigen Differenzierungskurs Photoshop für das Berufliche Gymnasium an
 und bestimmen Sie einen Kursleiter.
+
 **Aufgabe 2**
 Verändern Sie den Kurs DDAF so, dass er nun nicht mehr nur die Stufe 11, sondern nur noch jahrgangsstufenübergreifend für Stufe 12 und 13 angeboten wird. Weisen Sie dem Kurs eine beliebige Lehrkraft noch eine weitere zu.
 TIPP: Klicken Sie auf diesen Kurs mit der rechten Maustaste.
@@ -141,6 +142,7 @@ Alle Abschlussberechnungen erfolgen auf dem Karteireiter BK-Abschluss, nur das A
 ## 11.1 [BK Abschluss](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Abschluss_berechnen_(Gruppenprozesse_BK-Abschluss))
 
 Der prinzipielle Ablauf ist immer der gleiche. Hier wird der Ablauf an den Berechnungen zur FHR in der Anlage C dargestellt. Bei anderen Bildungsgängen (z.B. ohne schriftliche Prüfungen) entfallen einige Schritte.
+
 **Aufgabe 1**
 Führen Sie die aufgelisteten Schritte zur Abschlussberechnung für die erste Schülerin der HO2 durch, sodass der FHR Abschluss gelingt.
 
