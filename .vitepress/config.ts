@@ -5,7 +5,7 @@ export default defineConfig(({ mode }) => {
 	const env = loadEnv(mode, process.cwd(), '');
 	return {
 		// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
-		base: env.BASE === undefined ? '/SVWS-Schulungsunterlagen/' : env.BASE,
+		base: env.BASE === undefined ? '/Schulungsunterlagen/' : env.BASE,
 		title: 'SVWS Schulungsunterlagen',
 		description: 'Materialsammlung für Schulungen zum SVWS-Server NRW',
 		lastUpdated: true,
