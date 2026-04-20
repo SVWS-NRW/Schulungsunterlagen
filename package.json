@@ -8,7 +8,10 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
-    "lint": "eslint '**/*.{ts,vue,md}' --cache"
+    "lint": "eslint '**/*.{ts,vue,md}' --cache",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
   "author": "",
   "license": "ISC",
