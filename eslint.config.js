@@ -65,7 +65,6 @@ export default tseslint.config(
         "importAttributes": "never",
         "dynamicImports": "never"
     	}],
-
 			"no-unused-vars": "off",
 			"no-dupe-class-members": "off",
 			"require-await": "off",
