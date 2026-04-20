@@ -1,1 +1,0 @@
-# Wie benutze ich den Schulungsserver als Moderator

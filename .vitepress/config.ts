@@ -28,268 +28,20 @@ export default defineConfig(({ mode }) => {
 				provider: 'local',
 			},
 			nav: [
-				{
-					text: 'Benutzerhandbücher',
-					items: [
-						{ text: 'SVWS-Webclient', link: '/webclient' },
-						{ text: 'SVWS-AdminClient', link: '/adminclient' },
-						{ text: '', items: [
-							{ text: 'WebNotenManager (Alpha)', link: '/wenom' },
-							{ text: 'SVWS-Konferenzübersicht (Bald)', link: '/svws_module/svws_konferenzuebersicht' },
-						] },
-						{ text: 'Laufbahnplanung SII mit WebLuPO', link: '/weblupo' },
-					] },
-				{ text: 'Administration',
-					items: [
-						{ text: 'Installation', link: '/deployment' },
-						{ text: 'FAQ', link: '/deployment/FAQ.md' },
-						{ text: 'Roadmap', link: '/deployment/roadmap.md' },
-					] },
-
-				{ text: 'Entwicklung',
-					items: [
-						{ text: 'SVWS-Server', link: '/development/SVWS-Server/'},
-						{ text: 'Entwicklungsumgebungen', link: '/development/Entwicklungsumgebungen/'},
-						{ text: 'APIs für externe Tools', link: '/development/ExterneAPIs/'},
-						{ text: 'FAQs Development', link: '/development/FAQ/' },
-						{ text: 'SVWS-Server bei GitHub', link: 'https://github.com/SVWS-NRW/SVWS-Server/' },
-						{ text: ' ', items: [
-							{ text: 'Projekte', link: '/projekte' },
-						] },
-						{ text: 'Mitarbeit', link: '/teamarbeit' },
-						{ text: 'Schulungen', link: '/schulungen' },
-					] },
+				{ text: 'SchILD-NRW 3 Wiki',link: 'https://schulverwaltungsinfos.nrw.de/svws/wiki/' },
+				{ text: 'doku.svws-nrw.de', link: 'https://doku.svws-nrw.de/' },
 			],
 			socialLinks: [
-				{ icon: 'github', link: 'https://github.com/SVWS-NRW/SVWS-Dokumentation' },
+				{ icon: 'github', link: 'https://github.com/SVWS-NRW/Schulungsunterlagen' },
 			],
 			sidebar: [
-
-
 				{
-					"text": "Anleitungen fuer Fachberater",
-					"collapsed": true,
-					"link": "/Anleitungen_fuer_Fachberater",
-					"items": [
-						{
-							"text": "Fachberater DBReparatur",
-							"collapsed": true,
-							"link": "/Anleitungen_fuer_Fachberater/Fachberater_DBReparatur",
-						},
-						{
-							"text": "Fachberater Reporting",
-							"collapsed": true,
-							"link": "/Anleitungen_fuer_Fachberater/Fachberater_Reporting",
-							"items": [
-								{
-									"text": "BeispielreportSchuelerliste",
-									"collapsed": true,
-									"link": "/Anleitungen_fuer_Fachberater/Fachberater_Reporting/BeispielreportSchuelerliste",
-								},
-								{
-									"text": "Uebersicht",
-									"collapsed": true,
-									"link": "/Anleitungen_fuer_Fachberater/Fachberater_Reporting/Uebersicht",
-								},
-							],
-						},
-						{
-							"text": "Fachberater WebLupo Windows",
-							"collapsed": true,
-							"link": "/Anleitungen_fuer_Fachberater/Fachberater_WebLupo_Windows",
-						},
-					],
-				},
-				{
-					"text": "api-examples",
-					"link": "/api-examples",
-				},
-				{
-					"text": "Datenbanken",
-					"collapsed": true,
-					"items": [
-						{
-							"text": "GOSt-DB",
-							"collapsed": true,
-							"items": [
-								{
-									"text": "GOSt DB Eigenschaften",
-									"link": "/Datenbanken/GOSt-DB/GOSt_DB_Eigenschaften",
-								},
-							],
-						},
-					],
-				},
-				{
-					"text": "Fachberater Anleitungen",
-					"collapsed": true,
-					"items": [
-						{
-							"text": "Moderatoren Schulungsserver",
-							"collapsed": true,
-							"items": [
-								{
-									"text": "Wartung",
-									"link": "/Fachberater_Anleitungen/Moderatoren_Schulungsserver/Wartung",
-								},
-							],
-						},
-					],
-				},
-				{
-					"text": "Fortbildungen fuer Fachberater",
-					"collapsed": true,
-					"link": "/Fortbildungen_fuer_Fachberater",
-					"items": [
-						{
-							"text": "Aktuell",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/Aktuell",
-						},
-						{
-							"text": "Austausch Schulungen",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/Austausch_Schulungen",
-						},
-						{
-							"text": "DBeaver",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/DBeaver",
-						},
-						{
-							"text": "EFBlockung",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/EFBlockung",
-						},
-						{
-							"text": "Fragerunde",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/Fragerunde",
-						},
-						{
-							"text": "GymnasialeOberstufeBasics",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/GymnasialeOberstufeBasics",
-						},
-						{
-							"text": "Installation",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/Installation",
-						},
-						{
-							"text": "Installation Fachberatung Moderation offline",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/Installation_Fachberatung_Moderation_offline",
-							"items": [
-								{
-									"text": "AdminTool",
-									"collapsed": true,
-									"link": "/Fortbildungen_fuer_Fachberater/Installation_Fachberatung_Moderation_offline/AdminTool",
-								},
-								{
-									"text": "DBeaver",
-									"collapsed": true,
-									"link": "/Fortbildungen_fuer_Fachberater/Installation_Fachberatung_Moderation_offline/DBeaver",
-								},
-								{
-									"text": "Handout",
-									"collapsed": true,
-									"link": "/Fortbildungen_fuer_Fachberater/Installation_Fachberatung_Moderation_offline/Handout",
-								},
-								{
-									"text": "Installation SchILD3",
-									"collapsed": true,
-									"link": "/Fortbildungen_fuer_Fachberater/Installation_Fachberatung_Moderation_offline/Installation_SchILD3",
-								},
-								{
-									"text": "Installation SVWS",
-									"collapsed": true,
-									"link": "/Fortbildungen_fuer_Fachberater/Installation_Fachberatung_Moderation_offline/Installation_SVWS",
-								},
-								{
-									"text": "Installation Zertifikat",
-									"collapsed": true,
-									"link": "/Fortbildungen_fuer_Fachberater/Installation_Fachberatung_Moderation_offline/Installation_Zertifikat",
-								},
-								{
-									"text": "Log Files",
-									"collapsed": true,
-									"link": "/Fortbildungen_fuer_Fachberater/Installation_Fachberatung_Moderation_offline/Log_Files",
-								},
-								{
-									"text": "SVWS Client Sichten",
-									"collapsed": true,
-									"link": "/Fortbildungen_fuer_Fachberater/Installation_Fachberatung_Moderation_offline/SVWS_Client_Sichten",
-								},
-							],
-						},
-						{
-							"text": "MigrationSicherung",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/MigrationSicherung",
-						},
-						{
-							"text": "Oberstufe",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/Oberstufe",
-						},
-						{
-							"text": "QBlockung",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/QBlockung",
-						},
-						{
-							"text": "ReparaturMDB",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/ReparaturMDB",
-						},
-						{
-							"text": "Reports",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/Reports",
-						},
-						{
-							"text": "Schulungskonzept",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/Schulungskonzept",
-						},
-						{
-							"text": "Stundenplan Klausurblockung",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/Stundenplan_Klausurblockung",
-						},
-						{
-							"text": "UmstiegSchild3",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/UmstiegSchild3",
-						},
-						{
-							"text": "Wenom",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/Wenom",
-						},
-						{
-							"text": "Wissenswert",
-							"collapsed": true,
-							"link": "/Fortbildungen_fuer_Fachberater/Wissenswert",
-						},
-					],
-				},
-				{
-					"text": "markdown-examples",
-					"link": "/markdown-examples",
-				},
-				{
-					"text": "README",
-					"link": "/README",
-				},
-				{
-					"text": "schulungsmodule",
-					"collapsed": true,
+					"text": "Schulungsmodule",
+					"collapsed": false,
 					"link": "/schulungsmodule",
 					"items": [
 						{
-							"text": "basisschulungen",
+							"text": "Basisschulungen",
 							"collapsed": true,
 							"link": "/schulungsmodule/basisschulungen",
 							"items": [
@@ -341,7 +93,7 @@ export default defineConfig(({ mode }) => {
 							"link": "/schulungsmodule/BK",
 						},
 						{
-							"text": "gost",
+							"text": "GOSt",
 							"collapsed": true,
 							"link": "/schulungsmodule/gost",
 							"items": [
@@ -386,7 +138,7 @@ export default defineConfig(({ mode }) => {
 									],
 								},
 								{
-									"text": "notes",
+									"text": "Notes",
 									"link": "/schulungsmodule/gost/notes",
 								},
 								{
@@ -415,7 +167,7 @@ export default defineConfig(({ mode }) => {
 							],
 						},
 						{
-							"text": "ImportSchILD2Laufbahndaten",
+							"text": "Import SchILD2 Laufbahndaten",
 							"collapsed": true,
 							"link": "/schulungsmodule/ImportSchILD2Laufbahndaten",
 						},
@@ -425,52 +177,48 @@ export default defineConfig(({ mode }) => {
 							"link": "/schulungsmodule/Reporterstellung",
 						},
 						{
-							"text": "sek i",
+							"text": "SEK I",
 							"collapsed": true,
 							"link": "/schulungsmodule/sek_i",
 						},
 						{
-							"text": "uebergangsschulung",
+							"text": "Übergangsschulung",
 							"collapsed": true,
 							"link": "/schulungsmodule/uebergangsschulung",
 							"items": [
 								{
-									"text": "aufgaben VonSchild2 zuSchild3",
+									"text": "Aufgaben - von SchILD2 zu SchILD3",
 									"link": "/schulungsmodule/uebergangsschulung/aufgaben_VonSchild2_zuSchild3",
 								},
 								{
-									"text": "kapitel0 Einfuehrung",
-									"link": "/schulungsmodule/uebergangsschulung/kapitel0_Einfuehrung",
+									"text": "1 Orientierung",
+									"link": "/schulungsmodule/uebergangsschulung/1_Orientierung",
 								},
 								{
-									"text": "kapitel1 Orientierung",
-									"link": "/schulungsmodule/uebergangsschulung/kapitel1_Orientierung",
+									"text": "2 Filtern & Gruppenprozesse",
+									"link": "/schulungsmodule/uebergangsschulung/2_Filtern_Gruppenprozesse",
 								},
 								{
-									"text": "kapitel2 Filtern Gruppenprozesse",
-									"link": "/schulungsmodule/uebergangsschulung/kapitel2_Filtern_Gruppenprozesse",
+									"text": "3 Kataloge",
+									"link": "/schulungsmodule/uebergangsschulung/3_Kataloge",
 								},
 								{
-									"text": "kapitel3 Kataloge",
-									"link": "/schulungsmodule/uebergangsschulung/kapitel3_Kataloge",
+									"text": "4 Reports",
+									"link": "/schulungsmodule/uebergangsschulung/4_Reports",
 								},
 								{
-									"text": "kapitel4 Reports",
-									"link": "/schulungsmodule/uebergangsschulung/kapitel4_Reports",
-								},
-								{
-									"text": "kapitel5 Noteneingabe",
-									"link": "/schulungsmodule/uebergangsschulung/kapitel5_Noteneingabe",
+									"text": "5 Noteneingabe",
+									"link": "/schulungsmodule/uebergangsschulung/5_Noteneingabe",
 								},
 							],
 						},
 						{
-							"text": "VonSchild2 ZuSchild3",
+							"text": "Von SchILD2 zu SchILD3",
 							"collapsed": true,
 							"link": "/schulungsmodule/VonSchild2_ZuSchild3",
 							"items": [
 								{
-									"text": "1Uebersicht",
+									"text": "1 Uebersicht",
 									"collapsed": true,
 									"items": [
 										{
@@ -542,9 +290,208 @@ export default defineConfig(({ mode }) => {
 					],
 				},
 				{
-					"text": "schulungsserver",
+					"text": "Datenbanken",
 					"collapsed": true,
-					"link": "/schulungsserver",
+					"items": [
+						{
+							"text": "GOSt-DB",
+							"collapsed": true,
+							"items": [
+								{
+									"text": "GOSt DB Eigenschaften",
+									"link": "/Datenbanken/GOSt-DB/GOSt_DB_Eigenschaften",
+								},
+							],
+						},
+					],
+				},
+				{
+					"text": "Fortbildungen für Fachberater",
+					"collapsed": true,
+					"link": "/Fachberatung_Fortbildungen",
+					"items": [
+						{
+							"text": "Aktuell",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/Aktuell",
+						},
+						{
+							"text": "Austausch Schulungen",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/Austausch_Schulungen",
+						},
+						{
+							"text": "DBeaver",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/DBeaver",
+						},
+						{
+							"text": "EFBlockung",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/EFBlockung",
+						},
+						{
+							"text": "Fragerunde",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/Fragerunde",
+						},
+						{
+							"text": "GymnasialeOberstufeBasics",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/GymnasialeOberstufeBasics",
+						},
+						{
+							"text": "Installation",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/Installation",
+						},
+						{
+							"text": "Installation Fachberatung Moderation offline",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline",
+							"items": [
+								{
+									"text": "AdminTool",
+									"collapsed": true,
+									"link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/AdminTool",
+								},
+								{
+									"text": "DBeaver",
+									"collapsed": true,
+									"link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/DBeaver",
+								},
+								{
+									"text": "Handout",
+									"collapsed": true,
+									"link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Handout",
+								},
+								{
+									"text": "Installation SchILD3",
+									"collapsed": true,
+									"link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SchILD3",
+								},
+								{
+									"text": "Installation SVWS",
+									"collapsed": true,
+									"link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SVWS",
+								},
+								{
+									"text": "Installation Zertifikat",
+									"collapsed": true,
+									"link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_Zertifikat",
+								},
+								{
+									"text": "Log Files",
+									"collapsed": true,
+									"link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Log_Files",
+								},
+								{
+									"text": "SVWS Client Sichten",
+									"collapsed": true,
+									"link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/SVWS_Client_Sichten",
+								},
+							],
+						},
+						{
+							"text": "MigrationSicherung",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/MigrationSicherung",
+						},
+						{
+							"text": "Oberstufe",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/Oberstufe",
+						},
+						{
+							"text": "QBlockung",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/QBlockung",
+						},
+						{
+							"text": "ReparaturMDB",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/ReparaturMDB",
+						},
+						{
+							"text": "Reports",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/Reports",
+						},
+						{
+							"text": "Schulungskonzept",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/Schulungskonzept",
+						},
+						{
+							"text": "Stundenplan Klausurblockung",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/Stundenplan_Klausurblockung",
+						},
+						{
+							"text": "UmstiegSchild3",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/UmstiegSchild3",
+						},
+						{
+							"text": "Wenom",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/Wenom",
+						},
+						{
+							"text": "Wissenswert",
+							"collapsed": true,
+							"link": "/Fachberatung_Fortbildungen/Wissenswert",
+						},
+					],
+				},
+				{
+					"text": "Fachberatung Anleitungen",
+					"collapsed": true,
+					"link": "/Fachberatung_Anleitungen/",
+					"items": [
+						{
+							"text": "DBReparatur",
+							"collapsed": true,
+							"link": "/Fachberatung_Anleitungen/DBReparatur",
+						},
+						{
+							"text": "Reporting",
+							"collapsed": true,
+							"link": "/Fachberatung_Anleitungen/Reporting",
+							"items": [
+								{
+									"text": "Beispiel Report-Schuelerliste",
+									"collapsed": true,
+									"link": "/Fachberatung_Anleitungen/Reporting/BeispielreportSchuelerliste",
+								},
+								{
+									"text": "Übersicht",
+									"collapsed": true,
+									"link": "/Fachberatung_Anleitungen/Reporting/Uebersicht",
+								},
+							],
+						},
+						{
+							"text": "WebLupo Windows",
+							"collapsed": true,
+							"link": "/Fachberatung_Anleitungen/WebLupo_Windows",
+						},
+						{
+							"text": "Schulungsserver",
+							"collapsed": true,
+							"link": "/Fachberatung_Anleitungen/schulungsserver/",
+							"items": [
+								{
+									"text": "Wartung",
+									"link": "/Fachberatung_Anleitungen/schulungsserver/Moderatoren_Schulungsserver/Wartung",
+								},
+							],
+						},
+						{
+							"text": "api-examples",
+							"link": "/api-examples",
+						},
+					],
 				},
 				{
 					"text": "Tipp der Woche",
