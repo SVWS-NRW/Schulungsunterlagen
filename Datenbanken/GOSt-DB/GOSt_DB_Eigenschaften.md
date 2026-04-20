@@ -1,18 +1,18 @@
-# Erläuterung der Datenbanken GOSt  
+# ErlÃ¤uterung der Datenbanken GOSt  
 
 ## GOSt_DB-1_VorbereitungEFPlanung
 ### Eigenschaften
 + Stand 2. HJ  
-+ Keine Noteneinträge  
-+ keine Abiturjahrgänge angelegt
-+ Fächer noch ohne SekII-Sortierung
-+ ggf. Fächer Oberstufe ergänzen (z.B. PA)  oder entfernen (z.B: I0)
++ Keine NoteneintrÃ¤ge  
++ keine AbiturjahrgÃ¤nge angelegt
++ FÃ¤cher noch ohne SekII-Sortierung
++ ggf. FÃ¤cher Oberstufe ergÃ¤nzen (z.B. PA)  oder entfernen (z.B: I0)
 + keine Neuaufnahmen
 + keine Fachwahlen in 10 (neue EF)
 + fehlende Einstellungen der Laufbahnplanung (Kombinationen, BL, Texte)
-### geeignet für
+### geeignet fÃ¼r
 + Facheinstellungen
-+ Anlage Abiturjahrgänge
++ Anlage AbiturjahrgÃ¤nge
 + Einrichtung Laufbahnplanungen (Kombinationen, BL, Texte)
 + Erstellung Laufbahnplanungen (Fachwahlen)
 
@@ -20,16 +20,16 @@
 ## GOSt_DB-2_Laufbahnen10EF-zumBlocken
 ### Eigenschaften
 + Noten 2. HJ
-+ Fächer SekII sortiert
++ FÃ¤cher SekII sortiert
 + Fachwahlen 10 (neue EF) und EF (neue Q1) eingespielt
 + Fachwahlen noch teilweise fehlerhaft
 + keine Blockungen
-### geeignet für
+### geeignet fÃ¼r
 + Korrekturen Laufbahnen
 + Einstellungen Blockungsbedingungen
 + Berechnungen Blockungen
-+ Versetzung in nächstes Schuljahr
-+ ggf. Übertragung fertiger Blockungen
++ Versetzung in nÃ¤chstes Schuljahr
++ ggf. Ãœbertragung fertiger Blockungen
   
 
 ## GOSt_DB-3_Blockungen10EFmitFehlern
@@ -37,20 +37,20 @@
 + wie DB-2 aber mit fertigen Blockungen
 + teilweise mehrere Ergebnisse
 + NV-Fehler
-### geeignet für 
+### geeignet fÃ¼r 
 + Korrekturen und Neuberechnungen von Blockungen (Ableiten)
-+ Versetzung in nächstes Schuljahr
-+ Übertragen von Blockungen
-+ Änderungen in Fachwahlen nach Übertrag/Synchronisationen
++ Versetzung in nÃ¤chstes Schuljahr
++ Ãœbertragen von Blockungen
++ Ã„nderungen in Fachwahlen nach Ãœbertrag/Synchronisationen
 + Einrichtung Stundenplan
   
 
 ## GOSt_DB-4-KlausurplanungEF2
 ### Eigenschaften
 + wie DB-3
-+ Stundenplan eingerichtet (Zeitraster, Räume, Pausenzeiten)
++ Stundenplan eingerichtet (Zeitraster, RÃ¤ume, Pausenzeiten)
 + aktuelle EF2 hat Leistungsdaten
 + aktuelle EF2 hat Stundenplan eingerichtet
-### geeignet für
+### geeignet fÃ¼r
 + Klausurplanung
 
