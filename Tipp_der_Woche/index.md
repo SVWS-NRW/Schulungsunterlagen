@@ -1,8 +1,9 @@
 # :bulb: Tipp der Woche
 
 ## :point_right: SVWS-Hack der Woche   
-| :date: 09.03.2026 | :information_source: [Dump mit Dbeaver](./SVWS-Hack_der_Woche/dbeaver-dump.md) |
+| :date: 20.04.2026 | :information_source: [Modul zur Konferenzübersicht](./SVWS-Hack_der_Woche/konferenzmodul.md) |
 |------------------|----------------------------------------------------------------------------------|
+| :date: 09.03.2026 | :information_source: [Dump mit Dbeaver](./SVWS-Hack_der_Woche/dbeaver-dump.md) |
 | :date: 16.02.2026 | :information_source: [Bugfix](./SVWS-Hack_der_Woche/bugfix122.md) |
 | :date: 09.02.2026 | :information_source: [Kataloge](./SVWS-Hack_der_Woche/kataloge.md) |
 
