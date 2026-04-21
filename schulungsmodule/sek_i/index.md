@@ -4,7 +4,7 @@
 
 ### 1 [Unterrichtsfächer](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Unterrichtsf%C3%A4cher_(Schulbezogene_Kataloge))  
 **Aufgabe 1**  
-Andern Sie die Sichtbarkeit für alle Fächer, die an Ihrer Schule nicht unterrichtet werden und blenden Sie sie aus. 
+Ändern Sie die Sichtbarkeit für alle Fächer, die an Ihrer Schule nicht unterrichtet werden und blenden Sie sie aus. 
 
 
  
