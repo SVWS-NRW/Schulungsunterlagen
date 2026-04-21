@@ -1,17 +1,17 @@
-# 1. Orientierung in der Schulverwaltsungssoftware
+# 1. Orientierung in der Schulverwaltungssoftware
 
 + Wir orientieren uns in SchILD-NRW-3 und
 + dem SVWS-Webclient
-+ Wie sind die Struktruren im Hintergrund, auf dem unsere Leistungsdatenverwaltung aufsetz?
++ Wie sind die Struktruren im Hintergrund, auf dem unsere Leistungsdatenverwaltung aufsetzt?
 
 ## SchILD-NRW-3
 
 Wir benötigen hauptsächlich aus SchILD
 
 + Leistungs- und Abschnittsdaten im aktuellen Halbjahr der *Schüler*
-+ Katalog für *Fächer* (Fächer der Oberstufe)
-+ *Lehrkräfte* evtl. für Lehrberechtigungen
-+ Einige weitere Daten der Schüler, etwa zur Schullaufbahn, Gliederung o.Ä.
++ Katalog für *Fächer* (die Fächer der Oberstufe werden im SVWS-Webclient verwaltet!)
++ *Lehrkräfte* eventuell für Lehrberechtigungen
++ Einige weitere Daten der Schüler, etwa zur Schullaufbahn, Gliederung oder Ähnliches
 + Katalog *Kurse* zur Kontrolle
 + Nutzerrechte erlauben nicht allen alles - und das ist auch richtig so!  
 
@@ -27,7 +27,7 @@ und geben Sie an, welche Daten jeweils erfasst werden und wo sich Daten finden, 
 :information_source: [Infos zum aktuellen Halbjahr in SchILD3](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Aktuelles_Halbjahr_/_Aktueller_Abschnitt_(Sch%C3%BCler))
 
 **Aufgaben 1.1.2 "SchILD-Leistungsdaten"**  
-Gehen Sie in die Leistungsdaten eines Schülers (m/w/d) in der Q1 und
+Gehen Sie in die Leistungsdaten eines Schülers (m/w/d/oA) in der Q1 und
 
 + ändern Sie eine Kursart,
 + fügen Sie ein Fach hinzu,
@@ -57,11 +57,11 @@ Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Si
 + Finden Sie heraus, wie ein Fach als *Fach für die Oberstufe* markiert werden kann.
 + Beachten Sie die Statistikbezeichnungen: Was bedeuten bei den Sprachen die Zahlen hinter dem Fachkürzel (etwa F6, F7?)
 + Stellen Sie ein Fach auf "unsichtbar", was verändert sich und überlegen Sie, wieso man Katalogeinträge auf "unsichtbar" stellen kann. Welche Fehlerquelle liegt in dieser Einstellung?
-+ Passen Sie die Fremdsprachen bzgl. G8 und G9 an.
++ Passen Sie die Fremdsprachen bezüglich G8 und G9 und der aktuellen ASD-Vorgaben an.
 + Kontrollieren Sie, im WebClient, Tab Schule/Fächer, ob die Oberstufenfächer "Ist prüfungsordnungsrelevant" gesetzt ist (Prüfen Sie besonders Projekt- und Prüfungskurse)
 
 :information_source: [Infos zum Katalog *Unterrichtsfächer* in SchILD3](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Unterrichtsf%C3%A4cher_(Schulbezogene_Kataloge))
-:information_source: [Infos zu den Unterrichtsfächern im Client](https://doku.svws-nrw.de/webclient/apps/schule/kataloge/faecher/)
+:information_source: [Infos zu den Unterrichtsfächern im SVWS-Webclient](https://doku.svws-nrw.de/webclient/apps/schule/kataloge/faecher/)
 
 **Aufgaben 1.1.6 "SchILD Klassen- und Versetzungstabelle"**  
 
@@ -80,7 +80,7 @@ Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Si
 Finden Sie einen Gruppenprozess, der für die Verwaltung von Oberstufenschüler sinnvoll sein könnte.
 
 > [!WARNING] Aufgabenhinweis
-> Gruppenprozesse überschreiben u.U. zuvor vorgenommene manuelle Änderungen. Interne Prozesse müssen entsprechend angepasst sein.
+> Gruppenprozesse überschreiben unter Umständen zuvor vorgenommene manuelle Änderungen. Interne Prozesse müssen entsprechend angepasst sein.
 
 :information_source: [Infos zu den Gruppenprozessen für die Oberstufe: Sprachenfolge ermitteln](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Sprachenfolge_aus_Leistungsdaten_ermitteln_(Gruppenprozesse_Allgemein))  
 :information_source: [Infos zu den Gruppenprozessen für die Oberstufe: Fachhochschulreife prüfen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Fachhochschulreife_pr%C3%BCfen_(Gruppenprozesse_Allgemein))  
