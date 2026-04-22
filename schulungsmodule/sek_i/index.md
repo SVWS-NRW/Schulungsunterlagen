@@ -138,9 +138,15 @@ Laden Sie die Zeugnisformulare des aktuellen Halbjahres herunter! Die Zeugnisfor
 
 ## 9 [Download der Zeugnisformulare und Anpassen der Datei »Zeugniseinstellungen.ini« ](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Import_neuer_Zeugnisformulare_in_Schild-NRW_(Tutorial))
 
+**Aufgabe** 
+Öffnen Sie eine INI Datei in den Zeugnisformularen in der Fortbildung und schauen Sie, welche Änderungen möglich wären.
+
 ### 9.1 [Zeugnisvorbereitung und Zeugnisdruck](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einf%C3%BChrung_in_SchILD-NRW)) 
 
-### 9.2 [Dokumentenverwaltung und Zeugnisarchivierung](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Reports_verwenden_(Einf%C3%BChrung_in_SchILD-NRW)#Dokumenten-_und_Zeugnisarchivierung)
+### 9.2 [Dokumentenverwaltung und Zeugnisarchivierung](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Dokumentenverwaltung_und_Zeugnisarchivierung)
+
+**Aufgabe**
+Prüfen Sie, ob die Dokumentenverwaltung aktiviert ist.
 
 ## Halbjahreswechsel 
 
@@ -153,7 +159,7 @@ Führen Sie in der Halbjahreswechsel in der Schulungsdatenbank durch.
 
 ## Mahnungen 
 **Aufgabe 2**:  
-In der Praxis empfiehlt es sich, die Mahnungen über ein externes Programm (z.B. WeNoM - Web-Notenmanager) zu erfassen und die Tipparbeit an die Klassenlehrkräfte zu delegieren. Für die Fortbildung könnten die Mahnungen einfach bei jedem Schüler direkt in die Leistungsdaten des aktuellen Abschnitts eingeben werden. Etwas schneller geht das allerdings über den Gruppenprozess "Noten, Zeugnisvorbereitung" und dort unter "Noten, Mahnungen und Fehlstunden eingeben". Rufen Sie ihn bitte mal kurz auf und nehmen Sie einige beliebige Eingaben vor. Die Noten lassen sich fach- oder schülerweise eingeben, je nachdem, wie Sie die Sortierung einstellen.
+In der Praxis empfiehlt es sich, die Mahnungen über den WeNoM - Web-Notenmanager zu erfassen und die Tipparbeit an die Klassenlehrkräfte zu delegieren. Für die Fortbildung könnten die Mahnungen einfach bei jedem Schüler direkt in die Leistungsdaten des aktuellen Abschnitts eingeben werden. Etwas schneller geht das allerdings über den Gruppenprozess "Noten, Zeugnisvorbereitung" und dort unter "Noten, Mahnungen und Fehlstunden eingeben". Rufen Sie ihn bitte mal kurz auf und nehmen Sie einige beliebige Eingaben vor. Die Noten lassen sich fach- oder schülerweise eingeben, je nachdem, wie Sie die Sortierung einstellen.
 
 ## 11 [Mahnungen eingeben](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Noten,_Mahnungen_und_Fehlstd._eingeben_(Gruppenprozesse_Noten,_Zeugnisvorbereitung))  
 
