@@ -151,7 +151,7 @@ Prüfen Sie, ob die Dokumentenverwaltung aktiviert ist.
 ## Halbjahreswechsel 
 
 **Aufgabe 1**:  
-Führen Sie in der Halbjahreswechsel in der Schulungsdatenbank durch. 
+Führen Sie den Halbjahreswechsel in der Schulungsdatenbank durch. 
 
 ### 10 [Abschnittswechsel ohne Versetzung (Halbjahreswechsel)](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Versetzung_ins_neue_Schuljahr_und_Abschnittswechsel_durchf%C3%BChren_(Einf%C3%BChrung_in_SchILD-NRW)#Abschnittswechsel_ohne_Versetzung_(Halbjahreswechsel))
 
@@ -224,7 +224,7 @@ Auf der Webseite des MSB für [Schulverwaltungssoftware](https://www.svws.nrw.de
 ### 15.3 [Zeugnisdruck](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einf%C3%BChrung_in_SchILD-NRW)#Zeugnisdruck_und_Archivierung)  
 
 **Aufgabe**:  
-Filtern Sie in Ihrer ausgewählten Schülergruppe nach gleichen Zeugnissen und lassen sich anschließend die Zeugnisse in der Vorschau anzeigen.. 
+Filtern Sie in Ihrer ausgewählten Schülergruppe nach gleichen Zeugnissen und lassen sich anschließend die Zeugnisse in der Vorschau anzeigen. 
 (Also zum Beispiel alle Schüler mit Erstem Schulabschluss. Hierzu ist in vielen Anwendungsfällen der Schülerfilter zu nutzen, da eventuell unterschiedliche Abschlüsse oder auch "Kein Abschluss" vergeben werden.)
 
 
