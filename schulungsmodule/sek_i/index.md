@@ -144,7 +144,7 @@ Laden Sie die Zeugnisformulare des aktuellen Halbjahres herunter! Die Zeugnisfor
 
 ## Halbjahreswechsel 
 
-**Aufgabe**:  
+**Aufgabe 1**:  
 Führen Sie in der Halbjahreswechsel in der Schulungsdatenbank durch. 
 
 ### 10 [Abschnittswechsel ohne Versetzung (Halbjahreswechsel)](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Versetzung_ins_neue_Schuljahr_und_Abschnittswechsel_durchf%C3%BChren_(Einf%C3%BChrung_in_SchILD-NRW)#Abschnittswechsel_ohne_Versetzung_(Halbjahreswechsel))
@@ -174,33 +174,6 @@ In der Praxis empfiehlt es sich, die Mahnungen über ein externes Programm (z.B.
 
 **Aufgabe 3**:  
 Drucken Sie den Report "ZP10 - Anlage 4 - Bekanntgabe der Noten - alle Schulformen.rtm" als PDF aus. Dieser Report empfiehlt sich für die effiziente Bekanntgabe der Noten. Sie finden den Report in der Basissammlung im Ordner "Reports SI".
-
-## Dezentrale Prüfungen am BK und Abschlussberechnungen  
-
-Alle Abschlussberechnungen erfolgen auf dem Karteireiter **BK-Abschluss**, nur das Abitur wird auf einem eigenen Reiter berechnet.
- 
-### 13 [BK Abschluss](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Abschluss_berechnen_(Gruppenprozesse_BK-Abschluss))
-
-Der prinzipielle Ablauf ist immer der gleiche. Hier wird der Ablauf an den Berechnungen zur FHR in der Anlage C dargestellt. Bei anderen Bildungsgängen (z.B. ohne schriftliche Prüfungen) entfallen einige Schritte:
-1. Leistungsdaten holen: Dabei werden die in den Übersichten vorhandenen Fächer, Noten und
-Eigenschaften der Fächer (schriftl., Gewichtung,…) eingelesen.
-2. Zulassung prüfen: Auf Basis der Prüfungsordnung und der eingetragenen Noten wird die
-Zulassung zur Prüfung eingetragen (manuell änderbar).
-3. Prüfungsnoten erfassen. Die erreichten Prüfungsnoten werden eingegeben.
-4. vorläufige Abschlussnoten berechnen: Die vorläufigen Abschlussnoten werden berechnet. Dabei wird im Zweifelsfall zu Gunsten der Schüler eingetragen (manuell änderbar).
-5. Man kann jetzt schon den Abschluss berechnen lassen. Somit kann man die Beratung der
-Schüler über eventuelle mündliche Prüfungen verbessern.
-6. Falls vorhanden werden die Ergebnisse der mündlichen Prüfungen eingetragen und danach
-nochmals der Abschluss berechnet. Dabei wird auch die Durchschnittsnote ermittelt. Außerdem
-erfolgen die entsprechenden Einträge bei „Akt. Halbj.“ und „Schulbesuch“, so dass für die Statistik (SCD012) und die Zeugnisse die notwendigen Einträge vorhanden sind.  
-***Hinweis***: *Die errechneten Ergebnisse sind rechtlich gesehen nur Vorschläge auf Basis der
-entsprechenden Prüfungsordnungen. Sie können und sollen durch die zuständigen Konferenzen
-bestätigt oder verändert werden.*
-7. Abschlussnoten in Leistungsdaten übertragen: Die erreichten Endnoten werden damit im
-aktuellen Halbjahr eingetragen.
-
-**Aufgabe**:  
-Führen Sie die aufgelisteten Schritte zur Abschlussberechnung für einige Schülerdatensätze durch. 
 
 
 ## Die Zeugnisphase in SchILD (Versetzungs- und Abschlussberechnungen) 
