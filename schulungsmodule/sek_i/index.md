@@ -118,7 +118,7 @@ Filtern Sie die Klasse 07A aus und legen Sie über den gleichen Gruppenprozess f
 
 ## Noten/Zeugnisvorbereitungen  
 
-### 8.1  [Noten, Mahnungen und Fehlstunden eingeben  (noch offen --> Notenmanager?)](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Noten,_Mahnungen_und_Fehlstd._eingeben_(Gruppenprozesse_Noten,_Zeugnisvorbereitung))  
+### 8.1  [Noten, Mahnungen und Fehlstunden eingeben](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Noten,_Mahnungen_und_Fehlstd._eingeben_(Gruppenprozesse_Noten,_Zeugnisvorbereitung))  
 
 **Aufgabe 1**  
 Rufen Sie über Kataloge -> Floskeln bearbeiten die Verwaltung der Floskeln auf. Überprüfen Sie die Gruppenzugehörigkeit der Floskeln und korrigieren Sie sie bei Bedarf. Weisen Sie den einzelnen Gruppen verschiedene Farben zu.  
