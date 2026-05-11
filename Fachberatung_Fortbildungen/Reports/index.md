@@ -1,7 +1,5 @@
 # Fortbildung: Reports
 
-
-
 ### Inhalte
 + Einleitung:
     + Wo werden Reports gespeichert?
@@ -17,15 +15,8 @@
     + Header und Footer
     + Grundeinstellungen
 
-
 ### Hilfreiche Links
-+ Download **SVWS-Server**: https://github.com/SVWS-NRW/SVWS-Server/releases
-+ Download **SchILD3-Version**: https://github.com/SVWS-NRW/Schild3-BetaTest/releases
-+ Download **SchILD3-Basisreportsammlung**: https://github.com/SVWS-NRW/Schild-NRW-3-Reports/releases
-+ Wiki-**Anleitung zu Reports**: https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Reportdesigner_-_Schnelleinstieg
-
-
-
-
-
-
++ [Download **SVWS-Server**](https://github.com/SVWS-NRW/SVWS-Server/releases)
++ [Download **SchILD3-Version**](https://github.com/SVWS-NRW/Schild3-BetaTest/releases)
++ [Download **SchILD3-Basisreportsammlung**](https://github.com/SVWS-NRW/Schild-NRW-3-Reports/releases)
++ [Wiki-**Anleitung zu Reports**](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Reportdesigner_-_Schnelleinstieg)
