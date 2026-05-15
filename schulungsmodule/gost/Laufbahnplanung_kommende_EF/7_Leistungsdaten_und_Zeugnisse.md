@@ -6,9 +6,9 @@
 ### **Notenerfassung im ersten Halbjahr**
 
 + Es können während des ersten Halbjahres definierte **Teilleistungen** und eine Quartalsnote erfasst werden.
-+ Es müssen am Ende des ersten Halbjahres **Endnoten unf Fehlzeiten** erfasst werden.
++ Es müssen am Ende des ersten Halbjahres **Endnoten und Fehlzeiten** erfasst werden.
 
-Die Leistungsdatenverwaltung bzgl der Teilleistungen erfolgt derzeit noch in Schild3.  
+Die Leistungsdatenverwaltung bzgl. der Teilleistungen erfolgt derzeit noch in SchILD 3.  
 
 + im Katalog Teilleistungsarten werden diese festgelegt.  
 + im Katalog Unterrichtsfächer werden sie den Fächern kursartspezifisch zugewiesen.
@@ -29,15 +29,20 @@ Die Leistungsdatenverwaltung bzgl der Teilleistungen erfolgt derzeit noch in Sch
 > [!Hinweis] Der gesamte Prozess der **Leistungsdatenerfassung wird an anderer Stelle geschult und beschrieben**.  
   
 **Aufgaben 1.7.3 "Zeugnisse vorbereiten"**:
-Setzen Sie in Schild per Gruppenprozess
+Setzen Sie in SchILD per Gruppenprozess
 
-+ Konferenzdatum
-+ Zeugnisdatum
-+ Fehlstundensummen
++ Fächer ohne Noten suchen
++ Konferenzdatum setzen
++ Zeugnisdatum setzen
++ Fehlstundensummen autom. berechnen (wenn Fehlstunde fachweise erfasst werden)
++ ((Mahnungen automatisch setzen)) - für den im Produktivbetrieb durchgeführten Mahnungsprozess konsultieren Sie bitte das Wiki von SchILD-NRW 3
++ Zeugnisbemerkungen eintragen
 
 **Aufgaben 1.7.4 "Zeugniskonferenzvorlage per Report**
 
 + Drucken Sie eine Konferenzvorlage Ihrer Stufe.
+
+Sie finden die Basisreportsammlung auf svws.nrw.de
 
 **Aufgaben 1.7.5 "Zeugnisse drucken:**
 

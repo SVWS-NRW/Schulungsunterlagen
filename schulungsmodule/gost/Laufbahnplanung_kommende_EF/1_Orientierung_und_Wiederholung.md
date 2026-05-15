@@ -4,6 +4,11 @@
 + dem SVWS-Webclient
 + Wie sind die Struktruren im Hintergrund, auf dem unsere Leistungsdatenverwaltung aufsetzt?
 
+Das Online-Skript finden Sie hier: https://svws-nrw.github.io/Schulungsunterlagen/
+
+Navigieren Sie dann zu *"GOSt"* und weiter zu *"Laufbahnplanung kommende EF"*.
+
+
 ## SchILD-NRW-3
 
 Wir benötigen hauptsächlich aus SchILD

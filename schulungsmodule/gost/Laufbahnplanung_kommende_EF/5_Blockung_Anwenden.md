@@ -34,8 +34,6 @@ Lehrkräfte können über zwei Wege eingetragen werden.
 
 + **ACHTUNG**: Gibt es schon Noten, darf natürlich kein "rückgängig" mehr durchgeführt werden, denn mit den Leistungsdaten verschwinden auch die Noten!
 
-**Hinweis: vermutlich ist an dieser Stelle der Tag 1 schon lange vorbei? Wir müssen noch mal über's Timing nachdenken. Jo, Tag 1 ist schon LANGE vorbei?**
-
 ----
 
 Inhalt Tag 2:
