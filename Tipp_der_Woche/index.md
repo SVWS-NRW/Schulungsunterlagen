@@ -9,8 +9,9 @@
 
 
 ## :point_right: SchILD-Tipp der Woche   
-| :date: 11.05.2026 | :information_source: [Status Ehemalige](./SchILD-Tipp_der_Woche/ehemalige.md) |
+| :date: 18.05.2026 | :information_source: [Sichtbare Spalten im Lehrercontainer](./SchILD-Tipp_der_Woche/lehrerspalten.md) |
 |------------------|----------------------------------------------------------------------------------|
+| :date: 11.05.2026 | :information_source: [Status Ehemalige](./SchILD-Tipp_der_Woche/ehemalige.md) |
 | :date: 13.04.2026 | :information_source: [Zeugnis-Rechtsbelehrung](./SchILD-Tipp_der_Woche/zeugnisRechtsbelehrung.md) |
 | :date: 23.03.2026 | :information_source: [Straßenkatalog](./SchILD-Tipp_der_Woche/strassenkatalog.md) |
 | :date: 16.03.2026 | :information_source: [Telli-Export](./SchILD-Tipp_der_Woche/telliExport.md) |
