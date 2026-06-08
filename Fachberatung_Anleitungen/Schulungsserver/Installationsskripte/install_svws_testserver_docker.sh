@@ -33,6 +33,7 @@ PORTNUMBER="8443"
 SVWSVERSION=""
 TESTDB_SQLITE="https://github.com/SVWS-NRW/SVWS-TestMDBs/raw/refs/heads/main/ENM-Json/ENM-Testdaten-02/ENM_SVWS.sqlite"
 SERVER_IP=$(hostname -I | awk '{print $1}')
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 
 usage() {
