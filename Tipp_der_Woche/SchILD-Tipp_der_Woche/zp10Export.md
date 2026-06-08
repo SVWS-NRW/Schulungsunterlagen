@@ -5,9 +5,8 @@ Wusstest du schon, dass in der aktuellen SchILD3-Version 3.4.0 ein **Bug im ZP10
 
 Unabhängig von den Einträgen im ZP10-Reiter erscheint nach dem Start des ZP10-Exports unter Verwaltung → Exporte eine Fehlermeldung:    
 
-| ![Fehlermeldung](./graphics/schildtipp_ZP10Export.png) |
+| ![Fehlermeldung](./graphics/schildtipp_ZP10Export1.png)  |
 |---------------|
-
 
 ### Gibt es bereits eine Lösung?
 
