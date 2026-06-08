@@ -98,8 +98,15 @@ Components: stable
 Signed-By: /etc/apt/keyrings/docker.asc
 EOF
 
+
+
 apt update
 apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin nmap net-tools curl zip
+
+curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
+apt install -y nodejs
+node -v
+npm -v
 
 
 # 2. Port-Check
@@ -405,6 +412,17 @@ sed -i 's/ADMINTOOL_VISIBLE=false/ADMINTOOL_VISIBLE=true/' .env
 mkdir -p /var/www/html/gradehub
 cp -r dist/* /var/www/html/gradehub/
 
+cd $SCRIPT_DIR
+
+## SVWS-Import
+
+git clone https://github.com/SVWS-NRW/SVWS-Import
+cd SVWS-Import
+npm i 
+npm run build
+mkdir -p /var/www/html/import
+cp -r dist/* /var/www/html/import/
+
 
 cd $SCRIPT_DIR
 
@@ -502,7 +520,14 @@ cat <<EOF > "/var/www/html/index.html"
                 <td><a href="http://${SERVER_IP}/conference" target="_blank">SVWS-Conference</a></td>
                 <td><a href="https://github.com/FPfotenhauer/SVWS-Conference">Beta<a></td>
                 <td></td>
-        	</tr>
+            </tr>
+
+            <tr>
+                <td><a href="http://${SERVER_IP}/import" target="_blank">SVWS-Import</a></td>
+                <td><a href="https://github.com/SVWS-NRW/SVWS-Import">Beta<a></td>
+                <td></td>
+            </tr>
+
 
             <tr>
                 <td><a href="http://${SERVER_IP}:8081" target="_blank">SVWS-Main-Server</a></td>
