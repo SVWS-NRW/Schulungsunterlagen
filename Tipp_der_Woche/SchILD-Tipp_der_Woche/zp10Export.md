@@ -3,7 +3,7 @@
 
 Wusstest du schon, dass in der aktuellen SchILD3-Version 3.4.0 ein **Bug im ZP10-Export** enthalten ist?
 
-Unabhängig von den Einträgen im ZP10-Reiter erscheint nach dem Start des ZP10-Exports unter Verwaltung → Exporte eine Fehlermeldung:    
+Unabhängig von den Einträgen im ZP10-Reiter erscheint nach dem Start des ZP10-Exports unter Verwaltung → Exporte eine Fehlermeldung:
 
 | ![Fehlermeldung](./graphics/schildtipp_ZP10Export1.png)  |
 |---------------|
