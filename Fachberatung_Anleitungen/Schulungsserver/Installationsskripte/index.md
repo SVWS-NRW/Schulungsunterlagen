@@ -12,7 +12,7 @@ Es folgen nun Erläuterungen und Beispiele der einzelnen Skripte
 
 ## download_all_scripts.sh
 
-Mit dem Skript [download_all_scripts.sh](./download_all_scripts.sh) kann man alle in diesem Githubordner befindlichen Skripte herunterladen: 
+Mit dem Skript download_all_scripts.sh kann man alle in diesem Githubordner befindlichen Skripte herunterladen: 
 
 ```bash 
 wget https://github.com/SVWS-NRW/Schulungsunterlagen/raw/refs/heads/master/Fachberatung_Anleitungen/Schulungsserver/Installationsskripte/download_all_scripts.sh
