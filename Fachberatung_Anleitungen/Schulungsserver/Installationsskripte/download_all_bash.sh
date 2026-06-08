@@ -4,7 +4,7 @@ set -e
 
 OWNER="SVWS-NRW"
 REPO="Schulungsunterlagen"
-PATH_IN_REPO="Fachberatung_Anleitungen/schulungsserver/Installationsskripte"
+PATH_IN_REPO="Fachberatung_Anleitungen/Schulungsserver/Installationsskripte"
 
 apt update && apt upgrade -y && apt autoremove -y
 apt install curl jq -y
