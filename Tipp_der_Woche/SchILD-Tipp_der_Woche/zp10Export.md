@@ -5,7 +5,7 @@ Wusstest du schon, dass in der aktuellen SchILD3-Version 3.4.0 ein **Bug im ZP10
 
 Unabhängig von den Einträgen im ZP10-Reiter erscheint nach dem Start des ZP10-Exports unter Verwaltung → Exporte eine Fehlermeldung:    
 
-| ![Fehlermeldung](./graphics/schildtipp_ZP10Export1.png) |
+| ![Fehlermeldung](./graphics/schildtipp_ZP10Export.png) |
 |---------------|
 
 
@@ -19,12 +19,12 @@ Beim Ausführen des Reports wird eine CSV-Datei erzeugt, die dem ursprünglichen
 Vorgehen:
 1. Filtere zunächst den Jahrgang 10
 2. Drucke die Vorschau für die ganze Gruppe:
-![Fehlermeldung](./graphics/schildtipp_ZP10Export2.png) 
+![Reportdruck](./graphics/schildtipp_ZP10Export2.png) 
 3. Es erscheint eine Vorschau mit den ersten 11 Zeilen. Die erzeugte Exportdatei enthält selbstverständlich die Daten aller Schülerinnen und Schüler:
-![Fehlermeldung](./graphics/schildtipp_ZP10Export3.png) 
+![Vorschau](./graphics/schildtipp_ZP10Export3.png) 
 
 4. Nach dem Schließen der Vorschau befindet sich die Exportdatei im selben Ordner:
-![Fehlermeldung](./graphics/schildtipp_ZP10Export4.png) 
+![Exportdatei](./graphics/schildtipp_ZP10Export4.png) 
 
 
 :back: [Zurück zu den Tipps der Woche](./../index.md)   
