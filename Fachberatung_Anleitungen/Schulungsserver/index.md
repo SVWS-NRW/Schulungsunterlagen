@@ -1,5 +1,9 @@
 # Schulungsserver
 
+## Sammlung Installationsskripte
+
+[Hier](./Installationsskripte/index.md) befinden sich Skripte zur Installation von SVWS-Server unter docker oder mit dem Linuxinstaller. Ebenso findet man hier Installationsskripte von Wenom, Weblupo und diversen SVWS-Tools. 
+
 ## Wie benutze ich den Schulungsserver als Moderator
 
 ## Wie setze ich den Schulungsserver zurück?
