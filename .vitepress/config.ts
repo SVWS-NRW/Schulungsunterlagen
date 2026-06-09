@@ -482,6 +482,10 @@ export default defineConfig(({ mode }) => {
 							"link": "/Fachberatung_Anleitungen/schulungsserver/",
 							"items": [
 								{
+									"text": "Installationsskripte",
+									"link": "/Fachberatung_Anleitungen/schulungsserver/Installationsskripte/",
+								},
+								{
 									"text": "Wartung",
 									"link": "/Fachberatung_Anleitungen/schulungsserver/Moderatoren_Schulungsserver/Wartung",
 								},
