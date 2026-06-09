@@ -483,11 +483,11 @@ export default defineConfig(({ mode }) => {
 							"items": [
 								{
 									"text": "Installationsskripte",
-									"link": "/Fachberatung_Anleitungen/schulungsserver/Installationsskripte/",
+									"link": "/Fachberatung_Anleitungen/Schulungsserver/Installationsskripte/",
 								},
 								{
 									"text": "Wartung",
-									"link": "/Fachberatung_Anleitungen/schulungsserver/Moderatoren_Schulungsserver/Wartung",
+									"link": "/Fachberatung_Anleitungen/Schulungsserver/Moderatoren_Schulungsserver/Wartung",
 								},
 							],
 						},
