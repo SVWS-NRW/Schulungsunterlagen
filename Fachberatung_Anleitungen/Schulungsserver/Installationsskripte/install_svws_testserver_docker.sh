@@ -155,7 +155,7 @@ services:
     env_file:
       - .env
     healthcheck:
-        test: ["CMD-SHELL", "mariadb-admin ping -h localhost -u root -p${PASSWORD}"]
+      test: ["CMD-SHELL", "mariadb-admin ping -h localhost -u root -p${PASSWORD}"]
       start_period: 20s
       interval: 5s
       timeout: 5s
