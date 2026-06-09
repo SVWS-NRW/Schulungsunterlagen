@@ -30,7 +30,7 @@ DB_NAME=""
 COUNT=0
 PASS=""
 BASE_NAME=""
-$DOCKERBASEFOLDER=/docker
+DOCKERBASEFOLDER=/docker
 
 usage() {
     echo "Usage: $0 -c <CONTAINER_BASISNAME> -d <SCHEMATA_NAME> -n <ANZAHL> [-p <PASSWORD>]"

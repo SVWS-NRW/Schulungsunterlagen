@@ -61,6 +61,27 @@ bash install_svws_testserver_docker.sh -p svwsadmin -v 1.3.2 -o svws1
 
 **Download** -> [install_svws_testserver_docker.sh](https://github.com/SVWS-NRW/Schulungsunterlagen/raw/refs/heads/master/Fachberatung_Anleitungen/Schulungsserver/Installationsskripte/install_svws_testserver_docker.sh)
 
+## clone_db_in_docker_container.sh
+
+Diese Skript klont in einem noch anzugebenden laufebdeb SVWS-Server im Docker Container die mariadb N Mal.
+
+**Optionen:** 
+
+| Parameter | Info |
+|-|-|
+| -c | Obligatorisch: Docker Container Name |
+| -d | Obligatorisch: DB Name der schon vorhandenen Datenbank im SVWS-Server |
+| -n | Obligatorisch: Anzahl der Klone, die erstellt werden sollen |
+| -p | Optional: MariaDB Root Passwort. Falls nicht angegeben wird nach der .env Datei gesucht und das Passwort dort ausgelesen |
+
+**Beispiel:**
+
+```bash 
+bash install_svws_testserver_docker.sh -p svwsadmin -v 1.3.2 -o svws1
+```
+
+**Download** -> [install_svws_testserver_docker.sh](https://github.com/SVWS-NRW/Schulungsunterlagen/raw/refs/heads/master/Fachberatung_Anleitungen/Schulungsserver/Installationsskripte/install_svws_testserver_docker.sh)
+
 
 
 ## install_weblupo_testserver.sh 
