@@ -30,6 +30,7 @@ DB_NAME=""
 COUNT=0
 PASS=""
 BASE_NAME=""
+$DOCKERBASEFOLDER=/docker
 
 usage() {
     echo "Usage: $0 -c <CONTAINER_BASISNAME> -d <SCHEMATA_NAME> -n <ANZAHL> [-p <PASSWORD>]"
@@ -56,8 +57,8 @@ fi
 # Dynamische Variablen basierend auf dem Container-Namen
 APP_CONTAINER="$BASE_NAME"
 DB_CONTAINER="${BASE_NAME}_mariadb"
-ENV_FILE="./${BASE_NAME}/.env"
-CONFIG_FILE="./${BASE_NAME}/volume/svws/svwsconfig.json"
+ENV_FILE="$DOCKERBASEFOLDER/${BASE_NAME}/.env"
+CONFIG_FILE="$DOCKERBASEFOLDER/${BASE_NAME}/volume/svws/svwsconfig.json"
 
 # Passwort aus .env laden, falls nicht per Parameter übergeben
 if [[ -z "$PASS" && -f "$ENV_FILE" ]]; then

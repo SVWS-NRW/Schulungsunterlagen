@@ -25,7 +25,7 @@
 ###############################################
 
 # Standardwerte initialisieren
-BASEFOLDER="/docker"
+DOCKERBASEFOLDER="/docker"
 FOLDER=""
 PASSWORD=""
 FQDN=""
@@ -121,13 +121,13 @@ apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker
 
 
 # 4. Verzeichnisstruktur vorbereiten
-mkdir -p "$BASEFOLDER/$FOLDER/volume/mariadb"
-mkdir -p "$BASEFOLDER/$FOLDER/volume/svws"
+mkdir -p "$DOCKERBASEFOLDER/$FOLDER/volume/mariadb"
+mkdir -p "$DOCKERBASEFOLDER/$FOLDER/volume/svws"
 # Berechtigungen sicherstellen, damit MariaDB schreiben darf
-chmod -R 777 "$BASEFOLDER/$FOLDER/volume"
+chmod -R 777 "$DOCKERBASEFOLDER/$FOLDER/volume"
 
 # 5. .env Datei erzeugen
-cat <<EOF > "$BASEFOLDER/$FOLDER/.env"
+cat <<EOF > "$DOCKERBASEFOLDER/$FOLDER/.env"
 IMPORT_TEST_DATA=false
 MARIADB_ROOT_PASSWORD=$PASSWORD
 MYSQL_ROOT_PASSWORD=$PASSWORD
@@ -146,7 +146,7 @@ PORT=$PORTNUMBER
 EOF
 
 # 6. docker-compose.yml erzeugen
-cat <<EOF > "$BASEFOLDER/$FOLDER/docker-compose.yml"
+cat <<EOF > "$DOCKERBASEFOLDER/$FOLDER/docker-compose.yml"
 services:
   mariadb:
     restart: always
@@ -181,12 +181,12 @@ EOF
 echo "------------------------------------------------"
 echo "Konfiguration erstellt!"
 echo "------------------------------------------------"
-echo "Ordner:        $BASEFOLDER/$FOLDER"
+echo "Ordner:        $DOCKERBASEFOLDER/$FOLDER"
 echo "Externer Port: $PORTNUMBER"
 echo "Passwort:      $PASSWORD"
 echo "------------------------------------------------"
-echo "Starten mit: cd $BASEFOLDER/$FOLDER && docker compose up -d"
-cd $BASEFOLDER/$FOLDER && docker compose up -d
+echo "Starten mit: cd $DOCKERBASEFOLDER/$FOLDER && docker compose up -d"
+cd $DOCKERBASEFOLDER/$FOLDER && docker compose up -d
 
 # SVWS Schulunggsdatendanken holen
 cd $SCRIPT_DIR

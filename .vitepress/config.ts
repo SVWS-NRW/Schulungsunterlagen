@@ -479,7 +479,7 @@ export default defineConfig(({ mode }) => {
 						{
 							"text": "Schulungsserver",
 							"collapsed": true,
-							"link": "/Fachberatung_Anleitungen/schulungsserver/",
+							"link": "/Fachberatung_Anleitungen/Schulungsserver/",
 							"items": [
 								{
 									"text": "Installationsskripte",
