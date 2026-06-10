@@ -78,13 +78,18 @@ for ((i=1; i<=COUNT; i++)); do
     SSLCertificateFile ${SSL_CERT}
     SSLCertificateKeyFile ${SSL_KEY}
 
-    <Directory ${WEBROOT}>
-        AllowOverride All
-        Require all granted
-    </Directory>
-
     ErrorLog \${APACHE_LOG_DIR}/${SERVERNAME}.error.log
     CustomLog \${APACHE_LOG_DIR}/${SERVERNAME}.access.log combined
+
+    <FilesMatch "\.(?:cgi|shtml|phtml|php)$">
+        SSLOptions +StdEnvVars
+    </FilesMatch>
+    <Directory /usr/lib/cgi-bin>
+        SSLOptions +StdEnvVars
+    </Directory>
+
+    SetEnv ENM_DB_DIR db/wenom${i}
+
 </VirtualHost>
 EOF
 
