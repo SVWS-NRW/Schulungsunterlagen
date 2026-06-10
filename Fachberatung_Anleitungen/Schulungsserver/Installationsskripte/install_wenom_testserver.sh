@@ -27,7 +27,6 @@
 
 DOMAIN=""
 PHPVERSION=8.4
-DOWNLOADURL=https://wenom.svws-nrw.de/
 INSTALLPATH=/var/www/html
 
 # Parameter-Abfrage mit getopts
@@ -47,7 +46,8 @@ if [ -z "$SVWSVERSION" ]; then
     exit 1
 fi
 
-DOWNLOADPATH=${DOWNLOADURL}/SVWS-ENMServer-${SVWSVERSION}.zip
+DOWNLOADURL="https://github.com/SVWS-NRW/SVWS-Server/releases/download/v${SVWSVERSION}/WeNoM-${SVWSVERSION}-Beta.zip"
+
 
 
 # Domain optional - Fallback auf Server-IP
