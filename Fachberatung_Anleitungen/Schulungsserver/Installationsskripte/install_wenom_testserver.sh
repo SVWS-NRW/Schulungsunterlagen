@@ -132,10 +132,12 @@ systemctl restart apache2
 systemctl restart php${PHPVERSION}-fpm
 
 # Download und Entpacken 
-echo "Download und Entpacken Wenom von $DOWNLOADPATH"
 cd $INSTALLPATH
-wget $DOWNLOADPATH
-unzip -o SVWS-ENMServer-${SVWSVERSION}.zip
+
+echo "Download und Entpacken Wenom von $DOWNLOADURL"
+wget -O wenom.zip "$DOWNLOADURL"
+unzip -o wenom.zip
+rm wenom.zip
 
 
 # Rechte setzen
