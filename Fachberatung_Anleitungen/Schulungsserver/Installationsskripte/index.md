@@ -63,7 +63,7 @@ bash install_svws_testserver_docker.sh -p svwsadmin -v 1.3.2 -o svws1
 
 ## clone_db_in_docker_container.sh
 
-Diese Skript klont in einem noch anzugebenden laufendem SVWS-Server im Docker Container die mariadb N Mal.
+Diese Skript klont in einem noch anzugebenden, laufenden SVWS-Server innerhalb eines Docker-Containers die mariadb n-mal.
 
 **Optionen:** 
 
