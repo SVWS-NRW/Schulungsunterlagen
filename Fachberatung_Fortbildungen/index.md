@@ -24,8 +24,9 @@
 | [Reports - Neuerungen](./Reports/index.md) | 12.05.2026 | 14:00 - 15:00|  Nein |
 | [Oberstufenplanung](./Oberstufe/index.md)  | 29.05.2026  | 14:00 - 15:30| Nein |
 | [Webnotenmodul](./Wenom/index.md)  | 11.06.2026  | 14:00 - 15:30| Nein |
-| [Betreute Installation von VirtualBox für Einsteiger](./Virtualbox/index.md)  | 24.06.2026  | 14:00 - 15:30| Nein |
-| [Betreute Installation von Proxmox für Einsteiger](./Proxmox/index.md)  | 30.06.2026  | 14:00 - 15:30| Nein |
+| [Betreute Installation von VirtualBox für Einsteiger](./Virtualbox/index.md)  | 24.06.2026  | 14:00 - 15:30| Per Mail |
+| [Betreute Installation von Proxmox für Einsteiger](./Proxmox/index.md)  | 30.06.2026  | 14:00 - 15:30| Per Mail |
+| Externe Module  | in Planung  | -- | -- |
 | [Schulungskonzepte](./Schulungskonzept/index.md)| Auf Anfrage | -- | -- |
 | [Blockung der EF](./EFBlockung/index.md)  | Auf Anfrage  | -- | -- |
 | [Blockung der Q1](./QBlockung/index.md)  | Auf Anfrage  | -- | -- |
