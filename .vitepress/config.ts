@@ -477,23 +477,23 @@ export default defineConfig(({ mode }) => {
 							"link": "/Fachberatung_Anleitungen/WebLupo_Windows",
 						},
 						{
-							"text": "Schulungsserver",
+							"text": "Test- und Schulungsserver",
 							"collapsed": true,
-							"link": "/Fachberatung_Anleitungen/Schulungsserver/",
+							"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/",
 							"items": [
 								{
 									"text": "Installationsskripte",
-									"link": "/Fachberatung_Anleitungen/Schulungsserver/Installationsskripte/",
+									"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/",
 								},
 								{
-									"text": "Wartung",
-									"link": "/Fachberatung_Anleitungen/Schulungsserver/Moderatoren_Schulungsserver/Wartung",
+									"text": "Wartung Schulungsserver",
+									"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Moderatoren_Schulungsserver/Wartung",
 								},
 							],
 						},
 						{
-							"text": "api-examples",
-							"link": "/api-examples",
+							"text": "API-examples",
+							"link": "/Fachberatung_Anleitungen/API-examples/",
 						},
 					],
 				},
