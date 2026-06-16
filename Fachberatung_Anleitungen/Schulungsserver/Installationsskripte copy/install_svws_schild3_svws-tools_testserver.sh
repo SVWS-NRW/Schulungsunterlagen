@@ -212,7 +212,7 @@ services:
     depends_on:
       mariadb:
         condition: service_healthy
-    container_name: ${FQDN}_svwsserver
+    container_name: $FQDN
     ports:
       - "$SVWSPORTNUMBER:8443"
     volumes:

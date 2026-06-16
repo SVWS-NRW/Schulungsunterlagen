@@ -155,7 +155,7 @@ services:
     env_file:
       - .env
     healthcheck:
-      test: ["CMD-SHELL", "mariadb -u root -p${PASSWORD} -e 'SELECT 1'"]
+      test: ["CMD-SHELL", "mariadb-admin ping -h localhost -u root -p${PASSWORD}"]
       start_period: 20s
       interval: 5s
       timeout: 5s
@@ -169,16 +169,13 @@ services:
     depends_on:
       mariadb:
         condition: service_healthy
-    container_name: ${FQDN}_svwsserver
+    container_name: $FQDN
     ports:
       - "$PORTNUMBER:8443"
     volumes:
       - ./volume/svws:/opt/app/svws/conf
     env_file:
       - .env
-    healthcheck:
-      test: ["CMD", "true"]
-      start_period: 20s
 EOF
 
 echo "------------------------------------------------"

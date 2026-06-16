@@ -63,7 +63,7 @@ bash install_svws_testserver_docker.sh -p svwsadmin -v 1.3.2 -o svws1
 
 ## clone_db_in_docker_container.sh
 
-Diese Skript klont in einem noch anzugebenden laufebdeb SVWS-Server im Docker Container die mariadb n-mal.
+Diese Skript klont in einem noch anzugebenden, laufenden SVWS-Server innerhalb eines Docker-Containers die mariadb n-mal.
 
 **Optionen:** 
 
@@ -77,30 +77,12 @@ Diese Skript klont in einem noch anzugebenden laufebdeb SVWS-Server im Docker Co
 **Beispiel:**
 
 ```bash 
-bash clone_db_in_docker_container.sh -c svws1 -d svwsdb -n 15 
+bash install_svws_testserver_docker.sh -p svwsadmin -v 1.3.2 -o svws1
 ```
 
-**Download** -> [clone_db_in_docker_container.sh](https://github.com/SVWS-NRW/Schulungsunterlagen/raw/refs/heads/master/Fachberatung_Anleitungen/Schulungsserver/Installationsskripte/clone_db_in_docker_container.sh)
+**Download** -> [install_svws_testserver_docker.sh](https://github.com/SVWS-NRW/Schulungsunterlagen/raw/refs/heads/master/Fachberatung_Anleitungen/Schulungsserver/Installationsskripte/install_svws_testserver_docker.sh)
 
-## delete_all_svws_dbs
 
-Diese Skript löscht alle Datenbanken auf localhost SVWS-Server.
-
-**Optionen:** 
-
-| Parameter | Info |
-|-|-|
-| -d | Obligatorisch: DB Name der schon vorhandenen Datenbank im SVWS-Server |
-| -n | Obligatorisch: Anzahl der Klone, die erstellt werden sollen |
-| -p | Optional: MariaDB Root Passwort. Falls nicht angegeben wird nach der .env Datei gesucht und das Passwort dort ausgelesen |
-
-**Beispiel:**
-
-```bash 
-bash clone_db_in_docker_container.sh -c svws1 -d svwsdb -n 15 
-```
-
-**Download** -> [clone_db_in_docker_container.sh](https://github.com/SVWS-NRW/Schulungsunterlagen/raw/refs/heads/master/Fachberatung_Anleitungen/Schulungsserver/Installationsskripte/clone_db_in_docker_container.sh)
 
 ## install_weblupo_testserver.sh 
 
