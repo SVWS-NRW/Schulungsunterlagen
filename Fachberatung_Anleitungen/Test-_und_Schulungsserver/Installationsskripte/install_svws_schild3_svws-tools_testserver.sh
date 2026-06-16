@@ -405,6 +405,7 @@ docker compose up -d
 git clone https://github.com/FPfotenhauer/SVWS-GradeHub
 cd SVWS-GradeHub
 
+npm u 
 npm i
 npm run build:web
 cp .env.example .env
