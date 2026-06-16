@@ -45,7 +45,7 @@ server {
     server_name ${FQDN};
 
     location / {
-        proxy_pass https://${URL};
+        proxy_pass $URL;
     }
 }
 EOF
