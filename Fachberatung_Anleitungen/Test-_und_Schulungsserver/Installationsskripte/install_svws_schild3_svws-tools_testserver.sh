@@ -419,10 +419,26 @@ cd $SCRIPT_DIR
 
 git clone https://github.com/SVWS-NRW/SVWS-Import
 cd SVWS-Import
+
+npm u
 npm i 
 npm run build
 mkdir -p /var/www/html/import
 cp -r dist/* /var/www/html/import/
+
+
+cd $SCRIPT_DIR
+
+## SVWS-Prognos
+
+git clone https://github.com/SVWS-NRW/SVWS-Prognos
+cd SVWS-Prognos
+
+npm u
+npm i 
+npm run build
+mkdir -p /var/www/html/prognos
+cp -r dist/* /var/www/html/prognos/
 
 
 cd $SCRIPT_DIR
