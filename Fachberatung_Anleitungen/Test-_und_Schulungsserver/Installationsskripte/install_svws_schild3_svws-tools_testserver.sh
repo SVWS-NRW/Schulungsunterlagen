@@ -104,8 +104,8 @@ EOF
 apt update
 apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin nmap net-tools curl zip
 
-curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
-apt install -y nodejs
+curl -fsSL https://deb.nodesource.com/setup_24.x | bash -
+apt install -y nodejs 
 node -v
 npm -v
 
@@ -370,7 +370,6 @@ unzip -o *.zip
 
 cd $SCRIPT_DIR
 
-apt install -y nodejs npm 
 git clone https://github.com/FPfotenhauer/SVWS-Conference
 cd SVWS-Conference
 
