@@ -26,19 +26,20 @@
     6. Klicken Sie nun den Button "Übernehmen", um mit den gefilterten Daten weiterzuarbeiten.
 
     
-
 **Aufgabe 2.2 "Speichern Sie den getesteten Filter"**:
 + Gehen Sie wie in 2.1 beschrieben vor und speichern Sie Ihren Filter in sinnvoller Form für Ihre Schule.
 + Vergeben Sie einen eindeutigen Namen und eine für Ihre Schule hilfreiche Beschreibung.
 + Welche zusätzlichen Schritte sind erforderlich?
 + Was ist zu beachten, um nur getestete Filter dauerhaft zu speichern?
 
+
 **Aufgabe 2.3 "Speichern Sie weitere Filter"**:
 + Gehen Sie wie in 2.1 beschrieben vor und erweitern Sie Ihre Filter. Wählen Sie hierzu mehrere Beispiele aus Ihrer Schule aus. 
 + Speichern Sie Ihre Filter.
 
+
 **Aufgabe 2.4 "Laden und verändern Sie ihre Filter"**:
-+ Klicken Sie in Schild3 auf Auswahl.
++ Klicken Sie in Schild3 auf "Auswahl".
 + Laden Sie einen Ihrer Filter und wenden Sie diesen an.
 + Erweitern Sie danach die Filterkriterien und speichern Sie den Filter unter einem neuen Namen ab.
 + Welche Schritte sind erforderlich?
@@ -57,12 +58,13 @@
 
 + Es öffnet sich darunter ein Kontextmenü, in dem verfügbare Gruppenprozesse aufgelistet werden:
 
-  Dies sind "Gruppenprozesse Allgemeines":
+  Dies sind die Gruppenprozesse aus dem Anwendungsbereich "Allgemeines":
   ![Schild3: Gruppenprozesse](Bilder/Filter_GP/Schild3_GP_Kontextmenue.png)
 
-+ Für die Bereiche Fächer, Teilleistungen, Noten/Zeugnisvorbereitung und Lernabschnitte/Versetzung gibt es weitere GP.
++ Für die Bereiche "Fächer, Teilleistungen, Noten/Zeugnisvorbereitung und Lernabschnitte/Versetzung u.a."" gibt es weitere GP.
 + Wählen Sie einen Gruppenprozess aus, um diesen auf die Auswahlmenge an Schülern (also z.B. die ausgewählte klasse) anzuwenden.
-+ Wählen Sie als GP unter "Alggemeines" "Individualdaten ändern". Setzen Sie für die Schüler der Klasse die "Aktuellen Laufbahndaten" neu.
++ Wählen Sie als GP unter "Alggemeines" - "Individualdaten ändern". 
++ Setzen Sie für die Schüler der Klasse die "Aktuellen Laufbahndaten" neu.
 + Führen Sie den GP mit dem Button "Ausführen" aus. 
 + Kontrollieren Sie bei den einzelnen Schülern der Klasse, ob die Änderungen übernommen wurden.
 
@@ -73,14 +75,16 @@
 + Wählen Sie links über "Aktuelle Schülerauswahl" eine Klasse aus.
 + Es wird gemäß der bei den Schülern eingetragenen Gliederung und Fachklasse eine verfügbare Stundentafel zur Auswahl dargestellt.
   ![Schild3: Gruppenprozesse](Bilder/Filter_GP/Schild3_GP_Stundentafel-zuweisen.png)
-+ Wähle danach das Halbjahr aus, in dem die Stundetafel zugeordnet werden soll (z.B. Schuljahr: 2025/26 2. HJ.).
-+ Kontrolliere das Ergebnis unter "Schüler" - " Aktuelle Schülerauswahl: Klasse" - "Halbjahr auswählen" - "Akt. Halbjahr" - "Leistungsdaten".
++ Wählen Sie danach das Halbjahr aus, in dem die Stundetafel zugeordnet werden soll (z.B. Schuljahr: 2025/26 2. HJ.).
++ Kontrollieren Sie das Ergebnis unter "Schüler" - " Aktuelle Schülerauswahl: Klasse" - "Halbjahr auswählen" - "Akt. Halbjahr" - "Leistungsdaten".
   ![Schild3: Gruppenprozesse](Bilder/Filter_GP/Schild3_Kontrolle_Fach_der_Stundentafel.png)
-+ Klicken Sie vor dem jweiligen Fach auf das + - Zeichen, so werden die zugeordneten Teilleistungskaategorien aufgeklappt.
++ Klicken Sie vor dem jeweiligen Fach auf das Plus-Zeichen (+), so werden die zugeordneten Teilleistungskategorien aufgeklappt.
++ Prüfen Sie, ob für alle Fächer die Teilleistungskategorien bei den Schülern in der Klasse angelegt wurden.
++ Falls dies nicht der Fall sein sollte: Welchen GÜ müssten Sie hierfür nutzen?
 
 **Aufgabe 2.7 "GPs entdecken"**:
 + Wählen Sie links über "Aktuelle Schülerauswahl" eine Klasse aus.
-+ Testen Sie mit dieser verschiedene Gruppenpropzesse aus den Bereichen "Allgemein", "Fächer","Teilleistungen" aus. 
++ Testen Sie mit dieser verschiedene Gruppenprozesse aus den Bereichen "Allgemein", "Fächer","Teilleistungen" aus. 
 + Welche Nutzergruppe sollte mit welchem Prozess vertraut sein?
 
 
