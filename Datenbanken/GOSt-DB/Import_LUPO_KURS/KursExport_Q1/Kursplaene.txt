@@ -1,0 +1,1 @@
+﻿"Kurs";"Tag";"Std";"Woche";"Raum";"Lehrer"

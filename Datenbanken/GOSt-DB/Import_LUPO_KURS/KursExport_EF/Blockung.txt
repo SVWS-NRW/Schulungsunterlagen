@@ -1,0 +1,82 @@
+[Blockung]
+Jahrgang=EF
+Jahr=2023
+Abschnitt=2
+Bezeichnung=Blockung (09.04.2024)
+Folgejahr=0
+Schulnummer=123456
+Bez1=Dogobert-Duck-Gymnasium
+Bez2=der Stadt Entenhausen
+Bez3=
+Strasse=Erpelallee 32
+PLZ=54321
+Ort=Entenhausen
+Telefon=0123 654321
+Schulform=GY
+AbschnittBez1=1.
+AbschnittBez2=2.
+AbschnittBez3=3.Qrt
+AbschnittBez4=4.Qrt
+GUID={76D95E2C-D64D-4103-B265-A2D3491395A7}
+Kursversion=Kurs 42 (Version 3.33.2.485) am 09.04.2024 um 14:13:26 Uhr
+[Anfangszeiten]
+Stunde_1=07:45:00
+Stunde_2=08:30:00
+Stunde_3=09:30:00
+Stunde_4=10:15:00
+Stunde_5=11:15:00
+Stunde_6=12:00:00
+Stunde_7=13:00:00
+Stunde_8=13:45:00
+Stunde_9=14:45:00
+Stunde_10=00:00:00
+Stunde_11=00:00:00
+Stunde_12=00:00:00
+Stunde_13=00:00:00
+Stunde_14=00:00:00
+Stunde_15=00:00:00
+Stunde_16=00:00:00
+Stunde_17=00:00:00
+Stunde_18=00:00:00
+Stunde_19=00:00:00
+Stunde_20=00:00:00
+StundenDauer=45
+[Farbgruppen]
+Gruppe_0=1100=0
+Gruppe_1=400=0
+Gruppe_2=11=0
+Gruppe_3=21=0
+Gruppe_4=31=0
+Gruppe_5=32=0
+Gruppe_6=33=0
+Gruppe_7=60=0
+Gruppe_8=110=16777215
+Gruppe_9=100=0
+Gruppe_10=300=0
+Gruppe_11=1900=0
+Gruppe_12=500=0
+Gruppe_13=700=0
+Gruppe_14=200=8421631
+Gruppe_15=1600=0
+Gruppe_16=900=0
+Gruppe_17=600=0
+Gruppe_18=1500=0
+Gruppe_19=800=0
+Gruppe_20=1000=0
+[PruefungsOrdnung]
+PO_0=APO-GOSt02/11-13
+PO_1=S/AOSF-SI05/5-10
+PO_2=APO-GOSt(C)10/G9
+PO_3=APO-GOSt01/11-13
+PO_4=APO-GOSt(B)10/G8
+PO_5=GY/APO-SI05/5-10
+[ExportLog]
+Log_0=09.04.2024 14:08:21|Lupo-Import: |DESKTOP-N4OLNDF
+[K_EinzelLeistung]
+EL_0=103=Klassenarbeit/Klausur
+EL_1=104=Projektarbeit
+EL_2=151=1. Klausur
+EL_3=161=2. Klausur
+EL_4=164=1. Klassenarbeit
+EL_5=165=2. Klassenarbeit
+EL_6=166=3. Klassenarbeit

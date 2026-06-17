@@ -1,0 +1,49 @@
+# Mikrofortbildungen für Fachberater
+
+### Ablauf der Fortbildungen:
+
++ Die Fortbildungen richten sich ausschließlich an Fachberaterinnen und Fachberater, sowie Moderatorinnen und Moderatoren. 
++ Der Link zum Videomeeting wird per E-Mail an alle zugesendet.
++ Bei den meisten Fortbildungen könnt Ihr ohne Anmeldung direkt teilnehmen.
++ Zu Beginn jeder Fortbildung erfolgt ein Input, bei dem ich praxisnah eine Demonstration zu dem jeweiligen Thema durchführe.
++ Im Anschluss gibt es Raum für Fragen und Anregungen.
++ Teilnehmerinnen und Teilnehmer, die keine Fragen mehr haben, können das Meeting nach dem Input-Teil gerne verlassen.
+
+
+# Übersicht - Fortbildungen
+
+
+| Thema   | Datum | Uhrzeit | Anmeldung erforderlich |
+| ---------- | ------------- | ------------- | ------------- |
+| [Schulungen - Austausch ](./Austausch_Schulungen/index.md) | 26.02.2026  | 15:00 - 16:00| Nein |
+| [Datenbanken sichten mit DBeaver](./DBeaver/index.md)  | 03.03.2026 | 15:00 - 15:45 | Nein |
+| [Migration und Datenbanksicherung](./MigrationSicherung/index.md) | 04.03.2026  | 15:00 - 16:00 | Nein |
+| [Infos zu Neuerungen und zum Entwicklungsstand](./Aktuell/index.md) | 17.03.2026 | 15:00 - 16:00| Nein |
+| [Stundenplan und Klausurplanung](./Stundenplan_Klausurblockung/index.md)  | 15.04.2026 | 14:00 - 15:30 | Nein |
+| [Support für Schulen - Infos für Fachberater](./Wissenswert/index.md) | 23.04.2026  | 15:00 - 16:00| Nein |
+| [Reports - Neuerungen](./Reports/index.md) | 12.05.2026 | 14:00 - 15:00|  Nein |
+| [Oberstufenplanung](./Oberstufe/index.md)  | 29.05.2026  | 14:00 - 15:30| Nein |
+| [Webnotenmodul](./Wenom/index.md)  | 11.06.2026  | 14:00 - 15:30| Nein |
+| [Betreute Installation von VirtualBox für Einsteiger](./Virtualbox/index.md)  | 24.06.2026  | 14:00 - 15:30| Per Mail |
+| [Betreute Installation von Proxmox für Einsteiger](./Proxmox/index.md)  | 30.06.2026  | 14:00 - 15:30| Per Mail |
+| Externe Module  | in Planung  | -- | -- |
+| [Schulungskonzepte](./Schulungskonzept/index.md)| Auf Anfrage | -- | -- |
+| [Blockung der EF](./EFBlockung/index.md)  | Auf Anfrage  | -- | -- |
+| [Blockung der Q1](./QBlockung/index.md)  | Auf Anfrage  | -- | -- |
+
+
+<!--| [Offene Austauschrunde](./Fragerunde/index.md)| --- | --- |-->
+<!-- This content will not appear in the rendered Markdown -->
+
+
+
+
+
+
+
+
+
+
+
+
+
