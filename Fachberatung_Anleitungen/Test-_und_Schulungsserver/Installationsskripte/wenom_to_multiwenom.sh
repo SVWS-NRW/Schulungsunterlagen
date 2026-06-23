@@ -88,7 +88,7 @@ for ((i=1; i<=COUNT; i++)); do
         SSLOptions +StdEnvVars
     </Directory>
 
-    SetEnv ENM_DB_DIR db/wenom${i}
+    SetEnv ENM_DB_DIR ${DB_FOLDER}/wenom${i}
 
 </VirtualHost>
 EOF
@@ -99,6 +99,9 @@ EOF
     a2ensite "$CONF_FILE" >/dev/null 2>&1
 
 done
+
+chown -R www-data:www-data /var/www/html
+chmod -R 777 ${DB_FOLDER}
 
 echo "Reload Apache..."
 systemctl reload apache2
