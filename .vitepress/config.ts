@@ -472,11 +472,6 @@ export default defineConfig(({ mode }) => {
 							],
 						},
 						{
-							"text": "WebLupo Windows",
-							"collapsed": true,
-							"link": "/Fachberatung_Anleitungen/WebLupo_Windows",
-						},
-						{
 							"text": "Test- und Schulungsserver",
 							"collapsed": true,
 							"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/",
@@ -488,6 +483,14 @@ export default defineConfig(({ mode }) => {
 								{
 									"text": "Wartung Schulungsserver",
 									"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Moderatoren_Schulungsserver/Wartung",
+								},
+								{
+									"text": "Virtualbox Anleitung",
+									"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Virtualbox/",
+								},
+								{
+									"text": "WebLupo Windows",
+									"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/WebLupo_Windows/",
 								},
 							],
 						},
