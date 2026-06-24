@@ -1,7 +1,5 @@
 # 4. Reports
 
-## Report-Einstellungen 
-
 > [!TIP] Moderationshinweis
 > * Wo liegen die Reports?
 > * Wie kann ich die Stuktur der bereitgestellten Reports anpassen?

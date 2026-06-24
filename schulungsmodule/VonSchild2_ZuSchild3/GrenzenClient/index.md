@@ -8,8 +8,8 @@ Reports über den gewohnten Reportgenerator sind nicht möglich
 
 
  ::: details
-  * Schinene im Client auch für Sek 1
-  * Stundneplan durchlaufen ohne Oberstufe
+  * Schiene im Client auch für Sek 1
+  * Stundenplan durchlaufen ohne Oberstufe
  :::
 
 :::

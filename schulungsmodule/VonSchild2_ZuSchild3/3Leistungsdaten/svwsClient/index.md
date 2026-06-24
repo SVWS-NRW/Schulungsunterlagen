@@ -1,5 +1,5 @@
 # Leistungsdaten 
-Im Client Stundneplan anlegen
+Im Client Stundenplan anlegen
 
 
 ## :a: Aufgabe - Reports

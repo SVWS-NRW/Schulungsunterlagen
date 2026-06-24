@@ -3,7 +3,7 @@
 Zusätzlich zu der Desktopanwendung SchILD-NRW3 kann die Schuldatenbank auch mit dem Browser geöffnet und bearbeitet werden.
 
 ## Öffnen der Datenbank im SVWS-Client
-Öffnen Sie einen Browser (z.B. Google-Crome oder Firefox) und tippen Sie https://localhost in die Eingabezeile.
+Öffnen Sie einen Browser (z.B. Google-Crome oder Firefox) und tippen Sie https://localhost (bei einer lokalen INstallation des SVWS-Servers) oder die IP-Adresse des SVWS-Servers in die Eingabezeile.
 
 ![Öffnen mit dem Browser](./graphics/vonS2nachS3_uebersicht_svwsClient_aufruf.png) 
 
@@ -31,7 +31,7 @@ Analog zu SchILD-NRW3 findet man auf der linken Seite den Schülercontainer, sow
 Die Aufteilung und Anordnung der Reiter und Eingabefelder sind jedoch an vielen Stellen unterschiedlich. Beispielsweise wird nun nicht mehr zwischen Individualdaten I und II unterschieden.
 
 
-Auf der linken Seite werden die zur Verfügung stehenden Apps aufgelistet. Beim Starten ist die Schüler-App aktiviert. Mit der linken Maustaste kann man eine App wechseln.
+Auf der linken Seite werden die zur Verfügung stehenden **Apps** aufgelistet. Beim Starten ist die Schüler-App aktiviert. Mit der linken Maustaste kann man eine App wechseln.
 
 ![Schüler-App](./graphics/vonS2nachS3_uebersicht_svwsClient_schuelerApp_filter.png)
 
@@ -43,7 +43,7 @@ Hinweis: Durch Klick auf *Klasse*, *Nachname* oder *Vorname* im Schülercontaine
 * Entfernen Sie den Filter der Klasse 6a und fügen Sie die 6c hinzu.
 * Entfernen Sie alle Filter und wählen Sie den Jahrgang 07 aus. Für das Entfernen der Filter gibt es verschiedene Möglichkeiten <br>
 ![Schnellfilter](./graphics/vonS2nachS3_uebersicht_svwsClient_schuelerApp_schnellfilter.png)
-* Sichten Sie in der App "Schüler" im Tab "Sprachen" die Sprachenfolge eines Schülers in der Jahrgangsstufe Q1. </br>
+* Sichten Sie in der App "Schüler" im Tab "Sprachen" die Sprachenfolge eines Schülers in der Jahrgangsstufe Q1. <br>
 Hier findet man nun auch sehr übersichtlich Angaben zum herkungssprachlichen Unterricht und zu Sprachen-Feststellungsprüfung. Konkrete Eingaben folgen später.(LINK!) 
 * Löschen Sie bei einem Schüler im Tab "Lernabschnitte" das Fach Sport.<br>
 Hinweis: Nach dem Markieren des Faches wird der Mülleimer sichtbar. Sie werden feststellen, dass keine Nachfrage erfolgt, ob das Fach wirklich gelöscht werden soll.<br>

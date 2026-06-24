@@ -12,7 +12,7 @@ Beim genauen Betrachten stellt man schnell fest, dass vieles gleich geblieben is
 * Die aktuellen Laufbahndaten sind ebenfalls einsehbar. Allerdings nun auf der rechten Seite, anstatt wie in SchILD2 unterhalb der Individualdaten.
 * Die Tabs für einen einzelnen Schüler sind überwiegend gleich geblieben:
 ![Schuelerreiter](./graphics/vonS2nachS3_uebersicht_schuelerreiter.png)  
-Ein Tab Vermerke ist dazugekommen. Da kommen wir aber später nochmal zu.
+Ein Tab "Vermerke" ist dazugekommen. Da kommen wir aber später nochmal zu.
 
 ### Aufgaben
 * Filtern Sie die Klasse 6a.
@@ -23,12 +23,7 @@ Ein Tab Vermerke ist dazugekommen. Da kommen wir aber später nochmal zu.
 * Tragen Sie bei einem Schüler einen Vermerk "Beurlaubt am 17.3.24" ein.
 * Bei einem Schüler aus der 7b wurde vergessen, den Migrationshintergrund einzutragen. Er wurde zwar in Deutschland geboren, aber seine Mutter kommt aus Ghana.
 
-
-
-
 Weitere Arbeitsprozesse wie beispielsweise Filtern, Gruppenprozesse, Listenausdrucke oder wichtige Importe/Exporte folgen später.
-
-
 
 > [!NOTE]
 > Nach dem Bearbeiten von Schülerdaten muss man die Eingaben über den "Übernehmen"-Button bestätigen:
