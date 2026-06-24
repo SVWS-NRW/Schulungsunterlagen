@@ -8,10 +8,10 @@
 
 
 
-**Aufgabe 3.1 "Allgemeine Katalogen erkunden: Konfessionen"**:
-+ Öffnen Sie Schild3 und wählen Sie eine Datenbank aus.
-+ Klicken Sie in Schild3 auf "Kataloge" und dann links unter "Allgemeine Kataloge" den Eintrag "Konfessionen". 
-  ![Schild3: Auswahl Kataloge](Bilder/Filter_GP/Schild3_Auswahl_Kataloge.png)
+:a: **Aufgabe 3.1 "Allgemeine Katalogen erkunden: Konfessionen"**
++ Öffnen Sie SchILD3 und wählen Sie eine Datenbank aus.
++ Klicken Sie in SchILD3 auf "Kataloge" und dann links unter "Allgemeine Kataloge" den Eintrag "Konfessionen". 
+  ![SchILD3: Auswahl Kataloge](Bilder/Filter_GP/Schild3_Auswahl_Kataloge.png)
 
 + Orientierung:
     1. Der schware Pfeil vor der jeweiligen Konfessionszeile zeigt den aktuell ausgewählten Datensatz an.
@@ -35,7 +35,7 @@
        danach darstellt. Dies spiegelt sich auch bei den Schülerdaten unter "Individualdaten I" in der Auswahlliste "Konfession" wieder.
 
     
-**Aufgabe 3.2 "Ergänzen Sie fehlende Ortsteile"**:
+:a: **Aufgabe 3.2 "Ergänzen Sie fehlende Ortsteile"**
 + Gehen Sie wie in 3.1 beschrieben vor und wählen Sie den Katalog Ortsteile aus.
 + Gehen Sie nun auf das Plus-Zeichen, um einen neuen Datensatz zu ergänzen.
 + Tragen Sie nun z.B. Morenhoven mit der Postleitzahl 53919 ein.
@@ -55,27 +55,27 @@
 > * Welche Kataloge benötigt unsere Schule regelmäßig?
 > * Wann müssen hier Eintragungen ergänzt werden?
 
-**Aufgabe 3.3 "Schulbezogene Katalogen"**:
-+ Öffnen Sie Schild3 und wählen Sie eine Datenbank aus.
-+ Klicken Sie in Schild3 auf "Kataloge" und dann links unter "Schulbezogene Kataloge" den Eintrag "Teilleistungsarten". 
-  ![Schild3: Katalog Teilleistungsarten](Bilder/Filter_GP/Schild3_Auswahl_Kataloge_Teilleistungsarten.png)
+:a: **Aufgabe 3.3 "Schulbezogene Katalogen"**
++ Öffnen Sie SchILD3 und wählen Sie eine Datenbank aus.
++ Klicken Sie in SchILD3 auf "Kataloge" und dann links unter "Schulbezogene Kataloge" den Eintrag "Teilleistungsarten". 
+  ![SchILD3: Katalog Teilleistungsarten](Bilder/Filter_GP/Schild3_Auswahl_Kataloge_Teilleistungsarten.png)
 
 + Ergänzen Sie alle Teilleistungsarten, die an Ihrer Schule genutzt werden müssen.
 + Prüfen Sie, wann welche Teilleistungsart an Ihrer Schule in welchen Fächern und Bildungsgängen einzusetzen ist.
 
-**Aufgabe 3.4 "Teilleistungsarten bei Fächern ergänzen"**
+:a: **Aufgabe 3.4 "Teilleistungsarten bei Fächern ergänzen"**
 + Gehen Sie unter "Kataloge" - "Schulbezogene Kataloge" - auf "Fächer".
 + Wählen Sie ein Fach über "Fachkürzel filtern" aus.
-  ![Schild3: Katalog "Fächer - filtern"](Bilder/Filter_GP/Schild3_Auswahl_Kataloge_Faecher_filtern.png)
+  ![SchILD3: Katalog "Fächer - filtern"](Bilder/Filter_GP/Schild3_Auswahl_Kataloge_Faecher_filtern.png)
 + Klicken Sie rechts in den Details des ausgewählten Faches auf den Button "Teilleistungsarten".
-  ![Schild3: Fächer Teilleistungsarten](Bilder/Filter_GP/Schild3_Auswahl_Kataloge_Faecher_TL.png)
+  ![SchILD3: Fächer Teilleistungsarten](Bilder/Filter_GP/Schild3_Auswahl_Kataloge_Faecher_TL.png)
 + Ergänzen Sie über das Plus-Zeichen weitere Teilleistungsarten. Wählen Sie zunächst die Kursart aus, bei vielen Fächern ist dies PUK (Unterricht im Klassenverband).
 + Es werden ihnen weitere Teilleistungsarten aus dem Katalog angezeigt, die Sie noch dem Fach als Vorlage zuordnen können.
-  ![Schild3: Teilleistungsarten ergänzen](Bilder/Filter_GP/Schild3_Auswahl_Kataloge_Faecher_PUK_TL_ergaenzen.png)
+  ![SchILD3: Teilleistungsarten ergänzen](Bilder/Filter_GP/Schild3_Auswahl_Kataloge_Faecher_PUK_TL_ergaenzen.png)
 + Setzen Sie vor denjenigen Teilleistungen einen Haken, die Sie dem Fach zusätzlich zuordnen möchten. Klicken Sie dann auf "Übernehmen".
 + Kontrollieren Sie die Eintragungen, indem Sie bei dem Fach erneut auf die Teilleistungsarten klicken. Es sollten nun alle erforderlichen TL angezeigt werden.
 
-**Aufgabe 3.5 "Teilleistungsarten bei Fächern ergänzen"**
+:a: **Aufgabe 3.5 "Teilleistungsarten bei Fächern ergänzen"**
 + Wählen Sie "Schüler" aus und tragen dort unter "Aktuelle Schülerauswahl" eine Klasse Ihrer Wahl ein.
 + Klicken Sie nun auf "Gruppenprozesse" und suchen Sie nach dem geeigneten Gruppenprozess, um die im Fach als Vorlage zugeordneten Teilleistungsarten, 
   den Schülern einer Klasse in den Leistungsdaten zuzuordnen. 
