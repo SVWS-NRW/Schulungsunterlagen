@@ -134,7 +134,7 @@ systemctl restart php${PHPVERSION}-fpm
 echo "Download und Entpacken Wenom von $DOWNLOADPATH"
 cd $INSTALLPATH
 wget $DOWNLOADPATH
-unzip -o SVWS-ENMServer-${SVWSVERSION}.zip
+unzip -o *.zip
 
 
 # Rechte setzen
