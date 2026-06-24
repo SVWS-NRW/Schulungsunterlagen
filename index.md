@@ -1,7 +1,3 @@
----
-layout: doc
----
-
 # SVWS-Schulungsunterlagen
 
 Auf dieser Seite finden Sie Schulungsmodule zur Durchführung von Fortbildungen im Umgang mit dem SVWS-Server.
