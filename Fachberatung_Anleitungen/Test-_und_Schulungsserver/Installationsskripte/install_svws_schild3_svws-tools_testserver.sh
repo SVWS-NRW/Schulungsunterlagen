@@ -370,7 +370,7 @@ unzip -o *.zip
 
 cd $SCRIPT_DIR
 
-git clone https://github.com/FPfotenhauer/SVWS-Conference
+git clone https://github.com/SVWS-NRW/SVWS-Conference/
 cd SVWS-Conference
 
 npm i
