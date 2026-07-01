@@ -370,10 +370,6 @@ sidebar: [
         "link": "/schulungsmodule/uebergangsschulung",
         "items": [
           {
-            "text": "aufgaben VonSchild2 zuSchild3",
-            "link": "/schulungsmodule/uebergangsschulung/aufgaben_VonSchild2_zuSchild3"
-          },
-          {
             "text": "kapitel0 Einfuehrung",
             "link": "/schulungsmodule/uebergangsschulung/kapitel0_Einfuehrung"
           },

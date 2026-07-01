@@ -7,7 +7,6 @@
 > * Wie kann ich fehlende Eintragungen in den Katalogen ergänzen?
 
 
-
 :a: **Aufgabe 3.1 "Allgemeine Katalogen erkunden: Konfessionen"**
 + Öffnen Sie SchILD3 und wählen Sie eine Datenbank aus.
 + Klicken Sie in SchILD3 auf "Kataloge" und dann links unter "Allgemeine Kataloge" den Eintrag "Konfessionen". 

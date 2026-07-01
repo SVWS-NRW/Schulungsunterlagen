@@ -13,10 +13,10 @@
 + Klicken Sie in SchILD3 auf "Auswahl". 
   ![SchILD3: Auswahl](Bilder/Filter_GP/Schild3_Auswahl_Filter_Menue.png)
 
-+ Definieren Sie nun einen neuen Filter mit dem Namen "Abgaenger_Sj_2024_25":
++ Definieren Sie nun einen neuen Filter mit dem Namen "Abgaenger_SJ_2025_26":
     1. Tragen Sie unter "Filter benennen" einen Filternamen ein.
     2. Wählen Sie unter "Individualdaten I" als "Status" "Abgang (ohne Abschluss)" aus.    
-    3. Wählen Sie in den "Abschnittsdaten" als "Schuljahr und Abschnitt" den Wert "2024/25 2 HJ." aus.
+    3. Wählen Sie in den "Abschnittsdaten" als "Schuljahr und Abschnitt" den Wert "2025/26 2 HJ." aus.
     4. Klicken Sie danach den Button "Testen".
        ![SchILD3: Filterkriterien festlegen](Bilder/Filter_GP/Schild3_Filter_Kriterien_festlegen.png)
 
@@ -61,15 +61,15 @@
   Dies sind die Gruppenprozesse aus dem Anwendungsbereich "Allgemeines":
   ![SchILD3: Gruppenprozesse](Bilder/Filter_GP/Schild3_GP_Kontextmenue.png)
 
-+ Für die Bereiche "Fächer, Teilleistungen, Noten/Zeugnisvorbereitung und Lernabschnitte/Versetzung u.a."" gibt es weitere GP.
-+ Wählen Sie einen Gruppenprozess aus, um diesen auf die Auswahlmenge an Schülern (also z.B. die ausgewählte klasse) anzuwenden.
-+ Wählen Sie als GP unter "Alggemeines" - "Individualdaten ändern". 
++ Für die Bereiche "Fächer, Teilleistungen, Noten/Zeugnisvorbereitung und Lernabschnitte/Versetzung u.a." gibt es weitere GP.
++ Wählen Sie einen Gruppenprozess aus, um diesen auf die Auswahlmenge an Schülern (also z.B. die ausgewählte Klasse) anzuwenden.
++ Wählen Sie als GP unter "Allgemeines" - "Individualdaten ändern". 
 + Setzen Sie für die Schüler der Klasse die "Aktuellen Laufbahndaten" neu.
 + Führen Sie den GP mit dem Button "Ausführen" aus. 
 + Kontrollieren Sie bei den einzelnen Schülern der Klasse, ob die Änderungen übernommen wurden.
 
 :a: **Aufgabe 2.6 "Stundentafel den Schülern einer Klasse zuweisen"**
-::: Stundentafeln müssen zuvor unter "Kataloge" - "Stundentafeln" festgelegt worden sein. :::
+> [!TIP] Stundentafeln müssen zuvor unter "Kataloge" - "Stundentafeln" festgelegt worden sein.
 
 + Weisen Sie nun eine bereits definierte Stundentafel allen Schülern einer Klasse zu.
 + Wählen Sie links über "Aktuelle Schülerauswahl" eine Klasse aus.
@@ -80,7 +80,7 @@
   ![SchILD3: Gruppenprozesse](Bilder/Filter_GP/Schild3_Kontrolle_Fach_der_Stundentafel.png)
 + Klicken Sie vor dem jeweiligen Fach auf das Plus-Zeichen (+), so werden die zugeordneten Teilleistungskategorien aufgeklappt.
 + Prüfen Sie, ob für alle Fächer die Teilleistungskategorien bei den Schülern in der Klasse angelegt wurden.
-+ Falls dies nicht der Fall sein sollte: Welchen GÜ müssten Sie hierfür nutzen?
++ Falls dies nicht der Fall sein sollte: Welchen Gruppenprozess müssten Sie hierfür nutzen?
 
 :a: **Aufgabe 2.7 "GPs entdecken"**
 + Wählen Sie links über "Aktuelle Schülerauswahl" eine Klasse aus.

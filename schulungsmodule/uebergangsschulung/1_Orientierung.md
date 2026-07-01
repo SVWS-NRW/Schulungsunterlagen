@@ -11,9 +11,9 @@
 + Öffnen Sie SchILD3 und wählen Sie eine Datenbank aus.
   ![SchILD3-Client: Anmeldung](Bilder/Orientierung/schild3_client_anmeldung.png)
 + Sichten Sie einige Schüler in SchILD3 und pflegen Sie folgende Änderungen ein:
-    1. Ein Schüler aus der 8a (oder 2a) hat Religion abgewählt 
+    1. Ein Schüler aus einer Klasse (biite selbst wählen) hat Religion abgewählt.
     2. Bei einem Schüler fehlt der Migrationshintergrund. Tragen Sie diesen nach.   
-       Hinweis: Die Einstellung "vereinfachter Migrationshintergrund" wurde abgeschafft
+       Hinweis: Die Einstellung "vereinfachter Migrationshintergrund" wurde abgeschafft. Füllen Sie alle für die Statistik relevanten Felder. Diese sind mit * gekennzeichnet.
     3. Fügen Sie bei einem Schüler einen Vermerk mit heutigem Datum hinzu.
     4. Nur relevant für weiterführende Schulen: Sichten Sie den Reiter Laufbahninfo. Tragen Sie für einen Schüler aus dem Abschlussjahrgang (z.B. aus der Q2 am Gymnasium)  die Sprache Spanisch (oder eine andere Sprache) in der Sprachenfolge nach. Ergänzen Sie ebenfalls für einen Schüler den Herkunftssprachlichen Unterricht "Polnisch".
     
