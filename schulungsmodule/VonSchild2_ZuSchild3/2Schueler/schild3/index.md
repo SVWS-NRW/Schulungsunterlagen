@@ -1,9 +1,9 @@
 # Anpassungen bei den Schülerdaten
-Die meisten Anpassungen und Arbeitsschritte können sowohl in der Desktop-Anwendung SchILD-NRW3 (Im folgenden kurz schild3) als auch in der Browser-Variante (im folgenden kurz SVWS-Client) vorgenommen werden. Da der SVWS-Client stetig weiterentwickelt wird und immer mehr Funktionalitäten dort implementiert werden, empfehle ich, überwiegend mit dem SVWS-Client zu arbeiten. 
+Die meisten Anpassungen und Arbeitsschritte können sowohl in der Desktop-Anwendung SchILD-NRW3 (Im folgenden kurz schILD3) als auch in der Browser-Variante (im folgenden kurz SVWS-Client) vorgenommen werden. Da der SVWS-Client stetig weiterentwickelt wird und immer mehr Funktionalitäten dort implementiert werden, empfehle ich, überwiegend mit dem SVWS-Client zu arbeiten. 
 
 ## Statistik-relavante Felder
 
-In Schild3 sind bei den Individualdaten I und II die zu erfassenden Daten überwiegend identisch zu den Daten in schild2. Die Anordnung wurde ein wenig angepasst und das Schülerfoto ist nun unter Individualdaten I stets sichtbar, sofern ein Bild hinterlegt ist und die Sichtbarkeit eingestellt ist. Das Sternchen an den Überschriften signalisiert die Relevanz für die Statistik. Dies ist auf den ersten Blick etwas unscheinbar.
+In SchILD3 sind bei den Individualdaten I und II die zu erfassenden Daten überwiegend identisch zu den Daten in SchILD2. Die Anordnung wurde ein wenig angepasst und das Schülerfoto ist nun unter Individualdaten I stets sichtbar, sofern ein Bild hinterlegt ist und die Sichtbarkeit eingestellt ist. Das Sternchen an den Überschriften signalisiert die Relevanz für die Statistik. Dies ist auf den ersten Blick etwas unscheinbar.
 
 ### :a: Aufgabe - Farbe der Statistikfelder anpassen
 Ändern Sie die Farbe für statistikrelevante Felder auf grün. 
@@ -23,19 +23,19 @@ Ein Schüler wechelt von der 7a in die 7b. Nehmen Sie notwendige Änderungen vor
 1. Wechseln Sie in den Reiter Aktuelles Halbjahr / Allgemeine Angaben:
    ![Ändern der Klasse](./graphics/vonS2nachS3_schueler_klassenanpassung.png) 
 2. Ändern Sie die Klasse auf 7b. 
-3. Passen Sie die Fächer in den Leistungsdaten an. Hier hat sich nichts geändert im Vergleich zu schild2.
+3. Passen Sie die Fächer in den Leistungsdaten an. Hier hat sich nichts geändert im Vergleich zu SchILD2.
 :::
 
 
 ### :a: Aufgabe - Eintragen des Förderschwerpunkts 
-Ein Schüler aus der 5a hat eine Sehbehinderung. Hinterlegen Sie den entsprechenden Förderschwerpunkt in schild3
+Ein Schüler aus der 5a hat eine Sehbehinderung. Hinterlegen Sie den entsprechenden Förderschwerpunkt in SchILD3
 ::: details
 Auch diese Angaben werden im aktuellen Halbjahr / Allgemeine Angaben gesetzt.
 :::
 
 
 ## Kataloge - Klassen-/ Versetzungstabelle
-Unter dem aktuellen Halbjahr findet man auch den derzeitigen Klassenlehrer des Schülers. Hier gibt es keine Möglichkeit diesen zu ändern. Dazu muss man einmal in die Klassen- und Versetzungstabellen, welche man in schild2 unter Schulverwaltung öffnen konnte. Diese sind nun unter dem Reiter "Kataloge" zu finden. Genauer handelt es sich bei den Klassen- und Versetzungstabellen um schulbezogene Kataloge:
+Unter dem aktuellen Halbjahr findet man auch den derzeitigen Klassenlehrer des Schülers. Hier gibt es keine Möglichkeit diesen zu ändern. Dazu muss man einmal in die Klassen- und Versetzungstabellen, welche man in SchILD2 unter Schulverwaltung öffnen konnte. Diese sind nun unter dem Reiter "Kataloge" zu finden. Genauer handelt es sich bei den Klassen- und Versetzungstabellen um schulbezogene Kataloge:
 
  ![Klassen- und Versetzungstabelle](./graphics/vonS2nachS3_uebersicht_schueler_versetzungstabelle.png) 
 ### :a: Aufgabe - Klassenlehrer anpassen
@@ -45,7 +45,9 @@ Unter dem aktuellen Halbjahr findet man auch den derzeitigen Klassenlehrer des S
 
 ## Vermerke
 Die Vermerke sind umgezogen! <br>
-Bisher waren die Vermerke unter Laufbahninfo des jeweiligen Schülers zu finden. Nun ist diesen ein eigener Reiter gewidmet. Analog zu den Klassen- und Versetzungstabellen findet man den Katalog der Vermerk-Arten nun unter Kataloge (früher unter Schulverwaltung)
+Bisher waren die Vermerke unter "Laufbahninfo" des jeweiligen Schülers zu finden. <br>
+Nun findet sich bei jedem Schüler ein eigener Reiter "Vermerke". <br>
+Analog zu den Klassen- und Versetzungstabellen findet man den Katalog der Vermerk-Arten nun unter Kataloge (früher unter Schulverwaltung).
 
 ### :a: Aufgabe - Einen Vermerk bei einem Schüler hinterlegen
 1. Ergänzen Sie die Vermerkart "Attestpflicht".
@@ -57,5 +59,7 @@ Hilfe finden Sie auch [hier](https://schulverwaltungsinfos.nrw.de/svws/wiki/inde
 
 
 ## Migrationshintergrund
-Die Angaben zum Migrationshintergrund findet man nach wie vor unter Individualdaten II. Der Bereich ist allerdings nun unterteilt in Migrationshintergrund und Zuwanderung. Weiter gibt es bei den Einstellungen keine Möglichkeit mehr, die vereinfachte Darstellung der Migrationseintragung zu nutzen. 
+Die Angaben zum Migrationshintergrund findet man nach wie vor unter Individualdaten II. Der Bereich ist allerdings nun unterteilt in "Migrationshintergrund" und "Zuwanderung". Weiter gibt es bei den Einstellungen keine Möglichkeit mehr, die vereinfachte Darstellung der Migrationseintragung zu nutzen. 
+
+
 

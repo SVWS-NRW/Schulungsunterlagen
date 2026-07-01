@@ -34,7 +34,7 @@ Bei der Installation wird ein SVWS-Arbeitsverzeichnis angelegt, in dem sämtlich
 
 ## :a: Aufgabe - Dokumentenverzeichnis anlegen
 
-Legen Sie eine Dokumentenverwaltung mit Hilfe von SchILD-NRW3 an (Unter Verwaltung/Einstellungen) 
+Legen Sie eine Dokumentenverwaltung mit Hilfe von SchILD-NRW3 an (unter "Verwaltung" - "Einstellungen") 
 
 
 
