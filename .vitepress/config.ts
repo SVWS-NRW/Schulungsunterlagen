@@ -187,10 +187,6 @@ export default defineConfig(({ mode }) => {
 							"link": "/schulungsmodule/uebergangsschulung",
 							"items": [
 								{
-									"text": "Aufgaben - von SchILD2 zu SchILD3",
-									"link": "/schulungsmodule/uebergangsschulung/aufgaben_VonSchild2_zuSchild3",
-								},
-								{
 									"text": "1 Orientierung",
 									"link": "/schulungsmodule/uebergangsschulung/1_Orientierung",
 								},

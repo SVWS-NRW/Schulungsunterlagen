@@ -75,12 +75,12 @@
 + Wählen Sie links über "Aktuelle Schülerauswahl" eine Klasse aus.
 + Es wird gemäß der bei den Schülern eingetragenen Gliederung und Fachklasse eine verfügbare Stundentafel zur Auswahl dargestellt.
   ![SchILD3: Gruppenprozesse](Bilder/Filter_GP/Schild3_GP_Stundentafel_zuweisen.png)
-+ Wählen Sie danach das Halbjahr aus, in dem die Stundetafel zugeordnet werden soll (z.B. Schuljahr: 2025/26 2. HJ.).
-+ Kontrollieren Sie das Ergebnis unter "Schüler" - " Aktuelle Schülerauswahl: Klasse" - "Halbjahr auswählen" - "Akt. Halbjahr" - "Leistungsdaten".
++ Wählen Sie danach das Halbjahr aus, in dem die Stundentafel zugeordnet werden soll (z.B. Schuljahr: 2025/26 2. HJ.).
++ Kontrollieren Sie das Ergebnis unter "Schüler" - "Aktuelle Schülerauswahl: Klasse" - "Halbjahr auswählen" - "Akt. Halbjahr" - "Leistungsdaten".
   ![SchILD3: Gruppenprozesse](Bilder/Filter_GP/Schild3_Kontrolle_Fach_der_Stundentafel.png)
 + Klicken Sie vor dem jeweiligen Fach auf das Plus-Zeichen (+), so werden die zugeordneten Teilleistungskategorien aufgeklappt.
 + Prüfen Sie, ob für alle Fächer die Teilleistungskategorien bei den Schülern in der Klasse angelegt wurden.
-+ Falls dies nicht der Fall sein sollte: Welchen Gruppenprozess müssten Sie hierfür nutzen?
++ Falls dies nicht der Fall sein sollte: Welchen Gruppenprozess müssten Sie hierfür nutzen? Führen Sie dies durch.
 
 :a: **Aufgabe 2.7 "GPs entdecken"**
 + Wählen Sie links über "Aktuelle Schülerauswahl" eine Klasse aus.

@@ -13,7 +13,7 @@ Die externe Noteneingabe mit dem [WeNoM - WebNotenManager](https://doku.svws-nrw
 # Leistungsdatenverwaltung im SVWS-Server
 
 + Im SVWS-Server werden alle Leistungsdaten in Lernabschnitten organisiert. Gegenüber SchILD2 werden Quartale als Abschnittsebene nicht mehr unterstützt. Es werden nunmehr Halbjahre als Abschnitte dargestellt. Quartale können in diesen Abschnitten in einer Spalte ebenfalls dargestellt werden. Ob diese sichtbar sein sollen, kann über die Einstellungen gesteuert werden.
-+ Lernabschnitte könne frei benannt werden (z.B. "Halbjahr", "Abschnitt").
++ Lernabschnitte können frei benannt werden (z.B. "Halbjahr", "Abschnitt").
 + Alle Leistungen und Ergebnisse der Versetzungs- und Abschlussberechnungen werden getrennt je Lernabschnitt gespeichert. Hierdurch ist es möglich vergangene Lernabschnitte ggf. neu zu berechnen.
 + Nachstehende Abb. verdeutlicht die Zuordnungen:
   ![Lernabschnitte](Bilder/Noten/schild_schueler_akthalbj_allgemein_1.png)
@@ -44,8 +44,8 @@ Wählen Sie in der Ergebnisliste einen Schüler aus.
 
 ::: details
 
-+ Klicken Sie auf das + - Zeichen vor der Fachbezeichnung, um die zugeordneten Teilleistungen aufzufächern.
-+ Klicken Sie nun in die Spalte "Note" der Teilleistungsart (z.B. 1. KA) für die Sie Noten eintragen möchten.
++ Klicken Sie auf das Plus-Zeichen vor der Fachbezeichnung, um die zugeordneten Teilleistungen aufzufächern.
++ Klicken Sie nun in die Spalte "Note" der Teilleistungsart (z.B. 1. KA), für die Sie Noten eintragen möchten.
 + Sie können nun die Note direkt eintragen, oder aus dem Drop-down Menü auswählen. 
 + Dies ist aber nur möglich, wenn Sie bei SchILD3 als angemeldeter Lehrer dem Fach zugeordnet, 
   das Fach für den Schüler angelegt und Teilleistungen zugewiesen wurden.
