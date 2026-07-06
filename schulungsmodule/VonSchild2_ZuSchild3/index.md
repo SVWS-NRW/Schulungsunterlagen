@@ -8,7 +8,7 @@ Zusätzlich zu der Desktopanwendung SchILD-NRW3 (früher SchILD-NRW2), die nach 
 
 ### Schild-NRW3 - eine neue Oberfläche
 
-SchILD-NRW3 hat ein neues und moderneres [Layout](./1Uebersicht/SchILD3_Oberflaeche/index.md).
+SchILD-NRW3 hat ein neues und modernes [Layout](./1Uebersicht/SchILD3_Oberflaeche/index.md).
 
 ### SVWS-Client - Schulverwaltung über den Internetbrowser
 

@@ -33,10 +33,10 @@ Erstellen Sie eine Zeugnisbemerkung für einen Schüler aus der Klasse 8b, der h
 
 
 ## Sprachenfolge
-In Schild3 befinden sich die Angaben zur Sprachenfolge nach wie vor im Reiter Laufbahninfo. Allerdings werden Sprachenfolge und Sprachenprüfungen nun in unterschiedlichen Bereichen festgehalten. 
+In SchILD3 befinden sich die Angaben zur Sprachenfolge nach wie vor im Reiter Laufbahninfo. Allerdings werden Sprachenfolge und Sprachenprüfungen nun in unterschiedlichen Bereichen erfasst. 
 
 ### :a: Aufgabe - Sprachenprüfung
-Ein Schüler aus der Q1 hatte in der Jahrgangsstufe 10 in Italienisch eine HSU Prüfung mit der Note gut absolviert. Hinterlegen Sie die Prüfung in schild. 
+Ein Schüler aus der Q1 hatte in der Jahrgangsstufe 10 in Italienisch eine HSU Prüfung mit der Note gut absolviert. Hinterlegen Sie die Prüfung in SchILD3. 
 
 Hinweis:<br>
 Konkrete Eintragungshilfen finden Sie hier:
@@ -45,6 +45,4 @@ Konkrete Eintragungshilfen finden Sie hier:
 
 ## Abschlüsse
 
-
-
-Zeugnisbemerkung
+* todo

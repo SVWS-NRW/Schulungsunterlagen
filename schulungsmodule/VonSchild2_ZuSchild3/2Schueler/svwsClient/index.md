@@ -91,7 +91,7 @@ Wie bereits festgestellt, findet man die Kataloge nun in der App Schule. Ein Bli
 ![Klassentabellen](./graphics/vonS2nachS3_schueler_client_Klassentabellen.png) 
 
 ### :a: Aufgabe - Anlegen einer neuen Klasse
-Aufgrund der hohen Schüler-Anmeldezahlen wird einmalig im kommenden Schuljahr eine weiter Klasse eingerichtet für die Neulinge. Ergänzen Sie diese im SVWS-Client.
+Aufgrund der hohen Schüler-Anmeldezahlen wird einmalig im kommenden Schuljahr eine weitere Klasse für die Neulinge eingerichtet. Ergänzen Sie diese im SVWS-Client.
 ::: details
    Nach dem Speichern kann es passieren, dass die Klasse nicht in der gewünschten Reihenfolge erscheint:
    ![Klassenreihenfolge](./graphics/vonS2nachS3_schueler_client_klassensortierung.png) 
