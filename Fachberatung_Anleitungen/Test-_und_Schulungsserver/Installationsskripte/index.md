@@ -102,6 +102,27 @@ bash clone_db_in_docker_container.sh -c svws1 -d svwsdb -n 15
 
 **Download** -> [clone_db_in_docker_container.sh](https://github.com/SVWS-NRW/Schulungsunterlagen/raw/refs/heads/master/Fachberatung_Anleitungen/Schulungsserver/Installationsskripte/clone_db_in_docker_container.sh)
 
+
+## install_wenom_testserver.sh 
+
+Diese Skript installiert einen Apache2 Webserver und richtet im Webspace den WeNoM ein. 
+
+**Optionen:**
+
+| Parameter | Info |
+|-|-|
+| -v | Obligatorisch: SVWS-Server Versionsnummer |
+| -d | Optional: Zertifikatseintrag der Domainname, sonst wird nur die IP verwendet |
+
+**Beispiel:** 
+
+```bash
+bash install_wenom_testserver.sh -v 1.3.3
+```
+bash 
+
+**Download** -> [install_wenom_testserver.sh](https://github.com/SVWS-NRW/Schulungsunterlagen/raw/refs/heads/master/Fachberatung_Anleitungen/Schulungsserver/Installationsskripte/install_wenom_testserver.sh)
+
 ## install_weblupo_testserver.sh 
 
 Diese Skript installiert einen Apache2 Webserver und richtet im Webspace den WebLupo ein. 

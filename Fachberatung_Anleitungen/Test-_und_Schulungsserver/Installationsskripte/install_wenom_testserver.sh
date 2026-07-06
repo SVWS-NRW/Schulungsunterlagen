@@ -47,7 +47,7 @@ if [ -z "$SVWSVERSION" ]; then
 fi
 
 
-DOWNLOADPATH=https://github.com/SVWS-NRW/SVWS-Server/releases/download/v${SVWSVERSION}/WeNoM-${SVWSVERSION}-Beta.zip
+DOWNLOADPATH=https://github.com/SVWS-NRW/SVWS-Server/releases/download/v${SVWSVERSION}/WeNoM-${SVWSVERSION}.zip
 
 # Domain optional - Fallback auf Server-IP
 if [ -z "$DOMAIN" ]; then
