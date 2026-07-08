@@ -6,7 +6,7 @@ Diese Anleitung beschreibt die Installation von Proxmox, das Klonen und Erstelle
 
 Grundlage ist zunächst ein Debian 13, idealerweise mit graphischer Oberfläche. Dies ist zwar nicht in der Originalen Proxmox PVE version so voegesehen, hat jedoch den Vorteil, dass direkt mit einem Firefox die Erreichbarkeit der Webservices geprüft werden kann.
 
-Die Installation eines Debiansystems ist in der Anleitung zu [Virtualbox](../Virtualbox/index.md) in grundlegend beschrieben. Bitte darauf hier eine grafisch Oberfläche mitinstallieren.
+Die Installation eines Debiansystems ist in der Anleitung zu Virtualbox in grundlegend beschrieben. Bitte darauf hier eine grafisch Oberfläche mitinstallieren.
 
 ### Installation Proxmox auf einer Debian 13
 

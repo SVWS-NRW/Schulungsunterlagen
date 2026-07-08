@@ -17,4 +17,4 @@ Hinweise:
 
 + Anmeldung per E-Mail erforderlich. Bitte sendet eine E-Mail mit dem Betreff "Anmeldung Proxmox Fortbildung" an <anne.schueller@svws-nrw.de>.
 
-zur [Anleitung](../../Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox/index.md)
+zur [Anleitung](../../Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/Proxmox_Installation/index.md)

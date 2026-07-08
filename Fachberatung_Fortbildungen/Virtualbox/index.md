@@ -13,4 +13,4 @@ Hinweise:
 
 + Anmeldung per E-Mail erforderlich. Bitte sendet eine E-Mail mit dem Betreff "Anmeldung VirtualBox Fortbildung" an <anne.schueller@svws-nrw.de>.
 
-zur [Anleitung](../../Fachberatung_Anleitungen/Test-_und_Schulungsserver/Virtualbox/index.md)
+zur [Anleitung](../../Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/)
