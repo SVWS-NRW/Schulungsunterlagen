@@ -63,7 +63,7 @@ echo "Starte Installation von WeNoM $SVWSVERSION auf $DOMAIN..."
 ### Apache2 und PHP installation
 apt update && apt upgrade -y
 apt install -y curl zip unzip dnsutils nmap net-tools nano mc ca-certificates gnupg2 lsb-release openssl apt-transport-https gnupg
-apt install -y apache2 php${PHPVERSION} php${PHPVERSION}-fpm php${PHPVERSION}-sqlite3
+apt install -y apache2 libapache2-mod-security2 php${PHPVERSION} php${PHPVERSION}-fpm php${PHPVERSION}-sqlite3
 
 a2enmod proxy_fcgi setenvif rewrite headers ssl
 a2enconf php${PHPVERSION}-fpm
@@ -127,6 +127,8 @@ sed -i "s|SSLCertificateKeyFile.*|SSLCertificateKeyFile ${CERT_KEY}|" /etc/apach
 
 # Apache testen und neustarten
 apache2ctl configtest
+a2enmod security2
+
 systemctl restart apache2
 systemctl restart php${PHPVERSION}-fpm
 
