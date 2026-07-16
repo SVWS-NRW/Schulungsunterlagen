@@ -27,7 +27,7 @@
 
 DOMAIN=""
 PHPVERSION=8.4
-INSTALLPATH=/var/www/html
+INSTALLPATH=/var/www/html/wenom
 
 # Parameter-Abfrage mit getopts
 while getopts "v:d:" opt; do
@@ -133,6 +133,7 @@ systemctl restart apache2
 systemctl restart php${PHPVERSION}-fpm
 
 # Download und Entpacken 
+mkdir -p $INSTALLPATH
 echo "Download und Entpacken Wenom von $DOWNLOADPATH"
 cd $INSTALLPATH
 wget $DOWNLOADPATH
