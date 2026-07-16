@@ -24,7 +24,7 @@
 # SOFTWARE.
 ###############################################
 
-INSTALLPATH=/var/www/html/wenom
+INSTALLPATH=/var/www/html
 DOWNLOADPATH="https://github.com/SVWS-NRW/SVWS-Server/releases/download/v1.3.3/WeNoM-1.3.3.zip"
 
 # Parameter auswerten
