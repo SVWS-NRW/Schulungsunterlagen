@@ -24,7 +24,7 @@
 # SOFTWARE.
 ###############################################
 
-INSTALLPATH=/var/www/html
+INSTALLPATH=/var/www/html/wenom
 DOWNLOADPATH="https://github.com/SVWS-NRW/SVWS-Server/releases/download/v1.3.3/WeNoM-1.3.3.zip"
 
 # Parameter auswerten
@@ -68,7 +68,8 @@ apt update && apt upgrade -y && apt autoremove -y
 
 # Verzeichnisse vorbereiten
 
-cp "$INSTALLPATH/db/app.sqlite" /root/app.sqlite.backup
+########## optional: Datenbank sichern in root ordner ###########
+# cp "$INSTALLPATH/db/app.sqlite" "/root/app.sqlite.backup.$(date +%Y%m%d_%H%M%S)"
 rm -rf "$INSTALLPATH"/*
 cd "$INSTALLPATH" || exit 1
 wget -O wenom.zip "$DOWNLOADPATH"
@@ -86,14 +87,15 @@ curl -k --request GET --url https://localhost/api/setup \
 echo -e "\nDas Secret zum Verbinden mit dem SVWS Server ist:\n"
 cat "$INSTALLPATH/db/client.sec"
 
-echo -e "\n\n!!! Achtung: Das Secret wird unter https://URL/secret.html veröffentlicht !!!"
-echo "!!! Nur für Testzwecke geeignet !!!"
-echo
+########### optional: Das secret des Testservers bereitstellen ############
+# mkdir -p /var/www/html/secret
+#echo -e "\n\n!!! Achtung: Das Secret wird unter https://URL/secret.html veröffentlicht !!!"
+#echo "!!! Nur für Testzwecke geeignet !!!"
+#echo
+# cat "$INSTALLPATH/db/client.sec" > /var/www/html/secret/secret.html
 
-cat "$INSTALLPATH/db/client.sec" > /var/www/html/secret/secret.html
-
-# optional: eingerichtete DB-User wieder zurück kopieren
-cp /root/app.sqlite.backup "$INSTALLPATH/db/app.sqlite"
+########### optional: eingerichtete DB-User wieder zurück kopieren ###########
+#cp /root/app.sqlite.backup "$INSTALLPATH/db/app.sqlite"
 
 chown -R www-data:www-data $INSTALLPATH
 
