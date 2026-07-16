@@ -95,4 +95,6 @@ cat "$INSTALLPATH/db/client.sec" > /var/www/html/secret/secret.html
 # optional: eingerichtete DB-User wieder zurück kopieren
 cp /root/app.sqlite.backup "$INSTALLPATH/db/app.sqlite"
 
+chown -R www-data:www-data $INSTALLPATH
+
 echo "Deployment erfolgreich abgeschlossen!"
