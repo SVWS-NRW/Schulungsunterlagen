@@ -40,6 +40,15 @@ fi
 TEMURINVERSION=temurin-21-jdk
 PORT=8443
 
+#############################################
+# locales setzen 
+sed -i '/^# de_DE.UTF-8 UTF-8/s/^# //' /etc/locale.gen
+locale-gen
+update-locale LANG=de_DE.UTF-8
+export LANG=de_DE.UTF-8
+export LC_ALL=de_DE.UTF-8
+
+
 ############################################
 # Softwarequellen einbinden & Softwareupdate
 apt update && apt upgrade -y

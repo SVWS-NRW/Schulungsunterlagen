@@ -47,6 +47,14 @@ DOWNLOADPATH=https://github.com/SVWS-NRW/SVWS-Server/releases/download/v${SVWSVE
 
 echo "Starte Installation von WebLuPo $SVWSVERSION auf $INSTALLPATH..."
 
+#############################################
+# locales setzen 
+sed -i '/^# de_DE.UTF-8 UTF-8/s/^# //' /etc/locale.gen
+locale-gen
+update-locale LANG=de_DE.UTF-8
+export LANG=de_DE.UTF-8
+export LC_ALL=de_DE.UTF-8
+
 ### Apache2 installation
 apt update && apt upgrade -y
 apt install -y curl zip unzip dnsutils nmap net-tools nano mc ca-certificates gnupg2 lsb-release openssl apt-transport-https gnupg apache2 

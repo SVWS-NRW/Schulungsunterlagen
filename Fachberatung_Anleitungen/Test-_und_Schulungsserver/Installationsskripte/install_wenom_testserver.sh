@@ -60,6 +60,15 @@ fi
 
 echo "Starte Installation von WeNoM $SVWSVERSION auf $DOMAIN..."
 
+#############################################
+# locales setzen 
+sed -i '/^# de_DE.UTF-8 UTF-8/s/^# //' /etc/locale.gen
+locale-gen
+update-locale LANG=de_DE.UTF-8
+export LANG=de_DE.UTF-8
+export LC_ALL=de_DE.UTF-8
+
+
 ### Apache2 und PHP installation
 apt update && apt upgrade -y
 apt install -y curl zip unzip dnsutils nmap net-tools nano mc ca-certificates gnupg2 lsb-release openssl apt-transport-https gnupg

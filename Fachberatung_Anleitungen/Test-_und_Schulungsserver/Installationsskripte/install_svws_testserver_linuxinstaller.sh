@@ -47,6 +47,15 @@ if [ -z "$PASSWORD" ] || [ -z "$SVWSVERSION" ]; then
   usage
 fi
 
+#############################################
+# locales setzen 
+sed -i '/^# de_DE.UTF-8 UTF-8/s/^# //' /etc/locale.gen
+locale-gen
+update-locale LANG=de_DE.UTF-8
+export LANG=de_DE.UTF-8
+export LC_ALL=de_DE.UTF-8
+
+
 # System-Updates und Abhängigkeiten
 apt update && apt upgrade -y 
 apt install -y unzip git curl net-tools wget jq
