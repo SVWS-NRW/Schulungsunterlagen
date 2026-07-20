@@ -3,7 +3,7 @@
 ### Das Skript erstellt einen SVWS-Server inkl. Mariadb auf dem angegebene einen LXC ###
 ########################################################################################
 # 
-# Copyright (c) $(date +%Y)
+# Copyright (c) (Mai 2026) Theo Richter & David Klein
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -74,7 +74,7 @@ echo "Konfiguriere Container $CONTAINER_ID..."
 # -----------------------------------------------------------
 
 # Download/Update des Skripts im LXC
-pct exec $CONTAINER_ID -- wget -N https://github.com/SVWS-NRW/SVWS-Dokumentation/raw/refs/heads/main/deployment/Testserver/install_svws-testserver-linuxinstaller.sh -O install_svws-testserver-linuxinstaller.sh
+pct exec $CONTAINER_ID -- wget -N https://github.com/SVWS-NRW/Schulungsunterlagen/raw/refs/heads/master/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/install_svws_testserver_linuxinstaller.sh
 
 # .env im Container sauber neu erstellen (überschreiben mit '>')
 pct exec $CONTAINER_ID -- bash -c "echo 'PASSWORD=$ROOTPW' > .env"

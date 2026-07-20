@@ -3,7 +3,7 @@
 ### Das Skript importiert mehrere Datenbanken auf dem angegebenen SVWS-LXC       ###
 ####################################################################################
 #  
-# Copyright (c) $(date +%Y)
+# Copyright (c) (Mai 2026) Theo Richter & David Klein
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
