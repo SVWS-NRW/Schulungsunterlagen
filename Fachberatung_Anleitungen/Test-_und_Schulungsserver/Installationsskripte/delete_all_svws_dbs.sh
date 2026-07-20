@@ -42,6 +42,7 @@ SERVERNAME="localhost"
 APP_PORT=8443
 MARIADB_ROOT_PASSWORD=""
 LOGFILE="svws-delete.log"
+AUTO_CONFIRM=false
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ENV_FILE="$SCRIPT_DIR/.env"
@@ -53,13 +54,15 @@ if [[ -f "$ENV_FILE" ]]; then
     set +o allexport
 fi
 
-# Parameter parsen
-while getopts "p:s:h" opt; do
+# Parameter parsen (y/Y für automatische Bestätigung hinzugefügt)
+while getopts "p:s:yYh" opt; do
   case $opt in
     p) MARIADB_ROOT_PASSWORD="$OPTARG" ;;
     s) SERVERNAME="$OPTARG" ;;
+    y|Y) AUTO_CONFIRM=true ;;
     h) 
-       echo "Nutzung: $0 [-p PASSWORT] [-s SERVERNAME]"
+       echo "Nutzung: $0 [-p PASSWORT] [-s SERVERNAME] [-Y]"
+       echo "  -Y : Löschvorgang ohne Interaktionsabfrage sofort ausführen"
        exit 0
        ;;
     *) exit 1 ;;
@@ -71,7 +74,22 @@ if [[ -z "$MARIADB_ROOT_PASSWORD" ]]; then
     exit 1
 fi
 
-# --- 2. Start des Löschvorgangs ---
+# --- 2. Sicherheitsabfrage ---
+if [ "$AUTO_CONFIRM" = false ]; then
+    echo -ne "\n\033[1;31mWARNUNG: Sie sind dabei, ALLE Datenbanken auf ${SERVERNAME} zu LÖSCHEN!\033[0m\n"
+    read -p "Wollen Sie wirklich alle Datenbanken löschen? (j/N): " CONFIRM
+    case "$CONFIRM" in
+        [jJ][eE][sS]|[jJ]|[yY]) 
+            echo "Bestätigt. Starte Vorgang..."
+            ;;
+        *)
+            echo "Vorgang abgebrochen."
+            exit 0
+            ;;
+    esac
+fi
+
+# --- 3. Start des Löschvorgangs ---
 
 echo "--------------------------------------------------------"
 echo "Starte Löschvorgang auf ${SERVERNAME} am $(date)" | tee -a "$LOGFILE"

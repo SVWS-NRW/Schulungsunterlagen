@@ -86,6 +86,7 @@ curl -k --request GET --url https://localhost/api/setup \
 
 echo -e "\nDas Secret zum Verbinden mit dem SVWS Server ist:\n"
 cat "$INSTALLPATH/db/client.sec"
+echo ""
 
 ########### optional: Das secret des Testservers bereitstellen ############
 # mkdir -p /var/www/html/secret
