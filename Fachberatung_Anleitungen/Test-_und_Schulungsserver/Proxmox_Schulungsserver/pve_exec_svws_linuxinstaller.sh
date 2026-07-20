@@ -82,6 +82,6 @@ pct exec $CONTAINER_ID -- bash -c "echo 'SVWSVERSION=$SVWSVERSION' >> .env"
 
 
 # Installer ausführen
-pct exec $CONTAINER_ID -- bash install_svws-testserver-linuxinstaller.sh -p "$ROOTPW" -v "$SVWSVERSION"
+pct exec $CONTAINER_ID -- bash install_svws_testserver_linuxinstaller.sh -p "$ROOTPW" -v "$SVWSVERSION"
 
 echo "Installation abgeschlossen."
