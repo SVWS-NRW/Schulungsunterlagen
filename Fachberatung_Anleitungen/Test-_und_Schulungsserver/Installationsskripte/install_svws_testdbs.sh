@@ -51,7 +51,7 @@ REPO_URL="https://github.com/SVWS-NRW/SVWS-TestSqlites"
 FOLDER_NAME="SVWS-TestSqlites"
 USERNAME="svwsadmin"
 PASSWORD="svwsadmin"
-API_URL="https://nightly.svws-nrw.de/api/schema/root/import/sqlite/Test"
+API_URL="https://localhost:8443/api/schema/root/import/sqlite/Test"
 
 echo "Username: $USERNAME"
 echo "Password: $PASSWORD"
