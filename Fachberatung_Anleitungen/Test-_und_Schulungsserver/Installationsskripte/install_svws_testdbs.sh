@@ -53,8 +53,8 @@ USERNAME="svwsadmin"
 PASSWORD="svwsadmin"
 API_URL="https://nightly.svws-nrw.de/api/schema/root/import/sqlite/Test"
 
-echo: "Username: $USERNAME"
-echo: "Password: $PASSWORD"
+echo "Username: $USERNAME"
+echo "Password: $PASSWORD"
 
 echo -e "\n=== 1. Prüfe Git-Installation ==="
 if ! command -v git &> /dev/null; then
