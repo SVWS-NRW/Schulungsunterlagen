@@ -10,8 +10,9 @@
 
 
 ## :point_right: SchILD-Tipp der Woche   
-| :date: 08.06.2026 | :information_source: [Bug im ZP10-Export](./SchILD-Tipp_der_Woche/zp10Export.md) |
+| :date: 14.09.2026 | :information_source: [Statistikprüfung - Stapelüberlauf](./SchILD-Tipp_der_Woche/statistikfehlerStapelueberlauf.md) |
 |------------------|----------------------------------------------------------------------------------|
+| :date: 08.06.2026 | :information_source: [Bug im ZP10-Export](./SchILD-Tipp_der_Woche/zp10Export.md) |
 | :date: 18.05.2026 | :information_source: [Sichtbare Spalten im Lehrercontainer](./SchILD-Tipp_der_Woche/lehrerspalten.md) |
 | :date: 11.05.2026 | :information_source: [Status Ehemalige](./SchILD-Tipp_der_Woche/ehemalige.md) |
 | :date: 13.04.2026 | :information_source: [Zeugnis-Rechtsbelehrung](./SchILD-Tipp_der_Woche/zeugnisRechtsbelehrung.md) |
