@@ -14,7 +14,7 @@ Die Eigenschaft wird automatisch in die Kursplanung übernommen.
 4. Im Umwahldialog (Schüler-Kurszuordnung) wird das zugewählte Fach einem Kurs zugewiesen (manuell oder "Verteilen").
 
 ### Umwahlen **nach der Übertragung der Blockung** in die Leistungsdaten  
-:information_source: [Infos zur Erstellung einer Blockung](https://doku.svws-nrw.de/webclient/apps/gost/kursplanung/#anderungen-nach-ubertrag-der-kursplanung-in-leistungsdaten)
+:information_source: [Infos zur Erstellung einer Blockung](https://doku.svws-nrw.de/svws-client/apps/gost/kursplanung/#anderungen-nach-ubertrag-der-kursplanung-in-leistungsdaten)
 
 
 **Umwahl der Kursart** GKM-GKS oder GKS-GKM:
