@@ -88,6 +88,11 @@ export default defineConfig(({ mode }) => {
 							],
 						},
 						{
+							"text": "SEK I",
+							"collapsed": true,
+							"link": "/schulungsmodule/sek_i",
+						},
+						{
 							"text": "BK",
 							"collapsed": true,
 							"link": "/schulungsmodule/BK",
@@ -175,11 +180,6 @@ export default defineConfig(({ mode }) => {
 							"text": "Reporterstellung",
 							"collapsed": true,
 							"link": "/schulungsmodule/Reporterstellung",
-						},
-						{
-							"text": "SEK I",
-							"collapsed": true,
-							"link": "/schulungsmodule/sek_i",
 						},
 						{
 							"text": "Übergangsschulung",
