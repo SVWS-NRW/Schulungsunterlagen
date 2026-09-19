@@ -2,7 +2,7 @@
 
 In diesem Bereich finden Sie die Schulungsmodule für die gymansiale Oberstufe.
 
-## Modul 1 - Planung einer EF  
+## [Modul 1 - Planung einer EF  ](./Laufbahnplanung_kommende_EF)
 beschäftigt sich mit der Vorbereitung der neuen EF in der 10 und dann mit der Planung und Blockung der EF. Weiterhin findet eine Orientierung im SVWS-Client und SchILD-NRW 3 statt, bezüglich der Verarbeitung der Daten für die Oberstufe.  
 Das Modul ist auf zwei Tage ausgelegt.
   
