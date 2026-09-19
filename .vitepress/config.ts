@@ -88,12 +88,22 @@ export default defineConfig(({ mode }) => {
 							],
 						},
 						{
+							"text": "Grundschule",
+							"collapsed": true,
+							"link": "/schulungsmodule/GS",
+						},
+						{
+							"text": "SEK I",
+							"collapsed": true,
+							"link": "/schulungsmodule/sek_i",
+						},
+						{
 							"text": "BK",
 							"collapsed": true,
 							"link": "/schulungsmodule/BK",
 						},
 						{
-							"text": "GOSt",
+							"text": "Gym. Oberstufe",
 							"collapsed": true,
 							"link": "/schulungsmodule/gost",
 							"items": [
@@ -175,11 +185,6 @@ export default defineConfig(({ mode }) => {
 							"text": "Reporterstellung",
 							"collapsed": true,
 							"link": "/schulungsmodule/Reporterstellung",
-						},
-						{
-							"text": "SEK I",
-							"collapsed": true,
-							"link": "/schulungsmodule/sek_i",
 						},
 						{
 							"text": "Übergangsschulung",
