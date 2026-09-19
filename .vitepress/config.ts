@@ -88,6 +88,11 @@ export default defineConfig(({ mode }) => {
 							],
 						},
 						{
+							"text": "Grundschule",
+							"collapsed": true,
+							"link": "/schulungsmodule/GS",
+						},
+						{
 							"text": "SEK I",
 							"collapsed": true,
 							"link": "/schulungsmodule/sek_i",
