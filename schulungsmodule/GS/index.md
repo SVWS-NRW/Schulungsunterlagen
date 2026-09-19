@@ -6,4 +6,4 @@
   
 ## Modul Leisungsdaten-GS  
   
-  Spezielles Schuolungsmodul zur Erfassung und Verwaltung der Leistungsdaten in der Grundschule bis zum Zeugnisdruck.
+  Spezielles Schulungsmodul zur Erfassung und Verwaltung der Leistungsdaten in der Grundschule bis zum Zeugnisdruck.
