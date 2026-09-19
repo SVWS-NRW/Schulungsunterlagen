@@ -2,7 +2,7 @@
 
 ## Modul Basisschulung
   
-  Weitestgehend ähnlich zu allgemeiner BAsisschulung.
+  Weitestgehend ähnlich zu allgemeiner Basisschulung.
   
 ## Modul Leisungsdaten-GS  
   
