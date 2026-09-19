@@ -93,7 +93,7 @@ export default defineConfig(({ mode }) => {
 							"link": "/schulungsmodule/BK",
 						},
 						{
-							"text": "GOSt",
+							"text": "Gym. Oberstufe",
 							"collapsed": true,
 							"link": "/schulungsmodule/gost",
 							"items": [
