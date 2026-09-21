@@ -1,9 +1,27 @@
-# Leitungdingens
+# Klausurplanung & Koordination
 
 + In Bearbeitung
 + Hinweis für den Entwickler: Datei- und Ordnername muss noch angepasst werden.
 
 3. **Modul Sek II-Koordination** Tag 1 - Klausurplanung, Abiturplanung, exotischere Sonderfälle, **Praxiscafé**
+
+## Anpassung der allgemeinen Klausurvorlagen
+
+### Klausurlängen und Besonderheiten
+
+### gleichwertig komplexe Leistungsnachweise
+
+## Übernahme und Anpassung der Vorlagen in indiv. Jahrgangsabschnitte
+
+## Schienenplanung - Klausurblockung
+
+## Terminierungen
+
+## Terminzusammenlegungen
+
+## Klausurplandruck
+
+## Nachschreibterminerungen
 
 + Klausurplanung, Stundenplan
 
