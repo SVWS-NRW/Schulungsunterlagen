@@ -381,6 +381,8 @@ Im Reiter [**Kataloge**](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.ph
 
 Die Einträge aus den unterschiedlichen Katalogen stehen an verschiedenen Stellen im Programm in Drop-Down-Menüs wieder zur Verfügung.
 
+Besonders wichtige Kataloge sind die schulbezogenen. 
+
 ## 8.1 Menüband
 
 Ein Menüband existiert für die Kataloge nicht. Stattdessen kann der jeweilige, zu bearbeitende [Allgemeine Katalog](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Allgemeine_Kataloge_(Kataloge)) oder [Schulbezogene Katalog](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Schulbezogene_Kataloge_(Kataloge)) direkt im linken Teil des Bildschirms angewählt werden.
