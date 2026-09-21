@@ -310,7 +310,11 @@ Sie sehen hier ein Fenster, das dem Karteireiter **Schüler** ähnelt und Ihnen 
 
 **Tipp:** Es ist möglich, über mehrere Reiter hinweg zu filtern, um noch genauere Ergebnisse zu erzielen.
 
-## 6.3 Aufgaben zum Reiter: Auswahl
+## 6.3 [Individuelle Schülergruppe erstellen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Individuelle_Sch%C3%BClergruppen_bearbeiten_und_nutzen_(Tutorial))
+
+Erstellen Sie eine eigene Schülergruppe, die an Ihrer Schule sinnvoll wäre.
+
+## 6.4 Aufgaben zum Reiter: Auswahl
 
 **Aufgabe 1**
 Orientieren Sie sich zunächst und ermitteln Sie, wie viele Lernende in der Datenbank vorhanden sind.
