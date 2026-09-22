@@ -467,7 +467,15 @@ Sehen Sie sich die Vorschau aus dem Reiter "Schüler" heraus an.
 **Aufgabe 5**
 Drucken Sie einen [Serienbrief](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Serienbriefsammlung_(Reportverwaltung)) an die Erziehungsberechtigten der Klasse 08A und teilen Sie ihnen mit, dass sich wegen der Schließung der Einrichtung durch das Gesundheitsamt die Klassenfahrt um vier Wochen verschiebt.
 
-# 10. Aufgaben aus dem Alltag
+# 10. Versetzung
+
+## 10.1 [Versetzung ins neue Halbjahr](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Versetzung/%C3%9Cbertrag_ins_neue_Halbjahr_oder_Abschluss_(Gruppenprozesse_Lernabschnitte,_Versetzung))
+
+## 10.2 [Versetzung ins neue Schuljahr](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Versetzung_ins_neue_Schuljahr_und_Abschnittswechsel_durchf%C3%BChren_(Einf%C3%BChrung_in_SchILD-NRW))
+
+**Aufgabe** Führen Sie beide Versetzungen durch an unserer Datenbank.
+
+# 11. Aufgaben aus dem Alltag
 
 **Aufgabe 1**
 Der Familienname Schmitz ist falsch geschrieben. Es muss richtig heißen: Schmitts. Korrigieren Sie diesen Fehler bei Schüler:innen in der 06B und 08A und deren Erziehungsberechtigten.
