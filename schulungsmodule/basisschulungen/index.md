@@ -327,7 +327,7 @@ Filtern Sie nach allen Lernenden, die nicht die deutsche Staatsangehörigkeit be
 **Hinweis:** Der Doppelklick kann hier hilfreich sein, um schnell zur invertierten Filteroption zu wechseln.
 
 **Aufgabe 3**
-Filtern Sie nach allen Lernenden, die dieses Schuljahr den Halbtagsunterricht besuchen und weiblich sind.
+Filtern Sie nach allen Lernenden, die deutsch und weiblich sind.
 
 **Aufgabe 4**
 Filtern Sie nach Lernenden, die als Erziehungsberechtigte ihre Eltern eingetragen haben und einen Migrationshintergrund aufweisen.
