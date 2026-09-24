@@ -4,6 +4,6 @@
   
   Weitestgehend ähnlich zu allgemeiner Basisschulung.
   
-## Modul Leisungsdaten-GS  
+## Modul Leistungsdaten-GS  
   
   Spezielles Schulungsmodul zur Erfassung und Verwaltung der Leistungsdaten in der Grundschule bis zum Zeugnisdruck.
