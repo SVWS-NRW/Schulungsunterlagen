@@ -335,6 +335,9 @@ Filtern Sie nach Lernenden, die als Erziehungsberechtigte ihre Eltern eingetrage
 **Aufgabe 5**
 Testen Sie Filtermöglichkeiten, die für Ihren Schulalltag hilfreich sind.
 
+**Aufgabe 6**
+Erstellen Sie eine individuelle Schülergruppe mit 5 Schülern, die zur Schach AG gehen.
+
 # 7. Reiter: Gruppenprozesse
 
 Gruppenprozesse sind ein mächtiges aber auch sehr gefährliches Werkzeug, mit dem man bei vielen bzw. auch allen Schüler:innen gleichzeitig Daten verändern kann.
