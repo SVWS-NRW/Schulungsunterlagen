@@ -312,7 +312,7 @@ Sie sehen hier ein Fenster, das dem Karteireiter **Schüler** ähnelt und Ihnen 
 
 ## 6.3 [Individuelle Schülergruppe erstellen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Individuelle_Sch%C3%BClergruppen_bearbeiten_und_nutzen_(Tutorial))
 
-Erstellen Sie eine eigene Schülergruppe, die an Ihrer Schule sinnvoll wäre.
+Erstellen und hinzufügen wird demonstriert. Rechtsklick beachten. Button bei Auswahl.
 
 ## 6.4 Aufgaben zum Reiter: Auswahl
 
