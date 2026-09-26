@@ -194,7 +194,7 @@ export default defineConfig(({ mode }) => {
 																		},
 																		{
 																			"text": "12. Zeugnisbroschürendruck mit dem Foxit Reader",
-																			"link": "/schulungsmodule/GS/Leistungsdaten-GS/12. Zeugnisbroschürendruck mit dem Foxit Reader",
+																			"link": "/schulungsmodule/GS/Leistungsdaten-GS/12. Zeugnis-Broschürendruck mit dem Foxit Reader",
 																		},
 																	],
 																},
