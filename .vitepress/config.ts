@@ -143,6 +143,61 @@ export default defineConfig(({ mode }) => {
 										},
 									],
 								},
+								{
+																	"text": "Leistungsdaten GS",
+																	"collapsed": true,
+																	"link": "/schulungsmodule/GS/Leistungsdaten-GS",
+																	"items": [
+																		{
+																			"text": "1. Allgemeines",
+																			"link": "/schulungsmodule/GS/Leistungsdaten-GS/1. Allgemeines",
+																		},
+																		{
+																			"text": "2. Übersicht",
+																			"link": "/schulungsmodule/GS/Leistungsdaten-GS/2. Übersicht",
+																		},
+																		{
+																			"text": "3. Schulbezogene Kataloge pflegen",
+																			"link": "/schulungsmodule/GS/Leistungsdaten-GS/3. Schulbezogene Kataloge pflegen",
+																		},
+																		{
+																			"text": "4. Unterricht",
+																			"link": "/schulungsmodule/GS/Leistungsdaten-GS/4. Unterricht",
+																		},
+																		{
+																			"text": "5. Vorbereitungen für Ankreuzzeugnisse",
+																			"link": "/schulungsmodule/GS/Leistungsdaten-GS/5. Spezielle Vorbereitungen für Ankreuzzeugnisse",
+																		},
+																		{
+																			"text": "6. Vorbereitungen für Textzeugnisse",
+																			"link": "/schulungsmodule/GS/Leistungsdaten-GS/6. Spezielle Vorbereitungen für Textzeugnisse",
+																		},
+																		{
+																			"text": "7. Lernstandsberichte",
+																			"link": "/schulungsmodule/GS/Leistungsdaten-GS/7. Lernstandsberichte",
+																		},
+																		{
+																			"text": "8. Zeugnisdateien herunterladen",
+																			"link": "/schulungsmodule/GS/Leistungsdaten-GS/8. Zeugnisdateien herunterladen",
+																		},
+																		{
+																			"text": "9. Zeugniskonfiguration",
+																			"link": "/schulungsmodule/GS/Leistungsdaten-GS/9. Konfiguration des Erscheinungsbildes der Zeugnisse",
+																		},
+																		{
+																			"text": "10. Versetzung",
+																			"link": "/schulungsmodule/GS/Leistungsdaten-GS/10. Zeugnisvorbereitungen, Noten, Fehlstunden",
+																		},
+																		{
+																			"text": "11. Zeugnisvorbereitungen, Noten, Fehlstunden",
+																			"link": "/schulungsmodule/GS/Leistungsdaten-GS/11. Zeugnisdruck",
+																		},
+																		{
+																			"text": "12. Zeugnisbroschürendruck mit dem Foxit Reader",
+																			"link": "/schulungsmodule/GS/Leistungsdaten-GS/12. Zeugnisbroschürendruck mit dem Foxit Reader",
+																		},
+																	],
+																},
 							],	
 						},
 						{
