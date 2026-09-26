@@ -142,7 +142,8 @@ export default defineConfig(({ mode }) => {
 											"link": "/schulungsmodule/GS/Basisschulung-GS/11. Aufgaben aus dem Schulalltag_GS",
 										},
 									],
-								},	
+								},
+							],	
 						},
 						{
 							"text": "SEK I",
