@@ -91,6 +91,58 @@ export default defineConfig(({ mode }) => {
 							"text": "Grundschule",
 							"collapsed": true,
 							"link": "/schulungsmodule/GS",
+							"items": [
+								{
+									"text": "Basisschulung GS",
+									"collapsed": true,
+									"link": "/schulungsmodule/GS/Basisschulung-GS",
+									"items": [
+										{
+											"text": "1. Allgemeines",
+											"link": "/schulungsmodule/GS/Basisschulung-GS/1. Allgemeines_GS",
+										},
+										{
+											"text": "2. Erste Orientierung in SchILD-NRW",
+											"link": "/schulungsmodule/GS/Basisschulung-GS/2. Erste Orientierung in SchILD-NRW_GS",
+										},
+										{
+											"text": "3. Verwaltung",
+											"link": "/schulungsmodule/GS/Basisschulung-GS/3. Verwaltung_GS",
+										},
+										{
+											"text": "4. Lehrkräfte",
+											"link": "/schulungsmodule/GS/Basisschulung-GS/4. Lehrkräfte_GS",
+										},
+										{
+											"text": "5. Schüler",
+											"link": "/schulungsmodule/GS/Basisschulung-GS/5. Schüler_GS",
+										},
+										{
+											"text": "6. Auswahl",
+											"link": "/schulungsmodule/GS/Basisschulung-GS/6. Auswahl_GS",
+										},
+										{
+											"text": "7. Gruppenprozesse",
+											"link": "/schulungsmodule/GS/Basisschulung-GS/7. Gruppenprozesse_GS",
+										},
+										{
+											"text": "8. Kataloge",
+											"link": "/schulungsmodule/GS/Basisschulung-GS/8. Kataloge_GS",
+										},
+										{
+											"text": "9. Reportverwaltung",
+											"link": "/schulungsmodule/GS/Basisschulung-GS/9. Reportverwaltung_GS",
+										},
+										{
+											"text": "10. Versetzung",
+											"link": "/schulungsmodule/GS/Basisschulung-GS/10. Versetzung_GS",
+										},
+										{
+											"text": "11. Aufgaben aus dem Schulalltag",
+											"link": "/schulungsmodule/GS/Basisschulung-GS/11. Aufgaben aus dem Schulalltag_GS",
+										},
+									],
+								},	
 						},
 						{
 							"text": "SEK I",
