@@ -1,6 +1,6 @@
 # Leistungsdatenverwaltung Grundschule
 
-Dieses Modul ist auf die LÖeistungsdatenverwaltung und Zeugniserstellunge in der Grundschule ausgerichtet  
+Dieses Modul ist auf die Leistungsdatenverwaltung und Zeugniserstellung in der Grundschule ausgerichtet  
 
 Inhalt:  
 * Orientierung in Schild3
