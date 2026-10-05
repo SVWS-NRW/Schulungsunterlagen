@@ -4,7 +4,7 @@ Eine ausführliche Beschreibung finden Sie in unserer [SVWS-Dokumentation](https
 
 ## Kurzanleitung
 
-+ download [tools.zip](./tools.zip)
++ download [tools.zip](https://github.com/SVWS-NRW/Schulungsunterlagen/raw/refs/heads/master/Fachberatung_Anleitungen/Test-_und_Schulungsserver/SVWS-Tools/tools.zip)
 + Entpacken  
 unter Windows: z.B. in das Verzeichnis `C://SVWS-Arbeitsverzeichnis/tools`  
 unter Linux z.B. in `/opt/app/svws/tools`
