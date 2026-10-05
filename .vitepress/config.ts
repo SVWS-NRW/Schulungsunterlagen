@@ -590,8 +590,8 @@ export default defineConfig(({ mode }) => {
 									"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/",
 								},
 								{
-									"text": "Wartung Schulungsserver",
-									"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Moderatoren_Schulungsserver/Wartung",
+									"text": "SVWS-Tools",
+									"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/SVWS-Tools/",
 								},
 								{
 									"text": "Virtualbox Anleitung",
@@ -600,6 +600,10 @@ export default defineConfig(({ mode }) => {
 								{
 									"text": "Windows Testserver",
 									"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Windows_Testserver/",
+								},
+								{
+									"text": "Wartung Schulungsserver",
+									"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Moderatoren_Schulungsserver/Wartung",
 								},
 							],
 						},

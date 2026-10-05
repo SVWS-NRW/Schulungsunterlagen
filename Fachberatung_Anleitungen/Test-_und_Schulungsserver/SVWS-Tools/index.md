@@ -1,13 +1,16 @@
 # SVWS-Tools
 
-## Eine einfache Möglichkeit zur Installation der SVWS-Tools
-
 Eine ausführliche Beschreibung finden Sie in unserer [SVWS-Dokumentation](https://doku.svws-nrw.de/deployment/svws-tools/).
 
-Für die Installation müssen Sie lediglich die ZIP-Datei herunterladen und in einen entsprechenden Ordner entpacken, beispielsweise in den Ordner `Tools` innerhalb des Arbeitsverzeichnisses.
+## Kurzanleitung
 
-Anschließend müssen Sie in der SVWS-Config unter **Apps** den entsprechenden Pfad angeben, wie im Screenshot dargestellt.
++ download [tools.zip](./tools.zip)
++ Entpacken  
+unter Windows: z.B. in das Verzeichnis `C://SVWS-Arbeitsverzeichnis/tools`  
+unter Linux z.B. in `/opt/app/svws/tools`
++ svwsconfig anpassen:  
+unter Windows für unser Beispiel: `"AppsPath": "C://SVWS-Arbeitsverzeichnis/tools"`  
+unter Linux für unser Beispiel: `"AppsPath": "/opt/app/svws/tools/"`  
++ SVWS-Server neu starten
 
-Danach muss der SVWS-Server neu gestartet werden. Anschließend können Sie auf die verschiedenen Apps zugreifen.
-
-Unter `/start` finden Sie eine Startseite, auf der alle verfügbaren Apps übersichtlich und direkt miteinander verlinkt sind.
+Unter `https://Mein_SVWS-Server/app/start` finden Sie eine Startseite, auf der alle verfügbaren Apps übersichtlich und direkt miteinander verlinkt sind.
