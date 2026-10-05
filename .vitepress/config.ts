@@ -595,11 +595,11 @@ export default defineConfig(({ mode }) => {
 								},
 								{
 									"text": "Virtualbox Anleitung",
-									"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Virtualbox/",
+									"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/",
 								},
 								{
-									"text": "WebLupo Windows",
-									"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/WebLupo_Windows/",
+									"text": "Windows Testserver",
+									"link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Windows_Testserver/",
 								},
 							],
 						},
