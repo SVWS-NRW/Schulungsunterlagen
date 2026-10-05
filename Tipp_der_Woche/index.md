@@ -1,8 +1,9 @@
 # :bulb: Tipp der Woche
 
 ## :point_right: SVWS-Hack der Woche   
-| :date: 22.06.2026 | :information_source: [SVWS-Tools](./SVWS-Hack_der_Woche/tools.md) |
+| :date: 05.10.2026 | :information_source: [Fehlerhafte Kursarten DFG/DFK](./SVWS-Hack_der_Woche/fehlerhafteKursarteDFGundDFK.md) |
 |------------------|----------------------------------------------------------------------------------|
+| :date: 22.06.2026 | :information_source: [SVWS-Tools](./SVWS-Hack_der_Woche/tools.md) |
 | :date: 20.04.2026 | :information_source: [Modul zur Konferenzübersicht](./SVWS-Hack_der_Woche/konferenzmodul.md) |
 | :date: 09.03.2026 | :information_source: [Dump mit Dbeaver](./SVWS-Hack_der_Woche/dbeaver-dump.md) |
 | :date: 16.02.2026 | :information_source: [Bugfix](./SVWS-Hack_der_Woche/bugfix122.md) |
