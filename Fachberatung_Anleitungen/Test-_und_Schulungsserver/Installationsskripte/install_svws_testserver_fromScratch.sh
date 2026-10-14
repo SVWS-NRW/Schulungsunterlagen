@@ -109,7 +109,8 @@ sed -i \
   /app/SVWS-Server/svws-server-app/svwsconfig.json
   
 # SVWS-Server als Dienst einrichten
-chown -R svws:svws /app/SVWS-Server/
+chown -R svws:svws 
+git config --global --add safe.directory /app/SVWS-Server/app/SVWS-Server/
 
 echo "[Unit]
 Description=SVWS Server
