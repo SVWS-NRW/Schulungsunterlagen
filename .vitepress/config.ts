@@ -261,19 +261,19 @@ export default defineConfig(({ mode }) => {
 									"link": "/schulungsmodule/gost/Klausurplanung",
 									"items": [
 										{
-											"text": "1 Orientierung und Wiederholung",
+											"text": "1 allgemeine Vorlagen",
 											"link": "/schulungsmodule/gost/Klausurplanung/1. allgemeine Vorlagen",
 										},
 										{
-											"text": "2 NeueQphase und Laufbahnkorrekturen",
+											"text": "2 Vorgaben pro Abschnitt",
 											"link": "/schulungsmodule/gost/Klausurplanung/2. Vorgaben pro Abschnitt",
 										},
 										{
-											"text": "3 KorrigierteEF und Q1Blocken",
+											"text": "3 Schienen",
 											"link": "/schulungsmodule/gost/Klausurplanung/3. Schienen",
 										},
 										{
-											"text": "4 Umwahlen und Wahl von A3A4",
+											"text": "4 Kalender",
 											"link": "/schulungsmodule/gost/Klausurplanung/4. Kalender",
 										},
 									],
