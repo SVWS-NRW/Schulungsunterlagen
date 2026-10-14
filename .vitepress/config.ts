@@ -50,10 +50,6 @@ export default defineConfig(({ mode }) => {
 									"link": "/schulungsmodule/basisschulungen/1. Allgemeines",
 								},
 								{
-									"text": "10. Aufgaben aus dem Schulalltag",
-									"link": "/schulungsmodule/basisschulungen/10. Aufgaben aus dem Schulalltag",
-								},
-								{
 									"text": "2. Erste Orientierung in SchILD-NRW",
 									"link": "/schulungsmodule/basisschulungen/2. Erste Orientierung in SchILD-NRW",
 								},
@@ -84,6 +80,10 @@ export default defineConfig(({ mode }) => {
 								{
 									"text": "9. Reportverwaltung",
 									"link": "/schulungsmodule/basisschulungen/9. Reportverwaltung",
+								},
+								{
+									"text": "10. Aufgaben aus dem Schulalltag",
+									"link": "/schulungsmodule/basisschulungen/10. Aufgaben aus dem Schulalltag",
 								},
 							],
 						},
@@ -252,6 +252,29 @@ export default defineConfig(({ mode }) => {
 										{
 											"text": "7 Leistungsdaten und Zeugnisse",
 											"link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/7_Leistungsdaten_und_Zeugnisse",
+										},
+									],
+								},
+								{
+									"text": "Klausurplanung",
+									"collapsed": true,
+									"link": "/schulungsmodule/gost/Klausurplanung",
+									"items": [
+										{
+											"text": "1 Orientierung und Wiederholung",
+											"link": "/schulungsmodule/gost/Klausurplanung/1. allgemeine Vorlagen",
+										},
+										{
+											"text": "2 NeueQphase und Laufbahnkorrekturen",
+											"link": "/schulungsmodule/gost/Klausurplanung/2. Vorgaben pro Abschnitt",
+										},
+										{
+											"text": "3 KorrigierteEF und Q1Blocken",
+											"link": "/schulungsmodule/gost/Klausurplanung/3. Schienen",
+										},
+										{
+											"text": "4 Umwahlen und Wahl von A3A4",
+											"link": "/schulungsmodule/gost/Klausurplanung/4. Kalender",
 										},
 									],
 								},
