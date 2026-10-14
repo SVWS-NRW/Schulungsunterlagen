@@ -4,4 +4,6 @@
 
 >Dabei genügt die Anlage eines Stundenplanes, eine exakte Verteilung der Stundenplanlagen ist für die Klausurplanungen sehr hilfreich, aber nicht notwendig.  
 
->**Ohne Stundenplan** können Sie immer noch **Klausuren blocken**, also festlegen, welche Kurs kollisionsfrei zusammen schreiben können.
+>**Ohne Stundenplan** können Sie immer noch **Klausuren blocken**, also festlegen, welche Kurs kollisionsfrei zusammen schreiben können.  
+
+>Setzen Sie im Stundenplan wenigstens das **Zeitraster**, dann sind auch Termine für Klausuren unabhängig von Unterrichtslagen setzbar.
