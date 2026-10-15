@@ -276,6 +276,18 @@ export default defineConfig(({ mode }) => {
 											"text": "4 Kalender",
 											"link": "/schulungsmodule/gost/Klausurplanung/4. Kalender",
 										},
+										{
+											"text": "5 Räume und Startzeiten",
+											"link": "/schulungsmodule/gost/Klausurplanung/5. Räume und Startzeiten",
+										},
+										{
+											"text": "6 Planübersichten und Ausgaben",
+											"link": "/schulungsmodule/gost/Klausurplanung/6. Planübersichten und Ausgaben",
+										},
+										{
+											"text": "7 Nachschreibtermine",
+											"link": "/schulungsmodule/gost/Klausurplanung/7. Nachschreibtermine",
+										},
 									],
 								},
 								{
