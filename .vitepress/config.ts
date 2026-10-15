@@ -288,6 +288,10 @@ export default defineConfig(({ mode }) => {
 											"text": "7 Nachschreibtermine",
 											"link": "/schulungsmodule/gost/Klausurplanung/7. Nachschreibtermine",
 										},
+										{
+											"text": "8 Praxisaufgaben",
+											"link": "/schulungsmodule/gost/Klausurplanung/8. Praxisaufgaben",
+										},
 									],
 								},
 								{
