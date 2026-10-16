@@ -201,10 +201,77 @@ export default defineConfig(({ mode }) => {
 							],	
 						},
 						{
-							"text": "SEK I",
-							"collapsed": true,
-							"link": "/schulungsmodule/sek_i",
-						},
+    "text": "SEK I",
+    "collapsed": true,
+    "link": "/schulungsmodule/sek_i",
+    "items": [
+        {
+            "text": "1 Unterrichtsfächer",
+            "link": "/schulungsmodule/sek_i/1_Unterrichtsfaecher"
+        },
+        {
+            "text": "2 Stundentafeln",
+            "link": "/schulungsmodule/sek_i/2_Stundentafeln"
+        },
+        {
+            "text": "3 Kursverwaltung",
+            "link": "/schulungsmodule/sek_i/3_Kursverwaltung"
+        },
+        {
+            "text": "4 Unterricht manuell bearbeiten",
+            "link": "/schulungsmodule/sek_i/4_Unterricht_manuell_bearbeiten"
+        },
+        {
+            "text": "5 Unterricht importieren",
+            "link": "/schulungsmodule/sek_i/5_Unterricht_importieren"
+        },
+        {
+            "text": "6 Gruppenprozesse: Fächer",
+            "link": "/schulungsmodule/sek_i/6_Gruppenprozesse_Faecher"
+        },
+        {
+            "text": "7 Noten und Zeugnisvorbereitungen",
+            "link": "/schulungsmodule/sek_i/7_Noten_Zeugnisvorbereitungen"
+        },
+        {
+            "text": "8 Drucken",
+            "link": "/schulungsmodule/sek_i/8_Drucken"
+        },
+        {
+            "text": "9 Zeugnisformulare",
+            "link": "/schulungsmodule/sek_i/9_Zeugnisformulare"
+        },
+        {
+            "text": "10 Halbjahreswechsel",
+            "link": "/schulungsmodule/sek_i/10_Halbjahreswechsel"
+        },
+        {
+            "text": "11 Mahnungen",
+            "link": "/schulungsmodule/sek_i/11_Mahnungen"
+        },
+        {
+            "text": "12 Zentrale Prüfungen 10",
+            "link": "/schulungsmodule/sek_i/12_Zentrale_Pruefungen_10"
+        },
+        {
+            "text": "13 Vorbereitungen in SchILD",
+            "link": "/schulungsmodule/sek_i/13_Vorbereitungen_in_SchILD"
+        },
+        {
+            "text": "14 Konferenzvorbereitung",
+            "link": "/schulungsmodule/sek_i/14_Konferenzvorbereitung"
+        },
+        {
+            "text": "15 Zeugnisdruck",
+            "link": "/schulungsmodule/sek_i/15_Zeugnisdruck"
+        },
+        {
+            "text": "16 Versetzung",
+            "link": "/schulungsmodule/sek_i/16_Versetzung"
+        }
+    ]
+},
+
 						{
 							"text": "BK",
 							"collapsed": true,
