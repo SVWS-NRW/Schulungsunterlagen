@@ -1,10 +1,10 @@
 # SVWS-Convention
 
-Die jährliche SVWS-Convention gehört zum Austausch im Team. Hier bündeln wir die Informationen für Eure Planung und die Materialien zur Nachbereitung.
+Die SVWS-Convention findet einmal jährlich in Düsseldorf statt und dient dem Austausch über Neuerungen und anstehende Aufgaben im Team. Hier bündeln wir die Informationen für Eure Planung und die Materialien zur Nachbereitung.
 
 ## Termin, Ort & Anmeldung
 
-Für die nächste Veranstaltung sind in diesem Portal noch keine bestätigten Angaben hinterlegt. Hinweise erhältst Du über den [Newsletter](/neu-im-team/kommunikation#newsletter) und die bekannten Kommunikationswege im Team.
+Der konkrete Termin, der Veranstaltungsort innerhalb Düsseldorfs und das Anmeldeverfahren für die nächste Veranstaltung werden hier ergänzt, sobald sie bestätigt sind. Hinweise erhältst Du über den [Newsletter](/neu-im-team/kommunikation#newsletter) und die bekannten Kommunikationswege im Team.
 
 ## Themen aus der Praxis einbringen
 

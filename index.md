@@ -4,14 +4,14 @@ title: Gemeinsam beraten. Wissen teilen.
 hero:
   name: SVWS-Teamportal
   text: Gemeinsam beraten. Wissen teilen.
-  tagline: Dein Arbeitsbereich für Fachberatung und Moderation rund um SchILD-NRW und den SVWS-Server.
+  tagline: Deine Wissensdatenbank für Fachberatung und Moderation rund um SchILD-NRW und den SVWS-Server.
   actions:
     - theme: brand
       text: Neu im Team
       link: /neu-im-team/
     - theme: alt
-      text: Schulung vorbereiten
-      link: /schulungsmodule/
+      text: Installation & Migration
+      link: /beratung/installation
     - theme: alt
       text: Hilfe im Beratungsfall
       link: /beratung/
@@ -25,9 +25,9 @@ features:
     link: /schulungsmodule/
     linkText: Module auswählen
   - title: Testdaten & Umgebungen
-    details: Passende Übungsdaten finden, eine Schulungsumgebung einrichten und für den nächsten Einsatz vorbereiten.
+    details: Testdatenbanken einbinden und schwierige Fälle in einer lokalen Analyseumgebung nachvollziehen.
     link: /Datenbanken/
-    linkText: Schulung technisch vorbereiten
+    linkText: Test- und Analyseplatz aufbauen
   - title: Beratung & Umstieg
     details: Änderungen beim Wechsel zu SchILD-NRW 3 verstehen und typische Beratungsfälle gezielt bearbeiten.
     link: /beratung/
@@ -49,6 +49,9 @@ features:
 | Was brauchst Du gerade? | Dein direkter Weg |
 | --- | --- |
 | Eine Lösung für eine aktuelle Frage | [Probleme nach Themen finden](/beratung/probleme) |
+| Installation, Hardware oder Update klären | [Installationshilfen bündeln](/beratung/installation) |
+| Eine Migration scheitert | [Migrationsprobleme eingrenzen](/beratung/migration) |
+| Eine Datenbank selbst untersuchen | [Lokale Analyseumgebung](/umgebungen/lokale-analyse) |
 | Die neuesten veröffentlichten Tipps | [Tipp der Woche](/Tipp_der_Woche/) |
 | Ein Fortbildungsangebot für das Team | [Fortbildung & Austausch](/fortbildung/) |
 | Informationen zu Neuerungen | [Material zum Entwicklungsstand](/Fachberatung_Fortbildungen/Aktuell/) – Stand und Version im Einzelfall prüfen |
@@ -61,6 +64,6 @@ Die neue SchILD-NRW-3-Dokumentation ist unter **schild3.svws-nrw.de** vorgesehen
 
 ## Gemeinsam weiterentwickeln
 
-Du hast eine hilfreiche Lösung, eine Schulungsidee oder einen Themenwunsch? Nutze die [Kommunikationswege im Team](/neu-im-team/kommunikation). Aus Euren Erfahrungen wachsen neue Tipps, Materialien und Fortbildungen.
+Das Portal bündelt vorhandene Materialien und Lösungswissen über Bezirksregierungsgrenzen hinweg. Der Austausch erfolgt im Forum, über die Fachberater-Koordinationen und auf der jährlichen Convention in Düsseldorf. Nutze die [Kommunikationswege im Team](/neu-im-team/kommunikation), um Erfahrungen und Themenwünsche einzubringen. Die Überarbeitung von Schulungsunterlagen bleibt bei den Moderationsteams.
 
 </div>

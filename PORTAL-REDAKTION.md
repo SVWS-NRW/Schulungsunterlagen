@@ -6,15 +6,25 @@ Alle bisherigen Artikel- und Dateipfade bleiben erhalten. Neue Bereichsseiten er
 
 ## Vor der Veröffentlichung klären
 
-- Hosting, Zieladresse und Zugangsschutz für die exklusive Teamseite festlegen. Eine Zielgruppenbeschreibung in VitePress ist kein Zugriffsschutz.
+- Hosting und Zieladresse festlegen. Die öffentliche Erreichbarkeit ist bestätigt; ein Zugangsschutz für das Portal ist nicht vorgesehen.
 - Die geplante neue SchILD-NRW-3-Adresse nach Freischaltung verlinken.
 - Neue Fortbildungstermine und Details zur SVWS-Convention bestätigen. Vorhandene Termine von Februar bis Juli 2026 sind als Archiv gekennzeichnet.
-- Zuständigkeiten und Kontaktangaben aus dem Willkommensschreiben fachlich abgleichen: Der Fließtext nennt Anne, Frank und Jens, die Unterschrift nennt Jens, Anne und David. Die Einstiegsseiten verwenden daher keine abgeleitete individuelle Aufgabenverteilung.
+- Rollen sind durch die Landesfachberatung bestätigt und in der Rollenübersicht aktualisiert: Anne, David und Jens betreuen Fachberatung aus ganz NRW sowie IT-Dienstleister; Frank und weitere MSB-Mitarbeitende unterstützen.
 - Persönliche Telefonnummern, Cloud-Freigabelink und Original-PDF bleiben außerhalb des öffentlichen Repositorys. Der Zugang wird über Koordination und Funktionsadresse erklärt.
 - Versionsabhängige Tipps auf Gültigkeit prüfen; ein neues Bearbeitungsdatum ist kein fachliches Prüfdatum.
-- Den Entwurf zur Datenbankmigration und die kurze Seite zur Oberstufenplanung fachlich ausbauen.
+- Konkrete, versionsbezogene Schrittfolge für das Zurücksetzen des Admin-Benutzerkennworts in einer lokalen Datenbankkopie ergänzen; benötigte Tabellen/Felder sind noch nicht bestätigt.
+- Freigegebene Access-Korrekturen nach Fehlerbild ergänzen. Die Übersicht enthält dafür bewusst keine erfundenen Feldnamen oder SQL-Befehle.
+- Die Schulungsunterlagen bleiben vorerst außerhalb der fachlichen Überarbeitung; diese liegt bei den Moderatorinnen und Moderatoren.
 - Datenbanken nach dem neuen Steckbrief dokumentieren und pro Modul auf den getesteten Stand verweisen. Verfügbare Dateien sind verlinkt; Kompatibilität wurde durch diese Strukturänderung nicht neu bestätigt.
 - Die bestehende Lizenzangabe nennt eine Creative-Commons-Lizenz ohne konkrete Variante. Diese vor Weitergabe neuer Vorlagen eindeutig festlegen.
+
+## Bestätigte Ausrichtung der Wissensdatenbank
+
+- Das Portal bündelt vorhandene Materialien; Diskussionen finden im Forum, über Koordinationen und auf der jährlichen Convention in Düsseldorf statt.
+- Erste Priorität haben Installation von SVWS-Server und SchILD-NRW 3, Hardwarefragen, Updates und Migrationsprobleme.
+- Persönlicher Einstieg ist die lokale Umgebung aus SVWS-Server, MariaDB, SchILD-NRW 3 und DBeaver. SQLite-Backups werden für den beschriebenen Analyseweg in ein lokales Schema importiert.
+- Rollen, Informationswege und diese Prioritäten beruhen auf den aktuellen Angaben der Landesfachberatung. Technische Verbindungswege und die Einordnung zur Statistik 2027 wurden zusätzlich mit der offiziellen SVWS-Dokumentation abgeglichen (23.10.2026).
+- Die neuen Übersichten bündeln vorhandene Unterlagen; sie bestätigen keine vollständige fachliche Neuabnahme der älteren Artikel oder der dortigen SQL-Beispiele.
 
 ## Technische Nachweise
 

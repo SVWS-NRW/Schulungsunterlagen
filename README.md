@@ -36,7 +36,7 @@ Die Übersichtsseiten verknüpfen vorhandene Artikel unter ihren bisherigen Adre
 
 Die Bestandszuordnung und redaktionelle Restpunkte sind in [PORTAL-REDAKTION.md](./PORTAL-REDAKTION.md) dokumentiert. Softwarestände, Termine und fachliche Aussagen müssen getrennt von dieser Strukturänderung bestätigt werden.
 
-Die Zielgruppe allein beschränkt keinen Zugriff. Vor einer Teamveröffentlichung Hosting und Zugangsschutz klären. Das persönliche Willkommens-PDF mit Telefonnummern und Cloud-Freigabe ist nicht Teil dieses öffentlichen Repositorys; die Einstiegsseiten übernehmen Orientierung und zentrale Kontaktwege.
+Das SVWS-Teamportal ist als öffentliche Wissensdatenbank vorgesehen. Der Austausch erfolgt über Forum, Convention und Koordinationen der Bezirksregierungen; eine eigene Diskussionsfunktion ist nicht vorgesehen. Das persönliche Willkommens-PDF mit Telefonnummern und Cloud-Freigabe ist nicht Teil dieses öffentlichen Repositorys; die Einstiegsseiten übernehmen Orientierung und zentrale Kontaktwege.
 
 Der vorhandene Veröffentlichungsablauf bleibt auf `master`; die Arbeit erfolgt über einen eigenen Branch und einen PR gegen `dev`. Veröffentlicht werden ausschließlich die Dateien aus `.vitepress/dist`, keine Node-Module.
 

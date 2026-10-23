@@ -1,21 +1,30 @@
 # Rollen & Zusammenarbeit
 
-Die Aufgaben im Team greifen ineinander. Diese Übersicht hilft Dir, Anliegen an die passende Stelle zu richten.
+Jeder Schule in NRW ist eine Fachberaterin oder ein Fachberater zugewiesen. Die Fachberatung arbeitet für die jeweilige Bezirksregierung und ist die erste Anlaufstelle der Schule. Die Landesfachberatung unterstützt, wenn ein Fall vor Ort nicht gelöst werden kann.
+
+## Wer übernimmt welche Aufgabe?
 
 | Rolle | Aufgabe und Anlaufstelle |
 | --- | --- |
-| Fachberaterinnen und Fachberater | Erste Anlaufstelle für die Schulen bei Fragen und Problemen. Schulen finden ihre Zuständigkeit über die [Fachberatersuche](https://www.svws.nrw.de/service/fachberatersuche). |
-| Koordinatorinnen und Koordinatoren | Koordinieren Fachberatung und Moderation in den Bezirksregierungen, Entlastungsstunden und gemeinsame Schulungsmaterialien. Sie unterstützen auch zur Statistikzeit. Fristverlängerungen zur Schulstatistik werden bei der zuständigen Koordination beantragt und genehmigt. |
-| Moderatorinnen und Moderatoren | Führen Schulungen in den verschiedenen Modulen durch. Angebote für Schulen stehen im [Fortbildungsbereich](https://www.svws.nrw.de/service/fortbildungen). |
-| Stützpunktkoordinatorinnen und -koordinatoren | Koordinieren die Schulungen an den Stützpunkten und bereiten Hardware sowie Schulungsmaterialien vor. |
-| Landesfachberatung | Unterstützt das Team bei weiterführenden Fragen und ist Anlaufstelle für IT-Dienstleister. Zentraler Kontakt: [support@svws-nrw.de](mailto:support@svws-nrw.de); weitere Einordnung im [Supportkonzept](https://www.svws.nrw.de/service/supportkonzept). |
+| Fachberaterinnen und Fachberater | Unterstützen die zugeordneten Schulen bei Bedienungsfragen, Fehleinstellungen sowie bei Installation, Updates und dem Umstieg. Die Zuständigkeit findet eine Schule über die [Fachberatersuche](https://www.svws.nrw.de/service/fachberatersuche). |
+| Fachberater-Koordinatorinnen und -Koordinatoren | Koordinieren die Arbeit in den Bezirksregierungen und geben Informationen an ihre Fachberaterinnen und Fachberater weiter. Sie sind der zentrale Verteiler für Informationen aus der Landesfachberatung. |
+| Moderatorinnen und Moderatoren | Bieten regelmäßig Schulungen zu unterschiedlichen Themen an. Viele sind zugleich in der Fachberatung tätig. Die Überarbeitung der Schulungsunterlagen für SVWS-Server, SchILD-NRW 3 und neue Arbeitsabläufe liegt bei den Moderationsteams. |
+| Stützpunktkoordinatorinnen und -koordinatoren | Koordinieren Schulungen an den Stützpunkten und bereiten Hardware und Materialien vor. |
+| Landesfachberatung | Dr. Anne Schüller, David Klein und Jens Raffenberg unterstützen Fachberaterinnen und Fachberater aus ganz NRW und betreuen IT-Dienstleister. Alle drei arbeiten offiziell für die Bezirksregierung Düsseldorf. Zentraler Kontakt: [support@svws-nrw.de](mailto:support@svws-nrw.de). |
+| Unterstützung aus dem MSB | Frank und weitere Mitarbeitende aus dem MSB unterstützen die Landesfachberatung bei weiterführenden technischen Fragen. |
 
-Für die Zusammenarbeit und interne Fortbildungsangebote im Portal stehen David, Anne und Jens. Die aktuellen individuellen Zuständigkeiten klärst Du bei Bedarf über die zentrale Kontaktadresse.
+## Der Supportweg
 
-## Gemeinsam einen Fall lösen
+1. Eine Schule wendet sich zunächst an ihre zuständige Fachberatung. Diese klärt Bedienung, Einstellungen und technische Rahmenbedingungen.
+2. Die Fachberatung nutzt [Dokumentation und vorhandene Lösungen](/beratung/) und untersucht bei Bedarf eine Kopie der Datenbank in einer [lokalen Analyseumgebung](/umgebungen/lokale-analyse).
+3. Bleibt der Fall offen, kontaktiert die Fachberatung Anne, David und Jens. Der übliche Weg ist [support@svws-nrw.de](mailto:support@svws-nrw.de); auch telefonischer Kontakt ist möglich.
+4. IT-Dienstleister werden durch die Landesfachberatung betreut. Bei Bedarf wird Unterstützung aus dem MSB hinzugezogen.
+5. Wiederverwendbare Erkenntnisse können über Koordination, Forum und Wissensdatenbank an das Team zurückfließen.
 
-1. Die Schule wendet sich an ihre zuständige Fachberatung.
-2. Die Fachberatung klärt das Anliegen und nutzt Dokumentation, Forum und [Problemlösungssammlung](/beratung/probleme).
-3. Offene Fragen werden mit den erforderlichen Informationen im Team eingeordnet.
-4. Bestätigte Programmfehler können als Issue an das zuständige Projekt gemeldet werden.
-5. Eine wiederverwendbare Lösung fließt in die Dokumentation oder die Tipps der Woche zurück.
+Mit der [Checkliste für Beratungsanfragen](/beratung/anfrage-vorbereiten) bereitest Du eine Weitergabe so vor, dass die bisherigen Prüfungen nachvollziehbar bleiben.
+
+## Information & Austausch
+
+Informationen werden vor allem über die Fachberater-Koordinationen der Bezirksregierungen weitergeleitet. Der Austausch findet im [Forum](/neu-im-team/kommunikation#forum-geschutzter-austausch), über die Koordinationen und auf der jährlichen [SVWS-Convention in Düsseldorf](/fortbildung/convention) statt.
+
+Das öffentliche SVWS-Teamportal bündelt dazu Materialien und Lösungswissen über Bezirksregierungsgrenzen hinweg. Es ist die gemeinsame Wissensdatenbank; Diskussionen und fallbezogener Austausch bleiben in den genannten Kommunikationswegen.

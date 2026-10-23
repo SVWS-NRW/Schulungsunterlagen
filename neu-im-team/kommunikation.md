@@ -1,6 +1,10 @@
 # Kommunikation & Zugänge
 
-Wir tauschen Erfahrungen aus und bündeln Fragen, die im Beratungs- oder Schulungsalltag auftauchen. Je nach Anliegen helfen Dir diese Wege weiter.
+Das SVWS-Teamportal ist eine öffentlich erreichbare Wissensdatenbank. Es bündelt vorhandene Materialien und Lösungswissen für Fachberatung und Moderation aus allen Bezirksregierungen. Der Austausch erfolgt im Forum, über die Koordinatorinnen und Koordinatoren und auf der jährlichen Convention in Düsseldorf.
+
+## Informationen über die Bezirksregierungen
+
+Die Landesfachberatung verteilt Informationen im Kern über die Fachberater-Koordinationen der Bezirksregierungen. Diese leiten die Informationen an ihre Fachberaterinnen und Fachberater weiter. Über Deine zuständige Koordination bleibst Du mit diesem Informationsfluss verbunden.
 
 ## Newsletter
 
@@ -26,7 +30,7 @@ Mit einem Account kannst Du Kategorien abonnieren und ungelesene oder unbeantwor
 
 ## Fragen an das Team
 
-Wenn Du mit einem Beratungsfall nicht weiterkommst, nutze [support@svws-nrw.de](mailto:support@svws-nrw.de). Für Zuständigkeiten hilft Dir die [Rollenübersicht](./rollen.md), für die Vorbereitung einer Rückfrage die [Checkliste für Beratungsfälle](/beratung/anfrage-vorbereiten).
+Wenn Du mit einem Beratungsfall nicht weiterkommst, erreichst Du die Landesfachberatung mit Anne, David und Jens in der Regel über [support@svws-nrw.de](mailto:support@svws-nrw.de). Auch telefonischer Kontakt ist möglich. IT-Dienstleister werden ebenfalls durch die Landesfachberatung betreut. Für Zuständigkeiten hilft Dir die [Rollenübersicht](./rollen.md), für die Vorbereitung einer Rückfrage die [Checkliste für Beratungsfälle](/beratung/anfrage-vorbereiten).
 
 ## An Dokumentation & Entwicklung mitarbeiten
 

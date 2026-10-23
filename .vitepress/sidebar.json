@@ -497,6 +497,18 @@
           "link": "/beratung/"
         },
         {
+          "text": "Systemüberblick",
+          "link": "/beratung/systemueberblick"
+        },
+        {
+          "text": "Installation, Hardware & Updates",
+          "link": "/beratung/installation"
+        },
+        {
+          "text": "Migrationsprobleme eingrenzen",
+          "link": "/beratung/migration"
+        },
+        {
           "text": "Probleme & Lösungen",
           "link": "/beratung/probleme"
         },
@@ -592,7 +604,7 @@
           "link": "/Fachberatung_Anleitungen/API-examples/"
         },
         {
-          "text": "Datenbankmigration: Entwurf",
+          "text": "Datenbankmigration",
           "collapsed": true,
           "link": "/Fachberatung_Anleitungen/DBMigration/"
         },
@@ -673,12 +685,20 @@
     {
       "text": "Test- & Schulungsumgebungen",
       "link": "/umgebungen/"
+    },
+    {
+      "text": "Lokale Datenbankanalyse",
+      "link": "/umgebungen/lokale-analyse"
     }
   ],
   "/umgebungen/": [
     {
       "text": "Umgebungen im Überblick",
       "link": "/umgebungen/"
+    },
+    {
+      "text": "Lokale Test- & Analyseumgebung",
+      "link": "/umgebungen/lokale-analyse"
     },
     {
       "text": "Umgebungen einrichten & betreuen",
@@ -799,6 +819,10 @@
       "link": "/umgebungen/"
     },
     {
+      "text": "Lokale Test- & Analyseumgebung",
+      "link": "/umgebungen/lokale-analyse"
+    },
+    {
       "text": "Umgebungen einrichten & betreuen",
       "collapsed": true,
       "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/",
@@ -911,6 +935,10 @@
     {
       "text": "Umgebungen im Überblick",
       "link": "/umgebungen/"
+    },
+    {
+      "text": "Lokale Test- & Analyseumgebung",
+      "link": "/umgebungen/lokale-analyse"
     },
     {
       "text": "Offline-Installation: Schritt für Schritt",
@@ -1030,6 +1058,18 @@
           "link": "/beratung/"
         },
         {
+          "text": "Systemüberblick",
+          "link": "/beratung/systemueberblick"
+        },
+        {
+          "text": "Installation, Hardware & Updates",
+          "link": "/beratung/installation"
+        },
+        {
+          "text": "Migrationsprobleme eingrenzen",
+          "link": "/beratung/migration"
+        },
+        {
           "text": "Probleme & Lösungen",
           "link": "/beratung/probleme"
         },
@@ -1125,7 +1165,7 @@
           "link": "/Fachberatung_Anleitungen/API-examples/"
         },
         {
-          "text": "Datenbankmigration: Entwurf",
+          "text": "Datenbankmigration",
           "collapsed": true,
           "link": "/Fachberatung_Anleitungen/DBMigration/"
         },
@@ -1163,6 +1203,18 @@
           "link": "/beratung/"
         },
         {
+          "text": "Systemüberblick",
+          "link": "/beratung/systemueberblick"
+        },
+        {
+          "text": "Installation, Hardware & Updates",
+          "link": "/beratung/installation"
+        },
+        {
+          "text": "Migrationsprobleme eingrenzen",
+          "link": "/beratung/migration"
+        },
+        {
           "text": "Probleme & Lösungen",
           "link": "/beratung/probleme"
         },
@@ -1258,7 +1310,7 @@
           "link": "/Fachberatung_Anleitungen/API-examples/"
         },
         {
-          "text": "Datenbankmigration: Entwurf",
+          "text": "Datenbankmigration",
           "collapsed": true,
           "link": "/Fachberatung_Anleitungen/DBMigration/"
         },
