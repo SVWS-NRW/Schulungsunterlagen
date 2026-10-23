@@ -1,17 +1,24 @@
-# Mikrofortbildungen für Fachberater
+# Fortbildungsarchiv & bisherige Angebote {#mikrofortbildungen-fur-fachberater}
+
+::: info Einordnung der Termine
+Die folgende Terminreihe von Februar bis Juli 2026 ist abgeschlossen. Die Materialien bleiben zum Nachlesen erhalten. Angebote „auf Anfrage“ können weiterhin über das Team angefragt werden. Die zentrale Übersicht findest Du unter [Fortbildung & Austausch](/fortbildung/).
+:::
 
 ### Ablauf der Fortbildungen:
 
 + Die Fortbildungen richten sich ausschließlich an Fachberaterinnen und Fachberater, sowie Moderatorinnen und Moderatoren. 
+
 + Der Link zum Videomeeting wird per E-Mail an alle zugesendet.
+
 + Bei den meisten Fortbildungen könnt Ihr ohne Anmeldung direkt teilnehmen.
+
 + Zu Beginn jeder Fortbildung erfolgt ein Input, bei dem ich praxisnah eine Demonstration zu dem jeweiligen Thema durchführe.
+
 + Im Anschluss gibt es Raum für Fragen und Anregungen.
+
 + Teilnehmerinnen und Teilnehmer, die keine Fragen mehr haben, können das Meeting nach dem Input-Teil gerne verlassen.
 
-
-# Übersicht - Fortbildungen
-
+## Übersicht - Fortbildungen
 
 | Thema   | Datum | Uhrzeit | Anmeldung erforderlich |
 | ---------- | ------------- | ------------- | ------------- |
@@ -31,19 +38,6 @@
 | [Blockung der EF](./EFBlockung/index.md)  | Auf Anfrage  | -- | -- |
 | [Blockung der Q1](./QBlockung/index.md)  | Auf Anfrage  | -- | -- |
 
-
 <!--| [Offene Austauschrunde](./Fragerunde/index.md)| --- | --- |-->
+
 <!-- This content will not appear in the rendered Markdown -->
-
-
-
-
-
-
-
-
-
-
-
-
-

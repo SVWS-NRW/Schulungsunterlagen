@@ -1,4 +1,4 @@
-# Infos zum aktuellen Entwicklungsstand
+# Entwicklungsstand: bisherige Fortbildungsunterlagen {#infos-zum-aktuellen-entwicklungsstand}
 
 Aktuell entwickeln sich SchILD-NRW3 und der SVWS-Server sehr dynamisch weiter, was für Fachberater regelmäßige Informationsbedarfe mit sich bringt.
 
@@ -14,13 +14,4 @@ In der Online-Fortbildung gebe ich einen Überblick über aktuelle Neuerungen so
 + PM3/KM3
 + Neues im Stable-Mode des SVWS-Servers
     + Kataloge
-+ Erstellung von Schulungsdatenbanken - Tool zum Generieren von Datenbanken 
-
-
-
-
-
-
-
-
-
++ Erstellung von Schulungsdatenbanken - Tool zum Generieren von Datenbanken

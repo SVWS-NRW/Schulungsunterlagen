@@ -1,6 +1,13 @@
-# :bulb: Tipp der Woche
+# Tipp der Woche {#tipp-der-woche}
+
+Hier findest Du die veröffentlichten SchILD-Tipps und SVWS-Hinweise nach Datum. Suchst Du nach einem bestimmten Fehlerbild? Die [thematische Problemlösungssammlung](/beratung/probleme) führt Dich direkt zu passenden Artikeln.
+
+::: info Programmstand beachten
+Einzelne Beiträge beschreiben versionsabhängige Probleme oder Übergangslösungen. Prüfe vor der Anwendung, ob der Hinweis noch zu Deiner Umgebung passt.
+:::
 
 ## :point_right: SVWS-Hack der Woche   
+
 | :date: 12.10.2026 | :information_source: [Bug in der Oberstufenapp](./SVWS-Hack_der_Woche/bugInOberstufenapp.md) |
 |------------------|----------------------------------------------------------------------------------|
 | :date: 05.10.2026 | :information_source: [Fehlerhafte Kursarten DFG/DFK](./SVWS-Hack_der_Woche/fehlerhafteKursarteDFGundDFK.md) |
@@ -10,8 +17,8 @@
 | :date: 16.02.2026 | :information_source: [Bugfix](./SVWS-Hack_der_Woche/bugfix122.md) |
 | :date: 09.02.2026 | :information_source: [Kataloge](./SVWS-Hack_der_Woche/kataloge.md) |
 
-
 ## :point_right: SchILD-Tipp der Woche   
+
 | :date: 14.09.2026 | :information_source: [Statistikprüfung - Stapelüberlauf](./SchILD-Tipp_der_Woche/statistikfehlerStapelueberlauf.md) |
 |------------------|----------------------------------------------------------------------------------|
 | :date: 08.06.2026 | :information_source: [Bug im ZP10-Export](./SchILD-Tipp_der_Woche/zp10Export.md) |
@@ -24,4 +31,3 @@
 | :date: 23.02.2026 | :information_source: [Datenbankmigration](./SchILD-Tipp_der_Woche/datenbankmigration.md) |
 | :date: 02.02.2026 | :information_source: [Zeugnisreports](./SchILD-Tipp_der_Woche/zeugnisreports.md) |
 | :date: 26.01.2026 | :information_source: [Leistungsübersichten](./SchILD-Tipp_der_Woche/leistungsuebersicht.md) |
-

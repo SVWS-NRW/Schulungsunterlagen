@@ -1,10 +1,12 @@
 import { h, nextTick, watch } from 'vue';
 import DefaultTheme from 'vitepress/theme';
 import DownloadPdf from './components/DownloadPdf.vue';
+import SectionCards from './components/SectionCards.vue';
 import type { Theme } from 'vitepress';
 import { useData } from 'vitepress';
 import { createMermaidRenderer } from 'vitepress-mermaid-renderer';
 import './print.css';
+import './portal.css';
 
 const toolbarLocales = {
   de: {
@@ -24,6 +26,7 @@ export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {
     app.component('DownloadPdf', DownloadPdf)
+    app.component('SectionCards', SectionCards)
   },
   
   

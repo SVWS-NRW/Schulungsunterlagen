@@ -1,4 +1,48 @@
-# Schulungsunterlagen
+# SVWS-Teamportal
+
+Arbeits- und Wissensportal für Fachberaterinnen und Fachberater sowie Moderatorinnen und Moderatoren. Die neue Startseite verbindet Einstieg, Schulungen, Testdaten, Beratung, Fortbildung und Wissen.
+
+## Lokal mit PowerShell starten
+
+Voraussetzung: Node.js 24 und Git. Öffne PowerShell im Repository-Ordner mit der `package.json`.
+
+```powershell
+node --version
+npm.cmd ci
+npm.cmd run docs:dev
+```
+
+`npm.cmd` vermeidet die PowerShell-Sperre für `npm.ps1`; eine Änderung der Ausführungsrichtlinie ist nicht nötig. Der laufende Server zeigt seine Adresse im Terminal an. Wegen des bisherigen Basisverzeichnisses ist sie normalerweise `http://localhost:5173/Schulungsunterlagen/`. Beenden mit Strg+C.
+
+Alternativ für diese Sitzung ohne Unterpfad:
+
+```powershell
+$env:BASE = "/"
+npm.cmd run docs:dev
+```
+
+Danach die vom Terminal angezeigte Adresse öffnen. Für die abschließende Prüfung:
+
+```powershell
+npm.cmd run docs:build
+npm.cmd run docs:preview
+```
+
+Bei `ENOENT` den Arbeitsordner prüfen; dort muss `package.json` liegen. Bei fehlenden Paketen zuerst `npm.cmd ci` ausführen. Bei einer inkompatiblen Node-Version Node 24 verwenden und PowerShell neu öffnen.
+
+## Aufbau und Pflege
+
+Die Übersichtsseiten verknüpfen vorhandene Artikel unter ihren bisherigen Adressen. `.vitepress/sidebar.json` definiert unter `sections` ein gemeinsames Menü je Rubrik und unter `routes` die Zuordnung der bisherigen Artikelpfade. `sidebar.ts` stellt diese Menüs der Konfiguration zur Verfügung. Innerhalb einer Rubrik bleibt dadurch das vollständige Menü erhalten. Bei neuen Artikeln den passenden Bereich dort ergänzen. Hauptnavigation und Seiteneinstellungen liegen in `.vitepress/config.ts`, das Erscheinungsbild in `.vitepress/theme/portal.css`.
+
+Die Bestandszuordnung und redaktionelle Restpunkte sind in [PORTAL-REDAKTION.md](./PORTAL-REDAKTION.md) dokumentiert. Softwarestände, Termine und fachliche Aussagen müssen getrennt von dieser Strukturänderung bestätigt werden.
+
+Das SVWS-Teamportal ist als öffentliche Wissensdatenbank vorgesehen. Der Austausch erfolgt über Forum, Convention und Koordinationen der Bezirksregierungen; eine eigene Diskussionsfunktion ist nicht vorgesehen. Das persönliche Willkommens-PDF mit Telefonnummern und Cloud-Freigabe ist nicht Teil dieses öffentlichen Repositorys; die Einstiegsseiten übernehmen Orientierung und zentrale Kontaktwege.
+
+Der vorhandene Veröffentlichungsablauf bleibt auf `master`; die Arbeit erfolgt über einen eigenen Branch und einen PR gegen `dev`. Veröffentlicht werden ausschließlich die Dateien aus `.vitepress/dist`, keine Node-Module.
+
+## Übernommene Arbeits- und Autorenhinweise
+
+Die folgenden bisherigen Hinweise bleiben als Ausgangsmaterial erhalten. Frühere URLs und Einrichtungsangaben darin sind im Kontext des Ursprungsprojekts zu lesen; für den lokalen Start gilt die Anleitung oben.
 
 SVWS Schulungsunterlagen
 
@@ -159,7 +203,6 @@ This is a details block. Ich bin grau, so wie Info.
 Der Unterschied ist, dass ich zum AUSKLAPPEN bin.
 :::
 ```
-
 
 ::: info
 This is an info box.

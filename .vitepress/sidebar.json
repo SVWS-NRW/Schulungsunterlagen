@@ -1,0 +1,1106 @@
+{
+  "sections": {
+    "team": [
+      {
+        "text": "Neu im Team",
+        "items": [
+          {
+            "text": "Willkommen & erste Schritte",
+            "link": "/neu-im-team/"
+          },
+          {
+            "text": "Kommunikation & Zugänge",
+            "link": "/neu-im-team/kommunikation"
+          },
+          {
+            "text": "Rollen & Zusammenarbeit",
+            "link": "/neu-im-team/rollen"
+          }
+        ]
+      }
+    ],
+    "schulungen": [
+      {
+        "text": "Schulungen durchführen",
+        "collapsed": false,
+        "link": "/schulungsmodule/",
+        "items": [
+          {
+            "text": "Basisschulungen",
+            "collapsed": true,
+            "link": "/schulungsmodule/basisschulungen/",
+            "items": [
+              {
+                "text": "1. Allgemeines",
+                "link": "/schulungsmodule/basisschulungen/1. Allgemeines"
+              },
+              {
+                "text": "2. Erste Orientierung in SchILD-NRW",
+                "link": "/schulungsmodule/basisschulungen/2. Erste Orientierung in SchILD-NRW"
+              },
+              {
+                "text": "3. Reiter: Verwaltung",
+                "link": "/schulungsmodule/basisschulungen/3. Verwaltung"
+              },
+              {
+                "text": "4. Reiter: Lehrkräfte",
+                "link": "/schulungsmodule/basisschulungen/4. Lehrkräfte"
+              },
+              {
+                "text": "5. Reiter: Schüler",
+                "link": "/schulungsmodule/basisschulungen/5. Schüler"
+              },
+              {
+                "text": "6. Reiter: Auswahl",
+                "link": "/schulungsmodule/basisschulungen/6. Auswahl"
+              },
+              {
+                "text": "7. Reiter: Gruppenprozesse",
+                "link": "/schulungsmodule/basisschulungen/7. Gruppenprozesse"
+              },
+              {
+                "text": "8. Reiter: Kataloge",
+                "link": "/schulungsmodule/basisschulungen/8. Kataloge"
+              },
+              {
+                "text": "9. Reiter: Reportverwaltung",
+                "link": "/schulungsmodule/basisschulungen/9. Reportverwaltung"
+              },
+              {
+                "text": "Aufgaben aus dem Alltag",
+                "link": "/schulungsmodule/basisschulungen/Aufgaben aus dem Schulalltag"
+              }
+            ]
+          },
+          {
+            "text": "Berufskolleg",
+            "collapsed": true,
+            "link": "/schulungsmodule/BK/"
+          },
+          {
+            "text": "Gymnasiale Oberstufe",
+            "collapsed": true,
+            "link": "/schulungsmodule/gost/",
+            "items": [
+              {
+                "text": "Beweglicher Block Leitung",
+                "collapsed": true,
+                "link": "/schulungsmodule/gost/Beweglicher Block Leitung/"
+              },
+              {
+                "text": "Klausurplanung",
+                "collapsed": true,
+                "link": "/schulungsmodule/gost/Klausurplanung/",
+                "items": [
+                  {
+                    "text": "Grundsätzlicher Hinweis zur Klausurplanung",
+                    "link": "/schulungsmodule/gost/Klausurplanung/1. allgemeine Vorlagen"
+                  },
+                  {
+                    "text": "Übernahme in Jahrgänge",
+                    "link": "/schulungsmodule/gost/Klausurplanung/2. Vorgaben pro Abschnitt"
+                  },
+                  {
+                    "text": "Schienen blocken",
+                    "link": "/schulungsmodule/gost/Klausurplanung/3. Schienen"
+                  },
+                  {
+                    "text": "Termine im Kalender setzen",
+                    "link": "/schulungsmodule/gost/Klausurplanung/4. Kalender"
+                  },
+                  {
+                    "text": "Räume und Startzeiten",
+                    "link": "/schulungsmodule/gost/Klausurplanung/5. Räume und Startzeiten"
+                  },
+                  {
+                    "text": "Planansichten",
+                    "link": "/schulungsmodule/gost/Klausurplanung/6. Planübersichten und Ausgaben"
+                  },
+                  {
+                    "text": "Nachschreibtermine",
+                    "link": "/schulungsmodule/gost/Klausurplanung/7. Nachschreibtermine"
+                  },
+                  {
+                    "text": "Aufgaben aus der Schulpraxis",
+                    "link": "/schulungsmodule/gost/Klausurplanung/8. Praxisaufgaben"
+                  }
+                ]
+              },
+              {
+                "text": "Laufbahnplanung der kommenden EF",
+                "collapsed": true,
+                "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/",
+                "items": [
+                  {
+                    "text": "1. Orientierung in der Schulverwaltungssoftware",
+                    "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/1_Orientierung_und_Wiederholung"
+                  },
+                  {
+                    "text": "2. Vorbereitung in der App Oberstufe",
+                    "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/2_App_Oberstufe"
+                  },
+                  {
+                    "text": "3_Wahlen_und_Beratung",
+                    "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/3_Wahlen_und_Beratung"
+                  },
+                  {
+                    "text": "4_Blocken",
+                    "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/4_Blocken"
+                  },
+                  {
+                    "text": "5_Blockung_Anwenden",
+                    "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/5_Blockung_Anwenden"
+                  },
+                  {
+                    "text": "6_Um-Abwahlen",
+                    "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/6_Um-Abwahlen"
+                  },
+                  {
+                    "text": "7_Leistungsdaten_und_Zeugnisse",
+                    "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/7_Leistungsdaten_und_Zeugnisse"
+                  }
+                ]
+              },
+              {
+                "text": "Qualifikationsphase & Abitur",
+                "collapsed": true,
+                "link": "/schulungsmodule/gost/QPhase_und_Abitur/",
+                "items": [
+                  {
+                    "text": "Kapitel 2.1 Orientierung in SchILD-NRW-3 und SVWS-Client",
+                    "link": "/schulungsmodule/gost/QPhase_und_Abitur/1_Orientierung_und_Wiederholung"
+                  },
+                  {
+                    "text": "2.2 Neue Q-Phase und Laufbahnen korrigieren",
+                    "link": "/schulungsmodule/gost/QPhase_und_Abitur/2_NeueQphase_und_Laufbahnkorrekturen"
+                  },
+                  {
+                    "text": "2.3 Korrigierte EF für die Q1 blocken",
+                    "link": "/schulungsmodule/gost/QPhase_und_Abitur/3_KorrigierteEF_und_Q1Blocken"
+                  },
+                  {
+                    "text": "2.4 Umwahlen und Abi 3 und 4 fix wählen",
+                    "link": "/schulungsmodule/gost/QPhase_und_Abitur/4_Umwahlen_und_Wahl_von_A3A4"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Grundschule",
+            "collapsed": true,
+            "link": "/schulungsmodule/GS/",
+            "items": [
+              {
+                "text": "Basisschulung Grundschule",
+                "collapsed": true,
+                "link": "/schulungsmodule/GS/Basisschulung-GS/",
+                "items": [
+                  {
+                    "text": "1. Allgemeines",
+                    "link": "/schulungsmodule/GS/Basisschulung-GS/1. Allgemeines_GS"
+                  },
+                  {
+                    "text": "2. Erste Orientierung in SchILD-NRW",
+                    "link": "/schulungsmodule/GS/Basisschulung-GS/2. Erste Orientierung in SchILD-NRW_GS"
+                  },
+                  {
+                    "text": "3. Reiter: Verwaltung",
+                    "link": "/schulungsmodule/GS/Basisschulung-GS/3. Verwaltung_GS"
+                  },
+                  {
+                    "text": "4. Reiter: Lehrkräfte",
+                    "link": "/schulungsmodule/GS/Basisschulung-GS/4. Lehrkräfte_GS"
+                  },
+                  {
+                    "text": "5. Reiter: Schüler",
+                    "link": "/schulungsmodule/GS/Basisschulung-GS/5. Schüler_GS"
+                  },
+                  {
+                    "text": "6. Reiter: Auswahl",
+                    "link": "/schulungsmodule/GS/Basisschulung-GS/6. Auswahl_GS"
+                  },
+                  {
+                    "text": "7. Reiter: Gruppenprozesse",
+                    "link": "/schulungsmodule/GS/Basisschulung-GS/7. Gruppenprozesse_GS"
+                  },
+                  {
+                    "text": "8. Reiter: Kataloge",
+                    "link": "/schulungsmodule/GS/Basisschulung-GS/8. Kataloge_GS"
+                  },
+                  {
+                    "text": "9. Reiter: Reportverwaltung",
+                    "link": "/schulungsmodule/GS/Basisschulung-GS/9. Reportverwaltung_GS"
+                  },
+                  {
+                    "text": "10. Versetzung",
+                    "link": "/schulungsmodule/GS/Basisschulung-GS/10. Versetzung_GS"
+                  },
+                  {
+                    "text": "Aufgaben aus dem Alltag",
+                    "link": "/schulungsmodule/GS/Basisschulung-GS/11. Aufgaben aus dem Schulalltag_GS"
+                  }
+                ]
+              },
+              {
+                "text": "Leistungsdaten & Zeugnisse",
+                "collapsed": true,
+                "link": "/schulungsmodule/GS/Leistungsdaten-GS/",
+                "items": [
+                  {
+                    "text": "1. Allgemeines",
+                    "link": "/schulungsmodule/GS/Leistungsdaten-GS/1. Allgemeines"
+                  },
+                  {
+                    "text": "2. Übersicht",
+                    "link": "/schulungsmodule/GS/Leistungsdaten-GS/2. Übersicht"
+                  },
+                  {
+                    "text": "3. Schulbezogene Kataloge pflegen",
+                    "link": "/schulungsmodule/GS/Leistungsdaten-GS/3. Schulbezogene Kataloge pflegen"
+                  },
+                  {
+                    "text": "4. Unterricht",
+                    "link": "/schulungsmodule/GS/Leistungsdaten-GS/4. Unterricht"
+                  },
+                  {
+                    "text": "5. [Spezielle Vorbereitungen für Ankreuzzeugnisse](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Grundschulzeugnisse_Ankreuzzeugnis_(Tutorial)#)",
+                    "link": "/schulungsmodule/GS/Leistungsdaten-GS/5. Spezielle Vorbereitungen für Ankreuzzeugnisse"
+                  },
+                  {
+                    "text": "6. [Spezielle Vorbereitungen für Textzeugnisse](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Grundschulzeugnisse_Textzeugnis_(Tutorial))",
+                    "link": "/schulungsmodule/GS/Leistungsdaten-GS/6. Spezielle Vorbereitungen für Textzeugnisse"
+                  },
+                  {
+                    "text": "7. [Lernstandsberichte](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Grundschulzeugnisse_Lernstandsberichte_(Tutorial))",
+                    "link": "/schulungsmodule/GS/Leistungsdaten-GS/7. Lernstandsberichte"
+                  },
+                  {
+                    "text": "8. [Zeugnisse herunterladen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Grundschulzeugnisse_Vorbereitung_f%C3%BCr_Text-_und_Ankreuzzeugnisse_(Tutorial)#Einstellungen)",
+                    "link": "/schulungsmodule/GS/Leistungsdaten-GS/8. Zeugnisdateien herunterladen"
+                  },
+                  {
+                    "text": "9. [Konfiguration des Erscheinungsbildes der Zeugnisse](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Grundschulzeugnisse_Konfiguration_des_Erscheinungsbildes_von_Zeugnissen_(Tutorial))",
+                    "link": "/schulungsmodule/GS/Leistungsdaten-GS/9. Konfiguration des Erscheinungsbildes der Zeugnisse"
+                  },
+                  {
+                    "text": "10. Zeugnisvorbereitungen, Noten, Fehlstunden",
+                    "link": "/schulungsmodule/GS/Leistungsdaten-GS/10. Zeugnisvorbereitungen, Noten, Fehlstunden"
+                  },
+                  {
+                    "text": "11. Zeugnisdruck und Archivierung",
+                    "link": "/schulungsmodule/GS/Leistungsdaten-GS/11. Zeugnisdruck"
+                  },
+                  {
+                    "text": "12. [Zeugnis-Broschürendruck mit dem Foxit Reader](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnis-Brosch%C3%BCrendruck_mit_dem_Foxit_Reader_(Tutorial)#Brosch%C3%BCrendruck_mit_dem_Foxit-Reader)",
+                    "link": "/schulungsmodule/GS/Leistungsdaten-GS/12. Zeugnis-Broschürendruck mit dem Foxit Reader"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Laufbahndaten aus SchILD-NRW 2 importieren",
+            "collapsed": true,
+            "link": "/schulungsmodule/ImportSchILD2Laufbahndaten/"
+          },
+          {
+            "text": "Reports erstellen",
+            "collapsed": true,
+            "link": "/schulungsmodule/Reporterstellung/"
+          },
+          {
+            "text": "Sekundarstufe I",
+            "collapsed": true,
+            "link": "/schulungsmodule/sek_i/",
+            "items": [
+              {
+                "text": "1 Unterrichtsfächer",
+                "link": "/schulungsmodule/sek_i/1_Unterrichtsfaecher"
+              },
+              {
+                "text": "2 [Stundentafeln](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Stundentafel_(Schulbezogene_Kataloge))",
+                "link": "/schulungsmodule/sek_i/2_Stundentafeln"
+              },
+              {
+                "text": "3 [Kursverwaltung](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Kurse_(Schulbezogene_Kataloge))",
+                "link": "/schulungsmodule/sek_i/3_Kursverwaltung"
+              },
+              {
+                "text": "4 Unterricht manuell bearbeiten",
+                "link": "/schulungsmodule/sek_i/4_Unterricht_manuell_bearbeiten"
+              },
+              {
+                "text": "5 Unterricht importieren",
+                "link": "/schulungsmodule/sek_i/5_Unterricht_importieren"
+              },
+              {
+                "text": "6 **Gruppenprozesse: Fächer**",
+                "link": "/schulungsmodule/sek_i/6_Gruppenprozesse_Faecher"
+              },
+              {
+                "text": "7 Noten und Zeugnisvorbereitungen",
+                "link": "/schulungsmodule/sek_i/7_Noten_Zeugnisvorbereitungen"
+              },
+              {
+                "text": "8 Drucken",
+                "link": "/schulungsmodule/sek_i/8_Drucken"
+              },
+              {
+                "text": "9 Zeugnisformulare",
+                "link": "/schulungsmodule/sek_i/9_Zeugnisformulare"
+              },
+              {
+                "text": "10 Halbjahreswechsel",
+                "link": "/schulungsmodule/sek_i/10_Halbjahreswechsel"
+              },
+              {
+                "text": "11 Mahnungen",
+                "link": "/schulungsmodule/sek_i/11_Mahnungen"
+              },
+              {
+                "text": "12 Zentrale Prüfungen Jahrgang 10",
+                "link": "/schulungsmodule/sek_i/12_Zentrale_Pruefungen_10"
+              },
+              {
+                "text": "13 Die Zeugnisphase in SchILD (Versetzungs- und Abschlussberechnungen)",
+                "link": "/schulungsmodule/sek_i/13_Vorbereitungen_in_SchILD"
+              },
+              {
+                "text": "14 Konferenzvorbereitung",
+                "link": "/schulungsmodule/sek_i/14_Konferenzvorbereitung"
+              },
+              {
+                "text": "15 Zeugnisdruck",
+                "link": "/schulungsmodule/sek_i/15_Zeugnisdruck"
+              },
+              {
+                "text": "16 Versetzung",
+                "link": "/schulungsmodule/sek_i/16_Versetzung"
+              }
+            ]
+          },
+          {
+            "text": "Übergangsschulung: Aufgaben",
+            "collapsed": true,
+            "link": "/schulungsmodule/uebergangsschulung/",
+            "items": [
+              {
+                "text": "1. Orientierung in der neuen Version der Schulverwaltsungssoftware",
+                "link": "/schulungsmodule/uebergangsschulung/1_Orientierung"
+              },
+              {
+                "text": "2. Filtern & Gruppenprozesse",
+                "link": "/schulungsmodule/uebergangsschulung/2_Filtern_Gruppenprozesse"
+              },
+              {
+                "text": "3. Kataloge",
+                "link": "/schulungsmodule/uebergangsschulung/3_Kataloge"
+              },
+              {
+                "text": "4. Reports",
+                "link": "/schulungsmodule/uebergangsschulung/4_Reports"
+              },
+              {
+                "text": "5. Noteneingabe",
+                "link": "/schulungsmodule/uebergangsschulung/5_Noteneingabe"
+              }
+            ]
+          },
+          {
+            "text": "Umstieg: Arbeitsabläufe im Vergleich",
+            "collapsed": true,
+            "link": "/schulungsmodule/VonSchild2_ZuSchild3/",
+            "items": [
+              {
+                "text": "Oberfläche & Arbeitsverzeichnis",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "Arbeitsverzeichnis",
+                    "collapsed": true,
+                    "link": "/schulungsmodule/VonSchild2_ZuSchild3/1Uebersicht/Arbeitsverzeichnis/"
+                  },
+                  {
+                    "text": "SchILD3 Oberflaeche",
+                    "collapsed": true,
+                    "link": "/schulungsmodule/VonSchild2_ZuSchild3/1Uebersicht/SchILD3_Oberflaeche/"
+                  },
+                  {
+                    "text": "SVWS Client",
+                    "collapsed": true,
+                    "link": "/schulungsmodule/VonSchild2_ZuSchild3/1Uebersicht/SVWS_Client/"
+                  }
+                ]
+              },
+              {
+                "text": "Schülerdaten",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "SchILD-NRW 3",
+                    "collapsed": true,
+                    "link": "/schulungsmodule/VonSchild2_ZuSchild3/2Schueler/schild3/"
+                  },
+                  {
+                    "text": "SVWS-Client",
+                    "collapsed": true,
+                    "link": "/schulungsmodule/VonSchild2_ZuSchild3/2Schueler/svwsClient/"
+                  }
+                ]
+              },
+              {
+                "text": "Leistungsdaten",
+                "collapsed": true,
+                "items": [
+                  {
+                    "text": "SchILD-NRW 3",
+                    "collapsed": true,
+                    "link": "/schulungsmodule/VonSchild2_ZuSchild3/3Leistungsdaten/schild3/"
+                  },
+                  {
+                    "text": "SVWS-Client",
+                    "collapsed": true,
+                    "link": "/schulungsmodule/VonSchild2_ZuSchild3/3Leistungsdaten/svwsClient/"
+                  }
+                ]
+              },
+              {
+                "text": "Stundenplan",
+                "collapsed": true,
+                "link": "/schulungsmodule/VonSchild2_ZuSchild3/4Stundenplan/"
+              },
+              {
+                "text": "Oberstufenplanung",
+                "collapsed": true,
+                "link": "/schulungsmodule/VonSchild2_ZuSchild3/5Oberstufenplanung/"
+              },
+              {
+                "text": "Funktionsumfang des SVWS-Clients",
+                "collapsed": true,
+                "link": "/schulungsmodule/VonSchild2_ZuSchild3/GrenzenClient/"
+              }
+            ]
+          },
+          {
+            "text": "Vorlagen für Schulungsunterlagen",
+            "link": "/schulungsmodule/vorlagen"
+          }
+        ]
+      }
+    ],
+    "testdaten": [
+      {
+        "text": "Test- & Schulungsdatenbanken",
+        "collapsed": false,
+        "link": "/Datenbanken/",
+        "items": [
+          {
+            "text": "Berufskolleg",
+            "collapsed": true,
+            "link": "/Datenbanken/Berufskolleg/"
+          },
+          {
+            "text": "Gesamtschule",
+            "collapsed": true,
+            "link": "/Datenbanken/Gesamtschule/"
+          },
+          {
+            "text": "Gymnasiale Oberstufe: bisherige Bestände",
+            "collapsed": true,
+            "link": "/Datenbanken/GOSt-DB/",
+            "items": [
+              {
+                "text": "Übungsstände & Einsatzmöglichkeiten",
+                "link": "/Datenbanken/GOSt-DB/GOSt_DB_Eigenschaften"
+              }
+            ]
+          },
+          {
+            "text": "Gymnasiale Oberstufe: Stand 2026",
+            "collapsed": true,
+            "link": "/Datenbanken/GOSt-DB_2026/",
+            "items": [
+              {
+                "text": "Übungsstände & Einsatzmöglichkeiten",
+                "link": "/Datenbanken/GOSt-DB_2026/GOSt_DB_Eigenschaften"
+              }
+            ]
+          },
+          {
+            "text": "Grundschule",
+            "collapsed": true,
+            "link": "/Datenbanken/Grundschule/"
+          },
+          {
+            "text": "Steckbrief für Test- & Schulungsdatenbanken",
+            "link": "/Datenbanken/steckbrief"
+          }
+        ]
+      },
+      {
+        "text": "Lokale Test- & Analyseumgebung",
+        "link": "/umgebungen/",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Umgebungen im Überblick",
+            "link": "/umgebungen/"
+          },
+          {
+            "text": "Lokale Datenbankanalyse",
+            "link": "/umgebungen/lokale-analyse"
+          },
+          {
+            "text": "Offline-Installation: Schritt für Schritt",
+            "collapsed": true,
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/",
+            "items": [
+              {
+                "text": "SVWS-AdminClient",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/AdminTool/"
+              },
+              {
+                "text": "Datenbanken mit DBeaver sichten",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/DBeaver/"
+              },
+              {
+                "text": "Installationshandout",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Handout/"
+              },
+              {
+                "text": "SchILD-NRW 3 installieren",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SchILD3/"
+              },
+              {
+                "text": "SVWS-Server installieren",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SVWS/"
+              },
+              {
+                "text": "Zertifikat installieren",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_Zertifikat/"
+              },
+              {
+                "text": "Logdateien finden und auswerten",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Log_Files/"
+              },
+              {
+                "text": "Sichten im SVWS-Client",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/SVWS_Client_Sichten/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Weitere Schulungsumgebungen",
+        "collapsed": false,
+        "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/",
+        "items": [
+          {
+            "text": "Docker-Schulungsserver",
+            "collapsed": true,
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Docker_Schulungsserver/"
+          },
+          {
+            "text": "Installationsskripte",
+            "collapsed": true,
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/"
+          },
+          {
+            "text": "Schulungsserver betreuen",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Schulungsserver warten und zurücksetzen",
+                "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Moderatoren_Schulungsserver/Wartung"
+              }
+            ]
+          },
+          {
+            "text": "Proxmox-Schulungsserver",
+            "collapsed": true,
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/",
+            "items": [
+              {
+                "text": "Proxmox installieren",
+                "collapsed": true,
+                "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/Proxmox_Installation/"
+              }
+            ]
+          },
+          {
+            "text": "SVWS-Tools",
+            "collapsed": true,
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/SVWS-Tools/"
+          },
+          {
+            "text": "VirtualBox-Schulungsclient",
+            "collapsed": true,
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/",
+            "items": [
+              {
+                "text": "VirtualBox installieren",
+                "collapsed": true,
+                "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/Virtualbox_Installation/"
+              }
+            ]
+          },
+          {
+            "text": "Windows-Testserver",
+            "collapsed": true,
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Windows_Testserver/"
+          }
+        ]
+      }
+    ],
+    "beratung": [
+      {
+        "text": "Orientierung & Support",
+        "items": [
+          {
+            "text": "Übersicht: Beratung & Umstieg",
+            "link": "/beratung/"
+          },
+          {
+            "text": "Systemüberblick",
+            "link": "/beratung/systemueberblick"
+          },
+          {
+            "text": "Installation, Hardware & Updates",
+            "link": "/beratung/installation"
+          },
+          {
+            "text": "Migrationsprobleme eingrenzen",
+            "link": "/beratung/migration"
+          },
+          {
+            "text": "Probleme & Lösungen",
+            "link": "/beratung/probleme"
+          },
+          {
+            "text": "Beratungsanfrage vorbereiten",
+            "link": "/beratung/anfrage-vorbereiten"
+          }
+        ],
+        "collapsed": false,
+        "link": "/beratung/"
+      },
+      {
+        "text": "Umstieg: Arbeitsabläufe im Vergleich",
+        "collapsed": false,
+        "link": "/schulungsmodule/VonSchild2_ZuSchild3/",
+        "items": [
+          {
+            "text": "Oberfläche & Arbeitsverzeichnis",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "Arbeitsverzeichnis",
+                "collapsed": true,
+                "link": "/schulungsmodule/VonSchild2_ZuSchild3/1Uebersicht/Arbeitsverzeichnis/"
+              },
+              {
+                "text": "SchILD3 Oberflaeche",
+                "collapsed": true,
+                "link": "/schulungsmodule/VonSchild2_ZuSchild3/1Uebersicht/SchILD3_Oberflaeche/"
+              },
+              {
+                "text": "SVWS Client",
+                "collapsed": true,
+                "link": "/schulungsmodule/VonSchild2_ZuSchild3/1Uebersicht/SVWS_Client/"
+              }
+            ]
+          },
+          {
+            "text": "Schülerdaten",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "SchILD-NRW 3",
+                "collapsed": true,
+                "link": "/schulungsmodule/VonSchild2_ZuSchild3/2Schueler/schild3/"
+              },
+              {
+                "text": "SVWS-Client",
+                "collapsed": true,
+                "link": "/schulungsmodule/VonSchild2_ZuSchild3/2Schueler/svwsClient/"
+              }
+            ]
+          },
+          {
+            "text": "Leistungsdaten",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "SchILD-NRW 3",
+                "collapsed": true,
+                "link": "/schulungsmodule/VonSchild2_ZuSchild3/3Leistungsdaten/schild3/"
+              },
+              {
+                "text": "SVWS-Client",
+                "collapsed": true,
+                "link": "/schulungsmodule/VonSchild2_ZuSchild3/3Leistungsdaten/svwsClient/"
+              }
+            ]
+          },
+          {
+            "text": "Stundenplan",
+            "collapsed": true,
+            "link": "/schulungsmodule/VonSchild2_ZuSchild3/4Stundenplan/"
+          },
+          {
+            "text": "Oberstufenplanung",
+            "collapsed": true,
+            "link": "/schulungsmodule/VonSchild2_ZuSchild3/5Oberstufenplanung/"
+          },
+          {
+            "text": "Funktionsumfang des SVWS-Clients",
+            "collapsed": true,
+            "link": "/schulungsmodule/VonSchild2_ZuSchild3/GrenzenClient/"
+          }
+        ]
+      },
+      {
+        "text": "Technische Anleitungen",
+        "collapsed": false,
+        "link": "/Fachberatung_Anleitungen/",
+        "items": [
+          {
+            "text": "API-Beispiele",
+            "collapsed": true,
+            "link": "/Fachberatung_Anleitungen/API-examples/"
+          },
+          {
+            "text": "Datenbankmigration",
+            "collapsed": true,
+            "link": "/Fachberatung_Anleitungen/DBMigration/"
+          },
+          {
+            "text": "Datenbanken prüfen und reparieren",
+            "collapsed": true,
+            "link": "/Fachberatung_Anleitungen/DBReparatur/"
+          },
+          {
+            "text": "Reporting",
+            "collapsed": true,
+            "link": "/Fachberatung_Anleitungen/Reporting/",
+            "items": [
+              {
+                "text": "Beispielreport: Schülerliste",
+                "collapsed": true,
+                "link": "/Fachberatung_Anleitungen/Reporting/BeispielreportSchuelerliste/"
+              },
+              {
+                "text": "Reporting im Überblick",
+                "collapsed": true,
+                "link": "/Fachberatung_Anleitungen/Reporting/Uebersicht/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fortbildung": [
+      {
+        "text": "Angebote & Teilnahme",
+        "link": "/fortbildung/",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Übersicht: Fortbildung & Austausch",
+            "link": "/fortbildung/"
+          },
+          {
+            "text": "Angebote auf Anfrage",
+            "link": "/fortbildung/#angebote-auf-anfrage"
+          }
+        ]
+      },
+      {
+        "text": "Fortbildungsarchiv & Materialien",
+        "collapsed": false,
+        "link": "/Fachberatung_Fortbildungen/",
+        "items": [
+          {
+            "text": "Beratung & Umstieg",
+            "collapsed": false,
+            "items": [
+              {
+                "text": "Umstieg auf SchILD-NRW 3",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/UmstiegSchild3/"
+              },
+              {
+                "text": "Tipps für Supportanfragen",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Wissenswert/"
+              },
+              {
+                "text": "Offene Fragerunde",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Fragerunde/"
+              }
+            ]
+          },
+          {
+            "text": "Datenbanken",
+            "collapsed": false,
+            "items": [
+              {
+                "text": "Datenbanken mit DBeaver sichten",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/DBeaver/"
+              },
+              {
+                "text": "Migration & Datenbanksicherung",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/MigrationSicherung/"
+              },
+              {
+                "text": "MDB-Datenbanken reparieren",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/ReparaturMDB/"
+              }
+            ]
+          },
+          {
+            "text": "Installation",
+            "collapsed": false,
+            "items": [
+              {
+                "text": "Installation: Fortbildung",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Installation/"
+              },
+              {
+                "text": "VirtualBox: Fortbildung",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Virtualbox/"
+              },
+              {
+                "text": "Proxmox: Fortbildung",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Proxmox/"
+              }
+            ]
+          },
+          {
+            "text": "Oberstufe & Planung",
+            "collapsed": false,
+            "items": [
+              {
+                "text": "Grundlagen der Oberstufe",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/GymnasialeOberstufeBasics/"
+              },
+              {
+                "text": "Oberstufenplanung",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Oberstufe/"
+              },
+              {
+                "text": "Blockung der Einführungsphase",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/EFBlockung/"
+              },
+              {
+                "text": "Blockung der Qualifikationsphase",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/QBlockung/"
+              },
+              {
+                "text": "Stundenplan & Klausurblockung",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Stundenplan_Klausurblockung/"
+              }
+            ]
+          },
+          {
+            "text": "Reports & Module",
+            "collapsed": false,
+            "items": [
+              {
+                "text": "Reports: Fortbildung",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Reports/"
+              },
+              {
+                "text": "Webnotenmodul",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Wenom/"
+              },
+              {
+                "text": "Externe Module",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Externe_Module/"
+              }
+            ]
+          },
+          {
+            "text": "Team & Schulungskonzepte",
+            "collapsed": false,
+            "items": [
+              {
+                "text": "Entwicklungsstand: bisherige Unterlagen",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Aktuell/"
+              },
+              {
+                "text": "Austausch zu Schulungen",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Austausch_Schulungen/"
+              },
+              {
+                "text": "Schulungskonzepte",
+                "collapsed": true,
+                "link": "/Fachberatung_Fortbildungen/Schulungskonzept/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "SVWS-Convention",
+        "link": "/fortbildung/convention",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Convention in Düsseldorf",
+            "link": "/fortbildung/convention"
+          }
+        ]
+      }
+    ],
+    "wissen": [
+      {
+        "text": "Nachschlagen & Links",
+        "link": "/wissen/",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Übersicht: Wissen & Links",
+            "link": "/wissen/"
+          },
+          {
+            "text": "Wichtige Links",
+            "link": "/wissen/links"
+          },
+          {
+            "text": "Tipp der Woche: nach Datum",
+            "link": "/Tipp_der_Woche/"
+          }
+        ]
+      },
+      {
+        "text": "SchILD-Tipps",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Datenbankmigration",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/datenbankmigration"
+          },
+          {
+            "text": "Ehemalige Schülerinnen und Schüler",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/ehemalige"
+          },
+          {
+            "text": "Spalten im Lehrercontainer",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/lehrerspalten"
+          },
+          {
+            "text": "Leistungsübersichten",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/leistungsuebersicht"
+          },
+          {
+            "text": "Startwarnung: Schuljahresabschnitte",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/StartwarnungSchuljahresabschnitt"
+          },
+          {
+            "text": "Statistikprüfung: Stapelüberlauf",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/statistikfehlerStapelueberlauf"
+          },
+          {
+            "text": "Straßenkatalog",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/strassenkatalog"
+          },
+          {
+            "text": "Telli-Export",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/telliExport"
+          },
+          {
+            "text": "Rechtsbelehrung auf Zeugnissen",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/zeugnisRechtsbelehrung"
+          },
+          {
+            "text": "Zeugnisreports",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/zeugnisreports"
+          },
+          {
+            "text": "ZP10-Export",
+            "link": "/Tipp_der_Woche/SchILD-Tipp_der_Woche/zp10Export"
+          }
+        ],
+        "link": "/wissen/schild-tipps"
+      },
+      {
+        "text": "SVWS-Tipps",
+        "collapsed": false,
+        "items": [
+          {
+            "text": "Versionsbezogener Bugfix",
+            "link": "/Tipp_der_Woche/SVWS-Hack_der_Woche/bugfix122"
+          },
+          {
+            "text": "Fehler in der Oberstufen-App",
+            "link": "/Tipp_der_Woche/SVWS-Hack_der_Woche/bugInOberstufenapp"
+          },
+          {
+            "text": "Datenbanksicherung mit DBeaver",
+            "link": "/Tipp_der_Woche/SVWS-Hack_der_Woche/dbeaver-dump"
+          },
+          {
+            "text": "Fehlerhafte Kursarten DFG und DFK",
+            "link": "/Tipp_der_Woche/SVWS-Hack_der_Woche/fehlerhafteKursarteDFGundDFK"
+          },
+          {
+            "text": "Kataloge im SVWS-Client",
+            "link": "/Tipp_der_Woche/SVWS-Hack_der_Woche/kataloge"
+          },
+          {
+            "text": "Konferenzübersicht",
+            "link": "/Tipp_der_Woche/SVWS-Hack_der_Woche/konferenzmodul"
+          },
+          {
+            "text": "SVWS-Tools",
+            "link": "/Tipp_der_Woche/SVWS-Hack_der_Woche/tools"
+          }
+        ],
+        "link": "/wissen/svws-tipps"
+      }
+    ]
+  },
+  "routes": {
+    "/neu-im-team/": "team",
+    "/schulungsmodule/": "schulungen",
+    "/schulungsmodule/VonSchild2_ZuSchild3/": "beratung",
+    "/Datenbanken/": "testdaten",
+    "/umgebungen/": "testdaten",
+    "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/": "testdaten",
+    "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/": "testdaten",
+    "/beratung/": "beratung",
+    "/Fachberatung_Anleitungen/": "beratung",
+    "/fortbildung/": "fortbildung",
+    "/Fachberatung_Fortbildungen/": "fortbildung",
+    "/wissen/": "wissen",
+    "/Tipp_der_Woche/": "wissen"
+  }
+}
