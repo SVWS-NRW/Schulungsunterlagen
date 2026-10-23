@@ -1,6 +1,21 @@
+---
+sectionCards:
+  - title: "Orientierung & Support"
+    details: "Systemzusammenhänge, Installation, Migration und den Beratungsweg nachvollziehen."
+    link: "/beratung/systemueberblick"
+  - title: "Umstieg im Vergleich"
+    details: "Arbeitsabläufe in SchILD-NRW 3 und im SVWS-Client gegenüberstellen."
+    link: "/schulungsmodule/VonSchild2_ZuSchild3/"
+  - title: "Technische Anleitungen"
+    details: "Datenbankprüfung, Reporting und API-Beispiele gezielt nachschlagen."
+    link: "/Fachberatung_Anleitungen/"
+---
+
 # Beratung & Umstieg
 
 Die Fachberatung unterstützt Schulen vor allem bei Bedienungsfragen und Fehleinstellungen. Mit dem Umstieg auf SVWS-Server und SchILD-NRW 3 kommen viele Fragen zu Installation, Updates und Migration hinzu. Hier findest Du die vorhandenen Hilfen nach Beratungsanlass gebündelt.
+
+<SectionCards />
 
 ## Aktuelle Schwerpunkte
 
