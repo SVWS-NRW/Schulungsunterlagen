@@ -1,4 +1,4 @@
-# Inkonsistente Datenbank reparieren
+# Datenbanken prüfen und reparieren {#inkonsistente-datenbank-reparieren}
 
 Im folgenden wird die Reparatur einer SVWS-MariaDB anhand eines Beispiels erläutert. Die Anleitung ist für interessierte Fachberater vorgesehen.
 

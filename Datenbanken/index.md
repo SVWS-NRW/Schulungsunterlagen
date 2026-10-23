@@ -1,4 +1,22 @@
-# Datenbanken
+# Test- & Schulungsdatenbanken {#datenbanken}
+
+## Eine passende Datenbank finden
+
+| Einsatzbereich | Sammlung und Beschreibung |
+| --- | --- |
+| Grundschule | [Schulungsdatenbanken Grundschule](./Grundschule/) |
+| Gesamtschule | [Schulungsdatenbanken Gesamtschule](./Gesamtschule/) |
+| Berufskolleg | [Schulungsdatenbanken Berufskolleg](./Berufskolleg/) |
+| Gymnasiale Oberstufe | [Bisherige Sammlung](./GOSt-DB/), [Übungsstände und Einsatzmöglichkeiten](./GOSt-DB/GOSt_DB_Eigenschaften.md) |
+| Gymnasiale Oberstufe, Stand 2026 | [Sammlung 2026](./GOSt-DB_2026/), [Übungsstände von der EF-Planung bis zur Klausurplanung](./GOSt-DB_2026/GOSt_DB_Eigenschaften.md) |
+
+## Vor der Schulung prüfen
+
+Wähle die Datenbank passend zum [Schulungsmodul](/schulungsmodule/). Prüfe Softwareversionen, Ausgangsstand und die vorgesehenen Aufgaben vor dem Einsatz. Die [Umgebungsanleitungen](/umgebungen/) helfen bei Einrichtung und Rücksetzen.
+
+Für neue oder überarbeitete Datenbanken nutze den [Steckbrief](./steckbrief.md). Fehlende Versionsangaben in älteren Beständen sind noch keine bestätigte Kompatibilitätsaussage.
+
+## Weitere Bestände & bisherige Hinweise
 
 ## Testdatenbanken .sqlite
 
@@ -16,4 +34,4 @@ Eine kleine Auswahl an Testdatenbanken finden Sie unter dem Github-Repository [S
 
 ## Testdatenbanken .mdb
 
-Eine große Auswahl an Testdatenbanken finden Sie unter dem Github-Repository [SVWS-TestMDBs](https://github.com/SVWS-NRW/SVWS-TestMDBs). Es handelt sich hierbei um einen Fundus von Entwicklerdatenbanken. Hier sind oft sehr spezielle Konstellationen zur Prüfung individueller Einstellungen vorgesehen und eigenen sich nicht unbedingt für ein realistisches Abbild des Schulalltags.   
+Eine große Auswahl an Testdatenbanken finden Sie unter dem Github-Repository [SVWS-TestMDBs](https://github.com/SVWS-NRW/SVWS-TestMDBs). Es handelt sich hierbei um einen Fundus von Entwicklerdatenbanken. Hier sind oft sehr spezielle Konstellationen zur Prüfung individueller Einstellungen vorgesehen und eigenen sich nicht unbedingt für ein realistisches Abbild des Schulalltags.

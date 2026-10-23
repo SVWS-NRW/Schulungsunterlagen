@@ -1,4 +1,4 @@
-# Fortbildung: Umstieg von SchILD2 zu SchILD3 - Was ändert sich
+# Fortbildung: Umstieg auf SchILD-NRW 3 {#fortbildung-umstieg-von-schild2-zu-schild3-was-andert-sich}
 
 Der grundlegende Arbeitsablauf wurde in Schild3 analog zu Schild2 umgesetzt. An einigen Stellen gibt es Unterschiede, scheinbar fehlende Funktionen oder Felder, die in Schild2 noch vorhanden waren oder umbenannt wurden.
 
@@ -32,19 +32,5 @@ Diese Anpassungen sollen in der Online-Fortbildung aufgezeigt werden. Konkret so
 + Restart des Servers nach einem Update
 + Oberstufenplanung an Gesamtschulen
 
-
-
-
 ### Ablauf der Fortbildung
 Die oben genannten Inhalte werden vorgestellt. Eine Überungsphase ist nicht vorgesehen.
-
-
-
-
-
-
-
-
-
-
-
