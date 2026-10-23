@@ -26,3 +26,25 @@
 @media print {
   .portal-home { max-width: none; margin: 0; padding: 0; }
 }
+
+/* Markdown checklists: native boxes, hanging indent, and no duplicate list bullets. */
+.vp-doc .contains-task-list {
+  padding-left: 0;
+  list-style: none;
+}
+.vp-doc .task-list-item {
+  position: relative;
+  padding-left: 1.65em;
+  list-style: none;
+}
+.vp-doc .task-list-item-checkbox {
+  appearance: auto;
+  position: absolute;
+  left: 0;
+  top: .35em;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  opacity: 1;
+  accent-color: var(--vp-c-brand-1);
+}
