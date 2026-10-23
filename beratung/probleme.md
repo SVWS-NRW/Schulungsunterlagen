@@ -2,6 +2,15 @@
 
 Diese Übersicht erschließt die vorhandenen Tipps und Anleitungen nach dem Beratungsanlass. Die Artikel stammen aus unterschiedlichen Entwicklungsständen. Prüfe vor der Anwendung, ob Produkt, Version und Ausgangslage zum Fall passen.
 
+## Häufige Supportanlässe
+
+| Problem | Einstieg |
+| --- | --- |
+| Server oder SchILD-NRW 3 lässt sich nicht einrichten | [Installation, Hardware & Updates](./installation.md) |
+| Unklarheit über Server, Datenbank und Verbindungsdatei | [Zusammenhänge verstehen](./systemueberblick.md) |
+| Migration scheitert oder zeigt Datenfehler | [Migrationsprobleme eingrenzen](./migration.md) |
+| Ein Fehler lässt sich nur am konkreten Datenstand untersuchen | [Lokale Analyseumgebung](/umgebungen/lokale-analyse) |
+
 ## Migration & Datenbanken
 
 - [Datenbankmigration](/Tipp_der_Woche/SchILD-Tipp_der_Woche/datenbankmigration)

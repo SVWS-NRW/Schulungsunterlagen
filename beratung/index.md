@@ -1,25 +1,29 @@
 # Beratung & Umstieg
 
-Hier findest Du Orientierung für Beratungsfälle und den Übergang von SchILD-NRW 2 zu SchILD-NRW 3 und dem SVWS-Client.
+Die Fachberatung unterstützt Schulen vor allem bei Bedienungsfragen und Fehleinstellungen. Mit dem Umstieg auf SVWS-Server und SchILD-NRW 3 kommen viele Fragen zu Installation, Updates und Migration hinzu. Hier findest Du die vorhandenen Hilfen nach Beratungsanlass gebündelt.
 
-## Schnell zum passenden Thema
+## Aktuelle Schwerpunkte
 
-| Anliegen | Einstieg |
+| Anliegen | Dein Einstieg |
 | --- | --- |
-| Was ändert sich beim Umstieg? | [Oberfläche, Arbeitsverzeichnis und Arbeitsabläufe](/schulungsmodule/VonSchild2_ZuSchild3/) |
-| Eine Umstiegsschulung vorbereiten | [Aufgaben für die Übergangsschulung](/schulungsmodule/uebergangsschulung/) |
-| Ein konkretes Fehlerbild einordnen | [Probleme & Lösungen nach Themen](./probleme.md) |
-| Eine Rückfrage an das Team stellen | [Beratungsanfrage vorbereiten](./anfrage-vorbereiten.md) |
-| Datenbank, Reporting oder Schnittstellen untersuchen | [Technische Anleitungen](/Fachberatung_Anleitungen/) |
-| Ein Supportgespräch anhand von Beispielen üben | [Fortbildung: Tipps für Supportanfragen](/Fachberatung_Fortbildungen/Wissenswert/) |
+| Wie arbeiten die Programme zusammen? | [SVWS-Server, MariaDB, SVWS-Client und SchILD-NRW 3](./systemueberblick.md) |
+| Was muss installiert werden und welche Hardware passt? | [Installation, Hardware & Updates](./installation.md) |
+| Die Migration scheitert oder die Daten wirken danach fehlerhaft | [Migrationsprobleme eingrenzen](./migration.md) |
+| Eine Test- oder Problemdatenbank lokal untersuchen | [Lokale Test- & Analyseumgebung](/umgebungen/lokale-analyse) |
+| Ein bestimmtes Fehlerbild nachschlagen | [Probleme & Lösungen nach Themen](./probleme.md) |
+| Einen hartnäckigen Fall weitergeben | [Beratungsanfrage vorbereiten](./anfrage-vorbereiten.md) |
 
-## Vom SchILD-NRW-2-Arbeitsplatz zur neuen Umgebung
+## Warum der Umstieg jetzt so viel Unterstützung braucht
 
-Die vorhandene [Umstiegsreihe](/schulungsmodule/VonSchild2_ZuSchild3/) vergleicht die Desktopanwendung und den SVWS-Client. Dazu gehören Schülerdaten, Leistungsdaten und das gemeinsame Arbeitsverzeichnis. Für einzelne Arbeitsschritte nutze ergänzend die [zentralen Dokumentationen](/wissen/links).
+Die landesweite Umstellung auf den SVWS-Server erhöht den Installations-, Update- und Migrationsbedarf. Für 2027 ist die Erfassung der Schulstatistik über den Server vorgesehen; die [SVWS-Dokumentation ordnet die Umstellung ein](https://doku.svws-nrw.de/deployment/FAQ.html). Die meisten Schulen nutzen den Server zusammen mit SchILD-NRW 3.
 
-## Technisch weiterarbeiten
+Fachberaterinnen und Fachberater helfen auch Schulen mit selbst betriebener Serverumgebung. Anliegen von IT-Dienstleistern betreuen Anne, David und Jens als Landesfachberatung. Den [Supportweg und die Rollen](/neu-im-team/rollen) findest Du im Teameinstieg.
 
-- [Laufbahndaten aus SchILD-NRW 2 importieren](/schulungsmodule/ImportSchILD2Laufbahndaten/)
-- [Migration und Datenbanksicherung: Fortbildungsmaterial](/Fachberatung_Fortbildungen/MigrationSicherung/)
-- [Datenbanken untersuchen und reparieren](/Fachberatung_Anleitungen/DBReparatur/)
-- [Installation und Diagnose in der Offline-Umgebung](/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/)
+## Bewährte Materialien nutzen
+
+- Die [Umstiegsübersicht](/schulungsmodule/VonSchild2_ZuSchild3/) vergleicht bestehende Arbeitsabläufe in SchILD-NRW 2, SchILD-NRW 3 und dem SVWS-Client.
+- Die [vorhandenen Installationsunterlagen](/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/) beschreiben Einrichtung, Sicherungen und Diagnose.
+- Annes Beiträge zu typischen Problemen sind über die [Tipps der Woche](/Tipp_der_Woche/) und die [thematische Sammlung](./probleme.md) erreichbar.
+- Für vertiefte Untersuchungen gibt es [technische Anleitungen](/Fachberatung_Anleitungen/) und [Fallbeispiele zu Supportanfragen](/Fachberatung_Fortbildungen/Wissenswert/).
+
+Die vorhandenen Schulungsunterlagen bleiben als Bestand zugänglich. Ihre fachliche Überarbeitung liegt bei den Moderatorinnen und Moderatoren.

@@ -29,4 +29,4 @@ Welches Thema hilft Dir in der Beratung oder Moderation weiter? Sende Deinen Wun
 
 ## SVWS-Convention
 
-Die jährliche SVWS-Convention soll hier einen festen Platz bekommen. Auf der [Convention-Seite](./convention.md) werden bestätigte Informationen und später die Materialien gebündelt.
+Die jährliche SVWS-Convention in Düsseldorf informiert über Neuerungen und anstehende Aufgaben und bietet Raum für den Austausch. Auf der [Convention-Seite](./convention.md) werden bestätigte Informationen und später die Materialien gebündelt.
