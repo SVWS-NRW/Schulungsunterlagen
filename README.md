@@ -32,7 +32,7 @@ Bei `ENOENT` den Arbeitsordner prüfen; dort muss `package.json` liegen. Bei feh
 
 ## Aufbau und Pflege
 
-Die Übersichtsseiten verknüpfen vorhandene Artikel unter ihren bisherigen Adressen. `.vitepress/sidebar.json` ist die zentrale Seitennavigation; `sidebar.ts` stellt sie der Konfiguration zur Verfügung. Bei neuen Artikeln den passenden Bereich dort ergänzen. Hauptnavigation und Seiteneinstellungen liegen in `.vitepress/config.ts`, das Erscheinungsbild in `.vitepress/theme/portal.css`.
+Die Übersichtsseiten verknüpfen vorhandene Artikel unter ihren bisherigen Adressen. `.vitepress/sidebar.json` definiert unter `sections` ein gemeinsames Menü je Rubrik und unter `routes` die Zuordnung der bisherigen Artikelpfade. `sidebar.ts` stellt diese Menüs der Konfiguration zur Verfügung. Innerhalb einer Rubrik bleibt dadurch das vollständige Menü erhalten. Bei neuen Artikeln den passenden Bereich dort ergänzen. Hauptnavigation und Seiteneinstellungen liegen in `.vitepress/config.ts`, das Erscheinungsbild in `.vitepress/theme/portal.css`.
 
 Die Bestandszuordnung und redaktionelle Restpunkte sind in [PORTAL-REDAKTION.md](./PORTAL-REDAKTION.md) dokumentiert. Softwarestände, Termine und fachliche Aussagen müssen getrennt von dieser Strukturänderung bestätigt werden.
 

@@ -9,43 +9,25 @@ Einzelne Beiträge beschreiben versionsabhängige Probleme oder Übergangslösun
 ## :point_right: SVWS-Hack der Woche   
 
 | :date: 12.10.2026 | :information_source: [Bug in der Oberstufenapp](./SVWS-Hack_der_Woche/bugInOberstufenapp.md) |
-
 |------------------|----------------------------------------------------------------------------------|
-
 | :date: 05.10.2026 | :information_source: [Fehlerhafte Kursarten DFG/DFK](./SVWS-Hack_der_Woche/fehlerhafteKursarteDFGundDFK.md) |
-
 | :date: 22.06.2026 | :information_source: [SVWS-Tools](./SVWS-Hack_der_Woche/tools.md) |
-
 | :date: 20.04.2026 | :information_source: [Modul zur Konferenzübersicht](./SVWS-Hack_der_Woche/konferenzmodul.md) |
-
 | :date: 09.03.2026 | :information_source: [Dump mit Dbeaver](./SVWS-Hack_der_Woche/dbeaver-dump.md) |
-
 | :date: 16.02.2026 | :information_source: [Bugfix](./SVWS-Hack_der_Woche/bugfix122.md) |
-
 | :date: 09.02.2026 | :information_source: [Kataloge](./SVWS-Hack_der_Woche/kataloge.md) |
 
 ## :point_right: SchILD-Tipp der Woche   
 
 | :date: 14.09.2026 | :information_source: [Statistikprüfung - Stapelüberlauf](./SchILD-Tipp_der_Woche/statistikfehlerStapelueberlauf.md) |
-
 |------------------|----------------------------------------------------------------------------------|
-
 | :date: 08.06.2026 | :information_source: [Bug im ZP10-Export](./SchILD-Tipp_der_Woche/zp10Export.md) |
-
 | :date: 18.05.2026 | :information_source: [Sichtbare Spalten im Lehrercontainer](./SchILD-Tipp_der_Woche/lehrerspalten.md) |
-
 | :date: 11.05.2026 | :information_source: [Status Ehemalige](./SchILD-Tipp_der_Woche/ehemalige.md) |
-
 | :date: 13.04.2026 | :information_source: [Zeugnis-Rechtsbelehrung](./SchILD-Tipp_der_Woche/zeugnisRechtsbelehrung.md) |
-
 | :date: 23.03.2026 | :information_source: [Straßenkatalog](./SchILD-Tipp_der_Woche/strassenkatalog.md) |
-
 | :date: 16.03.2026 | :information_source: [Telli-Export](./SchILD-Tipp_der_Woche/telliExport.md) |
-
 | :date: 02.03.2026 | :information_source: [Warnung beim Programmstart - Schuljahresabschnitte](./SchILD-Tipp_der_Woche/StartwarnungSchuljahresabschnitt.md) |
-
 | :date: 23.02.2026 | :information_source: [Datenbankmigration](./SchILD-Tipp_der_Woche/datenbankmigration.md) |
-
 | :date: 02.02.2026 | :information_source: [Zeugnisreports](./SchILD-Tipp_der_Woche/zeugnisreports.md) |
-
 | :date: 26.01.2026 | :information_source: [Leistungsübersichten](./SchILD-Tipp_der_Woche/leistungsuebersicht.md) |

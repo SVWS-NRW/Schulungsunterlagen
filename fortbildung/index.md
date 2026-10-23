@@ -1,6 +1,21 @@
+---
+sectionCards:
+  - title: "Angebote & Teilnahme"
+    details: "Angebote auf Anfrage und Hinweise zu den internen Fortbildungen finden."
+    link: "/fortbildung/#angebote-auf-anfrage"
+  - title: "Materialien & Archiv"
+    details: "Veröffentlichte Termine und vorhandene Unterlagen nachlesen."
+    link: "/Fachberatung_Fortbildungen/"
+  - title: "SVWS-Convention"
+    details: "Informationen zum jährlichen Treffen in Düsseldorf und zur Nachbereitung finden."
+    link: "/fortbildung/convention"
+---
+
 # Fortbildung & Austausch
 
 Die internen Angebote richten sich an Fachberaterinnen und Fachberater sowie Moderatorinnen und Moderatoren. David, Anne und Jens bündeln hier Fortbildungsangebote und Themen aus Eurer Praxis.
+
+<SectionCards />
 
 ## Termine & Teilnahme
 

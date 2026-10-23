@@ -1,4 +1,19 @@
-# Test- & Schulungsdatenbanken {#datenbanken}
+---
+sectionCards:
+  - title: "Test- & Schulungsdatenbanken"
+    details: "Datenstände nach Schulform auswählen und passende Übungen finden."
+    link: "/Datenbanken/#eine-passende-datenbank-finden"
+  - title: "Lokale Test- & Analyseumgebung"
+    details: "Den persönlichen Analyseplatz einrichten und eine Datenbankkopie untersuchen."
+    link: "/umgebungen/"
+  - title: "Weitere Schulungsumgebungen"
+    details: "Vorhandene Anleitungen für Docker, Proxmox, VirtualBox und Schulungsserver nutzen."
+    link: "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/"
+---
+
+# Testdaten & Umgebungen {#datenbanken}
+
+<SectionCards />
 
 ## Eine passende Datenbank finden
 

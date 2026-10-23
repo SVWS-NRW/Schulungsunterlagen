@@ -42,7 +42,7 @@ Der bisherige Bildverweis „Datum setzen“ in den Klausurplanungsaufgaben war 
 
 ## Navigation pflegen
 
-`.vitepress/sidebar.json` enthält die Navigation pro Bereich. `sidebar.ts` exportiert diese zentrale Quelle für `.vitepress/config.ts`. Vorhandene Artikel sind zusätzlich über die Bereichsseiten erreichbar. Neue Artikel im passenden Navigationszweig ergänzen und verlinken. Artikel mit sehr kurzem Inhalt bleiben ausdrücklich als Bestand oder Entwurf erkennbar.
+`.vitepress/sidebar.json` enthält unter `sections` die gemeinsamen Menüs und unter `routes` die Zuordnung sämtlicher Pfadbereiche. Die Hauptgruppen von Testdaten, Beratung, Fortbildung und Wissen bleiben aufgeklappt. `sidebar.ts` exportiert diese zentrale Quelle für `.vitepress/config.ts`. Vorhandene Artikel sind zusätzlich über die Bereichsseiten erreichbar. Neue Artikel im passenden Navigationszweig ergänzen und verlinken. Artikel mit sehr kurzem Inhalt bleiben ausdrücklich als Bestand oder Entwurf erkennbar.
 
 ## Zuordnung aller bisherigen Markdown-Dateien
 
@@ -226,3 +226,11 @@ Der bisherige Bildverweis „Datum setzen“ in den Klausurplanungsaufgaben war 
 | `schulungsmodule/uebergangsschulung/4_Reports.md` | Schulungen durchführen |
 | `schulungsmodule/uebergangsschulung/5_Noteneingabe.md` | Schulungen durchführen |
 | `schulungsmodule/uebergangsschulung/index.md` | Schulungen durchführen |
+
+## Rahmenaufbau und Tabellen
+
+Die Rubriken Testdaten, Beratung, Fortbildung und Wissen erhalten Übersichtsseiten mit Themenkarten. Ein gemeinsames Menü pro Rubrik verhindert den bisherigen Strukturwechsel zwischen Unterbereichen. Neu im Team und Schulungen behalten ihre bisherigen Menüs. Die neuen Themenübersichten für SchILD- und SVWS-Tipps erschließen dieselben bestehenden Artikel.
+
+Im Fortbildungsarchiv und in der Tippsammlung wurden ausschließlich Leerzeilen zwischen Tabellenzeilen entfernt. Zelltexte, Reihenfolge und Links bleiben erhalten. Die Darstellung wird im erzeugten HTML und im Browser geprüft. Fachliche Schulungsinhalte wurden nicht überarbeitet.
+
+Prüfung dieser Verfeinerung: 24 direkte Aufrufe und Klickwege mit unverändertem Seitenmenü innerhalb der Rubrik; 24 Layoutansichten bei 390/1440 Pixeln in heller/dunkler Darstellung; die mobile Navigation erreicht alle drei Testdaten-Gruppen. Das Fortbildungsarchiv enthält wieder eine HTML-Tabelle mit Kopfzeile und 15 Angeboten; die Tippsammlung zwei Tabellen mit insgesamt 18 Beiträgen. Keine Tabellenzeilen werden mehr als Pipe-Text ausgegeben. Neu im Team und Schulungen wurden gegen den bisherigen Navigationsbestand verglichen und sind unverändert.
