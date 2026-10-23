@@ -1,4 +1,28 @@
-# Schulungsmodule
+# Schulungen durchführen {#schulungsmodule}
+
+## Das passende Material auswählen
+
+| Zielgruppe oder Thema | Vorhandene Module |
+| --- | --- |
+| Einstieg in SchILD-NRW | [Basisschulungen](./basisschulungen/) |
+| Grundschule | [Basis- und Leistungsdatenschulungen](./GS/) |
+| Sekundarstufe I | [Unterricht, Halbjahreswechsel und Zeugnisse](./sek_i/) |
+| Gymnasiale Oberstufe | [Laufbahnplanung, Blockung, Abitur und Klausurplanung](./gost/) |
+| Berufskolleg | [Schulungsmaterial für das Berufskolleg](./BK/) |
+| Wechsel von SchILD-NRW 2 zu 3 | [Vergleich der Arbeitsabläufe](./VonSchild2_ZuSchild3/) und [Aufgaben zur Übergangsschulung](./uebergangsschulung/) |
+| Reporting | [Reports erstellen](./Reporterstellung/) |
+| Datenübernahme | [SchILD-NRW-2-Laufbahndaten importieren](./ImportSchILD2Laufbahndaten/) |
+
+## Eine Schulung vorbereiten
+
+1. Zielgruppe und Lernziele festlegen; passende Aufgaben aus den Modulen auswählen.
+2. [Übungsdatenbank](/Datenbanken/) und [Schulungsumgebung](/umgebungen/) vorbereiten.
+3. Aufgaben mit dem vorgesehenen Softwarestand selbst durchspielen.
+4. Moderationshinweise, Teilnehmendenmaterial und einen Rücksetzweg bereithalten.
+
+Die [Vorlagen für Schulungsunterlagen](./vorlagen.md) helfen Dir bei Ablauf, Aufgaben und Moderation. Für den Austausch zu Schulungskonzepten nutze die [internen Fortbildungsangebote](/fortbildung/).
+
+## Unser Schulungskonzept
 
 Das Konzept aller hier ausgearbeiteten Module ist, dass die Inhalte anhand von Aufgaben aufgebaut ist, die diese Inhalte vermittlen. Hilfen werden soweit möglich aus den verlinkten Seiten auf der SVWS-Doku und dem SchILD-NRW-3-Wiki entnommen.
 
@@ -18,12 +42,14 @@ Weiterhin sollen in Aufgaben möglichst keine konkreten Personen, Klassen und Da
 
 ## Basismodule
 
-+ ToDo
+[Basisschulungen auswählen](./basisschulungen/)
 
 ## GoST
 
 + Modul 1: Grundlagen bis EF (2 Tage)
+
 + Modul 2: Q-Phase bis Abitur (1 Tag)
+
 + Modul 3: Leitungsmodul (1 Tag)
 
 ## Reporterstellung

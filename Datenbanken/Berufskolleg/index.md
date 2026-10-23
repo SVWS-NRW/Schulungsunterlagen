@@ -1,4 +1,4 @@
-# Datenbanken Berufskolleg
+# Schulungsdatenbanken für das Berufskolleg {#datenbanken-berufskolleg}
 
 Ablage Ordner für Schulungsdatenbanken Berufskolleg.
 

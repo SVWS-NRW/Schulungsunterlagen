@@ -1,4 +1,4 @@
-# API Examples
+# API-Beispiele für die Fachberatung {#api-examples}
 
 Eine Einführung in die Nutzung der API befindet sich in der [SVWS-Dokumentation](https://doku.svws-nrw.de/development/API/).
 
@@ -12,4 +12,4 @@ Bitte bei der Benutzung der unterschiedlichen API-Endpunkte darauf achten, dass 
 
 ## Aufrufen des "Try it out"
 
-## 
+##
