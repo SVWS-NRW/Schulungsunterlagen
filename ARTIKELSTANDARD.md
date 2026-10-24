@@ -84,7 +84,7 @@ Für Beispiele `::: example` verwenden; der Standardtitel ist „Beispiel“. Ei
 
 ## Navigation: Bereich → Thema → Artikel
 
-- Die sechs Bereiche stehen in der Hauptnavigation. Die Sidebar fasst die gleichberechtigten Themen unter einer offenen Bereichsüberschrift zusammen; direkt unter den Themen stehen die Artikel. Darunter folgen keine weiteren Artikel-Ebenen.
+- Die sechs Bereiche stehen in der Hauptnavigation. Die Sidebar fasst die gleichberechtigten Themen unter einer Bereichsüberschrift zusammen; direkt unter den Themen stehen die Artikel. Darunter folgen keine weiteren Artikel-Ebenen.
 - Unterthemen mit eigener Aufgabenreihe werden zu eigenständigen Themen, beispielsweise „Oberstufe: Klausurplanung“. Keine zusätzlichen aufklappbaren Ebenen unter einem Artikel.
 - Menütitel sind Klartext, höchstens 48 Zeichen lang. Keine Markdown-Links, Dateinamen mit Unterstrichen oder ausgeschriebenen URLs. Die Langtitel im Artikel bleiben möglich.
 - Bestehende Artikelpfade bleiben erhalten. Die längste passende Route in `.vitepress/sidebar.json` legt den verantwortlichen Bereich fest, auch bei historischen Verzeichnisnamen.
@@ -95,8 +95,8 @@ Für Beispiele `::: example` verwenden; der Standardtitel ist „Beispiel“. Ei
 ### Bereichsübersicht und Wechsel zwischen Bereichen
 
 - Außer „Neu im Team“ beginnt das Hauptmenü jedes Bereichs mit „Übersicht“, die auf dessen Landing-Page führt.
-- Der Hauptblock trägt den Bereichsnamen. Außer bei Schulungen bleibt er geöffnet; dort gilt das unten beschriebene Akkordeon. Nur das aktive Thema darin wird automatisch aufgeklappt.
-- „Weitere Bereiche“ zeigt die übrigen Bereiche in der Reihenfolge der Hauptnavigation. Unter Schulungen bilden „Schulungen“, „Schulungsumgebungen“ und „Weitere Bereiche“ ein Akkordeon: Beim Öffnen eines Blocks schließen die anderen.
+- Der Hauptblock trägt den Bereichsnamen. Unter Schulungen gibt es drei native VitePress-Hauptsektionen, die unabhängig voneinander auf- und zugeklappt werden. Nur das aktive Thema darin wird beim Seitenaufruf automatisch aufgeklappt.
+- „Weitere Bereiche“ zeigt die übrigen Bereiche in der Reihenfolge der Hauptnavigation. Unter Schulungen stehen „Schulungen“, „Schulungsumgebungen“ und „Weitere Bereiche“ als getrennte Hauptsektionen. Das Öffnen oder Schließen einer Sektion verändert die anderen nicht.
 - Hauptnavigation und Bereichswechsel werden gemeinsam aus `.vitepress/sidebar.json` unter `nav` erzeugt. „Neu im Team“ behält sein bisheriges Menü.
 - Historische Verzeichnisse ändern bei einer redaktionellen Verschiebung ihren Pfad nicht. Die Route der Schulungsumgebung gehört zu „Schulungen“; das vollständige Modul „Umstieg zu SchILD-NRW 3“ gehört ebenfalls zu „Schulungen“.
 

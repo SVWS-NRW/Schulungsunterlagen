@@ -10,7 +10,7 @@ test('canonical URLs, encoded spaces and index pages', () => {
   assert.equal(clean('/a/'), '/a')
   assert.equal(clean('/a%20b.html#test'), '/a b')
 })
-test('every article has its own open section and reciprocal local neighbours', () => {
+test('every article has a suitable initial section and reciprocal local neighbours', () => {
   for (const groups of Object.values(nav.sections)) for (const group of groups) {
     for (const item of [group, ...group.items ?? []]) {
       if (!item.link || item.link.includes('#')) continue
@@ -99,4 +99,10 @@ test('all overview cards belong to the page section', () => {
     }
   }
   assert.ok(checked > 15, 'Overview cards were not discovered')
+})
+
+test('school navigation uses the shared VitePress theme without a custom sidebar', () => {
+  const theme = readFileSync(new URL('../.vitepress/theme/index.ts', import.meta.url), 'utf8')
+  assert.ok(!theme.includes('SchoolSidebar'))
+  assert.ok(!theme.includes('sidebar-nav-before'))
 })

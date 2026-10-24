@@ -18,33 +18,46 @@ const visit = async link => {
   assert.equal(response.status(), 200, link)
   await page.waitForSelector('.VPContent')
 }
-const sectionButtons = () => page.locator('.school-section > h2 > button')
-const assertOnlyOpen = async index => {
-  assert.deepEqual(await sectionButtons().evaluateAll(buttons => buttons.map(button => button.getAttribute('aria-expanded'))),
-    [0, 1, 2].map(i => i === index ? 'true' : 'false'))
-}
-try {
-  // Exercise the changed behaviour first, so failures do not wait for the full scan.
-  await visit('/schulungsmodule/')
-  assert.deepEqual((await sectionButtons().allTextContents()).map(text => text.replace(/[⌄›]/g, '').trim()),
-    ['Schulungen', 'Schulungsumgebungen', 'Weitere Bereiche'])
-  await assertOnlyOpen(0)
-  for (const index of [1, 2, 0]) {
-    await sectionButtons().nth(index).click()
-    await assertOnlyOpen(index)
-  }
-  await sectionButtons().nth(1).focus()
+const roots = () => page.locator('#VPSidebarNav .VPSidebarItem.level-0')
+const collapsed = async () => roots().evaluateAll(nodes => nodes.map(node => node.classList.contains('collapsed')))
+const toggleRoot = async index => roots().nth(index).locator(':scope > .item .caret').click()
+const assertIndependent = async () => {
+  assert.deepEqual(await collapsed(), [false, true, true])
+  await toggleRoot(1)
+  assert.deepEqual(await collapsed(), [false, false, true])
+  await toggleRoot(2)
+  assert.deepEqual(await collapsed(), [false, false, false])
+  await roots().nth(1).locator(':scope > .item .caret').focus()
   await page.keyboard.press('Enter')
-  await assertOnlyOpen(1)
-  await sectionButtons().nth(2).focus()
-  await page.keyboard.press('Space')
-  await assertOnlyOpen(2)
+  assert.deepEqual(await collapsed(), [false, true, false])
+  await toggleRoot(0)
+  assert.deepEqual(await collapsed(), [true, true, false])
+}
+const fontStyle = async selector => page.locator(selector).first().evaluate(node => {
+  const css = getComputedStyle(node)
+  return { size: css.fontSize, weight: css.fontWeight, family: css.fontFamily, lineHeight: css.lineHeight }
+})
+try {
+  await visit('/beratung/')
+  const referenceRoot = await fontStyle('#VPSidebarNav .VPSidebarItem.level-0 > .item .text')
+  const referenceTopic = await fontStyle('#VPSidebarNav .VPSidebarItem.level-1 > .item .text')
+  const referenceBranch = await fontStyle('#VPSidebarNav .VPSidebarItem.level-1.collapsible > .item .text')
+  const referenceArticle = await fontStyle('#VPSidebarNav .VPSidebarItem.level-2 > .item .text')
+  await visit('/schulungsmodule/')
+  assert.equal(await page.locator('.school-sidebar').count(), 0)
+  assert.deepEqual(await roots().locator(':scope > .item .text').allTextContents(),
+    ['Schulungen', 'Schulungsumgebungen', 'Weitere Bereiche'])
+  assert.deepEqual(await fontStyle('#VPSidebarNav .VPSidebarItem.level-0 > .item .text'), referenceRoot)
+  assert.deepEqual(await fontStyle('#VPSidebarNav .VPSidebarItem.level-1 > .item .text'), referenceTopic)
+  assert.deepEqual(await fontStyle('#VPSidebarNav .VPSidebarItem.level-1.collapsible > .item .text'), referenceBranch)
+  assert.deepEqual(await fontStyle('#VPSidebarNav .VPSidebarItem.level-2 > .item .text'), referenceArticle)
+  await assertIndependent()
   await visit('/Fachberatung_Anleitungen/Test-_und_Schulungsserver/')
-  await assertOnlyOpen(1)
+  assert.deepEqual(await collapsed(), [true, false, true])
   assert.ok((await page.locator('.vp-doc h1').innerText()).includes('Schulungsumgebungen'))
   assert.equal(await page.locator('.section-card').count(), 9)
   await visit('/schulungsmodule/VonSchild2_ZuSchild3/')
-  await assertOnlyOpen(0)
+  assert.deepEqual(await collapsed(), [false, true, true])
   assert.ok((await page.locator('.vp-doc h1').innerText()).includes('Umstieg zu SchILD-NRW 3'))
   assert.equal((await page.locator('.VPNavBarMenu a.active').innerText()).trim(), 'Schulungen')
   await visit('/schulungsmodule/uebergangsschulung/2_Filtern_Gruppenprozesse.html')
@@ -56,21 +69,19 @@ try {
   for (const key of keys) {
     await visit(key.replace(/index\.md$/, '').replace(/\.md$/, '.html'))
     const { section, topic } = topicFor(nav, key)
-    if (section === 'schulungen') {
-      await assertOnlyOpen(topic?.text === 'Schulungsumgebungen' ? 1 : 0)
-      const nativeVisible = await page.locator('#VPSidebarNav > .group').evaluateAll(groups => groups.some(group => getComputedStyle(group).display !== 'none'))
-      assert.equal(nativeVisible, false, key + ': duplicate native menu')
-      const expected = sidebarFor(nav, key).at(-1).items.map(item => item.text)
-      assert.deepEqual(await page.locator('#school-section-panel-2 a').allTextContents(), expected)
-    } else {
-      const level = section === 'team' ? 0 : 1
-      assert.equal(await page.locator('#VPSidebarNav .VPSidebarItem.level-' + level + '.collapsible:not(.collapsed)').count(), topic?.items?.length ? 1 : 0, key)
-      if (section !== 'team') {
-        const root = page.locator('#VPSidebarNav .VPSidebarItem.level-0')
-        assert.equal(await root.first().locator(':scope > .item .text').innerText(), nav.sectionLabels[section])
-        assert.equal(await root.nth(1).locator(':scope > .item .text').innerText(), 'Weitere Bereiche')
-        assert.ok((await root.nth(1).getAttribute('class')).includes('collapsed'))
+    const level = section === 'team' ? 0 : 1
+    const topicCount = section === 'schulungen' && topic?.text === 'Schulungsumgebungen' ? 0 : topic?.items?.length ? 1 : 0
+    assert.equal(await page.locator('#VPSidebarNav .VPSidebarItem.level-' + level + '.collapsible:not(.collapsed)').count(), topicCount, key)
+    if (section !== 'team') {
+      const root = roots()
+      assert.equal(await root.first().locator(':scope > .item .text').innerText(), nav.sectionLabels[section])
+      const others = root.last()
+      assert.equal(await others.locator(':scope > .item .text').innerText(), 'Weitere Bereiche')
+      assert.ok((await others.getAttribute('class')).includes('collapsed'))
+      if (section === 'schulungen') {
+        assert.deepEqual(await collapsed(), topic?.text === 'Schulungsumgebungen' ? [true, false, true] : [false, true, true])
       }
+      assert.deepEqual(await others.locator('a .text').allTextContents(), sidebarFor(nav, key).at(-1).items.map(item => item.text))
     }
     for (const href of await page.locator('.section-cards a').evaluateAll(links => links.map(link => link.href))) {
       assert.equal(sectionFor(nav, localPath(href)), section, key + ': misplaced card')
@@ -85,11 +96,11 @@ try {
   const first = '/schulungsmodule/gost/Klausurplanung/1. allgemeine Vorlagen'
   const second = '/schulungsmodule/sek_i/1_Unterrichtsfaecher'
   await visit(first + '.html')
-  await page.locator('.school-sidebar a').evaluateAll((links, href) => links.find(a => decodeURI(a.href).includes(href))?.click(), second)
+  await page.locator('#VPSidebarNav a').evaluateAll((links, href) => links.find(a => decodeURI(a.href).includes(href))?.click(), second)
   await page.waitForURL('**/1_Unterrichtsfaecher.html')
   await page.goBack({ waitUntil: 'networkidle' })
   assert.ok(decodeURI(page.url()).includes('1. allgemeine Vorlagen'))
-  await assertOnlyOpen(0)
+  assert.deepEqual(await collapsed(), [false, true, true])
 
   await visit('/')
   await page.getByRole('button', { name: 'Dokumentation durchsuchen' }).click()
@@ -112,16 +123,13 @@ try {
       if (width === 390) {
         await visit('/schulungsmodule/')
         await page.locator('.VPLocalNav button.menu').click()
-        for (const index of [1, 2, 0]) {
-          await sectionButtons().nth(index).click()
-          await assertOnlyOpen(index)
-        }
-        await page.screenshot({ path: 'test-results/' + scheme + '-mobile-accordion.png', fullPage: true })
+        await assertIndependent()
+        await page.screenshot({ path: 'test-results/' + scheme + '-mobile-sidebar.png', fullPage: true })
       }
     }
   }
   assert.deepEqual(errors, [], 'Browserfehler')
-  console.log(keys.length + ' Artikelaufrufe, Umstiegsmodul, Emoji, Karten-Zuordnung, exklusives Akkordeon mit Maus/Tastatur/mobil, Verlauf und Suche erfolgreich.')
+  console.log(keys.length + ' Artikelaufrufe, Umstiegsmodul, Emoji, Karten-Zuordnung, unabhängige native Menüs mit Maus/Tastatur/mobil und gemeinsame Schriftgestaltung, Verlauf und Suche erfolgreich.')
 } finally {
   await browser.close()
 }
