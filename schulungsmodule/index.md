@@ -1,4 +1,28 @@
+---
+sectionCards:
+  - title: "Basisschulung"
+    details: "Grundlagen und erste Schritte in SchILD-NRW kennenlernen."
+    link: "/schulungsmodule/basisschulungen/"
+  - title: "Grundschule"
+    details: "Grundlagen für die Arbeit an Grundschulen üben."
+    link: "/schulungsmodule/GS/Basisschulung-GS/"
+  - title: "Sekundarstufe I"
+    details: "Unterricht, Halbjahreswechsel und Zeugnisse vorbereiten."
+    link: "/schulungsmodule/sek_i/"
+  - title: "Sekundarstufe II"
+    details: "Die kommende EF planen und die Oberstufen-App kennenlernen."
+    link: "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/"
+  - title: "SchILD-NRW 2 zu 3"
+    details: "Den Wechsel anhand der Übergangsschulung üben."
+    link: "/schulungsmodule/uebergangsschulung/"
+  - title: "Umstieg zu SchILD-NRW 3"
+    details: "Arbeitsabläufe in SchILD-NRW 3 und im SVWS-Client kennenlernen."
+    link: "/schulungsmodule/VonSchild2_ZuSchild3/"
+---
+
 # Schulungen durchführen {#schulungsmodule}
+
+<SectionCards />
 
 ## Das passende Material auswählen
 

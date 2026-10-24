@@ -96,6 +96,13 @@ Für Beispiele `::: example` verwenden; der Standardtitel ist „Beispiel“. Ei
 
 - Außer „Neu im Team“ beginnt das Hauptmenü jedes Bereichs mit „Übersicht“, die auf dessen Landing-Page führt.
 - Der Hauptblock trägt den Bereichsnamen und bleibt geöffnet. Nur das aktive Thema darin wird automatisch aufgeklappt.
-- „Weitere Bereiche“ steht als separater eingeklappter Block darunter und zeigt die übrigen Bereiche in der Reihenfolge der Hauptnavigation.
+- „Weitere Bereiche“ zeigt die übrigen Bereiche in der Reihenfolge der Hauptnavigation. Unter Schulungen bilden „Schulungen“, „Schulungsumgebungen“ und „Weitere Bereiche“ ein Akkordeon: Beim Öffnen eines Blocks schließen die anderen.
 - Hauptnavigation und Bereichswechsel werden gemeinsam aus `.vitepress/sidebar.json` unter `nav` erzeugt. „Neu im Team“ behält sein bisheriges Menü.
-- Historische Verzeichnisse ändern bei einer redaktionellen Verschiebung ihren Pfad nicht. Die Route der Schulungsumgebung gehört zu „Schulungen“; der Umstiegsvergleich bleibt „Beratung“ zugeordnet.
+- Historische Verzeichnisse ändern bei einer redaktionellen Verschiebung ihren Pfad nicht. Die Route der Schulungsumgebung gehört zu „Schulungen“; das vollständige Modul „Umstieg zu SchILD-NRW 3“ gehört ebenfalls zu „Schulungen“.
+
+### Landingpages und Emoji-Kürzel
+
+- Themenkacheln auf Bereichsübersichten verlinken ausschließlich Themen des eigenen Bereichs. Bereichsübergreifende Hinweise bleiben als ausdrücklich benannte Textlinks möglich; die globale Startseite erschließt alle Bereiche.
+- Nach einer Verschiebung Menüzuordnung und Übersichts-Kacheln gemeinsam pflegen. Die Zuordnung wird in Quellen und Browser geprüft.
+- Die Kürzel `:a:`, `:date:` und `:information_source:` werden im normalen Artikeltext als Emoji dargestellt. Innerhalb von Code bleiben sie unverändert.
+- Die Übersicht der Schulungsumgebungen liegt unter dem erhaltenen Pfad `/Fachberatung_Anleitungen/Test-_und_Schulungsserver/`.
