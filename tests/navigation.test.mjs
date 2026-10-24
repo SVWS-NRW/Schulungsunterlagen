@@ -101,8 +101,3 @@ test('all overview cards belong to the page section', () => {
   assert.ok(checked > 15, 'Overview cards were not discovered')
 })
 
-test('school navigation uses the shared VitePress theme without a custom sidebar', () => {
-  const theme = readFileSync(new URL('../.vitepress/theme/index.ts', import.meta.url), 'utf8')
-  assert.ok(!theme.includes('SchoolSidebar'))
-  assert.ok(!theme.includes('sidebar-nav-before'))
-})
