@@ -1,7 +1,7 @@
 # Sichten des SVWS-Clients
 
 ### Aufgabe: Datenbank im Browser öffnen
-Öffnen Sie die Datenbank über einen Internet-Browser.   
+Öffne die Datenbank über einen Internet-Browser.   
 
 In der Regel genügt es, `localhost` in die Suchleiste einzutippen und mit Enter zu bestätigen.
 Führt dies nicht zum Ziel hilft meist die Langversion:  `https://localhost`.    

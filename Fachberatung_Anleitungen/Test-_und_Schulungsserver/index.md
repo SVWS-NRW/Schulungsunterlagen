@@ -1,25 +1,5 @@
-# Schulungsserver
+# Schulungsumgebungen
 
-## Sammlung Installationsskripte
+Hier findest Du die Anleitungen zum Einrichten, Betreuen und Zurücksetzen von Schulungsservern und virtuellen Schulungsclients.
 
-[Hier](./Installationsskripte/index.md) befinden sich Skripte zur Installation von SVWS-Server unter docker oder mit dem Linuxinstaller. Ebenso findet man hier Installationsskripte von Wenom, Weblupo und diversen SVWS-Tools. 
-
-
-
-## Wie benutze ich den Schulungsserver als Moderator
-
-## Wie setze ich den Schulungsserver zurück?
-
-siehe Artikel: [Wartung](./Moderatoren_Schulungsserver/Wartung.md)
-
-## Quellen
-
-Etwas vereinfachte und reduzierte bash Skripte zum Aufsetzen einer Testumgebung finden Sie in der SVWS-Dokumentation unter deployment
-
-+ [Testserver](https://github.com/SVWS-NRW/SVWS-Dokumentation/tree/main/deployment/Testserver)
-
-Um vollständige Umgebungen zu Erzeugen, Zurückzusetzen und zu Warten können als Orientierung die Skripte unter
-deployment -> Svchulungsserver verwendet werden:  
-
-+ [Proxmox Schulungsserver](https://github.com/SVWS-NRW/SVWS-Dokumentation/tree/main/deployment/Schulungsserver/Proxmox_Schulungsserver)
-+ [Docker Schulungsserver](https://github.com/SVWS-NRW/SVWS-Dokumentation/tree/main/deployment/Schulungsserver/Docker_Schulungsserver)
+<NavigationOverview path="/Fachberatung_Anleitungen/Test-_und_Schulungsserver/" label="Thema" />

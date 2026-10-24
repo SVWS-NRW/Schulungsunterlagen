@@ -26,3 +26,132 @@
 @media print {
   .portal-home { max-width: none; margin: 0; padding: 0; }
 }
+
+/* Markdown checklists: native boxes, hanging indent, and no duplicate list bullets. */
+.vp-doc .contains-task-list {
+  padding-left: 0;
+  list-style: none;
+}
+.vp-doc .task-list-item {
+  position: relative;
+  padding-left: 1.65em;
+  list-style: none;
+}
+.vp-doc .task-list-item-checkbox {
+  appearance: auto;
+  position: absolute;
+  left: 0;
+  top: .35em;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  opacity: 1;
+  accent-color: var(--vp-c-brand-1);
+}
+
+
+/* Consistent article spacing with the SchILD-NRW 3 documentation. */
+@media (min-width: 960px) {
+  .Layout .VPDoc.has-sidebar { padding-left: 24px; padding-right: 24px; }
+  .Layout .VPDoc.has-sidebar > .container > .content {
+    min-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 1280px) {
+  .Layout .VPDoc.has-aside .aside { flex: 0 0 224px; max-width: 224px; padding-left: 24px; }
+  .Layout .VPDoc.has-aside .aside-container,
+  .Layout .VPDoc.has-aside .aside-curtain { width: 200px; }
+}
+.vp-doc figcaption,
+.vp-doc p:has(> img) + p > em:only-child {
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+}
+.vp-doc pre,
+.vp-doc iframe { max-width: 100%; }
+.vp-doc iframe[src*="youtube.com"],
+.vp-doc iframe[src*="youtube-nocookie.com"],
+.vp-doc iframe[src*="vimeo.com"] {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+/* Use the standard VitePress menu drawer when all six navigation tabs do
+   not comfortably fit alongside the header controls. */
+@media (min-width: 768px) and (max-width: 1240px) {
+  .VPNav .VPNavBar .VPNavBarMenu { display: none; }
+  .VPNav .VPNavBar .VPNavBarHamburger { display: flex; }
+  .VPNav .VPNavScreen.VPNavScreen { display: block; }
+}
+
+
+/* Shared SchILD-NRW 3 documentation conventions: VitePress callouts. */
+:root {
+  --vp-custom-block-info-bg: var(--vp-c-indigo-soft);
+  --vp-custom-block-info-border: var(--vp-c-indigo-2);
+  --vp-custom-block-tip-bg: var(--vp-c-green-soft);
+  --vp-custom-block-tip-border: var(--vp-c-green-2);
+  --vp-custom-block-warning-bg: var(--vp-c-yellow-soft);
+  --vp-custom-block-warning-border: var(--vp-c-yellow-2);
+  --vp-custom-block-danger-bg: var(--vp-c-red-soft);
+  --vp-custom-block-danger-border: var(--vp-c-red-2);
+}
+.vp-doc .custom-block { border-left-width: 4px; }
+.vp-doc .custom-block-title { text-transform: none; }
+.vp-doc .custom-block-title,
+.vp-doc details.custom-block > summary {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.vp-doc .custom-block .hint-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  align-self: center;
+}
+.custom-block[data-hint-kind="info"] > .custom-block-title > .hint-icon { color: var(--vp-c-indigo-1); }
+.custom-block[data-hint-kind="tip"] > .custom-block-title > .hint-icon,
+.custom-block[data-hint-kind="right"] > .custom-block-title > .hint-icon { color: var(--vp-c-green-1); }
+.custom-block[data-hint-kind="important"] > .custom-block-title > .hint-icon { color: var(--vp-c-yellow-1); }
+.custom-block[data-hint-kind="caution"] > .custom-block-title > .hint-icon { color: var(--vp-c-red-1); }
+.custom-block[data-hint-kind="wrong"] > .custom-block-title > .hint-icon { color: var(--vp-c-red-1); }
+.vp-doc details.custom-block > summary { list-style: none; cursor: pointer; }
+.vp-doc details.custom-block > summary::-webkit-details-marker { display: none; }
+.vp-doc details.custom-block > summary:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 4px;
+}
+
+/* The container limits overflow rather than allowing wide embedded content
+   or tables to make the entire documentation horizontally scroll. */
+.vp-doc { min-width: 0; overflow-wrap: anywhere; }
+.vp-doc div[class*="language-"] { max-width: 100%; }
+.vp-doc table { max-width: 100%; overflow-wrap: normal; }
+.vp-doc th, .vp-doc td { vertical-align: top; }
+.vp-doc img { max-width: 100%; height: auto; }
+.vp-doc figure { max-width: 100%; margin: 1.5rem 0; }
+.vp-doc figcaption { line-height: 1.45; }
+.vp-doc iframe { max-width: 100%; }
+.vp-doc a { overflow-wrap: anywhere; }
+
+/* Shared callout semantics in light and dark themes. */
+.vp-doc .custom-block[data-hint-kind="caution"] {
+  background-color: var(--vp-c-yellow-soft);
+  border-color: var(--vp-c-yellow-2);
+}
+.custom-block[data-hint-kind="caution"] > .custom-block-title > .hint-icon { color: var(--vp-c-yellow-1); }
+.vp-doc .custom-block.example {
+  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-purple-soft);
+  border-color: var(--vp-c-purple-2);
+}
+.custom-block.example > .custom-block-title > .hint-icon { color: var(--vp-c-purple-1); }
+.vp-doc details.custom-block[open] > summary > .hint-icon { transform: rotate(90deg); }
+@media (min-width: 768px) {
+  .VPHome .VPHomeFeatures .item.grid-6 { width: calc(100% / 3); }
+}

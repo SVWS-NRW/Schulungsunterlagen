@@ -6,9 +6,6 @@ sectionCards:
   - title: "Lokale Test- & Analyseumgebung"
     details: "Den persönlichen Analyseplatz einrichten und eine Datenbankkopie untersuchen."
     link: "/umgebungen/"
-  - title: "Weitere Schulungsumgebungen"
-    details: "Vorhandene Anleitungen für Docker, Proxmox, VirtualBox und Schulungsserver nutzen."
-    link: "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/"
 ---
 
 # Testdaten & Umgebungen {#datenbanken}
@@ -35,7 +32,7 @@ Für neue oder überarbeitete Datenbanken nutze den [Steckbrief](./steckbrief.md
 
 ## Testdatenbanken .sqlite
 
-Eine kleine Auswahl an Testdatenbanken finden Sie unter dem Github-Repository [SVWS-TestSqlites](https://github.com/SVWS-NRW/SVWS-TestSqlites)
+Eine kleine Auswahl an Testdatenbanken findest Du unter dem Github-Repository [SVWS-TestSqlites](https://github.com/SVWS-NRW/SVWS-TestSqlites)
 
 ## Schulungsdatenbanken
 
@@ -49,4 +46,4 @@ Eine kleine Auswahl an Testdatenbanken finden Sie unter dem Github-Repository [S
 
 ## Testdatenbanken .mdb
 
-Eine große Auswahl an Testdatenbanken finden Sie unter dem Github-Repository [SVWS-TestMDBs](https://github.com/SVWS-NRW/SVWS-TestMDBs). Es handelt sich hierbei um einen Fundus von Entwicklerdatenbanken. Hier sind oft sehr spezielle Konstellationen zur Prüfung individueller Einstellungen vorgesehen und eigenen sich nicht unbedingt für ein realistisches Abbild des Schulalltags.
+Eine große Auswahl an Testdatenbanken findest Du unter dem Github-Repository [SVWS-TestMDBs](https://github.com/SVWS-NRW/SVWS-TestMDBs). Es handelt sich hierbei um einen Fundus von Entwicklerdatenbanken. Hier sind oft sehr spezielle Konstellationen zur Prüfung individueller Einstellungen vorgesehen und eigenen sich nicht unbedingt für ein realistisches Abbild des Schulalltags.

@@ -1,17 +1,10 @@
 # Schulungen durchführen {#schulungsmodule}
 
-## Das passende Material auswählen
+Hier findest Du Schulungsmodule für unterschiedliche Schulformen und Aufgaben in SchILD-NRW und im SVWS-Client. Wähle das passende Modul für Deine Zielgruppe; die Materialien unterstützen Dich bei der Vorbereitung und Durchführung Deiner Schulung.
 
-| Zielgruppe oder Thema | Vorhandene Module |
-| --- | --- |
-| Einstieg in SchILD-NRW | [Basisschulungen](./basisschulungen/) |
-| Grundschule | [Basis- und Leistungsdatenschulungen](./GS/) |
-| Sekundarstufe I | [Unterricht, Halbjahreswechsel und Zeugnisse](./sek_i/) |
-| Gymnasiale Oberstufe | [Laufbahnplanung, Blockung, Abitur und Klausurplanung](./gost/) |
-| Berufskolleg | [Schulungsmaterial für das Berufskolleg](./BK/) |
-| Wechsel von SchILD-NRW 2 zu 3 | [Vergleich der Arbeitsabläufe](./VonSchild2_ZuSchild3/) und [Aufgaben zur Übergangsschulung](./uebergangsschulung/) |
-| Reporting | [Reports erstellen](./Reporterstellung/) |
-| Datenübernahme | [SchILD-NRW-2-Laufbahndaten importieren](./ImportSchILD2Laufbahndaten/) |
+## Vorhandene Schulungsmodule
+
+<NavigationOverview path="/schulungsmodule/" label="Schulungsmodul" />
 
 ## Eine Schulung vorbereiten
 
@@ -39,19 +32,3 @@ Die :a: **Aufgaben** helfen die konkrete Bedienung und dann Spezialfälle, Verti
 Die Module hier sind lediglich als grobe Anleitung, also eher als einen "Moderationswaschzettel" zu verstehen und sind darauf ausgelegt, von jedem Moderationsteam an den konkreten Fall anzupassen, etwa indem Aufgaben weggelassen oder hinzugefügt werden. Daher sind die Aufgaben auch nicht fix durchnummeriert.
 
 Weiterhin sollen in Aufgaben möglichst keine konkreten Personen, Klassen und Daten genannt werden, um so unabhängig wie möglich von veränderten Schulungsdatenbanken zu sein.
-
-## Basismodule
-
-[Basisschulungen auswählen](./basisschulungen/)
-
-## GoST
-
-+ Modul 1: Grundlagen bis EF (2 Tage)
-
-+ Modul 2: Q-Phase bis Abitur (1 Tag)
-
-+ Modul 3: Leitungsmodul (1 Tag)
-
-## Reporterstellung
-
-Eine zweitägige Schulung zum Erstellen von Reports. Absichtlich wird mit einer Lehrerliste begonnen, um dann am zweiten Tag Schülerlisten zu erstellen.

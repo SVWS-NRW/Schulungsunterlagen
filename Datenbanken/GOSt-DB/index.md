@@ -1,6 +1,6 @@
 # Schulungsdatenbanken für die gymnasiale Oberstufe {#gost-schulungsdatenbanken}
 
-Schulungsdatenbanken für die gymnasiale Oberstufe finden Sie in diesem [Ordner auf Github.](https://github.com/SVWS-NRW/Schulungsunterlagen/tree/master/Datenbanken/GOSt-DB)
+Schulungsdatenbanken für die gymnasiale Oberstufe findest Du in diesem [Ordner auf Github.](https://github.com/SVWS-NRW/Schulungsunterlagen/tree/master/Datenbanken/GOSt-DB)
 
 ## Dateien in dieser Sammlung
 

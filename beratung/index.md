@@ -3,9 +3,6 @@ sectionCards:
   - title: "Orientierung & Support"
     details: "Systemzusammenhänge, Installation, Migration und den Beratungsweg nachvollziehen."
     link: "/beratung/systemueberblick"
-  - title: "Umstieg im Vergleich"
-    details: "Arbeitsabläufe in SchILD-NRW 3 und im SVWS-Client gegenüberstellen."
-    link: "/schulungsmodule/VonSchild2_ZuSchild3/"
   - title: "Technische Anleitungen"
     details: "Datenbankprüfung, Reporting und API-Beispiele gezielt nachschlagen."
     link: "/Fachberatung_Anleitungen/"
@@ -36,9 +33,9 @@ Fachberaterinnen und Fachberater helfen auch Schulen mit selbst betriebener Serv
 
 ## Bewährte Materialien nutzen
 
-- Die [Umstiegsübersicht](/schulungsmodule/VonSchild2_ZuSchild3/) vergleicht bestehende Arbeitsabläufe in SchILD-NRW 2, SchILD-NRW 3 und dem SVWS-Client.
+- Das Schulungsmodul [Umstiegsübersicht](/schulungsmodule/VonSchild2_ZuSchild3/) vergleicht bestehende Arbeitsabläufe in SchILD-NRW 2, SchILD-NRW 3 und dem SVWS-Client.
 - Die [vorhandenen Installationsunterlagen](/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/) beschreiben Einrichtung, Sicherungen und Diagnose.
 - Annes Beiträge zu typischen Problemen sind über die [Tipps der Woche](/Tipp_der_Woche/) und die [thematische Sammlung](./probleme.md) erreichbar.
 - Für vertiefte Untersuchungen gibt es [technische Anleitungen](/Fachberatung_Anleitungen/) und [Fallbeispiele zu Supportanfragen](/Fachberatung_Fortbildungen/Wissenswert/).
 
-Die vorhandenen Schulungsunterlagen bleiben als Bestand zugänglich. Ihre fachliche Überarbeitung liegt bei den Moderatorinnen und Moderatoren.
+Die vorhandenen Schulungsunterlagen bleiben als Bestand zugänglich. Deine fachliche Überarbeitung liegt bei den Moderatorinnen und Moderatoren.

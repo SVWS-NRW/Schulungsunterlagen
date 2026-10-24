@@ -13,33 +13,33 @@ Beginn in der EF.2 und nun Kontrolle der Wahlen/Laufbahnen für die Q-Phase.
 >In der Kopfzeile werden Laufbahnwahlbögen als .pdf für den Druck erzeugt.
 
 
-**Aufgaben 2.2.1 "Filtern Sie auf den Jahrgang EF"**: Filtern Sie in der *App Schüler* auf den Jahrgang EF und wechseln Sie auf den Reiter *Laufbahnplanung*.
-+ Klicken Sie bei einer Person auf "Planung merken".
-+ Verändern Sie im Wahlbereich die Laufbahnwahl und schauen Sie, wie sich die Zahl der Stunden und die belegten Kurse unten verändern.
-+ Schauen Sie, was für Fehler bei den "Belegprüfungsergebnissen" rechts erscheinen.
-+ Verändern Sie die Prüfung von "EF.1" auf "Gesamt". Was verändert sich?
+**Aufgaben 2.2.1 "Filtere auf den Jahrgang EF"**: Filtere in der *App Schüler* auf den Jahrgang EF und wechsle auf den Reiter *Laufbahnplanung*.
++ Klicke bei einer Person auf "Planung merken".
++ Verändere im Wahlbereich die Laufbahnwahl und schaue, wie sich die Zahl der Stunden und die belegten Kurse unten verändern.
++ Schaue, was für Fehler bei den "Belegprüfungsergebnissen" rechts erscheinen.
++ Verändere die Prüfung von "EF.1" auf "Gesamt". Was verändert sich?
 + Klicken sie auf *"Fächer anzeigen: Alle"*, was verändert sich? Wieso könnte es notwendig sein, nach der EF noch einmal alle Fächer anzeigen zu lassen?
 
 >[!TIP] Projektkurse/Literatur
 > Zur letzten Aufgabe: Projektkurse und Literatur werden erst in der Q1 angewählt, ebenso Zusatzkurse ZKs in der Q2 für SoWi oder Geschichte
 
 >[!TIP] Ausgeglichene Stundezahlen/Kursbelegungen zu erzeugen
->Versuchen Sie immer schon von Anfang an, akzeptable Kurszahlen und Stundenzahlen bei den SuS zu erzeugen. Beachten Sie hier schon: Wollen Sie zum Beispiel Musik in der Q2 anbieten? Falls nicht: Planen Sie alle Laufbahnen gleich so, dass diese ohne die Fächer auskommen, die in der Q2 nicht angeboten werden sollen.
+>Versuche immer schon von Anfang an, akzeptable Kurszahlen und Stundenzahlen bei den SuS zu erzeugen. Beachte hier schon: Willst Du zum Beispiel Musik in der Q2 anbieten? Falls nicht: Plane alle Laufbahnen gleich so, dass diese ohne die Fächer auskommen, die in der Q2 nicht angeboten werden sollen.
 
-**Aufgaben 2.2.2 "Kontrollieren Sie die Kurswahlen"**: Kontrollieren Sie nun Ihre Kurswahlen der **aktuellen EF**.
-+ Kontrollieren Sie, ob "Literatur" oder ein "Vertiefungskurs" - fälschlicherweise - in der Q2 belegt werden kann. Wo muss dieser Fehler konkret und generell behoben werden?
-+ Kontrollieren Sie, ob die Belegungen nun in den Laufbahnplanungen vorgenommen werden können.
-+ Kontrollieren Sie die Kurswahlen der EF-Schüler. Schauen Sie hierfür zuerst in den *Tab Oberstufe->Laufbahnen*, um die gefundenen Belegungsfehler zu finden. 
+**Aufgaben 2.2.2 "Kontrolliere die Kurswahlen"**: Kontrolliere nun Deine Kurswahlen der **aktuellen EF**.
++ Kontrolliere, ob "Literatur" oder ein "Vertiefungskurs" - fälschlicherweise - in der Q2 belegt werden kann. Wo muss dieser Fehler konkret und generell behoben werden?
++ Kontrolliere, ob die Belegungen nun in den Laufbahnplanungen vorgenommen werden können.
++ Kontrolliere die Kurswahlen der EF-Schüler. Schaue hierfür zuerst in den *Tab Oberstufe->Laufbahnen*, um die gefundenen Belegungsfehler zu finden. 
 
->[!TIP] Achtung: Die Prüfung muss hier auf "Gesamt" stehen, sonst finden Sie nur EF-Fehler!
+>[!TIP] Achtung: Die Prüfung muss hier auf "Gesamt" stehen, sonst findest Du nur EF-Fehler!
 >In der *App Oberstufe* sind die *Warndreiecke Belegungsfehler* und die *Ausrufezeichen Informationen*. 
->Beachten Sie hier auch das *Linksymbol* links neben einem Eintrag in der Auswahlliste. Über dieses kann direkt in die Laufbahnplanung dieses Schülers gesprungen werden. Der *Zurück*-Button des Browsers springt direkt zurück.
+>Beachte hier auch das *Linksymbol* links neben einem Eintrag in der Auswahlliste. Über dieses kann direkt in die Laufbahnplanung dieses Schülers gesprungen werden. Der *Zurück*-Button des Browsers springt direkt zurück.
 
 + Schüler, die keine Kurswahlen vorgenommen haben, sind dieses Schuljahr eventuell gar nicht da (Status: Beurlaubt). Für diese Schüler muss später eine passenden Laufbahn für die EF hinzugefügt werden.
 + Fehler bei der **Sprachenfolge** sind über den *Tab Sprachen* oder vorherige Lernabschnitte zu korrigieren. Ist eine Fremdsprachenanforderung eventuell schon erfüllt und es fehlt nur die Erfassung der Sprache?
-+ Überlegen Sie: Kann es noch Probleme in den Laufbahnen geben, die NICHT als Fehler erkannt wurden?
++ Überlege: Kann es noch Probleme in den Laufbahnen geben, die NICHT als Fehler erkannt wurden?
 
->[!TIP] Es müssen immer alle Schülerwahlen kontrolliert werden. Achten Sie auch auf legale Belegungen, die dennoch Probleme bereiten, etwa durch zu hohe Stundenzahlen, zu vielen Kursen - oder Kurskombinationen, die Sie nicht anbieten werden (zum Beispiel drei Sprachen oder drei Naturwissenschaften).
+>[!TIP] Es müssen immer alle Schülerwahlen kontrolliert werden. Achte auch auf legale Belegungen, die dennoch Probleme bereiten, etwa durch zu hohe Stundenzahlen, zu vielen Kursen - oder Kurskombinationen, die Du nicht anbieten werden (zum Beispiel drei Sprachen oder drei Naturwissenschaften).
 >
 >In laufenden oder vorherigen Lernabschnitten werden Änderungen durch Zuweisen/Löschen/Verändern von Kursen in den *Leistungsdaten des Lernabschnitts bei den Schülern* vorgenommen, nicht mehr in der *Laufbahnplanung*.
 
@@ -49,12 +49,12 @@ Beginn in der EF.2 und nun Kontrolle der Wahlen/Laufbahnen für die Q-Phase.
 
 >[!TIP]Oben Rechts "Zur Laufbahnplanung" und "Zur Sprachenfolge"
 
-**Aufgaben 2.2.3 "Zusammenfassung über Fachwahlen"**: Nach der Wahl und Korrektur nutzen Sie den *Tab Fachwahlen* um eine Übersicht über alle Wahlen anzeigen zu lassen.
-+ Nutzen Sie die Übersicht, um Ihre Wahlen zu korrigieren: Fallen schon Fehler auf?
+**Aufgaben 2.2.3 "Zusammenfassung über Fachwahlen"**: Nach der Wahl und Korrektur nutze den *Tab Fachwahlen* um eine Übersicht über alle Wahlen anzeigen zu lassen.
++ Nutze die Übersicht, um Deine Wahlen zu korrigieren: Fallen schon Fehler auf?
 + Wie wurden mündliche und schriftliche Fächer angewählt? Was ist mit Abiturfächern?
-+ Schauen Sie in die Q2, gibt es eventuell Kurse, die Sie gar nicht anbieten müssen, wenn nur ein paar Umwahlen für die Q1 durchgeführt werden? (Lassen sich die Musikleute auf den Literaturkurs oder andere Kurse verteilen? Was ist mit den Vertiefungskursen?)
-+ Was machen Sie mit den Projektkursen und Vertiefungskursen?
++ Schaue in die Q2, gibt es eventuell Kurse, die Du gar nicht anbieten musst, wenn nur ein paar Umwahlen für die Q1 durchgeführt werden? (Lassen sich die Musikleute auf den Literaturkurs oder andere Kurse verteilen? Was ist mit den Vertiefungskursen?)
++ Was mache mit den Projektkursen und Vertiefungskursen?
 
 >[!TIP] In der Liste rechts lassen sich die Fächer aufklappen
-> Details zu Fächern und welche SuS was gewählt haben lassen sich anzeigen, wenn Sie das Fach aufklappen.
-> Mehr Platz lässt sich sich schaffen, wenn Sie die Auswahlliste mit den Abiturjahrgängen links zuklappen.
+> Details zu Fächern und welche SuS was gewählt haben lassen sich anzeigen, wenn Du das Fach aufklappst.
+> Mehr Platz lässt sich sich schaffen, wenn Du die Auswahlliste mit den Abiturjahrgängen links zuklappst.

@@ -38,7 +38,7 @@ Klare Empfehlung: Diese Einträge nicht ohne Weiteres löschen!
 ### 🛠️ Für Power-User: Arbeiten mit der ID
 
 Für die Profis unter euch gibt’s noch einen tieferen Einblick:    
-Ihr könnt im Client die ID eines Eintrags sehen. Über diese ID lassen sich in der Datenbank alle Einträge finden, die auf die jeweilige Erzieherart verweisen.
+Du kannst im Client die ID eines Eintrags sehen. Über diese ID lassen sich in der Datenbank alle Einträge finden, die auf die jeweilige Erzieherart verweisen.
 
 Das ist besonders hilfreich, wenn ein Eintrag gelöscht werden soll, der an anderer Stelle in der Datenbank noch verwendet wird.
 

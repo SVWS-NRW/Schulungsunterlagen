@@ -17,4 +17,30 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npm run docs:build
+      - run: npm run docs:check
+      - name: Browserwerkzeug nur für diesen Prüflauf
+        run: |
+          npm install --no-save --package-lock=false playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Navigation und Darstellung im Browser
+        run: |
+          npm run docs:preview -- --host 127.0.0.1 --port 4173 > /tmp/fbm-preview.log 2>&1 &
+          for attempt in {1..30}; do
+            curl --fail --silent http://127.0.0.1:4173/Schulungsunterlagen/ > /dev/null && break
+            sleep 1
+          done
+          npm run docs:check-browser
+      - name: Prüfbilder aufbewahren
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: navigation-und-layout
+          path: test-results
+      - name: Zweiter Build ohne Unterpfad
+        env:
+          BASE: /
+        run: |
+          npm run docs:build
+          npm run docs:check-built
+      - name: Keine beiläufigen Paketänderungen
+        run: git diff --exit-code -- package.json package-lock.json
