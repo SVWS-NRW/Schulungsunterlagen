@@ -22,11 +22,15 @@
     ],
     "schulungen": [
       {
-        "text": "Schulungen im Überblick",
+        "text": "Übersicht",
         "link": "/schulungsmodule/"
       },
       {
-        "text": "Basisschulungen",
+        "text": "Schulungsvorlagen",
+        "link": "/schulungsmodule/vorlagen"
+      },
+      {
+        "text": "Basisschulung",
         "link": "/schulungsmodule/basisschulungen/",
         "collapsed": true,
         "items": [
@@ -73,120 +77,7 @@
         ]
       },
       {
-        "text": "Berufskolleg",
-        "link": "/schulungsmodule/BK/"
-      },
-      {
-        "text": "Oberstufe im Überblick",
-        "link": "/schulungsmodule/gost/"
-      },
-      {
-        "text": "Oberstufe: Beweglicher Block Leitung",
-        "link": "/schulungsmodule/gost/Beweglicher Block Leitung/"
-      },
-      {
-        "text": "Oberstufe: Klausurplanung",
-        "link": "/schulungsmodule/gost/Klausurplanung/",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Grundlagen",
-            "link": "/schulungsmodule/gost/Klausurplanung/1. allgemeine Vorlagen"
-          },
-          {
-            "text": "Jahrgangsvorgaben",
-            "link": "/schulungsmodule/gost/Klausurplanung/2. Vorgaben pro Abschnitt"
-          },
-          {
-            "text": "Schienen blocken",
-            "link": "/schulungsmodule/gost/Klausurplanung/3. Schienen"
-          },
-          {
-            "text": "Termine im Kalender setzen",
-            "link": "/schulungsmodule/gost/Klausurplanung/4. Kalender"
-          },
-          {
-            "text": "Räume und Startzeiten",
-            "link": "/schulungsmodule/gost/Klausurplanung/5. Räume und Startzeiten"
-          },
-          {
-            "text": "Planansichten",
-            "link": "/schulungsmodule/gost/Klausurplanung/6. Planübersichten und Ausgaben"
-          },
-          {
-            "text": "Nachschreibtermine",
-            "link": "/schulungsmodule/gost/Klausurplanung/7. Nachschreibtermine"
-          },
-          {
-            "text": "Aufgaben aus der Schulpraxis",
-            "link": "/schulungsmodule/gost/Klausurplanung/8. Praxisaufgaben"
-          }
-        ]
-      },
-      {
-        "text": "Oberstufe: Kommende EF",
-        "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Orientierung",
-            "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/1_Orientierung_und_Wiederholung"
-          },
-          {
-            "text": "App Oberstufe vorbereiten",
-            "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/2_App_Oberstufe"
-          },
-          {
-            "text": "Wahlen und Beratung",
-            "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/3_Wahlen_und_Beratung"
-          },
-          {
-            "text": "Blocken",
-            "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/4_Blocken"
-          },
-          {
-            "text": "Blockung Anwenden",
-            "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/5_Blockung_Anwenden"
-          },
-          {
-            "text": "Um-Abwahlen",
-            "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/6_Um-Abwahlen"
-          },
-          {
-            "text": "Leistungsdaten und Zeugnisse",
-            "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/7_Leistungsdaten_und_Zeugnisse"
-          }
-        ]
-      },
-      {
-        "text": "Oberstufe: Q-Phase & Abitur",
-        "link": "/schulungsmodule/gost/QPhase_und_Abitur/",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Orientierung",
-            "link": "/schulungsmodule/gost/QPhase_und_Abitur/1_Orientierung_und_Wiederholung"
-          },
-          {
-            "text": "Laufbahnen korrigieren",
-            "link": "/schulungsmodule/gost/QPhase_und_Abitur/2_NeueQphase_und_Laufbahnkorrekturen"
-          },
-          {
-            "text": "Q1 blocken",
-            "link": "/schulungsmodule/gost/QPhase_und_Abitur/3_KorrigierteEF_und_Q1Blocken"
-          },
-          {
-            "text": "Umwahlen & Abiturfächer",
-            "link": "/schulungsmodule/gost/QPhase_und_Abitur/4_Umwahlen_und_Wahl_von_A3A4"
-          }
-        ]
-      },
-      {
-        "text": "Grundschule im Überblick",
-        "link": "/schulungsmodule/GS/"
-      },
-      {
-        "text": "Grundschule: Grundlagen",
+        "text": "Grundschule Grundlagen",
         "link": "/schulungsmodule/GS/Basisschulung-GS/",
         "collapsed": true,
         "items": [
@@ -237,7 +128,7 @@
         ]
       },
       {
-        "text": "Grundschule: Zeugnisse",
+        "text": "Grundschule Zeugnisse",
         "link": "/schulungsmodule/GS/Leistungsdaten-GS/",
         "collapsed": true,
         "items": [
@@ -290,14 +181,6 @@
             "link": "/schulungsmodule/GS/Leistungsdaten-GS/12. Zeugnis-Broschürendruck mit dem Foxit Reader"
           }
         ]
-      },
-      {
-        "text": "Laufbahndaten importieren",
-        "link": "/schulungsmodule/ImportSchILD2Laufbahndaten/"
-      },
-      {
-        "text": "Reports erstellen",
-        "link": "/schulungsmodule/Reporterstellung/"
       },
       {
         "text": "Sekundarstufe I",
@@ -371,7 +254,120 @@
         ]
       },
       {
-        "text": "Übergangsschulung",
+        "text": "Sekundarstufe II - EF",
+        "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Orientierung",
+            "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/1_Orientierung_und_Wiederholung"
+          },
+          {
+            "text": "App Oberstufe vorbereiten",
+            "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/2_App_Oberstufe"
+          },
+          {
+            "text": "Wahlen und Beratung",
+            "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/3_Wahlen_und_Beratung"
+          },
+          {
+            "text": "Blocken",
+            "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/4_Blocken"
+          },
+          {
+            "text": "Blockung Anwenden",
+            "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/5_Blockung_Anwenden"
+          },
+          {
+            "text": "Um-Abwahlen",
+            "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/6_Um-Abwahlen"
+          },
+          {
+            "text": "Leistungsdaten und Zeugnisse",
+            "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/7_Leistungsdaten_und_Zeugnisse"
+          }
+        ]
+      },
+      {
+        "text": "Sekundarstufe II - Q1/Q2 und Abitur",
+        "link": "/schulungsmodule/gost/QPhase_und_Abitur/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Orientierung",
+            "link": "/schulungsmodule/gost/QPhase_und_Abitur/1_Orientierung_und_Wiederholung"
+          },
+          {
+            "text": "Laufbahnen korrigieren",
+            "link": "/schulungsmodule/gost/QPhase_und_Abitur/2_NeueQphase_und_Laufbahnkorrekturen"
+          },
+          {
+            "text": "Q1 blocken",
+            "link": "/schulungsmodule/gost/QPhase_und_Abitur/3_KorrigierteEF_und_Q1Blocken"
+          },
+          {
+            "text": "Umwahlen & Abiturfächer",
+            "link": "/schulungsmodule/gost/QPhase_und_Abitur/4_Umwahlen_und_Wahl_von_A3A4"
+          }
+        ]
+      },
+      {
+        "text": "Sekundarstufe II - Klausurplanung",
+        "link": "/schulungsmodule/gost/Klausurplanung/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Grundlagen",
+            "link": "/schulungsmodule/gost/Klausurplanung/1. allgemeine Vorlagen"
+          },
+          {
+            "text": "Jahrgangsvorgaben",
+            "link": "/schulungsmodule/gost/Klausurplanung/2. Vorgaben pro Abschnitt"
+          },
+          {
+            "text": "Schienen blocken",
+            "link": "/schulungsmodule/gost/Klausurplanung/3. Schienen"
+          },
+          {
+            "text": "Termine im Kalender setzen",
+            "link": "/schulungsmodule/gost/Klausurplanung/4. Kalender"
+          },
+          {
+            "text": "Räume und Startzeiten",
+            "link": "/schulungsmodule/gost/Klausurplanung/5. Räume und Startzeiten"
+          },
+          {
+            "text": "Planansichten",
+            "link": "/schulungsmodule/gost/Klausurplanung/6. Planübersichten und Ausgaben"
+          },
+          {
+            "text": "Nachschreibtermine",
+            "link": "/schulungsmodule/gost/Klausurplanung/7. Nachschreibtermine"
+          },
+          {
+            "text": "Aufgaben aus der Schulpraxis",
+            "link": "/schulungsmodule/gost/Klausurplanung/8. Praxisaufgaben"
+          },
+          {
+            "text": "Koordination (Entwurf)",
+            "link": "/schulungsmodule/gost/Beweglicher Block Leitung/"
+          }
+        ]
+      },
+      {
+        "text": "Sekundarstufe II - Laufbahnplanung",
+        "link": "/schulungsmodule/ImportSchILD2Laufbahndaten/"
+      },
+      {
+        "text": "Berufskolleg",
+        "link": "/schulungsmodule/BK/"
+      },
+      {
+        "text": "Reports erstellen",
+        "link": "/schulungsmodule/Reporterstellung/"
+      },
+      {
+        "text": "SchILD-NRW 2 zu 3",
         "link": "/schulungsmodule/uebergangsschulung/",
         "collapsed": true,
         "items": [
@@ -398,18 +394,56 @@
         ]
       },
       {
-        "text": "Umstieg im Vergleich",
-        "link": "/schulungsmodule/VonSchild2_ZuSchild3/"
-      },
-      {
-        "text": "Schulungsvorlagen",
-        "link": "/schulungsmodule/vorlagen"
+        "text": "Schulungsumgebung",
+        "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Docker-Schulungsserver",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Docker_Schulungsserver/"
+          },
+          {
+            "text": "Installationsskripte",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/"
+          },
+          {
+            "text": "Schulungsserver betreuen: Wartung & Zurücksetzen",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Moderatoren_Schulungsserver/Wartung"
+          },
+          {
+            "text": "Proxmox-Schulungsserver",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/"
+          },
+          {
+            "text": "Proxmox-Schulungsserver: Proxmox installieren",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/Proxmox_Installation/"
+          },
+          {
+            "text": "SVWS-Tools",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/SVWS-Tools/"
+          },
+          {
+            "text": "VirtualBox-Schulungsclient",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/"
+          },
+          {
+            "text": "VirtualBox installieren",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/Virtualbox_Installation/"
+          },
+          {
+            "text": "Windows-Testserver",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Windows_Testserver/"
+          }
+        ]
       }
     ],
     "testdaten": [
       {
+        "text": "Übersicht",
+        "link": "/Datenbanken/"
+      },
+      {
         "text": "Testdatenbanken",
-        "link": "/Datenbanken/",
         "collapsed": true,
         "items": [
           {
@@ -492,55 +526,15 @@
             "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/SVWS_Client_Sichten/"
           }
         ]
-      },
-      {
-        "text": "Schulungsumgebungen",
-        "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Docker-Schulungsserver",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Docker_Schulungsserver/"
-          },
-          {
-            "text": "Installationsskripte",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/"
-          },
-          {
-            "text": "Schulungsserver betreuen: Wartung & Zurücksetzen",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Moderatoren_Schulungsserver/Wartung"
-          },
-          {
-            "text": "Proxmox-Schulungsserver",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/"
-          },
-          {
-            "text": "Proxmox-Schulungsserver: Proxmox installieren",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/Proxmox_Installation/"
-          },
-          {
-            "text": "SVWS-Tools",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/SVWS-Tools/"
-          },
-          {
-            "text": "VirtualBox-Schulungsclient",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/"
-          },
-          {
-            "text": "VirtualBox installieren",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/Virtualbox_Installation/"
-          },
-          {
-            "text": "Windows-Testserver",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Windows_Testserver/"
-          }
-        ]
       }
     ],
     "beratung": [
       {
+        "text": "Übersicht",
+        "link": "/beratung/"
+      },
+      {
         "text": "Orientierung & Support",
-        "link": "/beratung/",
         "collapsed": true,
         "items": [
           {
@@ -646,8 +640,11 @@
     ],
     "fortbildung": [
       {
+        "text": "Übersicht",
+        "link": "/fortbildung/"
+      },
+      {
         "text": "Angebote & Teilnahme",
-        "link": "/fortbildung/",
         "collapsed": true,
         "items": [
           {
@@ -750,8 +747,11 @@
     ],
     "wissen": [
       {
+        "text": "Übersicht",
+        "link": "/wissen/"
+      },
+      {
         "text": "Nachschlagen & Links",
-        "link": "/wissen/",
         "collapsed": true,
         "items": [
           {
@@ -858,7 +858,7 @@
     "/schulungsmodule/VonSchild2_ZuSchild3/": "beratung",
     "/Datenbanken/": "testdaten",
     "/umgebungen/": "testdaten",
-    "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/": "testdaten",
+    "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/": "schulungen",
     "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/": "testdaten",
     "/beratung/": "beratung",
     "/Fachberatung_Anleitungen/": "beratung",
@@ -866,5 +866,48 @@
     "/Fachberatung_Fortbildungen/": "fortbildung",
     "/wissen/": "wissen",
     "/Tipp_der_Woche/": "wissen"
+  },
+  "nav": [
+    {
+      "text": "Neu im Team",
+      "link": "/neu-im-team/"
+    },
+    {
+      "text": "Schulungen",
+      "link": "/schulungsmodule/",
+      "activeMatch": "^/(schulungsmodule/(?!VonSchild2_ZuSchild3)|Fachberatung_Anleitungen/Test-_und_Schulungsserver/)"
+    },
+    {
+      "text": "Testdaten",
+      "link": "/Datenbanken/",
+      "activeMatch": "^/(Datenbanken|umgebungen|Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline)/"
+    },
+    {
+      "text": "Beratung",
+      "link": "/beratung/",
+      "activeMatch": "^/(beratung|schulungsmodule/VonSchild2_ZuSchild3|Fachberatung_Anleitungen/(?!Test-_und_Schulungsserver))"
+    },
+    {
+      "text": "Fortbildung",
+      "link": "/fortbildung/",
+      "activeMatch": "^/(fortbildung|Fachberatung_Fortbildungen/(?!Installation_Fachberatung_Moderation_offline))"
+    },
+    {
+      "text": "Wissen & Links",
+      "link": "/wissen/",
+      "activeMatch": "^/(wissen|Tipp_der_Woche)/"
+    }
+  ],
+  "sectionLabels": {
+    "team": "Neu im Team",
+    "schulungen": "Schulungen",
+    "testdaten": "Testdaten",
+    "beratung": "Beratung",
+    "fortbildung": "Fortbildung",
+    "wissen": "Wissen & Links"
+  },
+  "aliases": {
+    "/schulungsmodule/GS/": "/schulungsmodule/",
+    "/schulungsmodule/gost/": "/schulungsmodule/"
   }
 }

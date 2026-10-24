@@ -13,8 +13,9 @@ export function topicFor(navigation, url) {
   const target = clean(url)
   const section = sectionFor(navigation, url)
   const groups = navigation.sections[section] ?? []
+  const canonical = clean(navigation.aliases?.[target + '/'] ?? navigation.aliases?.[target] ?? target)
   const topic = groups.find(group => [group, ...group.items ?? []]
-    .some(item => item.link && !item.link.includes('#') && clean(item.link) === target))
+    .some(item => item.link && !item.link.includes('#') && clean(item.link) === canonical))
   return { section, groups, topic }
 }
 
@@ -41,10 +42,24 @@ export function footerFor(navigation, url) {
 export function createSidebar(navigation) {
   const exact = {}
   const prefixes = {}
-  const menu = (section, active) => navigation.sections[section].map(group => ({
-    ...group,
-    ...(group.items?.length ? { collapsed: group !== active } : {})
-  }))
+  const menu = (section, active) => {
+    const topics = navigation.sections[section].map(group => ({
+      ...group,
+      ...(group.items?.length ? { collapsed: group !== active } : {})
+    }))
+    // The onboarding section deliberately keeps its existing presentation.
+    if (section === 'team') return topics
+    return [
+      { text: navigation.sectionLabels[section], items: topics },
+      {
+        text: 'Weitere Bereiche',
+        collapsed: true,
+        items: navigation.nav
+          .filter(item => sectionFor(navigation, item.link) !== section)
+          .map(({ text, link }) => ({ text, link }))
+      }
+    ]
+  }
   for (const [prefix, section] of Object.entries(navigation.routes)) prefixes[prefix] = menu(section)
   for (const groups of Object.values(navigation.sections)) {
     for (const group of groups) {
@@ -57,6 +72,10 @@ export function createSidebar(navigation) {
         exact[target + (item.link.endsWith('/') ? '/index.md' : '.md')] = sidebar
       }
     }
+  }
+  for (const alias of Object.keys(navigation.aliases ?? {})) {
+    const { section, topic } = topicFor(navigation, alias)
+    exact[clean(alias) + '/index.md'] = menu(section, topic)
   }
   return { ...exact, ...Object.fromEntries(Object.entries(prefixes).sort(([a], [b]) => b.length - a.length)) }
 }
