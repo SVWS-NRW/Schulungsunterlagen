@@ -511,89 +511,37 @@
         "link": "/Datenbanken/"
       },
       {
-        "text": "Testdatenbanken",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Berufskolleg",
-            "link": "/Datenbanken/Berufskolleg/"
-          },
-          {
-            "text": "Gesamtschule",
-            "link": "/Datenbanken/Gesamtschule/"
-          },
-          {
-            "text": "Oberstufe: bisherige Daten",
-            "link": "/Datenbanken/GOSt-DB/"
-          },
-          {
-            "text": "Oberstufe: bisherige Daten: Übungsstände",
-            "link": "/Datenbanken/GOSt-DB/GOSt_DB_Eigenschaften"
-          },
-          {
-            "text": "Oberstufe: Daten 2026",
-            "link": "/Datenbanken/GOSt-DB_2026/"
-          },
-          {
-            "text": "Oberstufe: Daten 2026: Übungsstände",
-            "link": "/Datenbanken/GOSt-DB_2026/GOSt_DB_Eigenschaften"
-          },
-          {
-            "text": "Grundschule",
-            "link": "/Datenbanken/Grundschule/"
-          },
-          {
-            "text": "Datenbanksteckbrief",
-            "link": "/Datenbanken/steckbrief"
-          }
-        ]
+        "text": "Datenbanksteckbrief",
+        "link": "/Datenbanken/steckbrief",
+        "description": "Vorlage für Einsatzbereich, Datenstand, Einrichtung und Prüfung einer Datenbank."
       },
       {
-        "text": "Lokale Analyse",
-        "link": "/umgebungen/",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Lokale Datenbankanalyse",
-            "link": "/umgebungen/lokale-analyse"
-          },
-          {
-            "text": "Offline-Installation",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/"
-          },
-          {
-            "text": "Offline-Installation: SVWS-AdminClient",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/AdminTool/"
-          },
-          {
-            "text": "Offline-Installation: DBeaver",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/DBeaver/"
-          },
-          {
-            "text": "Offline-Installation: Installationshandout",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Handout/"
-          },
-          {
-            "text": "Offline-Installation: SchILD-NRW 3 installieren",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SchILD3/"
-          },
-          {
-            "text": "Offline-Installation: SVWS-Server installieren",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SVWS/"
-          },
-          {
-            "text": "Offline-Installation: Zertifikat installieren",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_Zertifikat/"
-          },
-          {
-            "text": "Offline-Installation: Logdateien",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Log_Files/"
-          },
-          {
-            "text": "Offline-Installation: Sichten im SVWS-Client",
-            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/SVWS_Client_Sichten/"
-          }
-        ]
+        "text": "Grundschule",
+        "link": "/Datenbanken/Grundschule/",
+        "description": "Vier SQLite-Datenbanken für 2026/2027, wahlweise mit Leistungsdaten."
+      },
+      {
+        "text": "Sekundarstufe I",
+        "description": "Noch kein eigener Datenbankartikel vorhanden."
+      },
+      {
+        "text": "Sekundarstufe II - bis 2026",
+        "link": "/Datenbanken/GOSt-DB/",
+        "description": "Bisherige Übungsstände für EF-Planung, Laufbahnen, Blockung und Klausurplanung."
+      },
+      {
+        "text": "Sekundarstufe II ab 2026",
+        "link": "/Datenbanken/GOSt-DB_2026/",
+        "description": "Auf 2026.2 angepasste Übungsstände und Planungsmatrix; Laufbahnen für Abi2030."
+      },
+      {
+        "text": "Gesamtschule",
+        "link": "/Datenbanken/Gesamtschule/",
+        "description": "Anonymisierte SQLite-Datenbank ge_2026_1 für Schulungen."
+      },
+      {
+        "text": "Berufskolleg",
+        "description": "Noch keine eigene Datenbankdatei in dieser Sammlung verlinkt."
       }
     ],
     "beratung": [
@@ -655,6 +603,53 @@
           {
             "text": "Reporting: Reporting im Überblick",
             "link": "/Fachberatung_Anleitungen/Reporting/Uebersicht/"
+          }
+        ]
+      },
+      {
+        "text": "Lokale Analyse",
+        "link": "/umgebungen/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Lokale Datenbankanalyse",
+            "link": "/umgebungen/lokale-analyse"
+          },
+          {
+            "text": "Offline-Installation",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/"
+          },
+          {
+            "text": "Offline-Installation: SVWS-AdminClient",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/AdminTool/"
+          },
+          {
+            "text": "Offline-Installation: DBeaver",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/DBeaver/"
+          },
+          {
+            "text": "Offline-Installation: Installationshandout",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Handout/"
+          },
+          {
+            "text": "Offline-Installation: SchILD-NRW 3 installieren",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SchILD3/"
+          },
+          {
+            "text": "Offline-Installation: SVWS-Server installieren",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_SVWS/"
+          },
+          {
+            "text": "Offline-Installation: Zertifikat installieren",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Installation_Zertifikat/"
+          },
+          {
+            "text": "Offline-Installation: Logdateien",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/Log_Files/"
+          },
+          {
+            "text": "Offline-Installation: Sichten im SVWS-Client",
+            "link": "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/SVWS_Client_Sichten/"
           }
         ]
       }
@@ -763,7 +758,14 @@
       },
       {
         "text": "SVWS-Convention",
-        "link": "/fortbildung/convention"
+        "link": "/fortbildung/convention",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "SVWS-Convention 2026",
+            "link": "/fortbildung/convention-2026"
+          }
+        ]
       }
     ],
     "wissen": [
@@ -772,18 +774,8 @@
         "link": "/wissen/"
       },
       {
-        "text": "Nachschlagen & Links",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Wichtige Links",
-            "link": "/wissen/links"
-          },
-          {
-            "text": "Tipp der Woche: nach Datum",
-            "link": "/Tipp_der_Woche/"
-          }
-        ]
+        "text": "Wichtige Links",
+        "link": "/wissen/links"
       },
       {
         "text": "SchILD-Tipps",
@@ -878,9 +870,9 @@
     "/schulungsmodule/": "schulungen",
     "/schulungsmodule/VonSchild2_ZuSchild3/": "schulungen",
     "/Datenbanken/": "testdaten",
-    "/umgebungen/": "testdaten",
+    "/umgebungen/": "beratung",
     "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/": "schulungen",
-    "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/": "testdaten",
+    "/Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/": "beratung",
     "/beratung/": "beratung",
     "/Fachberatung_Anleitungen/": "beratung",
     "/fortbildung/": "fortbildung",
@@ -901,12 +893,12 @@
     {
       "text": "Testdaten",
       "link": "/Datenbanken/",
-      "activeMatch": "^/(Datenbanken|umgebungen|Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline)/"
+      "activeMatch": "^/Datenbanken/"
     },
     {
       "text": "Beratung",
       "link": "/beratung/",
-      "activeMatch": "^/(beratung|Fachberatung_Anleitungen/(?!Test-_und_Schulungsserver))"
+      "activeMatch": "^/(beratung/|umgebungen/|Fachberatung_Fortbildungen/Installation_Fachberatung_Moderation_offline/|Fachberatung_Anleitungen/(?!Test-_und_Schulungsserver))"
     },
     {
       "text": "Fortbildung",
@@ -929,6 +921,7 @@
   },
   "aliases": {
     "/schulungsmodule/GS/": "/schulungsmodule/",
-    "/schulungsmodule/gost/": "/schulungsmodule/"
+    "/schulungsmodule/gost/": "/schulungsmodule/",
+    "/Tipp_der_Woche/": "/wissen/"
   }
 }

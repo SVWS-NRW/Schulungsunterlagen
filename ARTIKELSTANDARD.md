@@ -111,3 +111,17 @@ Für Beispiele `::: example` verwenden; der Standardtitel ist „Beispiel“. Ei
 
 - Die Übersichten „Schulungen“ und „Schulungsumgebungen“ verwenden statt Kacheln `NavigationOverview`. Namen, Links und Reihenfolge stammen automatisch aus dem jeweiligen Sidebar-Hauptmenü; die Landing-Page ist über dessen Überschrift erreichbar.
 - Bei neuen oder geänderten Themen die kurze `description` direkt am Menüeintrag in `.vitepress/sidebar.json` pflegen. Fehlende Kurzbeschreibungen lassen die Qualitätsprüfung scheitern. Keine zweite Modulliste im Markdown anlegen.
+
+### Testdaten und Datenbankartikel
+
+- „Testdaten“ führt Übersicht, Datenbanksteckbrief und Schulformen in einer flachen Liste. Sekundarstufe I und Berufskolleg bleiben ohne Link, solange kein eigener Artikel mit Datenbankdownloads vorhanden ist.
+- Die Übersicht enthält ausschließlich die automatisch aus dem Menü erzeugte Tabelle. Neue Menüpunkte benötigen eine kurze `description`; Einträge ohne Artikel werden als Text angezeigt.
+- Datenbankartikel verwenden die Abschnitte „Einsatzbereich“, „Datenbanken herunterladen“, „Eigenschaften und Einsatzmöglichkeiten“ und „Herkunft und Hinweise“. Downloads, fachliche Beschreibungen und Begleitdateien gemeinsam pflegen; keine separaten Beschreibungsartikel ohne Datenbanklinks anlegen.
+- Die beiden bisherigen GOSt-Beschreibungen sind in die jeweilige Sammlung integriert; der leere Berufskolleg-Artikel ist entfernt. Die vorhandenen Datenbank- und Begleitdateien bleiben unverändert.
+- „Lokale Analyse“ einschließlich Offline-Installation gehört zu „Beratung“. Historische Artikelpfade bleiben dabei erhalten.
+
+### Wissen und Links
+
+- „Wichtige Links“ ist ein direkter Menüpunkt ohne Untermenü. Allgemeine Information, Dokumentation, Beratung und Austausch stehen gemeinsam in der ersten Tabelle; der SVWS-Internetauftritt steht zuerst. Entwicklungs- und Fehlermeldestellen stehen ebenfalls mit Kurzbeschreibung in einer Tabelle.
+- Die Seiten „SchILD-Tipps“ und „SVWS-Tipps“ führen ihre datierten Beiträge getrennt mit Hinweis auf Programmstände und die thematische Problemlösungssammlung. Neue Beiträge in der passenden Datumstabelle ergänzen; bestehende Artikelpfade erhalten.
+- Der gemeinsame Menüpunkt „Tipp der Woche: nach Datum“ entfällt. Die historische Adresse bleibt als Wegweiser zu beiden Sammlungen erreichbar.

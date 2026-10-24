@@ -107,6 +107,53 @@ try {
   assert.ok(!prose.includes(':a:'), 'Training emoji shortcuts are still literal')
   assert.ok(prose.includes('🅰'), 'Task emoji missing')
 
+  await visit('/Datenbanken/')
+  assert.equal(await page.locator('.section-card').count(), 0)
+  assert.equal(await page.locator('.vp-doc table').count(), 1)
+  assert.equal(await page.locator('#VPSidebarNav .VPSidebarItem.level-2').count(), 0)
+  assert.deepEqual(await roots().first().locator('.VPSidebarItem.level-1 > .item .text').allTextContents(), nav.sections.testdaten.map(item => item.text))
+  const databaseRows = overviewRows(nav, '/Datenbanken/')
+  for (const [index, item] of databaseRows.entries()) {
+    const row = page.locator('.navigation-overview tbody tr').nth(index)
+    assert.equal(await row.locator('td').first().innerText(), item.text)
+    assert.equal(await row.locator('td').nth(1).innerText(), item.description)
+    assert.equal(await row.locator('a').count(), item.link ? 1 : 0)
+    if (item.link) assert.equal(clean(localPath(await row.locator('a').getAttribute('href'))), clean(item.link))
+  }
+  assert.equal(await page.locator('.navigation-overview tbody tr').count(), databaseRows.length)
+  for (const item of [nav.sections.beratung.find(item => item.text === 'Lokale Analyse'), ...nav.sections.beratung.find(item => item.text === 'Lokale Analyse').items]) {
+    await visit(item.link.endsWith('/') ? item.link : item.link + '.html')
+    assert.equal((await page.locator('.VPNavBarMenu a.active').innerText()).trim(), 'Beratung')
+    assert.equal(await roots().first().locator(':scope > .item .text').innerText(), 'Beratung')
+  }
+
+  await visit('/wissen/')
+  const knowledgeMenu = roots().first().locator(':scope > .items > .VPSidebarItem')
+  assert.deepEqual(await knowledgeMenu.locator(':scope > .item .text').allTextContents(), ['Übersicht', 'Wichtige Links', 'SchILD-Tipps', 'SVWS-Tipps'])
+  const important = knowledgeMenu.nth(1)
+  assert.equal(await important.locator('.caret').count(), 0)
+  assert.equal(await important.locator('.VPSidebarItem').count(), 0)
+  await important.locator(':scope > .item a').click()
+  await page.waitForFunction(() => document.querySelector('.vp-doc h1')?.textContent?.includes('Wichtige Links'))
+  assert.equal(await page.locator('.vp-doc table').first().locator('tbody tr').first().locator('a').innerText(), 'SVWS-Internetauftritt')
+  assert.equal(await page.locator('.vp-doc table').last().locator('tbody tr').count(), 5)
+  assert.ok(!(await page.locator('.vp-doc').innerText()).includes('Bisheriges SchILD-NRW-3-Wiki'))
+  for (const [index, path, prefix, count] of [
+    [2, '/wissen/schild-tipps', '/Tipp_der_Woche/SchILD-Tipp_der_Woche/', 11],
+    [3, '/wissen/svws-tipps', '/Tipp_der_Woche/SVWS-Hack_der_Woche/', 7]
+  ]) {
+    await knowledgeMenu.nth(index).locator(':scope > .item a').click()
+    await page.waitForURL(url => clean(localPath(url.href)) === path)
+    await page.waitForFunction(expected => document.querySelector('.vp-doc h1')?.textContent?.includes(expected), index === 2 ? 'SchILD-Tipps' : 'SVWS-Tipps')
+    const table = page.locator('.vp-doc table').last()
+    assert.equal(await table.locator('a').count(), count)
+    for (const href of await table.locator('a').evaluateAll(links => links.map(link => link.href))) assert.ok(localPath(href).startsWith(prefix))
+    const text = await page.locator('.vp-doc').innerText()
+    assert.ok(text.includes('Programmstand beachten'))
+    assert.ok(text.includes('📅') && text.includes('ℹ'))
+    assert.ok(!text.includes(':date:') && !text.includes(':information_source:'))
+  }
+
   const keys = Object.keys(menus).filter(key => key.endsWith('.md'))
   for (const key of keys) {
     await visit(key.replace(/index\.md$/, '').replace(/\.md$/, '.html'))
@@ -158,7 +205,7 @@ try {
     }, scheme)
     for (const width of [390, 820, 1440]) {
       await page.setViewportSize({ width, height: 1000 })
-      for (const link of ['/schulungsmodule/', '/Fachberatung_Anleitungen/Test-_und_Schulungsserver/', '/beratung/', '/Datenbanken/']) {
+      for (const link of ['/schulungsmodule/', '/Fachberatung_Anleitungen/Test-_und_Schulungsserver/', '/beratung/', '/Datenbanken/', '/wissen/links', '/wissen/schild-tipps', '/wissen/svws-tipps', '/fortbildung/convention-2026']) {
         await visit(link)
         assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2), false, width + ': ' + link)
         await page.screenshot({ path: 'test-results/' + scheme + '-' + width + '-' + encodeURIComponent(link) + '.png', fullPage: true })

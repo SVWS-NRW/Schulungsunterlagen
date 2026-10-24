@@ -24,10 +24,10 @@ features:
     details: Aufgaben und Moderationsmaterial für Grundschule, Sekundarstufe I, Oberstufe und Berufskolleg.
     link: /schulungsmodule/
     linkText: Module auswählen
-  - title: Testdaten & Umgebungen
-    details: Testdatenbanken einbinden und schwierige Fälle in einer lokalen Analyseumgebung nachvollziehen.
+  - title: Testdaten
+    details: Schulungsdatenbanken nach Schulform und Einsatzbereich auswählen.
     link: /Datenbanken/
-    linkText: Test- und Analyseplatz aufbauen
+    linkText: Datenbanken auswählen
   - title: Beratung & Umstieg
     details: Änderungen beim Wechsel zu SchILD-NRW 3 verstehen und typische Beratungsfälle gezielt bearbeiten.
     link: /beratung/
@@ -52,7 +52,7 @@ features:
 | Installation, Hardware oder Update klären | [Installationshilfen bündeln](/beratung/installation) |
 | Eine Migration scheitert | [Migrationsprobleme eingrenzen](/beratung/migration) |
 | Eine Datenbank selbst untersuchen | [Lokale Analyseumgebung](/umgebungen/lokale-analyse) |
-| Die neuesten veröffentlichten Tipps | [Tipp der Woche](/Tipp_der_Woche/) |
+| Die neuesten veröffentlichten Tipps | [SchILD-Tipps](/wissen/schild-tipps) und [SVWS-Tipps](/wissen/svws-tipps) |
 | Ein Fortbildungsangebot für das Team | [Fortbildung & Austausch](/fortbildung/) |
 | Informationen zu Neuerungen | [Material zum Entwicklungsstand](/Fachberatung_Fortbildungen/Aktuell/) – Stand und Version im Einzelfall prüfen |
 

@@ -1,18 +1,25 @@
 # Schulungsdatenbanken für die Grundschule {#grundschuldatenbanken}
 
-Ablage Ordner für Schulungsdatenbanken Grundschule.
+## Einsatzbereich
 
-Alle Datenbanken sind anonymisiert. Viele Datenbanken entspringen urprüngliche den [TestMDB](https://github.com/SVWS-NRW/SVWS-TestMDBs) Repository des SVWS-Server Projekts.
+Diese Sammlung enthält Grundschuldatenbanken für das Schuljahr 2026/2027 – jeweils mit und ohne ergänzte Leistungsdaten.
 
-## Datenbanken gs_2026_x.sqlite und gs_2026_x_mitLeistungsdaten.sqlite
-+ Grundschludatenbank für das Schuljahr 2026/2027
+## Datenbanken herunterladen
+
+| Datei | Kurzbeschreibung |
+| --- | --- |
+| [gs_2026_1.sqlite](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_1.sqlite) | Grunddatenstand für Schulungen. |
+| [gs_2026_1_mitLeistungsdaten.sqlite](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_1_mitLeistungsdaten.sqlite) | Mit Ankreuzkompetenzen, Floskeln und Noten bei ausgewählten Schülern. |
+| [gs_2026_2.sqlite](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_2.sqlite) | Grunddatenstand für Schulungen. |
+| [gs_2026_2_mitLeistungsdaten.sqlite](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_2_mitLeistungsdaten.sqlite) | Mit Ankreuzkompetenzen, Floskeln und Noten bei ausgewählten Schülern. |
+
+## Eigenschaften und Einsatzmöglichkeiten
+
++ Grundschuldatenbank für das Schuljahr 2026/2027
 + Bei den Datenbanken "mitLeistungsdaten" sind bei ausgewählten Schülern Ankreuzkompetenzen, Floskeln und Noten enthalten. 
 + Man findet diese über die Vermerke "Textzeugnis", "Ankreuzzeugnis" oder "Lernstand"
 + Die Datenbanken besitzen auch Abgänger
 
-## Dateien in dieser Sammlung
+## Herkunft und Hinweise
 
-- [gs_2026_1.sqlite](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_1.sqlite)
-- [gs_2026_1_mitLeistungsdaten.sqlite](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_1_mitLeistungsdaten.sqlite)
-- [gs_2026_2.sqlite](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_2.sqlite)
-- [gs_2026_2_mitLeistungsdaten.sqlite](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/Grundschule/gs_2026_2_mitLeistungsdaten.sqlite)
+Alle Datenbanken sind anonymisiert. Viele Datenbanken stammen ursprünglich aus dem Repository [SVWS-TestMDBs](https://github.com/SVWS-NRW/SVWS-TestMDBs) des SVWS-Server-Projekts.

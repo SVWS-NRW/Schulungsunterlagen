@@ -4,7 +4,7 @@ Die SVWS-Convention findet einmal jährlich in Düsseldorf statt und dient dem A
 
 ## Termin, Ort & Anmeldung
 
-Der konkrete Termin, der Veranstaltungsort innerhalb Düsseldorfs und das Anmeldeverfahren für die nächste Veranstaltung werden hier ergänzt, sobald sie bestätigt sind. Hinweise erhältst Du über den [Newsletter](/neu-im-team/kommunikation#newsletter) und die bekannten Kommunikationswege im Team.
+Termin, Veranstaltungsort, Rückmeldung und vorläufiges Programm der [SVWS-Convention 2026](./convention-2026.md) findest Du im zugehörigen Veranstaltungsartikel. Hinweise erhältst Du über den [Newsletter](/neu-im-team/kommunikation#newsletter) und die bekannten Kommunikationswege im Team.
 
 ## Themen aus der Praxis einbringen
 
