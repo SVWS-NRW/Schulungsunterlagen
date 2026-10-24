@@ -60,10 +60,13 @@ export function sidebarFor(navigation, url) {
   const environments = topics.find(group => group.link === '/Fachberatung_Anleitungen/Test-_und_Schulungsserver/')
   const environmentActive = active?.link === environments.link
   return [
-    { text: 'Schulungen', collapsed: environmentActive, items: topics.filter(group => group !== environments) },
     {
-      text: 'Schulungsumgebungen', collapsed: !environmentActive,
-      items: [{ text: 'Übersicht', link: environments.link }, ...environments.items]
+      text: 'Schulungen', link: '/schulungsmodule/', collapsed: environmentActive,
+      items: topics.filter(group => group !== environments && clean(group.link) !== '/schulungsmodule')
+    },
+    {
+      text: 'Schulungsumgebungen', link: environments.link, collapsed: !environmentActive,
+      items: environments.items
     },
     others
   ]
