@@ -95,7 +95,7 @@ Für Beispiele `::: example` verwenden; der Standardtitel ist „Beispiel“. Ei
 ### Bereichsübersicht und Wechsel zwischen Bereichen
 
 - Außer „Neu im Team“ beginnt das Hauptmenü jedes Bereichs mit „Übersicht“, die auf dessen Landing-Page führt.
-- Der Hauptblock trägt den Bereichsnamen und bleibt geöffnet. Nur das aktive Thema darin wird automatisch aufgeklappt.
+- Der Hauptblock trägt den Bereichsnamen. Außer bei Schulungen bleibt er geöffnet; dort gilt das unten beschriebene Akkordeon. Nur das aktive Thema darin wird automatisch aufgeklappt.
 - „Weitere Bereiche“ zeigt die übrigen Bereiche in der Reihenfolge der Hauptnavigation. Unter Schulungen bilden „Schulungen“, „Schulungsumgebungen“ und „Weitere Bereiche“ ein Akkordeon: Beim Öffnen eines Blocks schließen die anderen.
 - Hauptnavigation und Bereichswechsel werden gemeinsam aus `.vitepress/sidebar.json` unter `nav` erzeugt. „Neu im Team“ behält sein bisheriges Menü.
 - Historische Verzeichnisse ändern bei einer redaktionellen Verschiebung ihren Pfad nicht. Die Route der Schulungsumgebung gehört zu „Schulungen“; das vollständige Modul „Umstieg zu SchILD-NRW 3“ gehört ebenfalls zu „Schulungen“.

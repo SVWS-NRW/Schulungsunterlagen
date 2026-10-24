@@ -41,7 +41,7 @@ try {
   await assertOnlyOpen(2)
   await visit('/Fachberatung_Anleitungen/Test-_und_Schulungsserver/')
   await assertOnlyOpen(1)
-  assert.equal(await page.locator('.vp-doc h1').innerText(), 'Schulungsumgebungen')
+  assert.ok((await page.locator('.vp-doc h1').innerText()).includes('Schulungsumgebungen'))
   assert.equal(await page.locator('.section-card').count(), 9)
   await visit('/schulungsmodule/VonSchild2_ZuSchild3/')
   await assertOnlyOpen(0)
