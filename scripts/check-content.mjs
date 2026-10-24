@@ -38,6 +38,10 @@ for (const file of files) {
   }
   let old = git('show', baseline + ':' + file)
   let current = readFileSync(file, 'utf8')
+  if (file === 'fortbildung/convention.md') {
+    // Replace only the outdated event placeholder; the rest stays protected.
+    old = old.replace("Der konkrete Termin, der Veranstaltungsort innerhalb Düsseldorfs und das Anmeldeverfahren für die nächste Veranstaltung werden hier ergänzt, sobald sie bestätigt sind.", "Termin, Veranstaltungsort, Rückmeldung und vorläufiges Programm der [SVWS-Convention 2026](./convention-2026.md) findest Du im zugehörigen Veranstaltungsartikel.")
+  }
   if (file === 'wissen/index.md' || file === 'index.md') {
     const prefix = file === 'wissen/index.md' ? './' : '/wissen/'
     const suffix = file === 'wissen/index.md' ? '.md' : ''

@@ -758,7 +758,14 @@
       },
       {
         "text": "SVWS-Convention",
-        "link": "/fortbildung/convention"
+        "link": "/fortbildung/convention",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "SVWS-Convention 2026",
+            "link": "/fortbildung/convention-2026"
+          }
+        ]
       }
     ],
     "wissen": [
