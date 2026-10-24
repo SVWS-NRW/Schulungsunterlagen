@@ -2,7 +2,6 @@ import { h, nextTick, watch } from 'vue';
 import DefaultTheme from 'vitepress/theme';
 import DownloadPdf from './components/DownloadPdf.vue';
 import SectionCards from './components/SectionCards.vue';
-import SchoolSidebar from './components/SchoolSidebar.vue';
 import type { Theme } from 'vitepress';
 import { useData } from 'vitepress';
 import { createMermaidRenderer } from 'vitepress-mermaid-renderer';
@@ -75,6 +74,6 @@ export default {
       },
     );
 
-    return h(DefaultTheme.Layout, null, { 'sidebar-nav-before': () => h(SchoolSidebar) });
+    return h(DefaultTheme.Layout);
   },
 } satisfies Theme;
