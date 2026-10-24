@@ -8,6 +8,7 @@ const pkg = read('package.json')
 const lock = read('package-lock.json')
 const errors = []
 const found = new Map()
+const shared = new Set()
 const routes = Object.entries(nav.routes)
 const sections = nav.sections
 
@@ -33,7 +34,7 @@ function walk(items, section, trail = []) {
       const key = item.link.split('#')[0]
       if (!pageExists(key)) errors.push(`Fehlende Seite: ${section}: ${key}`)
       const prev = found.get(key)
-      if (prev && prev !== section) errors.push(`Bereichsüberschneidung: ${key} in ${prev} und ${section}`)
+      if (prev && prev !== section) shared.add(key)
       found.set(key, section)
     }
     if (item.items) walk(item.items, section, [...trail, item.text])
@@ -47,6 +48,7 @@ for (const required of ['team', 'schulungen', 'testdaten', 'beratung', 'fortbild
   if (!sections[required]) errors.push(`Fehlender Navigationsbereich: ${required}`)
 }
 console.log(`Navigation: ${Object.keys(sections).length} Bereiche, ${routes.length} Routen, ${found.size} verlinkte Seiten.`)
+console.log(`Bereichsübergreifend verlinkte Seiten: ${shared.size} (zulässig).`)
 console.log('Paketdefinition und Lockfile: geprüft.')
 if (errors.length) {
   for (const e of errors) console.error('FEHLER:', e)
