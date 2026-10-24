@@ -306,7 +306,7 @@ Diese Einstellungen bewirken, dass alle Daten, die zu einem Schüler gehören, z
 
 ### Zugriff auf Objekteigenschaften mittels Programmierung
 
-Auf alle Eigenschaften eines Elements, die Du im Eigenschaftenfenster sehen, kannst Du über die Programmierung zugreifen und diese verändern. Als Beispiel soll eine Liste erstellt werden, in denen der Status der Masernschutzimpfung ausgegeben wird. Dazu erstellen wir eine neue Liste mit Schülernamen und dem Status der Masernschutzimpfung. Diese findet man normalerweise über ein Datenbankfeld, hier soll aber ein Label programmiert werden. Füge also ein Label in den Detailbereich ein.
+Auf alle Eigenschaften eines Elements, die Du im Eigenschaftenfenster siehst, kannst Du über die Programmierung zugreifen und diese verändern. Als Beispiel soll eine Liste erstellt werden, in denen der Status der Masernschutzimpfung ausgegeben wird. Dazu erstellen wir eine neue Liste mit Schülernamen und dem Status der Masernschutzimpfung. Diese findet man normalerweise über ein Datenbankfeld, hier soll aber ein Label programmiert werden. Füge also ein Label in den Detailbereich ein.
 
 Bei komplexen Reports kann es sehr sinnvoll sein, einzelne Elemente wir Label, DBTexte etc. mit besonderen Namen zu versehen. Dies kann die Übersichtlichkeit enorm steigern. Klicke beispielsweise auf ein Label oder jedes andere Element, dass Du umbenennen willst und gehe im linken unteren Bildschirmrand auf die Eigenschaften des Objektes in der Entwurfsansicht.  Hier können alle Elemente unter dem Bezeichner UserName umbenannt werden.
 
@@ -467,7 +467,7 @@ Klicke den mit der rechten Maustaste an und wähle Bearbeiten. Es öffnet sich d
 
 In dem großen Feld kannst Du zum einen schreiben, wie in einem Word-Dokument. Du kannst hier aber auch über Datenbankabfragen einen individuellen Brieftext generieren lassen. Dazu setze oben rechts den Haken bei Mail Merge.
 
-Darunter kannst Du Die Datenquellen aus der Datenbank ansteuern und darunter die entsprechenden Datenfelder auswählen. Wenn Du an eine Stelle kommst, bei der eine Abfrage sinnvoll ist, kannst Du dies hier per Doppelklick hinzufügen. Schließe das Feld (X oben rechts) nach der Eingabe und bestätige die Speicherung. Ziehe das Feld anschließend in der Entwurfsansicht größer, sodass der Brieftext zentriert ist. In unserem Beispiel sieht dieser nun so aus:
+Darunter kannst Du die Datenquellen aus der Datenbank ansteuern und darunter die entsprechenden Datenfelder auswählen. Wenn Du an eine Stelle kommst, bei der eine Abfrage sinnvoll ist, kannst Du dies hier per Doppelklick hinzufügen. Schließe das Feld (X oben rechts) nach der Eingabe und bestätige die Speicherung. Ziehe das Feld anschließend in der Entwurfsansicht größer, sodass der Brieftext zentriert ist. In unserem Beispiel sieht dieser nun so aus:
 
 ![Voransicht Brieftext](Bilder/Voransicht_Brieftext.png "Voransicht des Brieftextes")
 
