@@ -12,8 +12,8 @@ const rows = computed(() => overviewRows(navigation, props.path))
   <table class="navigation-overview">
     <thead><tr><th scope="col">{{ label }}</th><th scope="col">Kurzüberblick</th></tr></thead>
     <tbody>
-      <tr v-for="row in rows" :key="row.link">
-        <td><a :href="withBase(row.link)">{{ row.text }}</a></td>
+      <tr v-for="row in rows" :key="row.text">
+        <td><a v-if="row.link" :href="withBase(row.link)">{{ row.text }}</a><span v-else>{{ row.text }}</span></td>
         <td>{{ row.description }}</td>
       </tr>
     </tbody>

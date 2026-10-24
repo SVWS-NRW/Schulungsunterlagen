@@ -107,6 +107,26 @@ try {
   assert.ok(!prose.includes(':a:'), 'Training emoji shortcuts are still literal')
   assert.ok(prose.includes('🅰'), 'Task emoji missing')
 
+  await visit('/Datenbanken/')
+  assert.equal(await page.locator('.section-card').count(), 0)
+  assert.equal(await page.locator('.vp-doc table').count(), 1)
+  assert.equal(await page.locator('#VPSidebarNav .VPSidebarItem.level-2').count(), 0)
+  assert.deepEqual(await roots().first().locator('.VPSidebarItem.level-1 > .item .text').allTextContents(), nav.sections.testdaten.map(item => item.text))
+  const databaseRows = overviewRows(nav, '/Datenbanken/')
+  for (const [index, item] of databaseRows.entries()) {
+    const row = page.locator('.navigation-overview tbody tr').nth(index)
+    assert.equal(await row.locator('td').first().innerText(), item.text)
+    assert.equal(await row.locator('td').nth(1).innerText(), item.description)
+    assert.equal(await row.locator('a').count(), item.link ? 1 : 0)
+    if (item.link) assert.equal(clean(localPath(await row.locator('a').getAttribute('href'))), clean(item.link))
+  }
+  assert.equal(await page.locator('.navigation-overview tbody tr').count(), databaseRows.length)
+  for (const item of [nav.sections.beratung.find(item => item.text === 'Lokale Analyse'), ...nav.sections.beratung.find(item => item.text === 'Lokale Analyse').items]) {
+    await visit(item.link.endsWith('/') ? item.link : item.link + '.html')
+    assert.equal((await page.locator('.VPNavBarMenu a.active').innerText()).trim(), 'Beratung')
+    assert.equal(await roots().first().locator(':scope > .item .text').innerText(), 'Beratung')
+  }
+
   const keys = Object.keys(menus).filter(key => key.endsWith('.md'))
   for (const key of keys) {
     await visit(key.replace(/index\.md$/, '').replace(/\.md$/, '.html'))

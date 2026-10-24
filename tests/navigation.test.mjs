@@ -126,3 +126,27 @@ test('training overview tables follow all menu topics and require descriptions',
     assert.throws(() => overviewRows(changed, path), /Kurzbeschreibung fehlt/)
   }
 })
+
+test('test data menu is flat, complete and automatically reflected in its table', () => {
+  const topics = nav.sections.testdaten
+  const expected = ['Übersicht', 'Datenbanksteckbrief', 'Grundschule', 'Sekundarstufe I', 'Sekundarstufe II - bis 2026', 'Sekundarstufe II ab 2026', 'Gesamtschule', 'Berufskolleg']
+  assert.deepEqual(topics.map(item => item.text).filter(text => expected.includes(text)), expected)
+  assert.ok(topics.every(item => !item.items))
+  assert.deepEqual(overviewRows(nav, '/Datenbanken/'), topics.slice(1).map(({ text, link, description }) => ({ text, link, description })))
+  for (const name of ['Sekundarstufe I', 'Berufskolleg']) assert.equal(topics.find(item => item.text === name).link, undefined)
+  const changed = structuredClone(nav)
+  changed.sections.testdaten.push({ text: 'Neue Sammlung', link: '/Datenbanken/neu/', description: 'Neuer Bestand.' })
+  assert.equal(overviewRows(changed, '/Datenbanken/').at(-1).text, 'Neue Sammlung')
+  delete changed.sections.testdaten.at(-1).description
+  assert.throws(() => overviewRows(changed, '/Datenbanken/'), /Kurzbeschreibung fehlt/)
+})
+test('all local analysis articles belong to advice and activate its top menu', () => {
+  const analysis = nav.sections.beratung.find(item => item.text === 'Lokale Analyse')
+  assert.ok(analysis)
+  assert.ok(!nav.sections.testdaten.some(item => item.text === 'Lokale Analyse'))
+  for (const item of [analysis, ...analysis.items]) {
+    assert.equal(sectionFor(nav, item.link), 'beratung')
+    const active = nav.nav.filter(entry => entry.activeMatch && new RegExp(entry.activeMatch).test(item.link))
+    assert.deepEqual(active.map(entry => entry.text), ['Beratung'])
+  }
+})

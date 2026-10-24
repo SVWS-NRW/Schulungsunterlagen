@@ -6,6 +6,9 @@ sectionCards:
   - title: "Technische Anleitungen"
     details: "Datenbankprüfung, Reporting und API-Beispiele gezielt nachschlagen."
     link: "/Fachberatung_Anleitungen/"
+  - title: "Lokale Analyse"
+    details: "Eine lokale Datenbankkopie untersuchen und die benötigten Werkzeuge einrichten."
+    link: "/umgebungen/"
 ---
 
 # Beratung & Umstieg
