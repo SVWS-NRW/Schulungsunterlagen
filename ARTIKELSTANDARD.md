@@ -106,3 +106,8 @@ Für Beispiele `::: example` verwenden; der Standardtitel ist „Beispiel“. Ei
 - Nach einer Verschiebung Menüzuordnung und Übersichts-Kacheln gemeinsam pflegen. Die Zuordnung wird in Quellen und Browser geprüft.
 - Die Kürzel `:a:`, `:date:` und `:information_source:` werden im normalen Artikeltext als Emoji dargestellt. Innerhalb von Code bleiben sie unverändert.
 - Die Übersicht der Schulungsumgebungen liegt unter dem erhaltenen Pfad `/Fachberatung_Anleitungen/Test-_und_Schulungsserver/`.
+
+### Tabellenübersichten unter Schulungen
+
+- Die Übersichten „Schulungen“ und „Schulungsumgebungen“ verwenden statt Kacheln `NavigationOverview`. Namen, Links und Reihenfolge stammen automatisch aus dem jeweiligen Sidebar-Hauptmenü; „Übersicht“ wird ausgelassen.
+- Bei neuen oder geänderten Themen die kurze `description` direkt am Menüeintrag in `.vitepress/sidebar.json` pflegen. Fehlende Kurzbeschreibungen lassen die Qualitätsprüfung scheitern. Keine zweite Modulliste im Markdown anlegen.

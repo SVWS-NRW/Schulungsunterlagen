@@ -26,7 +26,8 @@
       },
       {
         "text": "Schulungsvorlagen",
-        "link": "/schulungsmodule/vorlagen"
+        "link": "/schulungsmodule/vorlagen",
+        "description": "Vorlagen für Ablauf, Aufgaben und Moderationsmaterial."
       },
       {
         "text": "Basisschulung",
@@ -73,7 +74,8 @@
             "text": "Aufgaben aus dem Alltag",
             "link": "/schulungsmodule/basisschulungen/Aufgaben aus dem Schulalltag"
           }
-        ]
+        ],
+        "description": "Grundlagen und erste Schritte in SchILD-NRW."
       },
       {
         "text": "Grundschule Grundlagen",
@@ -124,7 +126,8 @@
             "text": "Aufgaben aus dem Alltag",
             "link": "/schulungsmodule/GS/Basisschulung-GS/11. Aufgaben aus dem Schulalltag_GS"
           }
-        ]
+        ],
+        "description": "Grundlegende Arbeitsabläufe an Grundschulen."
       },
       {
         "text": "Grundschule Zeugnisse",
@@ -179,7 +182,8 @@
             "text": "Broschürendruck mit Foxit",
             "link": "/schulungsmodule/GS/Leistungsdaten-GS/12. Zeugnis-Broschürendruck mit dem Foxit Reader"
           }
-        ]
+        ],
+        "description": "Leistungsdaten und Zeugnisse an Grundschulen."
       },
       {
         "text": "Sekundarstufe I",
@@ -250,7 +254,8 @@
             "text": "Versetzung",
             "link": "/schulungsmodule/sek_i/16_Versetzung"
           }
-        ]
+        ],
+        "description": "Unterricht, Halbjahreswechsel und Zeugnisse in der Sekundarstufe I."
       },
       {
         "text": "Sekundarstufe II - EF",
@@ -285,7 +290,8 @@
             "text": "Leistungsdaten und Zeugnisse",
             "link": "/schulungsmodule/gost/Laufbahnplanung_kommende_EF/7_Leistungsdaten_und_Zeugnisse"
           }
-        ]
+        ],
+        "description": "Die kommende EF planen und die Oberstufen-App vorbereiten."
       },
       {
         "text": "Sekundarstufe II - Q1/Q2 und Abitur",
@@ -308,7 +314,8 @@
             "text": "Umwahlen & Abiturfächer",
             "link": "/schulungsmodule/gost/QPhase_und_Abitur/4_Umwahlen_und_Wahl_von_A3A4"
           }
-        ]
+        ],
+        "description": "Laufbahnen der Q-Phase prüfen und das Abitur vorbereiten."
       },
       {
         "text": "Sekundarstufe II - Klausurplanung",
@@ -351,19 +358,23 @@
             "text": "Koordination (Entwurf)",
             "link": "/schulungsmodule/gost/Beweglicher Block Leitung/"
           }
-        ]
+        ],
+        "description": "Klausurvorgaben, Schienen und Termine planen."
       },
       {
         "text": "Sekundarstufe II - Laufbahnplanung",
-        "link": "/schulungsmodule/ImportSchILD2Laufbahndaten/"
+        "link": "/schulungsmodule/ImportSchILD2Laufbahndaten/",
+        "description": "Laufbahndaten aus SchILD-NRW 2 übernehmen und weiterbearbeiten."
       },
       {
         "text": "Berufskolleg",
-        "link": "/schulungsmodule/BK/"
+        "link": "/schulungsmodule/BK/",
+        "description": "Schulungsmaterial für die Arbeit am Berufskolleg."
       },
       {
         "text": "Reports erstellen",
-        "link": "/schulungsmodule/Reporterstellung/"
+        "link": "/schulungsmodule/Reporterstellung/",
+        "description": "Lehrer- und Schülerlisten als Reports erstellen."
       },
       {
         "text": "SchILD-NRW 2 zu 3",
@@ -390,7 +401,8 @@
             "text": "Noteneingabe",
             "link": "/schulungsmodule/uebergangsschulung/5_Noteneingabe"
           }
-        ]
+        ],
+        "description": "Den Wechsel von SchILD-NRW 2 zu 3 anhand von Aufgaben üben."
       },
       {
         "text": "Umstieg zu SchILD-NRW 3",
@@ -437,7 +449,8 @@
             "text": "SVWS-Funktionsumfang",
             "link": "/schulungsmodule/VonSchild2_ZuSchild3/GrenzenClient/"
           }
-        ]
+        ],
+        "description": "Arbeitsabläufe in SchILD-NRW 3 und im SVWS-Client vergleichen."
       },
       {
         "text": "Schulungsumgebungen",
@@ -446,39 +459,48 @@
         "items": [
           {
             "text": "Docker-Schulungsserver",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Docker_Schulungsserver/"
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Docker_Schulungsserver/",
+            "description": "Eine containerbasierte Schulungsumgebung aufsetzen."
           },
           {
             "text": "Installationsskripte",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/"
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/",
+            "description": "Skripte zur Einrichtung von Server und Werkzeugen nutzen."
           },
           {
             "text": "Schulungsserver betreuen: Wartung & Zurücksetzen",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Moderatoren_Schulungsserver/Wartung"
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Moderatoren_Schulungsserver/Wartung",
+            "description": "Die Schulungsumgebung betreuen und auf den Ausgangsstand zurücksetzen."
           },
           {
             "text": "Proxmox-Schulungsserver",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/"
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/",
+            "description": "Virtuelle Maschinen für Schulungen bereitstellen."
           },
           {
             "text": "Proxmox-Schulungsserver: Proxmox installieren",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/Proxmox_Installation/"
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/Proxmox_Installation/",
+            "description": "Die Virtualisierungsplattform installieren."
           },
           {
             "text": "SVWS-Tools",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/SVWS-Tools/"
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/SVWS-Tools/",
+            "description": "Ergänzende Werkzeuge für den Schulungsserver kennenlernen."
           },
           {
             "text": "VirtualBox-Schulungsclient",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/"
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/",
+            "description": "Einen virtuellen Arbeitsplatz für Teilnehmende einrichten."
           },
           {
             "text": "VirtualBox installieren",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/Virtualbox_Installation/"
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/Virtualbox_Installation/",
+            "description": "VirtualBox als Grundlage des Schulungsclients installieren."
           },
           {
             "text": "Windows-Testserver",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Windows_Testserver/"
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Windows_Testserver/",
+            "description": "Eine Testumgebung unter Windows aufbauen."
           }
         ]
       }

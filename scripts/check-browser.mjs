@@ -2,6 +2,7 @@ import { chromium } from 'playwright'
 import assert from 'node:assert/strict'
 import { mkdirSync, readFileSync } from 'node:fs'
 import { clean, createSidebar, footerFor, topicFor, sectionFor, sidebarFor } from '../.vitepress/navigation.mjs'
+import { overviewRows } from '../.vitepress/overview.mjs'
 const nav = JSON.parse(readFileSync('.vitepress/sidebar.json', 'utf8'))
 const menus = createSidebar(nav)
 const origin = process.env.PREVIEW_URL ?? 'http://127.0.0.1:4173'
@@ -62,7 +63,21 @@ try {
   await visit('/Fachberatung_Anleitungen/Test-_und_Schulungsserver/')
   assert.deepEqual(await collapsed(), [true, false, true])
   assert.ok((await page.locator('.vp-doc h1').innerText()).includes('Schulungsumgebungen'))
-  assert.equal(await page.locator('.section-card').count(), 9)
+  for (const path of ['/schulungsmodule/', '/Fachberatung_Anleitungen/Test-_und_Schulungsserver/']) {
+    await visit(path)
+    assert.equal(await page.locator('.section-card').count(), 0)
+    const rows = page.locator('.navigation-overview tbody tr')
+    const expected = overviewRows(nav, path)
+    assert.equal(await rows.count(), expected.length)
+    for (const [index, item] of expected.entries()) {
+      assert.equal(await rows.nth(index).locator('a').innerText(), item.text)
+      assert.equal(clean(localPath(await rows.nth(index).locator('a').getAttribute('href'))), clean(item.link))
+      assert.equal(await rows.nth(index).locator('td').nth(1).innerText(), item.description)
+    }
+    const headings = await page.locator('.vp-doc h2').allTextContents()
+    assert.ok(!headings.some(title => /Basismodule|GoST|Reporterstellung|Sammlung Installations|Wie benutze|Wie setze|Quellen/.test(title)))
+    if (path === '/schulungsmodule/') assert.ok(headings.some(title => title.includes('Vorhandene Schulungsmodule')))
+  }
   await visit('/schulungsmodule/VonSchild2_ZuSchild3/')
   assert.deepEqual(await collapsed(), [false, true, true])
   assert.ok((await page.locator('.vp-doc h1').innerText()).includes('Umstieg zu SchILD-NRW 3'))

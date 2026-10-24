@@ -3,6 +3,7 @@ import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { execFileSync } from 'node:child_process'
 import { clean, sectionFor, topicFor, sequence, footerFor, createSidebar, sidebarFor } from '../.vitepress/navigation.mjs'
+import { overviewRows } from '../.vitepress/overview.mjs'
 const nav = JSON.parse(readFileSync(new URL('../.vitepress/sidebar.json', import.meta.url), 'utf8'))
 const sidebar = createSidebar(nav)
 test('canonical URLs, encoded spaces and index pages', () => {
@@ -104,6 +105,21 @@ test('all overview cards belong to the page section', () => {
       checked++
     }
   }
-  assert.ok(checked > 15, 'Overview cards were not discovered')
+  assert.ok(checked > 0, 'Overview cards were not discovered')
 })
 
+
+test('training overview tables follow all menu topics and require descriptions', () => {
+  for (const [path, index] of [['/schulungsmodule/', 0], ['/Fachberatung_Anleitungen/Test-_und_Schulungsserver/', 1]]) {
+    const topics = sidebarFor(nav, path)[index].items.filter(item => item.text !== 'Übersicht')
+    const rows = overviewRows(nav, path)
+    assert.deepEqual(rows.map(({ text, link }) => ({ text, link })), topics.map(({ text, link }) => ({ text, link })))
+    assert.ok(rows.every(row => row.description.trim().length > 0))
+    const changed = structuredClone(nav)
+    const list = index === 0 ? changed.sections.schulungen : changed.sections.schulungen.at(-1).items
+    list.push({ text: 'Neues Thema', link: path + 'neu', description: 'Neue Schulungsinhalte.' })
+    assert.equal(overviewRows(changed, path).at(-1).text, 'Neues Thema')
+    delete list.at(-1).description
+    assert.throws(() => overviewRows(changed, path), /Kurzbeschreibung fehlt/)
+  }
+})
