@@ -34,6 +34,25 @@ const assertIndependent = async () => {
   await toggleRoot(0)
   assert.deepEqual(await collapsed(), [true, true, false])
 }
+const assertRootNavigation = async (mobile = false) => {
+  await visit('/schulungsmodule/VonSchild2_ZuSchild3/')
+  if (mobile) await page.locator('.VPLocalNav button.menu').click()
+  for (const [index, path, heading] of [
+    [1, '/Fachberatung_Anleitungen/Test-_und_Schulungsserver/', 'Schulungsumgebungen'],
+    [0, '/schulungsmodule/', 'Schulungen durchführen']
+  ]) {
+    const link = roots().nth(index).locator(':scope > .item > a.link')
+    assert.equal(clean(localPath(await link.getAttribute('href'))), clean(path))
+    await link.click()
+    await page.waitForURL(url => url.pathname === new URL(urlFor(path)).pathname)
+    await page.waitForFunction(text => document.querySelector('.vp-doc h1')?.textContent?.includes(text), heading)
+    assert.ok((await page.locator('.vp-doc h1').innerText()).includes(heading))
+    if (mobile) await page.locator('.VPLocalNav button.menu').click()
+    for (const root of [0, 1]) {
+      assert.ok(!(await roots().nth(root).locator(':scope > .items > .VPSidebarItem > .item .text').allTextContents()).includes('Übersicht'))
+    }
+  }
+}
 const fontStyle = async selector => page.locator(selector).first().evaluate(node => {
   const css = getComputedStyle(node)
   return { size: css.fontSize, weight: css.fontWeight, family: css.fontFamily, lineHeight: css.lineHeight }
@@ -60,6 +79,7 @@ try {
   assert.deepEqual(await fontStyle('#VPSidebarNav .VPSidebarItem.level-1.collapsible > .item .text'), referenceBranch)
   assert.deepEqual(await fontStyle('#VPSidebarNav .VPSidebarItem.level-2 > .item .text'), referenceArticle)
   await assertIndependent()
+  await assertRootNavigation()
   await visit('/Fachberatung_Anleitungen/Test-_und_Schulungsserver/')
   assert.deepEqual(await collapsed(), [true, false, true])
   assert.ok((await page.locator('.vp-doc h1').innerText()).includes('Schulungsumgebungen'))
@@ -148,6 +168,7 @@ try {
         await page.locator('.VPLocalNav button.menu').click()
         await assertIndependent()
         await page.screenshot({ path: 'test-results/' + scheme + '-mobile-sidebar.png', fullPage: true })
+        await assertRootNavigation(true)
         await visit('/neu-im-team/')
         await page.locator('.VPLocalNav button.menu').click()
         assert.equal(await roots().first().locator(':scope > .item .caret').count(), 0)

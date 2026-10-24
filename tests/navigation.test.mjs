@@ -55,8 +55,11 @@ test('school sidebar has exactly the three requested collapsible sections', () =
     assert.deepEqual(groups.map(item => item.text), ['Schulungen', 'Schulungsumgebungen', 'Weitere Bereiche'])
     assert.ok(groups.every(item => typeof item.collapsed === 'boolean'))
     assert.equal(groups.filter(item => !item.collapsed).length, 1)
-    assert.equal(groups[0].items[0].text, 'Übersicht')
-    assert.deepEqual(groups[1].items[0], { text: 'Übersicht', link: '/Fachberatung_Anleitungen/Test-_und_Schulungsserver/' })
+    assert.equal(groups[0].link, '/schulungsmodule/')
+    assert.equal(groups[1].link, '/Fachberatung_Anleitungen/Test-_und_Schulungsserver/')
+    assert.ok(groups.slice(0, 2).every(group => !group.items.some(item => item.text === 'Übersicht')))
+    assert.equal(groups[0].items[0].text, 'Schulungsvorlagen')
+    assert.equal(groups[1].items[0].text, 'Docker-Schulungsserver')
     assert.ok(!groups[0].items.some(item => item.text === 'Schulungsumgebungen'))
   }
 })

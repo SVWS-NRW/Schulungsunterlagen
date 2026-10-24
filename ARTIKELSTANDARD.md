@@ -94,7 +94,7 @@ Für Beispiele `::: example` verwenden; der Standardtitel ist „Beispiel“. Ei
 
 ### Bereichsübersicht und Wechsel zwischen Bereichen
 
-- Außer „Neu im Team“ beginnt das Hauptmenü jedes Bereichs mit „Übersicht“, die auf dessen Landing-Page führt.
+- Außer „Neu im Team“ und „Schulungen“ beginnt das Hauptmenü jedes Bereichs mit „Übersicht“, die auf dessen Landing-Page führt. Unter „Schulungen“ führen die verlinkten Hauptmenüpunkte „Schulungen“ und „Schulungsumgebungen“ direkt zur jeweiligen Landing-Page; separate „Übersicht“-Einträge entfallen. Die Pfeile klappen die Sektionen unabhängig voneinander auf und zu.
 - Der Hauptblock trägt den Bereichsnamen. Unter Schulungen gibt es drei native VitePress-Hauptsektionen, die unabhängig voneinander auf- und zugeklappt werden. Nur das aktive Thema darin wird beim Seitenaufruf automatisch aufgeklappt.
 - „Weitere Bereiche“ zeigt die übrigen Bereiche in der Reihenfolge der Hauptnavigation. Unter Schulungen stehen „Schulungen“, „Schulungsumgebungen“ und „Weitere Bereiche“ als getrennte Hauptsektionen. Das Öffnen oder Schließen einer Sektion verändert die anderen nicht.
 - Hauptnavigation und Bereichswechsel werden gemeinsam aus `.vitepress/sidebar.json` unter `nav` erzeugt. „Neu im Team“ zeigt seine drei Einträge dauerhaft ohne Ausklapp-Marker; darunter steht „Weitere Bereiche“ als eingeklappter Block.
@@ -109,5 +109,5 @@ Für Beispiele `::: example` verwenden; der Standardtitel ist „Beispiel“. Ei
 
 ### Tabellenübersichten unter Schulungen
 
-- Die Übersichten „Schulungen“ und „Schulungsumgebungen“ verwenden statt Kacheln `NavigationOverview`. Namen, Links und Reihenfolge stammen automatisch aus dem jeweiligen Sidebar-Hauptmenü; „Übersicht“ wird ausgelassen.
+- Die Übersichten „Schulungen“ und „Schulungsumgebungen“ verwenden statt Kacheln `NavigationOverview`. Namen, Links und Reihenfolge stammen automatisch aus dem jeweiligen Sidebar-Hauptmenü; die Landing-Page ist über dessen Überschrift erreichbar.
 - Bei neuen oder geänderten Themen die kurze `description` direkt am Menüeintrag in `.vitepress/sidebar.json` pflegen. Fehlende Kurzbeschreibungen lassen die Qualitätsprüfung scheitern. Keine zweite Modulliste im Markdown anlegen.
