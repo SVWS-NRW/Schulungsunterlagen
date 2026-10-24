@@ -19,16 +19,16 @@ export default defineConfig(({ mode }) => {
         },
         themeConfig: {
             outline: { label: 'Auf dieser Seite', level: [2, 3] },
-            docFooter: { next: 'Nächste Seite', prev: 'Vorherige Seite' },
+            docFooter: { next: 'Nächstes Thema', prev: 'Vorheriges Thema' },
             lastUpdated: { text: 'Zuletzt bearbeitet', formatOptions: { dateStyle: 'long' } },
-            darkModeSwitchLabel: 'Erscheinungsbild',
+            darkModeSwitchLabel: 'Darstellung',
             lightModeSwitchTitle: 'Zum hellen Erscheinungsbild wechseln',
             darkModeSwitchTitle: 'Zum dunklen Erscheinungsbild wechseln',
-            sidebarMenuLabel: 'In diesem Bereich',
-            returnToTopLabel: 'Zurück nach oben',
+            sidebarMenuLabel: 'Themen',
+            returnToTopLabel: 'Nach oben',
             search: { provider: 'local', options: { locales: { root: { translations: {
-                button: { buttonText: 'Suchen', buttonAriaLabel: 'Portal durchsuchen' },
-                modal: { displayDetails: 'Details anzeigen', resetButtonTitle: 'Suche zurücksetzen', backButtonTitle: 'Suche schließen', noResultsText: 'Keine Ergebnisse für', footer: { selectText: 'Auswählen', navigateText: 'Navigieren', closeText: 'Schließen' } },
+                button: { buttonText: 'Suchen', buttonAriaLabel: 'Dokumentation durchsuchen' },
+                modal: { displayDetails: 'Detaillierte Treffer anzeigen', resetButtonTitle: 'Suche zurücksetzen', backButtonTitle: 'Suche schließen', noResultsText: 'Keine Ergebnisse für', footer: { selectText: 'Auswählen', navigateText: 'Navigieren', closeText: 'Schließen' } },
             } } } } },
             nav: [
                 { text: 'Neu im Team', link: '/neu-im-team/' },
