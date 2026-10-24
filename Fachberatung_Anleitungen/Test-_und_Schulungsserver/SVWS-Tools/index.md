@@ -1,6 +1,6 @@
 # SVWS-Tools
 
-Eine ausführliche Beschreibung finden Sie in unserer [SVWS-Dokumentation](https://doku.svws-nrw.de/deployment/svws-tools/).
+Eine ausführliche Beschreibung findest Du in unserer [SVWS-Dokumentation](https://doku.svws-nrw.de/deployment/svws-tools/).
 
 ## Kurzanleitung
 
@@ -13,4 +13,4 @@ unter Windows für unser Beispiel: `"AppsPath": "C://SVWS-Arbeitsverzeichnis/too
 unter Linux für unser Beispiel: `"AppsPath": "/opt/app/svws/tools/"`  
 + SVWS-Server neu starten
 
-Unter `https://Mein_SVWS-Server/app/start` finden Sie eine Startseite, auf der alle verfügbaren Apps übersichtlich und direkt miteinander verlinkt sind.
+Unter `https://Mein_SVWS-Server/app/start` findest Du eine Startseite, auf der alle verfügbaren Apps übersichtlich und direkt miteinander verlinkt sind.

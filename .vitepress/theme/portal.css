@@ -138,3 +138,20 @@
 .vp-doc figcaption { line-height: 1.45; }
 .vp-doc iframe { max-width: 100%; }
 .vp-doc a { overflow-wrap: anywhere; }
+
+/* Shared callout semantics in light and dark themes. */
+.vp-doc .custom-block[data-hint-kind="caution"] {
+  background-color: var(--vp-c-yellow-soft);
+  border-color: var(--vp-c-yellow-2);
+}
+.custom-block[data-hint-kind="caution"] > .custom-block-title > .hint-icon { color: var(--vp-c-yellow-1); }
+.vp-doc .custom-block.example {
+  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-purple-soft);
+  border-color: var(--vp-c-purple-2);
+}
+.custom-block.example > .custom-block-title > .hint-icon { color: var(--vp-c-purple-1); }
+.vp-doc details.custom-block[open] > summary > .hint-icon { transform: rotate(90deg); }
+@media (min-width: 768px) {
+  .VPHome .VPHomeFeatures .item.grid-6 { width: calc(100% / 3); }
+}

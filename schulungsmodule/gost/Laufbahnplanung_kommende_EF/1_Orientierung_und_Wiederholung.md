@@ -4,9 +4,9 @@
 + dem SVWS-Webclient
 + Wie sind die Struktruren im Hintergrund, auf dem unsere Leistungsdatenverwaltung aufsetzt?
 
-Das Online-Skript finden Sie hier: https://svws-nrw.github.io/Schulungsunterlagen/
+Das Online-Skript findest Du hier: https://svws-nrw.github.io/Schulungsunterlagen/
 
-Navigieren Sie dann zu *"GOSt"* und weiter zu *"Laufbahnplanung kommende EF"*.
+Navigiere dann zu *"GOSt"* und weiter zu *"Laufbahnplanung kommende EF"*.
 
 
 ## SchILD-NRW-3
@@ -21,34 +21,34 @@ Wir benötigen hauptsächlich aus SchILD
 + Nutzerrechte erlauben nicht allen alles - und das ist auch richtig so!  
 
 **Aufgaben 1.1.1 "SchILD Schülerdaten"**  
-Schauen Sie in SchILD in die
+Schaue in SchILD in die
 
 + Individualdaten,
 + die unterschiedlichen Reiter im *Aktuellen Halbjahr*,
 + und besonders die *Leistungsdaten* im *Aktuellen Halbjahr*
 
-und geben Sie an, welche Daten jeweils erfasst werden und wo sich Daten finden, die für die Oberstufenlaufbahn relevant sind.
+und gib an, welche Daten jeweils erfasst werden und wo sich Daten finden, die für die Oberstufenlaufbahn relevant sind.
 
 :information_source: [Infos zum aktuellen Halbjahr in SchILD3](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Aktuelles_Halbjahr_/_Aktueller_Abschnitt_(Sch%C3%BCler))
 
 **Aufgaben 1.1.2 "SchILD-Leistungsdaten"**  
-Gehen Sie in die Leistungsdaten eines Schülers (m/w/d/oA) in der Q1 und
+Gehe in die Leistungsdaten eines Schülers (m/w/d/oA) in der Q1 und
 
-+ ändern Sie eine Kursart,
-+ fügen Sie ein Fach hinzu,
-+ löschen Sie ein Fach
-+ und lassen Sie den Schüler einen Kurswechsel durchführen (gleiches Fach, anderer Kurs).
++ ändere eine Kursart,
++ füge ein Fach hinzu,
++ lösche ein Fach
++ und lass den Schüler einen Kurswechsel durchführen (gleiches Fach, anderer Kurs).
 
 :information_source: [Infos zu den Leistungsdaten im aktuellen Halbjahr](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Leistungsdaten_(Aktuelles_Halbjahr_/_Aktueller_Abschnitt#Erfassung_der_Leistungsdaten))
 
 **Aufgaben 1.1.3 "SchILD Sprachenfolge korrigieren"**  
-Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Sie dem Schüler eine weitere Sprache zu, die in der Sekundarstufe 1 von Jahrgang 6 bis 10 belegt worden sein soll.
+Finde heraus, wo Du die Sprachenfolge eines Schülers findest und füge dem Schüler eine weitere Sprache zu, die in der Sekundarstufe 1 von Jahrgang 6 bis 10 belegt worden sein soll.
 >[!TIP]Moderationshinweis: Verweis auf "Sprachenfolge aus Leistungsdaten" ermitteln, Vorsicht bei Schülern, die nicht die vollst. Laufbahn an der eigenen Schule belegt haben.
 
 :information_source: [Infos zu Sprachenfolgen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Laufbahninfo_(Sch%C3%BCler))
 
-**Aufgaben 1.1.4 "Kontrollieren Sie existierende Kurse"**  
-Öffnen Sie den Katalog mit den Kursen und schauen Sie, welche Einstellungen für Kurse vorgenommen werden können.
+**Aufgaben 1.1.4 "Kontrolliere existierende Kurse"**  
+Öffne den Katalog mit den Kursen und schaue, welche Einstellungen für Kurse vorgenommen werden können.
 
 :information_source: [Infos zum Katalog Kurse](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Kurse_(Schulbezogene_Kataloge))
 
@@ -58,22 +58,22 @@ Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Si
 
 **Aufgaben 1.1.5 "SchILD Fächer der Oberstufe"**  
 
-+ Öffen Sie den Katalog für Fächer und schauen Sie, welche Einstellungen vorgenommen werden können.
-+ Finden Sie heraus, wie ein Fach als *Fach für die Oberstufe* markiert werden kann.
-+ Beachten Sie die Statistikbezeichnungen: Was bedeuten bei den Sprachen die Zahlen hinter dem Fachkürzel (etwa F6, F7?)
-+ Stellen Sie ein Fach auf "unsichtbar", was verändert sich und überlegen Sie, wieso man Katalogeinträge auf "unsichtbar" stellen kann. Welche Fehlerquelle liegt in dieser Einstellung?
-+ Passen Sie die Fremdsprachen bezüglich G8 und G9 und der aktuellen ASD-Vorgaben an.
-+ Kontrollieren Sie, im WebClient, Tab Schule/Fächer, ob die Oberstufenfächer "Ist prüfungsordnungsrelevant" gesetzt ist (Prüfen Sie besonders Projekt- und Prüfungskurse)
++ Öffne den Katalog für Fächer und schaue, welche Einstellungen vorgenommen werden können.
++ Finde heraus, wie ein Fach als *Fach für die Oberstufe* markiert werden kann.
++ Beachte die Statistikbezeichnungen: Was bedeuten bei den Sprachen die Zahlen hinter dem Fachkürzel (etwa F6, F7?)
++ Stelle ein Fach auf "unsichtbar", was verändert sich und überlege, wieso man Katalogeinträge auf "unsichtbar" stellen kann. Welche Fehlerquelle liegt in dieser Einstellung?
++ Passe die Fremdsprachen bezüglich G8 und G9 und der aktuellen ASD-Vorgaben an.
++ Kontrolliere, im WebClient, Tab Schule/Fächer, ob die Oberstufenfächer "Ist prüfungsordnungsrelevant" gesetzt ist (Prüfe besonders Projekt- und Prüfungskurse)
 
 :information_source: [Infos zum Katalog *Unterrichtsfächer* in SchILD3](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Unterrichtsf%C3%A4cher_(Schulbezogene_Kataloge))
 :information_source: [Infos zu den Unterrichtsfächern im SVWS-Webclient](https://doku.svws-nrw.de/svws-client/apps/schule/kataloge/faecher/)
 
 **Aufgaben 1.1.6 "SchILD Klassen- und Versetzungstabelle"**  
 
-+ Schauen Sie durch die Klassen- und Versetzungstabelle - welche Einstellungen werden hier vorgenommen?
-+ Kontrollieren Sie, ob es eine *EF* gibt, ob diese *sichtbar* ist und ob die Einstellungen für die EF korrekt sind.
-+ Kontrollieren Sie, ob die 10er eine Folgeklasse *EF* eingetragen haben (ebenso Q1 als Folgeklasse der EF bzw. Q2 als Folgeklasse der Q1).
-+ Beachten Sie: Die Klassen sind - im Gegensatz zu Schild2 - für jeden Abschnitt angelegt. So wird z.B. auch die Sichtbarkeit abschnittsweise gesteuert, ebenso Klassenlehrer: Wählen Sie zur Ansicht vergangene Abschnitte aus.
++ Schaue durch die Klassen- und Versetzungstabelle - welche Einstellungen werden hier vorgenommen?
++ Kontrolliere, ob es eine *EF* gibt, ob diese *sichtbar* ist und ob die Einstellungen für die EF korrekt sind.
++ Kontrolliere, ob die 10er eine Folgeklasse *EF* eingetragen haben (ebenso Q1 als Folgeklasse der EF bzw. Q2 als Folgeklasse der Q1).
++ Beachte: Die Klassen sind - im Gegensatz zu Schild2 - für jeden Abschnitt angelegt. So wird z.B. auch die Sichtbarkeit abschnittsweise gesteuert, ebenso Klassenlehrer: Wähle zur Ansicht vergangene Abschnitte aus.
 
 :information_source: [Infos zum Katalog *Klassen-/Versetzungstabellen*](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Klassen-Versetzungstabelle_(Schulbezogene_Kataloge))
 
@@ -82,7 +82,7 @@ Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Si
 > * Eventuell müssen die Rechte des aktuellen Nutzers kontrolliert werden
 
 **Aufgaben 1.1.7 "SchILD Gruppenprozesse"**  
-Finden Sie einen Gruppenprozess, der für die Verwaltung von Oberstufenschüler sinnvoll sein könnte.
+Finde einen Gruppenprozess, der für die Verwaltung von Oberstufenschüler sinnvoll sein könnte.
 
 > [!WARNING] Aufgabenhinweis
 > Gruppenprozesse überschreiben unter Umständen zuvor vorgenommene manuelle Änderungen. Interne Prozesse müssen entsprechend angepasst sein.
@@ -96,12 +96,12 @@ Finden Sie einen Gruppenprozess, der für die Verwaltung von Oberstufenschüler 
 > Auch bei den Leistungsdaten sind Gruppenprozesse später hilfreich (etwa zum Eintragen von Noten/Fehlstunden.)
 
 **Aufgaben 1.1.8 "SchILD Sprachenfolge Gruppenprozesse"**  
-Fügen Sie Schülern (m/w/d) der Q2 Sprachen in der Sprachenfolge per Gruppenprozess hinzu (wir nehmen Schüler der Q2, da diese für unsere EF-Schulung keine Rolle mehr spielen).
+Füge Schülern (m/w/d) der Q2 Sprachen in der Sprachenfolge per Gruppenprozess hinzu (wir nehmen Schüler der Q2, da diese für unsere EF-Schulung keine Rolle mehr spielen).
 
 :information_source: [Infos zu den Gruppenprozessen für die Oberstufe: Sprachenfolge zuweisen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Sprachenfolge_zuweisen_(Gruppenprozesse_Allgemein))
 <!--
 **Aufgaben 1.1.9 "SchILD Schüler neu aufnehmen für die kommende EF"**  
-Nehmen Sie eine Schülerin neu für das kommende Schuljahr in die Stufe EF auf. In welchen Reitern sind welche Angaben aufzunehmen?
+Nimm eine Schülerin neu für das kommende Schuljahr in die Stufe EF auf. In welchen Reitern sind welche Angaben aufzunehmen?
 
 :information_source: [Infos zur Neuaufnahme](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Neuaufnahmen_in_Schild-NRW_(Tutorial))
 
@@ -119,15 +119,15 @@ Nehmen Sie eine Schülerin neu für das kommende Schuljahr in die Stufe EF auf. 
 > + **Klausurplanung** ist ein anderes Modul
 
 **Aufgaben 1.1.9 "SVWS Client Apps und vor und zurück"**   
-Klicken Sie sich durch die **Apps** und orientieren Sie sich, was der SVWS-Client bietet. Nutzen Sie hierbei die Vor- und Zurückknöpfe Ihres Browers.  
-Lassen Sie sich diese Angaben eines Schülers der aktuellen Q2 anzeigen:
+Klicke Dich durch die **Apps** und orientiere Dich, was der SVWS-Client bietet. Nutze hierbei die Vor- und Zurückknöpfe Deines Browers.  
+Lass Dir diese Angaben eines Schülers der aktuellen Q2 anzeigen:
 
 + Leistungsdaten des Schülers
 + Sprachenfolge des Schülers
 + Laufbahnplanung des Schülers
 + Stundenplan eines Schülers anzeigen?
-+ Vergleichen Sie die zur Verfügung stehenden Schüleranzeigen des Q2-Schülers mit einem Schüler der Mittelstufe.
-+ Vergleichen Sie abschließend SchILD-NRW mit dem SVWS-Client, wo liegen Vor- oder Nachteile?
++ Vergleiche die zur Verfügung stehenden Schüleranzeigen des Q2-Schülers mit einem Schüler der Mittelstufe.
++ Vergleiche abschließend SchILD-NRW mit dem SVWS-Client, wo liegen Vor- oder Nachteile?
 
 >[!Tip] Kein Stundenplanalgorithmus
 > Der SVWS-Client bietet derzeit keinen Stundenplanalgorithmus. Stundenpläne sind somit aus externen Programmen zu importieren oder können auch in kleineren Systemem von Hand zusammengeklickt werden.
@@ -141,12 +141,12 @@ Lassen Sie sich diese Angaben eines Schülers der aktuellen Q2 anzeigen:
 :information_source: [Infos zum individuellen Stundenplan eines Schülers](https://doku.svws-nrw.de/svws-client/apps/schueler/stundenplan/)  
 
 **Aufgaben 1.1.10 "SVWS-Client Filter" auf Schüler filtern"**  
-*Filtern* Sie in der *Schüleransicht* auf die Jahrgangstufe 10/auf eine Klasse der Stufe 10.
+*Filtern* Du in der *Schüleransicht* auf die Jahrgangstufe 10/auf eine Klasse der Stufe 10.
 
 :information_source: [Infos zum Filtern von Klassen/Jahrgängen](https://doku.svws-nrw.de/svws-client/apps/schueler/)
 
 **Aufgaben 1.1.11 "Link-Symbole nutzen"**  
-An einigen Stellen finden sich kleine Linksymbole, etwa in der Laufbahn von Schülern, um direkt zu diesem Schüler in der Kursplanung der Oberstufen-App zu springen. Probieren Sie die Links aus und gehen Sie über das Browser-"Zurück" zur Laufbahnübersicht.
+An einigen Stellen finden sich kleine Linksymbole, etwa in der Laufbahn von Schülern, um direkt zu diesem Schüler in der Kursplanung der Oberstufen-App zu springen. Probiere die Links aus und gehe über das Browser-"Zurück" zur Laufbahnübersicht.
 
 >[!Tip] Diese Links sind wichtig!
 > Diese Links werden später bei der Laufbahnberatung und Arbeit mit konkreten Schülerdatensätzen sehr hilfreich.
@@ -154,7 +154,7 @@ An einigen Stellen finden sich kleine Linksymbole, etwa in der Laufbahn von Sch�
 :information_source: [Infos zum Symbol 'Link zur Laufbahnplanung'](https://doku.svws-nrw.de/svws-client/apps/gost/)
 
 **Gruppenaufgabe 1.1.12 "10er auswählen, die in die neue EF gehen"**  
-Nicht alle Ihre 10er werden in die neue EF gehen. Kann man diese irgendwie isolieren?
+Nicht alle Deine 10er werden in die neue EF gehen. Kann man diese irgendwie isolieren?
 
 >[!TIP] Praxisarbeit
 > Es wird eine Möglichkeit in einer der nächsten Updates geplant, mit der Schüler ohne zu planende Oberstufenlaufbahn bis zum Schuljahreswechsel ausgeblendet werden können.

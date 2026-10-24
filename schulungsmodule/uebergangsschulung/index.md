@@ -1,7 +1,7 @@
 # Schulungsmodul Übergang von SchILD2 zu SchILD3
 
 ## Zu diesem Modul
-In diesem Modul werden die wesentlichen Änderungen zu SchILD-NRW2 aufgezeigt. Sie erhalten die Gelegenheit, die neue Version von SchILD-NRW kennenzulernen, zu testen und sich mit der neuen Oberfläche vertraut zu machen. Es wird vorausgesetzt, dass der Umgang mit SchILD-NRW2 bereits bekannt ist. 
+In diesem Modul werden die wesentlichen Änderungen zu SchILD-NRW2 aufgezeigt. Du erhältst die Gelegenheit, die neue Version von SchILD-NRW kennenzulernen, zu testen und Dich mit der neuen Oberfläche vertraut zu machen. Es wird vorausgesetzt, dass der Umgang mit SchILD-NRW2 bereits bekannt ist. 
 
 Zusätzlich zur Desktopanwendung SchILD-NRW3 (Im folgenden kurz SchILD3; früher SchILD2), die nach wie vor nur unter Windows genutzt werden kann, kann nun auch mit einer browserbasierten Anwendung gearbeitet werden, dem sogenannten SVWS-Client. 
 

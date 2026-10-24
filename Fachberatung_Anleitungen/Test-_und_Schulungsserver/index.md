@@ -14,7 +14,7 @@ siehe Artikel: [Wartung](./Moderatoren_Schulungsserver/Wartung.md)
 
 ## Quellen
 
-Etwas vereinfachte und reduzierte bash Skripte zum Aufsetzen einer Testumgebung finden Sie in der SVWS-Dokumentation unter deployment
+Etwas vereinfachte und reduzierte bash Skripte zum Aufsetzen einer Testumgebung findest Du in der SVWS-Dokumentation unter deployment
 
 + [Testserver](https://github.com/SVWS-NRW/SVWS-Dokumentation/tree/main/deployment/Testserver)
 

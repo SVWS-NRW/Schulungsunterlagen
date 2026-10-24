@@ -1,7 +1,7 @@
 # Installation vom SVWS-Server
 
 ### Download der Installationsdateien
-Laden Sie sich im SVWS-NRW-Repository die notwendigen Installationspakete herunter.  
+Lade Dich im SVWS-NRW-Repository die notwendigen Installationspakete herunter.  
 
 Die aktuellen Installationsdateien vom SVWS-Server befinden sich im GitHub: 
 https://github.com/SVWS-NRW/SVWS-Server/releases
@@ -23,10 +23,10 @@ Nach Auswahl des Repositorys SVWS-NRW/SVWS-Server kommt man über Releases auf d
 
 
 ### Installation Starten
-Führen Sie die Installation als Administrator aus!
+Führe die Installation als Administrator aus!
 
 > [!TIP] 
-> Eine gute Anleitung finden Sie auch im [Wiki](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Installation_SVWS-Server_und_SchILD-NRW_3#Installation_des_SVWS-Servers)
+> Eine gute Anleitung findest Du auch im [Wiki](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Installation_SVWS-Server_und_SchILD-NRW_3#Installation_des_SVWS-Servers)
 
 
 

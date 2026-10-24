@@ -1,6 +1,8 @@
 import { defineConfig, loadEnv } from 'vite';
 import type { DefaultTheme, UserConfig } from 'vitepress';
 import sidebar from '../sidebar';
+import navigation from './sidebar.json';
+import { footerFor } from './navigation.mjs';
 import taskLists from 'markdown-it-task-lists';
 import { configureHintBoxes, containerLabels } from './hint-boxes';
 
@@ -12,12 +14,19 @@ export default defineConfig(({ mode }) => {
         title: 'SVWS-Teamportal',
         description: 'Wissen, Schulungsmaterial und Austausch für Fachberatung und Moderation rund um SchILD-NRW und den SVWS-Server.',
         lastUpdated: true,
-        srcExclude: ['README.md', 'PORTAL-REDAKTION.md', 'ARTIKELSTANDARD.md', 'markdown-examples.md', 'api-examples.md', '**/notes.md'],
+        transformPageData(pageData) {
+            if (pageData.frontmatter.layout !== 'home') {
+                Object.assign(pageData.frontmatter, footerFor(navigation, '/' + pageData.relativePath));
+            }
+        },
+        srcExclude: ['README.md', 'PORTAL-REDAKTION.md', 'ARTIKELSTANDARD.md', 'markdown-examples.md', 'api-examples.md', 'HARMONISIERUNG.md', 'tests/**', '**/notes.md'],
         markdown: {
             container: containerLabels,
             config(md) {
                 md.use(taskLists, { label: true });
                 configureHintBoxes(md);
+                md.disable('emoji');
+                md.inline.ruler.disable('linkify');
             },
         },
         themeConfig: {
@@ -29,10 +38,10 @@ export default defineConfig(({ mode }) => {
             darkModeSwitchTitle: 'Zum dunklen Erscheinungsbild wechseln',
             sidebarMenuLabel: 'Themen',
             returnToTopLabel: 'Nach oben',
-            search: { provider: 'local', options: { locales: { root: { translations: {
+            search: { provider: 'local', options: { translations: {
                 button: { buttonText: 'Suchen', buttonAriaLabel: 'Dokumentation durchsuchen' },
-                modal: { displayDetails: 'Detaillierte Treffer anzeigen', resetButtonTitle: 'Suche zurücksetzen', backButtonTitle: 'Suche schließen', noResultsText: 'Keine Ergebnisse für', footer: { selectText: 'Auswählen', navigateText: 'Navigieren', closeText: 'Schließen' } },
-            } } } } },
+                modal: { displayDetails: 'Detaillierte Treffer anzeigen', resetButtonTitle: 'Suche zurücksetzen', backButtonTitle: 'Suche schließen', noResultsText: 'Keine Ergebnisse für', footer: { selectText: 'auswählen', selectKeyAriaLabel: 'Eingabetaste', navigateText: 'navigieren', navigateUpKeyAriaLabel: 'Pfeil nach oben', navigateDownKeyAriaLabel: 'Pfeil nach unten', closeText: 'schließen', closeKeyAriaLabel: 'Escape' } },
+            } } },
             nav: [
                 { text: 'Neu im Team', link: '/neu-im-team/' },
                 { text: 'Schulungen', link: '/schulungsmodule/', activeMatch: '^/schulungsmodule/(?!VonSchild2_ZuSchild3)' },

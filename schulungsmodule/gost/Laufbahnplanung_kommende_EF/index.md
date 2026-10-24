@@ -37,7 +37,7 @@ Es gibt für die GOSt weitere Folgemodule
 2. **Modul Q-Phase und Abitur** Tag 1 - Q-Phase und Abitur
 3. **Modul Sek II-Koordination** Tag 1 - Klausurplanung, Abiturplanung, exotischere Sonderfälle, **Praxiscafé**
 
-Eventuell könnten Sie auch diese Module interessieren:
+Eventuell könntest Du auch diese Module interessieren:
 
 + Fortbildung zu Reports
 + Basisschulung SchildNRW

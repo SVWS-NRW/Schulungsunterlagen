@@ -51,12 +51,16 @@ So ist das gewünschte Ergebnis erkennbar.
 Dieses Vorgehen vermeiden.
 :::
 
+::: example Beispiel
+Ein konkretes Anwendungsbeispiel.
+:::
+
 ::: details Details
 Zusätzliche Informationen zum Aufklappen.
 :::
 ```
 
-Für Beispiele bis zur technischen Vereinheitlichung der erweiterten Container-Syntax `::: tip Beispiel` verwenden. Boxen sparsam und an der relevanten Handlung einsetzen. Keine individuellen Bild-Icons oder Inline-Farben pro Artikel hinzufügen. Wesentliche Informationen gehören auch in den normalen Text.
+Für Beispiele `::: example` verwenden; der Standardtitel ist „Beispiel“. Eigene Titel sind möglich. Boxen sparsam und an der relevanten Handlung einsetzen. Keine individuellen Bild-Icons oder Inline-Farben pro Artikel hinzufügen. Wesentliche Informationen gehören auch in den normalen Text.
 
 ## Bilder, Tabellen, Medien
 
@@ -77,3 +81,13 @@ Für Beispiele bis zur technischen Vereinheitlichung der erweiterten Container-S
 
 - ESLint und die Codequalitätsvorgaben der **Inits**: separat abstimmen, nicht im Zuge der Artikelformatierung verändern.
 - PDF-Ausgabe und druckgerechte Gestaltung: später als gemeinsames Thema beider Dokumentationen betrachten; vorhandene FBM-Funktionen vorerst unverändert lassen.
+
+## Navigation: Bereich → Thema → Artikel
+
+- Die sechs Bereiche stehen in der Hauptnavigation. Innerhalb des Bereichs zeigt die Sidebar Themen und direkt darunter Artikel: höchstens zwei Sidebar-Ebenen.
+- Unterthemen mit eigener Aufgabenreihe werden zu eigenständigen Themen, beispielsweise „Oberstufe: Klausurplanung“. Keine zusätzlichen aufklappbaren Ebenen unter einem Artikel.
+- Menütitel sind Klartext, höchstens 48 Zeichen lang. Keine Markdown-Links, Dateinamen mit Unterstrichen oder ausgeschriebenen URLs. Die Langtitel im Artikel bleiben möglich.
+- Bestehende Artikelpfade bleiben erhalten. Die längste passende Route in `.vitepress/sidebar.json` legt den verantwortlichen Bereich fest, auch bei historischen Verzeichnisnamen.
+- Nur das aktuelle Thema wird automatisch geöffnet. Andere Themen bleiben manuell aufklappbar; ein Themenwechsel setzt die Auswahl zurück.
+- Vorheriges/Nächstes Thema folgt der redaktionellen Reihenfolge innerhalb des aktuellen Themas, einschließlich seiner Übersicht. An der Themengrenze endet die Folge. Sprungmarken und Verweise in andere Bereiche sind keine zusätzlichen Leseschritte.
+- Ergänze Artikel und Reihenfolge in `.vitepress/sidebar.json`; Sidebar und Seitenfuß nutzen gemeinsam `.vitepress/navigation.mjs`.

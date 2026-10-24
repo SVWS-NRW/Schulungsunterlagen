@@ -32,7 +32,7 @@ Bei `ENOENT` den Arbeitsordner prüfen; dort muss `package.json` liegen. Bei feh
 
 ## Aufbau und Pflege
 
-Die Übersichtsseiten verknüpfen vorhandene Artikel unter ihren bisherigen Adressen. `.vitepress/sidebar.json` definiert unter `sections` ein gemeinsames Menü je Rubrik und unter `routes` die Zuordnung der bisherigen Artikelpfade. `sidebar.ts` stellt diese Menüs der Konfiguration zur Verfügung. Innerhalb einer Rubrik bleibt dadurch das vollständige Menü erhalten. Bei neuen Artikeln den passenden Bereich dort ergänzen. Hauptnavigation und Seiteneinstellungen liegen in `.vitepress/config.ts`, das Erscheinungsbild in `.vitepress/theme/portal.css`.
+Die Übersichtsseiten verknüpfen vorhandene Artikel unter ihren bisherigen Adressen. `.vitepress/sidebar.json` definiert unter `sections` die Themen und Artikel je Bereich und unter `routes` die Zuordnung der bisherigen Artikelpfade. `sidebar.ts` stellt diese Menüs über `.vitepress/navigation.mjs` der Konfiguration zur Verfügung. Dieses Modul bestimmt auch den aktiven Themenzweig und die Vor/Zurück-Folge. Innerhalb einer Rubrik bleibt dadurch das vollständige Menü erhalten. Bei neuen Artikeln den passenden Bereich dort ergänzen. Hauptnavigation und Seiteneinstellungen liegen in `.vitepress/config.ts`, das Erscheinungsbild in `.vitepress/theme/portal.css`.
 
 Die Bestandszuordnung und redaktionelle Restpunkte sind in [PORTAL-REDAKTION.md](./PORTAL-REDAKTION.md) dokumentiert. Softwarestände, Termine und fachliche Aussagen müssen getrennt von dieser Strukturänderung bestätigt werden.
 
@@ -51,11 +51,11 @@ siehe auch : <https://svws-nrw.github.io/Schulungsunterlagen/>
 ## Bevor es losgeht
 
 Schild-Update prüfen und co.
-Importieren Sie eine DB, sofern noch keine Vorhanden. Beachten Sie die verlinkte Anleitung im Reiter Datenbanken.
+Importiere eine DB, sofern noch keine Vorhanden. Beachte die verlinkte Anleitung im Reiter Datenbanken.
 
 ## Infos zu den Aufgaben
 
-Alle Aufgaben können mit Hilfe der SVWS-Dokumentation und den Wiki-Anleitungen gelöst werden. Entsprechende Links finden Sie unter den jeweiligen Aufgaben.
+Alle Aufgaben können mit Hilfe der SVWS-Dokumentation und den Wiki-Anleitungen gelöst werden. Entsprechende Links findest Du unter den jeweiligen Aufgaben.
 
 ## Hilfreiche Links
 
@@ -90,10 +90,10 @@ Nach jedem `Pull` mit Git, um das lokale Repository zu aktualisieren, muss nun e
 
 ```bash
 # im Terminal diesen Befehl ausführen
-npm install
+npm ci
 ```
 
-dadurch wird Vitepress auf die aktuelle Version gebracht, ebenso die verwendeten Bibliotheken, die bei der Entwicklung unterstützen.
+Dadurch wird der im Lockfile festgelegte Paketstand reproduzierbar installiert. Paketaktualisierungen werden gesondert durchgeführt.
 
 Beim allerersten Mal sollte man bei VS Code nun einmal das Fenster der Doku schließen und neu öffnen, damit alles funktioniert.
 
@@ -173,9 +173,9 @@ Hervorhebungen in **fett** und *kursiv* sollten spärlich eingesetzt werden.
 
 Bislang werden *real vorhandende Funktionen* in **fett** markiert. Ebenso der Hauptgegenstand des Artikels (einmalig). Also etwa **Stunde löschen** oder **Nutzer hinzufügen**. Es sollten nur diese nutzbaren Funktionen hervorgehoben werden.
 
-Andere Hervorhebungen können in *kursiv* gesetzt werden (siehe oben). Ebenso werden Feldinhalte in kursiv gesetzt. Also würde man etwa schreiben: "Tragen Sie in die **Kursart** den Wert *PUK* für *Pflichtunterricht im Klassenverband* ein.
+Andere Hervorhebungen können in *kursiv* gesetzt werden (siehe oben). Ebenso werden Feldinhalte in kursiv gesetzt. Also würde man etwa schreiben: "Trage in die **Kursart** den Wert *PUK* für *Pflichtunterricht im Klassenverband* ein.
 
-Bei **Anleitungen** empfhielt es sich, die Funktionen, die im Zuge der Anleitung tatsächlich bedient zu werden, als `Code`zu markieren. Also wäre alles, was tatsächlich anzuklicken ist, als Code hervorgehoben. Alternativen wären dann fett. Hier würde man schreiben: "Klicken Sie nun auf `Weiter`, mit **Abbrechen** kehren Sie ohne Änderungen vorzunehmen zum vorherigen Fenster zurück."
+Bei **Anleitungen** empfhielt es sich, die Funktionen, die im Zuge der Anleitung tatsächlich bedient zu werden, als `Code`zu markieren. Also wäre alles, was tatsächlich anzuklicken ist, als Code hervorgehoben. Alternativen wären dann fett. Hier würde man schreiben: "Klicke nun auf `Weiter`, mit **Abbrechen** kehrst Du ohne Änderungen vorzunehmen zum vorherigen Fenster zurück."
 
 Wichtiger als das Einhalten eines globalen Schemas ist aber eher der spärliche Einsatz von Hervorhebungen und Konsistenz innerhalb des Artikels oder der thematischen Artikelreihe. 
 
@@ -223,3 +223,15 @@ This is a dangerous warning.
 ::: details
 This is a details block.
 :::
+
+## Gemeinsame Qualitätsprüfung
+
+`npm run docs:check` prüft Paket-/Lockfile-Konsistenz, Menüziele und -tiefe, sämtliche Artikelzuordnungen und Themenfolgen, alle acht Hinweisboxen, den Erhalt des Bestands und anschließend Build, lokale HTML-/Medienziele sowie Sprungmarken.
+
+Der PR-Workflow verwendet Node 24 und `npm ci`. Zusätzlich installiert er Playwright ausschließlich für den Prüflauf, kontrolliert alle 192 direkten Artikelaufrufe, Themenwechsel und Browserverlauf, deutsche Suche sowie Layouts mit 390, 820 und 1440 Pixeln. Prüfbilder liegen im Actions-Artefakt `navigation-und-layout`. Ein zweiter Build prüft `BASE=/`; die Veröffentlichung behält ihren bisherigen Unterpfad und Branch.
+
+Für eine lokale Browserprüfung nach dem Build: `npm install --no-save --package-lock=false playwright@1.56.1`, `npx playwright install chromium`, Vorschau in einem zweiten Terminal mit `npm run docs:preview -- --host 127.0.0.1 --port 4173` starten und `npm run docs:check-browser` ausführen. Das Paket-/Lockfile bleibt dabei unverändert.
+
+Der Bestandsvergleich verwendet standardmäßig den geprüften FBM-dev-Stand `022646efd04bf6a2e6c13a819b8974740588cf59`. Dieser bleibt als Regressionsreferenz bestehen; eine spätere bewusste Inhaltsänderung benötigt eine gesonderte Aktualisierung der Referenz über `CONTENT_BASE`.
+
+Der vollständige Abgleich aller 16 Vorschläge und bewusst beibehaltene Unterschiede stehen in [HARMONISIERUNG.md](./HARMONISIERUNG.md). ESLint/Inits und PDF-/Druckfunktionen bleiben gesonderte Folgethemen.

@@ -12,19 +12,19 @@ In diesem Modul werden wir...
 
 
 ## Installation vom SVWS-Server
-Starten Sie mit der Installation vom [Installation vom SVWS-Server](https://github.com/SVWS-NRW/Schulungsunterlagen/blob/master/Installation_Fachberatung_Moderation/Installation_SVWS/index.md). Wählen Sie hierbei die Option, direkt eine SchILD2 DB zu migrieren.
+Starte mit der Installation vom [Installation vom SVWS-Server](https://github.com/SVWS-NRW/Schulungsunterlagen/blob/master/Installation_Fachberatung_Moderation/Installation_SVWS/index.md). Wähle hierbei die Option, direkt eine SchILD2 DB zu migrieren.
 
 
 ## Installation des Zertifikats
-In Abhängigkeit der Browsereinstellung erscheint beim Öffnen der Datenbank über den Browser der Hinweis, dass die Seite nicht sicher ist. Um die Seite als sicher zu definieren, muss das Zertifikat installiert werden, welches bei der Installation vom SVWS-Server erstellt wurde. Entsprechende Aufgaben dazu finden Sie [hier](https://github.com/SVWS-NRW/Schulungsunterlagen/blob/master/Installation_Fachberatung_Moderation/Installation_Zertifikat/index.md).
+In Abhängigkeit der Browsereinstellung erscheint beim Öffnen der Datenbank über den Browser der Hinweis, dass die Seite nicht sicher ist. Um die Seite als sicher zu definieren, muss das Zertifikat installiert werden, welches bei der Installation vom SVWS-Server erstellt wurde. Entsprechende Aufgaben dazu findest Du [hier](https://github.com/SVWS-NRW/Schulungsunterlagen/blob/master/Installation_Fachberatung_Moderation/Installation_Zertifikat/index.md).
 
 &nbsp;
 
-Nun können Sie die Datenbank einmal im [Brower sichten](https://github.com/SVWS-NRW/Schulungsunterlagen/blob/master/Installation_Fachberatung_Moderation/SVWS_Client_Sichten/index.md).
+Nun kannst Du die Datenbank einmal im [Brower sichten](https://github.com/SVWS-NRW/Schulungsunterlagen/blob/master/Installation_Fachberatung_Moderation/SVWS_Client_Sichten/index.md).
 
 &nbsp;
 
-Optional: Nach der Installation können Sie bereits die Datenbank mit [DBeaver](https://github.com/SVWS-NRW/Schulungsunterlagen/blob/master/Installation_Fachberatung_Moderation/DBeaver/index.md) sichten. Das ist für die weitere Installation nicht notwendig.
+Optional: Nach der Installation kannst Du bereits die Datenbank mit [DBeaver](https://github.com/SVWS-NRW/Schulungsunterlagen/blob/master/Installation_Fachberatung_Moderation/DBeaver/index.md) sichten. Das ist für die weitere Installation nicht notwendig.
 
 
 ## Installation von SchILD3

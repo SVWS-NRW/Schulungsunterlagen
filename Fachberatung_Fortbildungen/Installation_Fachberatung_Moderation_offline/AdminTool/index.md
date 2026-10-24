@@ -1,32 +1,32 @@
 # Admin-Tool
 
 ### Öffnen des Admin-Tools
-Öffnen Sie den Administrationsbereich, indem Sie in der Suchleiste vom Browser `localhost/admin` tippen. Ggf. müssen Sie mit der Langversion `https://localhost/admin ` arbeiten. Nach Eingabe des root-Passwortes, welches Sie beim Installieren des SVWS-Servers festgesetzt haben, sollte diese Oberfläche sichtbar werden:   
+Öffne den Administrationsbereich, indem Du in der Suchleiste vom Browser `localhost/admin` tippst. Ggf. musst Du mit der Langversion `https://localhost/admin ` arbeiten. Nach Eingabe des root-Passwortes, welches Du beim Installieren des SVWS-Servers festgesetzt hast, sollte diese Oberfläche sichtbar werden:   
 
 
 ![Admin-Tool](./graphics/AdminTool_Hauptansicht.png)
 
 
 ### Migrieren einer weiteren Datenbank
-* Migrieren Sie über das Admin-Tool eine weitere Datenbank in ein neues Schema.
-* Erstellen Sie anschließend eine Verbindungsdatei, sodass Sie die Datenbank auch mit SchILD3 öffnen können.
+* Migriere über das Admin-Tool eine weitere Datenbank in ein neues Schema.
+* Erstelle anschließend eine Verbindungsdatei, sodass Du die Datenbank auch mit SchILD3 öffnen kannst.
 
 
 ### Backup erstellen
-Sichern Sie eine Datenbank in eine SQLite Datenbank.
+Sichere eine Datenbank in eine SQLite Datenbank.
 > [!TIP] 
 > Das Backup wird automatisch im Download-Ordner gesichert.
 
 
 ### Backup wiederherstellen
-Importieren Sie die gerade erstellte Sicherung in ein neues Schema.
+Importiere die gerade erstellte Sicherung in ein neues Schema.
 
 
 ### Leeres Schema erstellen
-Erstellen Sie ein leeres Schema und öffnen Sie dieses im Client unter Angabe einer Schulnummer.
+Erstelle ein leeres Schema und öffne dieses im Client unter Angabe einer Schulnummer.
 
 ### Backup in ein bestehendes Schema importieren
-Importieren Sie das SQLite-Backup in das leere Datenbankschema.
+Importiere das SQLite-Backup in das leere Datenbankschema.
 
 
 

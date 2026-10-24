@@ -10,7 +10,7 @@ Die folgende Terminreihe von Februar bis Juli 2026 ist abgeschlossen. Die Materi
 
 + Der Link zum Videomeeting wird per E-Mail an alle zugesendet.
 
-+ Bei den meisten Fortbildungen könnt Ihr ohne Anmeldung direkt teilnehmen.
++ Bei den meisten Fortbildungen kannst Du ohne Anmeldung direkt teilnehmen.
 
 + Zu Beginn jeder Fortbildung erfolgt ein Input, bei dem ich praxisnah eine Demonstration zu dem jeweiligen Thema durchführe.
 

@@ -1,20 +1,20 @@
 # Öffnen der Datenbanken mit DBeaver
 
 ### Installation von DBeaver
-Installieren Sie DBeaver, sofern das Programm noch nicht auf Ihrem Rechner installiert ist:
+Installiere DBeaver, sofern das Programm noch nicht auf Deinem Rechner installiert ist:
 https://dbeaver.io/download/
 
-Öffnen Sie das Programm anschließend.
+Öffne das Programm anschließend.
 
 
 ### Datenbankverbindung öffnen:
-1. Wählen Sie **Neue Verbindung anlegen** aus.       
+1. Wähle **Neue Verbindung anlegen** aus.       
  ![Neue Verbindung anlegen](./graphics/DBeaver_NeueVerbindung.png)
 
-2. Wählen Sie als Datenbank **MariaDB** aus.   
+2. Wähle als Datenbank **MariaDB** aus.   
 ![Auswahl von MariaDB](./graphics/DBeaver_MariaDB.png)
 
-3. Geben Sie **Port und Benutzerangaben** an. Diese Angaben wurden bei der SVWS-Serverinstallation festgelegt.   
+3. Gib **Port und Benutzerangaben** an. Diese Angaben wurden bei der SVWS-Serverinstallation festgelegt.   
 ![Verbindungsangaben](./graphics/DBeaver_Verbindungsparameter.png)
 
 4. Über die linke Leiste können einen Tabellen ausgewählt und gesichtet werden:   
