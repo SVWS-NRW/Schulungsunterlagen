@@ -12,7 +12,7 @@ Die bisherige Sammlung enthält Übungsstände von der Vorbereitung der EF-Planu
 | [GOSt_DB-4-KlausurplanungEF2.zip](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/GOSt-DB/GOSt_DB-4-KlausurplanungEF2.zip) | Datenbank 4 für die Klausurplanung in EF2. |
 | [GOSt_DB_1-3_SVWS-Fobi_2025.zip](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/GOSt-DB/GOSt_DB_1-3_SVWS-Fobi_2025.zip) | Sammlung der Datenbanken 1 bis 3 für die SVWS-Fortbildung 2025. |
 
-## Eigenschaften und Einsatzmöglichkeiten
+## Eigenschaften und Einsatzmöglichkeiten {#eigenschaften}
 
 ### GOSt_DB-1_VorbereitungEFPlanung
 #### Eigenschaften

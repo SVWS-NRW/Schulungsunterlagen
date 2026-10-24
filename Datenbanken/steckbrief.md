@@ -18,7 +18,7 @@ Ein gemeinsamer Steckbrief macht deutlich, wofür ein Datenstand geeignet ist un
 
 ## Beispiel aus dem vorhandenen Bestand
 
-Die [GOSt-Beschreibungen](./GOSt-DB_2026/#eigenschaften-und-einsatzmöglichkeiten) unterscheiden bereits zwischen Vorbereitung der EF-Planung, Laufbahnen zum Blocken, vorhandenen fehlerhaften Blockungen und Klausurplanung. Diese fachliche Zuordnung soll auch bei weiteren Datenbanken sichtbar werden.
+Die [GOSt-Beschreibungen](./GOSt-DB_2026/#eigenschaften) unterscheiden bereits zwischen Vorbereitung der EF-Planung, Laufbahnen zum Blocken, vorhandenen fehlerhaften Blockungen und Klausurplanung. Diese fachliche Zuordnung soll auch bei weiteren Datenbanken sichtbar werden.
 
 ## Weitere Testdatenbestände
 

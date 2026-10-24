@@ -13,7 +13,7 @@ Die GOSt-Datenbanken wurden auf den Stand 2026.2 angepasst. Die Laufbahnen des J
 
 Die [Planungsmatrix zu Fachkombinationen](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Datenbanken/GOSt-DB_2026/Planungsmatrix_ZKabQ2-Fachkombinationen.pdf) bezieht sich auf das Ziel, die Q1 mit 11 Schienen zu blocken.
 
-## Eigenschaften und Einsatzmöglichkeiten
+## Eigenschaften und Einsatzmöglichkeiten {#eigenschaften}
 
 ### GOSt_DB-1_VorbereitungEFPlanung
 #### Eigenschaften

@@ -36,7 +36,7 @@ const beforeGS = source('Datenbanken/Grundschule/index.md').split('## Datenbanke
   .split('## Dateien in dieser Sammlung')[0].trim().replace('Grundschludatenbank', 'Grundschuldatenbank')
 assert.ok(current('Datenbanken/Grundschule/index.md').includes(beforeGS), 'Grundschul-Eigenschaften unvollständig')
 const oldCardLink = './GOSt-DB_2026/GOSt_DB_Eigenschaften.md'
-assert.ok(current('Datenbanken/steckbrief.md').startsWith(source('Datenbanken/steckbrief.md').replace(oldCardLink, './GOSt-DB_2026/#eigenschaften-und-einsatzmöglichkeiten')))
+assert.ok(current('Datenbanken/steckbrief.md').startsWith(source('Datenbanken/steckbrief.md').replace(oldCardLink, './GOSt-DB_2026/#eigenschaften')))
 for (const sourceName of ['SVWS-TestSqlites', 'SVWS-TestMDBs']) assert.ok(current('Datenbanken/steckbrief.md').includes('https://github.com/SVWS-NRW/' + sourceName), 'Testdatenquelle verloren: ' + sourceName)
 const changedAssets = git('diff', '--diff-filter=MD', '--name-only', sourceRef, '--', 'Datenbanken/').trim().split('\n').filter(path => path && !path.endsWith('.md'))
 assert.deepEqual(changedAssets, [], 'Datenbankdateien oder Begleitmaterialien verändert')
