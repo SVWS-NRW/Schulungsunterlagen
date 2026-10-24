@@ -2,6 +2,7 @@ import { defineConfig, loadEnv } from 'vite';
 import type { DefaultTheme, UserConfig } from 'vitepress';
 import sidebar from '../sidebar';
 import taskLists from 'markdown-it-task-lists';
+import { configureHintBoxes, containerLabels } from './hint-boxes';
 
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, process.cwd(), '');
@@ -11,10 +12,12 @@ export default defineConfig(({ mode }) => {
         title: 'SVWS-Teamportal',
         description: 'Wissen, Schulungsmaterial und Austausch für Fachberatung und Moderation rund um SchILD-NRW und den SVWS-Server.',
         lastUpdated: true,
-        srcExclude: ['README.md', 'PORTAL-REDAKTION.md', 'markdown-examples.md', 'api-examples.md', '**/notes.md'],
+        srcExclude: ['README.md', 'PORTAL-REDAKTION.md', 'ARTIKELSTANDARD.md', 'markdown-examples.md', 'api-examples.md', '**/notes.md'],
         markdown: {
+            container: containerLabels,
             config(md) {
                 md.use(taskLists, { label: true });
+                configureHintBoxes(md);
             },
         },
         themeConfig: {
