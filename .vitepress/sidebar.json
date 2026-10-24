@@ -767,18 +767,8 @@
         "link": "/wissen/"
       },
       {
-        "text": "Nachschlagen & Links",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Wichtige Links",
-            "link": "/wissen/links"
-          },
-          {
-            "text": "Tipp der Woche: nach Datum",
-            "link": "/Tipp_der_Woche/"
-          }
-        ]
+        "text": "Wichtige Links",
+        "link": "/wissen/links"
       },
       {
         "text": "SchILD-Tipps",
@@ -924,6 +914,7 @@
   },
   "aliases": {
     "/schulungsmodule/GS/": "/schulungsmodule/",
-    "/schulungsmodule/gost/": "/schulungsmodule/"
+    "/schulungsmodule/gost/": "/schulungsmodule/",
+    "/Tipp_der_Woche/": "/wissen/"
   }
 }
