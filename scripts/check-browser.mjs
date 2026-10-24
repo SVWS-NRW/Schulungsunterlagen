@@ -205,7 +205,7 @@ try {
     }, scheme)
     for (const width of [390, 820, 1440]) {
       await page.setViewportSize({ width, height: 1000 })
-      for (const link of ['/schulungsmodule/', '/Fachberatung_Anleitungen/Test-_und_Schulungsserver/', '/beratung/', '/Datenbanken/', '/wissen/links', '/wissen/schild-tipps', '/wissen/svws-tipps']) {
+      for (const link of ['/schulungsmodule/', '/Fachberatung_Anleitungen/Test-_und_Schulungsserver/', '/beratung/', '/Datenbanken/', '/wissen/links', '/wissen/schild-tipps', '/wissen/svws-tipps', '/fortbildung/convention-2026']) {
         await visit(link)
         assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2), false, width + ': ' + link)
         await page.screenshot({ path: 'test-results/' + scheme + '-' + width + '-' + encodeURIComponent(link) + '.png', fullPage: true })
