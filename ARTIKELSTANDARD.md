@@ -97,7 +97,7 @@ Für Beispiele `::: example` verwenden; der Standardtitel ist „Beispiel“. Ei
 - Außer „Neu im Team“ beginnt das Hauptmenü jedes Bereichs mit „Übersicht“, die auf dessen Landing-Page führt.
 - Der Hauptblock trägt den Bereichsnamen. Unter Schulungen gibt es drei native VitePress-Hauptsektionen, die unabhängig voneinander auf- und zugeklappt werden. Nur das aktive Thema darin wird beim Seitenaufruf automatisch aufgeklappt.
 - „Weitere Bereiche“ zeigt die übrigen Bereiche in der Reihenfolge der Hauptnavigation. Unter Schulungen stehen „Schulungen“, „Schulungsumgebungen“ und „Weitere Bereiche“ als getrennte Hauptsektionen. Das Öffnen oder Schließen einer Sektion verändert die anderen nicht.
-- Hauptnavigation und Bereichswechsel werden gemeinsam aus `.vitepress/sidebar.json` unter `nav` erzeugt. „Neu im Team“ behält sein bisheriges Menü.
+- Hauptnavigation und Bereichswechsel werden gemeinsam aus `.vitepress/sidebar.json` unter `nav` erzeugt. „Neu im Team“ zeigt seine drei Einträge dauerhaft ohne Ausklapp-Marker; darunter steht „Weitere Bereiche“ als eingeklappter Block.
 - Historische Verzeichnisse ändern bei einer redaktionellen Verschiebung ihren Pfad nicht. Die Route der Schulungsumgebung gehört zu „Schulungen“; das vollständige Modul „Umstieg zu SchILD-NRW 3“ gehört ebenfalls zu „Schulungen“.
 
 ### Landingpages und Emoji-Kürzel

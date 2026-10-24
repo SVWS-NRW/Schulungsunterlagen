@@ -38,6 +38,13 @@ const fontStyle = async selector => page.locator(selector).first().evaluate(node
   return { size: css.fontSize, weight: css.fontWeight, family: css.fontFamily, lineHeight: css.lineHeight }
 })
 try {
+  await visit('/neu-im-team/')
+  assert.equal(await roots().first().locator(':scope > .item .caret').count(), 0)
+  assert.equal(await roots().last().locator(':scope > .item .text').innerText(), 'Weitere Bereiche')
+  assert.deepEqual(await collapsed(), [false, true])
+  await toggleRoot(1)
+  assert.deepEqual(await collapsed(), [false, false])
+  assert.equal(await roots().first().locator('a:visible').count(), 3)
   await visit('/beratung/')
   const referenceRoot = await fontStyle('#VPSidebarNav .VPSidebarItem.level-0 > .item .text')
   const referenceTopic = await fontStyle('#VPSidebarNav .VPSidebarItem.level-1 > .item .text')
@@ -70,9 +77,10 @@ try {
     await visit(key.replace(/index\.md$/, '').replace(/\.md$/, '.html'))
     const { section, topic } = topicFor(nav, key)
     const level = section === 'team' ? 0 : 1
-    const topicCount = section === 'schulungen' && topic?.text === 'Schulungsumgebungen' ? 0 : topic?.items?.length ? 1 : 0
+    const topicCount = section === 'team' ? 0 : section === 'schulungen' && topic?.text === 'Schulungsumgebungen' ? 0 : topic?.items?.length ? 1 : 0
     assert.equal(await page.locator('#VPSidebarNav .VPSidebarItem.level-' + level + '.collapsible:not(.collapsed)').count(), topicCount, key)
-    if (section !== 'team') {
+    {
+      if (section === 'team') assert.equal(await roots().first().locator(':scope > .item .caret').count(), 0)
       const root = roots()
       assert.equal(await root.first().locator(':scope > .item .text').innerText(), nav.sectionLabels[section])
       const others = root.last()
@@ -125,6 +133,13 @@ try {
         await page.locator('.VPLocalNav button.menu').click()
         await assertIndependent()
         await page.screenshot({ path: 'test-results/' + scheme + '-mobile-sidebar.png', fullPage: true })
+        await visit('/neu-im-team/')
+        await page.locator('.VPLocalNav button.menu').click()
+        assert.equal(await roots().first().locator(':scope > .item .caret').count(), 0)
+        await toggleRoot(1)
+        assert.deepEqual(await collapsed(), [false, false])
+        assert.equal(await roots().first().locator('a:visible').count(), 3)
+        await page.screenshot({ path: 'test-results/' + scheme + '-mobile-neu-im-team.png', fullPage: true })
       }
     }
   }

@@ -46,12 +46,14 @@ export function sidebarFor(navigation, url) {
     ...group,
     ...(group.items?.length ? { collapsed: group !== active } : {})
   }))
-  if (section === 'team') return topics
   const others = {
     text: 'Weitere Bereiche', collapsed: true,
     items: navigation.nav.filter(item => sectionFor(navigation, item.link) !== section)
       .map(({ text, link }) => ({ text, link }))
   }
+  if (section === 'team') return [
+    ...topics.map(({ collapsed, ...group }) => group), others
+  ]
   if (section !== 'schulungen') return [
     { text: navigation.sectionLabels[section], items: topics }, others
   ]

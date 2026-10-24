@@ -62,20 +62,26 @@ test('school sidebar has exactly the three requested collapsible sections', () =
 test('other areas follow the top navigation in every section', () => {
   for (const entry of nav.nav) {
     const section = sectionFor(nav, entry.link)
-    if (section === 'team') continue
     const groups = sidebarFor(nav, entry.link)
     assert.deepEqual(groups.at(-1).items, nav.nav.filter(item => item.link !== entry.link).map(({ text, link }) => ({ text, link })))
     assert.equal(groups.at(-1).collapsed, true)
   }
 })
-test('onboarding keeps its existing sidebar', () => {
-  assert.deepEqual(sidebar['/neu-im-team/index.md'], [{
-    text: 'Neu im Team', collapsed: false, items: [
-      { text: 'Erste Schritte', link: '/neu-im-team/' },
-      { text: 'Kommunikation', link: '/neu-im-team/kommunikation' },
-      { text: 'Zusammenarbeit', link: '/neu-im-team/rollen' }
-    ]
-  }])
+test('onboarding stays permanently expanded and offers all other areas', () => {
+  const expected = [
+    { text: 'Erste Schritte', link: '/neu-im-team/' },
+    { text: 'Kommunikation', link: '/neu-im-team/kommunikation' },
+    { text: 'Zusammenarbeit', link: '/neu-im-team/rollen' }
+  ]
+  for (const item of expected) {
+    const groups = sidebarFor(nav, item.link)
+    assert.equal(groups[0].text, 'Neu im Team')
+    assert.equal(groups[0].collapsed, undefined)
+    assert.deepEqual(groups[0].items, expected)
+    assert.equal(groups[1].text, 'Weitere Bereiche')
+    assert.equal(groups[1].collapsed, true)
+    assert.deepEqual(groups[1].items, nav.nav.filter(entry => entry.link !== '/neu-im-team/').map(({ text, link }) => ({ text, link })))
+  }
 })
 test('old overview URLs retain their exact sidebar', () => {
   for (const url of Object.keys(nav.aliases)) {
