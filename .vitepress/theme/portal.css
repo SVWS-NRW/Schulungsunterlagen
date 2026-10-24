@@ -48,3 +48,41 @@
   opacity: 1;
   accent-color: var(--vp-c-brand-1);
 }
+
+
+/* Consistent article spacing with the SchILD-NRW 3 documentation. */
+@media (min-width: 960px) {
+  .Layout .VPDoc.has-sidebar { padding-left: 24px; padding-right: 24px; }
+  .Layout .VPDoc.has-sidebar > .container > .content {
+    min-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (min-width: 1280px) {
+  .Layout .VPDoc.has-aside .aside { flex: 0 0 224px; max-width: 224px; padding-left: 24px; }
+  .Layout .VPDoc.has-aside .aside-container,
+  .Layout .VPDoc.has-aside .aside-curtain { width: 200px; }
+}
+.vp-doc figcaption,
+.vp-doc p:has(> img) + p > em:only-child {
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+}
+.vp-doc pre,
+.vp-doc iframe { max-width: 100%; }
+.vp-doc iframe[src*="youtube.com"],
+.vp-doc iframe[src*="youtube-nocookie.com"],
+.vp-doc iframe[src*="vimeo.com"] {
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+/* Use the standard VitePress menu drawer when all six navigation tabs do
+   not comfortably fit alongside the header controls. */
+@media (min-width: 768px) and (max-width: 1240px) {
+  .VPNav .VPNavBar .VPNavBarMenu { display: none; }
+  .VPNav .VPNavBar .VPNavBarHamburger { display: flex; }
+  .VPNav .VPNavScreen.VPNavScreen { display: block; }
+}
