@@ -50,6 +50,13 @@ for (const [prefix, section] of routes) {
 for (const required of ['team', 'schulungen', 'testdaten', 'beratung', 'fortbildung', 'wissen']) {
   if (!sections[required]) errors.push(`Fehlender Navigationsbereich: ${required}`)
 }
+// Generated section wrappers add one shared heading, not another topic level.
+for (const item of nav.nav ?? []) {
+  if (!pageExists(item.link)) errors.push('Fehlende Bereichsübersicht: ' + item.link)
+}
+for (const [alias, target] of Object.entries(nav.aliases ?? {})) {
+  if (!pageExists(alias) || !pageExists(target)) errors.push('Ungültige Bestandsübersicht: ' + alias)
+}
 console.log(`Navigation: ${Object.keys(sections).length} Bereiche, ${routes.length} Routen, ${found.size} verlinkte Seiten.`)
 console.log(`Bereichsübergreifend verlinkte Seiten: ${shared.size} (zulässig).`)
 console.log('Paketdefinition und Lockfile: geprüft.')

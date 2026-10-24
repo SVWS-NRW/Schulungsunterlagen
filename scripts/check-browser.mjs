@@ -1,7 +1,7 @@
 import { chromium } from 'playwright'
 import assert from 'node:assert/strict'
 import { mkdirSync, readFileSync } from 'node:fs'
-import { clean, createSidebar, footerFor, topicFor } from '../.vitepress/navigation.mjs'
+import { clean, createSidebar, footerFor, topicFor, sectionFor } from '../.vitepress/navigation.mjs'
 const nav = JSON.parse(readFileSync('.vitepress/sidebar.json', 'utf8'))
 const menus = createSidebar(nav)
 const origin = process.env.PREVIEW_URL ?? 'http://127.0.0.1:4173'
@@ -22,9 +22,20 @@ try {
   for (const key of keys) {
     const link = key.replace(/index\.md$/, '').replace(/\.md$/, '.html')
     await visit(link)
-    const { topic } = topicFor(nav, key)
-    const expanded = await page.locator('#VPSidebarNav .VPSidebarItem.level-0.collapsible:not(.collapsed)').count()
+    const { section, topic } = topicFor(nav, key)
+    const level = section === 'team' ? 0 : 1
+    const expanded = await page.locator('#VPSidebarNav .VPSidebarItem.level-' + level + '.collapsible:not(.collapsed)').count()
     assert.equal(expanded, topic?.items?.length ? 1 : 0, key + ': offener Themenzweig')
+    if (section !== 'team') {
+      const main = page.locator('#VPSidebarNav .VPSidebarItem.level-0').first()
+      assert.equal(await main.locator(':scope > .item .text').innerText(), nav.sectionLabels[section])
+      assert.equal(await main.locator('.VPSidebarItem.level-1 > .item .text').first().innerText(), 'Übersicht')
+      const others = page.locator('#VPSidebarNav .VPSidebarItem.level-0').nth(1)
+      assert.equal(await others.locator(':scope > .item .text').innerText(), 'Weitere Bereiche')
+      assert.ok((await others.getAttribute('class')).includes('collapsed'))
+      const labels = await others.locator('a .text').allTextContents()
+      assert.deepEqual(labels, nav.nav.filter(item => sectionFor(nav, item.link) !== section).map(item => item.text))
+    }
     const footer = footerFor(nav, key)
     for (const side of ['prev', 'next']) {
       const locator = page.locator('.VPDocFooter a.' + side)
@@ -43,7 +54,7 @@ try {
   await page.waitForURL('**/1_Unterrichtsfaecher.html')
   await page.goBack({ waitUntil: 'networkidle' })
   assert.ok(decodeURI(page.url()).includes('1. allgemeine Vorlagen'))
-  assert.equal(await page.locator('#VPSidebarNav .VPSidebarItem.level-0.collapsible:not(.collapsed)').count(), 1)
+  assert.equal(await page.locator('#VPSidebarNav .VPSidebarItem.level-1.collapsible:not(.collapsed)').count(), 1)
   await visit('/')
   await page.getByRole('button', { name: 'Dokumentation durchsuchen' }).click()
   const search = page.locator('input[type="search"]')
@@ -56,7 +67,7 @@ try {
   await page.screenshot({ path: 'test-results/startseite-dunkel.png', fullPage: true })
   for (const width of [390, 820, 1440]) {
     await page.setViewportSize({ width, height: 1000 })
-    for (const link of ['/', '/beratung/', '/fortbildung/', first + '.html']) {
+    for (const link of ['/', '/schulungsmodule/', '/beratung/', '/fortbildung/', first + '.html']) {
       await visit(link)
       const overflow = await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2)
       assert.equal(overflow, false, width + ': Überbreite auf ' + link)

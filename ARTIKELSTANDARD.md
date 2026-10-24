@@ -84,10 +84,18 @@ Für Beispiele `::: example` verwenden; der Standardtitel ist „Beispiel“. Ei
 
 ## Navigation: Bereich → Thema → Artikel
 
-- Die sechs Bereiche stehen in der Hauptnavigation. Innerhalb des Bereichs zeigt die Sidebar Themen und direkt darunter Artikel: höchstens zwei Sidebar-Ebenen.
+- Die sechs Bereiche stehen in der Hauptnavigation. Die Sidebar fasst die gleichberechtigten Themen unter einer offenen Bereichsüberschrift zusammen; direkt unter den Themen stehen die Artikel. Darunter folgen keine weiteren Artikel-Ebenen.
 - Unterthemen mit eigener Aufgabenreihe werden zu eigenständigen Themen, beispielsweise „Oberstufe: Klausurplanung“. Keine zusätzlichen aufklappbaren Ebenen unter einem Artikel.
 - Menütitel sind Klartext, höchstens 48 Zeichen lang. Keine Markdown-Links, Dateinamen mit Unterstrichen oder ausgeschriebenen URLs. Die Langtitel im Artikel bleiben möglich.
 - Bestehende Artikelpfade bleiben erhalten. Die längste passende Route in `.vitepress/sidebar.json` legt den verantwortlichen Bereich fest, auch bei historischen Verzeichnisnamen.
 - Nur das aktuelle Thema wird automatisch geöffnet. Andere Themen bleiben manuell aufklappbar; ein Themenwechsel setzt die Auswahl zurück.
 - Vorheriges/Nächstes Thema folgt der redaktionellen Reihenfolge innerhalb des aktuellen Themas, einschließlich seiner Übersicht. An der Themengrenze endet die Folge. Sprungmarken und Verweise in andere Bereiche sind keine zusätzlichen Leseschritte.
 - Ergänze Artikel und Reihenfolge in `.vitepress/sidebar.json`; Sidebar und Seitenfuß nutzen gemeinsam `.vitepress/navigation.mjs`.
+
+### Bereichsübersicht und Wechsel zwischen Bereichen
+
+- Außer „Neu im Team“ beginnt das Hauptmenü jedes Bereichs mit „Übersicht“, die auf dessen Landing-Page führt.
+- Der Hauptblock trägt den Bereichsnamen und bleibt geöffnet. Nur das aktive Thema darin wird automatisch aufgeklappt.
+- „Weitere Bereiche“ steht als separater eingeklappter Block darunter und zeigt die übrigen Bereiche in der Reihenfolge der Hauptnavigation.
+- Hauptnavigation und Bereichswechsel werden gemeinsam aus `.vitepress/sidebar.json` unter `nav` erzeugt. „Neu im Team“ behält sein bisheriges Menü.
+- Historische Verzeichnisse ändern bei einer redaktionellen Verschiebung ihren Pfad nicht. Die Route der Schulungsumgebung gehört zu „Schulungen“; der Umstiegsvergleich bleibt „Beratung“ zugeordnet.
