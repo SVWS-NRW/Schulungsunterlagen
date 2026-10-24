@@ -24,10 +24,10 @@ features:
     details: Aufgaben und Moderationsmaterial für Grundschule, Sekundarstufe I, Oberstufe und Berufskolleg.
     link: /schulungsmodule/
     linkText: Module auswählen
-  - title: Testdaten & Umgebungen
-    details: Testdatenbanken einbinden und schwierige Fälle in einer lokalen Analyseumgebung nachvollziehen.
+  - title: Testdaten
+    details: Schulungsdatenbanken nach Schulform und Einsatzbereich auswählen.
     link: /Datenbanken/
-    linkText: Test- und Analyseplatz aufbauen
+    linkText: Datenbanken auswählen
   - title: Beratung & Umstieg
     details: Änderungen beim Wechsel zu SchILD-NRW 3 verstehen und typische Beratungsfälle gezielt bearbeiten.
     link: /beratung/

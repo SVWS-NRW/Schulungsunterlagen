@@ -1,3 +1,5 @@
+> Aktualisierung Testdaten 24.10.2026: Die Datenbankübersicht verwendet eine menügeführte Tabelle. Die GOSt-Eigenschaften sind in die jeweiligen Downloadartikel integriert; der Berufskolleg-Platzhalter ohne Datenbankdownload ist entfernt. Sekundarstufe I und Berufskolleg bleiben vorerst Menüeinträge ohne Artikel. Lokale Analyse und Offline-Installation gehören nun zu Beratung. Das historische Inventar unten dokumentiert den früheren Bestand.
+
 > Fortschreibung 24.10.2026: Die historischen Prüfprotokolle unten beschreiben frühere Zwischenstände. Für die aktuelle Navigation Bereich → Thema → Artikel, aktive Zweige und themenbezogene Vor/Zurück-Verweise gelten [ARTIKELSTANDARD.md](./ARTIKELSTANDARD.md) und [HARMONISIERUNG.md](./HARMONISIERUNG.md).
 
 # Redaktion & Bestandszuordnung

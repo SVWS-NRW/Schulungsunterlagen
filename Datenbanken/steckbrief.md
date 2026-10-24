@@ -18,4 +18,14 @@ Ein gemeinsamer Steckbrief macht deutlich, wofür ein Datenstand geeignet ist un
 
 ## Beispiel aus dem vorhandenen Bestand
 
-Die [GOSt-Beschreibungen](./GOSt-DB_2026/GOSt_DB_Eigenschaften.md) unterscheiden bereits zwischen Vorbereitung der EF-Planung, Laufbahnen zum Blocken, vorhandenen fehlerhaften Blockungen und Klausurplanung. Diese fachliche Zuordnung soll auch bei weiteren Datenbanken sichtbar werden.
+Die [GOSt-Beschreibungen](./GOSt-DB_2026/#eigenschaften) unterscheiden bereits zwischen Vorbereitung der EF-Planung, Laufbahnen zum Blocken, vorhandenen fehlerhaften Blockungen und Klausurplanung. Diese fachliche Zuordnung soll auch bei weiteren Datenbanken sichtbar werden.
+
+## Weitere Testdatenbestände
+
+### SQLite-Testdaten
+
+Eine kleine Auswahl an Testdatenbanken findest Du unter dem Github-Repository [SVWS-TestSqlites](https://github.com/SVWS-NRW/SVWS-TestSqlites)
+
+### MDB-Testdaten
+
+Eine große Auswahl an Testdatenbanken findest Du unter dem Github-Repository [SVWS-TestMDBs](https://github.com/SVWS-NRW/SVWS-TestMDBs). Es handelt sich hierbei um einen Fundus von Entwicklerdatenbanken. Hier sind oft sehr spezielle Konstellationen zur Prüfung individueller Einstellungen vorgesehen und eigenen sich nicht unbedingt für ein realistisches Abbild des Schulalltags.
