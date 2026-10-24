@@ -19,7 +19,7 @@
 ### 13.8 [Sonstiges](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einf%C3%BChrung_in_SchILD-NRW)#Sonstiges)  
 
 **Aufgabe**:  
-Geben Sie für einige Schülerdatensätze die Noten ein und weisen Sie einige Zeugnisbemerkungen zu. Setzen Sie ein Konferenz- und Zeugnisdatum.
+Gib für einige Schülerdatensätze die Noten ein und weise einige Zeugnisbemerkungen zu. Setze ein Konferenz- und Zeugnisdatum.
 
 
 <DownloadPdf />

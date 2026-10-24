@@ -1,7 +1,7 @@
 # Schild-NRW3 - Layout
 
 ## Öffnen von SchILD-NRW3 
-Wie gewohnt starten Sie SchILD mit einem Doppelklick auf das Programmsymbol. Beim Start landet man automatisch im Reiter Schüler:
+Wie gewohnt starte SchILD mit einem Doppelklick auf das Programmsymbol. Beim Start landet man automatisch im Reiter Schüler:
 
 ![Hauptreiter SchILD3](./graphics/vonS2nachS3_uebersicht_schild3.png)  
 
@@ -15,12 +15,12 @@ Beim genauen Betrachten stellt man schnell fest, dass vieles gleich geblieben is
 Ein Tab "Vermerke" ist dazugekommen. Da kommen wir aber später nochmal zu.
 
 ### Aufgaben
-* Filtern Sie die Klasse 6a.
-* Heben Sie den Filter auf und filtern Sie den Jahrgang 7
-* Klicken Sie den Schülerreiter für einen Schüler einmal durch, um mit der Oberfläche vertraut zu werden. 
-* Ändern Sie bei einem Schüler die Mailadresse. Beachten Sie den unten stehenden Hinweis.
-* Ändern Sie die Übergangsempfehlung eines Kindes aus der 5a.
-* Tragen Sie bei einem Schüler einen Vermerk "Beurlaubt am 17.3.24" ein.
+* Filtere die Klasse 6a.
+* Hebe den Filter auf und filtere den Jahrgang 7
+* Klicke den Schülerreiter für einen Schüler einmal durch, um mit der Oberfläche vertraut zu werden. 
+* Ändere bei einem Schüler die Mailadresse. Beachte den unten stehenden Hinweis.
+* Ändere die Übergangsempfehlung eines Kindes aus der 5a.
+* Trage bei einem Schüler einen Vermerk "Beurlaubt am 17.3.24" ein.
 * Bei einem Schüler aus der 7b wurde vergessen, den Migrationshintergrund einzutragen. Er wurde zwar in Deutschland geboren, aber seine Mutter kommt aus Ghana.
 
 Weitere Arbeitsprozesse wie beispielsweise Filtern, Gruppenprozesse, Listenausdrucke oder wichtige Importe/Exporte folgen später.

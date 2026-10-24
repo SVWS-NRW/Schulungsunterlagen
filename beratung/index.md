@@ -41,4 +41,4 @@ Fachberaterinnen und Fachberater helfen auch Schulen mit selbst betriebener Serv
 - Annes Beiträge zu typischen Problemen sind über die [Tipps der Woche](/Tipp_der_Woche/) und die [thematische Sammlung](./probleme.md) erreichbar.
 - Für vertiefte Untersuchungen gibt es [technische Anleitungen](/Fachberatung_Anleitungen/) und [Fallbeispiele zu Supportanfragen](/Fachberatung_Fortbildungen/Wissenswert/).
 
-Die vorhandenen Schulungsunterlagen bleiben als Bestand zugänglich. Ihre fachliche Überarbeitung liegt bei den Moderatorinnen und Moderatoren.
+Die vorhandenen Schulungsunterlagen bleiben als Bestand zugänglich. Deine fachliche Überarbeitung liegt bei den Moderatorinnen und Moderatoren.

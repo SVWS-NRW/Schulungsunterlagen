@@ -2,9 +2,9 @@
 
 ## SVWS Schulungsumgebung
 
-Zu einer Schulung ohne SchILD-NRW 3 sind die grundlegenden Anforderungen niedrig: Sie benötigen einen Rechner mit Browser und eine Anzahl von SVWS-Servern, die auch online bereit gestellt werden können.
+Zu einer Schulung ohne SchILD-NRW 3 sind die grundlegenden Anforderungen niedrig: Du benötigst einen Rechner mit Browser und eine Anzahl von SVWS-Servern, die auch online bereit gestellt werden können.
 
-Eine Schulung mit SchILD-NRW 2, SchILD-NRW 3 oder ASDPC32 kann online nur mit höherem Aufwand erfolgen: Sie benötigen entweder einen Windowsrechner oder eine Windows KVM im Schulungsnetz, die per VPN oder Guacamole erreichbar ist.
+Eine Schulung mit SchILD-NRW 2, SchILD-NRW 3 oder ASDPC32 kann online nur mit höherem Aufwand erfolgen: Du benötigst entweder einen Windowsrechner oder eine Windows KVM im Schulungsnetz, die per VPN oder Guacamole erreichbar ist.
 
 
 ## Aufsetzen des Proxmox-Servers
@@ -15,11 +15,11 @@ Hier gibt es zwei grundlegende Ansätze: per ISO oder über eine Erweiterung ein
 
 Download der aktuellen Proxmox VE z.B. unter https://www.proxmox.com/de/downloads/proxmox-virtual-environment/iso
 
-Setzen Sie einen Ventoy Bootstick auf und legen Sie die `.iso` in das Hauptverzeichnis des Bootsticks.
+Setze einen Ventoy Bootstick auf und lege die `.iso` in das Hauptverzeichnis des Bootsticks.
 
 Alternativ kann auch https://etcher.balena.io/ als Bootstick verwendet werden.
 
-Booten Sie von dem Stick und folgen sie dem Installationsdialog.
+Boote von dem Stick und folge dem Installationsdialog.
 
 ### Installation auf der privaten Cloud
 

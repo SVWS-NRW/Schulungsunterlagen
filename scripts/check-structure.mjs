@@ -37,6 +37,9 @@ function walk(items, section, trail = []) {
       if (prev && prev !== section) shared.add(key)
       found.set(key, section)
     }
+    if (item.text?.length > 48 || ['[', '**', 'http:', 'https:', '_'].some(mark => item.text?.includes(mark))) errors.push(`Ungeeigneter Menütext: ${item.text}`)
+    if (trail.length > 1) errors.push(`Zu tiefe Menüstruktur: ${[section, ...trail, item.text].join(' > ')}`)
+    if (item.items?.length && trail.length > 0) errors.push(`Artikel darf keine Unterartikel enthalten: ${item.text}`)
     if (item.items) walk(item.items, section, [...trail, item.text])
   }
 }

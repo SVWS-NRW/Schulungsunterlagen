@@ -16,9 +16,9 @@ Die Leistungsdatenverwaltung bzgl. der Teilleistungen erfolgt derzeit noch in Sc
   
 **Aufgaben 1.7.1 "Teilleistungen"**:
 
-+ definieren Sie die Teilleistungsarten (TL) SoMi1, SoMi2, KL1, KL2  
-+ weisen Sie die TL einigen Fächern der Oberstufe mit den Kursarten der Oberstufe GKM, GKS, LK1, LK2, AB3, AB4, ggf. PJK zu.
-+ Weisen Sie per Gruppenprozess Ihrer Jahrgangsstufe die Teilleistungsdaten aus der erstellten Vorlage zu.
++ definiere die Teilleistungsarten (TL) SoMi1, SoMi2, KL1, KL2  
++ weise die TL einigen Fächern der Oberstufe mit den Kursarten der Oberstufe GKM, GKS, LK1, LK2, AB3, AB4, ggf. PJK zu.
++ Weise per Gruppenprozess Deiner Jahrgangsstufe die Teilleistungsdaten aus der erstellten Vorlage zu.
 
 **Aufgaben 1.7.2 "Noten aufnehmen in SchILD3 oder im SVWS-Client":**  
 
@@ -29,23 +29,23 @@ Die Leistungsdatenverwaltung bzgl. der Teilleistungen erfolgt derzeit noch in Sc
 > [!Hinweis] Der gesamte Prozess der **Leistungsdatenerfassung wird an anderer Stelle geschult und beschrieben**.  
   
 **Aufgaben 1.7.3 "Zeugnisse vorbereiten"**:
-Setzen Sie in SchILD per Gruppenprozess
+Setze in SchILD per Gruppenprozess
 
 + Fächer ohne Noten suchen
 + Konferenzdatum setzen
 + Zeugnisdatum setzen
 + Fehlstundensummen autom. berechnen (wenn Fehlstunde fachweise erfasst werden)
-+ ((Mahnungen automatisch setzen)) - für den im Produktivbetrieb durchgeführten Mahnungsprozess konsultieren Sie bitte das Wiki von SchILD-NRW 3
++ ((Mahnungen automatisch setzen)) - für den im Produktivbetrieb durchgeführten Mahnungsprozess konsultiere bitte das Wiki von SchILD-NRW 3
 + Zeugnisbemerkungen eintragen
 
 **Aufgaben 1.7.4 "Zeugniskonferenzvorlage per Report**
 
-+ Drucken Sie eine Konferenzvorlage Ihrer Stufe.
++ Drucke eine Konferenzvorlage Deiner Stufe.
 
-Sie finden die Basisreportsammlung auf svws.nrw.de
+Du findest die Basisreportsammlung auf svws.nrw.de
 
 **Aufgaben 1.7.5 "Zeugnisse drucken:**
 
-+ Drucken Sie über die Reportverwaltung Zeugnisse für Ihre Stufe.
-+ Setzen Sie die Einstellungen in der ini-Datei entsprechend
-+ Beachten Sie die Wikiartikel zum Zeugnisdruck, Versetzung, Fehlern usw: [Wiki zum Zeugnisdruck](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=SchILD-NRW_3#Versetzung,_Abschlüsse_und_Zeugnisdruck)
++ Drucke über die Reportverwaltung Zeugnisse für Deine Stufe.
++ Setze die Einstellungen in der ini-Datei entsprechend
++ Beachte die Wikiartikel zum Zeugnisdruck, Versetzung, Fehlern usw: [Wiki zum Zeugnisdruck](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=SchILD-NRW_3#Versetzung,_Abschlüsse_und_Zeugnisdruck)

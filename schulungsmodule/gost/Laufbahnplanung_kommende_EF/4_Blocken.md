@@ -6,14 +6,14 @@
 + und welche anderen Rahmenbedingungen sind zu beachten?
 + Diese Blockung ist die Grundlage für den späteren Stundenplan.
 
-Nach den Wahlen ist zu sichten, ob und welche Kurse eingerichtet werden können. Dieses erfolgt im Normalfall mit Stundenplanern und Schulleitung. Legen Sie auf Basis der vorliegenden Fachwahlen das Kursangebot fest.  
-Berücksichtigen Sie ggf. mögliche Kooperationen.
+Nach den Wahlen ist zu sichten, ob und welche Kurse eingerichtet werden können. Dieses erfolgt im Normalfall mit Stundenplanern und Schulleitung. Lege auf Basis der vorliegenden Fachwahlen das Kursangebot fest.  
+Berücksichtige ggf. mögliche Kooperationen.
 
 **Hinweis**:  
 
-+ Prüfen Sie im Falle, dass in einem Fach kein Kurs eingerichtet wird, ob ein Eingreifen in Schülerlaufbahnen notwendig ist (Umwahlen).
-+ Prüfen Sie auch die Fachwahlen der Q2. Ist vorhersehbar, dass bestimmte Kurse in Q2 kaum noch eingerichtet werden können und sind daher Laufbahnen anzupassen?
-+ Achten Sie an dieser Stelle darauf, dass alle Schüler eine korrekte Laufbahn von der EF bis zum Abitur haben, nicht nur, dass die EF-Wahlen okay sind!
++ Prüfe im Falle, dass in einem Fach kein Kurs eingerichtet wird, ob ein Eingreifen in Schülerlaufbahnen notwendig ist (Umwahlen).
++ Prüfe auch die Fachwahlen der Q2. Ist vorhersehbar, dass bestimmte Kurse in Q2 kaum noch eingerichtet werden können und sind daher Laufbahnen anzupassen?
++ Achte an dieser Stelle darauf, dass alle Schüler eine korrekte Laufbahn von der EF bis zum Abitur haben, nicht nur, dass die EF-Wahlen okay sind!
 + Mit dem Link-Symbol kann direkt zu den SuS gesprungen werden (der Lernabschnitt rechts lässt sich aufklappen).
 + Ganz rechts finden sich Links direkt zur *Laufbahnplanung* und *Sprachenfolge*.
 
@@ -22,9 +22,9 @@ Nachdem alle Wahlen korrekt & kontrolliert sind, kann eine **Blockung** geplant 
 **Aufgaben 1.4.1 "blocken"**
 
 + **App Oberstufe -> Tab Kursplanung, dann den passenden Jahrgang wählen**.
-+ Legen Sie eine **neue Blockung** mit dem **+** an und berechnen Sie einfach mal ganz naiv eine Blockung.
-+ Lassen Sie die Berechnung laufen, sie wird über die Zeit immer besser. Klicken Sie dann irgendwann auf "Pausieren", um mit den bislang berechneten Blockungen weiterzuarbeiten.
-+ Wählen Sie die besten zwei, drei Blockungen aus, um sich diese einmal konkret anzusehen. (Exportieren)
++ Lege eine **neue Blockung** mit dem **+** an und berechne einfach mal ganz naiv eine Blockung.
++ Lass die Berechnung laufen, sie wird über die Zeit immer besser. Klicke dann irgendwann auf "Pausieren", um mit den bislang berechneten Blockungen weiterzuarbeiten.
++ Wähle die besten zwei, drei Blockungen aus, um Dir diese einmal konkret anzusehen. (Exportieren)
 
 **Hinweis**:
 
@@ -49,32 +49,32 @@ Nachdem alle Wahlen korrekt & kontrolliert sind, kann eine **Blockung** geplant 
 
 **Aufgaben 1.4.2 "Kerngruppen-Kurse zuweisen"**  
 
-+ Schieben Sie D GK1 in die erste Schiene, D GK2 in die zweite und D GK3 in die dritte. Entfernen Sie bei Bedarf  die 4er Kurse, schauen Sie hier auf die Zahl der Wahlen.
-+ Dann weisen Sie die 2er und 3er Kurse so den Schienen zu, dass sie sich immer abwechseln und keine Gruppe parallel liegt.
-+ Fixieren Sie die ersten drei Schienen. Ziehen Sie mit der Maus einen Rahmen um die ganzen Schienen und fixieren Sie mit der Pinnnadel.
++ Schiebe D GK1 in die erste Schiene, D GK2 in die zweite und D GK3 in die dritte. Entferne bei Bedarf  die 4er Kurse, schaue hier auf die Zahl der Wahlen.
++ Dann weise die 2er und 3er Kurse so den Schienen zu, dass sie sich immer abwechseln und keine Gruppe parallel liegt.
++ Fixiere die ersten drei Schienen. Ziehe mit der Maus einen Rahmen um die ganzen Schienen und fixiere mit der Pinnnadel.
 
 :information_source: [Infos zu den Grundeinstellungen einer Blockung](https://doku.svws-nrw.de/svws-client/apps/gost/kursplanung/#erstellen-einer-neuen-blockung)
 
 **Aufgaben 1.4.3 "Sportkurse zuweisen"**  
-Überlegen Sie beispielsweise, wie eine Verteilung/Einrichtung von Sportkursen eingerichtet werden kann. Haben Sie etwa nur zwei Turnhallen, können ja keine drei Sportkurse in der gleichen Schiene liegen.  
-Andere zu Ihrer Schule passende Beispiele sind denkbar.
+Überlege beispielsweise, wie eine Verteilung/Einrichtung von Sportkursen eingerichtet werden kann. Hast Du etwa nur zwei Turnhallen, können ja keine drei Sportkurse in der gleichen Schiene liegen.  
+Andere zu Deiner Schule passende Beispiele sind denkbar.
 
 :information_source: [Infos zu den Grundeinstellungen einer Blockung](https://doku.svws-nrw.de/svws-client/apps/gost/kursplanung/#erstellen-einer-neuen-blockung)
 
 **Aufgaben 1.4.4 "Koop Kurse"**  
-Erzeugen Sie zwei I0-Kurse, einen in Koop (externe S kommen zu Ihnen) und weisen Sie schon einmal 8 "Externe Schüler" zu. Dann ziehen Sie den externen Kurs in eine Schiene - in der Regel ist diese mit den Koop-Schulen abgesprochen - und fixieren Sie den Kurs mit der Pinnnadel.
+Erzeuge zwei I0-Kurse, einen in Koop (externe S kommen zu Dir) und weise schon einmal 8 "Externe Schüler" zu. Dann ziehe den externen Kurs in eine Schiene - in der Regel ist diese mit den Koop-Schulen abgesprochen - und fixiere den Kurs mit der Pinnnadel.
 
 :information_source: [Infos zu den Grundeinstellungen einer Blockung](https://doku.svws-nrw.de/svws-client/apps/gost/kursplanung/#erstellen-einer-neuen-blockung)
 
 **Aufgaben 1.4.5 "Blocken mit Vorgaben"**  
 
-+ Blocken Sie und wählen Sie dann nach einer angemessenen Wartezeit eine ID in der Blockung aus.
-+ Schalten Sie diese ID auf "aktiv" (Haken rechts neben dem ID-Eintrag)
-+ Benennen Sie diese Berechnung um, idealerweise "Datum_version", also "2027_02_13_v1".
++ Blocke und wähle dann nach einer angemessenen Wartezeit eine ID in der Blockung aus.
++ Schalte diese ID auf "aktiv" (Haken rechts neben dem ID-Eintrag)
++ Benenne diese Berechnung um, idealerweise "Datum_version", also "2027_02_13_v1".
 
 **Hinweis**:
 
-+ Benennen Sie Ihre Arbeits-Berechnungen nicht "Neu", "Noch mal neu" und "Besser" und "Noch besser".* "Aktiv" bedeutet, dass man bei Vor- und Zurück und über die Verwendung der Sprungicons bei den Schülern in die "aktive ID" springt und nicht irgendwo in eine andere und dann auf der falschen ID-Berechnung weiterarbeitet.
++ Benenne Deine Arbeits-Berechnungen nicht "Neu", "Noch mal neu" und "Besser" und "Noch besser".* "Aktiv" bedeutet, dass man bei Vor- und Zurück und über die Verwendung der Sprungicons bei den Schülern in die "aktive ID" springt und nicht irgendwo in eine andere und dann auf der falschen ID-Berechnung weiterarbeitet.
 + Bei der Anzahl der Kurse, Kopplungen und festlegen von fixierten Kursen braucht es Ruhe, Zeit zum Nachdenken und Durchprobieren unterschiedlicher Varianten/Blockungen, bis ein gutes Ergebnis vorliegt.
 + Was sich zu früher verändert hat: LuPO war die Meta-Planung für jetzt und die Zukunft ohne konkrete Kurse, Zuordnungen und Lernabschnitte. SchILD2-NRW war der Ist-Zustand und die Vergangenheit mit dem aktuellen Lernabschnitt und den vergangenen Lernabschnitten. Kurs42 bzw. Untis usw. erstellen Blockungen. Der SVWS-Client mit der Laufbahnplanung kann nun auch die Zukunft abbilden UND auch schon den nächsten, tatsächlichen Lernabschnitt verwalten, auch mit den konkreten Kursen und der Blockung für diesen kommenden Lernabschnitt.
 

@@ -11,7 +11,7 @@
 ### 12.4 [Abschlussnote in Leistungsdaten übertragen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Abschlussnote_in_Leistungsdaten_%C3%BCbertragen_(Gruppenprozesse_Zentrale_Klausuren))
 
 **Aufgabe 3**:  
-Drucken Sie den Report "ZP10 - Anlage 4 - Bekanntgabe der Noten - alle Schulformen.rtm" als PDF aus. Dieser Report empfiehlt sich für die effiziente Bekanntgabe der Noten. Sie finden den Report in der Basissammlung im Ordner "Reports SI".
+Drucke den Report "ZP10 - Anlage 4 - Bekanntgabe der Noten - alle Schulformen.rtm" als PDF aus. Dieser Report empfiehlt sich für die effiziente Bekanntgabe der Noten. Du findest den Report in der Basissammlung im Ordner "Reports SI".
 
 
 <DownloadPdf />

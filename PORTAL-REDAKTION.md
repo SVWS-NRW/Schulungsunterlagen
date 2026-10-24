@@ -1,3 +1,5 @@
+> Fortschreibung 24.10.2026: Die historischen Prüfprotokolle unten beschreiben frühere Zwischenstände. Für die aktuelle Navigation Bereich → Thema → Artikel, aktive Zweige und themenbezogene Vor/Zurück-Verweise gelten [ARTIKELSTANDARD.md](./ARTIKELSTANDARD.md) und [HARMONISIERUNG.md](./HARMONISIERUNG.md).
+
 # Redaktion & Bestandszuordnung
 
 ## Prinzip dieser Strukturänderung

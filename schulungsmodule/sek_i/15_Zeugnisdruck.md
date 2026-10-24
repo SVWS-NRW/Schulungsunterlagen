@@ -9,7 +9,7 @@ Auf der Webseite des MSB für [Schulverwaltungssoftware](https://www.svws.nrw.de
 ## 15.3 [Zeugnisdruck](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Zeugnisvorbereitungen_und_Zeugnisdruck_(Einf%C3%BChrung_in_SchILD-NRW)#Zeugnisdruck_und_Archivierung)  
 
 **Aufgabe**:  
-Filtern Sie in Ihrer ausgewählten Schülergruppe nach gleichen Zeugnissen und lassen sich anschließend die Zeugnisse in der Vorschau anzeigen.
+Filtere in Deiner ausgewählten Schülergruppe nach gleichen Zeugnissen und lass Dir anschließend die Zeugnisse in der Vorschau anzeigen.
 (Also zum Beispiel alle Schüler mit Erstem Schulabschluss. Hierzu ist in vielen Anwendungsfällen der Schülerfilter zu nutzen, da eventuell unterschiedliche Abschlüsse oder auch "Kein Abschluss" vergeben werden.)
 
 ## 15.4 [Fehler beim Zeugnisdruck](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Beliebte_Fehler_beim_Zeugnisdruck_(Tutorial))

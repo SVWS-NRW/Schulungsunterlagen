@@ -1,7 +1,7 @@
 # Aufgaben aus dem Alltag
 
 **Aufgabe 1**
-Der Familienname Schmitz ist falsch geschrieben. Es muss richtig heißen: Schmitts. Korrigieren Sie diesen Fehler bei Schüler:innen in der 06B und 08A und deren Erziehungsberechtigten.
+Der Familienname Schmitz ist falsch geschrieben. Es muss richtig heißen: Schmitts. Korrigiere diesen Fehler bei Schüler:innen in der 06B und 08A und deren Erziehungsberechtigten.
 
 **Aufgabe 2**
 Frau Knobloch möchte gerne im Notfall an ihrer Arbeitsstelle telefonisch benachrichtigt werden. Tel.: 02721 / 5563
@@ -13,7 +13,7 @@ Der Vater wohnt nun in 57462 Olpe-Oberveischede, Zum Sportplatz 6, Telefon: 0276
 
 **Aufgabe 4**
 Bei Heidi Baltus fehlt noch das Fotos.
-Sie finden diese im Verzeichnis ..\SchuelerBilder.
+Du findest diese im Verzeichnis ..\SchuelerBilder.
 
 **Aufgabe 5**
 Dominik Dingendahl meldet sich vom Religionsunterricht ab.
@@ -45,13 +45,13 @@ Kirsten Heiderhoff (zurzeit noch in der Aufnahme) wird nun endgültig in die Kla
 Das Kind der Familie Schmitts (s. Aufgabe 1) hat ein AO-SF-Verfahren durchlaufen und erhält nun einen möglichen Hauptförderschwerpunkt.
 
 **Aufgabe 13**
-Bestimmen Sie je Klasse einen Bushelfer.
+Bestimme je Klasse einen Bushelfer.
 
 **Aufgabe 14**
 Nora Gau, Bernd Heidepriem und Tina Höfinghoff aus der 08A haben heute die letzte Möglichkeit, ihren Beitrag für »Jugend forscht« abzugeben.
-Markieren Sie die drei SuS und machen Sie über den passenden Gruppenprozess einen entsprechenden Eintrag in die Wiedervorlageliste.
-Kontrollieren Sie, ob unter Verwaltung -> Einstellungen -> Globale Einstellungen -> Allgemeines, Reiter "Wiedervorlage" ein Häkchen gesetzt ist und starten Sie SchILD neu.
+Markiere die drei SuS und mache über den passenden Gruppenprozess einen entsprechenden Eintrag in die Wiedervorlageliste.
+Kontrolliere, ob unter Verwaltung -> Einstellungen -> Globale Einstellungen -> Allgemeines, Reiter "Wiedervorlage" ein Häkchen gesetzt ist und starte SchILD neu.
 
 **Aufgabe 15**
 Otto Tünnemann hat heute einen wichtigen Termin beim Schulamt.
-Machen Sie unter "Lehrkräfte" mit Rechtsklick auf seinen Namen einen entsprechenden Eintrag in die Wiedervorlageliste.
+Mache unter "Lehrkräfte" mit Rechtsklick auf seinen Namen einen entsprechenden Eintrag in die Wiedervorlageliste.

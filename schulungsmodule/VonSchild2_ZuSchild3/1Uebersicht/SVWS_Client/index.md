@@ -3,15 +3,15 @@
 Zusätzlich zu der Desktopanwendung SchILD-NRW3 kann die Schuldatenbank auch mit dem Browser geöffnet und bearbeitet werden.
 
 ## Öffnen der Datenbank im SVWS-Client
-Öffnen Sie einen Browser (z.B. Google-Crome oder Firefox) und tippen Sie https://localhost (bei einer lokalen INstallation des SVWS-Servers) oder die IP-Adresse des SVWS-Servers in die Eingabezeile.
+Öffne einen Browser (z.B. Google-Crome oder Firefox) und tippe https://localhost (bei einer lokalen INstallation des SVWS-Servers) oder die IP-Adresse des SVWS-Servers in die Eingabezeile.
 
 ![Öffnen mit dem Browser](./graphics/vonS2nachS3_uebersicht_svwsClient_aufruf.png) 
 
-Sie sehen nun folgende Anmeldemaske:
+Du siehst nun folgende Anmeldemaske:
 ![Öffnen mit dem Browser](./graphics/vonS2nachS3_uebersicht_svwsClient_LogIn.png)
 
 
-Nach dem Klick auf Anmelden öffnet sich die Datenbank im Browser. Anders als mit der Desktop-Anwendung können Sie auf diesem Weg die Datenbank auch auf einem nicht Windows-basierten Betriebssystem öffnen.
+Nach dem Klick auf Anmelden öffnet sich die Datenbank im Browser. Anders als mit der Desktop-Anwendung kannst Du auf diesem Weg die Datenbank auch auf einem nicht Windows-basierten Betriebssystem öffnen.
 
 
 ![Öffnen mit dem Browser](./graphics/vonS2nachS3_uebersicht_svwsClient_startseite.png)
@@ -37,19 +37,19 @@ Auf der linken Seite werden die zur Verfügung stehenden **Apps** aufgelistet. B
 
 
 ### Aufgabe 
-* Filtern Sie die Klasse 6a und 6b.
-* Sortieren Sie die Schüler nach Nachnamen.<br>
+* Filtere die Klasse 6a und 6b.
+* Sortiere die Schüler nach Nachnamen.<br>
 Hinweis: Durch Klick auf *Klasse*, *Nachname* oder *Vorname* im Schülercontainer kann die Sortierung schnell geändert werden. 
-* Entfernen Sie den Filter der Klasse 6a und fügen Sie die 6c hinzu.
-* Entfernen Sie alle Filter und wählen Sie den Jahrgang 07 aus. Für das Entfernen der Filter gibt es verschiedene Möglichkeiten <br>
+* Entferne den Filter der Klasse 6a und füge die 6c hinzu.
+* Entferne alle Filter und wähle den Jahrgang 07 aus. Für das Entfernen der Filter gibt es verschiedene Möglichkeiten <br>
 ![Schnellfilter](./graphics/vonS2nachS3_uebersicht_svwsClient_schuelerApp_schnellfilter.png)
-* Sichten Sie in der App "Schüler" im Tab "Sprachen" die Sprachenfolge eines Schülers in der Jahrgangsstufe Q1. <br>
+* Sichte in der App "Schüler" im Tab "Sprachen" die Sprachenfolge eines Schülers in der Jahrgangsstufe Q1. <br>
 Hier findet man nun auch sehr übersichtlich Angaben zum herkungssprachlichen Unterricht und zu Sprachen-Feststellungsprüfung. Konkrete Eingaben folgen später.(LINK!) 
-* Löschen Sie bei einem Schüler im Tab "Lernabschnitte" das Fach Sport.<br>
-Hinweis: Nach dem Markieren des Faches wird der Mülleimer sichtbar. Sie werden feststellen, dass keine Nachfrage erfolgt, ob das Fach wirklich gelöscht werden soll.<br>
+* Lösche bei einem Schüler im Tab "Lernabschnitte" das Fach Sport.<br>
+Hinweis: Nach dem Markieren des Faches wird der Mülleimer sichtbar. Du wirst feststellen, dass keine Nachfrage erfolgt, ob das Fach wirklich gelöscht werden soll.<br>
 ![Fächer im aktuellen Lernabschnitt](./graphics/vonS2nachS3_uebersicht_svwsClient_schuelerAppFachloeschen.png)
 
 * Bei einem Schüler aus der 7b wurde vergessen, den Migrationshintergrund einzutragen. Er wurde zwar in Deutschland geboren, aber seine Mutter kommt aus Ghana.
 
-* Optional können Sie sich auch einmal die anderen Apps anschauen. Vieles wird Ihnen bekannt vorkommen. Aber ganz viel ist auch neu. Das werden wir später einmal genauer unter die Lupe nehmen.
+* Optional kannst Du Dich auch einmal die anderen Apps anschauen. Vieles wird Dir bekannt vorkommen. Aber ganz viel ist auch neu. Das werden wir später einmal genauer unter die Lupe nehmen.
 
