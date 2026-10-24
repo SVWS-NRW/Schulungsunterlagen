@@ -6,9 +6,10 @@ const nav = JSON.parse(readFileSync('.vitepress/sidebar.json', 'utf8'))
 const sidebar = createSidebar(nav)
 const git = (...args) => execFileSync('git', args, { encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 })
 const baseline = process.env.CONTENT_BASE ?? '022646efd04bf6a2e6c13a819b8974740588cf59'
-const files = git('ls-tree', '-r', '--name-only', baseline).trim().split('\n').filter(p => p.endsWith('.md'))
+const files = git('ls-tree', '-r', '-z', '--name-only', baseline).split('\0').filter(p => p.endsWith('.md'))
 const excluded = /^(README|ARTIKELSTANDARD|PORTAL-REDAKTION|api-examples|markdown-examples)\.md$|\/notes\.md$/
 const matches = (source, re) => [...source.matchAll(re)].map(m => m[0])
+assert.equal(files.length, 199, 'Vollständiges Markdown-Inventar einschließlich Unicode-Pfaden')
 let checked = 0
 for (const file of files) {
   assert.ok(existsSync(file), 'Bisheriger Artikel fehlt: ' + file)
