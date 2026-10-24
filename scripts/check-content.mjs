@@ -27,6 +27,19 @@ for (const file of files) {
     old = body(old)
     current = body(current)
   }
+  // These two landing pages were explicitly rewritten: cards and old summaries
+  // are replaced by menu-derived tables. Preserve the remaining training guidance.
+  if (file === 'schulungsmodule/index.md') {
+    const retained = source => source.slice(source.indexOf('## Eine Schulung vorbereiten')).split('## Basismodule')[0].trim()
+    old = retained(old)
+    current = retained(current)
+  }
+  if (file === 'Fachberatung_Anleitungen/Test-_und_Schulungsserver/index.md') {
+    const retained = source => source.split('## Sammlung Installationsskripte')[0]
+      .replace(/<(?:SectionCards|NavigationOverview)\b[^>]*\/>/g, '').trim()
+    old = retained(old)
+    current = retained(current)
+  }
   if (file === 'schulungsmodule/VonSchild2_ZuSchild3/index.md') {
     old = old.replace('# Von SchILD-NRW 2 zu SchILD-NRW 3 und zum SVWS-Client', '# Umstieg zu SchILD-NRW 3')
   }
