@@ -45,6 +45,7 @@ const assertRootNavigation = async (mobile = false) => {
     assert.equal(clean(localPath(await link.getAttribute('href'))), clean(path))
     await link.click()
     await page.waitForURL(url => url.pathname === new URL(urlFor(path)).pathname)
+    await page.waitForFunction(text => document.querySelector('.vp-doc h1')?.textContent?.includes(text), heading)
     assert.ok((await page.locator('.vp-doc h1').innerText()).includes(heading))
     if (mobile) await page.locator('.VPLocalNav button.menu').click()
     for (const root of [0, 1]) {
