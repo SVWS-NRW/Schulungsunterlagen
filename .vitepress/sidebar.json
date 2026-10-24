@@ -394,7 +394,54 @@
         ]
       },
       {
-        "text": "Schulungsumgebung",
+        "text": "Umstieg zu SchILD-NRW 3",
+        "link": "/schulungsmodule/VonSchild2_ZuSchild3/",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Arbeitsverzeichnis",
+            "link": "/schulungsmodule/VonSchild2_ZuSchild3/1Uebersicht/Arbeitsverzeichnis/"
+          },
+          {
+            "text": "SchILD-Oberfläche",
+            "link": "/schulungsmodule/VonSchild2_ZuSchild3/1Uebersicht/SchILD3_Oberflaeche/"
+          },
+          {
+            "text": "SVWS-Oberfläche",
+            "link": "/schulungsmodule/VonSchild2_ZuSchild3/1Uebersicht/SVWS_Client/"
+          },
+          {
+            "text": "Schülerdaten: SchILD-NRW 3",
+            "link": "/schulungsmodule/VonSchild2_ZuSchild3/2Schueler/schild3/"
+          },
+          {
+            "text": "Schülerdaten: SVWS-Client",
+            "link": "/schulungsmodule/VonSchild2_ZuSchild3/2Schueler/svwsClient/"
+          },
+          {
+            "text": "Leistungsdaten: SchILD-NRW 3",
+            "link": "/schulungsmodule/VonSchild2_ZuSchild3/3Leistungsdaten/schild3/"
+          },
+          {
+            "text": "Leistungsdaten: SVWS-Client",
+            "link": "/schulungsmodule/VonSchild2_ZuSchild3/3Leistungsdaten/svwsClient/"
+          },
+          {
+            "text": "Stundenplan",
+            "link": "/schulungsmodule/VonSchild2_ZuSchild3/4Stundenplan/"
+          },
+          {
+            "text": "Oberstufenplanung",
+            "link": "/schulungsmodule/VonSchild2_ZuSchild3/5Oberstufenplanung/"
+          },
+          {
+            "text": "SVWS-Funktionsumfang",
+            "link": "/schulungsmodule/VonSchild2_ZuSchild3/GrenzenClient/"
+          }
+        ]
+      },
+      {
+        "text": "Schulungsumgebungen",
         "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/",
         "collapsed": true,
         "items": [
@@ -556,53 +603,6 @@
           {
             "text": "Beratungsanfrage vorbereiten",
             "link": "/beratung/anfrage-vorbereiten"
-          }
-        ]
-      },
-      {
-        "text": "Umstieg im Vergleich",
-        "link": "/schulungsmodule/VonSchild2_ZuSchild3/",
-        "collapsed": true,
-        "items": [
-          {
-            "text": "Arbeitsverzeichnis",
-            "link": "/schulungsmodule/VonSchild2_ZuSchild3/1Uebersicht/Arbeitsverzeichnis/"
-          },
-          {
-            "text": "SchILD-Oberfläche",
-            "link": "/schulungsmodule/VonSchild2_ZuSchild3/1Uebersicht/SchILD3_Oberflaeche/"
-          },
-          {
-            "text": "SVWS-Oberfläche",
-            "link": "/schulungsmodule/VonSchild2_ZuSchild3/1Uebersicht/SVWS_Client/"
-          },
-          {
-            "text": "Schülerdaten: SchILD-NRW 3",
-            "link": "/schulungsmodule/VonSchild2_ZuSchild3/2Schueler/schild3/"
-          },
-          {
-            "text": "Schülerdaten: SVWS-Client",
-            "link": "/schulungsmodule/VonSchild2_ZuSchild3/2Schueler/svwsClient/"
-          },
-          {
-            "text": "Leistungsdaten: SchILD-NRW 3",
-            "link": "/schulungsmodule/VonSchild2_ZuSchild3/3Leistungsdaten/schild3/"
-          },
-          {
-            "text": "Leistungsdaten: SVWS-Client",
-            "link": "/schulungsmodule/VonSchild2_ZuSchild3/3Leistungsdaten/svwsClient/"
-          },
-          {
-            "text": "Stundenplan",
-            "link": "/schulungsmodule/VonSchild2_ZuSchild3/4Stundenplan/"
-          },
-          {
-            "text": "Oberstufenplanung",
-            "link": "/schulungsmodule/VonSchild2_ZuSchild3/5Oberstufenplanung/"
-          },
-          {
-            "text": "SVWS-Funktionsumfang",
-            "link": "/schulungsmodule/VonSchild2_ZuSchild3/GrenzenClient/"
           }
         ]
       },
@@ -855,7 +855,7 @@
   "routes": {
     "/neu-im-team/": "team",
     "/schulungsmodule/": "schulungen",
-    "/schulungsmodule/VonSchild2_ZuSchild3/": "beratung",
+    "/schulungsmodule/VonSchild2_ZuSchild3/": "schulungen",
     "/Datenbanken/": "testdaten",
     "/umgebungen/": "testdaten",
     "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/": "schulungen",
@@ -875,7 +875,7 @@
     {
       "text": "Schulungen",
       "link": "/schulungsmodule/",
-      "activeMatch": "^/(schulungsmodule/(?!VonSchild2_ZuSchild3)|Fachberatung_Anleitungen/Test-_und_Schulungsserver/)"
+      "activeMatch": "^/(schulungsmodule/|Fachberatung_Anleitungen/Test-_und_Schulungsserver/)"
     },
     {
       "text": "Testdaten",
@@ -885,7 +885,7 @@
     {
       "text": "Beratung",
       "link": "/beratung/",
-      "activeMatch": "^/(beratung|schulungsmodule/VonSchild2_ZuSchild3|Fachberatung_Anleitungen/(?!Test-_und_Schulungsserver))"
+      "activeMatch": "^/(beratung|Fachberatung_Anleitungen/(?!Test-_und_Schulungsserver))"
     },
     {
       "text": "Fortbildung",

@@ -3,8 +3,8 @@ import type { DefaultTheme, UserConfig } from 'vitepress';
 import sidebar from '../sidebar';
 import navigation from './sidebar.json';
 import { footerFor } from './navigation.mjs';
-import taskLists from 'markdown-it-task-lists';
-import { configureHintBoxes, containerLabels } from './hint-boxes';
+import { configureMarkdown } from './markdown';
+import { containerLabels } from './hint-boxes';
 
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, process.cwd(), '');
@@ -22,12 +22,7 @@ export default defineConfig(({ mode }) => {
         srcExclude: ['README.md', 'PORTAL-REDAKTION.md', 'ARTIKELSTANDARD.md', 'markdown-examples.md', 'api-examples.md', 'HARMONISIERUNG.md', 'tests/**', '**/notes.md'],
         markdown: {
             container: containerLabels,
-            config(md) {
-                md.use(taskLists, { label: true });
-                configureHintBoxes(md);
-                md.disable('emoji');
-                md.inline.ruler.disable('linkify');
-            },
+            config: configureMarkdown,
         },
         themeConfig: {
             outline: { label: 'Auf dieser Seite', level: [2, 3] },

@@ -6,9 +6,6 @@ sectionCards:
   - title: "Lokale Test- & Analyseumgebung"
     details: "Den persönlichen Analyseplatz einrichten und eine Datenbankkopie untersuchen."
     link: "/umgebungen/"
-  - title: "Weitere Schulungsumgebungen"
-    details: "Vorhandene Anleitungen für Docker, Proxmox, VirtualBox und Schulungsserver nutzen."
-    link: "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/"
 ---
 
 # Testdaten & Umgebungen {#datenbanken}

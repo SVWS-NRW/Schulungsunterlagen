@@ -39,43 +39,47 @@ export function footerFor(navigation, url) {
   return { prev: entry(pages[index - 1]), next: index < 0 ? false : entry(pages[index + 1]) }
 }
 
+export function sidebarFor(navigation, url) {
+  const { section, topic: active } = topicFor(navigation, url)
+  if (!section) return []
+  const topics = navigation.sections[section].map(group => ({
+    ...group,
+    ...(group.items?.length ? { collapsed: group !== active } : {})
+  }))
+  if (section === 'team') return topics
+  const others = {
+    text: 'Weitere Bereiche', collapsed: true,
+    items: navigation.nav.filter(item => sectionFor(navigation, item.link) !== section)
+      .map(({ text, link }) => ({ text, link }))
+  }
+  if (section !== 'schulungen') return [
+    { text: navigation.sectionLabels[section], items: topics }, others
+  ]
+  const environments = topics.find(group => group.link === '/Fachberatung_Anleitungen/Test-_und_Schulungsserver/')
+  const environmentActive = active?.link === environments.link
+  return [
+    { text: 'Schulungen', collapsed: environmentActive, items: topics.filter(group => group !== environments) },
+    {
+      text: 'Schulungsumgebungen', collapsed: !environmentActive,
+      items: [{ text: 'Übersicht', link: environments.link }, ...environments.items]
+    },
+    others
+  ]
+}
+
 export function createSidebar(navigation) {
   const exact = {}
   const prefixes = {}
-  const menu = (section, active) => {
-    const topics = navigation.sections[section].map(group => ({
-      ...group,
-      ...(group.items?.length ? { collapsed: group !== active } : {})
-    }))
-    // The onboarding section deliberately keeps its existing presentation.
-    if (section === 'team') return topics
-    return [
-      { text: navigation.sectionLabels[section], items: topics },
-      {
-        text: 'Weitere Bereiche',
-        collapsed: true,
-        items: navigation.nav
-          .filter(item => sectionFor(navigation, item.link) !== section)
-          .map(({ text, link }) => ({ text, link }))
-      }
-    ]
-  }
-  for (const [prefix, section] of Object.entries(navigation.routes)) prefixes[prefix] = menu(section)
+  for (const prefix of Object.keys(navigation.routes)) prefixes[prefix] = sidebarFor(navigation, prefix)
   for (const groups of Object.values(navigation.sections)) {
-    for (const group of groups) {
-      for (const item of [group, ...group.items ?? []]) {
-        if (!item.link || item.link.includes('#')) continue
-        const target = clean(item.link)
-        const { section, topic } = topicFor(navigation, target)
-        if (!section) continue
-        const sidebar = menu(section, topic)
-        exact[target + (item.link.endsWith('/') ? '/index.md' : '.md')] = sidebar
-      }
+    for (const group of groups) for (const item of [group, ...group.items ?? []]) {
+      if (!item.link || item.link.includes('#')) continue
+      const target = clean(item.link)
+      exact[target + (item.link.endsWith('/') ? '/index.md' : '.md')] = sidebarFor(navigation, target)
     }
   }
   for (const alias of Object.keys(navigation.aliases ?? {})) {
-    const { section, topic } = topicFor(navigation, alias)
-    exact[clean(alias) + '/index.md'] = menu(section, topic)
+    exact[clean(alias) + '/index.md'] = sidebarFor(navigation, alias)
   }
   return { ...exact, ...Object.fromEntries(Object.entries(prefixes).sort(([a], [b]) => b.length - a.length)) }
 }
