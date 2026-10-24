@@ -4,10 +4,10 @@ sectionCards:
     details: "Dokumentationen, Downloads, Werkzeuge und Informationsquellen öffnen."
     link: "/wissen/links"
   - title: "SchILD-Tipps"
-    details: "Die vorhandenen SchILD-Beiträge über sprechende Themen finden."
+    details: "Die veröffentlichten SchILD-Beiträge nach Datum finden."
     link: "/wissen/schild-tipps"
   - title: "SVWS-Tipps"
-    details: "Die vorhandenen Hinweise zu Server, Client und Werkzeugen nachschlagen."
+    details: "Die veröffentlichten SVWS-Hinweise nach Datum finden."
     link: "/wissen/svws-tipps"
 ---
 
@@ -19,7 +19,8 @@ Hier findest Du kurze Praxistipps, zentrale Informationsquellen und den Einstieg
 
 | Du suchst … | Dein Einstieg |
 | --- | --- |
-| Einen veröffentlichten Tipp nach Datum | [Tipp der Woche](/Tipp_der_Woche/) |
+| Einen veröffentlichten SchILD-Tipp nach Datum | [SchILD-Tipps](./schild-tipps.md) |
+| Einen veröffentlichten SVWS-Hinweis nach Datum | [SVWS-Tipps](./svws-tipps.md) |
 | Eine Lösung zu einem bestimmten Problem | [Probleme & Lösungen nach Themen](/beratung/probleme) |
 | Dokumentation, Downloads und Werkzeuge | [Wichtige Links](./links.md) |
 | Hilfe zur Meldung eines Fehlers | [Beratungsanfrage vorbereiten](/beratung/anfrage-vorbereiten) |

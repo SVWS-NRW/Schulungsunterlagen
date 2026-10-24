@@ -150,3 +150,19 @@ test('all local analysis articles belong to advice and activate its top menu', (
     assert.deepEqual(active.map(entry => entry.text), ['Beratung'])
   }
 })
+
+test('important links are a direct leaf and dated tips have separate topic pages', () => {
+  const items = nav.sections.wissen
+  const links = items.find(item => item.text === 'Wichtige Links')
+  assert.equal(links.link, '/wissen/links')
+  assert.equal(links.items, undefined)
+  assert.ok(!items.some(item => item.text === 'Nachschlagen & Links'))
+  assert.ok(!items.some(item => [item, ...item.items ?? []].some(entry => entry.link === '/Tipp_der_Woche/')))
+  for (const [label, path] of [['SchILD-Tipps', '/wissen/schild-tipps'], ['SVWS-Tipps', '/wissen/svws-tipps']]) {
+    const topic = items.find(item => item.text === label)
+    assert.equal(topic.link, path)
+    assert.equal(topicFor(nav, path).topic, topic)
+    for (const article of topic.items) assert.equal(topicFor(nav, article.link).topic, topic)
+  }
+  assert.ok(sidebar['/Tipp_der_Woche/index.md'])
+})

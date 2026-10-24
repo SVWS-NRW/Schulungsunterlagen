@@ -52,7 +52,7 @@ features:
 | Installation, Hardware oder Update klären | [Installationshilfen bündeln](/beratung/installation) |
 | Eine Migration scheitert | [Migrationsprobleme eingrenzen](/beratung/migration) |
 | Eine Datenbank selbst untersuchen | [Lokale Analyseumgebung](/umgebungen/lokale-analyse) |
-| Die neuesten veröffentlichten Tipps | [Tipp der Woche](/Tipp_der_Woche/) |
+| Die neuesten veröffentlichten Tipps | [SchILD-Tipps](/wissen/schild-tipps) und [SVWS-Tipps](/wissen/svws-tipps) |
 | Ein Fortbildungsangebot für das Team | [Fortbildung & Austausch](/fortbildung/) |
 | Informationen zu Neuerungen | [Material zum Entwicklungsstand](/Fachberatung_Fortbildungen/Aktuell/) – Stand und Version im Einzelfall prüfen |
 
