@@ -7,7 +7,8 @@ permissions:
   contents: read
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Playwright 1.56.1 unterstützt Ubuntu 24.04; ubuntu-latest kann auf eine neuere Distribution wechseln.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         with:
