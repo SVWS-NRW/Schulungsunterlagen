@@ -32,17 +32,17 @@ Eine Bridge allein garantiert keine Erreichbarkeit. WLAN-Isolation, VLANs, MAC-V
 
 Ein unprivilegierter Debian-LXC mit direktem Linux-Installer kann Ressourcen sparen, setzt aber Kenntnisse über Container, Hostkernel, Netz und Sicherungsverfahren voraus. Verwechsle ihn nicht mit einer vollständigen VM oder einem Docker-Container.
 
-[pve_create_lxc.sh](./pve_create_lxc.sh) erstellt **nur einen Container**. Template, Storage und Bridge sind explizit vorzugeben; eine statische IP braucht ein CIDR-Präfix, etwa `192.168.50.20/24`. Ohne statische IP wird DHCP verwendet. Root-Zugangsdaten werden separat in einer geschützten Datei gespeichert, nicht in der sichtbaren Containerbeschreibung.
+[pve_create_lxc.sh](https://raw.githubusercontent.com/Raffenberg/SVWS_FBM/6b540c8da74187caed87b4b561a553add2f61fc7/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/pve_create_lxc.sh) erstellt **nur einen Container**. Template, Storage und Bridge sind explizit vorzugeben; eine statische IP braucht ein CIDR-Präfix, etwa `192.168.50.20/24`. Ohne statische IP wird DHCP verwendet. Root-Zugangsdaten werden separat in einer geschützten Datei gespeichert, nicht in der sichtbaren Containerbeschreibung.
 
-[pve_exec_svws_linuxinstaller.sh](./pve_exec_svws_linuxinstaller.sh) ist ein gesonderter Schritt für **einen ausdrücklich benannten frischen Container** und setzt den lokalen Linux-Wrapper voraus. Es ist keine Ausführung auf allen Containern.
+[pve_exec_svws_linuxinstaller.sh](https://raw.githubusercontent.com/Raffenberg/SVWS_FBM/6b540c8da74187caed87b4b561a553add2f61fc7/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/pve_exec_svws_linuxinstaller.sh) ist ein gesonderter Schritt für **einen ausdrücklich benannten frischen Container** und setzt den lokalen Linux-Wrapper voraus. Es ist keine Ausführung auf allen Containern.
 
 Die Skripte sind statisch und mit simulierten Befehlen prüfbar; eine vollständige Proxmox-/LXC-Installation ist in dieser Prüfung nicht nachgestellt worden. Für die Freigabe des eigenen Raums ist eine reale Probe erforderlich.
 
 ## Klonen und geordnetes Beenden
 
-[clone_lxc.sh](./clone_lxc.sh) erstellt vollständige Klone und lässt sie zur Kontrolle ausgeschaltet. Prüfe IP-Adressen, Identitäten und Zugänge vor dem Start. Das Quellsystem wird dafür geordnet heruntergefahren; plane diese Unterbrechung ein.
+[clone_lxc.sh](https://raw.githubusercontent.com/Raffenberg/SVWS_FBM/6b540c8da74187caed87b4b561a553add2f61fc7/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/clone_lxc.sh) erstellt vollständige Klone und lässt sie zur Kontrolle ausgeschaltet. Prüfe IP-Adressen, Identitäten und Zugänge vor dem Start. Das Quellsystem wird dafür geordnet heruntergefahren; plane diese Unterbrechung ein.
 
-[pve_shutdown_all_LXC.sh](./pve_shutdown_all_LXC.sh) benötigt trotz seines historischen Namens eine explizite Liste von CT-IDs. Es stoppt nicht mehr unterschiedslos sämtliche Container des Hosts.
+[pve_shutdown_all_LXC.sh](https://raw.githubusercontent.com/Raffenberg/SVWS_FBM/6b540c8da74187caed87b4b561a553add2f61fc7/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/pve_shutdown_all_LXC.sh) benötigt trotz seines historischen Namens eine explizite Liste von CT-IDs. Es stoppt nicht mehr unterschiedslos sämtliche Container des Hosts.
 
 ## Fernschulungen gesondert planen
 

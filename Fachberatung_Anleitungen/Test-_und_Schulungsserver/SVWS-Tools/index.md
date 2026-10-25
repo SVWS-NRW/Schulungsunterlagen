@@ -32,7 +32,9 @@ Bei einem Server auf HTTPS-Port 8443 und dem App-Unterordner `konferenz` lautet 
 
 ## Vorhandenes Sammelarchiv
 
-[tools.zip aus diesem Repository](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Fachberatung_Anleitungen/Test-_und_Schulungsserver/SVWS-Tools/tools.zip) bleibt als Beispielbestand verfügbar. Die Datei belegt keine allgemeine Kompatibilität mit beliebigen zukünftigen Serverversionen. Prüfe enthaltene Unterordner, Versionsstand und benötigte Dienste vor dem Einsatz; nimm das Archiv nicht ungeprüft als automatischen Aktualisierungskanal.
+[tools.zip aus diesem Repository](https://github.com/Raffenberg/SVWS_FBM/raw/refs/heads/dev/Fachberatung_Anleitungen/Test-_und_Schulungsserver/SVWS-Tools/tools.zip) bleibt als Beispielbestand verfügbar. Das Archiv enthält bereits den obersten Ordner `tools` und darunter `conference`, `gradehub`, `import`, `laufbahn`, `prognos` und `start`. Entpacke daher in das **Elternverzeichnis** des gewünschten Tool-Verzeichnisses: Bei `AppsPath = /opt/app/svws/tools/` muss zum Beispiel `/opt/app/svws/tools/conference/index.html` entstehen, nicht `/opt/app/svws/tools/tools/conference/index.html`. Die mitgelieferte Start-App ist dann unter `/app/start` erreichbar, sofern das Paket erfolgreich eingebunden wurde.
+
+Die Datei belegt keine allgemeine Kompatibilität mit beliebigen zukünftigen Serverversionen. Prüfe enthaltene Unterordner, Versionsstand und benötigte Dienste vor dem Einsatz; nimm das Archiv nicht ungeprüft als automatischen Aktualisierungskanal.
 
 Der experimentelle All-in-one-Installer baut teilweise Anwendungen aus beweglichen Entwicklungsständen. Er gehört deshalb nicht zum empfohlenen Grundaufbau; siehe [Prüfstatus der Skripte](../Installationsskripte/#pruefbericht).
 

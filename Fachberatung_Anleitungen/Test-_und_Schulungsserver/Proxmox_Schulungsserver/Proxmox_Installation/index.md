@@ -41,7 +41,7 @@ Für den einfachen Grundaufbau verwende eine **Debian-VM**. Wähle Ressourcen an
 
 Ein **unprivilegierter Debian-LXC** ist eine Alternative für erfahrene Administration, wenn darin der Linux-Installer betrieben wird. LXC teilt den Hostkernel und ist keine vollständige VM. Docker in LXC ist ein weiterer, gesondert zu betreuender Aufbau und hier nicht der Standard.
 
-Importiere für LXC ein tatsächlich verfügbares Template. Ein Dateiname aus einem alten Screenshot garantiert nicht, dass dieses Template lokal existiert. Host-Storage und Bridge müssen vor dem Anlegen feststehen. Prüfe die Parameter des [LXC-Helfers](../pve_create_lxc.sh) mit `--help`; das Skript legt keinen SVWS-Dienst an.
+Importiere für LXC ein tatsächlich verfügbares Template. Ein Dateiname aus einem alten Screenshot garantiert nicht, dass dieses Template lokal existiert. Host-Storage und Bridge müssen vor dem Anlegen feststehen. Prüfe die Parameter des [LXC-Helfers](https://raw.githubusercontent.com/Raffenberg/SVWS_FBM/6b540c8da74187caed87b4b561a553add2f61fc7/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/pve_create_lxc.sh) mit `--help`; das Skript legt keinen SVWS-Dienst an.
 
 ## 5. Fortgeschrittene Netze und Nested Virtualization
 
