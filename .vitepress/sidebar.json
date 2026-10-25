@@ -458,49 +458,49 @@
         "collapsed": true,
         "items": [
           {
-            "text": "Docker-Schulungsserver",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Docker_Schulungsserver/",
-            "description": "Eine containerbasierte Schulungsumgebung aufsetzen."
-          },
-          {
-            "text": "Installationsskripte",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/",
-            "description": "Skripte zur Einrichtung von Server und Werkzeugen nutzen."
-          },
-          {
-            "text": "Schulungsserver betreuen: Wartung & Zurücksetzen",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Moderatoren_Schulungsserver/Wartung",
-            "description": "Die Schulungsumgebung betreuen und auf den Ausgangsstand zurücksetzen."
-          },
-          {
-            "text": "Proxmox-Schulungsserver",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/",
-            "description": "Virtuelle Maschinen für Schulungen bereitstellen."
-          },
-          {
-            "text": "Proxmox-Schulungsserver: Proxmox installieren",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/Proxmox_Installation/",
-            "description": "Die Virtualisierungsplattform installieren."
-          },
-          {
-            "text": "SVWS-Tools",
-            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/SVWS-Tools/",
-            "description": "Ergänzende Werkzeuge für den Schulungsserver kennenlernen."
-          },
-          {
-            "text": "VirtualBox-Schulungsclient",
+            "text": "Arbeitsplätze & lokale VMs",
             "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/",
-            "description": "Einen virtuellen Arbeitsplatz für Teilnehmende einrichten."
+            "description": "Planung: vorhandene PCs oder mitgebrachte Laptops; Arbeitsplatz und Server-VM unterscheiden."
           },
           {
-            "text": "VirtualBox installieren",
+            "text": "VirtualBox und Debian-VM",
             "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/Virtualbox_Installation/",
-            "description": "VirtualBox als Grundlage des Schulungsclients installieren."
+            "description": "Lokaler Weg: Hypervisor auf Windows, Serverbetriebssystem in der VM; passende Netzmodi wählen."
           },
           {
             "text": "Windows-Testserver",
             "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Windows_Testserver/",
-            "description": "Eine Testumgebung unter Windows aufbauen."
+            "description": "Lokaler Weg: SVWS-Server und MariaDB direkt auf Windows, SchILD-NRW 3 zusätzlich einrichten."
+          },
+          {
+            "text": "Docker-Schulungsserver",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Docker_Schulungsserver/",
+            "description": "Zentral oder in einer VM: ein bewusst versioniertes Projekt aus SVWS-Server und MariaDB."
+          },
+          {
+            "text": "Proxmox-Schulungsserver",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/",
+            "description": "Raumserver: Gäste und Arbeitsplätze zuordnen; VM als Standard, LXC als eigene Alternative."
+          },
+          {
+            "text": "Proxmox installieren",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/Proxmox_Installation/",
+            "description": "Nur Hostadministration: Hypervisor, Storage und Netz vorbereiten; keine SVWS-Installation auf dem Host."
+          },
+          {
+            "text": "SVWS-Tools ergänzen",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/SVWS-Tools/",
+            "description": "Benötigte Anwendungen ergänzen; statische Apps und zusätzliche Serverdienste unterscheiden."
+          },
+          {
+            "text": "Wartung & Rücksetzen",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Moderatoren_Schulungsserver/Wartung",
+            "description": "Betrieb: einzelne Übungsstände wiederherstellen, Updates prüfen; historische Raumoberfläche einordnen."
+          },
+          {
+            "text": "Skripte & Prüfstatus",
+            "link": "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/",
+            "description": "Gezielte Werkzeuge, Ausführungsorte, Parameter und belastbare Grenzen der Skriptprüfung."
           }
         ]
       }

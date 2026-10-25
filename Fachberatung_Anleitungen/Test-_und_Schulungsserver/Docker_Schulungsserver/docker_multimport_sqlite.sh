@@ -1,8 +1,4 @@
-#!/bin/bash
-###########################################################################################
-### Das Skript importiert mehrere Datenbanken auf dem angegebenen SVWS-Docker-Container ###
-###########################################################################################
-#  
+#!/usr/bin/env bash
 # Copyright (c) $(date +%Y)
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,81 +18,26 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-###########################################################################################
-
-# --- KONFIGURATION ---
-ENV_FILE=".env"
-CONTAINER_NAME=""
-MARIA_DB_PASS=""
-# Pfade für die sqlite_db_sources.list
-SOURCE_FILE="$(dirname "$0")/sqlite_db_sources.list"
-TARGET_PATH="/opt/app/svws/sqlite_db_sources.list"
-
-# 1. Parameter einlesen
-while [[ $# -gt 0 ]]; do
-    case "$1" in
-        -p)  MARIA_DB_PASS="$2"; shift 2 ;; 
-        -nr) CONTAINER_NAME="$2"; shift 2 ;;
-        -h|--help)
-            echo "Usage: $0 [-nr CONTAINER_NAME] [-p MARIADB_ROOT_PASSWORD]"
-            exit 0
-            ;;
-        *) echo "Unbekannter Parameter: $1"; exit 1 ;;
-    esac
+set -euo pipefail
+if [[ "${1:-}" == -h || "${1:-}" == --help ]]; then
+  echo "Historischer Name: importiert EINE lokale SQLite-Datei über den veröffentlichten HTTPS-Port."
+  echo "Nutzung: $0 -nr CONTAINER -f DATEI -n SCHEMA -u SCHEMAUSER [--insecure]; beide SVWS_*_PASSWORD-Variablen setzen."; exit 0
+fi
+CONTAINER= FILE= SCHEMA= USERNAME= TLS=()
+while (($#)); do
+  case "$1" in
+    --insecure) TLS=(--insecure); shift ;;
+    -nr|-f|-n|-u) (($# >= 2)) || exit 2; key=$1; value=$2; shift 2
+      case "$key" in -nr) CONTAINER=$value ;; -f) FILE=$value ;; -n) SCHEMA=$value ;; -u) USERNAME=$value ;; esac ;;
+    *) exit 2 ;;
+  esac
 done
-
-# 2. Pflichtparameter prüfen
-if [[ -z "$CONTAINER_NAME" ]]; then
-    echo "Fehler: Container-Name oder ID (-nr) muss angegeben werden."
-    exit 1
-fi
-
-# 3. Passwort-Logik
-if [[ -z "$MARIA_DB_PASS" && -f "$ENV_FILE" ]]; then
-    MARIA_DB_PASS=$(grep '^MARIADB_ROOT_PASSWORD=' "$ENV_FILE" | cut -d'=' -f2-)
-fi
-
-if [[ -z "$MARIA_DB_PASS" ]]; then
-    if [[ -d "$CONTAINER_NAME" && -f "$CONTAINER_NAME/.env" ]]; then
-        echo "Info: Passwort nicht in globaler .env gefunden. Suche in $CONTAINER_NAME/.env..."
-        MARIA_DB_PASS=$(grep '^MARIADB_ROOT_PASSWORD=' "$CONTAINER_NAME/.env" | cut -d'=' -f2-)
-    fi
-fi
-
-# 4. Prüfen, ob der Docker-Container existiert und läuft
-CONTAINER_STATUS=$(docker inspect -f '{{.State.Running}}' "$CONTAINER_NAME" 2>/dev/null)
-
-if [[ "$CONTAINER_STATUS" != "true" ]]; then
-    echo "Fehler: Der Container '$CONTAINER_NAME' läuft nicht oder existiert nicht."
-    exit 1
-fi
-
-echo "Check: Container '$CONTAINER_NAME' ist aktiv."
-
----
-
-# 5. NEU: sqlite_db_sources.list übertragen (falls vorhanden)
-if [[ -f "$SOURCE_FILE" ]]; then
-    echo "Info: Lokale Quelldatei gefunden. Kopiere nach $CONTAINER_NAME:$TARGET_PATH ..."
-    if docker cp "$SOURCE_FILE" "$CONTAINER_NAME:$TARGET_PATH"; then
-        docker exec -u root "$CONTAINER_NAME" chmod 644 "$TARGET_PATH"
-        echo "ERFOLG: sqlite_db_sources.list wurde übertragen."
-    else
-        echo "WARNUNG: Übertragung der sqlite_db_sources.list fehlgeschlagen."
-    fi
-else
-    echo "Info: Keine lokale sqlite_db_sources.list gefunden. Überspringe Kopiervorgang."
-fi
-
-# 6. Download/Update des Import-Skripts im Docker-Container
-echo "Bereite Import-Skript im Container vor..."
-docker exec -u root "$CONTAINER_NAME" bash -c "which wget > /dev/null || (apt-get update && apt-get install -y wget); wget -N https://github.com/SVWS-NRW/SVWS-Dokumentation/raw/refs/heads/main/deployment/Testserver/multimport_sqlite.sh"
- 
-# 7. Ausführung des Imports
-if [[ -n "$MARIA_DB_PASS" ]]; then
-    echo "Info: MariaDB Passwort gesetzt. Starte Import..."
-    docker exec "$CONTAINER_NAME" bash multimport_sqlite.sh -rp "$MARIA_DB_PASS" -s localhost -p 8443
-else
-    echo "Info: Kein Passwort explizit gesetzt. Nutze interne Variablen des Containers..."
-    docker exec "$CONTAINER_NAME" bash multimport_sqlite.sh -s localhost -p 8443
-fi
+[[ "$CONTAINER" =~ ^[a-zA-Z0-9][a-zA-Z0-9_.-]*$ && -f "$FILE" && -n "$SCHEMA" && -n "$USERNAME" ]] || exit 2
+[[ "$(docker inspect -f '{{.State.Running}}' "$CONTAINER")" == true ]] || exit 1
+MAPPING=$(docker port "$CONTAINER" 8443/tcp | awk '/^[0-9.]+:/ {print; exit}')
+HOST=${MAPPING%:*}
+PORT=${MAPPING##*:}
+[[ "$HOST" != 0.0.0.0 ]] || HOST=127.0.0.1
+[[ "$PORT" =~ ^[1-9][0-9]{0,4}$ ]] || { echo "Kein veröffentlichter IPv4-HTTPS-Port." >&2; exit 1; }
+BASE=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)
+exec bash "$BASE/Installationsskripte/create_svws_testdbs.sh" -f "$FILE" -n "$SCHEMA" -u "$USERNAME" -s "$HOST" -P "$PORT" "${TLS[@]}"

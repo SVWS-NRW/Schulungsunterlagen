@@ -1,8 +1,4 @@
-#!/bin/bash
-###############################################
-### Das Skript löscht alle Docker Container ###
-###############################################
-#  
+#!/usr/bin/env bash
 # Copyright (c) (Mai 2026) Theo Richter & David Klein
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,24 +18,22 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-###############################################
-
-
-# Abfrage an den Benutzer
-read -p "Möchten Sie wirklich ALLE Container stoppen und löschen? (ja/nein): " answer
-
-# Prüfung der Antwort
-if [[ "$answer" == "ja" || "$answer" == "j" ]]; then
-    echo "##### Stop all Container #####"
-    docker stop $(docker ps -a -q)
-
-    echo "###### remove all Container #####"
-    docker rm $(docker ps -a -q)
-    
-    echo "Done."
+set -euo pipefail
+usage() { echo "Nutzung: $0 --project-dir ORDNER [--execute]"; echo "Ohne --execute nur Prüfung. Entfernt nur Projektcontainer, NICHT die Datenordner."; }
+PROJECT= EXECUTE=false
+while (($#)); do
+  case "$1" in
+    -h|--help) usage; exit 0 ;;
+    --project-dir) (($# >= 2)) || exit 2; PROJECT=$2; shift 2 ;;
+    --execute) EXECUTE=true; shift ;;
+    *) usage >&2; exit 2 ;;
+  esac
+done
+[[ -n "$PROJECT" && -f "$PROJECT/docker-compose.yml" ]] || { usage >&2; exit 2; }
+grep -qx '# FBM-Schulungsprojekt' "$PROJECT/docker-compose.yml" || { echo "Kein gekennzeichnetes Schulungsprojekt; Abbruch." >&2; exit 1; }
+docker compose --project-directory "$PROJECT" -f "$PROJECT/docker-compose.yml" config --quiet
+if [[ "$EXECUTE" == true ]]; then
+  docker compose --project-directory "$PROJECT" -f "$PROJECT/docker-compose.yml" down
 else
-    echo "Abgebrochen. Es wurden keine Container verändert."
+  echo "Geprüft; keine Container verändert. Für das Entfernen --execute ergänzen."
 fi
-
-# Status anzeigen
-docker ps -a

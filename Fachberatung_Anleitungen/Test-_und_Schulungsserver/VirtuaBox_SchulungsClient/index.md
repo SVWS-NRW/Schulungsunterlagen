@@ -1,100 +1,50 @@
-# SchulungsClient
+# Arbeitsplätze und lokale Server-VMs planen
 
-Unter SchulungsClients sollen hier (virtuelle) Maschinen verstanden werden, die für einen Teilnehmenden bzw. eine Schulungsplatzinstanz zur Verfügung stehen.
+## Was ist hier ein Schulungsclient?
 
-## Anforderungen
+Der **Arbeitsplatz** ist der Rechner, an dem die teilnehmende Person arbeitet. Eine **lokale Server-VM** ist dagegen ein zusätzlicher virtueller Rechner für SVWS-Server und MariaDB. Ein Debian-Gast ist kein Windows-Schulungsclient und enthält nicht automatisch SchILD-NRW 3.
 
-+ der SchulungsClient sollte eine virtuelle Maschine sein, so dass unabhängig von der zur Verfügung stehenden Hardware gearbeitet werden kann
-+ wenn möglich, sollen keine Lizensen an den Client gebunden sein, so dass dieser bedenkenlos weitergegeben werden kann
-+ der Client sollte updatefähig sein
-+ über den Client sollten Schulungsmedien bereitgestellt werden können, die individuell bearbeitbar sind
-+ der Client soll verschiedene Schulungsdatenbanken einbinden können
-+ die Fortbilder sollen den Client auf Deine Bedürfnisse anpassen können
-+ der Client sollte auf verschiedenen Plattformen (Proxmox, VMWare, HyperV, usw.) betrieben werden können
-+ der Client sollte entfernt steuerbar sein (rdp,vnc, x2go, usw.)
-+ der Client sollte ressourcenschonend betrieben werden können
+## Vorhandene Windows-PCs im Raum
 
-## Installation des Grundsystems
+Nutze nach Möglichkeit die bereits betreuten PCs und einen zentralen Schulungsserver. Für SVWS-Client-Übungen genügt ein geeigneter Browser. Für SchILD-NRW 3 muss die Windows-Anwendung mit der richtigen `.con`-Datei bereitstehen; der Arbeitsplatz benötigt derzeit HTTPS- und MariaDB-Zugriff.
 
-Als Grundsystem auf der VM für den SVWS-Server ist es empfehlenswert ein Debian, aktuell Debian 13, zu verwenden. Es kann die Installation ohne grafisches Frontend in einer KVM oder alternativ einem LX-Container gewählt werden. Es kann hier nicht auf die verschiedenen Methoden der Erstellung von VMs oder Containern unter dem jeweiligen Virtualizer eingegangen werden.
+Die Moderation erhält eine eindeutige Zuordnung: **Arbeitsplatz → Server → Schema → Übungszugang**. Zwei Personen sollen nicht unbeabsichtigt im selben Schema arbeiten.
 
-Es ist zu beachten, dass keine weiteren Dienste auf den Ports `80`, `443` bzw. `8443` verwendet werden.
+## Mitgebrachte Laptops
 
-## Installation des SVWS-Servers
+| Situation | Vorgehen |
+| --- | --- |
+| Zentrales Netz und Server zuverlässig erreichbar | Laptop als Arbeitsplatz nutzen; lokale Serverinstallation vermeiden |
+| Windows-Laptop ohne gemeinsames Netz | Vorbereitete lokale Debian-Server-VM; SchILD-NRW 3 auf Windows |
+| Mac oder Linux, reine Browseraufgaben | Browser am zentralen Server |
+| Mac oder Linux, Schulungsziel erfordert SchILD-NRW 3 | Vorab geeigneten Windows-Arbeitsplatz oder betreuten Fernzugang bereitstellen |
+| Zu wenig Speicher, keine Virtualisierung oder keine Adminrechte | Raum-PC oder zentral bereitgestellten Arbeitsplatz verwenden |
 
-Eine Methode ist hier die Installation per Linux-Installer
+Prüfe insbesondere CPU-Architektur und Virtualisierungsunterstützung. Ein für x86-64 vorbereiteter Gast lässt sich nicht pauschal auf beliebigen ARM-Geräten einsetzen. Windows- und Fernzugangslizenzen sind mit dem Stützpunkt zu klären; Virtualisierung macht sie nicht überflüssig.
 
-## Installation SchILD-NRW 3
+## Eine lokale Server-VM vorbereiten
 
-## Zurücksetzen und Einspielen neuer Datenbanken
+1. Host prüfen: unterstütztes Betriebssystem, Adminrechte für den Hypervisor, genügend RAM und freier SSD-Speicher.
+2. [VirtualBox und Debian installieren](./Virtualbox_Installation/index.md).
+3. Eindeutig den **Netzmodus** wählen: NAT für Downloads, Host-only für Verbindung vom eigenen Laptop zur VM, Netzwerkbrücke nur nach Freigabe im Raum.
+4. In Debian entweder den [Docker-Aufbau](../Docker_Schulungsserver/index.md) oder den offiziellen [Linux-Installer](https://doku.svws-nrw.de/deployment/Linux-Installer/) verwenden. Nicht beides ungeplant im selben Gast installieren.
+5. Datenbank importieren und bei Bedarf SchILD-NRW 3 auf dem Windows-Host anbinden.
+6. Gesamtablauf testen, die VM geordnet herunterfahren und einen Ausgangsstand sichern.
 
-Löschen der vorhanden Datenbanken auf der Konsole des SVWS-Servers per `curl` Aufruf:
+Ein sinnvoller erster Prüfwert für eine kleine Server-VM sind 2 virtuelle CPUs, 8 GB RAM und 40 GB virtuelle Platte. Das ist eine Planungsgröße, keine garantierte Mindestanforderung. Auf dem Host müssen zusätzlich sein eigenes Betriebssystem und die Arbeitsplatzprogramme flüssig laufen; die Raumgröße ist durch eine Probe zu ermitteln.
 
-```bash
-#!/bin/bash
-############################### update-svwsdbs.sh #########################################
-#
-##
-# [Einstellungen]
-##
-SERVERNAME=Bitte_Domainnamen_angeben
-PORT=8443   #i.d.R ist das so korrekt
-MYSQLROOTPW=Bitte_PW_angeben
-MDB_PW=Bitte_PW_angeben
-#
-# SQLITE Datenbanken, die angelegt werden sollen:
-DB_1_NAME=TestDB_G # falls gesetzt, sonst leere Datenbank
-DB_1_USER=svwsadmin
-DB_1_MYSQL_PW=svwsadmin
-DB_1_PATH=/SVWS-TestMDBs/DB1.sqlite
-#
-#
-##
-# [Beispiel: Datenbanken download]
-##
-# wget https://github.com/SVWS-NRW/Schulungsunterlagen/blob/master/LeistungsdatenSekII/DB/1_Gym_Jg10_ohneWahlen.sqlite
-# mkdir /SVWS-TestMDBs
-# mv 1_Gym_Jg10_ohneWahlen.sqlite /SVWS-TestMDBs/DB1.sqlite
-#
-##
-# [Löschen der DB1]
-##
-echo "DB1 wird gelöscht"
-curl --user "root:${MYSQLROOTPW}" \
-	-k -X "POST" "https://${SERVERNAME}:${PORT}/api/schema/root/destroy/${DB_1_NAME}" \
-	-H "accept: application/json"
-#
-##
-# [Neu Anlegen einer DB1 aus SQLITE-File]
-#
-curl --user "root:${MYSQLROOTPW}" \
-  -X "POST" "https://${SERVERNAME}:${PORT}/api/schema/root/import/sqlite/${DB_1_NAME}" \
-  -H "accept: application/json" \
-  -H "Content-Type: multipart/form-data" \
-  -F "database=@${DB_1_PATH}" \
-  -F "schemaUsername=${DB_1_USER}" \
-  -F "schemaUserPassword=${DB_1_MYSQL_PW}"
+## Netzwerk und Datenbanken prüfen
 
-#
-##
-# [Beispiel: MDB Datenbanken migrieren]
-##
-# DB_2_NAME=TestDB_G # falls gesetzt, sonst leere Datenbank
-# DB_2_USER=svwsadmin
-# DB_2_MYSQL_PW=svwsadmin
-# DB_2_PATH=/SVWS-TestMDBs/DB2.mdb
-#
-# Beispiel: Neu Anlegen der DB2 als Migration aus MDB
-# echo "DB1 wird angelegt"
-# curl --user "root:${MYSQLROOTPW}" \
-#	-k -X "POST" "https://${SERVERNAME}:${PORT}/api/schema/root/migrate/mdb/${DB_2_NAME}" \
-#	-H "accept: application/json" \
-#	-H "Content-Type: multipart/form-data" \
-#	-F "databasePassword=${MDB_PW}" \
-#	-F "schemaUsername=${DB_2_USER}" \
-#	-F "schemaUserPassword=${DB_2_MYSQL_PW}" \
-#	-F "database=@${DB_2_PATH}"
-#
-```
+„localhost“ bezeichnet immer **den Rechner, auf dem der jeweilige Aufruf läuft**. Vom Windows-Host aus ist `https://localhost:8443` nicht automatisch der Debian-Gast. Verwende die Host-only-Adresse der VM oder eine ausdrücklich eingerichtete NAT-Portweiterleitung. Bei reinem NAT ist der Gast nicht automatisch von anderen Raum-PCs erreichbar.
 
-Im Skript auskommentiert ist hier die Möglichkeit, auch vorhandene Datenbanken zu migrieren. Die Methode, ein SQLite-Backup einzuspielen, ist jedoch wesentlich performanter als die Mirgation einer Access-Datenbank und sollte hier primär verwendet werden.
+Die frühere ungeprüfte Inline-Anweisung zum Löschen und Neuimportieren einer Datenbank ist durch den [beschriebenen Rücksetzablauf](../Moderatoren_Schulungsserver/Wartung.md) ersetzt. Prüfe Zielserver und Schema, bevor Du einen vorhandenen Stand überschreibst.
+
+## Abnahme vor der Schulung
+
+- VM startet und stoppt geordnet; Host behält genügend freie Ressourcen.
+- Gewählte Verbindung funktioniert ohne Umstellung während der Schulung.
+- Browser und gegebenenfalls SchILD-NRW 3 öffnen das **richtige** Schema.
+- Aufgaben funktionieren und der Ausgangsstand lässt sich wiederherstellen.
+- Stand, Versionen und Zuständigkeit sind dokumentiert.
+
+Grundlagen: [Oracle – Netzwerkmodi](https://docs.oracle.com/en/virtualization/virtualbox/7.2/user/networkingdetails.html) und [SVWS – Verbindung von SchILD-NRW 3](https://doku.svws-nrw.de/deployment/Schild-NRW3/).

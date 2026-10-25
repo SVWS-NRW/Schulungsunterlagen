@@ -1,4 +1,14 @@
-#!/bin/bash
+#!/usr/bin/env bash
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then
+  echo "Bestandsskript: install_svws_testserver_fromScratch.sh. Zweck, Parameter und Einschränkungen: Installationsskripte/index.md#pruefbericht"
+  exit 0
+fi
+if [[ "${FBM_EXPERIMENTAL:-}" != 1 ]]; then
+  echo "Experimentelles Bestandsskript ohne Integrationsfreigabe. Nutze die beschriebenen Standardwege; Details im Prüfbericht." >&2
+  exit 78
+fi
+set -e
+umask 077
 ########################################################################################
 ### Das Skript installiert den SVWS-Servers auf Basis des angegebene Github Branches ###
 ########################################################################################
@@ -109,7 +119,7 @@ sed -i \
   /app/SVWS-Server/svws-server-app/svwsconfig.json
   
 # SVWS-Server als Dienst einrichten
-chown -R svws:svws 
+chown -R svws:svws /app/SVWS-Server
 git config --global --add safe.directory /app/SVWS-Server/app/SVWS-Server/
 
 echo "[Unit]

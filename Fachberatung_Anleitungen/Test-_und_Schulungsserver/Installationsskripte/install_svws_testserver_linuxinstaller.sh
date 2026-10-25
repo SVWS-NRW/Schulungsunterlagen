@@ -1,8 +1,4 @@
-#!/bin/bash
-###############################################
-### Das Skript löscht alle Docker Container ###
-###############################################
-#  
+#!/usr/bin/env bash
 # Copyright (c) (Mai 2026) Theo Richter & David Klein
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,69 +18,49 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-###############################################
-
-# Standard-Hilfefunktion
-usage() {
-  echo "Usage: $0 -p <password> -v <serverversion>"
-  echo "  -p  Passwort für MariaDB und Keystore"
-  echo "  -v  SVWS-Server Version (z.B. 1.1.1)"
-  exit 1
-}
-
-# Parameter auslesen
-while getopts "p:v:" opt; do
-  case $opt in
-    p) PASSWORD="$OPTARG" ;;
-    v) SVWSVERSION="$OPTARG" ;;
-    *) usage ;;
+set -euo pipefail
+umask 077
+usage() { echo "Nutzung: $0 -v X.Y.Z -p PASSWORT [--prepare-only]"; echo "Nur frische Debian-Server/VM; neuer Unterordner svws-install-X.Y.Z mit geschützter .env."; }
+VERSION= PASSWORD= PREPARE=false
+while (($#)); do
+  case "$1" in
+    -h|--help) usage; exit 0 ;;
+    --prepare-only) PREPARE=true; shift ;;
+    -v|-p) (($# >= 2)) || exit 2; key=$1; value=$2; shift 2
+      case "$key" in -v) VERSION=$value ;; -p) PASSWORD=$value ;; esac ;;
+    *) usage >&2; exit 2 ;;
   esac
 done
-
-# Pflichtfelder prüfen
-if [ -z "$PASSWORD" ] || [ -z "$SVWSVERSION" ]; then
-  echo "Fehler: Passwort (-p) und Version (-v) müssen angegeben werden."
-  usage
-fi
-
-#############################################
-# locales setzen 
-sed -i '/^# de_DE.UTF-8 UTF-8/s/^# //' /etc/locale.gen
-locale-gen
-update-locale LANG=de_DE.UTF-8
-export LANG=de_DE.UTF-8
-export LC_ALL=de_DE.UTF-8
-timedatectl set-timezone Europe/Berlin
-
-# System-Updates und Abhängigkeiten
-apt update && apt upgrade -y 
-apt install -y unzip git curl net-tools wget jq
-
-# Download des Installers
-wget "https://github.com/SVWS-NRW/SVWS-Server/releases/download/v${SVWSVERSION}/install-${SVWSVERSION}.sh"
-
-# Download des SVWS-Servers 
-wget -q  https://github.com/SVWS-NRW/SVWS-Server/releases/download/v${SVWSVERSION}/linux-installer-${SVWSVERSION}.tar.gz
-
-# Konfigurationsdatei (.env) erstellen
-cat <<EOF > .env
+[[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ && "$PASSWORD" =~ ^[A-Za-z0-9_-]{12,}$ ]] || { usage >&2; exit 2; }
+[[ "$PREPARE" == true || "$EUID" -eq 0 ]] || { echo "Root-Rechte erforderlich." >&2; exit 1; }
+WORK="svws-install-$VERSION"
+[[ ! -e "$WORK" && ! -L "$WORK" ]] || { echo "Arbeitsordner existiert bereits; keine .env überschrieben." >&2; exit 1; }
+command -v curl >/dev/null
+mkdir -- "$WORK"
+(
+  cd -- "$WORK"
+  curl --fail --show-error --silent --location --retry 2 \
+    "https://github.com/SVWS-NRW/SVWS-Server/releases/download/v$VERSION/install-$VERSION.sh" -o "install-$VERSION.sh"
+  bash -n "install-$VERSION.sh"
+  cat > .env <<EOF
 CREATE_MARIADB=j
 CREATE_KEYSTORE=j
-MARIADB_ROOT_PASSWORD=${PASSWORD}
+MARIADB_ROOT_PASSWORD=$PASSWORD
 APP_PATH=/opt/app/svws
 CONF_PATH=/etc/app/svws/conf
 APP_PORT=8443
 SVWS_TLS_KEYSTORE_PATH=/etc/app/svws/conf/keystore
-SVWS_TLS_KEYSTORE_PASSWORD=${PASSWORD}
+SVWS_TLS_KEYSTORE_PASSWORD=$PASSWORD
 SVWS_TLS_KEY_ALIAS=svws
 INPUT_COMMON_NAME=svws
-INPUT_ORGANIZATIONAL_UNIT=svws
-INPUT_ORGANIZATION=svws
+INPUT_ORGANIZATIONAL_UNIT=Schulung
+INPUT_ORGANIZATION=Schulung
 INPUT_LOCALITY=NRW
 INPUT_STATE=NRW
 INPUT_COUNTRY=DE
 validity_days=3650
 EOF
-
-# Installation starten
-bash "install-${SVWSVERSION}.sh"
+  chmod 600 .env
+  if [[ "$PREPARE" == false ]]; then bash "install-$VERSION.sh"; fi
+)
+echo "Arbeitsordner: $WORK. Version, .env und tatsächliche Dienstbereitschaft dokumentieren."

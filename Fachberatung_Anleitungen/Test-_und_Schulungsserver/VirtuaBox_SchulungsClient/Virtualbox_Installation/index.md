@@ -1,139 +1,118 @@
-# Virtualbox
+# VirtualBox und eine lokale Debian-Server-VM
 
-Diese Anleitung beschreibt die Installation von VirtualBox, das Klonen und Erstellen von Snapshots virtueller Maschinen sowie die Installation eines Wenom- bzw. eines SVWS-Servers. Ziel ist es, einen niederschwelligen Einstieg in die Einrichtung von Testumgebungen für den SVWS-Server, Schild3 und die SVWS-Tools zu ermöglichen.
+## Ziel
 
-## Installation von Virtualbox unter Windows 11
+Du installierst VirtualBox **auf dem Windows-Laptop oder Windows-Raum-PC** und darin eine Debian-VM für die Serverdienste. SchILD-NRW 3 bleibt bei dieser Variante auf dem Windows-Host. Die VM enthält es nicht.
 
-Voraussetzung ist eine Windows 11 Installation mit Admin-Rechten, um die benötigten Programme installieren zu dürfen.
+## Vorbereiten
 
-Download von Virtualbox bei Oracle - siehe auch:  <https://www.virtualbox.org/wiki/Downloads>
+Prüfe Host-Unterstützung, CPU-Architektur, aktivierte Hardwarevirtualisierung und ausreichende Ressourcen. Für die Server-VM kannst Du zunächst 2 vCPUs, 8 GB RAM und 40 GB virtuelle Platte einplanen und den Bedarf dann praktisch prüfen. Ohne ausreichende Reserven ist der zentrale Server die bessere Wahl.
 
--> Download [virtualbox-7.2.10](https://download.virtualbox.org/virtualbox/7.2.10/VirtualBox-7.2.10-174163-Win.exe)
+Beziehe VirtualBox über die [offizielle Downloadseite](https://www.virtualbox.org/wiki/Downloads). Wähle den passenden Host-Installer und beachte dessen aktuelle Voraussetzungen. Eine zusätzlich benötigte Microsoft-Runtime beziehst Du aus der [Microsoft-Quelle](https://aka.ms/vc14/vc_redist.x64.exe).
 
-Zur Installation ist Visual C++ ggf zusätzlich benötigt.
+Die unten erhaltenen Bilder zeigen eine konkrete ältere Beispielinstallation. Versionsnummern und Dialoge können abweichen; feste Patchversionen in einer Anleitung sind keine dauerhaften Downloadadressen.
 
--> Donwload [VC_redist.x64.exe](https://aka.ms/vc14/vc_redist.x64.exe)
+## 1. VirtualBox auf Windows installieren
 
-### Installieren  von Visual C++
+1. Speichere offene Arbeiten und schließe Programme, deren Netzverbindung nicht unterbrochen werden darf.
+2. Starte den geprüften Installer mit den benötigten Administrationsrechten.
+3. Lies Netzwerk- und Treiberhinweise. Die Einrichtung virtueller Adapter kann Verbindungen kurz unterbrechen; Warnungen nicht pauschal ignorieren.
+4. Starte VirtualBox und prüfe, ob Du eine neue VM anlegen kannst.
 
-![alt text](image.png)
+## 2. Debian-Gast anlegen
 
-![alt text](image-1.png)
+1. Lade ein passendes Installationsabbild von [Debian](https://www.debian.org/distrib/). Die Architektur muss zum geplanten Gast und Host passen.
+2. Erstelle eine neue VM; wähle Debian und die passende Architektur. Ordne die ISO als Installationsmedium zu.
+3. Weise die geplanten Ressourcen zu und installiere Debian auf **der virtuellen Platte**, nicht auf einer Host-Platte.
+4. Für einen reinen Server reichen Basissystem und bei Bedarf SSH; eine grafische Oberfläche ist kein Erfordernis für den SVWS-Server.
+5. Erstelle verwaltete Zugangsdaten, starte neu und entferne das ISO aus dem virtuellen Laufwerk.
 
-### Installieren von Virtualbox
+## 3. Netzwerk passend zum Einsatz wählen
 
-![alt text](image-2.png)
+| Netzmodus | Geeignet für | Wichtige Grenze |
+| --- | --- | --- |
+| NAT | Downloads und ausgehende Verbindungen des Gasts | Vom Host oder Raum aus ist ein Server im Gast ohne Portweiterleitung nicht automatisch erreichbar |
+| Host-only plus zweiter NAT-Adapter | Lokale Verbindung zwischen Laptop und Gast sowie Downloads | Host-only allein bietet keinen Internetzugang; keine zusätzlichen Standardgateways auf beiden Adaptern konfigurieren |
+| Netzwerkbrücke | Gast als eigener Rechner im freigegebenen Schulungsnetz | Netzverwaltung, WLAN-/MAC-Vorgaben und Adressvergabe müssen das unterstützen |
 
-![alt text](image-3.png)
+Notiere die **Gastadresse**. Eine Windows-PowerShell-Verbindung per `ssh BENUTZER@GASTADRESSE` setzt einen laufenden SSH-Dienst im Gast voraus. „localhost“ auf Windows bezeichnet nicht automatisch die VM.
 
-![alt text](image-4.png)
+Grundlage ist [Oracle: Netzwerkmodi](https://docs.oracle.com/en/virtualization/virtualbox/7.2/user/networkingdetails.html).
 
-folgende Warungen einfach ignorieren:
+## 4. Serverdienste installieren
 
-![alt text](image-5.png)
+Wähle in der Debian-VM genau einen Grundaufbau: [Docker-Projekt](../../Docker_Schulungsserver/index.md) oder [Linux-Installer](../../Installationsskripte/index.md#linux-installer). Installiere WeNoM oder weitere Tools erst, wenn eine Schulungsaufgabe sie benötigt.
 
-![alt text](image-6.png)
+Beim Linux-Wrapper sind **Version und Passwort erforderlich**. Ein Aufruf nur mit `-v` genügt nicht. Nutze die dokumentierten Parameter; lade keine Skripte aus den früheren, inzwischen abweichenden Repositorypfaden.
 
-## Installation von Debian 13 auf einer virtuellen Maschine (VM)
+## 5. Ausgangsstand, Snapshots und Klone
 
-Download eines Debain .iso Images von der offiziellen Seite: <https://www.debian.org/distrib/>
+Teste Anmeldung, Datenimport und bei Bedarf die SchILD-Verbindung. Fahre die VM anschließend geordnet herunter und sichere den geprüften Stand. Ein Snapshot dient dem schnellen Rücksprung; eine separate Sicherung schützt auch vor Verlust der Laptop-Platte.
 
-Download -> [Debian 13.5.0](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-13.5.0-amd64-netinst.iso)
+Bei einem Klon sind Name, Netzwerkidentität, IP-Adresse und Zugangsdaten zu prüfen. Verteile keine parallel verwendeten statischen Adressen. Ein Snapshot oder Klon ersetzt außerdem keine Prüfung der Zugänge und der Dateisystemkonsistenz.
 
-![alt text](image-7.png)
+::: details Bildfolge der bisherigen Beispielinstallation
+Die Bilder bleiben als Orientierung erhalten. Nutze die aktuelle Textanleitung für Ziel, Netzmodus und Abnahme; übernimm sichtbare Namen, Adressen und Versionsstände nicht unverändert.
 
-Virtual Box öffnen und eine neue Maschine erstellen.
+![Beispielinstallation: 1 – image](image.png)
 
-![alt text](image-8.png)
+![Beispielinstallation: 2 – image-1](image-1.png)
 
-Dann die gewünschten Werte angeben:
+![Beispielinstallation: 3 – image-2](image-2.png)
 
-![alt text](image-11.png)
+![Beispielinstallation: 4 – image-3](image-3.png)
 
-![alt text](image-10.png)
+![Beispielinstallation: 5 – image-4](image-4.png)
 
-VM Starten und den Anweisungen folgen
+![Beispielinstallation: 6 – image-5](image-5.png)
 
-![alt text](image-14.png)
+![Beispielinstallation: 7 – image-6](image-6.png)
 
-Alternativ den graphischen Installer nehmen:
+![Beispielinstallation: 8 – image-7](image-7.png)
 
-![alt text](image-16.png)
+![Beispielinstallation: 9 – image-8](image-8.png)
 
-... mehrer Fenster müssen ausgefüllt werden oder geben Informationen
+![Beispielinstallation: 10 – image-11](image-11.png)
 
-![alt text](image-17.png)
+![Beispielinstallation: 11 – image-10](image-10.png)
 
-... unter anderem die Angabe, wo wir den Download haben
+![Beispielinstallation: 12 – image-14](image-14.png)
 
-![alt text](image-18.png)
+![Beispielinstallation: 13 – image-16](image-16.png)
 
-![alt text](image-19.png)
+![Beispielinstallation: 14 – image-17](image-17.png)
 
-![alt text](image-20.png)
+![Beispielinstallation: 15 – image-18](image-18.png)
 
-![alt text](image-22.png)
+![Beispielinstallation: 16 – image-19](image-19.png)
 
-... Angaben zu Statistik und Softwarequellen übernehmen und entsprechend die Softwarepakete  angeben (siehe Screenshot):
+![Beispielinstallation: 17 – image-20](image-20.png)
 
-![alt text](image-23.png)
+![Beispielinstallation: 18 – image-22](image-22.png)
 
-![alt text](image-24.png)
+![Beispielinstallation: 19 – image-23](image-23.png)
 
-![alt text](image-25.png)
+![Beispielinstallation: 20 – image-24](image-24.png)
 
-Installation abgeschlossen und reboot ...
+![Beispielinstallation: 21 – image-25](image-25.png)
 
-![alt text](image-26.png)
+![Beispielinstallation: 22 – image-26](image-26.png)
 
-### Einloggen und ausprobieren
+![Beispielinstallation: 23 – image-27](image-27.png)
 
-![alt text](image-27.png)
+![Beispielinstallation: 24 – image-29](image-29.png)
 
-... ggf die Netzwerkeinstellungen auf Netzwerkbrücke ändern, zum Beispiel für den Betrieb hinter einer Fritzbox.
+![Beispielinstallation: 25 – image-28](image-28.png)
 
-![alt text](image-29.png)
+![Beispielinstallation: 26 – image-31](image-31.png)
 
-![alt text](image-28.png)
+![Beispielinstallation: 27 – image-30](image-30.png)
 
-Alternativer login über die Powershell vom Windowssytem:
+![Beispielinstallation: 28 – image-12](image-12.png)
 
-![alt text](image-31.png)
+![Beispielinstallation: 29 – image-13](image-13.png)
+:::
 
-## Erstellen von Snapshots und Klonen
+## Erfolgskontrolle
 
-![alt text](image-30.png)
-
-![alt text](image-12.png)
-
-Sicherungspunkte erstellen und Klone erstellen.
-
-## Installation eines SVWS-Servers in diese VM
-
-Zum Beispiel einen Klon erstellen und hochfahren.
-
-![alt text](image-13.png)
-
-dann hier dieses Skript herunterladen und ausführen.
-
-<https://github.com/SVWS-NRW/Schulungsunterlagen/raw/refs/heads/master/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/install_svws_testserver_linuxinstaller.sh>
-
-ausführen mit
-
-```bash
-bash install_svws_testserver_linuxinstaller.sh -v 1.3.2
-```
-
-## Installation eines Wenom-Servers in dieser VM
-
-Quasi analoges Vorgehen
-
-dann hier dieses Skript herunterladen und ausführen.
-
-<https://github.com/SVWS-NRW/Schulungsunterlagen/raw/refs/heads/master/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/install_wenom_testserver.sh>
-
-ausführen mit
-
-```bash
-bash install_wenom_testserver.sh -v 1.3.2
-```
+Die Debian-VM startet reproduzierbar, die benötigten Endpunkte sind vom Windows-Host erreichbar, das richtige Übungsschema wird geöffnet und ein Rücksetzversuch funktioniert. Dokumentiere dafür VM-Datei, Programmstände, Netzmodus und Ansprechpartner.

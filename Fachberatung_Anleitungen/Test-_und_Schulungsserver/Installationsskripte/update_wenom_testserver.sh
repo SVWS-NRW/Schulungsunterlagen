@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then
+  echo "Bestandsskript: update_wenom_testserver.sh. Zweck, Parameter und Einschränkungen: Installationsskripte/index.md#pruefbericht"
+  exit 0
+fi
+set -e
+umask 077
 ###############################################
 ### Das Skript löscht alle Docker Container ###
 ###############################################
@@ -63,16 +69,23 @@ if [ "$AUTO_YES" = false ]; then
     esac
 fi
 
-# System-Update
-apt update && apt upgrade -y && apt autoremove -y
+# Vor dem Eingriff das neue Paket in einem temporären Ordner vollständig prüfen.
+WORK=$(mktemp -d)
+trap 'rm -rf -- "$WORK"' EXIT
+curl --fail --show-error --silent --location "$DOWNLOADPATH" -o "$WORK/wenom.zip"
+unzip -t "$WORK/wenom.zip" >/dev/null
+[[ -d "$INSTALLPATH/db" && -d "$INSTALLPATH/public" ]] || { echo "Erwartete WeNoM-Struktur fehlt." >&2; exit 1; }
 
 # Verzeichnisse vorbereiten
 
 ########## optional: Datenbank sichern in root ordner ###########
 # cp "$INSTALLPATH/db/app.sqlite" "/root/app.sqlite.backup.$(date +%Y%m%d_%H%M%S)"
+BACKUP="/root/wenom-backup-$(date +%Y%m%d-%H%M%S).tar.gz"
+tar -C "$INSTALLPATH" -czf "$BACKUP" .
+echo "Sicherung: $BACKUP"
 rm -rf "$INSTALLPATH"/*
 cd "$INSTALLPATH" || exit 1
-wget -O wenom.zip "$DOWNLOADPATH"
+cp "$WORK/wenom.zip" wenom.zip
 unzip -q wenom.zip
 
 # Berechtigungen sicher setzen

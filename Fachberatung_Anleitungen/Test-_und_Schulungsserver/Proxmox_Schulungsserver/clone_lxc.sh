@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then
+  echo "Bestandsskript: clone_lxc.sh. Zweck, Parameter und Einschränkungen: Installationsskripte/index.md#pruefbericht"
+  exit 0
+fi
+set -e
+umask 077
 
 set -e
 
@@ -15,7 +21,8 @@ while getopts "i:n:" opt; do
     esac
 done
 
-[[ -z "$SRC_CT" || -z "$NUM_CLONES" ]] && usage
+[[ "$SRC_CT" =~ ^[1-9][0-9]{2,8}$ && "$NUM_CLONES" =~ ^[1-9][0-9]{0,2}$ ]] || usage
+((NUM_CLONES <= 128)) || usage
 
 # Existiert der Quellcontainer?
 if ! pct config "$SRC_CT" >/dev/null 2>&1; then
@@ -39,7 +46,7 @@ STATUS=$(pct status "$SRC_CT" | awk '{print $2}')
 
 if [[ "$STATUS" == "running" ]]; then
     echo "Fahre Container $SRC_CT herunter..."
-    pct shutdown "$SRC_CT"
+    pct shutdown "$SRC_CT" --timeout 120
 
     while [[ "$(pct status "$SRC_CT" | awk '{print $2}')" != "stopped" ]]; do
         sleep 2
@@ -64,13 +71,13 @@ for ((i=1; i<=NUM_CLONES; i++)); do
         continue
     fi
 
-    pct clone "$SRC_CT" "$NEW_CT"
+    pct clone "$SRC_CT" "$NEW_CT" --full 1
 
     pct set "$NEW_CT" --hostname "$NEW_HOSTNAME"
 
-    pct start "$NEW_CT"
+    # Erst nach Prüfung von IP-Adresse, Identität und Zugangsdaten starten.
 
-    echo "Clone $NEW_CT gestartet."
+    echo "Klon $NEW_CT vorbereitet, bleibt zur Netzprüfung ausgeschaltet."
 
 done
 

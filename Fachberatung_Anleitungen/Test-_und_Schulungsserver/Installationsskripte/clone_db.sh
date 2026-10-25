@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then
+  echo "Bestandsskript: clone_db.sh. Zweck, Parameter und Einschränkungen: Installationsskripte/index.md#pruefbericht"
+  exit 0
+fi
+set -e
+umask 077
 #######################################################################
 ### Das Skript klont die angegeben Datenbank des SVWS-Servers N mal ###
 #######################################################################
@@ -30,6 +36,7 @@ POSSIBLE_PATHS=(
     "/opt/app/svws/conf/svwsconfig.json"
     "/opt/app/svws/svwsconfig.json"
     "/etc/svws/svwsconfig.json"
+    "/etc/app/svws/conf/svwsconfig.json"
 )
 
 CONFIG_FILE=""
@@ -71,14 +78,14 @@ while getopts "d:n:p:" opt; do
 done
 
 # Validierung
-if [[ -z "$DB_NAME" || $COUNT -le 0 ]]; then
+if [[ ! "$DB_NAME" =~ ^[A-Za-z][A-Za-z0-9_]{0,63}$ || ! "$COUNT" =~ ^[1-9][0-9]*$ || ${#COUNT} -gt 3 || $COUNT -gt 128 ]]; then
     usage
 fi
 
 # Passwort ermitteln (Priorität: Parameter -> .env Datei)
 if [[ -z "$PASS" ]]; then
     if [[ -f .env ]]; then
-        PASS=$(grep '^MARIADB_ROOT_PASSWORD=' .env | cut -d '=' -f2 | tr -d '"' | tr -d "'")
+        PASS=$(grep '^MARIADB_ROOT_PASSWORD=' .env | cut -d '=' -f2- | tr -d '"' | tr -d "'")
     fi
 fi
 
@@ -104,7 +111,8 @@ if [[ -z "$SOURCE_USER" || "$SOURCE_USER" == "null" ]]; then
 fi
 
 # 2. Datenbank-Dump erstellen
-DUMP_FILE="temp_${DB_NAME}.sql"
+DUMP_FILE=$(mktemp)
+trap 'rm -f -- "$DUMP_FILE"' EXIT
 echo "Erstelle Dump von $DB_NAME..."
 if mysqldump -h localhost -u root "$DB_NAME" > "$DUMP_FILE"; then
     
@@ -114,7 +122,7 @@ if mysqldump -h localhost -u root "$DB_NAME" > "$DUMP_FILE"; then
         echo "Erstelle Klon: $NEW_DB"
         
         # Datenbank in MariaDB anlegen
-        mariadb -u root -e "CREATE DATABASE IF NOT EXISTS \`$NEW_DB\`;"
+        mariadb -u root -e "CREATE DATABASE \`$NEW_DB\`;"
         
         # Daten importieren
         mariadb -u root "$NEW_DB" < "$DUMP_FILE"
@@ -153,7 +161,7 @@ else
     exit 1
 fi
 
-chown -R svws:svws $CONFIG_FILE
+chown svws:svws "$CONFIG_FILE"
 unset MYSQL_PWD
 
 echo "--------------------------------------"
@@ -161,7 +169,8 @@ echo "Restart SVWS-Server..."
 if systemctl restart svws; then
     echo "Server erfolgreich neu gestartet."
 else
-    echo "Fehler beim Neustart des SVWS-Servers."
+    echo "Fehler beim Neustart des SVWS-Servers." >&2
+    exit 1
 fi
 
 echo "Vorgang abgeschlossen."

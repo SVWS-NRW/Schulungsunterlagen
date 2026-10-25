@@ -1,8 +1,4 @@
-#!/bin/bash
-################################################################
-### Das Skript erstellt einen LXC auf einer Proxmox PVE Node ###
-################################################################
-# 
+#!/usr/bin/env bash
 # Copyright (c) (Mai 2026) Theo Richter & David Klein
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,108 +18,34 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-################################################################
-
-
-# Pfad zur .env Datei
-ENV_FILE="$(dirname "$0")/.env"
-
-# 1. Standardwerte definieren (Fallback)
-NODE=$(hostname)
-LXC_TEMPLATE="local:vztmpl/debian-13-standard_13.1-1_amd64.tar.zst"
-GATEWAY="10.0.0.1"
-VSWITCH="vmbr1"
-STORAGE="local"
-
-# 2. .env Datei robust laden
-if [[ -f "$ENV_FILE" ]]; then
-    echo "Lade Konfiguration aus $ENV_FILE..."
-    while IFS='=' read -r key value || [[ -n "$key" ]]; do
-        [[ $key =~ ^[[:space:]]*# ]] && continue
-        [[ -z "$key" ]] && continue
-        value=$(echo "$value" | cut -d'#' -f1 | xargs)
-        export "$key=$value"
-    done < "$ENV_FILE"
-fi
-
-# Variablen initialisieren
-ROOTPW=${ROOTPW:-""}
-
-# 3. Parameter einlesen
-while [[ $# -gt 0 ]]; do
-    case "$1" in
-        -p) ROOTPW="$2"; shift 2 ;;
-        -nr) CONTAINER_ID="$2"; shift 2 ;;
-        -ip) IP="$2"; shift 2 ;;
-        -dn) FQDN="$2"; shift 2 ;;
-        -mac) MAC_ADDR="$2"; shift 2 ;; 
-        -h|--help)
-            echo "Usage: $0 [-p PASSWORD] -nr CONTAINER_ID [-ip IP] [-dn FQDN] [-mac MAC_ADDRESS]"
-            exit 0
-            ;;
-        *) echo "Unbekannter Parameter: $1"; exit 1 ;;
-    esac
+set -euo pipefail
+umask 077
+usage() { echo "Nutzung: $0 -nr ID [-ip IPv4/CIDR] [-dn HOSTNAME] [-p ROOTPW]"; echo "LXC_TEMPLATE, VSWITCH, STORAGE und bei statischer IP GATEWAY als Umgebungsvariablen setzen."; }
+ID= IP= NAME= PASSWORD=
+while (($#)); do
+  case "$1" in
+    -h|--help) usage; exit 0 ;;
+    -nr|-ip|-dn|-p) (($# >= 2)) || exit 2; key=$1; value=$2; shift 2
+      case "$key" in -nr) ID=$value ;; -ip) IP=$value ;; -dn) NAME=$value ;; -p) PASSWORD=$value ;; esac ;;
+    *) usage >&2; exit 2 ;;
+  esac
 done
-
-# Pflichtparameter prüfen
-if [[ -z "$CONTAINER_ID" ]]; then
-    echo "Fehler: Die Containernummer muss gesetzt werden - Beispiel: $0 -nr 1020"
-    exit 1
-fi
-
-# Passwort-Logik
-PW_GENERATED=false
-if [[ -z "$ROOTPW" ]]; then
-    ROOTPW=$(openssl rand -base64 12)
-    PW_GENERATED=true
-fi
-
-# Fallback für FQDN & IP
-[[ -z "$FQDN" ]] && FQDN="$CONTAINER_ID"
+[[ "$ID" =~ ^[1-9][0-9]{2,8}$ && -n "${LXC_TEMPLATE:-}" && -n "${VSWITCH:-}" && -n "${STORAGE:-}" ]] || { usage >&2; exit 2; }
+NAME=${NAME:-svws-$ID}
+[[ "$NAME" =~ ^[a-zA-Z][a-zA-Z0-9.-]{0,62}$ ]] || exit 2
+if pct config "$ID" >/dev/null 2>&1; then echo "CT-ID existiert bereits." >&2; exit 1; fi
+NET="name=eth0,bridge=$VSWITCH,firewall=1,ip=dhcp"
 if [[ -n "$IP" ]]; then
-    IPSNM="${IP}/16"
-else
-    IPSNM="dhcp"
+  [[ "$IP" =~ ^([0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]{1,2}$ && -n "${GATEWAY:-}" ]] || { echo "IPv4/CIDR und GATEWAY fehlen." >&2; exit 2; }
+  NET="name=eth0,bridge=$VSWITCH,firewall=1,ip=$IP,gw=$GATEWAY"
 fi
-
-# Netzwerk-String zusammenbauen (fügt hwaddr nur hinzu, wenn definiert)
-NET_CONFIG="name=eth0,bridge=$VSWITCH,firewall=1,gw=$GATEWAY,ip=$IPSNM"
-if [[ -n "$MAC_ADDR" ]]; then
-    NET_CONFIG="$NET_CONFIG,hwaddr=$MAC_ADDR"
-fi
-
-echo "--- Konfiguration ---"
-echo "CONTAINER_ID  : $CONTAINER_ID"
-echo "FQDN          : $FQDN"
-echo "IP            : $IPSNM"
-echo "MAC           : ${MAC_ADDR:-Auto-generiert}"
-echo "Template      : $LXC_TEMPLATE"
-[[ "$PW_GENERATED" = true ]] && echo "Passwort : (wird automatisch generiert)" || echo "Passwort : (manuell gesetzt)"
-echo "---------------------"
-
-### LXC erstellen #############################################
-
-pct create $CONTAINER_ID \
-$LXC_TEMPLATE \
---hostname "$FQDN" \
---memory 4096 \
---swap 0 \
---cores 2 \
---net0 "$NET_CONFIG" \
---storage $STORAGE \
---rootfs ${STORAGE}:8 \
---unprivileged 1 \
---ignore-unpack-errors  \
---ostype debian \
---password="${ROOTPW}" \
---features nesting=1 \
---start 1
-
-# Beschreibung setzen
-DESCRIPTION=$(echo -e "# $FQDN  \nPasswort: $ROOTPW    \nMAC: ${MAC_ADDR:-Standard}   \nErstellt am $(date +%F)")
-pct set $CONTAINER_ID --description "$DESCRIPTION"
-
-echo "Container $CONTAINER_ID wurde erfolgreich erstellt."
-if [[ "$PW_GENERATED" = true ]]; then
-    echo "Generiertes Root-Passwort: $ROOTPW"
-fi
+if [[ -z "$PASSWORD" ]]; then PASSWORD=$(openssl rand -hex 24); fi
+CREDS="lxc-$ID.credentials"
+[[ ! -e "$CREDS" && ! -L "$CREDS" ]] || { echo "Zugangsdaten-Datei existiert bereits." >&2; exit 1; }
+printf 'ROOTPW=%s\n' "$PASSWORD" > "$CREDS"
+chmod 600 "$CREDS"
+pct create "$ID" "$LXC_TEMPLATE" --hostname "$NAME" --memory 4096 --swap 0 --cores 2 \
+ --net0 "$NET" --rootfs "$STORAGE:16" --unprivileged 1 --ostype debian \
+ --password "$PASSWORD" --start 1
+pct set "$ID" --description "FBM Schulungscontainer $NAME; Zugangsdaten werden separat verwaltet."
+echo "CT $ID erstellt. Zugangsdaten stehen in $CREDS; Netzwerk und Kapazität noch prüfen."
