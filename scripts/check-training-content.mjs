@@ -1,4 +1,6 @@
 import assert from 'node:assert/strict'
+import MarkdownIt from 'markdown-it'
+const markdown = new MarkdownIt()
 import { readFileSync, existsSync } from 'node:fs'
 import { execFileSync } from 'node:child_process'
 const ref = 'd77833732b64678227dc8d586cc0d9b42c5210b2'
@@ -11,7 +13,7 @@ for (const path of paths) {
   const images = text => [...text.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)].map(match => match[1])
   for (const image of images(before)) assert.ok(images(current).includes(image), path + ': Bildverweis entfernt: ' + image)
   assert.ok(!current.includes('Schulungsunterlagen/raw'), path + ': alter Skript-Downloadpfad')
-  assert.equal((current.match(/^# /gm) ?? []).length, 1, path + ': genau ein Artikeltitel')
+  assert.equal(markdown.parse(current, {}).filter(token => token.type === 'heading_open' && token.tag === 'h1').length, 1, path + ': genau ein Artikeltitel')
 }
 const nav = JSON.parse(readFileSync('.vitepress/sidebar.json', 'utf8'))
 const group = nav.sections.schulungen.find(item => item.text === 'Schulungsumgebungen')

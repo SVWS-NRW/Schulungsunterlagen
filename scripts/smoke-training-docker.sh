@@ -21,5 +21,17 @@ done
 curl --fail-with-body --silent --show-error --insecure --user root:Testpasswort_123 \
   https://127.0.0.1:18443/api/schema/liste/svws > test-results/training-schemata.json
 jq -e 'type == "array"' test-results/training-schemata.json > /dev/null
+DATA="$PROJECT/probe.sqlite"
+curl --fail --silent --show-error --location --retry 2 \
+ "https://media.githubusercontent.com/media/Raffenberg/SVWS_FBM/d77833732b64678227dc8d586cc0d9b42c5210b2/Datenbanken/Grundschule/gs_2026_1.sqlite" -o "$DATA"
+export SVWS_ROOT_PASSWORD=Testpasswort_123 SVWS_SCHEMA_PASSWORD=NurFuerCI_123
+bash Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/create_svws_testdbs.sh \
+ -f "$DATA" -n fbm_probe -u fbm_probe -s 127.0.0.1 -P 18443 --insecure > test-results/training-import.log
+curl --fail-with-body --silent --show-error --insecure --user root:Testpasswort_123 \
+ https://127.0.0.1:18443/api/schema/liste/svws | jq -e 'any(.[]; .name == "fbm_probe")' > /dev/null
+bash Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/delete_all_svws_dbs.sh \
+ --schema fbm_probe -s 127.0.0.1 -P 18443 --execute --confirm-server 127.0.0.1 --insecure > test-results/training-delete.log
+curl --fail-with-body --silent --show-error --insecure --user root:Testpasswort_123 \
+ https://127.0.0.1:18443/api/schema/liste/svws | jq -e 'all(.[]; .name != "fbm_probe")' > /dev/null
 docker compose --project-directory "$PROJECT" -f "$PROJECT/docker-compose.yml" images > test-results/training-images.txt
-echo "Echte Containerprobe: SVWS 1.4.1 / MariaDB 11.8, HTTPS und authentifizierte Schema-Liste erfolgreich."
+echo "Echte Containerprobe: SVWS 1.4.1 / MariaDB 11.8, HTTPS, Schema-Liste, echter SQLite-Import und gezieltes Entfernen erfolgreich."
