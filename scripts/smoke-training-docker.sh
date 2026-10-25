@@ -39,4 +39,4 @@ bash Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/cre
 curl --fail-with-body --silent --show-error --insecure --user root:Testpasswort_123 \
  https://127.0.0.1:18443/api/schema/liste/svws | jq -e 'any(.[]; .name == "fbm_probe")' > /dev/null
 docker compose --project-directory "$PROJECT" -f "$PROJECT/docker-compose.yml" images > test-results/training-images.txt
-echo "Echte Containerprobe: SVWS 1.4.1 / MariaDB 11.8, HTTPS, Schema-Liste, echter SQLite-Import und gezieltes Entfernen erfolgreich."
+echo "Echte Containerprobe: SVWS 1.4.1 / MariaDB 11.8, HTTPS, Schema-Liste, echter SQLite-Import gezieltes Entfernen und Wiederimport erfolgreich."
