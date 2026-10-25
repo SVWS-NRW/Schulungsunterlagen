@@ -25,7 +25,7 @@ bash docker_create_svws.sh -o ./schulung -v 1.4.1 --db-version 11.8 --prepare-on
 
 Die Versionsangaben sind der Prüfaufbau dieser Überarbeitung, kein Auftrag zum ungeprüften Update vorhandener Räume. Tags sind keine unveränderlichen Image-Digests. Dokumentiere die tatsächlich bezogenen Images vor der Freigabe.
 
-Prüfe `schulung/docker-compose.yml` und die geschützte Datei `schulung/.env`. Das Skript überschreibt keinen vorhandenen Projektordner. Ohne `-p` erzeugt es ein zufälliges Passwort; es schreibt den Wert nicht in die Konsolenausgabe. Für selbst gesetzte Passwörter gelten die in `--help` genannten Zeichen und die Mindestlänge.
+Prüfe `schulung/docker-compose.yml` und die geschützte Datei `schulung/.env`. Das Skript überschreibt keinen vorhandenen Projektordner. Ohne `-p` erzeugt es ein zufälliges Passwort; es schreibt den Wert nicht in die Konsolenausgabe. Ein selbst gesetztes Passwort muss mindestens zwölf Zeichen aus Buchstaben, Ziffern, `_` und `-` enthalten.
 
 ### Für einen zentralen Raumserver
 
