@@ -1,8 +1,4 @@
-#!/bin/bash
-###########################################################
-### Das Skript löscht alle Datenbanken des SVWS-Servers ###
-###########################################################
-#
+#!/usr/bin/env bash
 # Copyright (c) (Mai 2026) Theo Richter & David Klein
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,115 +18,27 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-#########################################################
-
-set -e
-
-# --- 0. Abhängigkeiten prüfen (jq) ---
-if ! command -v jq &> /dev/null; then
-    echo "HINWEIS: 'jq' ist nicht installiert. Versuche Installation..."
-    if [ "$EUID" -ne 0 ]; then
-        echo "FEHLER: 'jq' fehlt und ich habe keine Root-Rechte zur Installation."
-        echo "Bitte manuell installieren: sudo apt-get update && sudo apt-get install -y jq"
-        exit 1
-    fi
-    apt-get update && apt-get install -y jq
-fi
-
-# --- 1. Default-Werte & Konfiguration ---
-SERVERNAME="localhost"
-APP_PORT=8443
-MARIADB_ROOT_PASSWORD=""
-LOGFILE="svws-delete.log"
-AUTO_CONFIRM=false
-
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-ENV_FILE="$SCRIPT_DIR/.env"
-
-if [[ -f "$ENV_FILE" ]]; then
-    echo "Lade Konfiguration aus $ENV_FILE..."
-    set -o allexport
-    source "$ENV_FILE"
-    set +o allexport
-fi
-
-# Parameter parsen (y/Y für automatische Bestätigung hinzugefügt)
-while getopts "p:s:yYh" opt; do
-  case $opt in
-    p) MARIADB_ROOT_PASSWORD="$OPTARG" ;;
-    s) SERVERNAME="$OPTARG" ;;
-    y|Y) AUTO_CONFIRM=true ;;
-    h) 
-       echo "Nutzung: $0 [-p PASSWORT] [-s SERVERNAME] [-Y]"
-       echo "  -Y : Löschvorgang ohne Interaktionsabfrage sofort ausführen"
-       exit 0
-       ;;
-    *) exit 1 ;;
+set -euo pipefail
+usage() { echo "Nutzung: $0 --schema NAME [-s SERVER] [-P PORT] [--execute --confirm-server SERVER] [--insecure]"; echo "SVWS_ROOT_PASSWORD setzen. Ohne --execute nur Vorschau; KEIN pauschales Löschen mehr."; }
+SCHEMA= SERVER=localhost PORT=8443 EXECUTE=false CONFIRM=
+TLS=()
+while (($#)); do
+  case "$1" in
+    -h|--help) usage; exit 0 ;;
+    --execute) EXECUTE=true; shift ;;
+    --insecure) TLS=(--insecure); shift ;;
+    --schema|-s|-P|--confirm-server)
+      (($# >= 2)) || exit 2; key=$1; value=$2; shift 2
+      case "$key" in --schema) SCHEMA=$value ;; -s) SERVER=$value ;; -P) PORT=$value ;; --confirm-server) CONFIRM=$value ;; esac ;;
+    *) usage >&2; exit 2 ;;
   esac
 done
-
-if [[ -z "$MARIADB_ROOT_PASSWORD" ]]; then
-    echo "FEHLER: Kein Passwort angegeben! Nutze -p oder die .env Datei."
-    exit 1
-fi
-
-# --- 2. Sicherheitsabfrage ---
-if [ "$AUTO_CONFIRM" = false ]; then
-    echo -ne "\n\033[1;31mWARNUNG: Sie sind dabei, ALLE Datenbanken auf ${SERVERNAME} zu LÖSCHEN!\033[0m\n"
-    read -p "Wollen Sie wirklich alle Datenbanken löschen? (j/N): " CONFIRM
-    case "$CONFIRM" in
-        [jJ][eE][sS]|[jJ]|[yY]) 
-            echo "Bestätigt. Starte Vorgang..."
-            ;;
-        *)
-            echo "Vorgang abgebrochen."
-            exit 0
-            ;;
-    esac
-fi
-
-# --- 3. Start des Löschvorgangs ---
-
-echo "--------------------------------------------------------"
-echo "Starte Löschvorgang auf ${SERVERNAME} am $(date)" | tee -a "$LOGFILE"
-echo "--------------------------------------------------------"
-
-# Abfrage der Schemata-Liste
-RESPONSE=$(curl --user "root:${MARIADB_ROOT_PASSWORD}" -k -s \
-  "https://${SERVERNAME}:${APP_PORT}/api/schema/liste/svws" \
-  -H 'accept: application/json')
-
-# Prüfen, ob die Antwort valides JSON (ein Array) ist
-if [[ ! "$RESPONSE" =~ ^\[ ]]; then
-    echo "FEHLER: Konnte Schema-Liste nicht abrufen. Antwort war kein JSON-Array." | tee -a "$LOGFILE"
-    echo "Server-Antwort: $RESPONSE" | tee -a "$LOGFILE"
-    exit 1
-fi
-
-# Schemata extrahieren (Dank 'jq -r' erhalten wir reine Strings ohne Anführungszeichen)
-SCHEMATA=$(echo "$RESPONSE" | jq -r '.[] | .name' 2>/dev/null)
-
-if [[ -z "$SCHEMATA" || "$SCHEMATA" == "null" ]]; then
-    echo "Keine Datenbank-Schemata zum Löschen gefunden." | tee -a "$LOGFILE"
-else
-    for SCHEMA_NAME in $SCHEMATA; do
-        [[ -z "$SCHEMA_NAME" ]] && continue
-        
-        echo "Lösche Schema: ${SCHEMA_NAME}..." | tee -a "$LOGFILE"
-        
-        # Lösch-Befehl absenden
-        # Wir akzeptieren 200, 202, 203 und 204 als Erfolg
-        HTTP_CODE=$(curl --user "root:${MARIADB_ROOT_PASSWORD}" -k -s -o /dev/null -w "%{http_code}" -X POST \
-          "https://${SERVERNAME}:${APP_PORT}/api/schema/root/destroy/${SCHEMA_NAME}" \
-          -H "accept: application/json")
-
-        if [[ "$HTTP_CODE" =~ ^20[0-4]$ ]]; then
-            echo "[OK] ${SCHEMA_NAME} erfolgreich gelöscht (Status: $HTTP_CODE)." | tee -a "$LOGFILE"
-        else
-            echo "[FEHLER] Schema ${SCHEMA_NAME} fehlgeschlagen (Status: $HTTP_CODE)." | tee -a "$LOGFILE"
-        fi
-    done
-fi
-
-echo "--------------------------------------------------------"
-echo "Fertig am $(date)!" | tee -a "$LOGFILE"
+[[ "$SCHEMA" =~ ^[A-Za-z][A-Za-z0-9_]{0,63}$ && "$SERVER" =~ ^[A-Za-z0-9.-]+$ && "$PORT" =~ ^[1-9][0-9]{0,4}$ ]] && ((10#$PORT > 0 && 10#$PORT <= 65535)) || { usage >&2; exit 2; }
+echo "Ziel: $SERVER:$PORT, einzelnes Schema: $SCHEMA"
+if [[ "$EXECUTE" == false ]]; then echo "Vorschau: nichts verändert."; exit 0; fi
+[[ "$CONFIRM" == "$SERVER" && -n "${SVWS_ROOT_PASSWORD:-}" ]] || { echo "Zielbestätigung oder Passwort fehlt." >&2; exit 2; }
+curl --fail-with-body --silent --show-error --connect-timeout 5 --max-time 180 \
+  "${TLS[@]}" --user "root:$SVWS_ROOT_PASSWORD" \
+  -X POST "https://$SERVER:$PORT/api/schema/root/destroy/$SCHEMA" -H 'accept: application/json'
+echo
+echo "Löschanfrage erfolgreich. Schema-Liste im AdminClient kontrollieren."

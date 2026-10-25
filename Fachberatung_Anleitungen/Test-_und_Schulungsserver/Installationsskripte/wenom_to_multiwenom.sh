@@ -1,4 +1,14 @@
-#!/bin/bash
+#!/usr/bin/env bash
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then
+  echo "Bestandsskript: wenom_to_multiwenom.sh. Zweck, Parameter und Einschränkungen: Installationsskripte/index.md#pruefbericht"
+  exit 0
+fi
+if [[ "${FBM_EXPERIMENTAL:-}" != 1 ]]; then
+  echo "Experimentelles Bestandsskript ohne Integrationsfreigabe. Nutze die beschriebenen Standardwege; Details im Prüfbericht." >&2
+  exit 78
+fi
+set -e
+umask 077
 
 ###############################################
 # WeNoM Multi-Instanz Generator
@@ -8,8 +18,8 @@
 # =========================
 # KONFIGURATION
 # =========================
-DB_FOLDER="/var/www/html/db"
-WEBROOT="/var/www/html/public"
+DB_FOLDER="/var/www/html/wenom/db"
+WEBROOT="/var/www/html/wenom/public"
 APACHE_CONF_DIR="/etc/apache2/sites-available"
 
 SSL_CERT="/etc/ssl/certs/wenomtest-selfsigned.crt"
@@ -101,7 +111,8 @@ EOF
 done
 
 chown -R www-data:www-data /var/www/html
-chmod -R 777 ${DB_FOLDER}
+chmod -R 750 "$DB_FOLDER"
+apache2ctl configtest
 
 echo "Reload Apache..."
 systemctl reload apache2

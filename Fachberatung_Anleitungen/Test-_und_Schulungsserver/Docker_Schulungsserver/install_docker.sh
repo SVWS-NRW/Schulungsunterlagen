@@ -1,8 +1,4 @@
-#!bin/bash
-###########################################################################
-### Das Skript installiert auf dem Debain 13 Docker und nützliche Tool  ###
-###########################################################################
-#  
+#!/usr/bin/env bash
 # Copyright (c) $(date +%Y)
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,35 +18,33 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-###########################################################################
-
-# locales auf de setzen
-apt update
-apt install -y locales
-sed -i '/^# de_DE.UTF-8 UTF-8/s/^# //' /etc/locale.gen
-locale-gen
-update-locale LANG=de_DE.UTF-8
-export LANG=de_DE.UTF-8
-export LC_ALL=de_DE.UTF-8
-
-# updaten
-apt upgrade -y
-
-# Add Docker's official GPG key:
-apt install -y ca-certificates curl nmap 
+set -euo pipefail
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then
+  echo "Nutzung: sudo bash $0 (frisches Debian 12/13; Docker Engine + Compose, kein SVWS-Server)"; exit 0
+fi
+(($# == 0)) || exit 2
+((EUID == 0)) || { echo "Root-Rechte erforderlich." >&2; exit 1; }
+. /etc/os-release
+[[ "$ID" == debian && "$VERSION_ID" =~ ^(12|13)$ ]] || { echo "Nur Debian 12/13." >&2; exit 1; }
+for pkg in docker.io docker-compose podman-docker containerd runc; do
+  if dpkg-query -W -f='${Status}' "$pkg" 2>/dev/null | grep -q 'install ok installed'; then
+    echo "Konfliktpaket $pkg: mit der Administration klären; keine automatische Deinstallation." >&2; exit 1
+  fi
+done
+apt-get update
+apt-get install -y ca-certificates curl
 install -m 0755 -d /etc/apt/keyrings
-curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+curl --fail --show-error --silent --location https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
 chmod a+r /etc/apt/keyrings/docker.asc
-
-# Add the repository to Apt sources:
-tee /etc/apt/sources.list.d/docker.sources <<EOF
+cat > /etc/apt/sources.list.d/docker.sources <<EOF
 Types: deb
 URIs: https://download.docker.com/linux/debian
-Suites: $(. /etc/os-release && echo "$VERSION_CODENAME")
+Suites: $VERSION_CODENAME
 Components: stable
+Architectures: $(dpkg --print-architecture)
 Signed-By: /etc/apt/keyrings/docker.asc
 EOF
-
-apt update
-
-apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin nmap net-tools curl zip
+apt-get update
+apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+systemctl enable --now docker
+docker compose version

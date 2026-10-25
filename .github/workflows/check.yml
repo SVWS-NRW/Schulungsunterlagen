@@ -7,7 +7,8 @@ permissions:
   contents: read
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # Playwright 1.56.1 unterstützt Ubuntu 24.04; ubuntu-latest kann auf eine neuere Distribution wechseln.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         with:
@@ -17,6 +18,18 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      - name: Schulungswerkzeuge prüfen
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y shellcheck jq
+          mkdir -p test-results
+          python3 scripts/check-training-scripts.py
+          find Fachberatung_Anleitungen/Test-_und_Schulungsserver -name '*.sh' -print0 | xargs -0 shellcheck --severity=error
+          find Fachberatung_Anleitungen/Test-_und_Schulungsserver -name '*.sh' -print0 | xargs -0 shellcheck --format=json > test-results/training-shellcheck.json || true
+      - name: Externe Links der Schulungsumgebungen
+        run: python3 scripts/check-training-links.py
+      - name: Echte Docker-Diensteprobe
+        run: bash scripts/smoke-training-docker.sh
       - run: npm run docs:check
       - name: Browserwerkzeug nur für diesen Prüflauf
         run: |
