@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then
+  echo "Bestandsskript: generate_nginx_reverseproxyentry.sh. Zweck, Parameter und Einschränkungen: Installationsskripte/index.md#pruefbericht"
+  exit 0
+fi
+set -e
+umask 077
 
 set -euo pipefail
 
@@ -34,6 +40,11 @@ if [[ -z "${FQDN:-}" || -z "${URL:-}" ]]; then
     usage
 fi
 
+[[ "$FQDN" =~ ^[a-zA-Z0-9][a-zA-Z0-9.-]+$ && "$URL" =~ ^https?://[a-zA-Z0-9.:-]+/?$ ]] || {
+  echo "Nur einfacher DNS-Name und HTTP(S)-Upstream ohne Pfad/Steuerzeichen." >&2; exit 2;
+}
+command -v nginx >/dev/null
+command -v certbot >/dev/null
 if [ -f "/etc/nginx/sites-available/${FQDN}.conf" ]; then
     echo "${FQDN}.conf existiert schon!"
     exit 1

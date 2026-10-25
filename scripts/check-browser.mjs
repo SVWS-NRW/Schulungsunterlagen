@@ -205,7 +205,7 @@ try {
     }, scheme)
     for (const width of [390, 820, 1440]) {
       await page.setViewportSize({ width, height: 1000 })
-      for (const link of ['/schulungsmodule/', '/Fachberatung_Anleitungen/Test-_und_Schulungsserver/', '/beratung/', '/Datenbanken/', '/wissen/links', '/wissen/schild-tipps', '/wissen/svws-tipps', '/fortbildung/convention-2026']) {
+      for (const link of ['/schulungsmodule/', '/Fachberatung_Anleitungen/Test-_und_Schulungsserver/', '/beratung/', '/Datenbanken/', '/wissen/links', '/wissen/schild-tipps', '/wissen/svws-tipps', '/fortbildung/convention-2026', "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Docker_Schulungsserver/", "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/", "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Windows_Testserver/", "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/SVWS-Tools/", "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/VirtuaBox_SchulungsClient/Virtualbox_Installation/", "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/Proxmox_Installation/", "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/", "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Moderatoren_Schulungsserver/Wartung.html", "/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Installationsskripte/"]) {
         await visit(link)
         assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 2), false, width + ': ' + link)
         await page.screenshot({ path: 'test-results/' + scheme + '-' + width + '-' + encodeURIComponent(link) + '.png', fullPage: true })

@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then
+  echo "Bestandsskript: install_weblupo_testserver.sh. Zweck, Parameter und Einschränkungen: Installationsskripte/index.md#pruefbericht"
+  exit 0
+fi
+set -e
+umask 077
 ###############################################
 ### Das Skript löscht alle Docker Container ###
 ###############################################
@@ -31,6 +37,7 @@ INSTALLPATH=/var/www/html
 while getopts "v:d:" opt; do
   case $opt in
     v) SVWSVERSION=$OPTARG ;;
+    d) echo "-d wird für diesen WebLuPO-Installer nicht unterstützt." >&2; exit 2 ;;
     *) echo "Benutzung: $0 -v [SVWS-Version]" >&2
        exit 1 ;;
   esac
@@ -58,7 +65,7 @@ timedatectl set-timezone Europe/Berlin
 
 ### Apache2 installation
 apt update && apt upgrade -y
-apt install -y curl zip unzip dnsutils nmap net-tools nano mc ca-certificates gnupg2 lsb-release openssl apt-transport-https gnupg apache2 
+apt install -y curl zip unzip dnsutils nmap net-tools nano mc wget ca-certificates gnupg2 lsb-release openssl apt-transport-https gnupg apache2 
 
 # Download und Entpacken 
 echo "Download und Entpacken WebLuPo von $DOWNLOADPATH"

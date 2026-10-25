@@ -1,8 +1,4 @@
-#!/bin/bash
-####################################################################################
-### Das Skript importiert mehrere Datenbanken auf dem angegebenen SVWS-LXC       ###
-####################################################################################
-#  
+#!/usr/bin/env bash
 # Copyright (c) (Mai 2026) Theo Richter & David Klein
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,13 +18,9 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-######################################################################################
-
-
-for id in $(pct list | awk 'NR>1 {print $1}'); do
-  echo "Stopping LXC $id..."
-  pct stop $id
-done
-echo "Waiting 20s for shutdowns ... "
-sleep 20
-pct list
+set -euo pipefail
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then echo "Nutzung: $0 CT_ID [CT_ID ...]; beendet NUR ausdrücklich genannte Container geordnet."; exit 0; fi
+(($# > 0)) || { echo "Container-IDs fehlen; keine Aktion." >&2; exit 2; }
+for id in "$@"; do [[ "$id" =~ ^[1-9][0-9]{2,8}$ ]] || exit 2; pct config "$id" >/dev/null; done
+for id in "$@"; do pct shutdown "$id" --timeout 120; done
+echo "Genannte Container geordnet heruntergefahren."

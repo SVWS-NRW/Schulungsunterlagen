@@ -59,7 +59,7 @@ test('school sidebar has exactly the three requested collapsible sections', () =
     assert.equal(groups[1].link, '/Fachberatung_Anleitungen/Test-_und_Schulungsserver/')
     assert.ok(groups.slice(0, 2).every(group => !group.items.some(item => item.text === 'Übersicht')))
     assert.equal(groups[0].items[0].text, 'Schulungsvorlagen')
-    assert.equal(groups[1].items[0].text, 'Docker-Schulungsserver')
+    assert.equal(groups[1].items[0].text, 'Arbeitsplätze & lokale VMs')
     assert.ok(!groups[0].items.some(item => item.text === 'Schulungsumgebungen'))
   }
 })

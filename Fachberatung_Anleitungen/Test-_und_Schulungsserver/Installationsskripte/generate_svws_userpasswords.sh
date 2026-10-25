@@ -1,4 +1,14 @@
-#!/bin/bash
+#!/usr/bin/env bash
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then
+  echo "Bestandsskript: generate_svws_userpasswords.sh. Zweck, Parameter und Einschränkungen: Installationsskripte/index.md#pruefbericht"
+  exit 0
+fi
+if [[ "${FBM_EXPERIMENTAL:-}" != 1 ]]; then
+  echo "Experimentelles Bestandsskript ohne Integrationsfreigabe. Nutze die beschriebenen Standardwege; Details im Prüfbericht." >&2
+  exit 78
+fi
+set -e
+umask 077
 ##################################################################################
 ### Das Skript klont die angegeben Datenbanken des SVWS-Docker-Container N-mal ###
 ##################################################################################
@@ -53,6 +63,7 @@ EOF
 
 # Sicherstellen, dass nur der aktuelle User die Datei lesen kann
 chmod 600 "$CONF_FILE"
+trap 'rm -f -- "$CONF_FILE"' EXIT
 
 echo "Starte Passwort-Update für Schema: ${SCHEMA_NAME}..."
 
@@ -93,7 +104,9 @@ CURL_COMMAND="curl --user \"${SVWS_ADMIN}:${SVWS_ADMIN_PW}\" -k -s -o /dev/null 
 #echo "Führe aus: $CURL_COMMAND"
 
 # Passwort setzen
-HTTP_CODE=$(eval $CURL_COMMAND)
+HTTP_CODE=$(curl --user "${SVWS_ADMIN}:${SVWS_ADMIN_PW}" -k -sS -o /dev/null -w "%{http_code}" -X POST \
+ "https://${SERVERNAME}:${APP_PORT}/db/${SCHEMA_NAME}/benutzer/${ID}/password" \
+ -H 'Content-Type: application/json' --data "\"$PASSWORD\"")
 
     if [[ "$HTTP_CODE" =~ ^20[0-4]$ ]]; then
         echo -e "[OK] ID ${ID} ($USERNAME): Password erfolgreich gesetzt (Status: $HTTP_CODE).\n"

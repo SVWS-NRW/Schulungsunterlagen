@@ -1,4 +1,14 @@
-#!/bin/bash
+#!/usr/bin/env bash
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then
+  echo "Bestandsskript: update_testserver_from_scratch.sh. Zweck, Parameter und Einschränkungen: Installationsskripte/index.md#pruefbericht"
+  exit 0
+fi
+if [[ "${FBM_EXPERIMENTAL:-}" != 1 ]]; then
+  echo "Experimentelles Bestandsskript ohne Integrationsfreigabe. Nutze die beschriebenen Standardwege; Details im Prüfbericht." >&2
+  exit 78
+fi
+set -e
+umask 077
 #########################################################
 ### Das Skript löscht alle Datenbank des SVWS-Servers ###
 #########################################################

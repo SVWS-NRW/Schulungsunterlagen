@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then
+  echo "Bestandsskript: clone_db_in_docker_container.sh. Zweck, Parameter und Einschränkungen: Installationsskripte/index.md#pruefbericht"
+  exit 0
+fi
+set -e
+umask 077
 ##################################################################################
 ### Das Skript klont die angegeben Datenbanken des SVWS-Docker-Container N-mal ###
 ##################################################################################
@@ -50,12 +56,12 @@ while getopts "c:d:n:p:" opt; do
 done
 
 # Validierung der Pflichtparameter
-if [[ -z "$BASE_NAME" || -z "$DB_NAME" || $COUNT -le 0 ]]; then
+if [[ ! "$BASE_NAME" =~ ^[a-zA-Z][a-zA-Z0-9_-]*$ || ! "$DB_NAME" =~ ^[A-Za-z][A-Za-z0-9_]{0,59}$ || ! "$COUNT" =~ ^[1-9][0-9]*$ || ${#COUNT} -gt 3 || $COUNT -gt 128 ]]; then
     usage
 fi
 
 # Dynamische Variablen basierend auf dem Container-Namen
-APP_CONTAINER="$BASE_NAME"
+APP_CONTAINER="${BASE_NAME}_svwsserver"
 DB_CONTAINER="${BASE_NAME}_mariadb"
 ENV_FILE="$DOCKERBASEFOLDER/${BASE_NAME}/.env"
 CONFIG_FILE="$DOCKERBASEFOLDER/${BASE_NAME}/volume/svws/svwsconfig.json"
@@ -90,7 +96,12 @@ if ! docker exec "$DB_CONTAINER" which mariadb-dump > /dev/null 2>&1; then
     DUMP_CMD="mysqldump"
 fi
 
-DUMP_FILE="temp_${DB_NAME}.sql"
+[[ "$SOURCE_USER" =~ ^[A-Za-z][A-Za-z0-9_]{0,31}$ && "$SOURCE_USER" != root ]] || {
+  echo "Schema-Benutzer nicht für dieses Klonwerkzeug geeignet." >&2; exit 1;
+}
+cp --preserve=mode,ownership "$CONFIG_FILE" "$CONFIG_FILE.backup.$(date +%Y%m%d-%H%M%S)"
+DUMP_FILE=$(mktemp)
+trap 'rm -f -- "$DUMP_FILE"' EXIT
 echo "Erstelle Dump im Container $DB_CONTAINER mit $DUMP_CMD..."
 docker exec -e MYSQL_PWD="$PASS" "$DB_CONTAINER" $DUMP_CMD -u root "$DB_NAME" > "$DUMP_FILE"
 
@@ -106,7 +117,7 @@ for i in $(seq 1 "$COUNT"); do
     echo "Erzeuge Klon: $NEW_DB"
 
     # Datenbank anlegen und Dump einspielen
-    docker exec -e MYSQL_PWD="$PASS" "$DB_CONTAINER" mariadb -u root -e "CREATE DATABASE IF NOT EXISTS \`$NEW_DB\`;"
+    docker exec -e MYSQL_PWD="$PASS" "$DB_CONTAINER" mariadb -u root -e "CREATE DATABASE \`$NEW_DB\`;"
     docker exec -i -e MYSQL_PWD="$PASS" "$DB_CONTAINER" mariadb -u root "$NEW_DB" < "$DUMP_FILE"
 
     # Rechte setzen

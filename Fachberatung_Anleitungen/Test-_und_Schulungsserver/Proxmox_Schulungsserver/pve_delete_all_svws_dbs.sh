@@ -1,8 +1,4 @@
-#!/bin/bash
-########################################################################
-### Das Skript löscht alle SVWS-Datenbanken auf den angegebenen LXCs ###
-########################################################################
-# 
+#!/usr/bin/env bash
 # Copyright (c) (Mai 2026) Theo Richter & David Klein
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,62 +18,25 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
-#########################################################################
-
-
-# Standard-Dateiname für Umgebungsvariablen
-ENV_FILE=".env"
-
-# 1. .env Datei robust laden
-if [[ -f "$ENV_FILE" ]]; then
-    echo "Lade Konfiguration aus $ENV_FILE..."
-    while IFS='=' read -r key value || [[ -n "$key" ]]; do
-        # Ignoriere Kommentare und leere Zeilen
-        [[ $key =~ ^[[:space:]]*# ]] && continue
-        [[ -z "$key" ]] && continue
-
-        # Entferne Inline-Kommentare und trimme Leerzeichen
-        value=$(echo "$value" | cut -d'#' -f1 | xargs)
-        export "$key=$value"
-    done < "$ENV_FILE"
-fi
-
-# 2. Parameter einlesen (Überschreibt Werte aus der .env)
-while [[ $# -gt 0 ]]; do
-    case "$1" in
-        -p) MARIADB_ROOT_PASSWORD="$2"; shift 2 ;;
-        -nr) SNR="$2"; shift 2 ;;
-        -h|--help)
-            echo "Usage: $0 [-p MARIADB_ROOT_PASSWORD] [-nr SNR] "
-            exit 0
-            ;;
-        *) echo "Unbekannter Parameter: $1"; exit 1 ;;
-    esac
+set -euo pipefail
+usage() { echo "Nutzung: $0 -nr CT_ID --schema NAME [--execute --confirm-container CT_ID]"; echo "SVWS_ROOT_PASSWORD setzen. Kein pauschales Löschen; Vorschau ohne --execute."; }
+ID= SCHEMA= CONFIRM= EXECUTE=false
+while (($#)); do
+  case "$1" in
+    -h|--help) usage; exit 0 ;;
+    --execute) EXECUTE=true; shift ;;
+    -nr|--schema|--confirm-container)
+      (($# >= 2)) || exit 2; key=$1; value=$2; shift 2
+      case "$key" in -nr) ID=$value ;; --schema) SCHEMA=$value ;; --confirm-container) CONFIRM=$value ;; esac ;;
+    *) usage >&2; exit 2 ;;
+  esac
 done
-
-# 3. Pflichtparameter prüfen
-if [[ -z "$CONTAINER_ID" ]] || [[ -z "$MARIADB_ROOT_PASSWORD" ]]; then
-    echo "Fehler: Container-Nummer (-nr) und das Mariadb-Root-Passwort(-p) müssen angegeben werden. Ggf über die .env Datei."
-    exit 1
-fi
-
-# 4. Passwort fallback
-if [[ -z "$SCHEMA_PW" ]]; then
-    SCHEMA_PW=svwsadmin
-    SCHEMA_USER=svwsadmin
-    echo "unsicheres Passwort für die Schulungsdatenbank wurde gesetzt: svwsadmin"
-    echo "Bitte nach der Schulung die Datenbanken löschen."
-fi
-
-echo "Konfiguriere Container $CONTAINER_ID..."
-
-# -----------------------------------------------------------
-# Befehle im Proxmox Container ausführen
-# -----------------------------------------------------------
-
-# update Skriptversion
-pct exec $CONTAINER_ID -- wget -N https://github.com/SVWS-NRW/SVWS-Dokumentation/raw/refs/heads/main/deployment/Testserver/delete_all_svws_dbs.sh 
-
-
-# Installer ausführen
-pct exec $CONTAINER_ID -- bash  delete_all_svws_dbs.sh  -p "$MARIADB_ROOT_PASSWORD" -
+[[ "$ID" =~ ^[1-9][0-9]{2,8}$ && "$SCHEMA" =~ ^[A-Za-z][A-Za-z0-9_]{0,63}$ ]] || { usage >&2; exit 2; }
+echo "Zielcontainer $ID, einzelnes Schema $SCHEMA"
+if [[ "$EXECUTE" == false ]]; then echo "Vorschau; keine Änderung."; exit 0; fi
+[[ "$CONFIRM" == "$ID" && -n "${SVWS_ROOT_PASSWORD:-}" ]] || exit 2
+SOURCE=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/../Installationsskripte" && pwd)/delete_all_svws_dbs.sh
+pct config "$ID" >/dev/null
+pct push "$ID" "$SOURCE" /root/fbm-delete-schema.sh
+pct exec "$ID" -- env "SVWS_ROOT_PASSWORD=$SVWS_ROOT_PASSWORD" bash /root/fbm-delete-schema.sh \
+ --schema "$SCHEMA" --execute --confirm-server localhost --insecure

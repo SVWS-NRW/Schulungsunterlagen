@@ -1,252 +1,94 @@
-# Proxmox
+# Proxmox installieren und das Schulungsnetz vorbereiten
 
-Diese Anleitung beschreibt die Installation von Proxmox, das Klonen und Erstellen von Snapshots virtueller Maschinen und Linux Container sowie die Installation eines Wenom- bzw. eines SVWS-Servers. Ziel ist es, einen Einstieg in die Einrichtung von Testumgebungen für den SVWS-Server, Schild3 und die SVWS-Tools zu ermöglichen.
+## Ziel und Eingriffsbereich
 
-## Installation
+Du richtest **den Virtualisierungshost** ein, auf dem später die Server-VM oder ein LXC läuft. Dies ist keine Installation des SVWS-Servers. Der Weg gehört zur Stützpunktadministration und wird vor dem Schulungstermin durchgeführt.
 
-Grundlage ist zunächst ein Debian 13, idealerweise mit graphischer Oberfläche. Dies ist zwar nicht in der Originalen Proxmox PVE version so voegesehen, hat jedoch den Vorteil, dass direkt mit einem Firefox die Erreichbarkeit der Webservices geprüft werden kann.
+Eine Proxmox-Installation auf physischer Hardware kann die ausgewählten Datenträger neu einrichten. Verwende ausschließlich dafür vorgesehene Hardware und eine abgestimmte Datensicherung.
 
-Die Installation eines Debiansystems ist in der Anleitung zu Virtualbox in grundlegend beschrieben. Bitte darauf hier eine grafisch Oberfläche mitinstallieren.
+## 1. Installationsweg festlegen
 
-### Installation Proxmox auf einer Debian 13
+| Ausgangslage | Weg |
+| --- | --- |
+| Eigener leerer Server mit lokaler Konsole | Offizielles Proxmox-VE-ISO installieren |
+| Vorhandener betreuter Proxmox-Host | Keinen zweiten Host installieren; eine eigene Server-VM anlegen |
+| Anbieter stellt passendes Debian bereit und erlaubt den Betrieb | Versionspassende Anleitung für Proxmox auf Debian verwenden; Netzwerk und Rettungskonsole vorher klären |
+| Proxmox soll innerhalb einer VM erprobt werden | Separates Labor mit Nested Virtualization; kein wartungsarmer Standardaufbau für den Raum |
 
-#### Vorbereitung
+Für Proxmox VE 9 ist die [Anleitung für Debian 13/Trixie](https://pve.proxmox.com/wiki/Install_Proxmox_VE_on_Debian_13_Trixie) maßgeblich. Vermische keine Paketquellen verschiedener Proxmox-/Debian-Versionen. Eine zusätzliche Desktop-Oberfläche auf dem Host ist für die Verwaltung nicht notwendig.
 
-##### Netzwerkkonfiguration
+## 2. Host installieren
 
-Der ProxmoxServer sollte eine fixe IP außerhalb der DHCP-Range des eigenen Netzwerkes erhalten, sodass sich diese nicht verändert.
+1. ISO und Prüfsumme über die [offizielle Proxmox-Seite](https://www.proxmox.com/de/downloads/proxmox-virtual-environment/iso) beziehen.
+2. Installationsmedium erstellen und den Server davon starten.
+3. Zielplatten, Hostname, Netzadresse, Gateway und DNS sorgfältig auswählen.
+4. Verwaltungszugang über die festgelegte Hostadresse und Port 8006 prüfen.
+5. Passende [Paketquellen](https://pve.proxmox.com/wiki/Package_Repositories), Updates und Sicherungen einrichten.
 
-![alt text](image-4.png)
+Bei Installation auf einem bestehenden Debian-System folge der vollständigen offiziellen Schrittfolge. Das Abschalten des NetworkManagers oder Entfernen von Kerneln aus einem entfernten Terminal kann den Zugang unterbrechen. Es ist keine allgemeine Vorbereitungsanweisung für jeden Schulungsraum.
 
-Aktuelle IP Adresse und den namen des Netzwerkadapters anzeigen lassen: `ip a`
+## 3. Schulungsnetz anbinden
 
-![alt text](image-5.png)
+Für eine zentrale Server-VM im vorhandenen Raum-LAN wird üblicherweise eine passende Linux-Bridge verwendet. Der konkrete Adaptername und die IP-Konfiguration stammen von der Raumadministration. Hostname und feste Adresse bzw. DHCP-Reservierung müssen zusammenpassen.
 
-Problem: "Networkmanager ist aktiv" das ist inkompatibel mit dem Proxmoxsystem, daher durch ifupdown2 ersetzen:
+**Nicht einfach aus Beispielen übernehmen:** Interfaces wie `ens18`, `ens3` oder `eth0`, Gateways und DHCP-Bereiche. Ein Server darf weder eine bereits belegte Adresse noch eine Adresse aus einem unkoordinierten DHCP-Bereich erhalten.
 
-```bash
-systemctl stop NetworkManager
-systemctl disable NetworkManager
-systemctl mask NetworkManager
-apt install ifupdown2
-```
+Leite nicht pauschal alle TCP- und UDP-Ports in ein internes Netz weiter. Die frühere Beispieladresse `123.45.678.9` war keine gültige IPv4-Adresse; das zugehörige Vollweiterleitungsbeispiel ist deshalb keine verwendbare Netzkonfiguration.
 
-Hier die Statische IP, zum Beispiel 192.168.11.222 wie folgt vergeben: `nano /etc/network/interfaces` und hier folgendes eintragen:
+## 4. VM oder LXC anlegen
 
-```bash  
-source /etc/network/interfaces.d/*
+Für den einfachen Grundaufbau verwende eine **Debian-VM**. Wähle Ressourcen anhand der geplanten gleichzeitigen Nutzung und teste Last und Sicherung. Für kleine Prüfaufbauten sind 2 vCPUs, 8 GB RAM und zunächst 40 GB Platte eine Planungsgröße.
 
-# The loopback network interface
-auto lo
-iface lo inet loopback
+Ein **unprivilegierter Debian-LXC** ist eine Alternative für erfahrene Administration, wenn darin der Linux-Installer betrieben wird. LXC teilt den Hostkernel und ist keine vollständige VM. Docker in LXC ist ein weiterer, gesondert zu betreuender Aufbau und hier nicht der Standard.
 
-auto ens18
-# iface ens18 inet dhcp
-iface ens18 inet static
-        address 192.168.11.222/24
-        gateway 192.168.11.1
+Importiere für LXC ein tatsächlich verfügbares Template. Ein Dateiname aus einem alten Screenshot garantiert nicht, dass dieses Template lokal existiert. Host-Storage und Bridge müssen vor dem Anlegen feststehen. Prüfe die Parameter des [LXC-Helfers](https://raw.githubusercontent.com/Raffenberg/SVWS_FBM/6b540c8da74187caed87b4b561a553add2f61fc7/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/pve_create_lxc.sh) mit `--help`; das Skript legt keinen SVWS-Dienst an.
 
-```
+## 5. Fortgeschrittene Netze und Nested Virtualization
 
-Zum schluss noch in der /etc/hosts den folgenden Eintrag vornemhen:
+SDN, eigene DHCP-Dienste, NAT, Reverse-Proxy und VPN sind zusätzliche Administrationsaufgaben. Ein SDN-Beispielnetz wäre etwa `10.0.0.0/24` mit einem getrennt festgelegten Gateway, nicht ein universell passendes Netz für alle Räume. Konfiguration und Erreichbarkeit nach jeder Änderung prüfen.
 
-```bash
-...
-#127.0.1.1      ProxmoxServer
-192.168.11.222  ProxmoxServer
-...
-```
-
-#### Updates
+Für einen verschachtelten Proxmox-Test müssen äußere Hardware und Hypervisor die benötigte CPU-Virtualisierung weiterreichen. Ein CPU-Typ `host` allein genügt dafür nicht. Prüfe den aktuellen Zustand am **äußeren Host**, beispielsweise:
 
 ```bash
-su -
-apt update && apt upgrade -y && apt autoremove -y
-apt install ssh -y
-reboot
+cat /sys/module/kvm_intel/parameters/nested
+# Bei AMD stattdessen:
+cat /sys/module/kvm_amd/parameters/nested
 ```
 
-#### Proxmoxinstallation
+Die frühere, zusammengezogene Zeile zum Entladen und Neuladen von Kernelmodulen war fehlerhaft. Ändere solche Module nicht während des Betriebs laufender Gäste. Plane einen Wartungstermin und verwende die [offiziellen Proxmox-Hinweise](https://pve.proxmox.com/wiki/Nested_Virtualization).
 
-siehe: <https://pve.proxmox.com/wiki/Install_Proxmox_VE_on_Debian_13_Trixie>
+::: details Bilder der bisherigen Beispielinstallation
+Die Bilder zeigen konkrete Einstellungen aus dem bisherigen Artikel. Maßgeblich für Adressen, Ressourcen und Versionen ist Dein freigegebener Aufbau.
 
-```bash
-cat > /etc/apt/sources.list.d/pve-install-repo.sources << EOL
-Types: deb
-URIs: http://download.proxmox.com/debian/pve
-Suites: trixie
-Components: pve-no-subscription
-Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg
-EOL
-```
+![Beispielinstallation: 1 – image-4](image-4.png)
 
-```bash
-wget https://enterprise.proxmox.com/debian/proxmox-archive-keyring-trixie.gpg -O /usr/share/keyrings/proxmox-archive-keyring.gpg
-```
+![Beispielinstallation: 2 – image-5](image-5.png)
 
-```bash
-apt update && apt full-upgrade
-```
+![Beispielinstallation: 3 – image-12](image-12.png)
 
-```bash
-apt install proxmox-default-kernel
-```
+![Beispielinstallation: 4 – image-10](image-10.png)
 
-```bash
-reboot
-```
+![Beispielinstallation: 5 – image-11](image-11.png)
 
-```bash
-apt install proxmox-ve postfix open-iscsi chrony
-```
+![Beispielinstallation: 6 – image-6](image-6.png)
 
-```bash
-apt remove linux-image-amd64 'linux-image-6.12*'
-```
+![Beispielinstallation: 7 – image-7](image-7.png)
 
-```bash
-update-grub
-```
+![Beispielinstallation: 8 – image-8](image-8.png)
 
-Damit ist der Proxmox PVE installiert und kann unter <https://192.168.11.222:8006> erreicht werden.
+![Beispielinstallation: 9 – image-13](image-13.png)
 
-## Einrichtung der internen, virtuellen Netzwerkbrücke
+![Beispielinstallation: 10 – image-14](image-14.png)
 
-![alt text](image-12.png)
+![Beispielinstallation: 11 – image-3](image-3.png)
 
-![alt text](image-10.png)
+![Beispielinstallation: 12 – image](image.png)
 
-![alt text](image-11.png)
+![Beispielinstallation: 13 – image-1](image-1.png)
 
-## LX Container
+![Beispielinstallation: 14 – image-2](image-2.png)
+:::
 
-Zuerst ein Template con Proxmox herunterladen:
-![alt text](image-6.png)
+## Abnahme
 
-Dann "Create CT"
-
-![alt text](image-7.png)
-
-![alt text](image-8.png)
-
-... Beliebige Werte für CPU und Ram angeben und das Netzwerk per DHCP auf der internen virtuellen Netzwerkbrücke
-
-![alt text](image-13.png)
-
-Container starten und einloggen:
-
-![alt text](image-14.png)
-
-## Für Fortgeschrittene: Sofware Driven Network (SDN) in Proxmox
-
-Mit einem SDN können interne virtuelle Netze aufgespannt werden, die auch per DHCP interne IPs vergeben.
-
-### Voraussetzungen
-
-Auf dem Node existiert eine Netzwerkkarte (ens3), die aktiv ist. Und es ist ein vmbrX mit der vom Provider zugewiesenen IP und dem Gateway eingetragen.
-
-Nachinstallationen und Einstellungen:
-
-```bash
-apt update
-apt install dnsmasq frr-pythontools
-# disable default instance
-systemctl disable --now dnsmasq
-reboot now
-```
-
-### Einrichtung
-
-Unter: Datacenter -> SDN -> Zones
-
-+ eine neu simple Zone hinzufügen. Die ID ist frei wählbar und könnte z.B. "Intranet" genannt werden.
-+ Knoten auswählen und unter erweitert den DHCP aktivieren
-+ Unter VNets ein neues VNet erstellen, es z.B. auch Intranet als Name vergeben und Zone eintragen
-
-Auf der rechten Seite dann für dieses Vnet ein subnetz einrichten. z.B.
-
-+ subnetz 10.0.0.1/24
-+ Gateway 10.0.0.1
-
-SNAT anschalten damit dieses VNet auch einen Internetzugang hat.
-
-Anschließend die DHCP Range hinzufügen und die Grenzen einrichten.
-
-Zum Abschluß der Konfiguration unter "SDN" auf Apply/Anwenden drücken und ein bißchen warten.
-
-Das Netzwerk "Intranet" ist dann für alle VMs auswählbar
-
-## Für Fortgeschrittene: Portforwarding
-
-Mit post-up und post down können dynamisch die iptables Einstellungen über die Datei ```/etc/network/interfaces``` für das entsprechende Interface geladen werden.
-
-Hier ein Beispiel für eine vollständige Datei im Proxmox, bei dem die 10.0.0.10 die vorgeschaltete Firewall ist und quasi alle Ports bedient außer den Port 22 für SSH und den Port 8006 für die Weboberfläche des Proxmox.
-
-```bash
-auto lo
-iface lo inet loopback
-
-iface ens3 inet manual
-
-
-auto vmbr1
-iface vmbr1 inet static
-        address 123.45.678.9/22
-        gateway 123.45.678.1
-        bridge-ports ens3
-        bridge-stp off
-        bridge-fd 0
-
-        post-up echo 1 > /proc/sys/net/ipv4/ip_forward  
-        post-up iptables -t nat -A PREROUTING -i vmbr1 -p udp -j DNAT --to 10.0.0.10
-        post-up iptables -t nat -A PREROUTING -i vmbr1 -p tcp -m multiport ! --dport 22,8006 -j DNAT --to 10.0.0.10
-
-        post-up   iptables -t nat -A POSTROUTING -s '10.0.0.0/24' -o vmbr1 -j MASQUERADE
-        post-down iptables -t nat -D POSTROUTING -s '10.0.0.0/24' -o vmbr1 -j MASQUERADE
-
-source /etc/network/interfaces.d/*
-```
-
-## Für Fortgeschrittene: Proxmox in Proxmox
-
-Proxmox in einer VM (z.B. für die Schulungsumgenbung)
-Das funktioniert gut und ist der übliche Weg, um Proxmox zu testen oder Schulungs-/Laborsysteme aufzubauen.
-
-### Grundlegense Voraussetzungen
-
-+ CPU mit Intel VT-x/EPT oder AMD-V/RVI
-+ Auf dem Host muss Nested Virtualization aktiviert sein.
-+ Die VM sollte CPU-Typ „host“ verwenden.
-
-Nested Virtualization aktivieren
-
-bei Intel Chipsatz:
-
-```bash
-echo "options kvm-intel nested=Y" > /etc/modprobe.d/kvm-intel.confmodprobe -r kvm_intel && modprobe kvm_intelcat /sys/module/kvm_intel/parameters/nested
-```
-
-bei AMD Chipsatz
-
-```bash
-echo "options kvm-amd nested=1" > /etc/modprobe.d/kvm-amd.confmodprobe -r kvm_amd && modprobe kvm_amdcat /sys/module/kvm_amd/parameters/nested
-
-```
-
-Hier ein Beispiel, wie man erkenn, welcher Prozessor in Betrieb ist und ob das Modul geladen ist.
-
-![alt text](image-3.png)
-
-mit `cat /sys/module/kvm_intel/parameters/nested` Y: Nested virtualisierung aktiv
-
-### sinnvolle Einstellungen
-
-+ RAM: mindestens 4–8 GB
-+ Festplatte: 32–64 GB+
-+ Netzwerk: VirtIO
-
-![alt text](image.png)
-
-![alt text](image-1.png)
-
-![alt text](image-2.png)
+Der Host ist nach einem Neustart erreichbar, die Server-VM startet geordnet, das Schulungsnetz erreicht nur die vorgesehenen Dienste und eine Sicherung lässt sich auf einer Testinstanz wiederherstellen. Erst danach folgt die [Serverinstallation](../index.md).

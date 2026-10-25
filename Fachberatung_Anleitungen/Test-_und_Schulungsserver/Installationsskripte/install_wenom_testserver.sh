@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then
+  echo "Bestandsskript: install_wenom_testserver.sh. Zweck, Parameter und Einschränkungen: Installationsskripte/index.md#pruefbericht"
+  exit 0
+fi
+set -e
+umask 077
 ###############################################
 ### Das Skript löscht alle Docker Container ###
 ###############################################
@@ -26,6 +32,7 @@
 
 
 DOMAIN=""
+USEIP=false
 PHPVERSION=8.4
 INSTALLPATH=/var/www/html/wenom
 
@@ -71,7 +78,7 @@ timedatectl set-timezone Europe/Berlin
 
 ### Apache2 und PHP installation
 apt update && apt upgrade -y
-apt install -y curl zip unzip dnsutils nmap net-tools nano mc ca-certificates gnupg2 lsb-release openssl apt-transport-https gnupg
+apt install -y curl zip unzip dnsutils nmap net-tools nano mc wget ca-certificates gnupg2 lsb-release openssl apt-transport-https gnupg
 apt install -y apache2 libapache2-mod-security2 php${PHPVERSION} php${PHPVERSION}-fpm php${PHPVERSION}-sqlite3
 
 a2enmod proxy_fcgi setenvif rewrite headers ssl
@@ -154,7 +161,7 @@ chmod -R 755 $INSTALLPATH
 chown -R www-data:www-data $INSTALLPATH
 # DB Verzeichnis braucht Schreibrechte für SQLite
 mkdir -p $INSTALLPATH/db
-chmod -R 777 $INSTALLPATH/db 
+chmod -R 750 "$INSTALLPATH/db" 
 
 # Erzeugen des Secrets
 echo "Generiere Client-Secret..."

@@ -1,135 +1,53 @@
-# Schulungsserver mit Proxmox
+# Zentralen Schulungsserver mit Proxmox bereitstellen
 
-## SVWS Schulungsumgebung
+## Ziel und Rolle des Hosts
 
-Zu einer Schulung ohne SchILD-NRW 3 sind die grundlegenden Anforderungen niedrig: Du benötigst einen Rechner mit Browser und eine Anzahl von SVWS-Servern, die auch online bereit gestellt werden können.
+Proxmox betreibt die virtuellen Rechner. **Der SVWS-Server wird anschließend in einem Gast installiert, nicht auf dem Proxmox-Host.** Dieser Weg passt zu einem Schulungsraum mit bereits betreuter Virtualisierungsinfrastruktur oder zu einem dafür vorgesehenen Server.
 
-Eine Schulung mit SchILD-NRW 2, SchILD-NRW 3 oder ASDPC32 kann online nur mit höherem Aufwand erfolgen: Du benötigst entweder einen Windowsrechner oder eine Windows KVM im Schulungsnetz, die per VPN oder Guacamole erreichbar ist.
+Für einen einzelnen mobilen Laptop ist Proxmox kein notwendiger Zwischenschritt. Nutze dort die [lokale Server-VM](../VirtuaBox_SchulungsClient/index.md). Ein vorhandener, stabil betriebener Server muss nicht allein für diese Dokumentation auf Proxmox umgestellt werden.
 
+## Aufbau für einen Präsenzraum
 
-## Aufsetzen des Proxmox-Servers
+| Ebene | Was läuft dort? | Zuständig |
+| --- | --- | --- |
+| Physischer Server / Hypervisor | Proxmox, Storage und virtuelle Netze | Stützpunktadministration |
+| Eigene Debian-Server-VM | SVWS-Server und MariaDB, optional als Docker-Projekt | Serveradministration |
+| Bestehende Windows-PCs oder geeignete Laptops | Browser und bei Bedarf SchILD-NRW 3 mit passender `.con`-Datei | Arbeitsplatzadministration und Moderation |
+| Übungsschemata | Getrennte Datenstände und Zugänge für die Arbeitsplätze | Moderation in Abstimmung mit Administration |
 
-Hier gibt es zwei grundlegende Ansätze: per ISO oder über eine Erweiterung einer Debian 13 Installation um die Proxmox Funktionalität. Insbesondere bei physikalischem Zugang zum Server eignet sich der Weg per ISO und Bootstick. Bei einem gemieteten online-Server ist die Einrichtung über eine vorhandene Debian Installation der empfohlene Weg. Dies ist jedoch nicht bei jeden Anbieter möglich, ggf. kann dann auch per ISO installiert werden.
+Eine zentrale Instanz genügt, wenn das Schulungsziel keine getrennten Serverversionen erfordert und die Kapazitätsprobe erfolgreich ist. Ein eigener Server pro Person ist kein allgemeines Erfordernis.
 
-### Installation Vor Ort per ISO auf einem Bootstick
+## Einrichten
 
-Download der aktuellen Proxmox VE z.B. unter https://www.proxmox.com/de/downloads/proxmox-virtual-environment/iso
+1. Prüfe, ob der vorhandene Proxmox-Host genügend freie Kapazität und eine passende Sicherungsmöglichkeit hat.
+2. Falls ein neuer Host nötig ist: folge [Proxmox installieren](./Proxmox_Installation/index.md). Plane dies mit der Administration vor dem Veranstaltungstag.
+3. Lege eine eigene Debian-VM an. Binde sie an das abgestimmte Schulungsnetz an und dokumentiere feste Adresse bzw. DHCP-Reservierung.
+4. Wähle für den Gast entweder den [Docker-Aufbau](../Docker_Schulungsserver/index.md) oder den offiziellen Linux-Installer.
+5. Richte die Übungsschemata ein und prüfe Browserzugriff sowie bei SchILD-NRW 3 zusätzlich die MariaDB-Verbindung.
+6. Sichere den abgenommenen Ausgangsstand und teste die Wiederherstellung auf einer Kopie.
 
-Setze einen Ventoy Bootstick auf und lege die `.iso` in das Hauptverzeichnis des Bootsticks.
+Eine Bridge allein garantiert keine Erreichbarkeit. WLAN-Isolation, VLANs, MAC-Vorgaben und Firewalls können Verbindungen verhindern. Führe die Probe an einem echten Teilnehmerarbeitsplatz durch.
 
-Alternativ kann auch https://etcher.balena.io/ als Bootstick verwendet werden.
+## LXC als Alternative
 
-Boote von dem Stick und folge dem Installationsdialog.
+Ein unprivilegierter Debian-LXC mit direktem Linux-Installer kann Ressourcen sparen, setzt aber Kenntnisse über Container, Hostkernel, Netz und Sicherungsverfahren voraus. Verwechsle ihn nicht mit einer vollständigen VM oder einem Docker-Container.
 
-### Installation auf der privaten Cloud
+[pve_create_lxc.sh](https://raw.githubusercontent.com/Raffenberg/SVWS_FBM/6b540c8da74187caed87b4b561a553add2f61fc7/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/pve_create_lxc.sh) erstellt **nur einen Container**. Template, Storage und Bridge sind explizit vorzugeben; eine statische IP braucht ein CIDR-Präfix, etwa `192.168.50.20/24`. Ohne statische IP wird DHCP verwendet. Root-Zugangsdaten werden separat in einer geschützten Datei gespeichert, nicht in der sichtbaren Containerbeschreibung.
 
-#### Per ISO
+[pve_exec_svws_linuxinstaller.sh](https://raw.githubusercontent.com/Raffenberg/SVWS_FBM/6b540c8da74187caed87b4b561a553add2f61fc7/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/pve_exec_svws_linuxinstaller.sh) ist ein gesonderter Schritt für **einen ausdrücklich benannten frischen Container** und setzt den lokalen Linux-Wrapper voraus. Es ist keine Ausführung auf allen Containern.
 
-Die oben beschriebene ISO kann über die Konfigurationsoberfläche beim Dienstleister i.d.R. eingelesen werden, so dass der nächste Bootvorgang über diese ISO erfolgt.
+Die Skripte sind statisch und mit simulierten Befehlen prüfbar; eine vollständige Proxmox-/LXC-Installation ist in dieser Prüfung nicht nachgestellt worden. Für die Freigabe des eigenen Raums ist eine reale Probe erforderlich.
 
-Der Installationsdialog des Prommox-Servers kann dann via VNC gesteuert werden.
+## Klonen und geordnetes Beenden
 
-#### Auf einem Debian Grundsystem
+[clone_lxc.sh](https://raw.githubusercontent.com/Raffenberg/SVWS_FBM/6b540c8da74187caed87b4b561a553add2f61fc7/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/clone_lxc.sh) erstellt vollständige Klone und lässt sie zur Kontrolle ausgeschaltet. Prüfe IP-Adressen, Identitäten und Zugänge vor dem Start. Das Quellsystem wird dafür geordnet heruntergefahren; plane diese Unterbrechung ein.
 
-Das installierte Debian 13 mit root-Rechten updaten:
+[pve_shutdown_all_LXC.sh](https://raw.githubusercontent.com/Raffenberg/SVWS_FBM/6b540c8da74187caed87b4b561a553add2f61fc7/Fachberatung_Anleitungen/Test-_und_Schulungsserver/Proxmox_Schulungsserver/pve_shutdown_all_LXC.sh) benötigt trotz seines historischen Namens eine explizite Liste von CT-IDs. Es stoppt nicht mehr unterschiedslos sämtliche Container des Hosts.
 
-``` bash
-apt update && apt upgrade -y
-```
+## Fernschulungen gesondert planen
 
-+ Apt Sources einbinden
-+ updaten
-+ Installationsanleitung folgen
+Für reine SVWS-Client-Aufgaben genügt ein erreichbarer Browser-Arbeitsplatz. Für SchILD-NRW 3 ist ein geeigneter Windows-Arbeitsplatz erforderlich, etwa ein betreuter Fernarbeitsplatz.
 
-### Einstellungen im Installationsdialog
+Ein öffentlich erreichbarer Host mit nur einer IP ist **kein fertiger Fernschulungsraum**. Plane geschützten Zugang, Netztrennung, Zertifikate, Windows-Zugänge und Kapazität separat. Ein Reverse-Proxy mit TLS ersetzt nicht die notwendige Zugangsbeschränkung. Betreibe Server und Datenhaltung nicht als ungeprüft öffentlich freigegebene Dienste.
 
-Ggf. müssen Hostnamen  in `/etc/hosts` und `/etc/hostname` angepasst werden.
-
-In diesem Beispiel: `proxmox.meine.domain`
-
-Und in der `/etc/hosts` die lolale Adresse als fixe IP ersetzen, zum Beispiel mit dem Editor nano:
-
-```bash
-nano /etc/hosts
-```
-
-Diese sollte so aussehen für beispielsweise die Server-IP `19.168.178.16` und die Domain `proxmox.meine.domain`:
-
-```bash
-127.0.0.1       localhost
-192.168.178.16  proxmox.meine.domain proxmox
-```
-
-Dies sollte auch die Netzwerkadresse in der `/etc/network/interfaces` sein, hier zum Beispiel für eine klassische FritzBox installation:
-
-```bash
-auto eth0
-iface eth0 inet static
-address 192.168.178.16/24
-gateway 192.168.178.1
-```
-
-### Hilfreiche Einstellungen
-
-Hilfreiche Tools und ggf. die Spracheinstellungen anpassen:
-
-``` bash
-apt install -y net-tools dnsutils nmap curl zip wget
-dpkg-reconfigure locales
-```
-
-Wenn kein Enterprise Support bei Proxmox abgeschlossen ist, kann kostenfrei die Community Version genutzt werden. Hierzu müssen in den Apt-Sources die Quellen für PVE und Ceph in der Enterprise-Version nur auskommentiert werden. Eine Anleitung hierzu befindet sich auf der (Proxmox Webseite)[https://pve.proxmox.com/wiki/Package_Repositories].
-
-## Präsenzschulung
-
-Bei der Präsenzschulung befinden sich alle Schulungsteilnehmer vor Ort und damit hinter der Firewall in einem Bereich, wo in der Regel auch ein DHCP Server das interne Netz organisiert.
-
-Für den Einsatz des Proxmox innerhalb eines Schulungsraumes benötigt man daher keine weitere Firwall oder Portweiterleitung. Hier reicht es, eine interne virtuelle Bridge einzurichten, so dass die virtuellen Maschinen oder Container sich wie normals PCs im Schulungsnetz verhalten. Hier sind ggf Abstimmungen mit dem Netzwerkadministrator nötig, falls ein MAC-filter o.Ä. die Vergabe der IPs im internen Netz verhindert. Ggf müssen auch Anpassungen an der Firewall abgestimmt werden.
-
-Es können nun mehrere SVWS-Server als LX-Container innerhalb des Schulungsnetzes eingerichtet werden. Siehe dazu Einrichtung des Schulungsclient.
-
-Falls Schulungen mit SchILD-NRW 2, SchILD-NRW 3 oder ASDPC durchgeführt werden sollen, können weiterhin die bestehenden Windows-Rechner im Schulungsnetzwerk genutzt werden.
-
-Die Einrichtung von SchILD-NRW 3 bei einem bestehenden SVWS-Server kann unter Installationsmethoden SchILD-NRW 3 nachgelesen werden.
-
-## Onlineschulung
-
-### Netzwerkeinrichtung
-
-Zunächst muss bei einem angemieteten Server mit nur einer IP ein internes Netzwerk eingerichtet werden. Hier wird häufig SDN verwendet.
-
-### Übersicht über die Server
-
-Bei der Onlineschulung werden die folgenden Server benötigt:
-
-+ Firewall und Reverse-Proxy
-+ Guacalome Videobridge für SchILD-NRW 3
-+ Windows 11 Client mit SchILD-NRW 3 für die Anzahl der Teilnehmer
-+ SVWS-Server im LX- oder Docker-Container
-+ Webserver für die Schulungsunterlagen
-
-
-### Bereitstellung eines LXC-Container per Skript
-
-Als Grundlage für die SVWS-Server Installation wird hier ein Debian Linux 13 verwendet. Dies kann zum Beispiel über einen Proxmox-Sever als LX-Container bereitgestellt werden.
-
-Hier ein Skript zum erstellen dieses Template-Containers mit 4 GB Ram, 2 CPU und 8GB Storage. Das Skript muss auf dem Terminal des Proxmoxservers ausgefürt werden:
-
-pve_create_lxc.sh
-
-Die nötigen, serverspezifischen Variablen können in eine `.env`-Datei ausgelagert werden:
-
-Hier ein Beispiel:
-
-```bash
-# Proxmox Infrastruktur
-
-LXC_TEMPLATE="local:vztmpl/debian-13-standard_13.1-1_amd64.tar.zst"
-GATEWAY="10.0.0.10"
-VSWITCH="Intranet"
-STORAGE="local-lvm"
-
-# Einstellungen für den neuen LXC
-
-# ROOTPW= # (optional)
-```
+Grundlagen: [SVWS-Installation und Netzabgrenzung](https://doku.svws-nrw.de/deployment/), [Proxmox-Dokumentation](https://pve.proxmox.com/pve-docs/) und der [Prüfbericht](../Installationsskripte/#pruefbericht).

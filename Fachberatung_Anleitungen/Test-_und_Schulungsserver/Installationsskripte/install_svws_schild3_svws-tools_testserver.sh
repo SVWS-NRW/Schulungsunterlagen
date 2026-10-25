@@ -1,4 +1,14 @@
-#!/bin/bash
+#!/usr/bin/env bash
+if [[ "${1:-}" == --help || "${1:-}" == -h ]]; then
+  echo "Bestandsskript: install_svws_schild3_svws-tools_testserver.sh. Zweck, Parameter und Einschränkungen: Installationsskripte/index.md#pruefbericht"
+  exit 0
+fi
+if [[ "${FBM_EXPERIMENTAL:-}" != 1 ]]; then
+  echo "Experimentelles Bestandsskript ohne Integrationsfreigabe. Nutze die beschriebenen Standardwege; Details im Prüfbericht." >&2
+  exit 78
+fi
+set -e
+umask 077
 ##################################################################################
 ### Das Skript klont die angegeben Datenbanken des SVWS-Docker-Container N-mal ###
 ##################################################################################
@@ -113,8 +123,8 @@ npm -v
 
 # 2. Port-Check
 if command -v lsof >/dev/null 2>&1; then
-    if lsof -Pi :"$PORTNUMBER" -sTCP:LISTEN -t >/dev/null ; then
-        echo "FEHLER: Port $PORTNUMBER wird bereits verwendet!"
+    if lsof -Pi :"$SVWSPORTNUMBER" -sTCP:LISTEN -t >/dev/null ; then
+        echo "FEHLER: Port $SVWSPORTNUMBER wird bereits verwendet!"
         exit 1
     fi
 fi
@@ -330,7 +340,7 @@ systemctl restart php${PHPVERSION}-fpm
 echo "Download und Entpacken Wenom"
 mkdir -p -v $INSTALLPATH 
 cd $INSTALLPATH
-wget -N https://github.com/SVWS-NRW/SVWS-Server/releases/download/v${SVWSVERSION}/WeNoM-${SVWSVERSION}-Beta.zip
+wget -N https://github.com/SVWS-NRW/SVWS-Server/releases/download/v${SVWSVERSION}/WeNoM-${SVWSVERSION}.zip
 unzip -o *.zip
 
 
@@ -511,7 +521,7 @@ cat <<EOF > "/var/www/html/index.html"
             <tr>
                 <td><a href="https://${SERVER_IP}" target="_blank">WeNoM</a></td>
 		        <td><a href="https://github.com/SVWS-NRW/SVWS-Server/releases">v${SVWSVERSION}</a></td>
-                <td>URL-> &nbsp;  ${SERVER_IP} <br> Secret-> &nbsp; ${SECRET} </td>
+                <td>Verbindungsdaten separat durch die Moderation bereitstellen.</td>
             </tr>
 
 	        <tr>

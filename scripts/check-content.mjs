@@ -4,6 +4,7 @@ import assert from 'node:assert/strict'
 import { createSidebar } from '../.vitepress/navigation.mjs'
 import './check-databases.mjs'
 import './check-knowledge.mjs'
+import './check-training-content.mjs'
 const nav = JSON.parse(readFileSync('.vitepress/sidebar.json', 'utf8'))
 const sidebar = createSidebar(nav)
 const git = (...args) => execFileSync('git', args, { encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 })
@@ -32,6 +33,13 @@ for (const file of files) {
   }
   if (redesignedKnowledgeArticles.has(file)) {
     // Authorized link-table redesign and dated-tip split are checked separately.
+    assert.ok(sidebar['/' + file], 'Keine gezielte Sidebar: ' + file)
+    checked++
+    continue
+  }
+  if (file.startsWith('Fachberatung_Anleitungen/Test-_und_Schulungsserver/')) {
+    // Authorized professional rewrite; image/path inventory and review evidence
+    // are protected separately by check-training-content.mjs.
     assert.ok(sidebar['/' + file], 'Keine gezielte Sidebar: ' + file)
     checked++
     continue
