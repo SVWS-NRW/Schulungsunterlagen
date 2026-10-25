@@ -31,23 +31,30 @@ umask 077
 ###############################################
 
 INSTALLPATH=/var/www/html/wenom
-DOWNLOADPATH="https://github.com/SVWS-NRW/SVWS-Server/releases/download/v1.3.3/WeNoM-1.3.3.zip"
+SVWSVERSION=""
+RESET_DATA=false
 
 # Parameter auswerten
 AUTO_YES=false
 
-while getopts "y" opt; do
+while getopts "yv:r" opt; do
     case "$opt" in
+        v) SVWSVERSION="$OPTARG" ;;
+        r) RESET_DATA=true ;;
         y)
             AUTO_YES=true
             ;;
         *)
-            echo "Verwendung: $0 [-y]"
+            echo "Verwendung: $0 -v VERSION -r [-y]; -r erlaubt ausdrücklich den vollständigen Daten-Neuaufbau"
             exit 1
             ;;
     esac
 done
 
+[[ "$SVWSVERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ && "$RESET_DATA" == true ]] || {
+  echo "Version (-v) und expliziter Daten-Neuaufbau (-r) erforderlich." >&2; exit 2;
+}
+DOWNLOADPATH="https://github.com/SVWS-NRW/SVWS-Server/releases/download/v${SVWSVERSION}/WeNoM-${SVWSVERSION}.zip"
 # Sicherheitsabfrage nur ohne -y
 if [ "$AUTO_YES" = false ]; then
     echo "Achtung!"
@@ -100,13 +107,6 @@ curl -k --request GET --url https://localhost/api/setup \
 echo -e "\nDas Secret zum Verbinden mit dem SVWS Server ist:\n"
 cat "$INSTALLPATH/db/client.sec"
 echo ""
-
-########### optional: Das secret des Testservers bereitstellen ############
-# mkdir -p /var/www/html/secret
-#echo -e "\n\n!!! Achtung: Das Secret wird unter https://URL/secret.html veröffentlicht !!!"
-#echo "!!! Nur für Testzwecke geeignet !!!"
-#echo
-# cat "$INSTALLPATH/db/client.sec" > /var/www/html/secret/secret.html
 
 ########### optional: eingerichtete DB-User wieder zurück kopieren ###########
 #cp /root/app.sqlite.backup "$INSTALLPATH/db/app.sqlite"

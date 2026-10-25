@@ -14,13 +14,13 @@ for file in section.rglob("*"):
     source=file.read_text(encoding="utf-8")
     for match in re.finditer(r'https?://[^\s<>"\x27\x60)]+',source):
         url=match.group().rstrip(".,;")
-        if any(c in url for c in ["$","{","}","\\\\"]): continue
+        if any(c in url for c in ["$","{","}","*","\\\\"]): continue
         host=urlsplit(url).hostname or ""
         try:
             ipaddress.ip_address(host)
             continue
         except ValueError: pass
-        if host.lower() in {"serveradresse","mein_svws-server","localhost","server"}: continue
+        if host.lower() in {"serveradresse","mein_svws-server","localhost","server","url"}: continue
         entry=inventory.setdefault(url,{"url":url,"sources":[],"published":False})
         entry["sources"].append(str(file.relative_to(root)))
         entry["published"] |= file.suffix==".md"

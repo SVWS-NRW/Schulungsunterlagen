@@ -80,6 +80,8 @@ services:
     container_name: ${FQDN}_mariadb
     restart: unless-stopped
     env_file: [.env]
+    environment:
+      MARIADB_HOST: 127.0.0.1
     healthcheck:
       test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
       interval: 5s

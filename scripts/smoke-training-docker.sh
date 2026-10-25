@@ -4,6 +4,7 @@ PROJECT=$(mktemp -d)/fbm-ci
 SCRIPT=Fachberatung_Anleitungen/Test-_und_Schulungsserver/Docker_Schulungsserver/docker_create_svws.sh
 cleanup() {
   docker compose --project-directory "$PROJECT" -f "$PROJECT/docker-compose.yml" logs --no-color > test-results/training-docker.log 2>&1 || true
+  tail -n 100 test-results/training-docker.log || true
   docker compose --project-directory "$PROJECT" -f "$PROJECT/docker-compose.yml" down --volumes || true
 }
 mkdir -p test-results

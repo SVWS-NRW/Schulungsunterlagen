@@ -56,7 +56,7 @@ while getopts "c:d:n:p:" opt; do
 done
 
 # Validierung der Pflichtparameter
-if [[ ! "$BASE_NAME" =~ ^[a-zA-Z][a-zA-Z0-9_-]*$ || ! "$DB_NAME" =~ ^[A-Za-z][A-Za-z0-9_]{0,63}$ || ! "$COUNT" =~ ^[1-9][0-9]*$ || ${#COUNT} -gt 3 || $COUNT -gt 128 ]]; then
+if [[ ! "$BASE_NAME" =~ ^[a-zA-Z][a-zA-Z0-9_-]*$ || ! "$DB_NAME" =~ ^[A-Za-z][A-Za-z0-9_]{0,59}$ || ! "$COUNT" =~ ^[1-9][0-9]*$ || ${#COUNT} -gt 3 || $COUNT -gt 128 ]]; then
     usage
 fi
 
@@ -96,6 +96,10 @@ if ! docker exec "$DB_CONTAINER" which mariadb-dump > /dev/null 2>&1; then
     DUMP_CMD="mysqldump"
 fi
 
+[[ "$SOURCE_USER" =~ ^[A-Za-z][A-Za-z0-9_]{0,31}$ && "$SOURCE_USER" != root ]] || {
+  echo "Schema-Benutzer nicht für dieses Klonwerkzeug geeignet." >&2; exit 1;
+}
+cp --preserve=mode,ownership "$CONFIG_FILE" "$CONFIG_FILE.backup.$(date +%Y%m%d-%H%M%S)"
 DUMP_FILE=$(mktemp)
 trap 'rm -f -- "$DUMP_FILE"' EXIT
 echo "Erstelle Dump im Container $DB_CONTAINER mit $DUMP_CMD..."

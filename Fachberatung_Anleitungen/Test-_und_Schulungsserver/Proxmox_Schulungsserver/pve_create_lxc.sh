@@ -40,6 +40,7 @@ if [[ -n "$IP" ]]; then
   NET="name=eth0,bridge=$VSWITCH,firewall=1,ip=$IP,gw=$GATEWAY"
 fi
 if [[ -z "$PASSWORD" ]]; then PASSWORD=$(openssl rand -hex 24); fi
+[[ "$PASSWORD" =~ ^[A-Za-z0-9_-]{12,}$ ]] || { echo "Passwort: mindestens 12 sichere ASCII-Zeichen." >&2; exit 2; }
 CREDS="lxc-$ID.credentials"
 [[ ! -e "$CREDS" && ! -L "$CREDS" ]] || { echo "Zugangsdaten-Datei existiert bereits." >&2; exit 1; }
 printf 'ROOTPW=%s\n' "$PASSWORD" > "$CREDS"
