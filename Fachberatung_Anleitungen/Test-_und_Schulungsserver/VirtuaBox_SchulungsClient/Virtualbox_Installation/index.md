@@ -10,7 +10,7 @@ Prüfe Host-Unterstützung, CPU-Architektur, aktivierte Hardwarevirtualisierung 
 
 Beziehe VirtualBox über die [offizielle Downloadseite](https://www.virtualbox.org/wiki/Downloads). Wähle den passenden Host-Installer und beachte dessen aktuelle Voraussetzungen. Eine zusätzlich benötigte Microsoft-Runtime beziehst Du aus der [Microsoft-Quelle](https://aka.ms/vc14/vc_redist.x64.exe).
 
-Die unten erhaltenen Bilder zeigen eine konkrete ältere Beispielinstallation. Versionsnummern und Dialoge können abweichen; feste Patchversionen in einer Anleitung sind keine dauerhaften Downloadadressen.
+Die unten erhaltenen Bilder zeigen eine konkrete Beispielinstallation aus dem bisherigen Artikel. Versionsnummern und Dialoge können abweichen; feste Patchversionen in einer Anleitung sind keine dauerhaften Downloadadressen.
 
 ## 1. VirtualBox auf Windows installieren
 

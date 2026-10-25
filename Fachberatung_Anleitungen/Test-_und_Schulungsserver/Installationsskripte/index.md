@@ -134,3 +134,11 @@ Maßgebliche Quellen: [SVWS-Installation](https://doku.svws-nrw.de/deployment/),
 | „Alle Skripte laufen unter Debian 13“ ist nicht belegt | Ersetzt durch dateibezogene Befunde und getrennte Nachweise. Ein Syntaxcheck, eine simulierte Befehlsprüfung und ein echter Dienstestart werden nicht gleichgesetzt. |
 
 **Bewertung:** Gegenüber dem bisherigen Bestand sind Ausführungsort, Voraussetzungen, Reihenfolge und Erfolgskontrolle deutlich klarer. Bekannte fehlerhafte und unnötig breite Befehle sind korrigiert oder aus dem Normalbetrieb genommen. Eine allgemeine Freigabe aller Altaufbauten lässt sich daraus nicht ableiten; die ausdrücklich genannten realen Installations- und Raumprüfungen bleiben erforderlich.
+
+### Praktischer Nachweis für den empfohlenen Docker-Grundaufbau
+
+Die isolierte Linux-CI hat den erzeugten Aufbau mit **SVWS-Server 1.4.1 und MariaDB aus der 11.8-Reihe** tatsächlich gestartet. Nachgewiesen wurden HTTPS-Erreichbarkeit, authentifizierte Schema-Liste, Import einer vorhandenen anonymisierten Grundschul-Sicherung in ein eigenes Prüfschema und dessen gezieltes Entfernen. Die Datenbank- und Importprotokolle sowie die verwendeten Image-IDs werden als CI-Artefakte aufbewahrt.
+
+Dabei wurde ein Fehler in der zunächst gemeinsam verwendeten Umgebungsdatei gefunden und korrigiert: Der MariaDB-Gesundheitscheck muss die Datenbank lokal erreichen; die SVWS-Anwendung benötigt dagegen den Datenbank-Dienstnamen. Die Hosteinstellung ist jetzt auf den jeweiligen Dienst begrenzt.
+
+Dieser Nachweis ist auf genau diesen Prüfaufbau begrenzt. Er bestätigt weder eine bestimmte Raumgröße noch Windows-, Proxmox-, WeNoM- oder sämtliche Alt-Skript-Installationen.

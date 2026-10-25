@@ -58,7 +58,7 @@ cat /sys/module/kvm_amd/parameters/nested
 Die frühere, zusammengezogene Zeile zum Entladen und Neuladen von Kernelmodulen war fehlerhaft. Ändere solche Module nicht während des Betriebs laufender Gäste. Plane einen Wartungstermin und verwende die [offiziellen Proxmox-Hinweise](https://pve.proxmox.com/wiki/Nested_Virtualization).
 
 ::: details Bilder der bisherigen Beispielinstallation
-Die Bilder zeigen konkrete ältere Einstellungen. Maßgeblich für Adressen, Ressourcen und Versionen ist Dein freigegebener Aufbau.
+Die Bilder zeigen konkrete Einstellungen aus dem bisherigen Artikel. Maßgeblich für Adressen, Ressourcen und Versionen ist Dein freigegebener Aufbau.
 
 ![Beispielinstallation: 1 – image-4](image-4.png)
 

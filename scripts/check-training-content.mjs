@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
-import MarkdownIt from 'markdown-it'
-const markdown = new MarkdownIt()
+import { createMarkdownRenderer } from 'vitepress'
+const markdown = await createMarkdownRenderer(process.cwd())
 import { readFileSync, existsSync } from 'node:fs'
 import { execFileSync } from 'node:child_process'
 const ref = 'd77833732b64678227dc8d586cc0d9b42c5210b2'
