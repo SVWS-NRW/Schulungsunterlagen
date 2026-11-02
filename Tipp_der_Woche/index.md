@@ -1,8 +1,9 @@
 # :bulb: Tipp der Woche
 
 ## :point_right: SVWS-Hack der Woche   
-| :date: 12.10.2026 | :information_source: [Bug in der Oberstufenapp](./SVWS-Hack_der_Woche/bugInOberstufenapp.md) |
+| :date: 02.11.2026 | :information_source: [Release und Schild3-Doku](./SVWS-Hack_der_Woche/release15.md) |
 |------------------|----------------------------------------------------------------------------------|
+| :date: 12.10.2026 | :information_source: [Bug in der Oberstufenapp](./SVWS-Hack_der_Woche/bugInOberstufenapp.md) |
 | :date: 05.10.2026 | :information_source: [Fehlerhafte Kursarten DFG/DFK](./SVWS-Hack_der_Woche/fehlerhafteKursarteDFGundDFK.md) |
 | :date: 22.06.2026 | :information_source: [SVWS-Tools](./SVWS-Hack_der_Woche/tools.md) |
 | :date: 20.04.2026 | :information_source: [Modul zur Konferenzübersicht](./SVWS-Hack_der_Woche/konferenzmodul.md) |
