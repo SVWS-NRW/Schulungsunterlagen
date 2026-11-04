@@ -9,5 +9,5 @@ Inhalt:
 * Schülerverwaltung
 * Gruppenprozesse
 * Kataloge
-* Reportverwaötung
+* Reportverwaltung
 * spezifische Aufgaben aus dem Grundschulalltag
