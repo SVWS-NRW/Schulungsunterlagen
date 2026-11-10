@@ -78,6 +78,13 @@ fi
 # 4. Verzeichnisstruktur vorbereiten
 mkdir -p "$FOLDER/volume/mariadb"
 mkdir -p "$FOLDER/volume/svws"
+mkdir -p "$FOLDER/volume/apps"
+
+# Tools in den Ordner apps kopieren: 
+cd "$FOLDER/volume/apps"
+wget https://github.com/SVWS-NRW/SVWS-Tools/releases/download/v${SVWSVERSION}/svws-tools-${SVWSVERSION}.zip
+unzip svws-tools-${SVWSVERSION}.zip
+
 # Berechtigungen sicherstellen, damit MariaDB schreiben darf
 chmod -R 777 "$FOLDER/volume"
 
