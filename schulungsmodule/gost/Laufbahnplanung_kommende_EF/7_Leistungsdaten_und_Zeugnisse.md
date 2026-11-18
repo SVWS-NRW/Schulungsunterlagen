@@ -24,7 +24,7 @@ Die Leistungsdatenverwaltung bzgl. der Teilleistungen erfolgt derzeit noch in Sc
 
 + Noten sollten derzeit noch in Schild eingetragen werden.  
 + Für einzelne Schüler können beispielhaft Noten eingetragen werden. Es stehen sowohl für Zeugnisnoten als auch für Teilleistungen Gruppenprozesse für Kurseingaben zur Verfügung.  
-+ Unbenommen davon ist eine globale Notenerfassung per Notenmodul oder WebClient einzurichten.  
++ Unbenommen davon ist eine globale Notenerfassung per Notenmodul oder SVWS-Client einzurichten.  
   
 > [!Hinweis] Der gesamte Prozess der **Leistungsdatenerfassung wird an anderer Stelle geschult und beschrieben**.  
   

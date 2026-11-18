@@ -25,30 +25,7 @@ Die Fortbildungsmodule finden sich hier: https://svws-nrw.github.io/Schulungsunt
 >[!TIP] Mehrere Fenster im SVWS-Client sollten nicht geöffnet werden.
 > Da sich Browserfenster nicht automatisch aktualisieren, können Fenster mit veralteten Informationen bei eventueller Dateneingabe und -änderung zu Problemem führen.
 
-Pausen, Kaffee und Kekse: Mittagspause und kleinere Pausen nach Bedarf. Kaffee und Kekse? Toiletten?
-
-## Weitere Module
-
-1. **Modul Planung der EF** Tag 1 - Aufsetzen der Wahlen und EF Beratung, WebLUPO, bis Ende EF und Leistungsdaten 
-   **Modul Planung der EF** Tag 2 - Blockung und Leistungsdaten
-
-Es gibt für die GOSt weitere Folgemodule
-
-2. **Modul Q-Phase und Abitur** Tag 1 - Q-Phase und Abitur
-3. **Modul Sek II-Koordination** Tag 1 - Klausurplanung, Abiturplanung, exotischere Sonderfälle, **Praxiscafé**
-
-Eventuell könnten Sie auch diese Module interessieren:
-
-+ Fortbildung zu Reports
-+ Basisschulung SchildNRW
-
-## Evaluation
-
-Am Ende der Veranstaltung findet eine Evaluation statt.
-
-Die Teilnahmebescheinigungen werden zeitnah automatisch generiert und verschickt.
-
-## Vorstellen des Supportkonzepts
+## Das Supportkonzept
 
 1. Fortbildungen    [lfb.nrw-bra.de/](https://lfb.nrw.de/bra/20426)
 2. SchILD-NRW-3-Wiki    https://schulverwaltungsinfos.nrw.de/svws/wiki/

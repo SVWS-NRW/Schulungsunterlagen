@@ -1,7 +1,7 @@
 # Kapitel 2.1 Orientierung in SchILD-NRW-3 und SVWS-Client
 
->[!TIP] Orientieren in SchILD und dem SVWS-Webclient
-> In diesem Kapitel orientieren wir uns im Webclient und in SchILD und schauen uns an, wie Leistungsdaten und Kurse im jeweiligen Programm erfasst werden.
+>[!TIP] Orientieren in SchILD und dem SVWS-Client
+> In diesem Kapitel orientieren wir uns im SVWS-Client und in SchILD und schauen uns an, wie Leistungsdaten und Kurse im jeweiligen Programm erfasst werden.
 > Ziel dieser Fortbildung ist, dass alle Daten hier korrekt befüllt sind, um dann am Ende auch den Reiter *Abitur* in SchILD-NRW für die Durchführung des Abiturs nutzen zu können.
 
 **Aufgaben 2.1.1 "SchILD-Leistungsdaten"**: Gehen Sie in die Leistungsdaten eines Schülers (m/w/d) in der Q2
@@ -12,9 +12,9 @@
 
 **Aufgaben 2.1.3 "SchILD Gruppenprozesse":** Wählen Sie über den Filter die Q2 exclusiv an und schauen Sie, welche Gruppenprozesse nun zur Verfügung stehen. Erklären Sie, wie anhang dieser Gruppenprozesse das Abitur verläuft.
 
-**Aufgaben 2.1.4 "SVWS-Webclient: Leistungsdaten"**: Melden Sie sich im Webclient und gehen Sie bei Schülern in den aktuellen Lernabschnitt und orientieren Sie sich, wie Leistungsdaten hier erfasst werden.
+**Aufgaben 2.1.4 "SVWS-Client: Leistungsdaten"**: Melden Sie sich im SVWS-Client und gehen Sie bei Schülern in den aktuellen Lernabschnitt und orientieren Sie sich, wie Leistungsdaten hier erfasst werden.
 
-**Aufgaben 2.1.5 "SVWS-Webclient: Katalog Kurse"**: Wechseln Sie in die *App Kurse* und orientieren Sie sich, wie Kurse erfasst werden. Testen Sie die verschiedenen Filtermöglichkeiten (z.B. Nur die Fächer Physik und Chemie in der EF) Stellen Sie Ihre Fragen im Plenum.
+**Aufgaben 2.1.5 "SVWS-Client: Katalog Kurse"**: Wechseln Sie in die *App Kurse* und orientieren Sie sich, wie Kurse erfasst werden. Testen Sie die verschiedenen Filtermöglichkeiten (z.B. Nur die Fächer Physik und Chemie in der EF) Stellen Sie Ihre Fragen im Plenum.
 
 **Aufgaben 2.1.6 "App Oberstufe"**: Orientieren Sie sich in der App *Oberstufe*
 + Gehen Sie in die App Oberstufe.
