@@ -118,16 +118,16 @@ export default defineConfig(({ mode }) => {
 											"link": "/schulungsmodule/GS/Basisschulung-GS/5. Schüler_GS",
 										},
 										{
-											"text": "6. Auswahl",
-											"link": "/schulungsmodule/GS/Basisschulung-GS/6. Auswahl_GS",
+											"text": "6. Kataloge",
+											"link": "/schulungsmodule/GS/Basisschulung-GS/6. Kataloge_GS",
 										},
 										{
-											"text": "7. Gruppenprozesse",
-											"link": "/schulungsmodule/GS/Basisschulung-GS/7. Gruppenprozesse_GS",
+											"text": "7. Auswahl",
+											"link": "/schulungsmodule/GS/Basisschulung-GS/7. Auswahl_GS",
 										},
 										{
-											"text": "8. Kataloge",
-											"link": "/schulungsmodule/GS/Basisschulung-GS/8. Kataloge_GS",
+											"text": "8. Gruppenprozesse",
+											"link": "/schulungsmodule/GS/Basisschulung-GS/8. Gruppenprozesse_GS",
 										},
 										{
 											"text": "9. Reportverwaltung",
