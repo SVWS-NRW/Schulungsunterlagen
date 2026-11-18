@@ -276,6 +276,68 @@ export default defineConfig(({ mode }) => {
 							"text": "BK",
 							"collapsed": true,
 							"link": "/schulungsmodule/BK",
+							"items": [
+								{
+									"text": "1 Unterrichtsfächer",
+									"link": "/schulungsmodule/BK/01_Unterrichtsfaecher",
+								},
+								{
+									"text": "2 Stundentafeln",
+									"link": "/schulungsmodule/BK/02_Stundentafeln",
+								},
+								{
+									"text": "3 Kursverwaltung",
+									"link": "/schulungsmodule/BK/03_Kursverwaltung",
+								},
+								{
+									"text": "4 Unterricht manuell bearbeiten",
+									"link": "/schulungsmodule/BK/04_Unterricht_bearbeiten",
+								},
+								{
+									"text": "5 Unterricht importieren",
+									"link": "/schulungsmodule/BK/05_Unterricht_importieren",
+								},
+								{
+									"text": "6 Gruppenprozesse: Fächer",
+									"link": "/schulungsmodule/BK/06_Gruppenprozesse_Faecher",
+								},
+								{
+									"text": "7 Noten und Zeugnisvorbereitungen",
+									"link": "/schulungsmodule/BK/07_Noten-Zeugnisvorbereitungen",
+								},
+								{
+									"text": "8 Zeugnisformulare",
+									"link": "/schulungsmodule/BK/08_Zeugnisformulare",
+								},
+								{
+									"text": "9 Halbjahreswechsel",
+									"link": "/schulungsmodule/BK/09_Halbjahreswechsel",
+								},
+								{
+									"text": "10 Mahnungen",
+									"link": "/schulungsmodule/BK/10_Mahnungen",
+								},
+								{
+									"text": "11 Dezentrale Prüfungen",
+									"link": "/schulungsmodule/BK/11_Dezentrale_Pruefungen",
+								},
+								{
+									"text": "12 Zeugnisphase und Abschlussberechnungen",
+									"link": "/schulungsmodule/BK/12_Abschlussberechnungen",
+								},
+								{
+									"text": "13 Konferenzvorbereitung",
+									"link": "/schulungsmodule/BK/13_Konferenzvorbereitung",
+								},
+								{
+									"text": "14 Zeugnisdruck",
+									"link": "/schulungsmodule/BK/14_Zeugnisdruck",
+								},
+								{
+									"text": "15 Versetzung/Übertragung",
+									"link": "/schulungsmodule/BK/15_Hochschulung",
+								},
+							],
 						},
 						{
 							"text": "Gym. Oberstufe",
