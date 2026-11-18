@@ -35,7 +35,6 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 TESTDB_SQLITE="https://github.com/SVWS-NRW/SVWS-TestMDBs/raw/refs/heads/main/GOST_Abitur/Abi-Test-Daten-04/Gym_22_23_1.sqlite"
 
 
-
 usage() {
     echo "Benutzung: $0 -o <FOLDER> -v <SVWSVERSION> [-p <PASSWORD>] [-dn <FQDN>] [-pt <PORTNUMBER>]"
     echo "  -o  Ordnerpfad (Pflichtangabe)"
@@ -131,6 +130,7 @@ fi
 mkdir -p "$FOLDER/volume/mariadb"
 mkdir -p "$FOLDER/volume/mariadb/conf.d"
 mkdir -p "$FOLDER/volume/svws"
+mkdir -p "$FOLDER/volume/apps"
 mkdir -p "$FOLDER/volume/nginx"
 mkdir -p "$FOLDER/volume/samba"
 mkdir -p "$FOLDER/volume/samba/storage"
@@ -141,6 +141,10 @@ mkdir -p "$FOLDER/volume/samba/storage/schild2"
 # Berechtigungen sicherstellen, damit MariaDB schreiben darf
 chmod -R 777 "$FOLDER/volume"
 
+# Apps runterladen: 
+wget https://github.com/SVWS-NRW/SVWS-Tools/releases/download/v${SVWSVERSION}/svws-tools-${SVWSVERSION}.zip
+unzip svws-tools-${SVWSVERSION}.zip
+rm svws-tools-${SVWSVERSION}.zip 
 
 # Schild 3 runterladen und entpacken: 
 cd "$FOLDER/volume/samba/storage/schild3/"
@@ -224,8 +228,6 @@ EOF
 
 
 cd "$FOLDER" && docker compose up -d
-
-
 
 ## WeNom unter apache auf Port 443
 
@@ -349,6 +351,7 @@ curl -k --request GET --url "https://localhost/api/setup" --header "Content-Type
 echo -e "\n\nDas Secret für die Synchronisation mit dem SVWS-Server ist:\n"
 if [ -f "${INSTALLPATH}/db/client.sec" ]; then
     cat ${INSTALLPATH}/db/client.sec
+    # Secret für weitere Nutzung in Variable speichern
     SECRET=$(<"${INSTALLPATH}/db/client.sec")
 else
     echo "Fehler: client.sec wurde nicht erstellt."
@@ -365,95 +368,19 @@ cd /var/www/html/weblupo
 wget -N https://github.com/SVWS-NRW/SVWS-Server/releases/download/v${SVWSVERSION}/SVWS-Laufbahnplanung-${SVWSVERSION}.zip
 unzip -o *.zip
 
-# svws-tools einrichten
-
-## SVWS-Conferenz
-
-cd $SCRIPT_DIR
-
-git clone https://github.com/SVWS-NRW/SVWS-Conference/
-cd SVWS-Conference
-
-npm i
-npm run build
-
-mkdir -p /var/www/html/conference
-cp -r dist/* /var/www/html/conference/
-
-
-cd $SCRIPT_DIR
-
-## svws-Main-Server
-
-git clone https://github.com/FPfotenhauer/SVWS-Main-Server
-cd SVWS-Main-Server
-cp .env.example .env
-sed -i "s/^SVWS_HOST=.*/SVWS_HOST=${SERVER_IP}/" .env
-
-docker compose up --build -d
-
-
-cd $SCRIPT_DIR
-
-## SVWS-Media
-
-git clone https://github.com/FPfotenhauer/SVWS-Media
-cd SVWS-Media
-docker compose up -d
-
-## SVWS-Gradehub
-
-git clone https://github.com/FPfotenhauer/SVWS-GradeHub
-cd SVWS-GradeHub
-
-npm u 
-npm i
-npm run build:web
-cp .env.example .env
-sed -i 's/ADMINTOOL_VISIBLE=false/ADMINTOOL_VISIBLE=true/' .env
-mkdir -p /var/www/html/gradehub
-cp -r dist/* /var/www/html/gradehub/
-
-cd $SCRIPT_DIR
-
-## SVWS-Import
-
-git clone https://github.com/SVWS-NRW/SVWS-Import
-cd SVWS-Import
-
-npm u
-npm i 
-npm run build
-mkdir -p /var/www/html/import
-cp -r dist/* /var/www/html/import/
-
-
-cd $SCRIPT_DIR
-
-## SVWS-Prognos
-
-git clone https://github.com/SVWS-NRW/SVWS-Prognos
-cd SVWS-Prognos
-
-npm u
-npm i 
-npm run build
-mkdir -p /var/www/html/prognos
-cp -r dist/* /var/www/html/prognos/
-
-
-cd $SCRIPT_DIR
-
-## Übersichtsseite auf nginx einrichten 
+# Übersichtsseite auf nginx einrichten 
 
 apt install nginx -y
 rm /var/www/html/index.nginx-debian.html
+
 ## css download
 wget -N -P /var/www/html/ https://www.w3schools.com/w3css/5/w3.css
+
 ## nrw Bürgerwappen
 wget -N -P /var/www/html/ https://www.land.nrw/media/12370/download
 mv /var/www/html/download /var/www/html/logo_nrw.jpg
 
+## Wilkommen-Seite erstellen
 cat <<EOF > "/var/www/html/index.html"
 <!DOCTYPE html>
 <html lang="de">
@@ -486,7 +413,7 @@ cat <<EOF > "/var/www/html/index.html"
     
     <section>
 
-        <h3>SVWS-Server, WeNoM und WebLupo Test-Instanzen</h3>
+        <h3>SVWS-Server, SVWS-WeNoM, SVWS-WebLupo, SVWS-Tools Test-Instanzen</h3>
         <table class="w3-table w3-bordered w3-hoverable">
             <thead>
                 <tr class="w3-light-grey">
@@ -505,7 +432,7 @@ cat <<EOF > "/var/www/html/index.html"
             <tr>
                 <td>SchILD-NRW 3</td>
 		        <td><a href="https://github.com/SVWS-NRW/Schild-NRW-3/releases">v${SCHILDVERSION}</a></td>
-               	<td>via Windows (samba) Dateifreigabe</td>
+               	<td>via Windows (samba) Dateifreigabe: Im Explorer unter //${SERVER_IP} zu finden</td>
             </tr>
 
             <tr>
