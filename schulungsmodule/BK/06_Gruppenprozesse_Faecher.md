@@ -1,14 +1,20 @@
-# 6 Gruppenprozesse: Fächer
+# 6 Gruppenprozesse für Leistungsdaten
 
-## 6.1 [Kurse Schülern zuweisen](https://schild3.svws-nrw.de/schild3/suchen-gruppenprozesse/kurse-zuweisen-gruppenprozesse-faecher.html)
+Viele vorherige Vorbereitungen können nun mithilfe von Gruppenprozessen den SchülerInnen zugewiesen können. 
+
+*Präsentation: Gruppenprozesse --> Fächer / Teilleistungen / Noten- Zeugnisvorbereitungen*
+
+## 6.1 [Gruppenprozesse --> Fächer]
 
 **Aufgabe 1**
-Weisen Sie den neu erstellten Photoshop Kurs aus Abschnitt 3.1. jeweils 2 Schüler des Jahrgangs 12 und 13 des BGy zu (Gruppenprozesse -> Fächer -> Kurse zuweisen).
+Probieren Sie drei Gruppenprozesse unter **Fächer** aus, wobei Sie zuvor eine beliebige Klasse filtern und schauen Sie in der Schüler Ansicht im aktuellen Halbjahr, was sich verändert hat.
 
-## 6.2 [Details zu Fächern ändern (Epochenunterricht; Teamteaching)](https://schild3.svws-nrw.de/schild3/suchen-gruppenprozesse/details-zu-faechern-bei-schuelern-aendern-gruppenprozesse-faecher.html)
+## 6.2 [Gruppenprozesse --> Teilleistungen]
 
 **Aufgabe 1**
-Filtern Sie die Klasse BFE1 aus und legen Sie für alle Lernenden eine andere Lehrkraft im Fach Sport fest.
-Kontrollieren Sie in den Leistungsdaten, ob alle Schüler beim Fach GP2 ein entsprechendes Häkchen haben, sodass das Fach auf das Zeugnis kommt mitsamt Note.
-**Aufgabe 2**
-Filtern Sie die Klasse BFZ1 aus und legen Sie über den gleichen Gruppenprozess für alle Schüler eine zweite Lehrkraft (Team-Teaching) für das Fach Sport (1 WStd.) fest.
+Filtern Sie eine Klasse z.B. G11.1 und geben Sie im Fach Deutsch eine Teilleistung für die 2. Klausur ein.
+
+
+## 6.3 [Gruppenprozesse --> Noten/Zeugnisvorbereitung]
+
+**Aufgabe 1** Setzen Sie ein passendes Konferenzdatum für alle Schüler der Schule.
