@@ -1,4 +1,4 @@
-# 4 Unterricht manuell bearbeiten
+# 4 [Unterricht manuell bearbeiten / Fächer und Kurse einer Schülergruppe zuweisen](https://schild3.svws-nrw.de/schild3/faecher-kurse.html)
 
 Übernehmen Sie vorbereitete Stundentafeln in die Leistungsdaten der ausgewählten Schülergruppe. Prüfen Sie Fächerauswahl und die unterschiedlichen Optionen zum Ergänzen oder Löschen. Lesen Sie auch gerne die Hinweise zum Ergänzen und Löschen im Wiki.
 
