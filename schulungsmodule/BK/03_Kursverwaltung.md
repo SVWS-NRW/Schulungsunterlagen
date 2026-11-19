@@ -15,4 +15,4 @@ TIPP: Klicken Sie auf diesen Kurs mit der rechten Maustaste.
 **Aufgabe 3**
 Verändern Sie die Fortschreibungsart bei einem beliebigen Religionskurs so, wie Sie es an Ihrer Schule halten würden.
 
-## 3.2 [Kursunterricht zuweisen](https://schild3.svws-nrw.de/schild3/suchen-gruppenprozesse/kurse-zuweisen-gruppenprozesse-faecher.html)
+
