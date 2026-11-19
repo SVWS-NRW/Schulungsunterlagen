@@ -1,10 +1,12 @@
 # 3 [Kursverwaltung](https://schild3.svws-nrw.de/schild3/unterricht-kataloge/kurse-schulbezogene-kataloge.html)
 
+Über die Kursverwaltung "Kataloge" ➜ "Kurse" können die Kurse der Schule eingerichtet werden. Diese werden notwendig, wenn der Unterricht nicht (mehr) im Klassenverband stattfindet.
+Die Fortschreibungsart bestimmt, wie bei der Versetzung mit dem Kurs umgegangen wird - dies ist sehr wichtig am BK.
+
 ## 3.1 [Kursunterricht anlegen](https://schild3.svws-nrw.de/schild3/unterricht-kataloge/kursunterrichte-anlegen-tutorial.html)
 
 **Aufgabe 1**
-Legen Sie über Kataloge -> Kurse einen jahrgangsstufenübergreifenden zweistündigen Differenzierungskurs Photoshop für das Berufliche Gymnasium an
-und bestimmen Sie einen Kursleiter.
+Legen Sie über Kataloge -> Kurse einen jahrgangsstufenübergreifenden zweistündigen Differenzierungskurs Photoshop für das Berufliche Gymnasium an und bestimmen Sie einen Kursleiter.
 
 **Aufgabe 2**
 Verändern Sie den Kurs DDAF so, dass er nun nicht mehr nur die Stufe 11, sondern nur noch jahrgangsstufenübergreifend für Stufe 12 und 13 angeboten wird. Weisen Sie dem Kurs eine beliebige Lehrkraft noch eine weitere zu.
@@ -14,4 +16,4 @@ TIPP: Klicken Sie auf diesen Kurs mit der rechten Maustaste.
 
 **Aufgabe 1** 
 Prüfen Sie, ob bei den schülerspezifischen Kursarten, die Art steht, die Sie an Ihrer Schule nutzen in der Berufsschule oder in einer anderen Anlage am häufigsten nutzen.
-Unterricht
+
