@@ -16,4 +16,4 @@ Gruppenprozesse – Fächer – Klassenunterrichte bearbeiten
 **Aufgabe 1**
 Filtern Sie eine Klasse der höheren Handelsschule (z.B. HO1) und verändern Sie eine Lehrkraft.
 
-Die weiteren Reiter unter Fächer und Kurse zuweisen auf Wiki3 sind sehr hilfreich und können von Ihnen nun durchstöbert werden.
+*Die weiteren Reiter unter **Fächer und Kurse zuweisen** auf Wiki3 sind sehr hilfreich und können von Ihnen nun durchstöbert werden.*
