@@ -1,7 +1,9 @@
 # 1  [Unterrichtsfächer](https://schild3.svws-nrw.de/schild3/unterricht-kataloge/unterrichtsfaecher-schulbezogene-kataloge.html)
 
-Unter "Schulbezogenene Kataloge" ➜ "Unterrichtsfächer" findet sich eine Liste aller Unterrichtsfächer. Wie immer in SchILD sind per "*" gekennzeichnete Felder bei den Details eines Fachs statistikrelevant und müssen mit Sorgfalt befüllt werden.
+Unter "Schulbezogenene Kataloge" ➜ "Fächer" findet sich eine Liste aller Unterrichtsfächer. Wie immer in SchILD sind per "*" gekennzeichnete Felder bei den Details eines Fachs statistikrelevant und müssen mit Sorgfalt befüllt werden.
 Unter "Teilleistungsarten" können schon in SchILD hinterlegte Teilleistungen einem Fach zugeordnet bzw. per Gruppenprozess auf alle Lernenden angewendet werden. Wenn Teilleistungen in Schild3 eingerichtet sind, können Tools wie WeNoM oder GrateHub die Eingabe der Leistungen ermöglichen.
+
+***Präsentation**: Schulbezogenene Kataloge -> Fächer, Details, Sonstige Einstellungen, Teilleistungsarten, Gliederungsbezogene Einstellungen*
 
 **Aufgabe 1**
 Ändern Sie die Sichtbarkeit für fünf Fächer, die an Ihrer Schule nicht unterrichtet werden und blenden Sie sie aus.
