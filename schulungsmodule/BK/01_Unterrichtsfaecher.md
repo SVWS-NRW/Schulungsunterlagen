@@ -33,6 +33,6 @@ Belegen Sie die Fächergruppe "Berufsbezogen" mit der Farbe grün.
 Bei den Kaufleuten im Einzelhandel = 1
 Bei den Verkäufer:innen = 2
 
-## 1.3 [Teilleistungen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Unterrichtsf%C3%A4cher_(Schulbezogene_Kataloge)#Teilleistungen)
+## 1.3 [Teilleistungen](https://schild3.svws-nrw.de/schild3/unterricht-kataloge/unterrichtsfaecher-schulbezogene-kataloge.html#teilleistungen)
 
 **Aufgabe 1** Prüfen Sie in einer beliebigen Klasse im aktuellen Halbjahr in der Auflistung der Fächer, ob Teilleistungen bereits hinterlegt sind und ob bereits eine Note eingetragen ist. Falls nicht, tragen Sie eine Klausurnote ein.
