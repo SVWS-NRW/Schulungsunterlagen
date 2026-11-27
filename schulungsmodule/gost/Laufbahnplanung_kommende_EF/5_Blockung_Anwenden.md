@@ -9,7 +9,7 @@
 + Jetzt liegt ein Schuljahreswechsel an, damit die beratenen 10er auch zur neuen EF werden.
 + Die konkreten Kurse werden in die Leistungsdaten der Schüler übertragen, dann können Noten eingesammelt und schließlich Zeugnisse gedruckt werden.
 
-**Aufgaben 1.5.1 "Konkrete Blockung übertragen"**  
+**Aufgaben 5.1 "Konkrete Blockung übertragen"**  
 Gehen Sie in den korrekten Lernabschnitt (1. HJ neues Schuljahr), wählen Sie eine ID in der Blockung und klicken Sie dann auf *übertragen*, um die Blockung in den Leistungsdaten der Schüler im aktuellen Lernabschnitt einzutragen.
 
 :information_source: [Infos zum Übertragen der Blockung in Leistungsdaten](https://doku.svws-nrw.de/svws-client/apps/gost/kursplanung/#ubertragung-in-leistungsdaten)  
@@ -22,7 +22,7 @@ Gehen Sie in den korrekten Lernabschnitt (1. HJ neues Schuljahr), wählen Sie ei
 > + SchILD-NRW lädt den Katalog "Kurse" beim Start. Haben Sie SchILD-NRW offen, muss dieses nach dem "Übertragen" aus dem SVWS-Client einmal neu gestartet werden.
 > + Es empfiehlt sich, dass die BLOCKUNG immer die Grundlage für alle Änderungen ist. Denn: Ändere ich die Blockung und übertrage/synchronisiere, sind die Kataloge aktuell. Daher: Kursänderungen, Schüleränderungen kann man gut über die Blockung durchführen. Ändere ich die Kurse nach dem Übertragen, wird die ID in der Blockung NICHT mehr aktualisiert. Aber wie immer gilt: Was in der Praxis in der konkreten Schule funktioniert - ist der Goldene Weg.
 
-**Aufgaben 1.5.2 "Lehrkräfte eintragen"**  
+**Aufgaben 5.2 "Lehrkräfte eintragen"**  
 Lehrkräfte können über zwei Wege eingetragen werden.
 
 + Tragen Sie Lehrkräfte (Deutsch) direkt in der Blockung ein und Übertragen/Synchronisieren Sie diese. Vorteil: Sie können die komplette Blockung einfach neu wieder übertragen.

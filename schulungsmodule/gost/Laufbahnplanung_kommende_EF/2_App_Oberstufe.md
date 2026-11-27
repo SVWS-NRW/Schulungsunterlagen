@@ -10,7 +10,7 @@ Die nachfolgenden Aufgaben beziehen sich überwiegend auf die App Oberstufe im S
 Die Tabs Fächer und Beratung sollen gemäß den Vorgaben Ihrer Schule angepasst werden.
 Alternativ finden Sie in jeder Aufgabe auch Beispielvorgaben, die Sie nutzen können.
 
-**Aufgabe 2.1.1 "Fächer der Oberstufe kontrollieren und korrigieren"**
+**Aufgabe 2.1 "Fächer der Oberstufe kontrollieren und korrigieren"**
 
 1. Sichten Sie alle Fächer der Oberstufe in der allgemeinen Vorlage.
 2. Kontrollieren Sie insbesondere die Sprachenfächer: Wenn es F6 nicht mehr gibt, muss hier z.B. F7 stehen (Merkmal: Fach der Oberstufe).
@@ -24,7 +24,7 @@ Alternativ finden Sie in jeder Aufgabe auch Beispielvorgaben, die Sie nutzen kö
 
 :information_source: [Infos zur Fächerangabe](https://doku.svws-nrw.de/svws-client/apps/gost/faecher/#angebotene-facher)
 
-**Aufgaben 2.2.2 "Geforderte Kombinationen"**  
+**Aufgaben 2.2 "Geforderte Kombinationen"**  
 Um später eine gute Blockung für die Abiturjahrgänge zu gewährleisten, ist es hilfreich, bestimmte Fächerkombinationen bereits im Vorfeld festzulegen. Zudem können über fest definierte Fächerkombinationen fachliche Voraussetzungen für die Lernenden geschaffen werden.
 
 Sie können nun die geforderten Kombinationen, die an Ihrer Schule festgesetzt sind in die allgemeine Vorlage einpflegen. Alternativ können Sie folgende geforderten Kombinationen festlegen:
@@ -35,7 +35,7 @@ Sie können nun die geforderten Kombinationen, die an Ihrer Schule festgesetzt s
 
 :information_source: [Infos zu geforderten Fächerkombinationen.](https://doku.svws-nrw.de/svws-client/apps/gost/faecher/#geforderte-kombinationen)
 
-**Aufgaben 2.2.3 "Unzulässige Kombinationen"**  
+**Aufgaben 2.3 "Unzulässige Kombinationen"**  
 Bestimmte Fächer können nicht gleichzeitig belegt werden. Die Vorgaben hierzu können sich aus logischen Schlussfolgerungen ergeben oder auch aus Ressourcengründen bzw. vorhersehbaren Blockungsproblemen.  
 
 + Kombinationen müssen nur in einer Richtung verboten werden: Schließt ER KR aus, dann schließt auch automatisch KR ER aus.
@@ -50,13 +50,13 @@ Legen Sie an Ihrer Schule unzulässige Kombinationen in der Allgemeinen Vorlage 
 
 :information_source: [Infos zu unzulässigen Fächerkombinationen.](https://doku.svws-nrw.de/svws-client/apps/gost/faecher/#unzulassige-kombinationen)
 
-**Aufgaben 2.2.4 "Konkreten Jahrgang anlegen"**  
+**Aufgaben 2.4 "Konkreten Jahrgang anlegen"**  
 Legen Sie für die aktuelle Jahrgangsstufe 10 über das "+" Symbol den Abiturjahrgang an.  
 Beachten Sie: Orientieren Sie sich am Abiturjahr, nicht an der Jahrgangsstufe.
 
 :information_source: [Eine Anleitung finden Sie hier](https://doku.svws-nrw.de/svws-client/apps/gost/#abiturjahrgang).
 
-**Aufgaben 2.2.5 "Kontrollieren und Anpassen der aus der Vorlage übernommenen Fächervorgaben"**  
+**Aufgaben 2.5 "Kontrollieren und Anpassen der aus der Vorlage übernommenen Fächervorgaben"**  
 Aufgrund vorübergehender Umstände, wie etwa Lehrerausfälle durch Elternzeit, müssen für diesen Jahrgang einige einmalige Anpassungen vorgenommen werden.
 
 1. Das Fach Kunst (oder irgendein anderes Fach) kann für die kommende EF leider nicht als LK angeboten werden.
@@ -64,14 +64,14 @@ Aufgrund vorübergehender Umstände, wie etwa Lehrerausfälle durch Elternzeit, 
 
 :information_source: [Hinweise zur Eingabe des Beratungslehrers und der Textvorlagen.](https://doku.svws-nrw.de/svws-client/apps/gost/beratung/#beratungslehrer-hinterlegen)
 
-**Aufgaben 2.2.6 "Beratungslehrer und Textvorlagen anpassen"**  
+**Aufgaben 2.6 "Beratungslehrer und Textvorlagen anpassen"**  
 Passen Sie die jahrgangsspezifischen Informationen im *Tab Beratung* an:
 
 1. Tragen Sie die Beratungslehrkraft ein.
 2. Passen Sie das Rücklaufdatum in den Textvorlagen an.
 3. Stellen Sie sicher, dass die Prüfung in der Vorlage auf *Gesamt* steht, da ansonsten bei der Laufbahnprüfung nur die EF.1 geprüft wird und Sie nicht wissen, ob die Wahl eine gültige Laufbahn ergibt.
 
-**Aufgaben 2.2.7 "Laufbahnen sichten"**  
+**Aufgaben 2.7 "Laufbahnen sichten"**  
 Im *Tab Laufbahnen* werden alle Schülerinnen und Schüler aufgelistet, für die der konkrete Abiturjahrgang gültig ist. Da noch keine Wahlen stattgefunden haben, erscheinen an dieser Stelle noch etliche Laufbahnfehler der Schüler.
 
 1. Sichten Sie hier die Schüler der kommenden EF.
