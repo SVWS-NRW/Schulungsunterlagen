@@ -2,9 +2,9 @@
 
 ## Zu diesem Modul
 
-Dieses Modul behinhaltet die Planung einer neuen EF im Halbjahr 10.2 bis hin zum Zeugnisdruck in der EF.2 mit SchILD-NRW3 und hauptsächlich dem SVWS-Client.
+Dieses Modul beinhaltet die Planung einer neuen EF im Halbjahr 10.2 bis hin zum Zeugnisdruck in der EF.2 mit SchILD-NRW3 und hauptsächlich dem SVWS-Client.
 
-Dies ist keine (rechtliche) APO-GOSt-Schulung zur Laufbahnberatung, sondern zur technischen Durchführung. Dennoch werden exemplarisch Laufbahnen, Beratungsfälle und Tipps behandelt. Eindeutige grammatikalsche Geschlechtsbezeichnungen meinen immer m/w/d/etc.
+Dies ist keine (rechtliche) APO-GOSt-Schulung zur Laufbahnberatung, sondern zur technischen Durchführung. Dennoch werden exemplarisch Laufbahnen, Beratungsfälle und Tipps behandelt. Eindeutige grammatikalische Geschlechtsbezeichnungen meinen immer m/w/d/etc.
 
 Dieses Modul ist auf zwei Tage ausgelegt.
 
@@ -23,7 +23,7 @@ Die Fortbildungsmodule finden sich hier: https://svws-nrw.github.io/Schulungsunt
 + Hierzu werden die Grundlagen am Tag 1 Anhand von Aufgaben besprochen, am Tag 2 folgen Spezialaufgaben zur Vertiefung, Übung und Erweiterung
 
 >[!TIP] Mehrere Fenster im SVWS-Client sollten nicht geöffnet werden.
-> Da sich Browserfenster nicht automatisch aktualisieren, können Fenster mit veralteten Informationen bei eventueller Dateneingabe und -änderung zu Problemem führen.
+> Da sich Browserfenster nicht automatisch aktualisieren, können Fenster mit veralteten Informationen bei eventueller Dateneingabe und -änderung zu Problemen führen.
 
 ## Das Supportkonzept
 

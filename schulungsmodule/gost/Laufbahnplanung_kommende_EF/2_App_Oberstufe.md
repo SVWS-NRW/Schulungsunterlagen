@@ -1,6 +1,6 @@
 # 2. Vorbereitung in der App Oberstufe
 
-Im folgenden wird eine **Allgemeine Vorlage** in der App Oberstufe erstellt. Anschließend folgt das Anlegen eines **konkreten Abiturjahrgangs**, und zwar des Abiturjahrgangs für die kommende EF.
+Im Folgenden wird eine **Allgemeine Vorlage** in der App Oberstufe erstellt. Anschließend folgt das Anlegen eines **konkreten Abiturjahrgangs**, und zwar des Abiturjahrgangs für die kommende EF.
 
 In der allgemeinen Vorlage werden zunächst Standard-Einstellungen gesetzt, die in der Regel in allen konkreten Abiturjahrgängen gelten. Beispielsweise kann in der allgemeinen Vorlage festgelegt werden, dass das Fach Chemie grundsätzlich nicht als Leistungskurs gewählt werden kann. Falls ein Chemie-LK für einen spezifischen Abiturjahrgang dennoch angeboten wird, kann dies später separat für diesen Jahrgang angepasst werden.
 
@@ -15,7 +15,7 @@ Alternativ finden Sie in jeder Aufgabe auch Beispielvorgaben, die Sie nutzen kö
 1. Sichten Sie alle Fächer der Oberstufe in der allgemeinen Vorlage.
 2. Kontrollieren Sie insbesondere die Sprachenfächer: Wenn es F6 nicht mehr gibt, muss hier z.B. F7 stehen (Merkmal: Fach der Oberstufe).
 3. Ergänzen Sie im SVWS-Client Niederländisch als neu einsetzende Fremdsprache in der EF.
-4. Kontrollieren Sie die Stündigkeit - insbesondere bei den neu einsetzenden Fremdsprachen und korrigieren Sie diese gegebenfalls.
+4. Kontrollieren Sie die Stündigkeit - insbesondere bei den neu einsetzenden Fremdsprachen und korrigieren Sie diese gegebenenfalls.
 5. Passen Sie die LK-Wahlmöglichkeiten sowie die Wahl der Abiturfächer an. Gemäß den Vorgaben Ihrer Schule oder nach diesen Vorgaben:  
     + Musik soll auch als LK zur Auswahl stehen  
     + Chemie kann nur als Grundkurs gewählt werden
@@ -39,7 +39,7 @@ Sie können nun die geforderten Kombinationen, die an Ihrer Schule festgesetzt s
 Bestimmte Fächer können nicht gleichzeitig belegt werden. Die Vorgaben hierzu können sich aus logischen Schlussfolgerungen ergeben oder auch aus Ressourcengründen bzw. vorhersehbaren Blockungsproblemen.  
 
 + Kombinationen müssen nur in einer Richtung verboten werden: Schließt ER KR aus, dann schließt auch automatisch KR ER aus.
-+ Vorgaben, die aus der APO GoST folgen, müssen hier nicht erneut als Regeln erstellt werden. Erstellen Sie nur so wenige Regeln wie möglich.
++ Vorgaben, die aus der APO GOSt folgen, müssen hier nicht erneut als Regeln erstellt werden. Erstellen Sie nur so wenige Regeln wie möglich.
 
 Legen Sie an Ihrer Schule unzulässige Kombinationen in der Allgemeinen Vorlage fest. Alternativ können Sie folgende sich ausschließende Wahlmöglichkeiten definieren:
 

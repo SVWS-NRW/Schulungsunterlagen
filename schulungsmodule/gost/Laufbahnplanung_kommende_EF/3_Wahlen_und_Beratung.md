@@ -47,7 +47,7 @@ Die Wahlen können nach **WebLuPO** exportiert, dort vorgenommen und wieder zur�
 
 **Aufgaben 3.3.4 "Wahl in WebLuPO"**  
 
-1. Öffnen Sie WebLuPO im Browser (die Internetadresse muss bekannt gegeben werden)
+1. Öffnen Sie WebLuPO im Browser
 2. Öffnen Sie eine der zuvor exportierte lp-Datei über den Button "Datei auswählen".
 3. Führen Sie eine vollständige Fachwahl durch und/oder korrigieren/ergänzen Sie bestehende Wahlen. Testen Sie beispielsweise:
     + *Planung merken*; Erneut Umwählen und anschließend *Planung wiederherstellen*

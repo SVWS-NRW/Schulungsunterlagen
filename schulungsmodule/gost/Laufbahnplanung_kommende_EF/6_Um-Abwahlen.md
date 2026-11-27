@@ -40,7 +40,7 @@ Die Eigenschaft wird automatisch in die Kursplanung übernommen.
 3. In der Kursplanung wird ggf. die Sportkurszuordnung unter "Ungültige Kurszuordnung" gelöscht.
 4. Wie oben beschrieben wird ein Ersatzfach mit Kurszugehörigkeit angelegt.
 
-**Achtung**: Hierbei ist zu beachten,dass einige der Prozesse in SchILD-NRW 3 ausgeführt werden. Schauen Sie daher, was aktuell im SVWS-Client bearbeitet werden kann und für welche Vorgänge noch SchILD gestartet werden muss. 
+**Achtung**: Hierbei ist zu beachten, dass einige der Prozesse in SchILD-NRW 3 ausgeführt werden. Schauen Sie daher, was aktuell im SVWS-Client bearbeitet werden kann und für welche Vorgänge noch SchILD gestartet werden muss. 
 
 ##Abschnittswechsel
 

@@ -37,15 +37,15 @@ Gehen Sie in die Leistungsdaten eines Schülers oder Schülerin der Oberstufe un
 :information_source: [Infos zu den Leistungsdaten im aktuellen Halbjahr](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Leistungsdaten_(Aktuelles_Halbjahr_/_Aktueller_Abschnitt#Erfassung_der_Leistungsdaten))
 
 **Aufgaben 1.1.3 "SchILD Sprachenfolge korrigieren"**  
-Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Sie dem Schüler eine weitere Sprache zu, die in der Sekundarstufe 1 von Jahrgang 6 bis 10 belegt worden sein soll.
+Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Sie dem Schüler eine weitere Sprache zu, die in der Sekundarstufe 1 bis 10 belegt worden sein soll.
 >[!TIP]Kontrollieren Sie, dass Schüler, die an Ihre Schule gewechselt sind, auch eine gültige Sprachenfolge haben.
 
 :information_source: [Infos zu Sprachenfolgen](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Laufbahninfo_(Sch%C3%BCler))
 
 **Aufgaben 1.1.4 "SchILD Fächer der Oberstufe"**  
 
-+ Öffen Sie den Katalog für Fächer und schauen Sie, welche Einstellungen vorgenommen werden können.
-+ Legen Sie Italienisch (I0) als neueinsetzende Fremdsprache als Fach an, markieren Sie diese als *Fach für die Oberstufe* und prüfen Sie, welche Haken noch gesetzt werden müssen.
++ Öffnen Sie den Katalog für Fächer und schauen Sie, welche Einstellungen vorgenommen werden können.
++ Legen Sie eine neueinsetzende Fremdsprache (z.B. I0, C0, R0, ...) als Fach an, markieren Sie diese als *Fach für die Oberstufe* und prüfen Sie, welche Haken noch gesetzt werden müssen.
 + Beachten Sie die Statistikbezeichnungen: Was bedeuten bei den Sprachen die Zahlen hinter dem Fachkürzel (etwa F0, F7)?
 + Stellen Sie ein Fach auf "unsichtbar", was verändert sich und überlegen Sie, wieso man Katalogeinträge auf "unsichtbar" stellen kann. Welche Fehlerquelle liegt in dieser Einstellung?
 
@@ -57,7 +57,7 @@ Finden Sie heraus, wo Sie die Sprachenfolge eines Schülers finden und fügen Si
 + Schauen Sie durch die Klassen- und Versetzungstabelle - welche Einstellungen werden hier vorgenommen?
 + Kontrollieren Sie, ob es eine *EF* gibt, ob diese *sichtbar* ist und ob die Einstellungen für die EF korrekt sind.
 + Kontrollieren Sie, ob die 10er eine Folgeklasse *EF* eingetragen haben (ebenso Q1 als Folgeklasse der EF bzw. Q2 als Folgeklasse der Q1).
-+ Setzen Sie Beratungslehrkräfte für das kommmende Schuljahr ein.
++ Setzen Sie Beratungslehrkräfte für das kommende Schuljahr ein.
 + Beachten Sie: Die Klassen sind - im Gegensatz zu Schild2 - für jeden Abschnitt angelegt. So wird z.B. auch die Sichtbarkeit abschnittsweise gesteuert, ebenso Klassenlehrer: Wählen Sie zur Ansicht vergangene Abschnitte aus.
 
 :information_source: [Infos zum Katalog *Klassen-/Versetzungstabellen*](https://schulverwaltungsinfos.nrw.de/svws/wiki/index.php?title=Klassen-Versetzungstabelle_(Schulbezogene_Kataloge))
